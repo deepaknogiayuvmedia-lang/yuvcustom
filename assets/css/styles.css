@@ -100,13 +100,11 @@ body {
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  mask-image: linear-gradient(
-    var(--mask-direction, to right),
-    hsl(0 0% 0% / 0),
-    hsl(0 0% 0% / 1) 20%,
-    hsl(0 0% 0% / 1) 80%,
-    hsl(0 0% 0% / 0)
-  );
+  mask-image: linear-gradient(var(--mask-direction, to right),
+      hsl(0 0% 0% / 0),
+      hsl(0 0% 0% / 1) 20%,
+      hsl(0 0% 0% / 1) 80%,
+      hsl(0 0% 0% / 0));
 }
 
 .marquee__group {
@@ -284,6 +282,7 @@ body {
   transition: all 0.5s;
   margin-right: 10px;
 }
+
 .action-btn a:hover {
   color: #2b54df;
   background-color: #91bbff;
@@ -293,6 +292,7 @@ body {
   filter: grayscale(1);
   transition: all 0.5s ease-in-out;
 }
+
 .marquee__group:hover img {
   filter: grayscale(0);
 }
@@ -391,9 +391,11 @@ body {
 .servicecard {
   position: relative;
 }
+
 .servicecard .servicebg {
   mix-blend-mode: darken;
 }
+
 .servicecard .serviceHeading {
   position: absolute;
   top: 20px;
@@ -402,6 +404,7 @@ body {
   font-size: 22px;
   width: 70%;
 }
+
 .servicecard .serviceContent {
   position: absolute;
   bottom: 30px;
@@ -410,6 +413,7 @@ body {
   font-size: 14px;
   width: 80%;
 }
+
 .servicecard .serviceIcon {
   position: absolute;
   top: 70px;
@@ -418,6 +422,7 @@ body {
   font-size: 14px;
   width: 50%;
 }
+
 .servicecard .serviceIcon3 {
   position: absolute;
   top: 90px;
@@ -433,6 +438,7 @@ body {
   justify-content: center;
   margin: 10%;
 }
+
 .work .box {
   padding: 30px;
   margin: 2%;
@@ -443,12 +449,14 @@ body {
   border-radius: 3px;
   transition: 0.2s all;
 }
+
 .work .box-wrap:hover .box {
   filter: blur(3px);
   opacity: 0.5;
   transform: scale(0.98);
   box-shadow: none;
 }
+
 .work .box-wrap:hover .box:hover {
   transform: scale(1);
   filter: blur(0px);
@@ -461,6 +469,7 @@ body {
 .industry .owl-carousel.owl-loaded {
   display: block;
 }
+
 .industry .owl-carousel {
   display: none;
   width: 100%;
@@ -472,10 +481,12 @@ body {
   -webkit-tap-highlight-color: transparent;
   position: relative;
 }
+
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
   display: block;
 }
+
 .inds_cat_set {
   display: flex;
   -ms-flex-pack: justify;
@@ -518,6 +529,7 @@ body {
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
+
 .industry .owl-carousel .owl-item {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -526,11 +538,13 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
+
 .industry .owl-carousel,
 .industry .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
 }
+
 .inds_cat_set .can {
   position: relative;
   text-align: center;
@@ -544,6 +558,7 @@ body {
 a {
   text-decoration: none !important;
 }
+
 .inds_cat_set .can span.data_text_lin {
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
@@ -569,16 +584,17 @@ a {
   top: 50px;
   bottom: 50%;
   margin: auto;
-  background: url(https://soumyaitsolution.com/webassets/images/taxi-service/arrow.png)
-    no-repeat center center / auto;
+  background: url(https://soumyaitsolution.com/webassets/images/taxi-service/arrow.png) no-repeat center center / auto;
   filter: grayscale(1);
   opacity: 0.3;
   rotate: 90deg;
 }
-.inds_cat_set .owl-stage:hover .can:hover .box-indus > img {
+
+.inds_cat_set .owl-stage:hover .can:hover .box-indus>img {
   opacity: 1;
   filter: grayscale(0);
 }
+
 .box-ar {
   margin-bottom: 100px;
 }
@@ -601,6 +617,7 @@ a {
   font-weight: 600;
   margin: auto;
 }
+
 .box-indus::before {
   content: "";
   position: absolute;
@@ -615,11 +632,13 @@ a {
   visibility: hidden;
   transition: 0.5s;
 }
+
 .industry .owl-carousel .owl-item img {
   display: block;
   width: 100%;
 }
-.box-indus > img {
+
+.box-indus>img {
   display: inline-block !important;
   vertical-align: middle;
   filter: grayscale(1);
@@ -630,6 +649,7 @@ a {
   padding: 14px;
   object-fit: contain;
 }
+
 .data_text_lin span.name {
   font-size: 16px;
   color: #333;
@@ -638,22 +658,27 @@ a {
   display: block;
   margin-top: 10px;
 }
+
 .inds_cat_set .can span.candidate {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 .inds_cat_set .can span.candidate img {
   margin: 0 auto;
 }
+
 .industry .owl-carousel .owl-item img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .inds_cat_set .owl-stage:hover .can:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+
 .inds_cat_set:hover .can {
   filter: blur(6px) grayscale(1);
   opacity: 0.5;
@@ -661,19 +686,22 @@ a {
   box-shadow: none;
 
 }
-.inds_cat_set:hover .can .data_text_lin{
-    transform: scale(0);
+
+.inds_cat_set:hover .can .data_text_lin {
+  transform: scale(0);
 
 }
+
 .inds_cat_set:hover .can:hover {
   transform: scale(1);
   filter: blur(0px);
   opacity: 1;
   /* box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
 }
+
 .inds_cat_set .can:hover .data_text_lin {
   transform: scale(1);
- 
+
 }
 
 .inds_cat_set .owl-stage:hover .can:hover span.data_text_lin::before {
@@ -691,10 +719,87 @@ a {
   0% {
     top: 150px;
   }
+
   50% {
     top: 180px;
   }
+
   100% {
     top: 150px;
   }
+}
+
+
+
+.slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+
+.vertical-slider {
+  width: 120px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 20px;
+}
+
+.vertical-slide-track {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-vertical 30s linear infinite;
+}
+
+.vertical-slide-track2 {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-down 30s linear infinite;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow:  0px 0px 8px -2px rgb(227, 227, 227);
+  margin: 10px 0;
+  padding: 20px;
+}
+
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.main-vertical-slider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-sectionseamless {
+  padding: 10px 0;
+  background-color: #F5FFFD;
+}
+.heroheadingseamless{
+  color: black;
 }
