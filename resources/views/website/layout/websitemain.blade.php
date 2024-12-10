@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="{{ asset('assets/websiteAssets/images/logo.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('assets/websiteAssets/images/logo.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google font (font-family: 'Josefin Sans', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
 
@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <div class="px-3">
                         <a class="navbar-brand d-flex align-items-center" href="#">
-                            <img src="{{ asset('assets/websiteAssets/images/logo.png')}}" alt="Logo">
+                            <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
                         </a>
                     </div>
                     <div class="px-3">
@@ -84,11 +84,11 @@
             <!-- Footer Widgets Area -->
             <div class="footer-area__widgets section-padding--md bg--dark--light">
                 <div class="container">
-                    
+
                     {{-- <div class="widget-area footer--widgets"> --}}
-                        
-                        <!-- Single Widget -->
-                        {{-- <section class="widget widget-twitter-feed">
+
+                    <!-- Single Widget -->
+                    {{-- <section class="widget widget-twitter-feed">
                             
                             <div class="col-lg-12">
                                 <div class="footer-area__logo text-center">
@@ -99,9 +99,9 @@
                                 </div>
                             </div>
                         </section> --}}
-                        <!--// Single Widget -->
-                        <!-- Single Widget -->
-                        {{-- <section class="widget widget-about d-flex">
+                    <!--// Single Widget -->
+                    <!-- Single Widget -->
+                    {{-- <section class="widget widget-about d-flex">
                             <div>
 
                                 <h5 class="widget-title">ABOUT DBA Consultancy</h5>
@@ -135,10 +135,10 @@
                                 </ul>
                             </div>
                         </section> --}}
-                        <!--// Single Widget -->
+                    <!--// Single Widget -->
 
-                        <!-- Single Widget -->
-                        {{-- <section class="widget widget-quick-links">
+                    <!-- Single Widget -->
+                    {{-- <section class="widget widget-quick-links">
                             <h5 class="widget-title">QUICK LINKS</h5>
                             <ul>
                                 <li>
@@ -156,11 +156,11 @@
                                 </li>
                             </ul>
                         </section> --}}
-                        <!--// Single Widget -->
+                    <!--// Single Widget -->
 
 
-                        <!-- Single Widget -->
-                        {{-- <section class="widget widget-contact-info">
+                    <!-- Single Widget -->
+                    {{-- <section class="widget widget-contact-info">
                             <h5 class="widget-title">Contact Info</h5>
                             <ul>
                                 <li>
@@ -184,7 +184,7 @@
                                 </li>
                             </ul>
                         </section> --}}
-                        <!--// Single Widget -->
+                    <!--// Single Widget -->
 
                     {{-- </div> --}}
                 </div>
@@ -213,12 +213,14 @@
     <!-- //Main wrapper -->
 
     <!-- JS Files -->
-    
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/marqee.js"></script>
+
 </body>
 
 
