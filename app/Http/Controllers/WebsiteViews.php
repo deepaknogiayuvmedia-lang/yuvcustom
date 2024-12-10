@@ -31,4 +31,12 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.privacypolicy');
     }
+    public function whatsappmarketing()
+    {
+        return view('website.Pages.ServicesPages.whatsappmarketing');
+    }
+    public function googlebusinessprofile()
+    {
+        return view('website.Pages.ServicesPages.googlemybusiness');
+    }
 }

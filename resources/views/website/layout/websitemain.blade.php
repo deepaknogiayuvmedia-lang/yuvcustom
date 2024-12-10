@@ -18,6 +18,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/responsive.css') }}">
 
 
 </head>
@@ -192,7 +193,7 @@
             <!--// Footer Widgets Area -->
 
             <!-- Footer Copyright Area -->
-            {{-- <div class="footer-area__copyright bg--dark">
+           <!-- <div class="footer-area__copyright bg--dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -203,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div> -->
             <!--// Footer Copyright Area -->
 
         </footer>
