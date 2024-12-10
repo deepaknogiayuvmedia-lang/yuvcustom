@@ -18,9 +18,8 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/responsive.css') }}">
-
-
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
 </head>
 
 <body>
