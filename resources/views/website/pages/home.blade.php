@@ -127,8 +127,8 @@
     <!--Hero Section Ends-->
 
     <section>
-        <div class="container py-5"">
-            <div class=" row ">
+        <div class="container py-5">
+            <div class="row">
                 <div>
                     <div class=" service-space service-space--small"></div>
                     <div class="service-cards">
@@ -463,9 +463,10 @@
         </div>
     </section>
 
+    {{-- Achieving Goals --}}
     <section>
-        <div class="container py-5 "">
-            <div class=" row">
+        <div class="container py-5 ">
+            <div class="row">
                 <div class=" text-center fs-1 fw-bold">
                     Achieving Goals
                 </div>
@@ -545,8 +546,8 @@
 
     <!-- our work -->
     <section>
-        <div class="container py-5 "">
-            <div class=" row">
+        <div class="container py-5">
+            <div class="row">
                 <div class=" text-center fs-1 fw-bold">
                     Our Work
                 </div>
@@ -803,201 +804,449 @@
                     </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                            class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                    <div class="owl-dots disabled"></div> -->
+                                                                                                                                                                    aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                                                                                                                                                class="owl-next disabled"><span aria-label="Next">›</span></button></div>
+                                                                                                                                                        <div class="owl-dots disabled"></div> -->
                 </div>
 
             </div>
         </div>
     </section>
 
-       <!--Seamless Integration Section Starts-->
-       <section class="hero-sectionseamless py-5">
-        <div class="container py-5">
-            <div class="row align-items-center ">
+
+
+    <!-- core-team -->
+    <section class="core-team py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Core Team
+                </div>
+                <div class=" text-center fs-3 fw-bold">
+                    Empowering every vertical in the country.
+                </div>
+                <p class=" text-center">
+                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
+                    With every conversion and each sale, we strive to set new standards for your business as well as
+                    ourselves.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="core-team" class="owl-carousel">
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Aditya Shankar</div>
+                                                            <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF core-team -->
+
+    {{-- services --}}
+    <section>
+        <div class="container py-5  servicesbox">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Powering every industry. Powering all disruptors.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Nav tabs -->
+                <ul class="nav nav-underline" id="myTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab1" data-bs-target="#tab1"
+                            type="button" role="tab1">Tab 1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab2" data-bs-target="#tab2"
+                            type="button" role="tab2">Tab 2</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab3" data-bs-target="#tab3"
+                            type="button" role="tab3">Tab 3</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane  show active" id="tab1" role="tabpanel">
+                        
+                        <div class="d-flex my-3 justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane " id="tab2" role="tabpanel"><div class="d-flex my-3 justify-content-around">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card
+                                    title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card
+                                    title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card
+                                    title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card
+                                    title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div></div>
+                    <div class="tab-pane " id="tab3" role="tabpanel">
+                        <div class="d-flex my-3 justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Seamless Integration Section Starts-->
+    <section class="hero-sectionseamless p-0">
+        <div class="container">
+            <div class="row align-items-center  ">
                 <div class="col-md-6 hero-content">
                     <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
                         data flow across platforms</h1>
-                        <div class="text-start">
-                            <p>
-                                Seamless integration services ensure smooth data
-                                flow across platforms, enhancing efficiency,
-                                reducing redundancies, and providing real-time
-                                insights for better decision-making.
-                            </p>
-                        </div>
+                    <div class="text-start">
+                        <p>
+                            Seamless integration services ensure smooth data
+                            flow across platforms, enhancing efficiency,
+                            reducing redundancies, and providing real-time
+                            insights for better decision-making.
+                        </p>
+                    </div>
                     <div class="d-flex justify-content-start">
                         <div class="">
-                            <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="mx-5">
                             <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="container mt-4">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="main-vertical-slider">
-                                    <div class="vertical-slider">
-                                        <div class="vertical-slide-track">
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                            </div>
-                                            <!-- Repeat the images for the seamless effect -->
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vertical-slider">
-                                        <div class="vertical-slide-track2">
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                            </div>
-                                            <!-- Repeat the images for the seamless effect -->
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vertical-slider">
-                                        <div class="vertical-slide-track">
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                            </div>
-                                            <!-- Repeat the images for the seamless effect -->
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vertical-slider">
-                                        <div class="vertical-slide-track2">
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                            </div>
-                                            <!-- Repeat the images for the seamless effect -->
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                            </div>
-                                            <div class="slide">
-                                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                            </div>
-                                        </div>
-                                    </div>
+
+                    <div class="main-vertical-slider">
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track2">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track2">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -1005,88 +1254,138 @@
     <!--Seamless Integration Section Ends-->
 
 
+
+
     <!-- TESTIMONIALS -->
-    <section class="testimonials">
-        <div class="container py-5>
-        <div class=" row">
-            <div class=" text-center fs-1 fw-bold">
-                Testimonials
+    <section class="testimonials py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Testimonials
+                </div>
+                <div class=" text-center fs-3 fw-bold">
+                    Exceptional results, happy clients.
+                </div>
             </div>
-            <div class=" text-center fs-3 fw-bold">
-                Exceptional results, happy clients.
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="customers-testimonials" class="owl-carousel">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="customers-testimonials" class="owl-carousel">
 
-                    <!--TESTIMONIAL 1 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <img class="img-circle"
-                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally cultivate.
-                            </p>
+                        <!--TESTIMONIAL 1 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
+                                    solutions.
+                                    Completely
+                                    synergize resource taxing relationships via premier niche markets. Professionally
+                                    cultivate.
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div>
+                                        <div>
+                                            <div class="author">Aditya Shankar</div>
+                                            <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="testimonial-name">EMILIANO AQUILANI</div>
+                        <!--END OF TESTIMONIAL 1 -->
                     </div>
-                    <!--END OF TESTIMONIAL 1 -->
-                    <!--TESTIMONIAL 2 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <img class="img-circle"
-                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally cultivate.
-                            </p>
-                        </div>
-                        <div class="testimonial-name">ANNA ITURBE</div>
-                    </div>
-                    <!--END OF TESTIMONIAL 2 -->
-                    <!--TESTIMONIAL 3 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <img class="img-circle"
-                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally cultivate.
-                            </p>
-                        </div>
-                        <div class="testimonial-name">LARA ATKINSON</div>
-                    </div>
-                    <!--END OF TESTIMONIAL 3 -->
-                    <!--TESTIMONIAL 4 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <img class="img-circle"
-                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally cultivate.
-                            </p>
-                        </div>
-                        <div class="testimonial-name">IAN OWEN</div>
-                    </div>
-                    <!--END OF TESTIMONIAL 4 -->
-                    <!--TESTIMONIAL 5 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <img class="img-circle"
-                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally cultivate.
-                            </p>
-                        </div>
-                        <div class="testimonial-name">MICHAEL TEDDY</div>
-                    </div>
-                    <!--END OF TESTIMONIAL 5 -->
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <!-- END OF TESTIMONIALS -->
+
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="row">
+                <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
+            </div>
+        </div>
+        <div class="container py-5 ">
+
+            <div class="row">
+                <div class="col-md-6" style="z-index: 10">
+                    <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
+
+                        <p class="fs-2 text-white fw-bold">
+                            Get customized solution,
+                            recommendation, and
+                            estimate for your
+                            requirement!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
+                        <div>
+                            Fill Out the form and we will
+                            contact you
+                        </div>
+                        <div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container py-5">
+            footer
+        </div>
+    </section>
+
+
 
 
 
@@ -1133,5 +1432,8 @@
             })
         })
     </script>
+
+    <script></script>
+
 
 @endsection
