@@ -31,204 +31,370 @@
 <body>
 
     <div class="page-content">
-        <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <div class="px-3">
-                        <a class="navbar-brand d-flex align-items-center" href="#">
-                            <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
-                        </a>
+        <div class="container-fluid p-0">
+            <div class="container d-flex justify-content-around">
+
+                <div class="px-3">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
+                    </a>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <div class="px-3">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
+                                                Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Video Production</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Web Development</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Designing
+                                                Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Performance
+                                                Media</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
+                                                Expertise</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Influencer
+                                                Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Google Business
+                                                Profile</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Partners</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="px-3">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Partners</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Career</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="px-3">
-                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="#">Hire Us!</a>
+                </nav>
+                <div class="p-3">
+                    <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="#">Hire Us!</a>
+                </div>
+                <div class="mobile-toggle hideOnDesktop">
+
+                    <a class="text-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        <i class="bi bi-list fs-2"></i>
+                    </a>
+
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
+                                                Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Video
+                                                Production</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Web
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Designing
+                                                Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('homepage') }}">Performance
+                                                Media</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
+                                                Expertise</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Influencer
+                                                Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('contact') }}">Google Business
+                                                Profile</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Partners</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <!--Header Ends-->
+            <!--Header Ends-->
 
 
-        @yield('content')
+            @yield('content')
 
 
-        <!-- Footer Area -->
-        <footer id="footer" class="footer-area fixed--footer">
+            <!-- Footer Area -->
+            <footer id="footer" class="footer-area fixed--footer py-5">
 
-            <!-- Footer Widgets Area -->
-            <div class="footer-area__widgets section-padding--md bg--dark--light">
-                <div class="container">
+                <!-- Footer Widgets Area -->
+                <div class="footer-area__widgets section-padding--md bg--dark--light py-5">
+                    <div class="container">
 
-                    {{-- <div class="widget-area footer--widgets"> --}}
+                        <div class="row widget-area footer--widgets">
 
-                    <!-- Single Widget -->
-                    {{-- <section class="widget widget-twitter-feed">
-                            
-                            <div class="col-lg-12">
-                                <div class="footer-area__logo text-center">
+
+
+                            <!-- Single Widget -->
+                            <section class="col-md-3 widget widget-quick-links">
+                                <h5 class="widget-title">Quick Links</h5>
+                                <ul class="ps-0">
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('about') }}">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Our Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Work</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Career</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('contact') }}">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <!--// Single Widget -->
+
+
+                            <!-- Single Widget -->
+                            <section class="col-md-3 widget widget-quick-links">
+                                <h5 class="widget-title">Quick Links</h5>
+                                <ul class="ps-0">
+                                    <li>
+                                        <a href="{{ route('homepage') }}">SEO</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('about') }}">Social Media</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Whatsapp Marketing</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Video Production</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Web Development</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Designing Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('homepage') }}">Performance Media</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('contact') }}">Marketplace Expertise</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('contact') }}">Influencer Marketing</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('contact') }}">Google Business Profile</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <!--// Single Widget -->
+
+
+                            <!-- Single Widget -->
+                            <section class="col-md-3 widget widget-contact-info">
+                                <h5 class="widget-title">Reach Us
+                                </h5>
+                                <ul class="ps-0">
+                                    <li>
+                                        <a href="callto://+918078671648">+91-8078671648</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto://admin@yuvmedia.com">admin@yuvmedia.com</a>
+                                        <a href="mailto://sales@yuvmedia.com">sales@yuvmedia.com</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <!--// Single Widget -->
+
+                            <!-- Single Widget -->
+                            <div class=" col-md-3 widget widget-about ">
+
+                                <div class=" mt-2">
+                                    <div>
+                                        <h5 class="widget-title">Address</h5>
+                                        <p>B17, Second Floor, Above Royal Bakers, Glitz circle, Ramnagar Road, Ajmer,
+                                            Rajasthan, 305001 </p>
+                                    </div>
+
+                                    <div class="social-icons social-icons--rounded">
+                                        <ul class="d-flex ps-0">
+                                            <li class="facebook me-3">
+                                                <a href="https://www.facebook.com/">
+                                                    <i class="bi bi-facebook fs-4"></i>
+                                                </a>
+                                            </li>
+                                            <li class="twitter me-3">
+                                                <a href="https://twitter.com/">
+                                                    <i class="bi bi-twitter fs-4"></i>
+                                                </a>
+                                            </li>
+                                            <li class="instagram me-3">
+                                                <a href="https://www.instagram.com/">
+                                                    <i class="bi bi-instagram fs-4"></i>
+                                                </a>
+                                            </li>
+                                            <li class="google-plus me-3">
+                                                <a href="https://youtube.com/">
+                                                    <i class="bi bi-youtube fs-4"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--// Single Widget -->
+
+                        </div>
+                    </div>
+                </div>
+                <!--// Footer Widgets Area -->
+
+                <!-- Footer Copyright Area -->
+                <div class="footer-area__copyright bg--dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer-area__logo">
                                     <a href="{{ route('homepage') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="footer logo"
-                                            width="150px">
+                                        <img src="{{ asset('assets/websiteAssets/images/logo.png') }}"
+                                            alt="footer logo">
                                     </a>
                                 </div>
                             </div>
-                        </section> --}}
-                    <!--// Single Widget -->
-                    <!-- Single Widget -->
-                    {{-- <section class="widget widget-about d-flex">
-                            <div>
-
-                                <h5 class="widget-title">ABOUT DBA Consultancy</h5>
-                                <p>DBA Consultancy is your trusted partner for comprehensive tax and legal solutions. With a
-                                    focus on accuracy, reliability, and personalized support, we simplify complex processes
-                                    to ensure your peace of mind. </p>
+                            <div class="col-lg-8">
+                                <div class="copyright text-end">
+                                    Copyright © Yuvnexus digital Pvt. Ltd. All Rights Reserved
                                 </div>
-
-                            <div class="social-icons social-icons--rounded">
-                                <ul>
-                                    <li class="facebook">
-                                        <a href="https://www.facebook.com/">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="https://twitter.com/">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="instagram">
-                                        <a href="https://www.instagram.com/">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li class="google-plus">
-                                        <a href="https://plus.google.com/discover">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section> --}}
-                    <!--// Single Widget -->
-
-                    <!-- Single Widget -->
-                    {{-- <section class="widget widget-quick-links">
-                            <h5 class="widget-title">QUICK LINKS</h5>
-                            <ul>
-                                <li>
-                                    <a href="{{ route('services')}}">Our Services</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('features')}}">Features</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('about')}}">About Us</a>
-                                </li>
-
-                                <li>
-                                    <a href="{{ route('contact')}}">Contact Us</a>
-                                </li>
-                            </ul>
-                        </section> --}}
-                    <!--// Single Widget -->
-
-
-                    <!-- Single Widget -->
-                    {{-- <section class="widget widget-contact-info">
-                            <h5 class="widget-title">Contact Info</h5>
-                            <ul>
-                                <li>
-                                    <p>Ajmer</p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <a href="callto://+00812568987789">+008 12568 987 789</a>
-                                    </p>
-                                    <p>
-                                        <a href="callto://+00835687567458">+008 35687 567 458</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <a href="mailto://info@dbaconsultancy.in">admin@yuvmedia.in</a>
-                                    </p>
-                                    <p>
-                                        <a href="mailto://info@dbaconsultancy.in">www.yuvmedia.in</a>
-                                    </p>
-                                </li>
-                            </ul>
-                        </section> --}}
-                    <!--// Single Widget -->
-
-                    {{-- </div> --}}
-                </div>
-            </div>
-            <!--// Footer Widgets Area -->
-
-            <!-- Footer Copyright Area -->
-            {{-- <div class="footer-area__copyright bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="copyright text-center">
-                                ©COPYRIGHT, ALL RIGHTS RESERVED BY
-                                <a href="#">Yuvmedia</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> --}}
-            <!--// Footer Copyright Area -->
+                <!--// Footer Copyright Area -->
 
-        </footer>
-        <!-- //Footer Area -->
+            </footer>
+            <!-- //Footer Area -->
 
-    </div>
-    <!-- //Main wrapper -->
+        </div>
+        <!-- //Main wrapper -->
 
-    <!-- JS Files -->
+        <!-- JS Files -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
-    <script src="{{ asset('assets/websiteAssets/js/marqee.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
 
 </body>
 

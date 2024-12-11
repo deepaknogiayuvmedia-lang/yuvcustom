@@ -8,57 +8,105 @@
     <!--Hero Section Starts-->
     <section class="hero-section">
         <div class="container">
-            <div class="row ">
-                <div class="col-md-7 hero-content">
-                    <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
-                    <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
-                    <div class="stats-section mt-3 mb-3">
+
+            <div class="row py-5">
+
+                <div class="hero-slider owl-carousel owl-theme">
+                    <div class="item">
                         <div class="row ">
-                            <div class="col-md-12 stat-item">
-                                <div class="text-start">
-                                    <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied Corporates
-                                    </p>
+                            <div class="col-md-7 hero-content">
+                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="d-flex justify-content-start">
+                                    <div class="">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-start">
-                        <div class="">
-                            <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="mx-5">
-                            <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
+                    <div class="item">
+                        <div class="row ">
+                            <div class="col-md-7 hero-content">
+                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <div class="">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 hero-image">
-                    <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
-                </div>
             </div>
-            <div class="row bg-white py-3 mt-3 rounded-4 align-items-center ">
-                <div class="col-md-2">
+
+
+            <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+                <div class=" d-flex align-items-center" style="width: 10%; ">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
                     I'm here to
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="d-flex justify-content-start action-btn">
                         <a href="#">
-                            Accept payment
+                            Design
                         </a>
                         <a href="#">
-                            Accept payment
+                            Social Media Marketing
+
+
                         </a>
                         <a href="#">
-                            Accept payment
+                            Website Development
+
                         </a>
                         <a href="#">
-                            Accept payment
+                            Performance Marketing
+
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 text-end">
+                <div class="col-md-3 text-end">
                     <a href="#" class="text-secondary text-decoration-none">
                         //Find the best service for your business
                     </a>
@@ -66,6 +114,8 @@
 
             </div>
         </div>
+
+
         <div class="container">
             <div class="row col-lg-12">
 
@@ -76,45 +126,39 @@
                         <article class="wrapper">
                             <div class="marquee">
                                 <div class="marquee__group">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
-                                    <img width="250"
-                                        src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                        alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+
 
                                 </div>
                             </div>
@@ -129,48 +173,105 @@
     <section>
         <div class="container py-5">
             <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Our Services
+                </div>
+                <div class="text-center">
+                    <p>
+                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                        and admire.
+                        Our team of experts is always keen on formulating only the right solutions for your business’
+                        everyday digital needs.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
                 <div>
                     <div class=" service-space service-space--small"></div>
                     <div class="service-cards">
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
-                                    <h1 class="service-card__title">Our Services</h1>
+                                    <h1 class="service-card__title">Digital Marketing</h1>
 
                                     <!-- Nav tabs -->
-                                    <ul class="nav nav-underline" id="myTab" role="tablist">
+                                    <ul class="nav nav-underline my-3" id="myTab" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                                data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                                                aria-selected="true">Home</button>
+                                            <button class="nav-link active" id="performance-tab" data-bs-toggle="tab" data-bs-target="#performance-tab-pane" type="button" role="tab" aria-controls="performance-tab-pane" aria-selected="true">Performance Marketing</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                                data-bs-target="#profile" type="button" role="tab"
-                                                aria-controls="profile" aria-selected="false">Profile</button>
+                                            <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo-tab-pane" type="button" role="tab" aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="messages-tab" data-bs-toggle="tab"
-                                                data-bs-target="#messages" type="button" role="tab"
-                                                aria-controls="messages" aria-selected="false">Messages</button>
+                                            <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social-tab-pane" type="button" role="tab" aria-controls="social-tab-pane" aria-selected="false">Social Media</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="settings-tab" data-bs-toggle="tab"
-                                                data-bs-target="#settings" type="button" role="tab"
-                                                aria-controls="settings" aria-selected="false">Settings</button>
+                                            <button class="nav-link" id="online-tab" data-bs-toggle="tab" data-bs-target="#online-tab-pane" type="button" role="tab" aria-controls="online-tab-pane" aria-selected="false">Online Marketing</button>
                                         </li>
                                     </ul>
 
                                     <!-- Tab panes -->
                                     <div class="tab-content">
-                                        <div class="tab-pane active" id="home" role="tabpanel"
-                                            aria-labelledby="home-tab" tabindex="0">
+                                        {{-- performance marketing --}}
+                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel" aria-labelledby="performance-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-around">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Google Ads</h5>
+                                                        <p class="card-text">Drive traffic and conversions with targeted,
+                                                            high-performing Google Ads campaigns.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://d1baueb6wfhxkz.cloudfront.net/5fd054a9a5dfae0128d29b2f/large/1611731070028966.jpeg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Facebook Ads</h5>
+                                                        <p class="card-text">Engage audiences and increase sales with
+                                                            data-driven, targeted Facebook Ads campaigns.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvS6wb_SW5BlgqY_gRpJfbx9X6iKJTMnu6HIjCGpIyYNZEa-ZcwA-MSNnMGKNgOHINnfhhaiBLRj9WpgzO-qusEcz73cY9nzmQCOzq4xC6xd1hOwHjCAedMq4b8CdWYFYDxqvqjlpqP-vPb-4qSa7_ThhjyFMH4JnpxoteMUwKaqh8gJNgyqvq5-tE8ca/s1600/images%20%282%29.png"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">MGID Ads</h5>
+                                                        <p class="card-text">Boost website traffic and revenue with
+                                                            effective, performance-driven MGID Ads campaigns.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://hyperhost.ua/info/storage/uploads/2021/01/shopping%20online.png"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Marketplace Ads</h5>
+                                                        <p class="card-text">Increase product visibility and sales with
+                                                            optimized Marketplace Ads for top platforms.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        {{-- seo --}}
+                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
+                                                        <h5 class="card-title">SEO</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Facebook Ads</h5>
                                                         <p class="card-text">Some quick example text to build on the card
                                                             title
                                                             and make up the bulk of the card's content.</p>
@@ -180,7 +281,7 @@
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
+                                                        <h5 class="card-title">MGID Ads</h5>
                                                         <p class="card-text">Some quick example text to build on the card
                                                             title
                                                             and make up the bulk of the card's content.</p>
@@ -190,17 +291,7 @@
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
+                                                        <h5 class="card-title">Marketplace Ads</h5>
                                                         <p class="card-text">Some quick example text to build on the card
                                                             title
                                                             and make up the bulk of the card's content.</p>
@@ -208,248 +299,256 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="profile" role="tabpanel"
-                                            aria-labelledby="profile-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+
+                                        {{-- social media --}}
+                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel" aria-labelledby="social-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-around">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Google Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Facebook Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">MGID Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Marketplace Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="tab-pane" id="messages" role="tabpanel"
-                                            aria-labelledby="messages-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
-                                        </div>
-                                        <div class="tab-pane" id="settings" role="tabpanel"
-                                            aria-labelledby="settings-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+
+                                        {{-- marketing --}}
+                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel" aria-labelledby="online-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-around">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Google Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Facebook Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">MGID Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Marketplace Ads</h5>
+                                                        <p class="card-text">Some quick example text to build on the card
+                                                            title
+                                                            and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
-                                    <h1 class="service-card__title">Our Services</h1>
+                                    <h1 class="service-card__title">Seller Management</h1>
 
-                                    <!-- Nav tabs -->
-                                    <ul class="nav nav-underline" id="myTab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                                data-bs-target="#home" type="button" role="tab"
-                                                aria-controls="home" aria-selected="true">Home</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                                data-bs-target="#profile" type="button" role="tab"
-                                                aria-controls="profile" aria-selected="false">Profile</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="messages-tab" data-bs-toggle="tab"
-                                                data-bs-target="#messages" type="button" role="tab"
-                                                aria-controls="messages" aria-selected="false">Messages</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="settings-tab" data-bs-toggle="tab"
-                                                data-bs-target="#settings" type="button" role="tab"
-                                                aria-controls="settings" aria-selected="false">Settings</button>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        <div class="tab-pane active" id="home" role="tabpanel"
-                                            aria-labelledby="home-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
+                                    <div class="d-flex my-3 justify-content-around">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="profile" role="tabpanel"
-                                            aria-labelledby="profile-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
-                                        <div class="tab-pane" id="messages" role="tabpanel"
-                                            aria-labelledby="messages-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
-                                        <div class="tab-pane" id="settings" role="tabpanel"
-                                            aria-labelledby="settings-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
                                     <h1 class="service-card__title">Our Services</h1>
 
-                                    <!-- Nav tabs -->
-                                    <ul class="nav nav-underline" id="myTab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                                data-bs-target="#home" type="button" role="tab"
-                                                aria-controls="home" aria-selected="true">Home</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                                data-bs-target="#profile" type="button" role="tab"
-                                                aria-controls="profile" aria-selected="false">Profile</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="messages-tab" data-bs-toggle="tab"
-                                                data-bs-target="#messages" type="button" role="tab"
-                                                aria-controls="messages" aria-selected="false">Messages</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="settings-tab" data-bs-toggle="tab"
-                                                data-bs-target="#settings" type="button" role="tab"
-                                                aria-controls="settings" aria-selected="false">Settings</button>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        <div class="tab-pane active" id="home" role="tabpanel"
-                                            aria-labelledby="home-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
+                                    <div class="d-flex my-3 justify-content-around">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="profile" role="tabpanel"
-                                            aria-labelledby="profile-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
-                                        <div class="tab-pane" id="messages" role="tabpanel"
-                                            aria-labelledby="messages-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
-                                        <div class="tab-pane" id="settings" role="tabpanel"
-                                            aria-labelledby="settings-tab" tabindex="0">
-                                            <p class="service-card__description">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                                                error nam eaque. Eum fuga laborum quos expedita iste saepe
-                                                similique, unde possimus quia at magnam sed cupiditate?
-                                                Reprehenderit, harum!
-                                            </p>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
                                     </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="service-card" data-index="0">
+                            <div class="service-card__inner">
+                                <div class="service-card__content">
+                                    <h1 class="service-card__title">Our Services</h1>
+                                    <div class="d-flex my-3 justify-content-around">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card
+                                                    title
+                                                    and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -804,9 +903,9 @@
                     </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                                                                                                                                                    aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                                                                                                                                                                class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                                                                                                                                                        <div class="owl-dots disabled"></div> -->
+                                                                                                                                                                                                                            aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                                                                                                                                                                                                        class="owl-next disabled"><span aria-label="Next">›</span></button></div>
+                                                                                                                                                                                                                <div class="owl-dots disabled"></div> -->
                 </div>
 
             </div>
@@ -844,14 +943,102 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Aditya Shankar</div>
-                                                            <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -891,6 +1078,7 @@
     {{-- services --}}
     <section>
         <div class="container py-5  servicesbox">
+
             <div class="row">
                 <div class="col-md-6">
                     <h1>Powering every industry. Powering all disruptors.</h1>
@@ -898,150 +1086,128 @@
             </div>
             <div class="row">
                 <!-- Nav tabs -->
-                <ul class="nav nav-underline" id="myTabs" role="tablist">
+                <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab1" data-bs-target="#tab1"
-                            type="button" role="tab1">Tab 1</button>
+                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                            type="button" role="tab">E-Commerce</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab2" data-bs-target="#tab2"
-                            type="button" role="tab2">Tab 2</button>
+                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
+                            type="button" role="tab">Education</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab3" data-bs-target="#tab3"
-                            type="button" role="tab3">Tab 3</button>
+                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3"
+                            type="button" role="tab">Real Estate</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4"
+                            type="button" role="tab">Saas</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5"
+                            type="button" role="tab">Freelance</button>
                     </li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane  show active" id="tab1" role="tabpanel">
-                        
-                        <div class="d-flex my-3 justify-content-around">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
+
+                <div class="tab-content mt-3" id="myTabContent">
+                    <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
+                            <div class="col-md-6"></div>
+
                         </div>
                     </div>
-                    <div class="tab-pane " id="tab2" role="tabpanel"><div class="d-flex my-3 justify-content-around">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card
-                                    title
-                                    and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card
-                                    title
-                                    and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card
-                                    title
-                                    and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card
-                                    title
-                                    and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div></div>
-                    <div class="tab-pane " id="tab3" role="tabpanel">
-                        <div class="d-flex my-3 justify-content-around">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
+                    <div class="tab-pane fade  " id="tab2" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab3" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab4" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card
-                                        title
-                                        and make up the bulk of the card's content.</p>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab5" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
+                            <div class="col-md-6"></div>
+
                         </div>
                     </div>
                 </div>
@@ -1314,7 +1480,7 @@
 
     <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
-            <div class="row">
+            <div class="ms-5 ps-5">
                 <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
             </div>
         </div>
@@ -1379,14 +1545,6 @@
     </section>
 
 
-    <section>
-        <div class="container py-5">
-            footer
-        </div>
-    </section>
-
-
-
 
 
 
@@ -1433,7 +1591,6 @@
         })
     </script>
 
-    <script></script>
 
 
 @endsection

@@ -1,4 +1,11 @@
 
+
+$('.flip').hover(function () {
+    $(this).find('.corecard').toggleClass('flipped');
+
+});
+
+
 //  TESTIMONIALS CAROUSEL HOOK
 $('#customers-testimonials').owlCarousel({
     loop: true,
@@ -24,14 +31,14 @@ $('#customers-testimonials').owlCarousel({
 
 
 $('#core-team').owlCarousel({
-    items: 3, // Number of visible items
+    items: 5, // Number of visible items
     margin: 20, // Space between items
     loop: true, // Infinite looping
     autoplay: true, // Automatic scrolling
     autoplayTimeout: 3000, // Delay between scrolls
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
             items: 2
@@ -43,34 +50,20 @@ $('#core-team').owlCarousel({
 });
 
 
-$('.flip').hover(function () {
-    $(this).find('.corecard').toggleClass('flipped');
+$('.hero-slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
 
-});
-
-
-const tabs = document.querySelectorAll('.nav-link');
-        const tabPanes = document.querySelectorAll('.tab-pane');
-
-        tabs.forEach((tab, index) => {
-            tab.addEventListener('click', (e) => {
-                const activeTab = document.querySelector('.tab-pane.active');
-                const targetPane = document.querySelector(tab.getAttribute('data-bs-target'));
-
-                // Remove active class and apply slide effect
-                tabPanes.forEach((pane) => {
-                    if (pane !== targetPane) pane.classList.remove('previous', 'next', 'active');
-                });
-
-                if (index > [...tabs].indexOf(activeTab)) {
-                    targetPane.classList.add('next');
-                } else {
-                    targetPane.classList.add('previous');
-                }
-
-                setTimeout(() => {
-                    tabPanes.forEach((pane) => pane.classList.remove('next', 'previous'));
-                    targetPane.classList.add('active');
-                }, 50);
-            });
-        });
