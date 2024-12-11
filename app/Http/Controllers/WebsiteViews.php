@@ -39,4 +39,16 @@ class WebsiteViews extends Controller
     {
         return view('website.Pages.ServicesPages.googlemybusiness');
     }
+    public function videoproduction()
+    {
+        return view('website.Pages.ServicesPages.videoproduction');
+    }
+    public function seo()
+    {
+        return view('website.Pages.ServicesPages.seo');
+    }
+    public function webdevelopment()
+    {
+        return view('website.Pages.ServicesPages.webdevelopment');
+    }
 }

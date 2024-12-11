@@ -56,6 +56,125 @@
     text-decoration: underline;
   }
 
+  .videoproheading {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .videoproheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+  }
+
+  .videoprobimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: leftright 3s ease-out infinite alternate;
+    margin-top: 40px;
+  }
+
+  .videoproheadingsecthree {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .videoproheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+  }
+
+  .seoimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: seoleftright 3s ease-out infinite alternate;
+  }
+
+  #seofirstsection {
+    background-image: none !important;
+  }
+
+  .seoheading {
+    font-size: 37px;
+    font-weight: 600 !important;
+    color: var(--website-blue-color);
+  }
+
+  .seoheadingsub {
+    font-weight: 600 !important;
+    font-size: 37px;
+    color: black;
+  }
+
+  .seoheadingsectiontwo {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: var(--whatsapp-color);
+  }
+
+  .seoheadingsubsectiontwo {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: black;
+  }
+
+  .seoheadingsecthree {
+    font-size: 37px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .seoheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 37px;
+    color: var(--website-blue-color);
+  }
+
+  .webheadingsectiontwo {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: var(--website-blue-color);
+  }
+
+  .webheadingsubsectiontwo {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: black;
+  }
+
+  .webimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: webimageleftright 3s ease-out infinite alternate;
+    margin-top: 40px;
+  }
+
+  .webheading {
+    font-size: 32px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .webheadingsub {
+    font-weight: 600 !important;
+    font-size: 35px;
+    color: var(--whatsapp-color);
+  }
+
+  .webheading3 {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .websubheading3 {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--website-blue-color);
+  }
 
 }
 

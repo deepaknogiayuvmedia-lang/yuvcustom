@@ -259,6 +259,7 @@ body {
   --color-bg: #f8f9fe;
   --color-bg-accent: #f8f9fe;
   --gmb-color:#568aef;
+  --website-blue-color:#0d6efd;
   --whatsapp-color:#03cf64;
   --size: clamp(5rem, 1rem + 20vmin, 15rem);
   --gap: calc(var(--size) / 14);
