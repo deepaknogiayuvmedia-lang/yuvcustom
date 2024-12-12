@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,46 +52,45 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         Services
                                     </a>
-                                    <ul class="dropdown-menu">
-
+                                    <ul class="dropdown-menu customdropdown">
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('seo') }}">SEO</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('socialmedia') }}">Social Media</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('whatsappmarketing') }}">Whatsapp
                                                 Marketing</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">Video Production</a>
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('videoproduction') }}">Video Production</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">Web Development</a>
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('webdevelopment') }}">Web Development</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">Designing
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('designingservices') }}">Designing
                                                 Services</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('homepage') }}">Performance
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('performancemedia') }}">Performance
                                                 Media</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('marketplaceexpertise') }}">Marketplace
                                                 Expertise</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('contact') }}">Influencer
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('influencermarketing') }}">Influencer
                                                 Marketing</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('contact') }}">Google Business
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('googlebusinessprofile') }}">Google Business
                                                 Profile</a>
                                         </li>
                                     </ul>
@@ -142,8 +142,8 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -390,11 +390,15 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+            </script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 

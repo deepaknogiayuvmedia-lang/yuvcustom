@@ -128,6 +128,11 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/video-production', 'videoproduction')->name('videoproduction');
     Route::get('/seo', 'seo')->name('seo');
     Route::get('/web-development', 'webdevelopment')->name('webdevelopment');
+    Route::get('/designing-services', 'designingservices')->name('designingservices');
+    Route::get('/marketplace-expertise', 'marketplaceexpertise')->name('marketplaceexpertise');
+    Route::get('/performance-media', 'performancemedia')->name('performancemedia');
+    Route::get('/influencer-marketing', 'influencermarketing')->name('influencermarketing');
+    Route::get('/social-media', 'socialmedia')->name('socialmedia');
 
 });
 // //Excel Routes
