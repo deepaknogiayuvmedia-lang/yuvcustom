@@ -75,14 +75,6 @@ Route::controller(AdminStores::class)->group(function () {
 
 
 
-
-
-
-
-
-
-
-
 //User Panel Routes
 Route::controller(UserViews::class)->group(function () {
     Route::get('user/login', 'userloginpage')->name('userloginpage');
@@ -119,6 +111,11 @@ Route::controller(UserStores::class)->group(function () {
 
 });
 
+
+
+
+
+//Website Routes
 Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/', 'home')->name('homepage');
     Route::get('/about', 'about')->name('about');
@@ -126,6 +123,11 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/features', 'features')->name('features');
     Route::get('/services', 'services')->name('services');
     Route::get('/privacypolicy', 'privacypolicy')->name('privacypolicy');
+    Route::get('/whatsapp-marketing', 'whatsappmarketing')->name('whatsappmarketing');
+    Route::get('/google-business-profile', 'googlebusinessprofile')->name('googlebusinessprofile');
+    Route::get('/video-production', 'videoproduction')->name('videoproduction');
+    Route::get('/seo', 'seo')->name('seo');
+    Route::get('/web-development', 'webdevelopment')->name('webdevelopment');
 
 });
 // //Excel Routes

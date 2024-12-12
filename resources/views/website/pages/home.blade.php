@@ -160,15 +160,15 @@
                                         src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
 
 
-                                </div>
                             </div>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Hero Section Ends-->
+    </div>
+</section>
+<!--Hero Section Ends-->
 
     <section>
         <div class="container py-5">
@@ -555,12 +555,12 @@
 
 
 
-                    </div>
-                    <div class="service-space"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+    <div class="service-space"></div>
+    </div>
+    </div>
+    </div>
+</section>
 
     {{-- Achieving Goals --}}
     <section>
@@ -638,9 +638,9 @@
                     </div>
                 </div>
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!-- our work -->
@@ -663,244 +663,243 @@
                 </div>
             </div>
 
-            <div class="row industry">
-                <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage"
-                            style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
+    <div class="row industry">
+        <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
 
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can travel">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/travel.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Travel</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Tour and Travel" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can trans">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Transportation</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Transportation" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can banking">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/banking.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Banking</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Banking" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can healthc">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Healthcare</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Healthcare" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can enterta">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Entertainment</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Entertainment" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can educat">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/education.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Education</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Education"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can business">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/business.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Business</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Business"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can food">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/food.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Food</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Food"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can job_car">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Job/Career</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Job Career" width="238" height="487"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can fit_nes">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Fitness</span>
-                                                </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Life Style" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can travel">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/travel.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Travel</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Tour and Travel" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can trans">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Transportation</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Transportation" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can banking">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/banking.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Banking</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Banking" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can healthc">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Healthcare</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Healthcare" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can enterta">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Entertainment</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Entertainment" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can educat">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/education.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Education</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img width="196" height="469" alt="Education"
+                                            src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can business">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/business.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Business</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img width="196" height="469" alt="Business"
+                                            src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can food">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/food.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Food</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img width="196" height="469" alt="Food"
+                                            src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can job_car">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Job/Career</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Job Career" width="238" height="487"
+                                            src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 129.6px;">
+                        <div class="item">
+                            <div class="can fit_nes">
+                                <a href="#">
+                                    <span class="data_text_lin">
+                                        <div class="box-ar">
+                                            <div class="box-indus">
+                                                <img data-lazyloaded="1" decoding="async"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
+                                                    alt="drivers-app">
+                                            </div>
+                                            <span class="name">Fitness</span>
+                                        </div>
+                                    </span>
+                                    <span class="candidate">
+                                        <img alt="Life Style" width="196" height="469"
+                                            src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
+                                            class="ls-is-cached lazyloaded">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
                                                                                                                                                                                                                             aria-label="Previous">‹</span></button><button type="button" role="presentation"
@@ -1547,50 +1546,48 @@
 
 
 
-
-    <!-- stack effect  -->
-    <script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
-    <script>
-        const {
-            valueAtPercentage
-        } = aat
-        const ScrollObserver = aat.ScrollObserver
-        const cardsContainer = document.querySelector('.service-cards')
-        const cards = document.querySelectorAll('.service-card')
-        cardsContainer.style.setProperty('--cards-count', cards.length)
-        cardsContainer.style.setProperty(
-            '--card-height',
-            `${cards[0].clientHeight}px`
-        )
-        Array.from(cards).forEach((card, index) => {
-            const offsetTop = 20 + index * 20
-            card.style.paddingTop = `${offsetTop}px`
-            if (index === cards.length - 1) {
-                return
-            }
-            const toScale = 1 - (cards.length - 1 - index) * 0.1
-            const nextCard = cards[index + 1]
-            const cardInner = card.querySelector('.service-card__inner')
-            ScrollObserver.Element(nextCard, {
-                offsetTop,
-                offsetBottom: window.innerHeight - card.clientHeight
-            }).onScroll(({
-                percentageY
-            }) => {
-                cardInner.style.scale = valueAtPercentage({
-                    from: 1,
-                    to: toScale,
-                    percentage: percentageY
-                })
-                cardInner.style.filter = `brightness(${valueAtPercentage({
-                    from: 1,
-                    to: 0.6,
-                    percentage: percentageY
-                })})`
+<!-- stack effect  -->
+<script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
+<script>
+    const {
+        valueAtPercentage
+    } = aat
+    const ScrollObserver = aat.ScrollObserver
+    const cardsContainer = document.querySelector('.service-cards')
+    const cards = document.querySelectorAll('.service-card')
+    cardsContainer.style.setProperty('--cards-count', cards.length)
+    cardsContainer.style.setProperty(
+        '--card-height',
+        `${cards[0].clientHeight}px`
+    )
+    Array.from(cards).forEach((card, index) => {
+        const offsetTop = 20 + index * 20
+        card.style.paddingTop = `${offsetTop}px`
+        if (index === cards.length - 1) {
+            return
+        }
+        const toScale = 1 - (cards.length - 1 - index) * 0.1
+        const nextCard = cards[index + 1]
+        const cardInner = card.querySelector('.service-card__inner')
+        ScrollObserver.Element(nextCard, {
+            offsetTop,
+            offsetBottom: window.innerHeight - card.clientHeight
+        }).onScroll(({
+            percentageY
+        }) => {
+            cardInner.style.scale = valueAtPercentage({
+                from: 1,
+                to: toScale,
+                percentage: percentageY
             })
+            cardInner.style.filter = `brightness(${valueAtPercentage({
+                from: 1,
+                to: 0.6,
+                percentage: percentageY
+            })})`
         })
-    </script>
-
-
+    })
+</script>
+  
 
 @endsection

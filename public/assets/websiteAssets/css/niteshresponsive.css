@@ -1,0 +1,216 @@
+/* Portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+  .whatheading {
+    font-size: 35px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .whatheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: #03cf64;
+  }
+
+  .whatsecondhead {
+    font-size: 18px;
+  }
+
+  .whywhatcontent {
+    font-size: 18px;
+  }
+
+  .gmbheading {
+    font-size: 32px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .gmbheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--gmb-color);
+    text-decoration: underline;
+  }
+
+  .buttonsdiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gmbimage {
+    width: 346px;
+    margin-top: 20%;
+  }
+
+  .gmbheadingsecthree {
+    font-size: 34px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .gmbheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 30px;
+    color: var(--gmb-color);
+    text-decoration: underline;
+  }
+
+  .videoproheading {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .videoproheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+  }
+
+  .videoprobimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: leftright 3s ease-out infinite alternate;
+    margin-top: 40px;
+  }
+
+  .videoproheadingsecthree {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .videoproheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+  }
+
+  .seoimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: seoleftright 3s ease-out infinite alternate;
+  }
+
+  #seofirstsection {
+    background-image: none !important;
+  }
+
+  .seoheading {
+    font-size: 37px;
+    font-weight: 600 !important;
+    color: var(--website-blue-color);
+  }
+
+  .seoheadingsub {
+    font-weight: 600 !important;
+    font-size: 37px;
+    color: black;
+  }
+
+  .seoheadingsectiontwo {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: var(--whatsapp-color);
+  }
+
+  .seoheadingsubsectiontwo {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: black;
+  }
+
+  .seoheadingsecthree {
+    font-size: 37px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .seoheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 37px;
+    color: var(--website-blue-color);
+  }
+
+  .webheadingsectiontwo {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: var(--website-blue-color);
+  }
+
+  .webheadingsubsectiontwo {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: black;
+  }
+
+  .webimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: webimageleftright 3s ease-out infinite alternate;
+    margin-top: 40px;
+  }
+
+  .webheading {
+    font-size: 32px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .webheadingsub {
+    font-weight: 600 !important;
+    font-size: 35px;
+    color: var(--whatsapp-color);
+  }
+
+  .webheading3 {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .websubheading3 {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--website-blue-color);
+  }
+
+}
+
+/* Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Styles for landscape mode */
+}
+
+@media (min-width: 1400px) {
+
+  /* Styles for extra extra large devices */
+  .desktop-view {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* Styles for extra large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large devices */
+
+  .desktop-view {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium devices */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Styles for small devices */
+}
+
+@media (max-width: 576px) {
+  /* Styles for extra small devices */
+}
