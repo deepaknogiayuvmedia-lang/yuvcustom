@@ -33,7 +33,7 @@ $('#customers-testimonials').owlCarousel({
 $('#core-team').owlCarousel({
     items: 5, // Number of visible items
     margin: 20, // Space between items
-    loop: true, // Infinite looping
+    loop: false, // Infinite looping
     autoplay: true, // Automatic scrolling
     autoplayTimeout: 3000, // Delay between scrolls
     responsive: {

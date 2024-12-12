@@ -160,16 +160,17 @@
                                         src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
 
 
+                                </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--Hero Section Ends-->
+    </section>
+    <!--Hero Section Ends-->
 
+    {{-- services --}}
     <section>
         <div class="container py-5">
             <div class="row">
@@ -198,23 +199,35 @@
                                     <!-- Nav tabs -->
                                     <ul class="nav nav-underline my-3" id="myTab" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="performance-tab" data-bs-toggle="tab" data-bs-target="#performance-tab-pane" type="button" role="tab" aria-controls="performance-tab-pane" aria-selected="true">Performance Marketing</button>
+                                            <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
+                                                data-bs-target="#performance-tab-pane" type="button" role="tab"
+                                                aria-controls="performance-tab-pane" aria-selected="true">Performance
+                                                Marketing</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo-tab-pane" type="button" role="tab" aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
+                                            <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
+                                                data-bs-target="#seo-tab-pane" type="button" role="tab"
+                                                aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social-tab-pane" type="button" role="tab" aria-controls="social-tab-pane" aria-selected="false">Social Media</button>
+                                            <button class="nav-link" id="social-tab" data-bs-toggle="tab"
+                                                data-bs-target="#social-tab-pane" type="button" role="tab"
+                                                aria-controls="social-tab-pane" aria-selected="false">Social
+                                                Media</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="online-tab" data-bs-toggle="tab" data-bs-target="#online-tab-pane" type="button" role="tab" aria-controls="online-tab-pane" aria-selected="false">Online Marketing</button>
+                                            <button class="nav-link" id="online-tab" data-bs-toggle="tab"
+                                                data-bs-target="#online-tab-pane" type="button" role="tab"
+                                                aria-controls="online-tab-pane" aria-selected="false">Online
+                                                Marketing</button>
                                         </li>
                                     </ul>
 
                                     <!-- Tab panes -->
                                     <div class="tab-content">
                                         {{-- performance marketing --}}
-                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel" aria-labelledby="performance-tab" tabindex="0">
+                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
+                                            aria-labelledby="performance-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
@@ -256,52 +269,32 @@
                                         </div>
 
                                         {{-- seo --}}
-                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
+                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
+                                            aria-labelledby="seo-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                    <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
+                                                        class="card-img-top" alt="SEO">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">SEO</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Search Engine Optimization</h5>
+                                                        <p class="card-text">Boost search rankings, drive organic traffic, grow online visibility.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                        class="card-img-top" alt="GBP">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Facebook Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Google Business Profile</h5>
+                                                        <p class="card-text">Optimize profiles, attract local customers, enhance business online presence.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">MGID Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Marketplace Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                         </div>
 
                                         {{-- social media --}}
-                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel" aria-labelledby="social-tab" tabindex="0">
+                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel"
+                                            aria-labelledby="social-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
@@ -347,7 +340,8 @@
                                         </div>
 
                                         {{-- marketing --}}
-                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel" aria-labelledby="online-tab" tabindex="0">
+                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel"
+                                            aria-labelledby="online-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
@@ -555,12 +549,12 @@
 
 
 
-    </div>
-    <div class="service-space"></div>
-    </div>
-    </div>
-    </div>
-</section>
+                    </div>
+                    {{-- <div class="service-space"></div> --}}
+                </div>
+            </div>
+        </div>
+    </section>
 
     {{-- Achieving Goals --}}
     <section>
@@ -638,9 +632,9 @@
                     </div>
                 </div>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- our work -->
@@ -663,248 +657,249 @@
                 </div>
             </div>
 
-    <div class="row industry">
-        <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
-            <div class="owl-stage-outer">
-                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
+            <div class="row industry">
+                <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
 
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can travel">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/travel.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Travel</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Tour and Travel" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can travel">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/travel.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Travel</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Tour and Travel" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can trans">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Transportation</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Transportation" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can banking">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/banking.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Banking</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Banking" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can healthc">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Healthcare</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Healthcare" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can enterta">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Entertainment</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Entertainment" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can educat">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/education.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Education</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Education"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can business">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/business.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Business</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Business"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can food">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/food.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Food</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Food"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can job_car">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Job/Career</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Job Career" width="238" height="487"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can fit_nes">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Fitness</span>
+                                                </div>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Life Style" width="196" height="469"
+                                                    src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can trans">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Transportation</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Transportation" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can banking">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/banking.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Banking</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Banking" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can healthc">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Healthcare</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Healthcare" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can enterta">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Entertainment</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Entertainment" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can educat">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/education.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Education</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img width="196" height="469" alt="Education"
-                                            src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can business">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/business.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Business</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img width="196" height="469" alt="Business"
-                                            src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can food">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/food.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Food</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img width="196" height="469" alt="Food"
-                                            src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can job_car">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Job/Career</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Job Career" width="238" height="487"
-                                            src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active" style="width: 129.6px;">
-                        <div class="item">
-                            <div class="can fit_nes">
-                                <a href="#">
-                                    <span class="data_text_lin">
-                                        <div class="box-ar">
-                                            <div class="box-indus">
-                                                <img data-lazyloaded="1" decoding="async"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
-                                                    alt="drivers-app">
-                                            </div>
-                                            <span class="name">Fitness</span>
-                                        </div>
-                                    </span>
-                                    <span class="candidate">
-                                        <img alt="Life Style" width="196" height="469"
-                                            src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
-                                            class="ls-is-cached lazyloaded">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                                                                                                                                                                                                            aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                                                                                                                                                                                                                        class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                                                                                                                                                                                                                <div class="owl-dots disabled"></div> -->
+                                                                                                                                                                                                                                aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                                                                                                                                                                                                            class="owl-next disabled"><span aria-label="Next">›</span></button></div>
+                                                                                                                                                                                                                    <div class="owl-dots disabled"></div> -->
                 </div>
 
             </div>
@@ -933,6 +928,96 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="core-team" class="owl-carousel">
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
 
                         <div class="item">
                             <div class="flip">
@@ -1546,48 +1631,48 @@
 
 
 
-<!-- stack effect  -->
-<script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
-<script>
-    const {
-        valueAtPercentage
-    } = aat
-    const ScrollObserver = aat.ScrollObserver
-    const cardsContainer = document.querySelector('.service-cards')
-    const cards = document.querySelectorAll('.service-card')
-    cardsContainer.style.setProperty('--cards-count', cards.length)
-    cardsContainer.style.setProperty(
-        '--card-height',
-        `${cards[0].clientHeight}px`
-    )
-    Array.from(cards).forEach((card, index) => {
-        const offsetTop = 20 + index * 20
-        card.style.paddingTop = `${offsetTop}px`
-        if (index === cards.length - 1) {
-            return
-        }
-        const toScale = 1 - (cards.length - 1 - index) * 0.1
-        const nextCard = cards[index + 1]
-        const cardInner = card.querySelector('.service-card__inner')
-        ScrollObserver.Element(nextCard, {
-            offsetTop,
-            offsetBottom: window.innerHeight - card.clientHeight
-        }).onScroll(({
-            percentageY
-        }) => {
-            cardInner.style.scale = valueAtPercentage({
-                from: 1,
-                to: toScale,
-                percentage: percentageY
-            })
-            cardInner.style.filter = `brightness(${valueAtPercentage({
+    <!-- stack effect  -->
+    <script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
+    <script>
+        const {
+            valueAtPercentage
+        } = aat
+        const ScrollObserver = aat.ScrollObserver
+        const cardsContainer = document.querySelector('.service-cards')
+        const cards = document.querySelectorAll('.service-card')
+        cardsContainer.style.setProperty('--cards-count', cards.length)
+        cardsContainer.style.setProperty(
+            '--card-height',
+            `${cards[0].clientHeight}px`
+        )
+        Array.from(cards).forEach((card, index) => {
+            const offsetTop = 20 + index * 20
+            card.style.paddingTop = `${offsetTop}px`
+            if (index === cards.length - 1) {
+                return
+            }
+            const toScale = 1 - (cards.length - 1 - index) * 0.1
+            const nextCard = cards[index + 1]
+            const cardInner = card.querySelector('.service-card__inner')
+            ScrollObserver.Element(nextCard, {
+                offsetTop,
+                offsetBottom: window.innerHeight - card.clientHeight
+            }).onScroll(({
+                percentageY
+            }) => {
+                cardInner.style.scale = valueAtPercentage({
+                    from: 1,
+                    to: toScale,
+                    percentage: percentageY
+                })
+                cardInner.style.filter = `brightness(${valueAtPercentage({
                 from: 1,
                 to: 0.6,
                 percentage: percentageY
             })})`
+            })
         })
-    })
-</script>
-  
+    </script>
+
 
 @endsection

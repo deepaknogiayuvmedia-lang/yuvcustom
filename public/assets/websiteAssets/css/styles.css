@@ -229,7 +229,7 @@ body {
 
 /* Toggle direction button */
 .toggle {
-    --size: 3rem;
+    --size: 30rem;
     position: relative;
     position: fixed;
     top: 1rem;
