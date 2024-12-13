@@ -191,6 +191,8 @@
                 <div>
                     <div class=" service-space service-space--small"></div>
                     <div class="service-cards">
+
+                        {{-- Digital marketing --}}
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
@@ -229,7 +231,7 @@
                                         <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
                                             aria-labelledby="performance-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card " style="width: 18rem;">
                                                     <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -271,8 +273,8 @@
                                         {{-- seo --}}
                                         <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
                                             aria-labelledby="seo-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
+                                            <div class="d-flex my-3 justify-content-start">
+                                                <div class="card me-4" style="width: 18rem;">
                                                     <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
                                                         class="card-img-top" alt="SEO">
                                                     <div class="card-body">
@@ -280,8 +282,8 @@
                                                         <p class="card-text">Boost search rankings, drive organic traffic, grow online visibility.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
+                                                <div class="card me-4" style="width: 18rem;">
+                                                    <img src="https://static.fundrazr.com/rewards/9055f40593bd48989864f39c6a701988_large.jpg?cb=1610462315287"
                                                         class="card-img-top" alt="GBP">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Google Business Profile</h5>
@@ -297,43 +299,35 @@
                                             aria-labelledby="social-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around">
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                    <img src="https://cdn.nextgov.com/media/img/upload/2018/03/21/032118facebookNG/open-graph.jpg"
+                                                        class="card-img-top" alt="Facebook">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Google Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Facebook</h5>
+                                                        <p class="card-text">Grow your business with our professional social media services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                    <img src="https://www.menosfios.com/wp-content/uploads/2021/11/modo-noturno-no-instagram-capa.jpg"
+                                                        class="card-img-top" alt="Instagram">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Facebook Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Instagram</h5>
+                                                        <p class="card-text">Level up your brand with our expert Instagram marketing services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                    <img src="https://thepostworkspaces.com/wp-content/uploads/2022/07/souvik-banerjee-JLj_NbvlDDo-unsplash-600x600.jpg"
+                                                        class="card-img-top" alt="LinkedIn">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">MGID Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">LinkedIn</h5>
+                                                        <p class="card-text">Enhance your professional presence with our LinkedIn marketing solutions!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                    <img src="https://somewhereoverthepage.wordpress.com/wp-content/uploads/2015/05/jos-in_-the_-know_-pinterest.jpg?w=980&h=980&crop=1"
+                                                        class="card-img-top" alt="Pinterest">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Marketplace Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Pinterest</h5>
+                                                        <p class="card-text">Drive traffic with our creative and strategic Pinterest marketing services!</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -342,47 +336,32 @@
                                         {{-- marketing --}}
                                         <div class="tab-pane" id="online-tab-pane" role="tabpanel"
                                             aria-labelledby="online-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                            <div class="d-flex my-3 justify-content-start">
+                                                <div class="card me-4" style="width: 18rem;">
+                                                    <img src="https://framerusercontent.com/images/6AE8iMtu15A4FI6oK288NMx4rc.png?scale-down-to=512"
+                                                        class="card-img-top" alt="Whatsapp Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Google Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Whatsapp Marketing</h5>
+                                                        <p class="card-text">Engage your audience instantly with our powerful WhatsApp marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card me-4" style="width: 18rem;">
+                                                    <img src="https://www.pngplay.com/wp-content/uploads/13/Email-Marketing-Free-PNG.png"
+                                                        class="card-img-top" alt="Email Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Facebook Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Email Marketing</h5>
+                                                        <p class="card-text">Connect and convert with our result-driven email marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card me-4" style="width: 18rem;">
+                                                    <img src="https://i.pinimg.com/originals/e6/e5/31/e6e5319b47f55a0af5518f0fcd97f919.jpg"
+                                                        class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">MGID Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
+                                                        <h5 class="card-title">Influencer Marketing</h5>
+                                                        <p class="card-text">Boost your brand with impactful influencer marketing campaigns!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Marketplace Ads</h5>
-                                                        <p class="card-text">Some quick example text to build on the card
-                                                            title
-                                                            and make up the bulk of the card's content.</p>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -390,6 +369,7 @@
                             </div>
                         </div>
 
+                        {{-- Sellet Management --}}
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
@@ -397,43 +377,35 @@
 
                                     <div class="d-flex my-3 justify-content-around">
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5979657/23560_302172.jpg"
+                                                class="card-img-top" alt="Amazon Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Amazon Seller</h5>
+                                                <p class="card-text">Maximize your sales with our expert Amazon seller services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc0NTE5NDM0NDM2NjgzNzIx/etsy.jpg"
+                                                class="card-img-top" alt="Etsy Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Etsy Seller</h5>
+                                                <p class="card-text">Grow your Etsy shop with our tailored marketing strategies!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://th-i.thgim.com/public/business/Industry/kilrnc/article24671698.ece/alternates/FREE_1200/TH13FLIPKART"
+                                                class="card-img-top" alt="Flipkart Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Flipkart Seller</h5>
+                                                <p class="card-text">Boost your sales on Flipkart with our expert seller services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://thejobcompany.in/adminware/uploads/logos/1728482558.png"
+                                                class="card-img-top" alt="Meesho Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Meesho Seller</h5>
+                                                <p class="card-text">Maximize your Meesho sales with our expert seller solutions!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -442,51 +414,43 @@
                             </div>
                         </div>
 
-
+                        {{-- Graphic Design --}}
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
-                                    <h1 class="service-card__title">Our Services</h1>
+                                    <h1 class="service-card__title">Design Services</h1>
 
                                     <div class="d-flex my-3 justify-content-around">
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://papik.pro/uploads/posts/2021-10/thumbs/1634672301_3-papik-pro-p-tsifrovoi-plakat-4.jpg"
+                                                class="card-img-top" alt="Graphic Designing">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Graphic Designing</h5>
+                                                <p class="card-text">Transform your brand with our creative and professional graphic design services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://yt3.googleusercontent.com/ytc/APkrFKYvstGKw7D2Maz2TeaKIl-P3mmoMaZ_gBamx-x_=s900-c-k-c0x00ffffff-no-rj"
+                                                class="card-img-top" alt="Video Production">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Video Production</h5>
+                                                <p class="card-text">Bring your vision to life with our expert video production services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://d2vx7hn49802k2.cloudfront.net/wp-content/uploads/2021/03/Product-Photography.jpg"
+                                                class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Product Shoot</h5>
+                                                <p class="card-text">Showcase your products in style with our professional product shoots!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://www.feedsfloor.com/sites/default/files/styles/largenews/public/Merchandise%20Designing%20Market.jpg?itok=OH0sSqP_"
+                                                class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Brand Designing</h5>
+                                                <p class="card-text">Create a lasting impression with our expert brand designing services!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -495,50 +459,42 @@
                             </div>
                         </div>
 
-
+                        {{-- Development Services --}}
                         <div class="service-card" data-index="0">
                             <div class="service-card__inner">
                                 <div class="service-card__content">
-                                    <h1 class="service-card__title">Our Services</h1>
+                                    <h1 class="service-card__title">Development Services</h1>
                                     <div class="d-flex my-3 justify-content-around">
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://www.web-rasswet.ru/img/razrabotka-saitow.jpg"
+                                                class="card-img-top" alt="Web Development">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Web Development</h5>
+                                                <p class="card-text">Build a strong online presence with our expert web development services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://cpimg.tistatic.com/05392545/b/5/App-Development-Service.png"
+                                                class="card-img-top" alt="App Development">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">App Development</h5>
+                                                <p class="card-text">Transform your ideas into reality with our expert app development services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1642369415_59-papik-pro-p-sistema-klipart-64.png"
+                                                class="card-img-top" alt="Software Integrations">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">Software Integrations</h5>
+                                                <p class="card-text">Streamline your business with seamless software integration solutions!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
-                                            <img src="https://i.pinimg.com/originals/af/18/ca/af18ca95eb60d321b1d410acc6308f1e.jpg"
-                                                class="card-img-top" alt="...">
+                                            <img src="https://russia-dropshipping.ru/800/600/http/themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2016/04/14121345/CRM-Infographic-K3.jpg"
+                                                class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
+                                                <h5 class="card-title">CRM (Odoo, Salesforce)</h5>
+                                                <p class="card-text">Optimize your customer relationships with our expert CRM solutions (Odoo, Salesforce)!</p>
                                             </div>
                                         </div>
                                     </div>

@@ -336,6 +336,15 @@ body {
     position: sticky;
     top: 20px;
 }
+.service-card .card {
+    box-shadow: var(--bs-box-shadow);
+    transition: all .5s ease;
+    border: none;
+}
+.service-card .card:hover {
+   transform: scale(1.1);
+   
+}
 
 .service-card__inner {
     will-change: transform;
