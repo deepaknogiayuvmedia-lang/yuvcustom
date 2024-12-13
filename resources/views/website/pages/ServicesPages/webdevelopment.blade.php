@@ -1,10 +1,10 @@
 @extends('website.layout.websitemain')
-@section('title', 'Seach Engine Optimization | ' . config('app.name'))
+@section('title', 'Web Development | ' . config('app.name'))
 @section('content')
 <section
     style="background-image: url('{{ asset('assets/websiteAssets/images/chat-bg-pattern.png') }}'); background-repeat: repeat;"
-    class="py-3 py-md-3">
-    <div class="container py-5 py-md-3">
+    class="py-5 py-md-3">
+    <div class="container py-3 py-md-5">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="text-start webheadingsectiontwo">

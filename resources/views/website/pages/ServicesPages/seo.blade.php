@@ -26,7 +26,7 @@
         </div>
     </div>
 </section>
-<section style="background-color: #ffffff;" class="py-4">
+<section style="background-color: #ffffff;" class="py-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="seoimage" src="{{ asset('assets/websiteAssets/images/seoheroimg.png') }}" alt="">
+                <img class="seoimage" src="{{ asset('assets/websiteAssets/images/seobackgroundnew.png') }}" alt="">
             </div>
         </div>
     </div>

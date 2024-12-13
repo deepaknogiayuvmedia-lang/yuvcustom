@@ -51,4 +51,24 @@ class WebsiteViews extends Controller
     {
         return view('website.Pages.ServicesPages.webdevelopment');
     }
+    public function designingservices()
+    {
+        return view('website.Pages.ServicesPages.designingservices');
+    }
+    public function marketplaceexpertise() 
+    {
+        return view('website.Pages.ServicesPages.marketplaceexpertise');
+    }
+    public function performancemedia() 
+    {
+        return view('website.Pages.ServicesPages.performancemedia');
+    }
+    public function influencermarketing() 
+    {
+        return view('website.Pages.ServicesPages.influencermarketing');
+    }
+    public function socialmedia() 
+    {
+        return view('website.Pages.ServicesPages.socialmedia');
+    }
 }

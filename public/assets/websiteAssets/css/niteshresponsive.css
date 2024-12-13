@@ -176,6 +176,141 @@
     color: var(--website-blue-color);
   }
 
+  .marketheading {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .marketheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+  }
+
+  .marketbimage {
+    width: 90%;
+    transition: 0.5s ease-in-out;
+    animation: marketimgleftright 3s ease-out infinite alternate;
+  }
+
+  .marketheadingsecthree {
+    font-size: 41px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .marketheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 41px;
+    color: var(--website-blue-color);
+    text-decoration: underline;
+  }
+
+  .grpahicheading {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .grpahicheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--website-blue-color);
+  }
+
+  .grpahicbimage {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    animation: webimageleftright 3s ease-out infinite alternate;
+  }
+
+  .graphicheadingsecthree {
+    font-size: 43px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .graphicheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 43px;
+    color: var(--website-blue-color);
+    text-decoration: underline;
+  }
+
+  .performanceheading {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .performanceheadingsub {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--website-blue-color);
+  }
+
+  .performanceheadingsecthree {
+    font-size: 37px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .performanceheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 37px;
+    color: var(--website-blue-color);
+    text-decoration: underline;
+  }
+
+  .influbimage {
+    width: 93%;
+    transition: 0.5s ease-in-out;
+    animation: influleftright 3s ease-out infinite alternate;
+    margin-top: 10%;
+  }
+
+  .influheading {
+    font-size: 43px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .influheadingsub {
+    font-weight: 600 !important;
+    font-size: 43px;
+    color: var(--whatsapp-color);
+  }
+
+  #socialmediasection {
+    background-image: none !important;
+  }
+
+  .socialmedheading {
+    font-size: 39px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .socialmedheadingsub {
+    font-weight: 600 !important;
+    font-size: 41px;
+    color: var(--website-blue-color);
+  }
+
+  .socialmedheadingsecthree {
+    font-size: 47px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .socialmedheadingsubsecthree {
+    font-weight: 600 !important;
+    font-size: 47px;
+    color: var(--whatsapp-color);
+    text-decoration: underline;
+  }
+
 }
 
 /* Landscape */
