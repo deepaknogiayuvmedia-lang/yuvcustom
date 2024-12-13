@@ -1020,6 +1020,7 @@
 .dropdown-menu>li {
   padding-bottom: 3px;
 }
+
 .socialmedheading {
   font-size: 53px;
   font-weight: 600 !important;
@@ -1035,6 +1036,7 @@
 .socialmedsecondhead {
   font-size: 18px;
 }
+
 .socialmedbtn {
   background: rgba(255, 255, 255, 0);
   border: 1px solid var(--website-blue-color);
@@ -1048,6 +1050,7 @@
   border: 1px solid var(--website-blue-color);
   transform: scale(1.1);
 }
+
 .socialmedheadingsecthree {
   font-size: 53px;
   font-weight: 600 !important;
@@ -1060,7 +1063,8 @@
   color: var(--whatsapp-color);
   text-decoration: underline;
 }
-.socialmedsecondheadsecthree{
+
+.socialmedsecondheadsecthree {
   font-size: 18px;
 }
 
@@ -1072,9 +1076,11 @@
   text-align: center;
   transition: 0.3s ease-in-out;
 }
+
 .socialmediacardsone:hover {
   transform: scale(1.05);
 }
+
 .socialmediacards {
   background-color: #f8fff8;
   border-bottom: 3px solid var(--whatsapp-color);
@@ -1086,4 +1092,495 @@
 
 .socialmediacards:hover {
   transform: scale(1.05);
+}
+
+#counter {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#counter .item {
+  background: #f6faff;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border-bottom: 3px solid var(--website-blue-color);
+}
+
+#counter .item .count {
+  color: var(--website-blue-color);
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+#counter .item p {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.partnersheading {
+  font-size: 53px;
+  text-align: left;
+  font-weight: 600 !important;
+  color: black;
+  line-height: 63px;
+
+}
+
+.partnersheadingsub {
+  font-weight: 600 !important;
+  text-align: left;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.partnerssecondhead {
+  text-align: left;
+  font-size: 18px;
+}
+
+.partnersbtn {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid var(--website-blue-color);
+  color: rgb(33, 33, 33);
+  transition: 0.4s ease-in-out;
+}
+
+.partnersbtn:hover {
+  background: var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--website-blue-color);
+  transform: scale(1.1);
+}
+
+.partnersbimage {
+  width: 90%;
+  transition: 0.5s ease-in-out;
+  margin-left: 10%;
+  animation: partnersbimageleftright 3s ease-out infinite alternate;
+}
+
+@keyframes partnersbimageleftright {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.partnersheadingsectwo {
+  font-size: 47px;
+  font-weight: 600 !important;
+  color: black;
+}
+
+.partnersheadingsubsectwo {
+  font-weight: 600 !important;
+  font-size: 47px;
+  color: var(--whatsapp-color);
+  text-decoration: underline;
+}
+
+.partnerssecondheadsectwo {
+  font-size: 18px;
+}
+
+.partnersbtnsectwo {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid var(--whatsapp-color);
+  color: rgb(33, 33, 33);
+  transition: 0.4s ease-in-out;
+}
+
+.partnersbtnsectwo:hover {
+  background: var(--whatsapp-color);
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--whatsapp-color);
+  transform: scale(1.1);
+}
+
+.partnersheadingsecthree {
+  font-size: 53px;
+  text-align: left;
+  font-weight: 600 !important;
+  color: black;
+  line-height: 63px;
+}
+
+.partnersheadingsubsecthree {
+  font-weight: 600 !important;
+  text-align: left;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.partnerssecondheadsecthree {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.partnersbtnsecthree {
+  background: var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  transition: 0.4s ease-in-out;
+}
+
+.partnersbtnsecthree:hover {
+  background: var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--website-blue-color);
+  transform: scale(1.1);
+}
+
+.partnersbimagesecthree {
+  width: 90%;
+  transition: 0.5s ease-in-out;
+  animation: partnersbimagesecthreeleftright 3s ease-out infinite alternate;
+}
+
+@keyframes partnersbimagesecthreeleftright {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.joinheading {
+  font-size: 53px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: black;
+}
+
+.joinsubheading {
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.joincontentcustom {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.formbtn {
+  background: rgba(245, 245, 220, 0);
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+  padding: 10px;
+  border: 1px solid var(--website-blue-color);
+}
+
+.formbtn:hover {
+  background:var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+
+.formcustomcard {
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid #0d6efd;
+  box-shadow: 0px 0px 20px #c5c5c5b8;
+}
+
+.formcustomcardfooter {
+  background-color: white;
+  padding: 20px;
+}
+.customforminput{
+  border: 2px dashed lightgrey;
+  appearance: none; /* Remove browser default styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.customforminput:focus{
+  border-color: var(--website-blue-color) !important;
+  box-shadow: none;
+}
+.customforminput::placeholder{
+  color: rgb(168, 167, 167);
+}
+.contactheading {
+  font-size: 53px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: black;
+}
+
+.contactheadingsub {
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.contactsecondhead {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+.contactsbutton {
+  background: rgba(245, 245, 220, 0);
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+  padding: 10px;
+  border: 1px solid var(--website-blue-color);
+}
+
+.contactsbutton:hover {
+  background:var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+.contactscards {
+  background-color: #ffffff;
+  border-bottom: 5px solid var(--whatsapp-color);
+  padding: 1.3rem;
+  border-radius: 10px;
+  min-height: 250px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.contactscards:hover {
+  transform: translateY(-5px);
+}
+.smallheadcontactus{
+  font-weight: 600;
+  color: var(--whatsapp-color);
+}
+.contactsheadingsectwo {
+  font-size: 53px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: black;
+}
+
+.contactsheadingsubsectwo {
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.contactscontentsectwo {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
+  color: rgb(58, 58, 58);
+}
+.aboutheading {
+  font-size: 50px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: black;
+}
+
+.aboutheadingsub {
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.aboutsecondhead {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+.narrowsection{
+  background-color: #eff8ff;
+}
+.aboutheadingsecthree {
+  font-size: 50px;
+  font-weight: 600 !important;
+  text-align: left;
+  color: black;
+}
+
+.aboutheadingsubsecthree {
+  font-weight: 600 !important;
+  text-align: left;
+  font-size: 53px;
+  color: var(--website-blue-color);
+}
+
+.aboutsecondheadsecthree {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
+}
+.aboutbbtnsecthree {
+  background: rgba(245, 245, 220, 0);
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+  padding: 10px;
+  border: 1px solid var(--website-blue-color);
+}
+
+.aboutbbtnsecthree:hover {
+  background:var(--website-blue-color);
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+.aboutiamgesecthree {
+  width: 80%;
+  transition: 0.5s ease-in-out;
+  animation: aboutiamgesecthreeleftright 3s ease-out infinite alternate;
+}
+
+@keyframes aboutiamgesecthreeleftright {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+.aboutcards {
+  background-image: linear-gradient(to bottom, #f5faff 0%,rgb(255, 255, 255) 100%);
+  border-top: 5px solid var(--website-blue-color);
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.aboutcards:hover {
+  border-top: 5px solid var(--whatsapp-color);
+  transform: translateY(-5px);
+}
+.aboutcards .card-text{
+  font-size: 14px;
+
+}
+.letterpara{
+  color: var(--website-blue-color);
+  font-size: 60px;
+  font-weight: 300;
+}
+.aboutcards:hover .letterpara{
+  color: var(--whatsapp-color);
+}
+
+.logo-slider {
+  overflow: hidden;
+  padding: 30px 0 0 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logo-slider:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 10s logoslidenew infinite linear;
+}
+
+.logos-slide img {
+  width: 150px;
+  height: 150px;
+  margin: 0 40px;
+}
+
+
+@keyframes logoslidenew {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.logo-slider2 {
+  overflow: hidden;
+  padding: 20px 0 0 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logo-slider2:hover .logos-slide2 {
+  animation-play-state: paused;
+}
+
+.logos-slide2 {
+  display: inline-block;
+  animation: 10s logoslidenew2 infinite linear;
+}
+
+.logos-slide2 img {
+  width: 150px;
+  height: 150px;
+  margin: 0 40px;
+}
+
+
+@keyframes logoslidenew2 {
+  from {
+      transform: translateX(-100%);
+  }
+
+  to {
+      transform: translateX(0);
+  }
+}
+.peopleheading {
+  font-size: 50px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: black;
+}
+
+.peopleheadingsub {
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 53px;
+  color: var(--whatsapp-color);
+}
+
+.peoplesecondhead {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+.aboutpeoplecards {
+  background-color: #ffffff;
+  border-bottom: 3px solid var(--website-blue-color);
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.aboutpeoplecards:hover {
+  transform: translateY(-5px);
+}
+.teamnametxt{
+  font-size: 18px;
+  color: var(--website-blue-color);
+  text-align: left;
+  font-weight: 400;
+}
+.designationtxt{
+  font-size: 14px;
+  text-align: left;
 }

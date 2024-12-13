@@ -71,4 +71,8 @@ class WebsiteViews extends Controller
     {
         return view('website.Pages.ServicesPages.socialmedia');
     }
+    public function partners() 
+    {
+        return view('website.Pages.partners');
+    }
 }

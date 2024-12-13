@@ -311,6 +311,117 @@
     text-decoration: underline;
   }
 
+  .partnersheading {
+    font-size: 44px;
+    text-align: left;
+    font-weight: 600 !important;
+    color: black;
+    line-height: 63px;
+  }
+
+  .partnersheadingsub {
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 44px;
+    color: var(--website-blue-color);
+  }
+
+  .partnersbimage {
+    width: 78%;
+    transition: 0.5s ease-in-out;
+    margin-left: 10%;
+    margin-top: 10%;
+    animation: partnersbimageleftright 3s ease-out infinite alternate;
+  }
+
+  .partnersheadingsectwo {
+    font-size: 33px;
+    font-weight: 600 !important;
+    color: black;
+  }
+
+  .partnersheadingsubsectwo {
+    font-weight: 600 !important;
+    font-size: 33px;
+    color: var(--whatsapp-color);
+    text-decoration: underline;
+  }
+
+  .partnersheadingsecthree {
+    font-size: 43px;
+    text-align: left;
+    font-weight: 600 !important;
+    color: black;
+    line-height: 63px;
+  }
+
+  .partnersheadingsubsecthree {
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 43px;
+    color: var(--website-blue-color);
+  }
+
+  .partnersbimagesecthree {
+    width: 96%;
+    transition: 0.5s ease-in-out;
+    animation: partnersbimagesecthreeleftright 3s ease-out infinite alternate;
+    margin-top: 10%;
+  }
+
+  .joinheading {
+    font-size: 37px;
+    font-weight: 600 !important;
+    text-align: center;
+    color: black;
+  }
+
+  .joinsubheading {
+    font-weight: 600 !important;
+    text-align: center;
+    font-size: 37px;
+    color: var(--website-blue-color);
+  }
+
+  .formbtn {
+    background: rgba(245, 245, 220, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease-in-out;
+    padding: 10px;
+    border: 1px solid var(--website-blue-color);
+    font-size: small;
+  }
+
+  .contactsheadingsectwo {
+    font-size: 44px;
+    font-weight: 600 !important;
+    text-align: center;
+    color: black;
+  }
+
+  .contactsheadingsubsectwo {
+    font-weight: 600 !important;
+    text-align: center;
+    font-size: 44px;
+    color: var(--website-blue-color);
+  }
+
+  .contactheading {
+    font-size: 46px;
+    font-weight: 600 !important;
+    text-align: center;
+    color: black;
+  }
+
+  .contactheadingsub {
+    font-weight: 600 !important;
+    text-align: center;
+    font-size: 46px;
+    color: var(--whatsapp-color);
+  }
+
+
+
 }
 
 /* Landscape */

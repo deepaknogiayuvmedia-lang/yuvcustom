@@ -15,30 +15,38 @@ body {
 
 /* General visibility rules */
 .hideOnDesktop {
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
 }
 
 .hideOnMobile {
-    display: block; /* Visible by default */
+    display: block;
+    /* Visible by default */
 }
 
 /* Media query for screens wider than 680px (Desktop) */
 @media screen and (min-width: 680px) {
     .hideOnDesktop {
-        display: none; /* Remain hidden on desktop */
+        display: none;
+        /* Remain hidden on desktop */
     }
+
     .hideOnMobile {
-        display: block; /* Remain visible on desktop */
+        display: block;
+        /* Remain visible on desktop */
     }
 }
 
 /* Media query for screens smaller than 680px (Mobile) */
 @media screen and (max-width: 679px) {
     .hideOnDesktop {
-        display: block; /* Show on mobile */
+        display: block;
+        /* Show on mobile */
     }
+
     .hideOnMobile {
-        display: none; /* Hide on mobile */
+        display: none;
+        /* Hide on mobile */
     }
 }
 
@@ -132,13 +140,11 @@ body {
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
-    mask-image: linear-gradient(
-        var(--mask-direction, to right),
-        hsl(0 0% 0% / 0),
-        hsl(0 0% 0% / 1) 20%,
-        hsl(0 0% 0% / 1) 80%,
-        hsl(0 0% 0% / 0)
-    );
+    mask-image: linear-gradient(var(--mask-direction, to right),
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 20%,
+            hsl(0 0% 0% / 1) 80%,
+            hsl(0 0% 0% / 0));
 }
 
 .marquee__group {
@@ -287,17 +293,17 @@ body {
 }
 
 :root {
-  --color-text: black;
-  --color-bg: #f8f9fe;
-  --color-bg-accent: #f8f9fe;
-  --gmb-color:#568aef;
-  --website-blue-color:#0d6efd;
-  --whatsapp-color:#03cf64;
-  --size: clamp(5rem, 1rem + 20vmin, 15rem);
-  --gap: calc(var(--size) / 14);
-  --duration: 60s;
-  --scroll-start: 0;
-  --scroll-end: calc(-100% - var(--gap));
+    --color-text: black;
+    --color-bg: #f8f9fe;
+    --color-bg-accent: #f8f9fe;
+    --gmb-color: #568aef;
+    --website-blue-color: #0d6efd;
+    --whatsapp-color: #03cf64;
+    --size: clamp(5rem, 1rem + 20vmin, 15rem);
+    --gap: calc(var(--size) / 14);
+    --duration: 60s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -319,6 +325,7 @@ body {
     transition: all 0.5s;
     margin-right: 10px;
 }
+
 .action-btn a:hover {
     color: #2b54df;
     background-color: #91bbff;
@@ -328,6 +335,7 @@ body {
     filter: grayscale(1);
     transition: all 0.5s ease-in-out;
 }
+
 .marquee__group:hover img {
     filter: grayscale(0);
 }
@@ -427,9 +435,11 @@ body {
 .servicecard {
     position: relative;
 }
+
 .servicecard .servicebg {
     mix-blend-mode: darken;
 }
+
 .servicecard .serviceHeading {
     position: absolute;
     top: 20px;
@@ -438,6 +448,7 @@ body {
     font-size: 22px;
     width: 70%;
 }
+
 .servicecard .serviceContent {
     position: absolute;
     bottom: 30px;
@@ -446,6 +457,7 @@ body {
     font-size: 14px;
     width: 80%;
 }
+
 .servicecard .serviceIcon {
     position: absolute;
     top: 70px;
@@ -454,6 +466,7 @@ body {
     font-size: 14px;
     width: 50%;
 }
+
 .servicecard .serviceIcon3 {
     position: absolute;
     top: 90px;
@@ -469,6 +482,7 @@ body {
     justify-content: center;
     margin: 10%;
 }
+
 .work .box {
     padding: 30px;
     margin: 2%;
@@ -479,12 +493,14 @@ body {
     border-radius: 3px;
     transition: 0.2s all;
 }
+
 .work .box-wrap:hover .box {
     filter: blur(3px);
     opacity: 0.5;
     transform: scale(0.98);
     box-shadow: none;
 }
+
 .work .box-wrap:hover .box:hover {
     transform: scale(1);
     filter: blur(0px);
@@ -497,6 +513,7 @@ body {
 .industry .owl-carousel.owl-loaded {
     display: block;
 }
+
 .industry .owl-carousel {
     display: none;
     width: 100%;
@@ -508,10 +525,12 @@ body {
     -webkit-tap-highlight-color: transparent;
     position: relative;
 }
+
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
     display: block;
 }
+
 .inds_cat_set {
     display: flex;
     -ms-flex-pack: justify;
@@ -554,6 +573,7 @@ body {
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none;
 }
+
 .industry .owl-carousel .owl-item {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
@@ -562,11 +582,13 @@ body {
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
 }
+
 .industry .owl-carousel,
 .industry .owl-carousel .owl-item {
     -webkit-tap-highlight-color: transparent;
     position: relative;
 }
+
 .inds_cat_set .can {
     position: relative;
     text-align: center;
@@ -580,6 +602,7 @@ body {
 a {
     text-decoration: none !important;
 }
+
 .inds_cat_set .can span.data_text_lin {
     -webkit-transform-origin: center bottom;
     transform-origin: center bottom;
@@ -605,16 +628,17 @@ a {
     top: 50px;
     bottom: 50%;
     margin: auto;
-    background: url(https://soumyaitsolution.com/webassets/images/taxi-service/arrow.png)
-        no-repeat center center / auto;
+    background: url(https://soumyaitsolution.com/webassets/images/taxi-service/arrow.png) no-repeat center center / auto;
     filter: grayscale(1);
     opacity: 0.3;
     rotate: 90deg;
 }
-.inds_cat_set .owl-stage:hover .can:hover .box-indus > img {
+
+.inds_cat_set .owl-stage:hover .can:hover .box-indus>img {
     opacity: 1;
     filter: grayscale(0);
 }
+
 .box-ar {
     margin-bottom: 100px;
 }
@@ -637,6 +661,7 @@ a {
     font-weight: 600;
     margin: auto;
 }
+
 .box-indus::before {
     content: "";
     position: absolute;
@@ -651,11 +676,13 @@ a {
     visibility: hidden;
     transition: 0.5s;
 }
+
 .industry .owl-carousel .owl-item img {
     display: block;
     width: 100%;
 }
-.box-indus > img {
+
+.box-indus>img {
     display: inline-block !important;
     vertical-align: middle;
     filter: grayscale(1);
@@ -666,6 +693,7 @@ a {
     padding: 14px;
     object-fit: contain;
 }
+
 .data_text_lin span.name {
     font-size: 16px;
     color: #333;
@@ -674,37 +702,45 @@ a {
     display: block;
     margin-top: 10px;
 }
+
 .inds_cat_set .can span.candidate {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
+
 .inds_cat_set .can span.candidate img {
     margin: 0 auto;
 }
+
 .industry .owl-carousel .owl-item img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 .inds_cat_set .owl-stage:hover .can:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
 .inds_cat_set:hover .can {
     filter: blur(6px) grayscale(1);
     opacity: 0.5;
     transform: scale(0.98);
     box-shadow: none;
 }
+
 .inds_cat_set:hover .can .data_text_lin {
     transform: scale(0);
 }
+
 .inds_cat_set:hover .can:hover {
     transform: scale(1);
     filter: blur(0px);
     opacity: 1;
     /* box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
 }
+
 .inds_cat_set .can:hover .data_text_lin {
     transform: scale(1);
 }
@@ -724,9 +760,11 @@ a {
     0% {
         top: 150px;
     }
+
     50% {
         top: 180px;
     }
+
     100% {
         top: 150px;
     }
@@ -742,9 +780,12 @@ a {
     border: 1px solid #ececec;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
+
 .shadow-effect:before {
-    content: ""; /* Add this line */
-    background-image: url("../images/testi-bg.png"); /* Corrected path */
+    content: "";
+    /* Add this line */
+    background-image: url("../images/testi-bg.png");
+    /* Corrected path */
     position: absolute;
     top: 14%;
     left: 75%;
@@ -753,12 +794,14 @@ a {
     z-index: -1;
     background-repeat: no-repeat;
 }
+
 #customers-testimonials .shadow-effect p {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
 }
+
 .testimonial-name {
     /* margin: 0 auto; */
     display: table;
@@ -788,9 +831,11 @@ a {
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
 }
+
 .testimonial-name .author {
     letter-spacing: 2px;
 }
+
 #customers-testimonials .item {
     text-align: center;
     padding: 50px 5px;
@@ -802,11 +847,13 @@ a {
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
 #customers-testimonials .owl-item.active.center .item {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
+
 #customers-testimonials.owl-carousel .owl-item img {
     transform-style: preserve-3d;
     max-width: 50px;
@@ -890,12 +937,10 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-        to bottom,
-        #f5fffd 0%,
-        rgba(255, 0, 0, 0) 50%,
-        #f5fffd 100%
-    );
+    background: linear-gradient(to bottom,
+            #f5fffd 0%,
+            rgba(255, 0, 0, 0) 50%,
+            #f5fffd 100%);
     z-index: 1;
     pointer-events: none;
 }
@@ -904,6 +949,7 @@ a {
     padding: 10px 0;
     background-color: #f5fffd;
 }
+
 .heroheadingseamless {
     color: black;
 }
@@ -914,10 +960,12 @@ a {
     position: relative;
     text-align: center;
 }
+
 .flip .corecard.flipped {
     -webkit-transform: rotatey(-180deg);
     transform: rotatey(-180deg);
 }
+
 .flip .corecard {
     width: 100%;
     height: 450px;
@@ -927,20 +975,24 @@ a {
     transition: 0.5s;
     background-color: #ffffff00;
 }
+
 .flip .corecard .face {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 2;
 }
+
 .flip .corecard .front {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
+
 .flip .corecard .front img {
     width: 100%;
     height: 100%;
 }
+
 .flip .corecard .img {
     position: relaitve;
     width: 270px;
@@ -948,6 +1000,7 @@ a {
     z-index: 1;
     border: 2px solid #000;
 }
+
 .flip .corecard .back {
     /* padding-top: 10%; */
     -webkit-transform: rotatey(-180deg);
@@ -957,12 +1010,12 @@ a {
     height: 340px;
     border-radius: 20px;
 }
+
 .back .inner {
     text-align: start;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     height: 100%;
 }
 
@@ -1003,12 +1056,15 @@ a {
 #core-team .owl-item {
     transition: transform 0.3s ease-in-out;
 }
+
 #core-team .owl-item:nth-child(odd) {
     transform: translateY(70px);
 }
+
 #core-team .owl-item:nth-child(even) {
     transform: translateY(20px);
 }
+
 #core-team .owl-item:hover {
     transform: translateY(0);
 }
@@ -1017,6 +1073,7 @@ a {
     background-image: url("../images/map_bg.webp");
     position: relative;
 }
+
 .contact_bg::before {
     content: "";
     position: absolute;
@@ -1042,11 +1099,15 @@ a {
     background-repeat: no-repeat;
     width: auto;
 }
-.servicesbox .nav-link, .service-cards .nav-link {
+
+.servicesbox .nav-link,
+.service-cards .nav-link {
     color: #6a6a6a;
     transition: all 0.5s ease;
 }
-.servicesbox .nav-link.active , .service-cards .nav-underline .nav-link.active{
+
+.servicesbox .nav-link.active,
+.service-cards .nav-underline .nav-link.active {
     color: #0d6dfc;
     font-weight: 500;
 }
@@ -1059,10 +1120,11 @@ a {
 .footer-area ul {
     list-style-type: none;
 }
+
 .footer-area ul li a {
     color: #6a6a6a;
 }
+
 .footer-area ul li {
     padding-top: 5px;
 }
-

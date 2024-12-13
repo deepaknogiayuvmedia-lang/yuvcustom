@@ -133,6 +133,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/performance-media', 'performancemedia')->name('performancemedia');
     Route::get('/influencer-marketing', 'influencermarketing')->name('influencermarketing');
     Route::get('/social-media', 'socialmedia')->name('socialmedia');
+    Route::get('/partners', 'partners')->name('partners');
 
 });
 // //Excel Routes
