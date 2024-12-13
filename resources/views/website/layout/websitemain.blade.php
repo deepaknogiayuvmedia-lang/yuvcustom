@@ -45,10 +45,10 @@
                         <div class="px-3">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="{{ route('about') }}">About Us</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
@@ -61,36 +61,45 @@
                                             <a class="dropdown-item customdrodownitem" href="{{ route('seo') }}">SEO</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('socialmedia') }}">Social Media</a>
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('socialmedia') }}">Social Media</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('whatsappmarketing') }}">Whatsapp
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('whatsappmarketing') }}">Whatsapp
                                                 Marketing</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('videoproduction') }}">Video Production</a>
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('videoproduction') }}">Video Production</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('webdevelopment') }}">Web Development</a>
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('webdevelopment') }}">Web Development</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('designingservices') }}">Designing
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('designingservices') }}">Designing
                                                 Services</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('performancemedia') }}">Performance
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('performancemedia') }}">Performance
                                                 Media</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('marketplaceexpertise') }}">Marketplace
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('marketplaceexpertise') }}">Marketplace
                                                 Expertise</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('influencermarketing') }}">Influencer
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('influencermarketing') }}">Influencer
                                                 Marketing</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('googlebusinessprofile') }}">Google Business
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('googlebusinessprofile') }}">Google Business
                                                 Profile</a>
                                         </li>
                                     </ul>
@@ -99,7 +108,7 @@
                                     <a class="nav-link" href="#">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Partners</a>
+                                    <a class="nav-link" href="{{ route('partners')}}">Partners</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Blog</a>
@@ -108,7 +117,7 @@
                                     <a class="nav-link" href="#">Career</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
+                                    <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -135,10 +144,10 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="{{ route('about') }}">About Us</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
@@ -397,6 +406,10 @@
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
+            document.querySelectorAll('section').forEach(function (section) {
+                section.setAttribute('data-aos', 'fade-up');
+                section.setAttribute('data-aos-duration', '1000');
+            });
             AOS.init();
         </script>
 

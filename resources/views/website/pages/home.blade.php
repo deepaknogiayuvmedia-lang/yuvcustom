@@ -1,163 +1,157 @@
 @extends('website.layout.websitemain')
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
-
-
-
-
-    <!--Hero Section Starts-->
-    <section class="hero-section">
-        <div class="container">
-
-            <div class="row py-5">
-
-                <div class="hero-slider owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="row ">
-                            <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
-                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
-                                                </p>
-                                            </div>
+<!--Hero Section Starts-->
+<section class="hero-section">
+    <div class="container">
+        <div class="row py-5">
+            <div class="hero-slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="row ">
+                        <div class="col-md-7 hero-content">
+                            <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                            <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-start">
+                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                Corporates
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start">
-                                    <div class="">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                            Partner!</a>
-                                    </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <div class="">
+                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="mx-5">
+                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        Partner!</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
-                            </div>
+                        </div>
+                        <div class="col-md-4 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="row ">
-                            <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
-                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
-                                                </p>
-                                            </div>
+                </div>
+                <div class="item">
+                    <div class="row ">
+                        <div class="col-md-7 hero-content">
+                            <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                            <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-start">
+                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                Corporates
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start">
-                                    <div class="">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                            Partner!</a>
-                                    </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <div class="">
+                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="mx-5">
+                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        Partner!</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
-                            </div>
+                        </div>
+                        <div class="col-md-4 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
-                <div class=" d-flex align-items-center" style="width: 10%; ">
-                    <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
-                        class="me-2">
-                    I'm here to
-                </div>
-                <div class="col-md-7">
-                    <div class="d-flex justify-content-start action-btn">
-                        <a href="#">
-                            Design
-                        </a>
-                        <a href="#">
-                            Social Media Marketing
-
-
-                        </a>
-                        <a href="#">
-                            Website Development
-
-                        </a>
-                        <a href="#">
-                            Performance Marketing
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 text-end">
-                    <a href="#" class="text-secondary text-decoration-none">
-                        //Find the best service for your business
-                    </a>
-                </div>
-
             </div>
         </div>
 
 
-        <div class="container">
-            <div class="row col-lg-12">
-
+        <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+            <div class=" d-flex align-items-center" style="width: 10%; ">
+                <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
+                    class="me-2">
+                I'm here to
             </div>
-            <div class="container mt-4">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <article class="wrapper">
-                            <div class="marquee">
-                                <div class="marquee__group">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+            <div class="col-md-7">
+                <div class="d-flex justify-content-start action-btn">
+                    <a href="#">
+                        Design
+                    </a>
+                    <a href="#">
+                        Social Media Marketing
+
+
+                    </a>
+                    <a href="#">
+                        Website Development
+
+                    </a>
+                    <a href="#">
+                        Performance Marketing
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 text-end">
+                <a href="#" class="text-secondary text-decoration-none">
+                    //Find the best service for your business
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row col-lg-12">
+
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <article class="wrapper">
+                        <div class="marquee">
+                            <div class="marquee__group">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                <img class="rounded-2 me-3"
+                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
 
 
                                 </div>
@@ -410,9 +404,9 @@
                                         </div>
                                     </div>
 
-                                </div>
                             </div>
                         </div>
+                    </div>
 
                         {{-- Graphic Design --}}
                         <div class="service-card" data-index="0">
@@ -455,9 +449,9 @@
                                         </div>
                                     </div>
 
-                                </div>
                             </div>
                         </div>
+                    </div>
 
                         {{-- Development Services --}}
                         <div class="service-card" data-index="0">
@@ -499,9 +493,9 @@
                                         </div>
                                     </div>
 
-                                </div>
                             </div>
                         </div>
+                    </div>
 
 
 
@@ -512,106 +506,106 @@
         </div>
     </section>
 
-    {{-- Achieving Goals --}}
-    <section>
-        <div class="container py-5 ">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Achieving Goals
-                </div>
-                <div class="text-center">
-                    <p>
-                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                        and admire.
-                        Our team of experts is always keen on formulating only the right solutions for your business’
-                        everyday digital needs.
-                    </p>
+{{-- Achieving Goals --}}
+<section>
+    <div class="container py-5 ">
+        <div class="row">
+            <div class=" text-center fs-1 fw-bold">
+                Achieving Goals
+            </div>
+            <div class="text-center">
+                <p>
+                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                    and admire.
+                    Our team of experts is always keen on formulating only the right solutions for your business’
+                    everyday digital needs.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="servicecard">
+                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
+                        class="servicebg">
+                    <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
+                        class="serviceIcon">
+                    <div class="serviceHeading">
+                        Design
+                    </div>
+                    <div class="serviceContent">
+                        Our designs are more than just visuals;
+                        they’re stories waiting to be told.
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Design
-                        </div>
-                        <div class="serviceContent">
-                            Our designs are more than just visuals;
-                            they’re stories waiting to be told.
-                        </div>
+            <div class="col-md-3">
+                <div class="servicecard">
+                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                        class="servicebg">
+                    <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
+                        class="serviceIcon">
+                    <div class="serviceHeading">
+                        Social Media Marketing
+                    </div>
+                    <div class="serviceContent">
+                        In the bustling world of social media, we help your brand stand out.
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Social Media Marketing
-                        </div>
-                        <div class="serviceContent">
-                            In the bustling world of social media, we help your brand stand out.
-                        </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servicecard">
+                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                        class="servicebg">
+                    <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
+                        class="serviceIcon3">
+                    <div class="serviceHeading">
+                        Website Development
+                    </div>
+                    <div class="serviceContent">
+                        Your website is your digital storefront. We build websites that not only look
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                            class="serviceIcon3">
-                        <div class="serviceHeading">
-                            Website Development
-                        </div>
-                        <div class="serviceContent">
-                            Your website is your digital storefront. We build websites that not only look
-                        </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servicecard">
+                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                        class="servicebg">
+                    <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
+                        class="serviceIcon">
+                    <div class="serviceHeading">
+                        Performance Marketing
+                    </div>
+                    <div class="serviceContent">
+                        Experience substantial profit growth and a competitive edge through
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Performance Marketing
-                        </div>
-                        <div class="serviceContent">
-                            Experience substantial profit growth and a competitive edge through
-                        </div>
-                    </div>
-                </div>
+            </div>
 
             </div>
         </div>
     </section>
 
 
-    <!-- our work -->
-    <section>
-        <div class="container py-5">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Our Work
-                </div>
-                <div class=" text-center fs-2 fw-bold">
-                    Empowering every vertical in the country.
-                </div>
-                <div class="text-center">
-                    <p>
-                        We seek our thrill from making brands and businesses in diversified domains reach their right
-                        audience.
-                        With every conversion and each sale, we strive to set new standards for your business as well as
-                        ourselves.
-                    </p>
-                </div>
+<!-- our work -->
+<section>
+    <div class="container py-5">
+        <div class="row">
+            <div class=" text-center fs-1 fw-bold">
+                Our Work
             </div>
+            <div class=" text-center fs-2 fw-bold">
+                Empowering every vertical in the country.
+            </div>
+            <div class="text-center">
+                <p>
+                    We seek our thrill from making brands and businesses in diversified domains reach their right
+                    audience.
+                    With every conversion and each sale, we strive to set new standards for your business as well as
+                    ourselves.
+                </p>
+            </div>
+        </div>
 
             <div class="row industry">
                 <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
@@ -858,731 +852,729 @@
                                                                                                                                                                                                                     <div class="owl-dots disabled"></div> -->
                 </div>
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
-    <!-- core-team -->
-    <section class="core-team py-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Core Team
-                </div>
-                <div class=" text-center fs-3 fw-bold">
-                    Empowering every vertical in the country.
-                </div>
-                <p class=" text-center">
-                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
-                    With every conversion and each sale, we strive to set new standards for your business as well as
-                    ourselves.
-                </p>
+<!-- core-team -->
+<section class="core-team py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" text-center fs-1 fw-bold">
+                Core Team
             </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="core-team" class="owl-carousel">
-
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
+            <div class=" text-center fs-3 fw-bold">
+                Empowering every vertical in the country.
             </div>
+            <p class=" text-center">
+                We seek our thrill from making brands and businesses in diversified domains reach their right audience.
+                With every conversion and each sale, we strive to set new standards for your business as well as
+                ourselves.
+            </p>
         </div>
-    </section>
-    <!-- END OF core-team -->
 
-    {{-- services --}}
-    <section>
-        <div class="container py-5  servicesbox">
-
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Powering every industry. Powering all disruptors.</h1>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Nav tabs -->
-                <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
-                            type="button" role="tab">E-Commerce</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
-                            type="button" role="tab">Education</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3"
-                            type="button" role="tab">Real Estate</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4"
-                            type="button" role="tab">Saas</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5"
-                            type="button" role="tab">Freelance</button>
-                    </li>
-                </ul>
-
-                <div class="tab-content mt-3" id="myTabContent">
-                    <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
-
-
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
-                                    <h2>Empower your <br /> e-commerce business </h2>
-                                    <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                    </p>
-                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab2" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
-
-
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
-                                    <h2>Empower your <br /> e-commerce business </h2>
-                                    <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                    </p>
-                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab3" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
-
-
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
-                                    <h2>Empower your <br /> e-commerce business </h2>
-                                    <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab4" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
-
-
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
-                                    <h2>Empower your <br /> e-commerce business </h2>
-                                    <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab5" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
-
-
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
-                                    <h2>Empower your <br /> e-commerce business </h2>
-                                    <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6"></div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-    <!--Seamless Integration Section Starts-->
-    <section class="hero-sectionseamless p-0">
-        <div class="container">
-            <div class="row align-items-center  ">
-                <div class="col-md-6 hero-content">
-                    <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
-                        data flow across platforms</h1>
-                    <div class="text-start">
-                        <p>
-                            Seamless integration services ensure smooth data
-                            flow across platforms, enhancing efficiency,
-                            reducing redundancies, and providing real-time
-                            insights for better decision-making.
-                        </p>
-                    </div>
-                    <div class="d-flex justify-content-start">
-                        <div class="">
-                            <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-
-                    <div class="main-vertical-slider">
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track2">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track2">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Seamless Integration Section Ends-->
-
-
-
-
-    <!-- TESTIMONIALS -->
-    <section class="testimonials py-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Testimonials
-                </div>
-                <div class=" text-center fs-3 fw-bold">
-                    Exceptional results, happy clients.
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="customers-testimonials" class="owl-carousel">
-
-                        <!--TESTIMONIAL 1 -->
-                        <div class="item">
-                            <div class="shadow-effect">
-                                <div class="d-flex">
-                                    <i class="bi bi-star-fill text-warning me-2"></i>
-                                    <i class="bi bi-star-fill text-warning me-2"></i>
-                                    <i class="bi bi-star-fill text-warning me-2"></i>
-                                    <i class="bi bi-star-fill text-warning me-2"></i>
-                                    <i class="bi bi-star-fill text-warning me-2"></i>
-                                </div>
-                                <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
-                                    solutions.
-                                    Completely
-                                    synergize resource taxing relationships via premier niche markets. Professionally
-                                    cultivate.
-                                </p>
-                                <div class=" ">
-                                    <div class="testimonial-name d-flex  ">
-                                        <div class="me-2 ">
-                                            <img class="img-circle rounded-pill" width="50px"
-                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                                                alt="client">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="core-team" class="owl-carousel">
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Nitesh Sharma</div>
+                                                        <div class="fs-6 ">Full Stack Developer</div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
                                         <div>
-                                            <div class="author">Aditya Shankar</div>
-                                            <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                            <div>
+                                                <div class="author">Aditya Shankar</div>
+                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <!--END OF TESTIMONIAL 1 -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END OF TESTIMONIALS -->
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
 
-    <section class="contact_bg">
-        <div class="container-fluid py-3 " style="background-color: #032A3E">
-            <div class="ms-5 ps-5">
-                <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
-            </div>
-        </div>
-        <div class="container py-5 ">
-
-            <div class="row">
-                <div class="col-md-6" style="z-index: 10">
-                    <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
-
-                        <p class="fs-2 text-white fw-bold">
-                            Get customized solution,
-                            recommendation, and
-                            estimate for your
-                            requirement!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
-                        <div>
-                            Fill Out the form and we will
-                            contact you
-                        </div>
-                        <div>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
+                            </div>
 
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
                         </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!-- END OF core-team -->
 
-    </section>
+{{-- services --}}
+<section>
+    <div class="container py-5  servicesbox">
+
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Powering every industry. Powering all disruptors.</h1>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                        type="button" role="tab">E-Commerce</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
+                        role="tab">Education</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button"
+                        role="tab">Real Estate</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button"
+                        role="tab">Saas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button"
+                        role="tab">Freelance</button>
+                </li>
+            </ul>
+
+            <div class="tab-content mt-3" id="myTabContent">
+                <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
+                    <div class="row p-5 border rounded-3 servicebg"
+                        style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
+
+
+                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="">
+                                <h2>Empower your <br /> e-commerce business </h2>
+                                <p>
+                                    Streamline payment management with a unified dashboard, enabling both online and
+                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                </p>
+                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade  " id="tab2" role="tabpanel">
+                    <div class="row p-5 border rounded-3 servicebg"
+                        style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
+
+
+                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="">
+                                <h2>Empower your <br /> e-commerce business </h2>
+                                <p>
+                                    Streamline payment management with a unified dashboard, enabling both online and
+                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                </p>
+                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade  " id="tab3" role="tabpanel">
+                    <div class="row p-5 border rounded-3 servicebg"
+                        style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
+
+
+                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="">
+                                <h2>Empower your <br /> e-commerce business </h2>
+                                <p>
+                                    Streamline payment management with a unified dashboard, enabling both online and
+                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                </p>
+                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade  " id="tab4" role="tabpanel">
+                    <div class="row p-5 border rounded-3 servicebg"
+                        style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
+
+
+                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="">
+                                <h2>Empower your <br /> e-commerce business </h2>
+                                <p>
+                                    Streamline payment management with a unified dashboard, enabling both online and
+                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                </p>
+                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade  " id="tab5" role="tabpanel">
+                    <div class="row p-5 border rounded-3 servicebg"
+                        style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
+
+
+                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="">
+                                <h2>Empower your <br /> e-commerce business </h2>
+                                <p>
+                                    Streamline payment management with a unified dashboard, enabling both online and
+                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                </p>
+                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--Seamless Integration Section Starts-->
+<section class="hero-sectionseamless p-0">
+    <div class="container">
+        <div class="row align-items-center  ">
+            <div class="col-md-6 hero-content">
+                <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
+                    data flow across platforms</h1>
+                <div class="text-start">
+                    <p>
+                        Seamless integration services ensure smooth data
+                        flow across platforms, enhancing efficiency,
+                        reducing redundancies, and providing real-time
+                        insights for better decision-making.
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="">
+                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="main-vertical-slider">
+                    <div class="vertical-slider">
+                        <div class="vertical-slide-track">
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                            </div>
+                            <!-- Repeat the images for the seamless effect -->
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-slider">
+                        <div class="vertical-slide-track2">
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                            </div>
+                            <!-- Repeat the images for the seamless effect -->
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-slider">
+                        <div class="vertical-slide-track">
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                            </div>
+                            <!-- Repeat the images for the seamless effect -->
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-slider">
+                        <div class="vertical-slide-track2">
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                            </div>
+                            <!-- Repeat the images for the seamless effect -->
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                            </div>
+                            <div class="slide">
+                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--Seamless Integration Section Ends-->
+
+
+
+
+<!-- TESTIMONIALS -->
+<section class="testimonials py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" text-center fs-1 fw-bold">
+                Testimonials
+            </div>
+            <div class=" text-center fs-3 fw-bold">
+                Exceptional results, happy clients.
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="customers-testimonials" class="owl-carousel">
+
+                    <!--TESTIMONIAL 1 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <div class="d-flex">
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                            </div>
+                            <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
+                                solutions.
+                                Completely
+                                synergize resource taxing relationships via premier niche markets. Professionally
+                                cultivate.
+                            </p>
+                            <div class=" ">
+                                <div class="testimonial-name d-flex  ">
+                                    <div class="me-2 ">
+                                        <img class="img-circle rounded-pill" width="50px"
+                                            src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                            alt="client">
+                                    </div>
+                                    <div>
+                                        <div class="author">Aditya Shankar</div>
+                                        <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--END OF TESTIMONIAL 1 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END OF TESTIMONIALS -->
+
+<section class="contact_bg">
+    <div class="container-fluid py-3 " style="background-color: #032A3E">
+        <div class="ms-5 ps-5">
+            <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
+        </div>
+    </div>
+    <div class="container py-5 ">
+
+        <div class="row">
+            <div class="col-md-6" style="z-index: 10">
+                <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
+
+                    <p class="fs-2 text-white fw-bold">
+                        Get customized solution,
+                        recommendation, and
+                        estimate for your
+                        requirement!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
+                    <div>
+                        Fill Out the form and we will
+                        contact you
+                    </div>
+                    <div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 
 
