@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.theme.default.min.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/technologies.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -406,10 +407,10 @@
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            document.querySelectorAll('section').forEach(function (section) {
-                section.setAttribute('data-aos', 'fade-up');
-                section.setAttribute('data-aos-duration', '1000');
-            });
+            // document.querySelectorAll('section').forEach(function (section) {
+            //     section.setAttribute('data-aos', 'fade-up');
+            //     section.setAttribute('data-aos-duration', '1000');
+            // });
             AOS.init();
         </script>
 

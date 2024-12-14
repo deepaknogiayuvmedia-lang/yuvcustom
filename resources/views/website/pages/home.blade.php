@@ -1,157 +1,157 @@
 @extends('website.layout.websitemain')
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
-<!--Hero Section Starts-->
-<section class="hero-section">
-    <div class="container">
-        <div class="row py-5">
-            <div class="hero-slider owl-carousel owl-theme">
-                <div class="item">
-                    <div class="row ">
-                        <div class="col-md-7 hero-content">
-                            <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
-                            <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
+    <!--Hero Section Starts-->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row py-5">
+                <div class="hero-slider owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row ">
+                            <div class="col-md-7 hero-content">
+                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-start">
-                                <div class="">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row ">
-                        <div class="col-md-7 hero-content">
-                            <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
-                            <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
-                                        </div>
+                                <div class="d-flex justify-content-start">
+                                    <div class="">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-start">
-                                <div class="">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
-                                </div>
+                            <div class="col-md-4 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
                             </div>
                         </div>
-                        <div class="col-md-4 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
+                    </div>
+                    <div class="item">
+                        <div class="row ">
+                            <div class="col-md-7 hero-content">
+                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <div class="">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
-            <div class=" d-flex align-items-center" style="width: 10%; ">
-                <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
-                    class="me-2">
-                I'm here to
-            </div>
-            <div class="col-md-7">
-                <div class="d-flex justify-content-start action-btn">
-                    <a href="#">
-                        Design
-                    </a>
-                    <a href="#">
-                        Social Media Marketing
+            <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+                <div class=" d-flex align-items-center" style="width: 10%; ">
+                    <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
+                        class="me-2">
+                    I'm here to
+                </div>
+                <div class="col-md-7">
+                    <div class="d-flex justify-content-start action-btn">
+                        <a href="#">
+                            Design
+                        </a>
+                        <a href="#">
+                            Social Media Marketing
 
 
-                    </a>
-                    <a href="#">
-                        Website Development
+                        </a>
+                        <a href="#">
+                            Website Development
 
-                    </a>
-                    <a href="#">
-                        Performance Marketing
+                        </a>
+                        <a href="#">
+                            Performance Marketing
 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="#" class="text-secondary text-decoration-none">
+                        //Find the best service for your business
                     </a>
                 </div>
+
             </div>
-            <div class="col-md-3 text-end">
-                <a href="#" class="text-secondary text-decoration-none">
-                    //Find the best service for your business
-                </a>
+        </div>
+
+
+        <div class="container">
+            <div class="row col-lg-12">
+
             </div>
-
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row col-lg-12">
-
-        </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-lg-12">
-                    <article class="wrapper">
-                        <div class="marquee">
-                            <div class="marquee__group">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <article class="wrapper">
+                            <div class="marquee">
+                                <div class="marquee__group">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
+                                    <img class="rounded-2 me-3"
+                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
 
 
                                 </div>
@@ -273,7 +273,8 @@
                                                         class="card-img-top" alt="SEO">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Search Engine Optimization</h5>
-                                                        <p class="card-text">Boost search rankings, drive organic traffic, grow online visibility.</p>
+                                                        <p class="card-text">Boost search rankings, drive organic traffic,
+                                                            grow online visibility.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4" style="width: 18rem;">
@@ -281,10 +282,11 @@
                                                         class="card-img-top" alt="GBP">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Google Business Profile</h5>
-                                                        <p class="card-text">Optimize profiles, attract local customers, enhance business online presence.</p>
+                                                        <p class="card-text">Optimize profiles, attract local customers,
+                                                            enhance business online presence.</p>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
 
@@ -297,7 +299,8 @@
                                                         class="card-img-top" alt="Facebook">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Facebook</h5>
-                                                        <p class="card-text">Grow your business with our professional social media services!</p>
+                                                        <p class="card-text">Grow your business with our professional
+                                                            social media services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
@@ -305,7 +308,8 @@
                                                         class="card-img-top" alt="Instagram">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Instagram</h5>
-                                                        <p class="card-text">Level up your brand with our expert Instagram marketing services!</p>
+                                                        <p class="card-text">Level up your brand with our expert Instagram
+                                                            marketing services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
@@ -313,7 +317,8 @@
                                                         class="card-img-top" alt="LinkedIn">
                                                     <div class="card-body">
                                                         <h5 class="card-title">LinkedIn</h5>
-                                                        <p class="card-text">Enhance your professional presence with our LinkedIn marketing solutions!</p>
+                                                        <p class="card-text">Enhance your professional presence with our
+                                                            LinkedIn marketing solutions!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
@@ -321,7 +326,8 @@
                                                         class="card-img-top" alt="Pinterest">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Pinterest</h5>
-                                                        <p class="card-text">Drive traffic with our creative and strategic Pinterest marketing services!</p>
+                                                        <p class="card-text">Drive traffic with our creative and strategic
+                                                            Pinterest marketing services!</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -336,7 +342,8 @@
                                                         class="card-img-top" alt="Whatsapp Marketing">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Whatsapp Marketing</h5>
-                                                        <p class="card-text">Engage your audience instantly with our powerful WhatsApp marketing services!</p>
+                                                        <p class="card-text">Engage your audience instantly with our
+                                                            powerful WhatsApp marketing services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4" style="width: 18rem;">
@@ -344,7 +351,8 @@
                                                         class="card-img-top" alt="Email Marketing">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Email Marketing</h5>
-                                                        <p class="card-text">Connect and convert with our result-driven email marketing services!</p>
+                                                        <p class="card-text">Connect and convert with our result-driven
+                                                            email marketing services!</p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4" style="width: 18rem;">
@@ -352,10 +360,11 @@
                                                         class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Influencer Marketing</h5>
-                                                        <p class="card-text">Boost your brand with impactful influencer marketing campaigns!</p>
+                                                        <p class="card-text">Boost your brand with impactful influencer
+                                                            marketing campaigns!</p>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -375,7 +384,8 @@
                                                 class="card-img-top" alt="Amazon Seller">
                                             <div class="card-body">
                                                 <h5 class="card-title">Amazon Seller</h5>
-                                                <p class="card-text">Maximize your sales with our expert Amazon seller services!</p>
+                                                <p class="card-text">Maximize your sales with our expert Amazon seller
+                                                    services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -383,7 +393,8 @@
                                                 class="card-img-top" alt="Etsy Seller">
                                             <div class="card-body">
                                                 <h5 class="card-title">Etsy Seller</h5>
-                                                <p class="card-text">Grow your Etsy shop with our tailored marketing strategies!</p>
+                                                <p class="card-text">Grow your Etsy shop with our tailored marketing
+                                                    strategies!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -391,7 +402,8 @@
                                                 class="card-img-top" alt="Flipkart Seller">
                                             <div class="card-body">
                                                 <h5 class="card-title">Flipkart Seller</h5>
-                                                <p class="card-text">Boost your sales on Flipkart with our expert seller services!</p>
+                                                <p class="card-text">Boost your sales on Flipkart with our expert seller
+                                                    services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -399,14 +411,15 @@
                                                 class="card-img-top" alt="Meesho Seller">
                                             <div class="card-body">
                                                 <h5 class="card-title">Meesho Seller</h5>
-                                                <p class="card-text">Maximize your Meesho sales with our expert seller solutions!</p>
+                                                <p class="card-text">Maximize your Meesho sales with our expert seller
+                                                    solutions!</p>
                                             </div>
                                         </div>
                                     </div>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                         {{-- Graphic Design --}}
                         <div class="service-card" data-index="0">
@@ -420,7 +433,8 @@
                                                 class="card-img-top" alt="Graphic Designing">
                                             <div class="card-body">
                                                 <h5 class="card-title">Graphic Designing</h5>
-                                                <p class="card-text">Transform your brand with our creative and professional graphic design services!</p>
+                                                <p class="card-text">Transform your brand with our creative and
+                                                    professional graphic design services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -428,7 +442,8 @@
                                                 class="card-img-top" alt="Video Production">
                                             <div class="card-body">
                                                 <h5 class="card-title">Video Production</h5>
-                                                <p class="card-text">Bring your vision to life with our expert video production services!</p>
+                                                <p class="card-text">Bring your vision to life with our expert video
+                                                    production services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -436,7 +451,8 @@
                                                 class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
                                                 <h5 class="card-title">Product Shoot</h5>
-                                                <p class="card-text">Showcase your products in style with our professional product shoots!</p>
+                                                <p class="card-text">Showcase your products in style with our professional
+                                                    product shoots!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -444,14 +460,15 @@
                                                 class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
                                                 <h5 class="card-title">Brand Designing</h5>
-                                                <p class="card-text">Create a lasting impression with our expert brand designing services!</p>
+                                                <p class="card-text">Create a lasting impression with our expert brand
+                                                    designing services!</p>
                                             </div>
                                         </div>
                                     </div>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                         {{-- Development Services --}}
                         <div class="service-card" data-index="0">
@@ -464,7 +481,8 @@
                                                 class="card-img-top" alt="Web Development">
                                             <div class="card-body">
                                                 <h5 class="card-title">Web Development</h5>
-                                                <p class="card-text">Build a strong online presence with our expert web development services!</p>
+                                                <p class="card-text">Build a strong online presence with our expert web
+                                                    development services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -472,7 +490,8 @@
                                                 class="card-img-top" alt="App Development">
                                             <div class="card-body">
                                                 <h5 class="card-title">App Development</h5>
-                                                <p class="card-text">Transform your ideas into reality with our expert app development services!</p>
+                                                <p class="card-text">Transform your ideas into reality with our expert app
+                                                    development services!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -480,7 +499,8 @@
                                                 class="card-img-top" alt="Software Integrations">
                                             <div class="card-body">
                                                 <h5 class="card-title">Software Integrations</h5>
-                                                <p class="card-text">Streamline your business with seamless software integration solutions!</p>
+                                                <p class="card-text">Streamline your business with seamless software
+                                                    integration solutions!</p>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 18rem;">
@@ -488,14 +508,15 @@
                                                 class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                             <div class="card-body">
                                                 <h5 class="card-title">CRM (Odoo, Salesforce)</h5>
-                                                <p class="card-text">Optimize your customer relationships with our expert CRM solutions (Odoo, Salesforce)!</p>
+                                                <p class="card-text">Optimize your customer relationships with our expert
+                                                    CRM solutions (Odoo, Salesforce)!</p>
                                             </div>
                                         </div>
                                     </div>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
 
@@ -506,106 +527,106 @@
         </div>
     </section>
 
-{{-- Achieving Goals --}}
-<section>
-    <div class="container py-5 ">
-        <div class="row">
-            <div class=" text-center fs-1 fw-bold">
-                Achieving Goals
-            </div>
-            <div class="text-center">
-                <p>
-                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                    and admire.
-                    Our team of experts is always keen on formulating only the right solutions for your business’
-                    everyday digital needs.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="servicecard">
-                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                        class="servicebg">
-                    <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                        class="serviceIcon">
-                    <div class="serviceHeading">
-                        Design
-                    </div>
-                    <div class="serviceContent">
-                        Our designs are more than just visuals;
-                        they’re stories waiting to be told.
-                    </div>
+    {{-- Achieving Goals --}}
+    <section>
+        <div class="container py-5 ">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Achieving Goals
+                </div>
+                <div class="text-center">
+                    <p>
+                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                        and admire.
+                        Our team of experts is always keen on formulating only the right solutions for your business’
+                        everyday digital needs.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="servicecard">
-                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                        class="servicebg">
-                    <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                        class="serviceIcon">
-                    <div class="serviceHeading">
-                        Social Media Marketing
-                    </div>
-                    <div class="serviceContent">
-                        In the bustling world of social media, we help your brand stand out.
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="servicecard">
-                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                        class="servicebg">
-                    <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                        class="serviceIcon3">
-                    <div class="serviceHeading">
-                        Website Development
-                    </div>
-                    <div class="serviceContent">
-                        Your website is your digital storefront. We build websites that not only look
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Design
+                        </div>
+                        <div class="serviceContent">
+                            Our designs are more than just visuals;
+                            they’re stories waiting to be told.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="servicecard">
-                    <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                        class="servicebg">
-                    <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                        class="serviceIcon">
-                    <div class="serviceHeading">
-                        Performance Marketing
-                    </div>
-                    <div class="serviceContent">
-                        Experience substantial profit growth and a competitive edge through
+                <div class="col-md-3">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Social Media Marketing
+                        </div>
+                        <div class="serviceContent">
+                            In the bustling world of social media, we help your brand stand out.
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-3">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
+                            class="serviceIcon3">
+                        <div class="serviceHeading">
+                            Website Development
+                        </div>
+                        <div class="serviceContent">
+                            Your website is your digital storefront. We build websites that not only look
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Performance Marketing
+                        </div>
+                        <div class="serviceContent">
+                            Experience substantial profit growth and a competitive edge through
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
 
 
-<!-- our work -->
-<section>
-    <div class="container py-5">
-        <div class="row">
-            <div class=" text-center fs-1 fw-bold">
-                Our Work
+    <!-- our work -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Our Work
+                </div>
+                <div class=" text-center fs-2 fw-bold">
+                    Empowering every vertical in the country.
+                </div>
+                <div class="text-center">
+                    <p>
+                        We seek our thrill from making brands and businesses in diversified domains reach their right
+                        audience.
+                        With every conversion and each sale, we strive to set new standards for your business as well as
+                        ourselves.
+                    </p>
+                </div>
             </div>
-            <div class=" text-center fs-2 fw-bold">
-                Empowering every vertical in the country.
-            </div>
-            <div class="text-center">
-                <p>
-                    We seek our thrill from making brands and businesses in diversified domains reach their right
-                    audience.
-                    With every conversion and each sale, we strive to set new standards for your business as well as
-                    ourselves.
-                </p>
-            </div>
-        </div>
 
             <div class="row industry">
                 <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
@@ -847,734 +868,1385 @@
                     </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                                                                                                                                                                                                                aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                                                                                                                                                                                                                            class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                                                                                                                                                                                                                    <div class="owl-dots disabled"></div> -->
+                                                                                                                                                                                                                                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                                                                                                                                                                                                                    class="owl-next disabled"><span aria-label="Next">›</span></button></div>
+                                                                                                                                                                                                                            <div class="owl-dots disabled"></div> -->
                 </div>
 
-        </div>
-    </div>
-</section>
-
-
-
-<!-- core-team -->
-<section class="core-team py-5">
-    <div class="container-fluid">
-        <div class="row">
-            <div class=" text-center fs-1 fw-bold">
-                Core Team
             </div>
-            <div class=" text-center fs-3 fw-bold">
-                Empowering every vertical in the country.
-            </div>
-            <p class=" text-center">
-                We seek our thrill from making brands and businesses in diversified domains reach their right audience.
-                With every conversion and each sale, we strive to set new standards for your business as well as
-                ourselves.
-            </p>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="core-team" class="owl-carousel">
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+
+
+    <!-- core-team -->
+    <section class="core-team py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Core Team
+                </div>
+                <div class=" text-center fs-3 fw-bold">
+                    Empowering every vertical in the country.
+                </div>
+                <p class=" text-center">
+                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
+                    With every conversion and each sale, we strive to set new standards for your business as well as
+                    ourselves.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="core-team" class="owl-carousel">
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF core-team -->
+
+    {{-- services --}}
+    <section>
+        <div class="container py-5  servicesbox">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Powering every industry. Powering all disruptors.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Nav tabs -->
+                <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                            type="button" role="tab">E-Commerce</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
+                            type="button" role="tab">Education</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3"
+                            type="button" role="tab">Real Estate</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4"
+                            type="button" role="tab">Saas</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5"
+                            type="button" role="tab">Freelance</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content mt-3" id="myTabContent">
+                    <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab2" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab3" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab4" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade  " id="tab5" role="tabpanel">
+                        <div class="row p-5 border rounded-3 servicebg"
+                            style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
+
+
+                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                                <div class="">
+                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <p>
+                                        Streamline payment management with a unified dashboard, enabling both online and
+                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Seamless Integration Section Starts-->
+    {{-- <section class="hero-sectionseamless p-0">
+        <div class="container">
+            <div class="row align-items-center  ">
+                <div class="col-md-6 hero-content">
+                    <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
+                        data flow across platforms</h1>
+                    <div class="text-start">
+                        <p>
+                            Seamless integration services ensure smooth data
+                            flow across platforms, enhancing efficiency,
+                            reducing redundancies, and providing real-time
+                            insights for better decision-making.
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-start">
+                        <div class="">
+                            <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="main-vertical-slider">
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track2">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-slider">
+                            <div class="vertical-slide-track2">
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
+                                </div>
+                                <!-- Repeat the images for the seamless effect -->
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!--Seamless Integration Section Ends-->
+
+
+    {{-- tools section --}}
+    <section class="technologies-sec aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1200"
+        data-aos-delay="000">
+        <div class="technical-stack-section">
+            <div class="container">
+                <div class="text-center mx-auto">
+                    <div class="ph-heading-title">
+                        <h2>Technologies We Use</h2>
+                    </div>
+                </div>
+                <div class="technical-stack-inn">
+                    <div class="technical-stack-main">
+                        <div class="technical-main-div">
+                            <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-6">
+                                    <div class="technical-main-mdl">
+                                        <div class="technical-main-img aos-init aos-animate" data-aos="zoom-out">
+                                            <span>
+                                                <img class="perfmatters-lazy entered pmloaded" data-ll-status="loaded"
+                                                    src="{{ asset('assets/websiteassets/images/technology-image.png')}}"
+                                                    alt="Soumya IT Solution technology logo">
+                                            </span>
+                                        </div>
+                                        <div class="technical-tk-ul">
+                                            <ul>
+                                                <li class="frontend aos-init aos-animate" data-aos="fade-right">
+                                                    <a href="javascript:;">Frontend</a>
+                                                    <ul>
+                                                        <li class="css3">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="css style"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="css-3-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/css-3-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="html5">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="html 5"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="html5-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/html5-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="javascript">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="javascript language"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="javascript-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/javascript-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="angular">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="angular icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="angular-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/angular-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="react">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="react native"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="react-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/react-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="less">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="less icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="less.png" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/less.png">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="jquery">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="jquery icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="jQuery.svg" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/jQuery.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="backend aos-init aos-animate" data-aos="fade-down">
+                                                    <a href="javascript:;">Backend</a>
+                                                    <ul>
+                                                        <li class="php">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="php technology"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="php-Icon.svg" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/php-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="codeigniter">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="ci icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="ci-icon.webp" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ci-icon.png">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="drupal">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="drupal icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="drupal-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/drupal-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="joomla">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="joomla frameworks"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="joomla-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/joomla-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="laravel">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="laravel development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="laravel.png" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/laravel.png">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="magento">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="magent technology"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="magento.png" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/magento.png">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="mysql">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="mysql language"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="mysql-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/mysql-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="nodejs">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="nodejs development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="node-js-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/node-js-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="rubyonrails">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="ruby on rails"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="ruby-Icon.svg" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ruby-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="shopify">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="shopify development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="shopify-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/shopify-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="mobile-app aos-init aos-animate" data-aos="fade-left">
+                                                    <a href="javascript:;">Mobile App</a>
+                                                    <ul>
+                                                        <li class="android">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="android development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="android-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/android-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="ios">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="ios development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="ios-Icon.svg" data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ios-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="flutter">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="flutter development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="flutter-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/flutter-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="kotlin">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="kotlin"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="kotlin-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/kotlin-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="react-native">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="react native developers"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="react-native.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/react-native.png">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="swift">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="swift logo"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="swift-alt-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/swift-alt-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="ui-ux-design aos-init aos-animate" data-aos="fade-up">
+                                                    <a href="javascript:;">UI/UX design</a>
+                                                    <ul>
+                                                        <li class="adobe-xd">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe-xd "
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="adobe-xd-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-xd-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="illustrator">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe illustrator logo"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="adobe-illustrator-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-illustrator-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="photoshop">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe photoshop"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="adobe-photoshop-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-photoshop-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="figma">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="figma image"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="figma-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/figma-Icon.svg">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+                        <div class="technical-stack-ul">
+                            <ul>
+                                <li class="adobe-xd aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="900">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="adobe xd image" class="perfmatters-lazy entered pmloaded"
+                                                data-src="adobe-xd-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-xd-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="android aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="600">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="android development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="android-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/android-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="angularjs aos-init aos-animate" data-aos="fade-left"
+                                    data-aos-duration="1600" data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="angular development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="angular-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/angular-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="aws aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="amazon " class="perfmatters-lazy entered pmloaded"
+                                                data-src="amazon-web-services-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/amazon-web-services-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="codeigniter aos-init aos-animate" data-aos="fade-up"
+                                    data-aos-duration="1600" data-aos-delay="800">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ci image" class="perfmatters-lazy entered pmloaded"
+                                                data-src="ci-icon.webp" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ci-icon.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="css3 aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="css 3" class="perfmatters-lazy entered pmloaded"
+                                                data-src="css-3-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/css-3-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="drupal aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="drupal-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/drupal-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="flutter aos-init aos-animate" data-aos="fade-right"
+                                    data-aos-duration="1600" data-aos-delay="200">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="flutter-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/flutter-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="html5 aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
+                                                data-src="html5-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/html5-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="illustrator aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="illustrator" class="perfmatters-lazy entered pmloaded"
+                                                data-src="adobe-illustrator-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-illustrator-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="ios aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ios development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="ios-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ios-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="shopify aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="shopify-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/shopify-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="javascript aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="javascript" class="perfmatters-lazy entered pmloaded"
+                                                data-src="javascript-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/javascript-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="joomla aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="200">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="joomla-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/joomla-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="jquery aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="jquery" class="perfmatters-lazy entered pmloaded"
+                                                data-src="jQuery.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/jQuery.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="kotlin aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
+                                                data-src="kotlin-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/kotlin-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="laravel aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="laravel.png" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/laravel.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="less aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="less" class="perfmatters-lazy entered pmloaded"
+                                                data-src="less.png" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/less.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="magento aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="1000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="magento" class="perfmatters-lazy entered pmloaded"
+                                                data-src="magento.png" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/magento.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mongodb aos-init aos-animate" data-aos="fade-right"
+                                    data-aos-duration="1600" data-aos-delay="1100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="mangodb" class="perfmatters-lazy entered pmloaded"
+                                                data-src="mongodb.png" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/mongodb.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mysql aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="600">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="mysql" class="perfmatters-lazy entered pmloaded"
+                                                data-src="mysql-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/mysql-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="nodejs aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
+                                                data-src="node-js-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/node-js-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="photoshop aos-init aos-animate" data-aos="fade-left"
+                                    data-aos-duration="1600" data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="adobe photoshop" class="perfmatters-lazy entered pmloaded"
+                                                data-src="adobe-photoshop-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-photoshop-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="php aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="800">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="php developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="php-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/php-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="react aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="react developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="react-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/react-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="react-native aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="react-native.png" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/react-native.png">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="rubyonrails aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="900">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
+                                                data-src="ruby-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ruby-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="swift aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="1000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="swift" class="perfmatters-lazy entered pmloaded"
+                                                data-src="swift-alt-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/swift-alt-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="figma aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="figma" class="perfmatters-lazy entered pmloaded"
+                                                data-src="figma-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/figma-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="wordpress aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="00">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="wordpress development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="wordpress-Icon.svg" data-ll-status="loaded"
+                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/wordpress-Icon.svg">
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" text-center fs-1 fw-bold">
+                    Testimonials
+                </div>
+                <div class=" text-center fs-3 fw-bold">
+                    Exceptional results, happy clients.
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="customers-testimonials" class="owl-carousel">
+
+                        <!--TESTIMONIAL 1 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
+                                    solutions.
+                                    Completely
+                                    synergize resource taxing relationships via premier niche markets. Professionally
+                                    cultivate.
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div>
                                         <div>
-                                            <p>Razorpay Magic Checkout is
-                                                truly a magical solution. Our
-                                                conversion rate has increased
-                                                by 35% & our COD, RTO has
-                                                drastically decreased.</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
-                                            <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        </div>
-
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        </div>
-
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
+                                            <div class="author">Aditya Shankar</div>
+                                            <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
+                        <!--END OF TESTIMONIAL 1 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="ms-5 ps-5">
+                <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
+            </div>
+        </div>
+        <div class="container py-5 ">
 
+            <div class="row">
+                <div class="col-md-6" style="z-index: 10">
+                    <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
+
+                        <p class="fs-2 text-white fw-bold">
+                            Get customized solution,
+                            recommendation, and
+                            estimate for your
+                            requirement!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
+                        <div>
+                            Fill Out the form and we will
+                            contact you
                         </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
+                        <div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END OF core-team -->
-
-{{-- services --}}
-<section>
-    <div class="container py-5  servicesbox">
-
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Powering every industry. Powering all disruptors.</h1>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Nav tabs -->
-            <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
-                        type="button" role="tab">E-Commerce</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
-                        role="tab">Education</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button"
-                        role="tab">Real Estate</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button"
-                        role="tab">Saas</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button"
-                        role="tab">Freelance</button>
-                </li>
-            </ul>
-
-            <div class="tab-content mt-3" id="myTabContent">
-                <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
-                    <div class="row p-5 border rounded-3 servicebg"
-                        style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
-
-
-                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                            <div class="">
-                                <h2>Empower your <br /> e-commerce business </h2>
-                                <p>
-                                    Streamline payment management with a unified dashboard, enabling both online and
-                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                </p>
-                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6"></div>
-
-                    </div>
-                </div>
-                <div class="tab-pane fade  " id="tab2" role="tabpanel">
-                    <div class="row p-5 border rounded-3 servicebg"
-                        style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
-
-
-                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                            <div class="">
-                                <h2>Empower your <br /> e-commerce business </h2>
-                                <p>
-                                    Streamline payment management with a unified dashboard, enabling both online and
-                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                </p>
-                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6"></div>
-
-                    </div>
-                </div>
-                <div class="tab-pane fade  " id="tab3" role="tabpanel">
-                    <div class="row p-5 border rounded-3 servicebg"
-                        style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
-
-
-                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                            <div class="">
-                                <h2>Empower your <br /> e-commerce business </h2>
-                                <p>
-                                    Streamline payment management with a unified dashboard, enabling both online and
-                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6"></div>
-
-                    </div>
-                </div>
-                <div class="tab-pane fade  " id="tab4" role="tabpanel">
-                    <div class="row p-5 border rounded-3 servicebg"
-                        style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
-
-
-                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                            <div class="">
-                                <h2>Empower your <br /> e-commerce business </h2>
-                                <p>
-                                    Streamline payment management with a unified dashboard, enabling both online and
-                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6"></div>
-
-                    </div>
-                </div>
-                <div class="tab-pane fade  " id="tab5" role="tabpanel">
-                    <div class="row p-5 border rounded-3 servicebg"
-                        style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
-
-
-                        <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                            <div class="">
-                                <h2>Empower your <br /> e-commerce business </h2>
-                                <p>
-                                    Streamline payment management with a unified dashboard, enabling both online and
-                                    in-person payment collection while enhancing conversion rates and minimizing fraud.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6"></div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-    </div>
-</section>
-
-
-
-
-
-<!--Seamless Integration Section Starts-->
-<section class="hero-sectionseamless p-0">
-    <div class="container">
-        <div class="row align-items-center  ">
-            <div class="col-md-6 hero-content">
-                <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
-                    data flow across platforms</h1>
-                <div class="text-start">
-                    <p>
-                        Seamless integration services ensure smooth data
-                        flow across platforms, enhancing efficiency,
-                        reducing redundancies, and providing real-time
-                        insights for better decision-making.
-                    </p>
-                </div>
-                <div class="d-flex justify-content-start">
-                    <div class="">
-                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-
-                <div class="main-vertical-slider">
-                    <div class="vertical-slider">
-                        <div class="vertical-slide-track">
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                            </div>
-                            <!-- Repeat the images for the seamless effect -->
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vertical-slider">
-                        <div class="vertical-slide-track2">
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                            </div>
-                            <!-- Repeat the images for the seamless effect -->
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vertical-slider">
-                        <div class="vertical-slide-track">
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                            </div>
-                            <!-- Repeat the images for the seamless effect -->
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vertical-slider">
-                        <div class="vertical-slide-track2">
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                            </div>
-                            <!-- Repeat the images for the seamless effect -->
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                            </div>
-                            <div class="slide">
-                                <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!--Seamless Integration Section Ends-->
-
-
-
-
-<!-- TESTIMONIALS -->
-<section class="testimonials py-5">
-    <div class="container-fluid">
-        <div class="row">
-            <div class=" text-center fs-1 fw-bold">
-                Testimonials
-            </div>
-            <div class=" text-center fs-3 fw-bold">
-                Exceptional results, happy clients.
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="customers-testimonials" class="owl-carousel">
-
-                    <!--TESTIMONIAL 1 -->
-                    <div class="item">
-                        <div class="shadow-effect">
-                            <div class="d-flex">
-                                <i class="bi bi-star-fill text-warning me-2"></i>
-                                <i class="bi bi-star-fill text-warning me-2"></i>
-                                <i class="bi bi-star-fill text-warning me-2"></i>
-                                <i class="bi bi-star-fill text-warning me-2"></i>
-                                <i class="bi bi-star-fill text-warning me-2"></i>
-                            </div>
-                            <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
-                                solutions.
-                                Completely
-                                synergize resource taxing relationships via premier niche markets. Professionally
-                                cultivate.
-                            </p>
-                            <div class=" ">
-                                <div class="testimonial-name d-flex  ">
-                                    <div class="me-2 ">
-                                        <img class="img-circle rounded-pill" width="50px"
-                                            src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                                            alt="client">
-                                    </div>
-                                    <div>
-                                        <div class="author">Aditya Shankar</div>
-                                        <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
-                                    </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!--END OF TESTIMONIAL 1 -->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END OF TESTIMONIALS -->
-
-<section class="contact_bg">
-    <div class="container-fluid py-3 " style="background-color: #032A3E">
-        <div class="ms-5 ps-5">
-            <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
-        </div>
-    </div>
-    <div class="container py-5 ">
-
-        <div class="row">
-            <div class="col-md-6" style="z-index: 10">
-                <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
-
-                    <p class="fs-2 text-white fw-bold">
-                        Get customized solution,
-                        recommendation, and
-                        estimate for your
-                        requirement!
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
-                    <div>
-                        Fill Out the form and we will
-                        contact you
-                    </div>
-                    <div>
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
 
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
 
 
@@ -1622,5 +2294,6 @@
         })
     </script>
 
+    
 
 @endsection

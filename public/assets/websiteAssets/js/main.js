@@ -67,3 +67,36 @@ $('.hero-slider').owlCarousel({
     }
 })
 
+const elements = [{
+    element: document.querySelector('.frontend'),
+    className: 'frontend'
+},
+{
+    element: document.querySelector('.backend'),
+    className: 'backend'
+},
+{
+    element: document.querySelector('.mobile-app'),
+    className: 'mobile-app'
+},
+{
+    element: document.querySelector('.ui-ux-design'),
+    className: 'ui-ux-design'
+},
+];
+
+const techstack = document.querySelector('.technical-stack-main');
+
+elements.forEach(({
+element,
+className
+}) => {
+element.addEventListener('mouseenter', () => {
+    techstack.classList.add('index-top');
+    element.classList.add('active');
+});
+element.addEventListener('mouseleave', () => {
+    techstack.classList.remove('index-top');
+    element.classList.remove('active');
+});
+});
