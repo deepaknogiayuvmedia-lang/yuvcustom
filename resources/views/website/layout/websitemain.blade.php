@@ -45,7 +45,8 @@
                         <div class="px-3">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
+                                    <a class="nav-link active" aria-current="page"
+                                        href="{{ route('homepage') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('about') }}">About Us</a>
@@ -105,7 +106,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Work</a>
+                                    <a class="nav-link" href="{{ route('work')}}">Work</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('partners')}}">Partners</a>
@@ -144,7 +145,8 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
+                                    <a class="nav-link active" aria-current="page"
+                                        href="{{ route('homepage') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('about') }}">About Us</a>
@@ -402,6 +404,8 @@
             </script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
