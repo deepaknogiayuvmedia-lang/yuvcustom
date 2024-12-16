@@ -4,12 +4,12 @@
     <!--Hero Section Starts-->
     <section class="hero-section">
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-md-5 pt-0">
                 <div class="hero-slider owl-carousel owl-theme">
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h1 class="heroheading fw-bolder hideInDesktop">The all in one finance platform</h1>
                                 <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
@@ -22,12 +22,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start">
-                                    <div class="">
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center">
                                         <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
-                                    <div class="mx-5">
+                                    <div class="mx-5 mb-3 text-center">
                                         <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
                                             Partner!</a>
                                     </div>
@@ -54,12 +54,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start">
-                                    <div class="">
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
                                         <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
-                                    <div class="mx-5">
+                                    <div class="mx-5 mb-3 text-center">
                                         <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
                                             Partner!</a>
                                     </div>
@@ -74,13 +74,13 @@
             </div>
 
 
-            <div class="row bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
-                <div class=" d-flex align-items-center" style="width: 10%; ">
+            <div class="row hereBox bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+                <div class=" d-flex align-items-center heretext">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
                     I'm here to
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col">
                     <div class="d-flex justify-content-start action-btn">
                         <a href="#">
                             Design
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3 text-end">
+                <div class="col-md-3 text-end hideInMobile">
                     <a href="#" class="text-secondary text-decoration-none">
                         //Find the best service for your business
                     </a>
@@ -224,8 +224,8 @@
                                         {{-- performance marketing --}}
                                         <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
                                             aria-labelledby="performance-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card " style="width: 18rem;">
+                                            <div class="d-flex my-3 justify-content-around pmarketing">
+                                                <div class="card  " style=" ">
                                                     <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -234,7 +234,7 @@
                                                             high-performing Google Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card  " style=" ">
                                                     <img src="https://d1baueb6wfhxkz.cloudfront.net/5fd054a9a5dfae0128d29b2f/large/1611731070028966.jpeg"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -243,7 +243,7 @@
                                                             data-driven, targeted Facebook Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card  " style=" ">
                                                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvS6wb_SW5BlgqY_gRpJfbx9X6iKJTMnu6HIjCGpIyYNZEa-ZcwA-MSNnMGKNgOHINnfhhaiBLRj9WpgzO-qusEcz73cY9nzmQCOzq4xC6xd1hOwHjCAedMq4b8CdWYFYDxqvqjlpqP-vPb-4qSa7_ThhjyFMH4JnpxoteMUwKaqh8gJNgyqvq5-tE8ca/s1600/images%20%282%29.png"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -252,7 +252,7 @@
                                                             effective, performance-driven MGID Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card  " style=" ">
                                                     <img src="https://hyperhost.ua/info/storage/uploads/2021/01/shopping%20online.png"
                                                         class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -267,8 +267,8 @@
                                         {{-- seo --}}
                                         <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
                                             aria-labelledby="seo-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start">
-                                                <div class="card me-4" style="width: 18rem;">
+                                            <div class="d-flex my-3 justify-content-start pmarketing">
+                                                <div class="card me-4" style=" ">
                                                     <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
                                                         class="card-img-top" alt="SEO">
                                                     <div class="card-body">
@@ -277,7 +277,7 @@
                                                             grow online visibility.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style="width: 18rem;">
+                                                <div class="card me-4" style=" ">
                                                     <img src="https://static.fundrazr.com/rewards/9055f40593bd48989864f39c6a701988_large.jpg?cb=1610462315287"
                                                         class="card-img-top" alt="GBP">
                                                     <div class="card-body">
@@ -293,8 +293,8 @@
                                         {{-- social media --}}
                                         <div class="tab-pane" id="social-tab-pane" role="tabpanel"
                                             aria-labelledby="social-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
+                                            <div class="d-flex my-3 justify-content-around pmarketing">
+                                                <div class="card" style=" ">
                                                     <img src="https://cdn.nextgov.com/media/img/upload/2018/03/21/032118facebookNG/open-graph.jpg"
                                                         class="card-img-top" alt="Facebook">
                                                     <div class="card-body">
@@ -303,7 +303,7 @@
                                                             social media services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card" style=" ">
                                                     <img src="https://www.menosfios.com/wp-content/uploads/2021/11/modo-noturno-no-instagram-capa.jpg"
                                                         class="card-img-top" alt="Instagram">
                                                     <div class="card-body">
@@ -312,7 +312,7 @@
                                                             marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card" style=" ">
                                                     <img src="https://thepostworkspaces.com/wp-content/uploads/2022/07/souvik-banerjee-JLj_NbvlDDo-unsplash-600x600.jpg"
                                                         class="card-img-top" alt="LinkedIn">
                                                     <div class="card-body">
@@ -321,7 +321,7 @@
                                                             LinkedIn marketing solutions!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
+                                                <div class="card" style=" ">
                                                     <img src="https://somewhereoverthepage.wordpress.com/wp-content/uploads/2015/05/jos-in_-the_-know_-pinterest.jpg?w=980&h=980&crop=1"
                                                         class="card-img-top" alt="Pinterest">
                                                     <div class="card-body">
@@ -336,8 +336,8 @@
                                         {{-- marketing --}}
                                         <div class="tab-pane" id="online-tab-pane" role="tabpanel"
                                             aria-labelledby="online-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start">
-                                                <div class="card me-4" style="width: 18rem;">
+                                            <div class="d-flex my-3 justify-content-start pmarketing">
+                                                <div class="card me-4" style=" ">
                                                     <img src="https://framerusercontent.com/images/6AE8iMtu15A4FI6oK288NMx4rc.png?scale-down-to=512"
                                                         class="card-img-top" alt="Whatsapp Marketing">
                                                     <div class="card-body">
@@ -346,7 +346,7 @@
                                                             powerful WhatsApp marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style="width: 18rem;">
+                                                <div class="card me-4" style=" ">
                                                     <img src="https://www.pngplay.com/wp-content/uploads/13/Email-Marketing-Free-PNG.png"
                                                         class="card-img-top" alt="Email Marketing">
                                                     <div class="card-body">
@@ -355,7 +355,7 @@
                                                             email marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style="width: 18rem;">
+                                                <div class="card me-4" style=" ">
                                                     <img src="https://i.pinimg.com/originals/e6/e5/31/e6e5319b47f55a0af5518f0fcd97f919.jpg"
                                                         class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
@@ -378,8 +378,8 @@
                                 <div class="service-card__content">
                                     <h1 class="service-card__title">Seller Management</h1>
 
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card" style=" ">
                                             <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5979657/23560_302172.jpg"
                                                 class="card-img-top" alt="Amazon Seller">
                                             <div class="card-body">
@@ -388,7 +388,7 @@
                                                     services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc0NTE5NDM0NDM2NjgzNzIx/etsy.jpg"
                                                 class="card-img-top" alt="Etsy Seller">
                                             <div class="card-body">
@@ -397,7 +397,7 @@
                                                     strategies!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://th-i.thgim.com/public/business/Industry/kilrnc/article24671698.ece/alternates/FREE_1200/TH13FLIPKART"
                                                 class="card-img-top" alt="Flipkart Seller">
                                             <div class="card-body">
@@ -406,7 +406,7 @@
                                                     services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://thejobcompany.in/adminware/uploads/logos/1728482558.png"
                                                 class="card-img-top" alt="Meesho Seller">
                                             <div class="card-body">
@@ -427,8 +427,8 @@
                                 <div class="service-card__content">
                                     <h1 class="service-card__title">Design Services</h1>
 
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card" style=" ">
                                             <img src="https://papik.pro/uploads/posts/2021-10/thumbs/1634672301_3-papik-pro-p-tsifrovoi-plakat-4.jpg"
                                                 class="card-img-top" alt="Graphic Designing">
                                             <div class="card-body">
@@ -437,7 +437,7 @@
                                                     professional graphic design services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://yt3.googleusercontent.com/ytc/APkrFKYvstGKw7D2Maz2TeaKIl-P3mmoMaZ_gBamx-x_=s900-c-k-c0x00ffffff-no-rj"
                                                 class="card-img-top" alt="Video Production">
                                             <div class="card-body">
@@ -446,7 +446,7 @@
                                                     production services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://d2vx7hn49802k2.cloudfront.net/wp-content/uploads/2021/03/Product-Photography.jpg"
                                                 class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
@@ -455,7 +455,7 @@
                                                     product shoots!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://www.feedsfloor.com/sites/default/files/styles/largenews/public/Merchandise%20Designing%20Market.jpg?itok=OH0sSqP_"
                                                 class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
@@ -475,8 +475,8 @@
                             <div class="service-card__inner">
                                 <div class="service-card__content">
                                     <h1 class="service-card__title">Development Services</h1>
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card" style=" ">
                                             <img src="https://www.web-rasswet.ru/img/razrabotka-saitow.jpg"
                                                 class="card-img-top" alt="Web Development">
                                             <div class="card-body">
@@ -485,7 +485,7 @@
                                                     development services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://cpimg.tistatic.com/05392545/b/5/App-Development-Service.png"
                                                 class="card-img-top" alt="App Development">
                                             <div class="card-body">
@@ -494,7 +494,7 @@
                                                     development services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1642369415_59-papik-pro-p-sistema-klipart-64.png"
                                                 class="card-img-top" alt="Software Integrations">
                                             <div class="card-body">
@@ -503,7 +503,7 @@
                                                     integration solutions!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 18rem;">
+                                        <div class="card" style=" ">
                                             <img src="https://russia-dropshipping.ru/800/600/http/themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2016/04/14121345/CRM-Infographic-K3.jpg"
                                                 class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                             <div class="card-body">
@@ -529,7 +529,7 @@
 
     {{-- Achieving Goals --}}
     <section>
-        <div class="container py-5 ">
+        <div class="container pt-5">
             <div class="row">
                 <div class=" text-center fs-1 fw-bold">
                     Achieving Goals
@@ -544,65 +544,70 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Design
-                        </div>
-                        <div class="serviceContent">
-                            Our designs are more than just visuals;
-                            they’re stories waiting to be told.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Social Media Marketing
-                        </div>
-                        <div class="serviceContent">
-                            In the bustling world of social media, we help your brand stand out.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                            class="serviceIcon3">
-                        <div class="serviceHeading">
-                            Website Development
-                        </div>
-                        <div class="serviceContent">
-                            Your website is your digital storefront. We build websites that not only look
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Performance Marketing
-                        </div>
-                        <div class="serviceContent">
-                            Experience substantial profit growth and a competitive edge through
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="container-fluid pb-5">
+            <div class="container ">
 
+                <div class="row goals justify-content-center p-3">
+                    <div class="">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Design
+                            </div>
+                            <div class="serviceContent">
+                                Our designs are more than just visuals;
+                                they’re stories waiting to be told.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Social Media Marketing
+                            </div>
+                            <div class="serviceContent">
+                                In the bustling world of social media, we help your brand stand out.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
+                                class="serviceIcon3">
+                            <div class="serviceHeading">
+                                Website Development
+                            </div>
+                            <div class="serviceContent">
+                                Your website is your digital storefront. We build websites that not only look
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Performance Marketing
+                            </div>
+                            <div class="serviceContent">
+                                Experience substantial profit growth and a competitive edge through
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
@@ -868,9 +873,9 @@
                     </div>
 
                     <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                                                                                                                                                                                                                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                                                                                                                                                                                                                                    class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                                                                                                                                                                                                                            <div class="owl-dots disabled"></div> -->
+                                                                                                                                                                                                                                                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                                                                                                                                                                                                                                    class="owl-next disabled"><span aria-label="Next">›</span></button></div>
+                                                                                                                                                                                                                                            <div class="owl-dots disabled"></div> -->
                 </div>
 
             </div>
@@ -1133,11 +1138,11 @@
         <div class="container py-5  servicesbox">
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 text-wrap">
                     <h1>Powering every industry. Powering all disruptors.</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row p-3">
                 <!-- Nav tabs -->
                 <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -1164,12 +1169,12 @@
 
                 <div class="tab-content mt-3" id="myTabContent">
                     <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
+                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
                             style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
 
 
                             <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
+                                <div class="serviceBanner">
                                     <h2>Empower your <br /> e-commerce business </h2>
                                     <p>
                                         Streamline payment management with a unified dashboard, enabling both online and
@@ -1184,12 +1189,12 @@
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab2" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
+                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
                             style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
 
 
                             <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
+                                <div class="serviceBanner">
                                     <h2>Empower your <br /> e-commerce business </h2>
                                     <p>
                                         Streamline payment management with a unified dashboard, enabling both online and
@@ -1204,12 +1209,12 @@
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab3" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
+                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
                             style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
 
 
                             <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
+                                <div class="serviceBanner">
                                     <h2>Empower your <br /> e-commerce business </h2>
                                     <p>
                                         Streamline payment management with a unified dashboard, enabling both online and
@@ -1224,12 +1229,12 @@
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab4" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
+                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
                             style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
 
 
                             <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
+                                <div class="serviceBanner">
                                     <h2>Empower your <br /> e-commerce business </h2>
                                     <p>
                                         Streamline payment management with a unified dashboard, enabling both online and
@@ -1244,12 +1249,12 @@
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab5" role="tabpanel">
-                        <div class="row p-5 border rounded-3 servicebg"
+                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
                             style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
 
 
                             <div class="col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="">
+                                <div class="serviceBanner">
                                     <h2>Empower your <br /> e-commerce business </h2>
                                     <p>
                                         Streamline payment management with a unified dashboard, enabling both online and
@@ -1474,7 +1479,7 @@
 
 
     {{-- tools section --}}
-    <section class="technologies-sec aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1200"
+    <section class="technologies-sec aos-init "  data-aos-duration="1200"
         data-aos-delay="000">
         <div class="technical-stack-section">
             <div class="container">
@@ -1490,10 +1495,10 @@
                                 <div class="col-lg-3"></div>
                                 <div class="col-lg-6">
                                     <div class="technical-main-mdl">
-                                        <div class="technical-main-img aos-init aos-animate" data-aos="zoom-out">
+                                        <div class="technical-main-img aos-init aos-animate" >
                                             <span>
                                                 <img class="perfmatters-lazy entered pmloaded" data-ll-status="loaded"
-                                                    src="{{ asset('assets/websiteassets/images/technology-image.png')}}"
+                                                    src="{{ asset('assets/websiteAssets/images/technology-image.png') }}"
                                                     alt="Soumya IT Solution technology logo">
                                             </span>
                                         </div>
@@ -1507,8 +1512,7 @@
                                                                 <span>
                                                                     <img alt="css style"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="css-3-Icon.svg"
-                                                                        data-ll-status="loaded"
+                                                                        data-src="css-3-Icon.svg" data-ll-status="loaded"
                                                                         src="https://soumyaitsolution.com/webassets/images/home/technologies/css-3-Icon.svg">
                                                                 </span>
                                                             </div>
@@ -1518,8 +1522,7 @@
                                                                 <span>
                                                                     <img alt="html 5"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="html5-Icon.svg"
-                                                                        data-ll-status="loaded"
+                                                                        data-src="html5-Icon.svg" data-ll-status="loaded"
                                                                         src="https://soumyaitsolution.com/webassets/images/home/technologies/html5-Icon.svg">
                                                                 </span>
                                                             </div>
@@ -1551,8 +1554,7 @@
                                                                 <span>
                                                                     <img alt="react native"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="react-Icon.svg"
-                                                                        data-ll-status="loaded"
+                                                                        data-src="react-Icon.svg" data-ll-status="loaded"
                                                                         src="https://soumyaitsolution.com/webassets/images/home/technologies/react-Icon.svg">
                                                                 </span>
                                                             </div>
@@ -1607,8 +1609,7 @@
                                                                 <span>
                                                                     <img alt="drupal icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="drupal-Icon.svg"
-                                                                        data-ll-status="loaded"
+                                                                        data-src="drupal-Icon.svg" data-ll-status="loaded"
                                                                         src="https://soumyaitsolution.com/webassets/images/home/technologies/drupal-Icon.svg">
                                                                 </span>
                                                             </div>
@@ -1618,8 +1619,7 @@
                                                                 <span>
                                                                     <img alt="joomla frameworks"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="joomla-Icon.svg"
-                                                                        data-ll-status="loaded"
+                                                                        data-src="joomla-Icon.svg" data-ll-status="loaded"
                                                                         src="https://soumyaitsolution.com/webassets/images/home/technologies/joomla-Icon.svg">
                                                                 </span>
                                                             </div>
@@ -2192,7 +2192,7 @@
 
             <div class="row">
                 <div class="col-md-6" style="z-index: 10">
-                    <div class="d-flex justify-content-center align-items-end h-100 px-5 mx-5">
+                    <div class="d-flex justify-content-center align-items-end h-100 px-md-5 mx-md-5">
 
                         <p class="fs-2 text-white fw-bold">
                             Get customized solution,
@@ -2294,6 +2294,5 @@
         })
     </script>
 
-    
 
 @endsection
