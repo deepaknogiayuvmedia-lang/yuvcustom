@@ -1338,7 +1338,7 @@
 
 .contactsecondhead {
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
 }
 
@@ -1412,7 +1412,7 @@
 
 .aboutsecondhead {
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
 }
 
@@ -1589,7 +1589,7 @@
 
 .peoplesecondhead {
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
 }
 
@@ -1796,12 +1796,22 @@ border-radius: 20px;
 }
 .swiper-slide.swiper-slide-active img {
 border-radius: 40px;
-
 }
+
 .globaltxtcolor{
   background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-size: 50px;
   font-weight: 600 !important;
+  text-align: left !important;
+}
+#aboutmainsection{
+    background-image: url('../../websiteAssets/images/dots.png');
+    background-size: cover;
+    background-blend-mode: color-burn;
+    background-color: #f4f4f6;
+}
+#aboutfirstsection{
+  background-color: #ffffff;
 }
