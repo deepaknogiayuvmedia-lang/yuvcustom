@@ -33,43 +33,43 @@ class WebsiteViews extends Controller
     }
     public function whatsappmarketing()
     {
-        return view('website.Pages.ServicesPages.whatsappmarketing');
+        return view('website.pages.servicespages.whatsappmarketing');
     }
     public function googlebusinessprofile()
     {
-        return view('website.Pages.ServicesPages.googlemybusiness');
+        return view('website.pages.servicespages.googlemybusiness');
     }
     public function videoproduction()
     {
-        return view('website.Pages.ServicesPages.videoproduction');
+        return view('website.pages.servicespages.videoproduction');
     }
     public function seo()
     {
-        return view('website.Pages.ServicesPages.seo');
+        return view('website.pages.servicespages.seo');
     }
     public function webdevelopment()
     {
-        return view('website.Pages.ServicesPages.webdevelopment');
+        return view('website.pages.servicespages.webdevelopment');
     }
     public function designingservices()
     {
-        return view('website.Pages.ServicesPages.designingservices');
+        return view('website.pages.servicespages.designingservices');
     }
     public function marketplaceexpertise() 
     {
-        return view('website.Pages.ServicesPages.marketplaceexpertise');
+        return view('website.pages.servicespages.marketplaceexpertise');
     }
     public function performancemedia() 
     {
-        return view('website.Pages.ServicesPages.performancemedia');
+        return view('website.pages.servicespages.performancemedia');
     }
     public function influencermarketing() 
     {
-        return view('website.Pages.ServicesPages.influencermarketing');
+        return view('website.pages.servicespages.influencermarketing');
     }
     public function socialmedia() 
     {
-        return view('website.Pages.ServicesPages.socialmedia');
+        return view('website.pages.servicespages.socialmedia');
     }
     public function partners() 
     {

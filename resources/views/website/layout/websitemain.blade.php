@@ -24,10 +24,13 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.theme.default.min.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/technologies.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/responsive.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
@@ -54,13 +57,14 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu customdropdown">
                                         <li>
-                                            <a class="dropdown-item customdrodownitem" href="{{ route('seo') }}">SEO</a>
+                                            <a class="dropdown-item customdrodownitem"
+                                                href="{{ route('seo') }}">SEO</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item customdrodownitem"
@@ -110,7 +114,7 @@
                                     <a class="nav-link" href="{{ route('work')}}">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('partners')}}">Partners</a>
+                                    <a class="nav-link" href="{{ route('partners') }}">Partners</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Blog</a>
@@ -125,10 +129,10 @@
                         </div>
                     </div>
                 </nav>
-                <div class="p-3">
+                <div class="p-3 hideInMobile">
                     <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="#">Hire Us!</a>
                 </div>
-                <div class="mobile-toggle hideOnDesktop">
+                <div class="mobile-toggle hideInDesktop">
 
                     <a class="text-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                         aria-controls="offcanvasExample">
@@ -139,11 +143,11 @@
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                         aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            {{-- <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5> --}}
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
+                        <div class="offcanvas-body mobileMenu">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page"
@@ -154,8 +158,8 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -398,14 +402,16 @@
         <!-- //Main wrapper -->
 
         <!-- JS Files -->
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
+        </script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
@@ -417,8 +423,9 @@
                 section.setAttribute('data-aos-duration', '1000');
             });
             AOS.init();
-        </script> -->
+         </script> -->
         <!-- <script src="{{asset('assets/websiteAssets/js/anime.min.js')}}"></script>  Now this is also a library for animation-->
+
 
 </body>
 

@@ -1,0 +1,98 @@
+/* Portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+    /* Styles for portrait mode */
+}
+
+/* Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Styles for landscape mode */
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* Styles for extra large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large devices */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium devices */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Styles for small devices */
+}
+
+@media (max-width: 576px) {
+    /* Styles for extra small devices */
+
+    .hideInMobile {
+        display: none;
+    }
+    .hideInDesktop {
+        display: block;
+    }
+
+    .service-card__inner {
+        width: 400px;
+    }
+
+    .action-btn {
+        overflow: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        width: 250px;
+    }
+
+    .service-card .nav, .servicesbox {
+        overflow: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .heretext {
+        width: 32%;
+    }
+    
+    .mobileMenu .nav-link {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .hero-section {
+        padding: 0px 0;
+    }
+    .hereBox {
+        margin: 0px;
+    }
+
+    .tab-content > .tab-pane .card {
+        width: auto;
+    }
+
+    .servicecard .serviceHeading {
+        width: 50%;
+    }
+    .servicecard .serviceContent {
+        width: 60%;
+    }
+
+    .data_text_lin::before {
+        right: 30%;
+        top: 80px;
+        
+    }
+    .serviceBanner p{
+        text-wrap: auto;
+    }
+    .contactForm {
+        margin-block: 10px;
+    }
+}
