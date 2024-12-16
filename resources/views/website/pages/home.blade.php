@@ -82,19 +82,19 @@
             </div>
             <div class="col-md-7">
                 <div class="d-flex justify-content-start action-btn">
-                    <a href="#">
+                    <a href="#" class="">
                         Design
                     </a>
-                    <a href="#">
+                    <a href="#" class="">
                         Social Media Marketing
 
 
                     </a>
-                    <a href="#">
+                    <a href="#" class="">
                         Website Development
 
                     </a>
-                    <a href="#">
+                    <a href="#" class="">
                         Performance Marketing
 
                     </a>
@@ -154,344 +154,365 @@
                                     src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
 
 
-                                </div>
                             </div>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Hero Section Ends-->
+    </div>
+</section>
+<!--Hero Section Ends-->
 
-    {{-- services --}}
-    <section>
-        <div class="container py-5">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Our Services
-                </div>
-                <div class="text-center">
-                    <p>
-                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                        and admire.
-                        Our team of experts is always keen on formulating only the right solutions for your business’
-                        everyday digital needs.
-                    </p>
-                </div>
+{{-- services --}}
+<section>
+    <div class="container py-5">
+        <div class="row">
+            <div class=" text-center fs-1 fw-bold">
+                Our Services
             </div>
-            <div class="row">
-                <div>
-                    <div class=" service-space service-space--small"></div>
-                    <div class="service-cards">
+            <div class="text-center">
+                <p>
+                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                    and admire.
+                    Our team of experts is always keen on formulating only the right solutions for your business’
+                    everyday digital needs.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <div class=" service-space service-space--small"></div>
+                <div class="service-cards">
 
-                        {{-- Digital marketing --}}
-                        <div class="service-card" data-index="0">
-                            <div class="service-card__inner">
-                                <div class="service-card__content">
-                                    <h1 class="service-card__title">Digital Marketing</h1>
+                    {{-- Digital marketing --}}
+                    <div class="service-card" data-index="0">
+                        <div class="service-card__inner">
+                            <div class="service-card__content">
+                                <h1 class="service-card__title">Digital Marketing</h1>
 
-                                    <!-- Nav tabs -->
-                                    <ul class="nav nav-underline my-3" id="myTab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
-                                                data-bs-target="#performance-tab-pane" type="button" role="tab"
-                                                aria-controls="performance-tab-pane" aria-selected="true">Performance
-                                                Marketing</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
-                                                data-bs-target="#seo-tab-pane" type="button" role="tab"
-                                                aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="social-tab" data-bs-toggle="tab"
-                                                data-bs-target="#social-tab-pane" type="button" role="tab"
-                                                aria-controls="social-tab-pane" aria-selected="false">Social
-                                                Media</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="online-tab" data-bs-toggle="tab"
-                                                data-bs-target="#online-tab-pane" type="button" role="tab"
-                                                aria-controls="online-tab-pane" aria-selected="false">Online
-                                                Marketing</button>
-                                        </li>
-                                    </ul>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-underline my-3" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
+                                            data-bs-target="#performance-tab-pane" type="button" role="tab"
+                                            aria-controls="performance-tab-pane" aria-selected="true">Performance
+                                            Marketing</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
+                                            data-bs-target="#seo-tab-pane" type="button" role="tab"
+                                            aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="social-tab" data-bs-toggle="tab"
+                                            data-bs-target="#social-tab-pane" type="button" role="tab"
+                                            aria-controls="social-tab-pane" aria-selected="false">Social
+                                            Media</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="online-tab" data-bs-toggle="tab"
+                                            data-bs-target="#online-tab-pane" type="button" role="tab"
+                                            aria-controls="online-tab-pane" aria-selected="false">Online
+                                            Marketing</button>
+                                    </li>
+                                </ul>
 
-                                    <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        {{-- performance marketing --}}
-                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
-                                            aria-labelledby="performance-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card " style="width: 18rem;">
-                                                    <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Google Ads</h5>
-                                                        <p class="card-text">Drive traffic and conversions with targeted,
-                                                            high-performing Google Ads campaigns.</p>
-                                                    </div>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    {{-- performance marketing --}}
+                                    <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
+                                        aria-labelledby="performance-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-around">
+                                            <div class="card " style="width: 18rem;">
+                                                <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Google Ads</h5>
+                                                    <p class="card-text">Drive traffic and conversions with targeted,
+                                                        high-performing Google Ads campaigns.</p>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://d1baueb6wfhxkz.cloudfront.net/5fd054a9a5dfae0128d29b2f/large/1611731070028966.jpeg"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Facebook Ads</h5>
-                                                        <p class="card-text">Engage audiences and increase sales with
-                                                            data-driven, targeted Facebook Ads campaigns.</p>
-                                                    </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://d1baueb6wfhxkz.cloudfront.net/5fd054a9a5dfae0128d29b2f/large/1611731070028966.jpeg"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Facebook Ads</h5>
+                                                    <p class="card-text">Engage audiences and increase sales with
+                                                        data-driven, targeted Facebook Ads campaigns.</p>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvS6wb_SW5BlgqY_gRpJfbx9X6iKJTMnu6HIjCGpIyYNZEa-ZcwA-MSNnMGKNgOHINnfhhaiBLRj9WpgzO-qusEcz73cY9nzmQCOzq4xC6xd1hOwHjCAedMq4b8CdWYFYDxqvqjlpqP-vPb-4qSa7_ThhjyFMH4JnpxoteMUwKaqh8gJNgyqvq5-tE8ca/s1600/images%20%282%29.png"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">MGID Ads</h5>
-                                                        <p class="card-text">Boost website traffic and revenue with
-                                                            effective, performance-driven MGID Ads campaigns.</p>
-                                                    </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvS6wb_SW5BlgqY_gRpJfbx9X6iKJTMnu6HIjCGpIyYNZEa-ZcwA-MSNnMGKNgOHINnfhhaiBLRj9WpgzO-qusEcz73cY9nzmQCOzq4xC6xd1hOwHjCAedMq4b8CdWYFYDxqvqjlpqP-vPb-4qSa7_ThhjyFMH4JnpxoteMUwKaqh8gJNgyqvq5-tE8ca/s1600/images%20%282%29.png"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">MGID Ads</h5>
+                                                    <p class="card-text">Boost website traffic and revenue with
+                                                        effective, performance-driven MGID Ads campaigns.</p>
                                                 </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://hyperhost.ua/info/storage/uploads/2021/01/shopping%20online.png"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Marketplace Ads</h5>
-                                                        <p class="card-text">Increase product visibility and sales with
-                                                            optimized Marketplace Ads for top platforms.</p>
-                                                    </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://hyperhost.ua/info/storage/uploads/2021/01/shopping%20online.png"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Marketplace Ads</h5>
+                                                    <p class="card-text">Increase product visibility and sales with
+                                                        optimized Marketplace Ads for top platforms.</p>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        {{-- seo --}}
-                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
-                                            aria-labelledby="seo-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start">
-                                                <div class="card me-4" style="width: 18rem;">
-                                                    <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
-                                                        class="card-img-top" alt="SEO">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Search Engine Optimization</h5>
-                                                        <p class="card-text">Boost search rankings, drive organic traffic, grow online visibility.</p>
-                                                    </div>
+                                    {{-- seo --}}
+                                    <div class="tab-pane" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab"
+                                        tabindex="0">
+                                        <div class="d-flex my-3 justify-content-start">
+                                            <div class="card me-4" style="width: 18rem;">
+                                                <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
+                                                    class="card-img-top" alt="SEO">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Search Engine Optimization</h5>
+                                                    <p class="card-text">Boost search rankings, drive organic traffic,
+                                                        grow online visibility.</p>
                                                 </div>
-                                                <div class="card me-4" style="width: 18rem;">
-                                                    <img src="https://static.fundrazr.com/rewards/9055f40593bd48989864f39c6a701988_large.jpg?cb=1610462315287"
-                                                        class="card-img-top" alt="GBP">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Google Business Profile</h5>
-                                                        <p class="card-text">Optimize profiles, attract local customers, enhance business online presence.</p>
-                                                    </div>
+                                            </div>
+                                            <div class="card me-4" style="width: 18rem;">
+                                                <img src="https://static.fundrazr.com/rewards/9055f40593bd48989864f39c6a701988_large.jpg?cb=1610462315287"
+                                                    class="card-img-top" alt="GBP">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Google Business Profile</h5>
+                                                    <p class="card-text">Optimize profiles, attract local customers,
+                                                        enhance business online presence.</p>
                                                 </div>
-                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    {{-- social media --}}
+                                    <div class="tab-pane" id="social-tab-pane" role="tabpanel"
+                                        aria-labelledby="social-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-around">
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://cdn.nextgov.com/media/img/upload/2018/03/21/032118facebookNG/open-graph.jpg"
+                                                    class="card-img-top" alt="Facebook">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Facebook</h5>
+                                                    <p class="card-text">Grow your business with our professional social
+                                                        media services!</p>
+                                                </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://www.menosfios.com/wp-content/uploads/2021/11/modo-noturno-no-instagram-capa.jpg"
+                                                    class="card-img-top" alt="Instagram">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Instagram</h5>
+                                                    <p class="card-text">Level up your brand with our expert Instagram
+                                                        marketing services!</p>
+                                                </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://thepostworkspaces.com/wp-content/uploads/2022/07/souvik-banerjee-JLj_NbvlDDo-unsplash-600x600.jpg"
+                                                    class="card-img-top" alt="LinkedIn">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">LinkedIn</h5>
+                                                    <p class="card-text">Enhance your professional presence with our
+                                                        LinkedIn marketing solutions!</p>
+                                                </div>
+                                            </div>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="https://somewhereoverthepage.wordpress.com/wp-content/uploads/2015/05/jos-in_-the_-know_-pinterest.jpg?w=980&h=980&crop=1"
+                                                    class="card-img-top" alt="Pinterest">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Pinterest</h5>
+                                                    <p class="card-text">Drive traffic with our creative and strategic
+                                                        Pinterest marketing services!</p>
+                                                </div>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        {{-- social media --}}
-                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel"
-                                            aria-labelledby="social-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around">
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://cdn.nextgov.com/media/img/upload/2018/03/21/032118facebookNG/open-graph.jpg"
-                                                        class="card-img-top" alt="Facebook">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Facebook</h5>
-                                                        <p class="card-text">Grow your business with our professional social media services!</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://www.menosfios.com/wp-content/uploads/2021/11/modo-noturno-no-instagram-capa.jpg"
-                                                        class="card-img-top" alt="Instagram">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Instagram</h5>
-                                                        <p class="card-text">Level up your brand with our expert Instagram marketing services!</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://thepostworkspaces.com/wp-content/uploads/2022/07/souvik-banerjee-JLj_NbvlDDo-unsplash-600x600.jpg"
-                                                        class="card-img-top" alt="LinkedIn">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">LinkedIn</h5>
-                                                        <p class="card-text">Enhance your professional presence with our LinkedIn marketing solutions!</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card" style="width: 18rem;">
-                                                    <img src="https://somewhereoverthepage.wordpress.com/wp-content/uploads/2015/05/jos-in_-the_-know_-pinterest.jpg?w=980&h=980&crop=1"
-                                                        class="card-img-top" alt="Pinterest">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Pinterest</h5>
-                                                        <p class="card-text">Drive traffic with our creative and strategic Pinterest marketing services!</p>
-                                                    </div>
+                                    {{-- marketing --}}
+                                    <div class="tab-pane" id="online-tab-pane" role="tabpanel"
+                                        aria-labelledby="online-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-start">
+                                            <div class="card me-4" style="width: 18rem;">
+                                                <img src="https://framerusercontent.com/images/6AE8iMtu15A4FI6oK288NMx4rc.png?scale-down-to=512"
+                                                    class="card-img-top" alt="Whatsapp Marketing">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Whatsapp Marketing</h5>
+                                                    <p class="card-text">Engage your audience instantly with our
+                                                        powerful WhatsApp marketing services!</p>
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        {{-- marketing --}}
-                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel"
-                                            aria-labelledby="online-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start">
-                                                <div class="card me-4" style="width: 18rem;">
-                                                    <img src="https://framerusercontent.com/images/6AE8iMtu15A4FI6oK288NMx4rc.png?scale-down-to=512"
-                                                        class="card-img-top" alt="Whatsapp Marketing">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Whatsapp Marketing</h5>
-                                                        <p class="card-text">Engage your audience instantly with our powerful WhatsApp marketing services!</p>
-                                                    </div>
+                                            <div class="card me-4" style="width: 18rem;">
+                                                <img src="https://www.pngplay.com/wp-content/uploads/13/Email-Marketing-Free-PNG.png"
+                                                    class="card-img-top" alt="Email Marketing">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Email Marketing</h5>
+                                                    <p class="card-text">Connect and convert with our result-driven
+                                                        email marketing services!</p>
                                                 </div>
-                                                <div class="card me-4" style="width: 18rem;">
-                                                    <img src="https://www.pngplay.com/wp-content/uploads/13/Email-Marketing-Free-PNG.png"
-                                                        class="card-img-top" alt="Email Marketing">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Email Marketing</h5>
-                                                        <p class="card-text">Connect and convert with our result-driven email marketing services!</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card me-4" style="width: 18rem;">
-                                                    <img src="https://i.pinimg.com/originals/e6/e5/31/e6e5319b47f55a0af5518f0fcd97f919.jpg"
-                                                        class="card-img-top" alt="Influencer Marketing">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Influencer Marketing</h5>
-                                                        <p class="card-text">Boost your brand with impactful influencer marketing campaigns!</p>
-                                                    </div>
-                                                </div>
-                                                
                                             </div>
+                                            <div class="card me-4" style="width: 18rem;">
+                                                <img src="https://i.pinimg.com/originals/e6/e5/31/e6e5319b47f55a0af5518f0fcd97f919.jpg"
+                                                    class="card-img-top" alt="Influencer Marketing">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Influencer Marketing</h5>
+                                                    <p class="card-text">Boost your brand with impactful influencer
+                                                        marketing campaigns!</p>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        {{-- Sellet Management --}}
-                        <div class="service-card" data-index="0">
-                            <div class="service-card__inner">
-                                <div class="service-card__content">
-                                    <h1 class="service-card__title">Seller Management</h1>
+                    {{-- Sellet Management --}}
+                    <div class="service-card" data-index="0">
+                        <div class="service-card__inner">
+                            <div class="service-card__content">
+                                <h1 class="service-card__title">Seller Management</h1>
 
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5979657/23560_302172.jpg"
-                                                class="card-img-top" alt="Amazon Seller">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Amazon Seller</h5>
-                                                <p class="card-text">Maximize your sales with our expert Amazon seller services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc0NTE5NDM0NDM2NjgzNzIx/etsy.jpg"
-                                                class="card-img-top" alt="Etsy Seller">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Etsy Seller</h5>
-                                                <p class="card-text">Grow your Etsy shop with our tailored marketing strategies!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://th-i.thgim.com/public/business/Industry/kilrnc/article24671698.ece/alternates/FREE_1200/TH13FLIPKART"
-                                                class="card-img-top" alt="Flipkart Seller">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Flipkart Seller</h5>
-                                                <p class="card-text">Boost your sales on Flipkart with our expert seller services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://thejobcompany.in/adminware/uploads/logos/1728482558.png"
-                                                class="card-img-top" alt="Meesho Seller">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Meesho Seller</h5>
-                                                <p class="card-text">Maximize your Meesho sales with our expert seller solutions!</p>
-                                            </div>
+                                <div class="d-flex my-3 justify-content-around">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5979657/23560_302172.jpg"
+                                            class="card-img-top" alt="Amazon Seller">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Amazon Seller</h5>
+                                            <p class="card-text">Maximize your sales with our expert Amazon seller
+                                                services!</p>
                                         </div>
                                     </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc0NTE5NDM0NDM2NjgzNzIx/etsy.jpg"
+                                            class="card-img-top" alt="Etsy Seller">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Etsy Seller</h5>
+                                            <p class="card-text">Grow your Etsy shop with our tailored marketing
+                                                strategies!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://th-i.thgim.com/public/business/Industry/kilrnc/article24671698.ece/alternates/FREE_1200/TH13FLIPKART"
+                                            class="card-img-top" alt="Flipkart Seller">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flipkart Seller</h5>
+                                            <p class="card-text">Boost your sales on Flipkart with our expert seller
+                                                services!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://thejobcompany.in/adminware/uploads/logos/1728482558.png"
+                                            class="card-img-top" alt="Meesho Seller">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Meesho Seller</h5>
+                                            <p class="card-text">Maximize your Meesho sales with our expert seller
+                                                solutions!</p>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
                     </div>
 
-                        {{-- Graphic Design --}}
-                        <div class="service-card" data-index="0">
-                            <div class="service-card__inner">
-                                <div class="service-card__content">
-                                    <h1 class="service-card__title">Design Services</h1>
+                    {{-- Graphic Design --}}
+                    <div class="service-card" data-index="0">
+                        <div class="service-card__inner">
+                            <div class="service-card__content">
+                                <h1 class="service-card__title">Design Services</h1>
 
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://papik.pro/uploads/posts/2021-10/thumbs/1634672301_3-papik-pro-p-tsifrovoi-plakat-4.jpg"
-                                                class="card-img-top" alt="Graphic Designing">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Graphic Designing</h5>
-                                                <p class="card-text">Transform your brand with our creative and professional graphic design services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://yt3.googleusercontent.com/ytc/APkrFKYvstGKw7D2Maz2TeaKIl-P3mmoMaZ_gBamx-x_=s900-c-k-c0x00ffffff-no-rj"
-                                                class="card-img-top" alt="Video Production">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Video Production</h5>
-                                                <p class="card-text">Bring your vision to life with our expert video production services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://d2vx7hn49802k2.cloudfront.net/wp-content/uploads/2021/03/Product-Photography.jpg"
-                                                class="card-img-top" alt="Product Shoot">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Product Shoot</h5>
-                                                <p class="card-text">Showcase your products in style with our professional product shoots!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://www.feedsfloor.com/sites/default/files/styles/largenews/public/Merchandise%20Designing%20Market.jpg?itok=OH0sSqP_"
-                                                class="card-img-top" alt="Brand Designing">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Brand Designing</h5>
-                                                <p class="card-text">Create a lasting impression with our expert brand designing services!</p>
-                                            </div>
+                                <div class="d-flex my-3 justify-content-around">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://papik.pro/uploads/posts/2021-10/thumbs/1634672301_3-papik-pro-p-tsifrovoi-plakat-4.jpg"
+                                            class="card-img-top" alt="Graphic Designing">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Graphic Designing</h5>
+                                            <p class="card-text">Transform your brand with our creative and professional
+                                                graphic design services!</p>
                                         </div>
                                     </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://yt3.googleusercontent.com/ytc/APkrFKYvstGKw7D2Maz2TeaKIl-P3mmoMaZ_gBamx-x_=s900-c-k-c0x00ffffff-no-rj"
+                                            class="card-img-top" alt="Video Production">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Video Production</h5>
+                                            <p class="card-text">Bring your vision to life with our expert video
+                                                production services!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://d2vx7hn49802k2.cloudfront.net/wp-content/uploads/2021/03/Product-Photography.jpg"
+                                            class="card-img-top" alt="Product Shoot">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Product Shoot</h5>
+                                            <p class="card-text">Showcase your products in style with our professional
+                                                product shoots!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://www.feedsfloor.com/sites/default/files/styles/largenews/public/Merchandise%20Designing%20Market.jpg?itok=OH0sSqP_"
+                                            class="card-img-top" alt="Brand Designing">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Brand Designing</h5>
+                                            <p class="card-text">Create a lasting impression with our expert brand
+                                                designing services!</p>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
                     </div>
 
-                        {{-- Development Services --}}
-                        <div class="service-card" data-index="0">
-                            <div class="service-card__inner">
-                                <div class="service-card__content">
-                                    <h1 class="service-card__title">Development Services</h1>
-                                    <div class="d-flex my-3 justify-content-around">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://www.web-rasswet.ru/img/razrabotka-saitow.jpg"
-                                                class="card-img-top" alt="Web Development">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Web Development</h5>
-                                                <p class="card-text">Build a strong online presence with our expert web development services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://cpimg.tistatic.com/05392545/b/5/App-Development-Service.png"
-                                                class="card-img-top" alt="App Development">
-                                            <div class="card-body">
-                                                <h5 class="card-title">App Development</h5>
-                                                <p class="card-text">Transform your ideas into reality with our expert app development services!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1642369415_59-papik-pro-p-sistema-klipart-64.png"
-                                                class="card-img-top" alt="Software Integrations">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Software Integrations</h5>
-                                                <p class="card-text">Streamline your business with seamless software integration solutions!</p>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://russia-dropshipping.ru/800/600/http/themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2016/04/14121345/CRM-Infographic-K3.jpg"
-                                                class="card-img-top" alt="CRM (Odoo, Salesforce)">
-                                            <div class="card-body">
-                                                <h5 class="card-title">CRM (Odoo, Salesforce)</h5>
-                                                <p class="card-text">Optimize your customer relationships with our expert CRM solutions (Odoo, Salesforce)!</p>
-                                            </div>
+                    {{-- Development Services --}}
+                    <div class="service-card" data-index="0">
+                        <div class="service-card__inner">
+                            <div class="service-card__content">
+                                <h1 class="service-card__title">Development Services</h1>
+                                <div class="d-flex my-3 justify-content-around">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://www.web-rasswet.ru/img/razrabotka-saitow.jpg"
+                                            class="card-img-top" alt="Web Development">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Web Development</h5>
+                                            <p class="card-text">Build a strong online presence with our expert web
+                                                development services!</p>
                                         </div>
                                     </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://cpimg.tistatic.com/05392545/b/5/App-Development-Service.png"
+                                            class="card-img-top" alt="App Development">
+                                        <div class="card-body">
+                                            <h5 class="card-title">App Development</h5>
+                                            <p class="card-text">Transform your ideas into reality with our expert app
+                                                development services!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1642369415_59-papik-pro-p-sistema-klipart-64.png"
+                                            class="card-img-top" alt="Software Integrations">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Integrations</h5>
+                                            <p class="card-text">Streamline your business with seamless software
+                                                integration solutions!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://russia-dropshipping.ru/800/600/http/themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2016/04/14121345/CRM-Infographic-K3.jpg"
+                                            class="card-img-top" alt="CRM (Odoo, Salesforce)">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CRM (Odoo, Salesforce)</h5>
+                                            <p class="card-text">Optimize your customer relationships with our expert
+                                                CRM solutions (Odoo, Salesforce)!</p>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
@@ -499,12 +520,12 @@
 
 
 
-                    </div>
-                    {{-- <div class="service-space"></div> --}}
                 </div>
+                {{-- <div class="service-space"></div> --}}
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 {{-- Achieving Goals --}}
 <section>
@@ -582,9 +603,9 @@
                 </div>
             </div>
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 <!-- our work -->
@@ -607,250 +628,250 @@
             </div>
         </div>
 
-            <div class="row industry">
-                <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage"
-                            style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
+        <div class="row industry">
+            <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
 
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can travel">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/travel.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Travel</span>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can travel">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/travel.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Tour and Travel" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Travel</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Tour and Travel" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can trans">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Transportation</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can trans">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Transportation" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Transportation</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Transportation" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can banking">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/banking.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Banking</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can banking">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/banking.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Banking" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Banking</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Banking" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can healthc">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Healthcare</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can healthc">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Healthcare" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Healthcare</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Healthcare" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can enterta">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Entertainment</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can enterta">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Entertainment" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Entertainment</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Entertainment" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can educat">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/education.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Education</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can educat">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/education.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Education"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Education</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img width="196" height="469" alt="Education"
+                                                src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can business">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/business.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Business</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can business">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/business.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Business"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Business</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img width="196" height="469" alt="Business"
+                                                src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can food">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/food.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Food</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can food">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/food.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img width="196" height="469" alt="Food"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Food</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img width="196" height="469" alt="Food"
+                                                src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can job_car">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Job/Career</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can job_car">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Job Career" width="238" height="487"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Job/Career</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Job Career" width="238" height="487"
+                                                src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="owl-item active" style="width: 129.6px;">
-                                <div class="item">
-                                    <div class="can fit_nes">
-                                        <a href="#">
-                                            <span class="data_text_lin">
-                                                <div class="box-ar">
-                                                    <div class="box-indus">
-                                                        <img data-lazyloaded="1" decoding="async"
-                                                            src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
-                                                            alt="drivers-app">
-                                                    </div>
-                                                    <span class="name">Fitness</span>
+                        </div>
+                        <div class="owl-item active" style="width: 129.6px;">
+                            <div class="item">
+                                <div class="can fit_nes">
+                                    <a href="#">
+                                        <span class="data_text_lin">
+                                            <div class="box-ar">
+                                                <div class="box-indus">
+                                                    <img data-lazyloaded="1" decoding="async"
+                                                        src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
+                                                        alt="drivers-app">
                                                 </div>
-                                            </span>
-                                            <span class="candidate">
-                                                <img alt="Life Style" width="196" height="469"
-                                                    src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
-                                                    class="ls-is-cached lazyloaded">
-                                            </span>
-                                        </a>
-                                    </div>
+                                                <span class="name">Fitness</span>
+                                            </div>
+                                        </span>
+                                        <span class="candidate">
+                                            <img alt="Life Style" width="196" height="469"
+                                                src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
+                                                class="ls-is-cached lazyloaded">
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
+                <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
                                                                                                                                                                                                                                 aria-label="Previous">‹</span></button><button type="button" role="presentation"
                                                                                                                                                                                                                             class="owl-next disabled"><span aria-label="Next">›</span></button></div>
                                                                                                                                                                                                                     <div class="owl-dots disabled"></div> -->
-                </div>
+            </div>
 
         </div>
     </div>
@@ -921,178 +942,178 @@
                             </div>
                         </div>
 
-                        </div>
+                    </div>
 
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Nitesh Sharma</div>
+                                                        <div class="fs-6 ">Full Stack Developer</div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <div class="author">Aditya Shankar</div>
+                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
                                             </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        </div>
+                    </div>
 
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Nitesh Sharma</div>
+                                                        <div class="fs-6 ">Full Stack Developer</div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
+                                        <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <div class="author">Aditya Shankar</div>
+                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
                                             </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                                </div>
-                                            </div>
-
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
-                                                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Nitesh Sharma</div>
+                                                        <div class="fs-6 ">Full Stack Developer</div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <div class="author">Aditya Shankar</div>
+                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
                                             </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Nitesh Sharma</div>
+                                                        <div class="fs-6 ">Full Stack Developer</div>
+                                                    </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                            <div>
+                                                <div class="author">Aditya Shankar</div>
+                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -1579,48 +1600,46 @@
 
 
 
-    <!-- stack effect  -->
-    <script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
-    <script>
-        const {
-            valueAtPercentage
-        } = aat
-        const ScrollObserver = aat.ScrollObserver
-        const cardsContainer = document.querySelector('.service-cards')
-        const cards = document.querySelectorAll('.service-card')
-        cardsContainer.style.setProperty('--cards-count', cards.length)
-        cardsContainer.style.setProperty(
-            '--card-height',
-            `${cards[0].clientHeight}px`
-        )
-        Array.from(cards).forEach((card, index) => {
-            const offsetTop = 20 + index * 20
-            card.style.paddingTop = `${offsetTop}px`
-            if (index === cards.length - 1) {
-                return
-            }
-            const toScale = 1 - (cards.length - 1 - index) * 0.1
-            const nextCard = cards[index + 1]
-            const cardInner = card.querySelector('.service-card__inner')
-            ScrollObserver.Element(nextCard, {
-                offsetTop,
-                offsetBottom: window.innerHeight - card.clientHeight
-            }).onScroll(({
-                percentageY
-            }) => {
-                cardInner.style.scale = valueAtPercentage({
-                    from: 1,
-                    to: toScale,
-                    percentage: percentageY
-                })
-                cardInner.style.filter = `brightness(${valueAtPercentage({
+<!-- stack effect  -->
+<script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
+<script>
+    const {
+        valueAtPercentage
+    } = aat
+    const ScrollObserver = aat.ScrollObserver
+    const cardsContainer = document.querySelector('.service-cards')
+    const cards = document.querySelectorAll('.service-card')
+    cardsContainer.style.setProperty('--cards-count', cards.length)
+    cardsContainer.style.setProperty(
+        '--card-height',
+        `${cards[0].clientHeight}px`
+    )
+    Array.from(cards).forEach((card, index) => {
+        const offsetTop = 20 + index * 20
+        card.style.paddingTop = `${offsetTop}px`
+        if (index === cards.length - 1) {
+            return
+        }
+        const toScale = 1 - (cards.length - 1 - index) * 0.1
+        const nextCard = cards[index + 1]
+        const cardInner = card.querySelector('.service-card__inner')
+        ScrollObserver.Element(nextCard, {
+            offsetTop,
+            offsetBottom: window.innerHeight - card.clientHeight
+        }).onScroll(({
+            percentageY
+        }) => {
+            cardInner.style.scale = valueAtPercentage({
+                from: 1,
+                to: toScale,
+                percentage: percentageY
+            })
+            cardInner.style.filter = `brightness(${valueAtPercentage({
                 from: 1,
                 to: 0.6,
                 percentage: percentageY
             })})`
-            })
         })
-    </script>
-
-
+    })
+</script>
 @endsection

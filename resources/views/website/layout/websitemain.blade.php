@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 </head>
 
 <body>
@@ -398,24 +399,26 @@
 
         <!-- JS Files -->
 
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
             </script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
+
+        <!-- <script>
             document.querySelectorAll('section').forEach(function (section) {
                 section.setAttribute('data-aos', 'fade-up');
                 section.setAttribute('data-aos-duration', '1000');
             });
             AOS.init();
-        </script>
+        </script> -->
+        <!-- <script src="{{asset('assets/websiteAssets/js/anime.min.js')}}"></script>  Now this is also a library for animation-->
 
 </body>
 

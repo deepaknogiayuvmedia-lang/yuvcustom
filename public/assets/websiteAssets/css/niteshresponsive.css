@@ -407,7 +407,7 @@
   }
 
   .contactheading {
-    font-size: 46px;
+    font-size: 39px;
     font-weight: 600 !important;
     text-align: center;
     color: black;
@@ -416,9 +416,16 @@
   .contactheadingsub {
     font-weight: 600 !important;
     text-align: center;
-    font-size: 46px;
+    font-size: 39px;
     color: var(--whatsapp-color);
   }
+
+  .contactsecondhead {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+  }
+
   .workimgs1 {
     transform: rotate(-2.2deg);
     border-radius: 0.2em;
@@ -427,28 +434,128 @@
     width: 100%;
     position: relative;
     transition: all 0.2s ease-in-out;
-}
-.workimgs2 {
-  transform: rotate(3.8deg);
-  border-radius: 0.2em;
-  box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-}
-.workimgs3 {
-  border-radius: 0.2em;
-  box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-}
+  }
+
+  .workimgs2 {
+    transform: rotate(3.8deg);
+    border-radius: 0.2em;
+    box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .workimgs3 {
+    border-radius: 0.2em;
+    box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .swiper-slide.swiper-slide-active img {
+    border-radius: 40px;
+    position: absolute;
+    left: 50px;
+  }
+
+  .swiper-full-mobile:before {
+    content: "";
+    width: 265px;
+    background: url(http://md-aqil.github.io/images/Pixel-3-XL.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50px;
+    right: 77px;
+    top: 24px;
+    height: 565px;
+    z-index: 2;
+    margin: auto;
+  }
+
+  .aboutheading {
+    font-size: 40px;
+    font-weight: 600 !important;
+    text-align: left !important;
+    color: black;
+  }
+
+  .aboutheadingsub {
+    font-weight: 600 !important;
+    text-align: left !important;
+    font-size: 40px;
+    color: var(--website-blue-color);
+  }
+
+  .aboutsecondhead {
+    font-size: 18px;
+    text-align: left !important;
+    font-weight: 300;
+  }
+
+  .narrrowsectiontext {
+    font-size: 18px;
+  }
+
+  .imagesonmob {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .aboutheadingsecthree {
+    font-size: 43px;
+    font-weight: 600 !important;
+    text-align: left;
+    color: black;
+  }
+
+  .aboutheadingsubsecthree {
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 43px;
+    color: var(--website-blue-color);
+  }
+
+  .peopleheading {
+    font-size: 42px;
+    font-weight: 600 !important;
+    text-align: center;
+    color: black;
+  }
+
+  .peopleheadingsub {
+    font-weight: 600 !important;
+    text-align: center;
+    font-size: 42px;
+    color: var(--whatsapp-color);
+  }
+
+  .peoplesecondhead {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .webcontent3 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+  }
 
 
 
 }
+
+
+
+
+
+
+
+
 
 /* Landscape */
 @media (max-width: 768px) and (orientation: landscape) {

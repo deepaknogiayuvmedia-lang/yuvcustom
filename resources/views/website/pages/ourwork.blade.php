@@ -1,7 +1,7 @@
 @extends('website.layout.websitemain')
 @section('title', 'Our Work | ' . config('app.name'))
 @section('content')
-<section style="background-color:#ffffff;">
+<section style="background: color #ffffff;">
     <div class="container py-5">
         <div class="row">
             <div class="text-center text-primary fs-6">
@@ -27,7 +27,7 @@
     </div>
 </section>
 <section style="background-color: whitesmoke;" class="py-5">
-    <div class="container pt-5 justify-content-center">
+    <div class="container py-2 justify-content-center">
         <div class="row">
             <div class="text-center workheadingsectwo">
                 See <span class="wordksubheadingsectwo">Our Website Work</span>
@@ -41,44 +41,33 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-4">
-        <div class="">
-            <div class="gy-5">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img class="workimgs1" src="{{ asset('assets/websiteAssets/images/work/brahma.jpg') }}" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="workimgs2" src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="workimgs3" src="{{ asset('assets/websiteAssets/images/work/paisanivaran.jpg') }}"
-                            alt="">
-                    </div>
-                </div>
+    <div class="container-fluid mt-4 py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="workimgs1" src="{{ asset('assets/websiteAssets/images/work/brahma.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="workimgs2" src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="workimgs3" src="{{ asset('assets/websiteAssets/images/work/paisanivaran.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="workimgs1" src="{{ asset('assets/websiteAssets/images/work/nakoda.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="workimgs2" src="{{ asset('assets/websiteAssets/images/work/patel.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="workimgs3" src="{{ asset('assets/websiteAssets/images/work/evolve.jpg') }}" alt="">
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5">
-        <div class="">
-            <div class="gy-5">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img class="workimgs1" src="{{ asset('assets/websiteAssets/images/work/nakoda.jpg') }}" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="workimgs2" src="{{ asset('assets/websiteAssets/images/work/patel.jpg') }}" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="workimgs3" src="{{ asset('assets/websiteAssets/images/work/evolve.jpg') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </section>
-<section
-    style="background-image: url('{{ asset('assets/websiteAssets/images/graphicsectionback.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+<section style="background-color:#f8f8f8;">
     <div class="container pt-5 justify-content-center">
         <div class="row">
             <div class="text-center webheading3">
@@ -137,43 +126,52 @@
     </div>
 </section>
 <section>
-  <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        <img src="http://md-aqil.github.io/images/adolescent-beautiful-beauty-247878.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('assets/websiteAssets/images/work/sky.jpg') }}" alt="">
-      </div>
-
+    <div class="container pt-5 justify-content-center">
+        <div class="row">
+            <div class="text-center webheading3">
+                See Our <span class="websubheading3">Designing Work</span>
+            </div>
+            <div class="text-center fs-5">
+                <p class="text-wrap webcontent3">
+                    By choosing Yuvmedia, you’re not just selecting a partner; you’re investing in a future of
+                    accelerated growth, substantial cost savings, and complete peace of mind. Let’s turn your digital
+                    vision into reality
+                </p>
+            </div>
+        </div>
     </div>
+    <div class="container-fluid py-2">
+        <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
+            <div class="swiper-wrapper py-4">
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia studio.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
 
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
 </section>
 <script>
     var copy = document.querySelector(".logos-slide").cloneNode(true);
@@ -185,51 +183,35 @@
     var copy3 = document.querySelector(".logos-slide3").cloneNode(true);
     document.querySelector(".logo-slider3").appendChild(copy3);
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 <script>
-     var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
-      slidesPerView: 5,
-      spaceBetween: 50,
-      slideToClickedSlide:true,
-      centeredSlides:true,
-     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-
-      },
-
-      loop:true,
-      //   autoplay: {
-      //     delay: 100000,
-      //   },
-
-
+    var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
+        slidesPerView: 5,
+        spaceBetween: 50,
+        slideToClickedSlide: true,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+        },
         keyboard: {
-        enabled: true,
-        onlyInViewport: true,
-      },
+            enabled: true,
+            onlyInViewport: true,
+        },
+        breakpoints: {
 
-
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-
-       breakpoints: {
-            
             640: {
-              freemode:true,
-              slidesPerView: 3,
-              spaceBetween: 20,
+                freemode: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
             },
             320: {
-              freemode:true,
-              slidesPerView: 3,
-              spaceBetween: 20,
+                freemode: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
             }
-      }
-
+        }
     });
 </script>
 @endsection

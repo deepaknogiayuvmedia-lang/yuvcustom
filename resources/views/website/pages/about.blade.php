@@ -4,7 +4,7 @@
 <section style="background-color: white;">
     <div class="container py-5">
         <div class="row">
-            <div class="text-center aboutheading">
+            <div class="text-center globaltxtcolor">
                 The Digital Agency that's with you <span class="aboutheadingsub">every step of the way.</span>
             </div>
             <div class="text-center">
@@ -17,9 +17,9 @@
         </div>
     </div>
 </section>
-<section class="narrowsection py-2">
+<section class="narrowsection p-3 p-md-3">
     <div class="d-flex align-items-center justify-content-center">
-        <p class="text-wrap fw-bold">
+        <p class="text-wrap narrrowsectiontext">
             Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most effective
             digital
             marketing solutions, focusing on a personalized customer experience that ensures results.
@@ -31,7 +31,7 @@
     class="py-4">
     <div class="container py-3 py-md-4">
         <div class="row align-items-center">
-            <div class="col-md-6">
+            <div class="col-md-6 col-12">
                 <div class="text-start aboutheadingsecthree">
                     Our <span class="aboutheadingsubsecthree">Story</span>
                 </div>
@@ -62,8 +62,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="row h-100">
+            <div class="col-md-6 col-12">
+                <div class="row h-100 imagesonmob">
                     <div class="col-5 h-100 px-0 mt-1 mt-lg-0">
                         <div class="h-50  pb-2">
                             <img class="aboutiamgesecthree"
@@ -285,7 +285,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-3 mt-md-0">
                 <iframe class="rounded-3" src="https://www.youtube.com/embed/DKfYhgaYeD8" frameborder="0" width="100%"
                     height="315"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
