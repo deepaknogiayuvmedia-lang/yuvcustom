@@ -75,4 +75,8 @@ class WebsiteViews extends Controller
     {
         return view('website.Pages.partners');
     }
+    public function work() 
+    {
+        return view('website.Pages.ourwork');
+    }
 }

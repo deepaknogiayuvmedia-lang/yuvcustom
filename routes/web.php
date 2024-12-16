@@ -134,6 +134,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/influencer-marketing', 'influencermarketing')->name('influencermarketing');
     Route::get('/social-media', 'socialmedia')->name('socialmedia');
     Route::get('/partners', 'partners')->name('partners');
+    Route::get('/work', 'work')->name('work');
 
 });
 // //Excel Routes

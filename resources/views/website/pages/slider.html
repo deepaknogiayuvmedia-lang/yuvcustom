@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <style>
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      
+    }
+
+
+.swiper-full-mobile {
+    position: relative;
+    margin: 50px auto;
+    padding-bottom: 50px;
+}
+
+.swiper-full-mobile:before {
+    content: "";
+    width: 265px;
+    background: url(http://md-aqil.github.io/images/Pixel-3-XL.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 565px;
+    z-index: 2;
+    margin: auto;
+}
+.swiper-full-mobile .swiper-slide {
+  height: 100%;
+}
+.swiper-full-mobile .swiper-slide img{
+  width: 100%;
+  height: 530px;
+  object-fit: cover;
+
+}
+.swiper-slide.swiper-slide-active img {
+  border-radius: 40px;
+
+}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
+           <div class="swiper-wrapper" >
+  
+             <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/adolescent-beautiful-beauty-247878.jpg" alt="">
+             </div>
+              <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/beautiful-beauty-face-2657838.jpg" alt="">
+             </div>
+              <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/bikini-body-female-881583.jpg" alt="">
+             </div>
+             <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/attractive-beautiful-beauty-1986684.jpg" alt="">
+             </div>
+             <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/abstract-expressionism-abstract-painting-acrylic-1690351.jpg" alt="">
+             </div>
+         
+            <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/beautiful-bikini-daylight-745767.jpg" alt="">
+             </div>
+            <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/adult-beautiful-bikini-1308228.jpg" alt="">
+             </div>
+            <div class="swiper-slide">
+              <img src="http://md-aqil.github.io/images/afro-afro-hair-attractive-2603391.jpg" alt="">
+            </div>
+  
+       </div>
+  
+         <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+         <!-- Add Arrows -->
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+        </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script>
+     var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
+      slidesPerView: 5,
+      spaceBetween: 50,
+      slideToClickedSlide:true,
+      centeredSlides:true,
+     pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+
+      },
+
+      loop:true,
+      //   autoplay: {
+      //     delay: 100000,
+      //   },
+
+
+        keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+      },
+
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+
+       breakpoints: {
+            
+            640: {
+              freemode:true,
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            320: {
+              freemode:true,
+              slidesPerView: 3,
+              spaceBetween: 20,
+            }
+      }
+
+    });
+  </script>
+</body>
+</html>
