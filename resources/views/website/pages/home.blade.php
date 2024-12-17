@@ -2,14 +2,16 @@
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
     <!--Hero Section Starts-->
+    <canvas id="gradient-canvas"></canvas>
     <section class="hero-section">
+
         <div class="container">
             <div class="row py-md-5 pt-0">
                 <div class="hero-slider owl-carousel owl-theme">
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder hideInDesktop">The all in one finance platform</h1>
+                                <h1 class="heroheading fw-bolder globaltxtcolor">The all in one finance platform</h1>
                                 <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
@@ -41,7 +43,7 @@
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder">The all in one finance platform</h1>
+                                <h1 class="globaltxtcolor fw-bolder">The all in one finance platform</h1>
                                 <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
@@ -152,72 +154,70 @@
                                         src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
                                     <img class="rounded-2 me-3"
                                         src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-
-
+                                </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--Hero Section Ends-->
+    </section>
+    <!--Hero Section Ends-->
 
-{{-- services --}}
-<section>
-    <div class="container py-5">
-        <div class="row">
-            <div class=" text-center fs-1 fw-bold">
-                Our Services
+    {{-- services --}}
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <h2 class="globaltxtcolor text-start">
+                    Our Services
+                </h2>
+                <div class="text-start">
+                    <p>
+                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                        and admire.
+                        Our team of experts is always keen on formulating only the right solutions for your business’
+                        everyday digital needs.
+                    </p>
+                </div>
             </div>
-            <div class="text-center">
-                <p>
-                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                    and admire.
-                    Our team of experts is always keen on formulating only the right solutions for your business’
-                    everyday digital needs.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <div class=" service-space service-space--small"></div>
-                <div class="service-cards">
+            <div class="row">
+                <div>
+                    <div class=" service-space service-space--small"></div>
+                    <div class="service-cards">
 
-                    {{-- Digital marketing --}}
-                    <div class="service-card" data-index="0">
-                        <div class="service-card__inner">
-                            <div class="service-card__content">
-                                <h1 class="service-card__title">Digital Marketing</h1>
+                        {{-- Digital marketing --}}
+                        <div class="service-card" data-index="0">
+                            <div class="service-card__inner">
+                                <div class="service-card__content bluePurpelGradient">
+                                    <h1 class="service-card__title">Digital Marketing</h1>
 
-                                <!-- Nav tabs -->
-                                <ul class="nav nav-underline my-3" id="myTab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
-                                            data-bs-target="#performance-tab-pane" type="button" role="tab"
-                                            aria-controls="performance-tab-pane" aria-selected="true">Performance
-                                            Marketing</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
-                                            data-bs-target="#seo-tab-pane" type="button" role="tab"
-                                            aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="social-tab" data-bs-toggle="tab"
-                                            data-bs-target="#social-tab-pane" type="button" role="tab"
-                                            aria-controls="social-tab-pane" aria-selected="false">Social
-                                            Media</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="online-tab" data-bs-toggle="tab"
-                                            data-bs-target="#online-tab-pane" type="button" role="tab"
-                                            aria-controls="online-tab-pane" aria-selected="false">Online
-                                            Marketing</button>
-                                    </li>
-                                </ul>
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-underline my-3" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
+                                                data-bs-target="#performance-tab-pane" type="button" role="tab"
+                                                aria-controls="performance-tab-pane" aria-selected="true">Performance
+                                                Marketing</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
+                                                data-bs-target="#seo-tab-pane" type="button" role="tab"
+                                                aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="social-tab" data-bs-toggle="tab"
+                                                data-bs-target="#social-tab-pane" type="button" role="tab"
+                                                aria-controls="social-tab-pane" aria-selected="false">Social
+                                                Media</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="online-tab" data-bs-toggle="tab"
+                                                data-bs-target="#online-tab-pane" type="button" role="tab"
+                                                aria-controls="online-tab-pane" aria-selected="false">Online
+                                                Marketing</button>
+                                        </li>
+                                    </ul>
 
                                     <!-- Tab panes -->
                                     <div class="tab-content">
@@ -372,11 +372,11 @@
                             </div>
                         </div>
 
-                    {{-- Sellet Management --}}
-                    <div class="service-card" data-index="0">
-                        <div class="service-card__inner">
-                            <div class="service-card__content">
-                                <h1 class="service-card__title">Seller Management</h1>
+                        {{-- Sellet Management --}}
+                        <div class="service-card" data-index="1">
+                            <div class="service-card__inner">
+                                <div class="service-card__content greenBLueGradient">
+                                    <h1 class="service-card__title">Seller Management</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card" style=" ">
@@ -421,11 +421,11 @@
                             </div>
                         </div>
 
-                    {{-- Graphic Design --}}
-                    <div class="service-card" data-index="0">
-                        <div class="service-card__inner">
-                            <div class="service-card__content">
-                                <h1 class="service-card__title">Design Services</h1>
+                        {{-- Graphic Design --}}
+                        <div class="service-card" data-index="2">
+                            <div class="service-card__inner">
+                                <div class="service-card__content orangeGreenGradient">
+                                    <h1 class="service-card__title">Design Services</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card" style=" ">
@@ -471,9 +471,9 @@
                         </div>
 
                         {{-- Development Services --}}
-                        <div class="service-card" data-index="0">
+                        <div class="service-card" data-index="3">
                             <div class="service-card__inner">
-                                <div class="service-card__content">
+                                <div class="service-card__content purpelYellowGradient">
                                     <h1 class="service-card__title">Development Services</h1>
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card" style=" ">
@@ -520,21 +520,21 @@
 
 
 
+                    </div>
+                    {{-- <div class="service-space"></div> --}}
                 </div>
-                {{-- <div class="service-space"></div> --}}
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     {{-- Achieving Goals --}}
-    <section>
+    <section class="bannerbg">
         <div class="container pt-5">
             <div class="row">
-                <div class=" text-center fs-1 fw-bold">
+                <div class="globaltxtcolor  text-start ">
                     Achieving Goals
                 </div>
-                <div class="text-center">
+                <div class="text-start">
                     <p>
                         We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
                         starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
@@ -614,16 +614,16 @@
 
 
     <!-- our work -->
-    <section>
-        <div class="container py-5">
+    <section >
+        <div class="container py-5 ">
             <div class="row">
-                <div class=" text-center fs-1 fw-bold">
+                <div class="globaltxtcolor text-start ">
                     Our Work
                 </div>
-                <div class=" text-center fs-2 fw-bold">
+                <div class=" text-start fs-2 fw-bold">
                     Empowering every vertical in the country.
                 </div>
-                <div class="text-center">
+                <div class="text-start">
                     <p>
                         We seek our thrill from making brands and businesses in diversified domains reach their right
                         audience.
@@ -633,249 +633,245 @@
                 </div>
             </div>
 
-        <div class="row industry">
-            <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage"
-                        style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
+            <div class="row industry">
+                <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1296px;">
 
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can travel">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/travel.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can travel">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/travel.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Travel</span>
                                                 </div>
-                                                <span class="name">Travel</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Tour and Travel" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/travel-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Tour and Travel" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/travel-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can trans">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/transportation.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can trans">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/transportation.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Transportation</span>
                                                 </div>
-                                                <span class="name">Transportation</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Transportation" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/transportation-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Transportation" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/transportation-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can banking">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/banking.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can banking">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/banking.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Banking</span>
                                                 </div>
-                                                <span class="name">Banking</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Banking" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/banking-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Banking" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/banking-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can healthc">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/healthcare.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can healthc">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/healthcare.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Healthcare</span>
                                                 </div>
-                                                <span class="name">Healthcare</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Healthcare" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/healthcare-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Healthcare" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/healthcare-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can enterta">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/entertainment.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can enterta">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/entertainment.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Entertainment</span>
                                                 </div>
-                                                <span class="name">Entertainment</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Entertainment" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/entertainment-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Entertainment" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/entertainment-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can educat">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/education.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can educat">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/education.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Education</span>
                                                 </div>
-                                                <span class="name">Education</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img width="196" height="469" alt="Education"
-                                                src="https://soumyaitsolution.com/webassets/images/home/education-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Education"
+                                                    src="assets/websiteAssets/images/businesses/education-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can business">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/business.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can business">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/business.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Business</span>
                                                 </div>
-                                                <span class="name">Business</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img width="196" height="469" alt="Business"
-                                                src="https://soumyaitsolution.com/webassets/images/home/business-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Business"
+                                                    src="assets/websiteAssets/images/businesses/business-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can food">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/food.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can food">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/food.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Food</span>
                                                 </div>
-                                                <span class="name">Food</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img width="196" height="469" alt="Food"
-                                                src="https://soumyaitsolution.com/webassets/images/home/food-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img width="196" height="469" alt="Food"
+                                                    src="assets/websiteAssets/images/businesses/food-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can job_car">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/job-career.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can job_car">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/job-career.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Job/Career</span>
                                                 </div>
-                                                <span class="name">Job/Career</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Job Career" width="238" height="487"
-                                                src="https://soumyaitsolution.com/webassets/images/home/job-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Job Career" width="238" height="487"
+                                                    src="assets/websiteAssets/images/businesses/job-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-item active" style="width: 129.6px;">
-                            <div class="item">
-                                <div class="can fit_nes">
-                                    <a href="#">
-                                        <span class="data_text_lin">
-                                            <div class="box-ar">
-                                                <div class="box-indus">
-                                                    <img data-lazyloaded="1" decoding="async"
-                                                        src="https://soumyaitsolution.com/webassets/images/home/fitness.png"
-                                                        alt="drivers-app">
+                            <div class="owl-item active" style="width: 129.6px;">
+                                <div class="item">
+                                    <div class="can fit_nes">
+                                        <a href="#">
+                                            <span class="data_text_lin">
+                                                <div class="box-ar">
+                                                    <div class="box-indus">
+                                                        <img data-lazyloaded="1" decoding="async"
+                                                            src="assets/websiteAssets/images/businesses/fitness.png"
+                                                            alt="drivers-app">
+                                                    </div>
+                                                    <span class="name">Fitness</span>
                                                 </div>
-                                                <span class="name">Fitness</span>
-                                            </div>
-                                        </span>
-                                        <span class="candidate">
-                                            <img alt="Life Style" width="196" height="469"
-                                                src="https://soumyaitsolution.com/webassets/images/home/fitness-d.png"
-                                                class="ls-is-cached lazyloaded">
-                                        </span>
-                                    </a>
+                                            </span>
+                                            <span class="candidate">
+                                                <img alt="Life Style" width="196" height="469"
+                                                    src="assets/websiteAssets/images/businesses/fitness-d.png"
+                                                    class="ls-is-cached lazyloaded">
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                    <!-- <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span
-                                                                                                                                                                                                                                                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
-                                                                                                                                                                                                                                                    class="owl-next disabled"><span aria-label="Next">›</span></button></div>
-                                                                                                                                                                                                                                            <div class="owl-dots disabled"></div> -->
                 </div>
 
             </div>
@@ -886,20 +882,22 @@
 
     <!-- core-team -->
     <section class="core-team py-5">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class=" text-center fs-1 fw-bold">
+                <div class="globaltxtcolor text-start ">
                     Core Team
                 </div>
-                <div class=" text-center fs-3 fw-bold">
+                <div class=" text-start fs-3 fw-bold">
                     Empowering every vertical in the country.
                 </div>
-                <p class=" text-center">
+                <p class=" text-start">
                     We seek our thrill from making brands and businesses in diversified domains reach their right audience.
                     With every conversion and each sale, we strive to set new standards for your business as well as
                     ourselves.
                 </p>
             </div>
+            </div>
+            <div class="container-fluid">
 
             <div class="row">
                 <div class="col-sm-12">
@@ -947,178 +945,178 @@
                                 </div>
                             </div>
 
-                    </div>
-
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>Razorpay Magic Checkout is
-                                                truly a magical solution. Our
-                                                conversion rate has increased
-                                                by 35% & our COD, RTO has
-                                                drastically decreased.</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
-                                            <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>Razorpay Magic Checkout is
-                                                truly a magical solution. Our
-                                                conversion rate has increased
-                                                by 35% & our COD, RTO has
-                                                drastically decreased.</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
-                                            <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
-                    </div>
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>Razorpay Magic Checkout is
-                                                truly a magical solution. Our
-                                                conversion rate has increased
-                                                by 35% & our COD, RTO has
-                                                drastically decreased.</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
-                    </div>
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>Razorpay Magic Checkout is
-                                                truly a magical solution. Our
-                                                conversion rate has increased
-                                                by 35% & our COD, RTO has
-                                                drastically decreased.</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Nitesh Sharma</div>
+                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Aditya Shankar</div>
+                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                </div>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -1139,7 +1137,7 @@
 
             <div class="row">
                 <div class="col-md-6 text-wrap">
-                    <h1>Powering every industry. Powering all disruptors.</h1>
+                    <h1 class="globaltxtcolor">Powering every industry. Powering all disruptors.</h1>
                 </div>
             </div>
             <div class="row p-3">
@@ -1478,16 +1476,16 @@
     <!--Seamless Integration Section Ends-->
 
 
-    {{-- tools section --}}
-    <section class="technologies-sec aos-init "  data-aos-duration="1200"
+    {{-- Tecg tools section --}}
+    <section class="position-relative technologies-sec aos-init aos-animate " data-aos-duration="1200"
         data-aos-delay="000">
         <div class="technical-stack-section">
             <div class="container">
-                <div class="text-center mx-auto">
-                    <div class="ph-heading-title">
-                        <h2>Technologies We Use</h2>
+                
+                    <div class="text-start globaltxtcolor">
+                        Technologies We Use
                     </div>
-                </div>
+                
                 <div class="technical-stack-inn">
                     <div class="technical-stack-main">
                         <div class="technical-main-div">
@@ -1495,11 +1493,11 @@
                                 <div class="col-lg-3"></div>
                                 <div class="col-lg-6">
                                     <div class="technical-main-mdl">
-                                        <div class="technical-main-img aos-init aos-animate" >
+                                        <div class="technical-main-img aos-init aos-animate">
                                             <span>
                                                 <img class="perfmatters-lazy entered pmloaded" data-ll-status="loaded"
                                                     src="{{ asset('assets/websiteAssets/images/technology-image.png') }}"
-                                                    alt="Soumya IT Solution technology logo">
+                                                    alt="technology-image">
                                             </span>
                                         </div>
                                         <div class="technical-tk-ul">
@@ -1512,8 +1510,8 @@
                                                                 <span>
                                                                     <img alt="css style"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="css-3-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/css-3-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1522,8 +1520,8 @@
                                                                 <span>
                                                                     <img alt="html 5"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="html5-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/html5-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/html5-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1532,9 +1530,9 @@
                                                                 <span>
                                                                     <img alt="javascript language"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="javascript-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/javascript-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1543,9 +1541,9 @@
                                                                 <span>
                                                                     <img alt="angular icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="angular-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/angular-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1554,8 +1552,8 @@
                                                                 <span>
                                                                     <img alt="react native"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="react-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/react-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/react-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1564,8 +1562,8 @@
                                                                 <span>
                                                                     <img alt="less icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="less.png" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/less.png">
+                                                                        data-src="assets/websiteAssets/images/technologies/less.png" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/less.png')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1574,8 +1572,8 @@
                                                                 <span>
                                                                     <img alt="jquery icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="jQuery.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/jQuery.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/jQuery.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1589,8 +1587,8 @@
                                                                 <span>
                                                                     <img alt="php technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="php-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/php-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/php-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1599,8 +1597,8 @@
                                                                 <span>
                                                                     <img alt="ci icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="ci-icon.webp" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ci-icon.png">
+                                                                        data-src="assets/websiteAssets/images/technologies/ci-icon.png" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1609,8 +1607,8 @@
                                                                 <span>
                                                                     <img alt="drupal icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="drupal-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/drupal-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1619,8 +1617,8 @@
                                                                 <span>
                                                                     <img alt="joomla frameworks"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="joomla-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/joomla-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1629,8 +1627,8 @@
                                                                 <span>
                                                                     <img alt="laravel development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="laravel.png" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/laravel.png">
+                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1639,8 +1637,8 @@
                                                                 <span>
                                                                     <img alt="magent technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="magento.png" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/magento.png">
+                                                                        data-src="assets/websiteAssets/images/technologies/magento.png" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/magento.png')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1649,9 +1647,9 @@
                                                                 <span>
                                                                     <img alt="mysql language"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="mysql-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/mysql-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1660,9 +1658,9 @@
                                                                 <span>
                                                                     <img alt="nodejs development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="node-js-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/node-js-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1671,8 +1669,8 @@
                                                                 <span>
                                                                     <img alt="ruby on rails"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="ruby-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ruby-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1681,9 +1679,9 @@
                                                                 <span>
                                                                     <img alt="shopify development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="shopify-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/shopify-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1697,9 +1695,9 @@
                                                                 <span>
                                                                     <img alt="android development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="android-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/android-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1708,8 +1706,8 @@
                                                                 <span>
                                                                     <img alt="ios development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="ios-Icon.svg" data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/ios-Icon.svg">
+                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg" data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1718,9 +1716,9 @@
                                                                 <span>
                                                                     <img alt="flutter development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="flutter-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/flutter-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1729,9 +1727,9 @@
                                                                 <span>
                                                                     <img alt="kotlin"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="kotlin-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/kotlin-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1740,9 +1738,9 @@
                                                                 <span>
                                                                     <img alt="react native developers"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="react-native.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/react-native.png"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/react-native.png">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1751,9 +1749,9 @@
                                                                 <span>
                                                                     <img alt="swift logo"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="swift-alt-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/swift-alt-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1767,9 +1765,9 @@
                                                                 <span>
                                                                     <img alt="adobe-xd "
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="adobe-xd-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-xd-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1778,9 +1776,9 @@
                                                                 <span>
                                                                     <img alt="adobe illustrator logo"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="adobe-illustrator-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-illustrator-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1789,9 +1787,9 @@
                                                                 <span>
                                                                     <img alt="adobe photoshop"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="adobe-photoshop-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-photoshop-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1800,9 +1798,9 @@
                                                                 <span>
                                                                     <img alt="figma image"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="figma-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="https://soumyaitsolution.com/webassets/images/home/technologies/figma-Icon.svg">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg')}}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1815,6 +1813,7 @@
                                 <div class="col-lg-3"></div>
                             </div>
                         </div>
+
                         <div class="technical-stack-ul">
                             <ul>
                                 <li class="adobe-xd aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
@@ -1822,8 +1821,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="adobe xd image" class="perfmatters-lazy entered pmloaded"
-                                                data-src="adobe-xd-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-xd-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1832,8 +1831,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="android development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="android-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/android-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1842,8 +1841,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="angular development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="angular-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/angular-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/angular-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1852,8 +1851,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="amazon " class="perfmatters-lazy entered pmloaded"
-                                                data-src="amazon-web-services-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/amazon-web-services-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1862,8 +1861,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ci image" class="perfmatters-lazy entered pmloaded"
-                                                data-src="ci-icon.webp" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ci-icon.png">
+                                                data-src="assets/websiteAssets/images/technologies/ci-icon.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1872,8 +1871,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="css 3" class="perfmatters-lazy entered pmloaded"
-                                                data-src="css-3-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/css-3-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1882,8 +1881,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="drupal-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/drupal-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1892,8 +1891,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="flutter-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/flutter-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1902,8 +1901,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
-                                                data-src="html5-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/html5-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/html5-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1912,8 +1911,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="illustrator" class="perfmatters-lazy entered pmloaded"
-                                                data-src="adobe-illustrator-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-illustrator-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1922,8 +1921,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ios development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="ios-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ios-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1932,8 +1931,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="shopify-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/shopify-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1942,8 +1941,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="javascript" class="perfmatters-lazy entered pmloaded"
-                                                data-src="javascript-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/javascript-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1952,8 +1951,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="joomla-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/joomla-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1962,8 +1961,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="jquery" class="perfmatters-lazy entered pmloaded"
-                                                data-src="jQuery.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/jQuery.svg">
+                                                data-src="assets/websiteAssets/images/technologies/jQuery.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1972,8 +1971,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
-                                                data-src="kotlin-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/kotlin-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1982,8 +1981,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="laravel.png" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/laravel.png">
+                                                data-src="assets/websiteAssets/images/technologies/laravel.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -1992,8 +1991,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="less" class="perfmatters-lazy entered pmloaded"
-                                                data-src="less.png" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/less.png">
+                                                data-src="assets/websiteAssets/images/technologies/less.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/less.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2002,8 +2001,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="magento" class="perfmatters-lazy entered pmloaded"
-                                                data-src="magento.png" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/magento.png">
+                                                data-src="assets/websiteAssets/images/technologies/magento.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/magento.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2012,8 +2011,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="mangodb" class="perfmatters-lazy entered pmloaded"
-                                                data-src="mongodb.png" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/mongodb.png">
+                                                data-src="assets/websiteAssets/images/technologies/mongodb.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/mongodb.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2022,8 +2021,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="mysql" class="perfmatters-lazy entered pmloaded"
-                                                data-src="mysql-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/mysql-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2032,8 +2031,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
-                                                data-src="node-js-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/node-js-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2042,8 +2041,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="adobe photoshop" class="perfmatters-lazy entered pmloaded"
-                                                data-src="adobe-photoshop-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/adobe-photoshop-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2052,8 +2051,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="php developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="php-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/php-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/php-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2062,8 +2061,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="react developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="react-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/react-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/react-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2072,8 +2071,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="react-native.png" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/react-native.png">
+                                                data-src="assets/websiteAssets/images/technologies/react-native.png" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2082,8 +2081,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
-                                                data-src="ruby-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/ruby-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2092,8 +2091,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="swift" class="perfmatters-lazy entered pmloaded"
-                                                data-src="swift-alt-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/swift-alt-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2102,8 +2101,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="figma" class="perfmatters-lazy entered pmloaded"
-                                                data-src="figma-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/figma-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/figma-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2112,8 +2111,8 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="wordpress development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="wordpress-Icon.svg" data-ll-status="loaded"
-                                                src="https://soumyaitsolution.com/webassets/images/home/technologies/wordpress-Icon.svg">
+                                                data-src="assets/websiteAssets/images/technologies/wordpress-Icon.svg" data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/wordpress-Icon.svg')}}">
                                         </span>
                                     </div>
                                 </li>
@@ -2222,16 +2221,16 @@
                                     <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="exampleInputPassword2" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword2">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="exampleInputPassword3" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword3">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="exampleInputPassword4" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword4">
                                 </div>
 
                                 <div class="mb-3 form-check">
@@ -2251,46 +2250,48 @@
 
 
 
-<!-- stack effect  -->
-<script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
-<script>
-    const {
-        valueAtPercentage
-    } = aat
-    const ScrollObserver = aat.ScrollObserver
-    const cardsContainer = document.querySelector('.service-cards')
-    const cards = document.querySelectorAll('.service-card')
-    cardsContainer.style.setProperty('--cards-count', cards.length)
-    cardsContainer.style.setProperty(
-        '--card-height',
-        `${cards[0].clientHeight}px`
-    )
-    Array.from(cards).forEach((card, index) => {
-        const offsetTop = 20 + index * 20
-        card.style.paddingTop = `${offsetTop}px`
-        if (index === cards.length - 1) {
-            return
-        }
-        const toScale = 1 - (cards.length - 1 - index) * 0.1
-        const nextCard = cards[index + 1]
-        const cardInner = card.querySelector('.service-card__inner')
-        ScrollObserver.Element(nextCard, {
-            offsetTop,
-            offsetBottom: window.innerHeight - card.clientHeight
-        }).onScroll(({
-            percentageY
-        }) => {
-            cardInner.style.scale = valueAtPercentage({
-                from: 1,
-                to: toScale,
-                percentage: percentageY
-            })
-            cardInner.style.filter = `brightness(${valueAtPercentage({
+    <!-- stack effect  -->
+    <script src="https://unpkg.com/aatjs/dist/aat.min.js"></script>
+    <script>
+        const {
+            valueAtPercentage
+        } = aat
+        const ScrollObserver = aat.ScrollObserver
+        const cardsContainer = document.querySelector('.service-cards')
+        const cards = document.querySelectorAll('.service-card')
+        cardsContainer.style.setProperty('--cards-count', cards.length)
+        cardsContainer.style.setProperty(
+            '--card-height',
+            `${cards[0].clientHeight}px`
+        )
+        Array.from(cards).forEach((card, index) => {
+            const offsetTop = 20 + index * 20
+            card.style.paddingTop = `${offsetTop}px`
+            if (index === cards.length - 1) {
+                return
+            }
+            const toScale = 1 - (cards.length - 1 - index) * 0.1
+            const nextCard = cards[index + 1]
+            const cardInner = card.querySelector('.service-card__inner')
+            ScrollObserver.Element(nextCard, {
+                offsetTop,
+                offsetBottom: window.innerHeight - card.clientHeight
+            }).onScroll(({
+                percentageY
+            }) => {
+                cardInner.style.scale = valueAtPercentage({
+                    from: 1,
+                    to: toScale,
+                    percentage: percentageY
+                })
+                cardInner.style.filter = `brightness(${valueAtPercentage({
                 from: 1,
                 to: 0.6,
                 percentage: percentageY
             })})`
+            })
         })
-    })
-</script>
+    </script>
+
+
 @endsection

@@ -1809,6 +1809,23 @@ border-radius: 40px;
   font-size: 50px;
   font-weight: 600 !important;
 }
+
+.bluePurpelGradient {
+  background: linear-gradient(146.88deg, #a6edff 9.67%, #715bff 85.4%);
+}
+
+.greenBLueGradient {
+  background: linear-gradient(73.07deg, #7ecdf5 18.38%, #6cffb1 68.48%);
+}
+
+.orangeGreenGradient {
+  background: linear-gradient(73.47deg, #fcbc69 38.53%, #c9ff6c 87.92%);
+}
+
+.purpelYellowGradient {
+  background: linear-gradient(86.24deg, #9069fc 32.94%, #ebff39 91.34%);
+}
+
 #aboutmainsection{
     /* background-image: url('../../websiteAssets/images/dots.png'); */
     background-size: cover;
@@ -1829,6 +1846,7 @@ border-radius: 40px;
   --gradient-color-4: #f1f1f1;
   filter: blur(50px);
   opacity: 50%;
+  z-index: 0;
 }
 .workimgsecone {
   width: 130%;

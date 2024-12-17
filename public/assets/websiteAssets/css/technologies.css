@@ -1,7 +1,7 @@
 /* We Serve Technologies Section CSS Start */
 
 .technologies-sec {
-    background: url(../../images/home/technologies/our-process-bg.jpg) no-repeat center center;
+    background: url(../images/technologies/our-process-bg.jpg) no-repeat center center;
     background-size: cover;
     padding: 50px 0;
     overflow: hidden;
@@ -20,7 +20,7 @@
   
   .ph-heading-title {
     margin-bottom: 40px;
-    text-align: center;
+    text-align: start;
   }
   
   

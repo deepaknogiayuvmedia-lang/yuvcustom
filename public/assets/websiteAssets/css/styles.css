@@ -51,6 +51,7 @@ body {
 
 .hero-section {
     padding: 70px 0;
+    z-index: 1;
 }
 
 .hero-content {
@@ -75,7 +76,7 @@ body {
 }
 
 .heroheading {
-    color: #2881ed;
+    /* color: #2881ed; */
     font-size: 48px;
     font-weight: 600;
 }
@@ -1117,4 +1118,10 @@ a {
 
 .hereBox {
     flex-wrap: nowrap;
+    position: relative;
+}
+
+.bannerbg {
+    background: url('../images/bg-colors-scaled-1.webp') no-repeat center center;
+    background-size: cover;
 }

@@ -77,6 +77,12 @@
         width: auto;
     }
 
+    .service-card {
+        height: 800px;
+        max-height: 90vh;
+        overflow: hidden;
+    }
+
     .servicecard .serviceHeading {
         width: 50%;
     }
