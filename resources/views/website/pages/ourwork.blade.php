@@ -1,32 +1,39 @@
 @extends('website.layout.websitemain')
 @section('title', 'Our Work | ' . config('app.name'))
 @section('content')
-<section style="background: color #ffffff;">
-    <div class="container py-5">
+<section class="py-5">
+    <canvas id="gradient-canvas"></canvas>
+    <div class="container py-5" id="workfirstsection">
         <div class="row">
-            <div class="text-center text-primary fs-6">
-                <p class="text-wrap fw-bolder">
-                    Our Work
-                </p>
-            </div>
-            <div class="text-center workheadingsecone">
-                Our Process, <span class="workheadingsub">Your Success</span>
-            </div>
-            <div class="text-center">
-                <p class="text-wrap worksecondheadsecone">
-                    We believe in a streamlined workflow that delivers excellence at every step. From ideation to
-                    execution, our process ensures you get the best results without compromise.
-                </p>
-            </div>
-            <div class="d-flex justify-content-center flex-wrap">
-                <div class="me-3">
-                    <a href="#" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
+            <div class="col-lg-6">
+                <div class="text-start text-primary fs-6">
+                    <p class="text-wrap fw-bolder">
+                        Our Work
+                    </p>
                 </div>
+                <div class="text-start">
+                    <p class="globaltxtcolor" style="font-size:72px;">Our Process, </p><span class="workheadingsub">Your
+                        Success</span>
+                </div>
+                <div class="text-start">
+                    <p class="text-wrap worksecondheadsecone">
+                        We believe in a streamlined workflow that delivers excellence at every step. From ideation to
+                        execution, our process ensures you get the best results without compromise.
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start flex-wrap">
+                    <div class="me-3">
+                        <a href="#" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="workimgsecone" src="{{ asset('assets/websiteAssets/images/work/patel.jpg') }}" alt="">
             </div>
         </div>
     </div>
 </section>
-<section style="background-color: whitesmoke;" class="py-5">
+<section class="py-5" id="workfirstsection">
     <div class="container py-2 justify-content-center">
         <div class="row">
             <div class="text-center workheadingsectwo">
@@ -53,6 +60,7 @@
                 <img class="workimgs3" src="{{ asset('assets/websiteAssets/images/work/paisanivaran.jpg') }}" alt="">
             </div>
         </div>
+
         <div class="row mt-5">
             <div class="col-md-4">
                 <img class="workimgs1" src="{{ asset('assets/websiteAssets/images/work/nakoda.jpg') }}" alt="">
@@ -67,7 +75,7 @@
     </div>
 
 </section>
-<section style="background-color:#f8f8f8;">
+<section>
     <div class="container pt-5 justify-content-center">
         <div class="row">
             <div class="text-center webheading3">

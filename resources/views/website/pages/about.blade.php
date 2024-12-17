@@ -1,19 +1,30 @@
 @extends('website.layout.websitemain')
 @section('title', 'About Us | ' . config('app.name'))
 @section('content')
-<section id="aboutfirstsection" class="py-0">
-    <div class="container py-5">
+<section id="aboutfirstsection" class="py-5">
+<canvas id="gradient-canvas"></canvas>
+    <div class="container py-5" style="position: relative;">
         <div class="row">
-            <div class="text-start globaltxtcolor">
-                The Digital Agency that's with you <span class="aboutheadingsub">every step of the way.</span>
+            <div class="text-center globaltxtcolor">
+                The Digital Agency that's with you <br> <span class="aboutheadingsub">every step of the way.</span>
             </div>
-            <div class="text-start">
+            <div class="text-center">
                 <p class="text-wrap aboutsecondhead">
                     Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most
                     effective digital marketing solutions, focusing on a personalized customer experience that ensures
                     results. We use our profits to help our clients, our team, and our community succeed.
                 </p>
             </div>
+            <div class="text-center">
+                <p class="text-wrap aboutsecondhead">
+                    You can expect to receive clear and transparent communication throughout your project and beyond. Our consistent maintenance services are designed to ensure the continuity of your online success.
+                </p>
+            </div>
+            <div class="d-flex justify-content-center flex-wrap buttonsdiv">
+                    <div class="me-3">
+                        <a href="#" class="btn btn-lg aboutbbtnsecthree">Contact Us<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
         </div>
     </div>
 </section>
@@ -91,7 +102,7 @@
         </div>
     </div>
 </section>
-<section class="py-3 py-md-3" style="background-color: #ffffff;">
+<section class="py-3 py-md-3" style="background-color:rgba(255, 255, 255, 0);">
     <div class="container py-3 py-md-4">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -189,11 +200,10 @@
         </div>
     </div>
 </section>
-<section
-    style="background-image: url('{{ asset('assets/websiteAssets/images/graphicsectionback.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+<section>
     <div class="container pt-5 justify-content-center">
         <div class="row">
-            <div class="text-center globaltxtcolor">
+            <div class="text-start globaltxtcolor">
                 Key <span class="websubheading3">Clientele</span>
             </div>
             <div class="text-start fs-5">
@@ -258,7 +268,7 @@
         document.querySelector(".logo-slider3").appendChild(copy3);
     </script>
 </section>
-<section style="background-color: #ffffff;" class="py-4">
+<section  class="py-4">
     <div class="container py-3 py-md-5">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -294,7 +304,7 @@
         </div>
     </div>
 </section>
-<section class="py-3 py-md-3" style="background-color: #f6faff;">
+<section class="py-3 py-md-3">
     <div class="container py-3 py-md-3">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -312,8 +322,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-3 py-md-3">
-        <div class="row  gx-4 justify-content-center">
+    <div class="container-fluid py-2 py-md-2">
+        <div class="row gx-4 justify-content-center">
             <div id="core-team" class="owl-carousel">
                 <div class="item">
                     <div class="flip">

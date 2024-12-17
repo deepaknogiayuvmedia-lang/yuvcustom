@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
     <div class="page-content">
         <div class="container-fluid p-0">
             <div class="container d-flex justify-content-around">
@@ -57,14 +56,13 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu customdropdown">
                                         <li>
-                                            <a class="dropdown-item customdrodownitem"
-                                                href="{{ route('seo') }}">SEO</a>
+                                            <a class="dropdown-item customdrodownitem" href="{{ route('seo') }}">SEO</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item customdrodownitem"
@@ -158,8 +156,8 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -404,7 +402,7 @@
         <!-- JS Files -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+            </script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -415,7 +413,9 @@
 
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
+        <script src="{{ asset('assets/websiteAssets/js/canvas.js') }}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
 
         <!-- <script>
             document.querySelectorAll('section').forEach(function (section) {
