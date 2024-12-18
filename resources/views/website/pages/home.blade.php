@@ -1,6 +1,7 @@
 @extends('website.layout.websitemain')
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
+
     <!--Hero Section Starts-->
     <canvas id="gradient-canvas"></canvas>
     <section class="hero-section">
@@ -527,94 +528,98 @@
         </div>
     </section>
 
-    {{-- Achieving Goals --}}
-    <section class="bannerbg">
-        <div class="container pt-5">
-            <div class="row">
-                <div class="globaltxtcolor  text-start ">
-                    Achieving Goals
-                </div>
-                <div class="text-start">
-                    <p>
-                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                        and admire.
-                        Our team of experts is always keen on formulating only the right solutions for your business’
-                        everyday digital needs.
-                    </p>
-                </div>
+
+
+   {{-- Achieving Goals --}}
+   <section class="bannerbg">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="globaltxtcolor  text-start ">
+                Achieving Goals
+            </div>
+            <div class="text-start">
+                <p>
+                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                    and admire.
+                    Our team of experts is always keen on formulating only the right solutions for your business’
+                    everyday digital needs.
+                </p>
             </div>
         </div>
-        <div class="container-fluid pb-5">
-            <div class="container ">
+    </div>
+    <div class="container-fluid pb-5">
+        <div class="container ">
 
-                <div class="row goals justify-content-center p-3">
-                    <div class="">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Design
-                            </div>
-                            <div class="serviceContent">
-                                Our designs are more than just visuals;
-                                they’re stories waiting to be told.
-                            </div>
+            <div class="row goalss justify-content-center p-3">
+                <div class="col">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Design
+                        </div>
+                        <div class="serviceContent">
+                            Our designs are more than just visuals;
+                            they’re stories waiting to be told.
                         </div>
                     </div>
-                    <div class="">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Social Media Marketing
-                            </div>
-                            <div class="serviceContent">
-                                In the bustling world of social media, we help your brand stand out.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                                class="serviceIcon3">
-                            <div class="serviceHeading">
-                                Website Development
-                            </div>
-                            <div class="serviceContent">
-                                Your website is your digital storefront. We build websites that not only look
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Performance Marketing
-                            </div>
-                            <div class="serviceContent">
-                                Experience substantial profit growth and a competitive edge through
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+                <div class="col">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Social Media Marketing
+                        </div>
+                        <div class="serviceContent">
+                            In the bustling world of social media, we help your brand stand out.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
+                            class="serviceIcon3">
+                        <div class="serviceHeading">
+                            Website Development
+                        </div>
+                        <div class="serviceContent">
+                            Your website is your digital storefront. We build websites that not only look
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="servicecard">
+                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                            class="servicebg">
+                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
+                            class="serviceIcon">
+                        <div class="serviceHeading">
+                            Performance Marketing
+                        </div>
+                        <div class="serviceContent">
+                            Experience substantial profit growth and a competitive edge through
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
 
     <!-- our work -->
-    <section >
+    <section>
         <div class="container py-5 ">
             <div class="row">
                 <div class="globaltxtcolor text-start ">
@@ -880,6 +885,8 @@
 
 
 
+
+
     <!-- core-team -->
     <section class="core-team py-5">
         <div class="container">
@@ -896,13 +903,15 @@
                     ourselves.
                 </p>
             </div>
-            </div>
-            <div class="container-fluid">
+        </div>
+        <div class="container-fluid">
 
             <div class="row">
                 <div class="col-sm-12">
                     <div id="core-team" class="owl-carousel">
-                        <div class="item">
+
+                        {{-- khivraj sir --}}
+                        {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -910,14 +919,14 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain-300x300.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                            <div class="author">Mr. Khivraj Sain</div>
+                                                            <div class="fs-6 ">CEO & Founder</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -935,8 +944,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                    <div class="author">Mr. Khivraj Sain</div>
+                                                    <div class="fs-6 ">CEO & Founder</div>
                                                 </div>
                                             </div>
 
@@ -945,24 +954,26 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
+                        {{-- Kishan gopal --}}
                         <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
+
                                     <div class="face front">
                                         <div class="inner">
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Kishan-Ji.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                            <div class="author">Kishan Gopal</div>
+                                                            <div class="fs-6 ">Operations Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -980,8 +991,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                    <div class="author">Kishan Gopal</div>
+                                                    <div class="fs-6 ">Operations Manager</div>
                                                 </div>
                                             </div>
 
@@ -992,22 +1003,24 @@
 
                         </div>
 
+                        {{-- Nilesh gupta --}}
                         <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
+
                                     <div class="face front">
                                         <div class="inner">
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Nilesh-Sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                            <div class="author">Mr. Nilesh Gupta</div>
+                                                            <div class="fs-6 ">Office Admin</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1025,8 +1038,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                    <div class="author">Mr. Nilesh Gupta</div>
+                                                    <div class="fs-6 ">Office Admin</div>
                                                 </div>
                                             </div>
 
@@ -1036,6 +1049,8 @@
                             </div>
 
                         </div>
+
+                        {{-- Manohar sir --}}
                         <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
@@ -1044,14 +1059,14 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Manohar-sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                            <div class="author">Mr. Manohar Singhh</div>
+                                                            <div class="fs-6 ">Paid Marketing Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1069,8 +1084,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                    <div class="author">Mr. Manohar Singh</div>
+                                                    <div class="fs-6 ">Paid Marketing Manager</div>
                                                 </div>
                                             </div>
 
@@ -1080,22 +1095,24 @@
                             </div>
 
                         </div>
+                        {{-- Rudraksh sir --}}
                         <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
+
                                     <div class="face front">
                                         <div class="inner">
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Rudraksh.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Nitesh Sharma</div>
-                                                            <div class="fs-6 ">Full Stack Developer</div>
+                                                            <div class="author">Mr. Rudraksh Singh</div>
+                                                            <div class="fs-6 ">Creative Design Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1113,8 +1130,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Aditya Shankar</div>
-                                                    <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                    <div class="author">Mr. Rudraksh Singh</div>
+                                                    <div class="fs-6 ">Creative Design Manager</div>
                                                 </div>
                                             </div>
 
@@ -1124,12 +1141,62 @@
                             </div>
 
                         </div>
+
+                        {{-- Leera ma'am --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Leera.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Ms. Leera Ramesh</div>
+                                                            <div class="fs-6 ">Seller Manager</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>Razorpay Magic Checkout is
+                                                    truly a magical solution. Our
+                                                    conversion rate has increased
+                                                    by 35% & our COD, RTO has
+                                                    drastically decreased.</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Ms. Leera Ramesh</div>
+                                                    <div class="fs-6 ">Seller Manager</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END OF core-team -->
+
+
+
 
     {{-- services --}}
     <section>
@@ -1277,215 +1344,16 @@
 
 
 
-
-
-    <!--Seamless Integration Section Starts-->
-    {{-- <section class="hero-sectionseamless p-0">
-        <div class="container">
-            <div class="row align-items-center  ">
-                <div class="col-md-6 hero-content">
-                    <h1 class="heroheadingseamless fw-bolder">Seamless Integration for
-                        data flow across platforms</h1>
-                    <div class="text-start">
-                        <p>
-                            Seamless integration services ensure smooth data
-                            flow across platforms, enhancing efficiency,
-                            reducing redundancies, and providing real-time
-                            insights for better decision-making.
-                        </p>
-                    </div>
-                    <div class="d-flex justify-content-start">
-                        <div class="">
-                            <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business Partner!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-
-                    <div class="main-vertical-slider">
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track2">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-slider">
-                            <div class="vertical-slide-track2">
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 4">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 5">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 6">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 7">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 8">
-                                </div>
-                                <!-- Repeat the images for the seamless effect -->
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 1">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 2">
-                                </div>
-                                <div class="slide">
-                                    <img src="https://via.placeholder.com/100" alt="Placeholder 3">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--Seamless Integration Section Ends-->
-
-
     {{-- Tecg tools section --}}
     <section class="position-relative technologies-sec aos-init aos-animate " data-aos-duration="1200"
         data-aos-delay="000">
         <div class="technical-stack-section">
             <div class="container">
-                
-                    <div class="text-start globaltxtcolor">
-                        Technologies We Use
-                    </div>
-                
+
+                <div class="text-start globaltxtcolor">
+                    Technologies We Use
+                </div>
+
                 <div class="technical-stack-inn">
                     <div class="technical-stack-main">
                         <div class="technical-main-div">
@@ -1510,8 +1378,9 @@
                                                                 <span>
                                                                     <img alt="css style"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1520,8 +1389,9 @@
                                                                 <span>
                                                                     <img alt="html 5"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/html5-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1532,7 +1402,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1543,7 +1413,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1552,8 +1422,9 @@
                                                                 <span>
                                                                     <img alt="react native"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/react-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1562,8 +1433,9 @@
                                                                 <span>
                                                                     <img alt="less icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/less.png" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/less.png')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/less.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1572,8 +1444,9 @@
                                                                 <span>
                                                                     <img alt="jquery icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/jQuery.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/jQuery.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1587,8 +1460,9 @@
                                                                 <span>
                                                                     <img alt="php technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/php-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1597,8 +1471,9 @@
                                                                 <span>
                                                                     <img alt="ci icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ci-icon.png" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/ci-icon.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1607,8 +1482,9 @@
                                                                 <span>
                                                                     <img alt="drupal icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1617,8 +1493,9 @@
                                                                 <span>
                                                                     <img alt="joomla frameworks"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1627,8 +1504,9 @@
                                                                 <span>
                                                                     <img alt="laravel development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1637,8 +1515,9 @@
                                                                 <span>
                                                                     <img alt="magent technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/magento.png" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/magento.png')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/magento.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1649,7 +1528,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1660,7 +1539,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1669,8 +1548,9 @@
                                                                 <span>
                                                                     <img alt="ruby on rails"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1681,7 +1561,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1697,7 +1577,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1706,8 +1586,9 @@
                                                                 <span>
                                                                     <img alt="ios development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg" data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg')}}">
+                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1718,7 +1599,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1729,7 +1610,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1740,7 +1621,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/react-native.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1751,7 +1632,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1767,7 +1648,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1778,7 +1659,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1789,7 +1670,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1800,7 +1681,7 @@
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg')}}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1821,8 +1702,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="adobe xd image" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1831,8 +1713,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="android development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1841,8 +1724,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="angular development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/angular-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1851,8 +1735,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="amazon " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1861,8 +1746,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ci image" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ci-icon.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/ci-icon.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1871,8 +1757,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="css 3" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1881,8 +1768,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1891,8 +1779,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1901,8 +1790,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/html5-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1911,8 +1801,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="illustrator" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1921,8 +1812,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ios development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1931,8 +1823,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1941,8 +1834,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="javascript" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1951,8 +1845,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1961,8 +1856,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="jquery" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/jQuery.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/jQuery.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1971,8 +1867,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1981,8 +1878,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/laravel.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1991,8 +1889,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="less" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/less.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/less.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/less.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2001,8 +1900,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="magento" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/magento.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/magento.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/magento.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2011,8 +1911,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="mangodb" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/mongodb.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/mongodb.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/mongodb.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/mongodb.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2021,8 +1922,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="mysql" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2031,8 +1933,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2041,8 +1944,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="adobe photoshop" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2051,8 +1955,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="php developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/php-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2061,8 +1966,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="react developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/react-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2071,8 +1977,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/react-native.png" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png')}}">
+                                                data-src="assets/websiteAssets/images/technologies/react-native.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2081,8 +1988,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2091,8 +1999,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="swift" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2101,8 +2010,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="figma" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/figma-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2111,8 +2021,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="wordpress development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/wordpress-Icon.svg" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/wordpress-Icon.svg')}}">
+                                                data-src="assets/websiteAssets/images/technologies/wordpress-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/wordpress-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>

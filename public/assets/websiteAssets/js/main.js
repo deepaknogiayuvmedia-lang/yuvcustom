@@ -163,13 +163,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-    $('.goals').slick({
+    $('.goalss').slick({
         dots: false,
         arrows: false,
         infinite: false,
         speed: 300,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1024,
