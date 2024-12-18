@@ -966,7 +966,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Kishan-Ji.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
@@ -1013,7 +1013,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Nilesh-Sir.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
@@ -1059,7 +1059,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Manohar-sir.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
@@ -1105,7 +1105,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Rudraksh.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Rudraksh.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
@@ -1151,7 +1151,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/new/Leera.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
