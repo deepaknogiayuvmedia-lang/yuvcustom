@@ -33,50 +33,50 @@ class WebsiteViews extends Controller
     }
     public function whatsappmarketing()
     {
-        return view('website.pages.servicespages.whatsappmarketing');
+        return view('website.pages.ServicesPages.whatsappmarketing');
     }
     public function googlebusinessprofile()
     {
-        return view('website.pages.servicespages.googlemybusiness');
+        return view('website.pages.ServicesPages.googlemybusiness');
     }
     public function videoproduction()
     {
-        return view('website.pages.servicespages.videoproduction');
+        return view('website.pages.ServicesPages.videoproduction');
     }
     public function seo()
     {
-        return view('website.pages.servicespages.seo');
+         return view('website.pages.ServicesPages.seo');
     }
     public function webdevelopment()
     {
-        return view('website.pages.servicespages.webdevelopment');
+        return view('website.pages.ServicesPages.webdevelopment');
     }
     public function designingservices()
     {
-        return view('website.pages.servicespages.designingservices');
+        return view('website.pages.ServicesPages.designingservices');
     }
     public function marketplaceexpertise() 
     {
-        return view('website.pages.servicespages.marketplaceexpertise');
+        return view('website.pages.ServicesPages.marketplaceexpertise');
     }
     public function performancemedia() 
     {
-        return view('website.pages.servicespages.performancemedia');
+        return view('website.pages.ServicesPages.performancemedia');
     }
     public function influencermarketing() 
     {
-        return view('website.pages.servicespages.influencermarketing');
+        return view('website.pages.ServicesPages.influencermarketing');
     }
     public function socialmedia() 
     {
-        return view('website.pages.servicespages.socialmedia');
+        return view('website.pages.ServicesPages.socialmedia');
     }
     public function partners() 
     {
-        return view('website.Pages.partners');
+        return view('website.pages.partners');
     }
     public function work() 
     {
-        return view('website.Pages.ourwork');
+        return view('website.pages.ourwork');
     }
 }

@@ -1354,7 +1354,7 @@
                     Technologies We Use
                 </div>
 
-                <div class="technical-stack-inn">
+                <div class="technical-stack-inn mt-5 mt-md-3">
                     <div class="technical-stack-main">
                         <div class="technical-main-div">
                             <div class="row">
