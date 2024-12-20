@@ -1,6 +1,6 @@
 // Initialize Lenis
 const lenis = new Lenis({
-    duration : 3,
+    duration : 2,
 });
 
 // Use requestAnimationFrame to continuously update the scroll

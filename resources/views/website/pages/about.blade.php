@@ -73,8 +73,8 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg aboutbbtnsecthree">Contact Us<i
-                                    class="bi bi-arrow-right"></i></a>
+                            <a href="#" class="btn btn-outline-primary btn-lg">Contact Us<i
+                                    class="bi bi-arrow-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg aboutbbtnsecthree">Contact Us<i
+                            <a href="#" class="btn btn-primary btn-lg">Contact Us<i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -329,7 +329,9 @@
         <div class="container-fluid py-2 py-md-2">
             <div class="row gx-4 justify-content-center">
                 <div id="core-team" class="owl-carousel">
-                    <div class="item">
+
+                    {{-- khivraj sir --}}
+                    {{-- <div class="item">
                         <div class="flip">
                             <div class="corecard border-0">
                                 <div class="face front">
@@ -337,14 +339,14 @@
                                         <div class="shadow-effect corebox flip rounded-3">
                                             <div class=" ">
                                                 <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain-300x300.webp') }}"
                                                     alt="client">
                                             </div>
                                             <div class="authorbox rounded-3">
                                                 <div class="testimonial-name d-flex  text-white">
                                                     <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+                                                        <div class="author">Mr. Khivraj Sain</div>
+                                                        <div class="fs-6 ">CEO & Founder</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -362,8 +364,8 @@
                                         </div>
                                         <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                <div class="author">Mr. Khivraj Sain</div>
+                                                <div class="fs-6 ">CEO & Founder</div>
                                             </div>
                                         </div>
 
@@ -372,23 +374,26 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> --}}
+
+                    {{-- Kishan gopal --}}
                     <div class="item">
                         <div class="flip">
                             <div class="corecard border-0">
+
                                 <div class="face front">
                                     <div class="inner">
                                         <div class="shadow-effect corebox flip rounded-3">
                                             <div class=" ">
                                                 <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
                                                     alt="client">
                                             </div>
                                             <div class="authorbox rounded-3">
                                                 <div class="testimonial-name d-flex  text-white">
                                                     <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+                                                        <div class="author">Kishan Gopal</div>
+                                                        <div class="fs-6 ">Operations Manager</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -406,8 +411,8 @@
                                         </div>
                                         <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                <div class="author">Kishan Gopal</div>
+                                                <div class="fs-6 ">Operations Manager</div>
                                             </div>
                                         </div>
 
@@ -417,22 +422,25 @@
                         </div>
 
                     </div>
+
+                    {{-- Nilesh gupta --}}
                     <div class="item">
                         <div class="flip">
                             <div class="corecard border-0">
+
                                 <div class="face front">
                                     <div class="inner">
                                         <div class="shadow-effect corebox flip rounded-3">
                                             <div class=" ">
                                                 <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Nitesh.jpg') }}"
+                                                    src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
                                                     alt="client">
                                             </div>
                                             <div class="authorbox rounded-3">
                                                 <div class="testimonial-name d-flex  text-white">
                                                     <div>
-                                                        <div class="author">Nitesh Sharma</div>
-                                                        <div class="fs-6 ">Full Stack Developer</div>
+                                                        <div class="author">Mr. Nilesh Gupta</div>
+                                                        <div class="fs-6 ">Office Admin</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -450,8 +458,8 @@
                                         </div>
                                         <div class="testimonial-name d-flex mt-auto text-black">
                                             <div>
-                                                <div class="author">Aditya Shankar</div>
-                                                <div class="fs-6 ">Co-founder, Doubtnut</div>
+                                                <div class="author">Mr. Nilesh Gupta</div>
+                                                <div class="fs-6 ">Office Admin</div>
                                             </div>
                                         </div>
 
@@ -461,8 +469,149 @@
                         </div>
 
                     </div>
+
+                    {{-- Manohar sir --}}
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Mr. Manohar Singhh</div>
+                                                        <div class="fs-6 ">Paid Marketing Manager</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                            <div>
+                                                <div class="author">Mr. Manohar Singh</div>
+                                                <div class="fs-6 ">Paid Marketing Manager</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    {{-- Rudraksh sir --}}
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/team/new/Rudraksh.webp') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Mr. Rudraksh Singh</div>
+                                                        <div class="fs-6 ">Creative Design Manager</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                            <div>
+                                                <div class="author">Mr. Rudraksh Singh</div>
+                                                <div class="fs-6 ">Creative Design Manager</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    {{-- Leera ma'am --}}
+                    <div class="item">
+                        <div class="flip">
+                            <div class="corecard border-0">
+                                <div class="face front">
+                                    <div class="inner">
+                                        <div class="shadow-effect corebox flip rounded-3">
+                                            <div class=" ">
+                                                <img class="img-circle rounded-3" width="50px"
+                                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
+                                                    alt="client">
+                                            </div>
+                                            <div class="authorbox rounded-3">
+                                                <div class="testimonial-name d-flex  text-white">
+                                                    <div>
+                                                        <div class="author">Ms. Leera Ramesh</div>
+                                                        <div class="fs-6 ">Seller Manager</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <div class="inner p-3">
+                                        <div>
+                                            <p>Razorpay Magic Checkout is
+                                                truly a magical solution. Our
+                                                conversion rate has increased
+                                                by 35% & our COD, RTO has
+                                                drastically decreased.</p>
+                                        </div>
+                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                            <div>
+                                                <div class="author">Ms. Leera Ramesh</div>
+                                                <div class="fs-6 ">Seller Manager</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+                
             </div>
+          
         </div>
     </section>
 

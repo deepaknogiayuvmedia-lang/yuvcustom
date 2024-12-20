@@ -48,6 +48,24 @@ $('#core-team').owlCarousel({
         }
     }
 });
+$('#core-teams').owlCarousel({
+    items: 5, // Number of visible items
+    margin: 20, // Space between items
+    loop: false, // Infinite looping
+    autoplay: true, // Automatic scrolling
+    autoplayTimeout: 3000, // Delay between scrolls
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
 
 
 $('.hero-slider').owlCarousel({

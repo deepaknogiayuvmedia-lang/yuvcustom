@@ -93,9 +93,6 @@
     animation: seoleftright 3s ease-out infinite alternate;
   }
 
-  #seofirstsection {
-    background-image: none !important;
-  }
 
   .seoheading {
     font-size: 37px;
@@ -220,7 +217,8 @@
   }
 
   .grpahicbimage {
-    width: 100%;
+    width: 50%;
+    border-radius: 20px;
     transition: 0.5s ease-in-out;
     animation: webimageleftright 3s ease-out infinite alternate;
   }

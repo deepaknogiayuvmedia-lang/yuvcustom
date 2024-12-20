@@ -1,7 +1,8 @@
 @extends('website.layout.websitemain')
 @section('title', 'Video Production | ' . config('app.name'))
 @section('content')
-<section style="background-color: #ffffff;" class="py-4">
+<canvas id="gradient-canvas"></canvas>
+<section class="py-4 position-relative">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -23,17 +24,17 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg videoprobbtn">Contact Us<i class="bi bi-arrow-right"></i></a>
+                        <a href="{{ route('contact')}}" class="btn btn-lg videoprobbtn">Contact Us<i class="bi bi-arrow-right ms-3"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="videoprobimage" src="{{ asset('assets/websiteAssets/images/videopro.png') }}" alt="">
+                <img class="videoprobimage" src="{{ asset('assets/websiteAssets/images/services/video-maker-editing-movie.webp') }}" alt="">
             </div>
         </div>
     </div>
 </section>
-<section style="background-color: #f8fff8;" class="py-5">
+<section class="py-5 position-relative bannerbg">
     <div class="container py-5 justify-content-center">
         <div class="row">
             <div class="text-center videoproheadingsecthree">

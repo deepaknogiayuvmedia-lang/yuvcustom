@@ -116,10 +116,10 @@
                                     <a class="nav-link" href="{{ route('partners') }}">Partners</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link" href="https://www.yuvmedia.com/">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Career</a>
+                                    <a class="nav-link" href="https://www.yuvmedia.com/jobs">Career</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>

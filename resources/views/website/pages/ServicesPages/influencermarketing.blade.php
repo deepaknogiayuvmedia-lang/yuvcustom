@@ -1,7 +1,8 @@
 @extends('website.layout.websitemain')
 @section('title', 'Designing Services | ' . config('app.name'))
 @section('content')
-<section style="background-color: #fffbfc;" class="py-5">
+<canvas id="gradient-canvas"></canvas>
+<section  class="py-5 position-relative">
     <div class="container py-0 py-md-3">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -20,17 +21,17 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg influbbtn">Contact Us<i class="bi bi-arrow-right"></i></a>
+                        <a href="{{ route('contact')}}" class="btn btn-lg influbbtn">Contact Us<i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="influbimage" src="{{ asset('assets/websiteAssets/images/influheronew.jpg') }}" alt="">
+                <img class="influbimage" src="{{ asset('assets/websiteAssets/images/services/influencer.webp') }}" alt="">
             </div>
         </div>
     </div>
 </section>
-<section style="background-color: #e4f0ff;" class="py-5">
+<section class="py-5 position-relative bannerbg">
     <div class="container py-5 justify-content-center">
         <div class="row">
             <div class="text-center performanceheadingsecthree">

@@ -47,7 +47,7 @@
   border-bottom: 3px solid var(--whatsapp-color);
   padding: 1.3rem;
   border-radius: 15px;
-  box-shadow: 0px 10px 5px #e9e5e5a3;
+  /* box-shadow: 0px 10px 5px #e9e5e5a3; */
   text-align: center;
   transition: 0.3s ease-in-out;
 }
@@ -212,7 +212,8 @@
 }
 
 .videoprobimage {
-  width: 120%;
+  width: 100%;
+  border-radius: 20px;
   transition: 0.5s ease-in-out;
   animation: leftright 3s ease-out infinite alternate;
 }
@@ -310,7 +311,9 @@
 }
 
 .seoimage {
-  width: 120%;
+  width: 100%;
+  border-radius: 20px;
+
   transition: 0.5s ease-in-out;
   animation: seoleftright 3s ease-out infinite alternate;
 }
@@ -380,7 +383,8 @@
 }
 
 .webimage {
-  width: 120%;
+  width: 100%;
+  border-radius: 20px;
   transition: 0.5s ease-in-out;
   animation: webimageleftright 3s ease-out infinite alternate;
 }
@@ -741,7 +745,8 @@
 }
 
 .grpahicbimage {
-  width: 120%;
+  width: 50%;
+  border-radius: 20px;
   transition: 0.5s ease-in-out;
   animation: webimageleftright 3s ease-out infinite alternate;
 }
@@ -826,7 +831,8 @@
 }
 
 .marketbimage {
-  width: 130%;
+  width: 100%;
+  border-radius: 20px;
   transition: 0.5s ease-in-out;
   animation: marketimgleftright 3s ease-out infinite alternate;
 }
@@ -932,12 +938,15 @@
 
 .performancesecondheadsecthree {
   font-size: 18px;
+  
 }
 
 .influheading {
   font-size: 53px;
   font-weight: 600 !important;
   color: black;
+  text-transform: capitalize;
+
 }
 
 .influheadingsub {
@@ -965,7 +974,8 @@
 }
 
 .influbimage {
-  width: 120%;
+  width: 100%;
+  border-radius: 20px;
   transition: 0.5s ease-in-out;
   animation: influleftright 3s ease-out infinite alternate;
 }
@@ -1297,7 +1307,7 @@
   border-radius: 20px;
   padding: 25px;
   border: 1px solid #0d6efd;
-  box-shadow: 0px 0px 20px #c5c5c5b8;
+  /* box-shadow: 0px 0px 20px #c5c5c5b8; */
 }
 
 .formcustomcardfooter {

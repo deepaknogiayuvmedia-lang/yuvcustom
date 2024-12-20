@@ -1,9 +1,9 @@
 @extends('website.layout.websitemain')
 @section('title', 'Web Development | ' . config('app.name'))
 @section('content')
-<section 
-    style="background-image: url('{{ asset('assets/websiteAssets/images/graphicsectionback.jpg') }}'); background-repeat: no-repeat;
-    background-position: center; background-size:cover;">
+<canvas id="gradient-canvas"></canvas>
+
+<section  class="position-relative">
     <div class="container py-5">
         <div class=" row">
             <div class="text-center performanceheading">
@@ -21,13 +21,41 @@
             </div>
             <div class="d-flex justify-content-center flex-wrap">
                 <div class="me-3">
-                    <a href="#" class="btn btn-lg performancebtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('contact')}}" class="btn btn-lg performancebtn">Contact Us <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container  py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="text-start seoheadingsectiontwo">
+                    Drive Results with <span class="seoheadingsubsectiontwo text-decoration-underline">Performance Media</span>
+                </div>
+                <div class="text-start py-2">
+                    <p class="text-wrap seosecondhead">
+                        Our performance media strategies are designed to deliver measurable results. We use data-driven approaches to optimize your campaigns and ensure maximum ROI.
+                    </p>
+                </div>
+                <div class="text-start py-2">
+                    <p class="text-wrap seosecondhead">
+                        Partner with us to leverage cutting-edge technology and innovative tactics that keep your brand ahead of the competition.
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    <div class="me-3">
+                        <a href="{{route('contact')}}" class="btn btn-lg seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/holding-smartphone.webp') }}"
+                    alt="seo">
+            </div>
+        </div>
+    </div>
 </section>
-<section style="background-color: #ffffff;" class="py-5">
+<section  class="position-relative py-5 bannerbg">
     <div class="container py-5 justify-content-center">
         <div class="row">
             <div class="text-center performanceheadingsecthree">

@@ -1,9 +1,9 @@
 @extends('website.layout.websitemain')
 @section('title', 'Web Development | ' . config('app.name'))
 @section('content')
-<section
-    style="background-image: url('{{ asset('assets/websiteAssets/images/socialmediaback.png') }}'); background-repeat: no-repeat ; background-position: center; background-size:cover; background-position-y: -303px;"
-    class="py-2" id="socialmediasection">
+<canvas id="gradient-canvas"></canvas>
+
+<section class="py-2 position-relative" id="socialmediasection">
     <div class="container py-5">
         <div class="row">
             <div class="text-center socialmedheading">
@@ -22,14 +22,44 @@
             </div>
             <div class="d-flex justify-content-center flex-wrap">
                 <div class="me-3">
-                    <a href="#" class="btn btn-lg socialmedbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Contact Us <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container  py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="text-start seoheadingsectiontwo">
+                    Amplify Your Brand's Reach with <span
+                        class=" seoheadingsubsectiontwo text-decoration-underline">Social Media Expertise</span>
+                </div>
+                <div class="text-start py-2">
+                    <p class="text-wrap seosecondhead">
+                        Social media is a powerful tool to connect with your audience, build brand awareness, and drive engagement. Our team of experts will help you create a strong social media presence.
+                    </p>
+                </div>
+                <div class="text-start py-2">
+                    <p class="text-wrap seosecondhead">
+                        We tailor our strategies to your unique business needs, ensuring that your social media efforts align with your overall marketing goals and deliver measurable results.
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/social-media-marketing.webp') }}"
+                    alt="seo">
+            </div>
+        </div>
+    </div>
 </section>
-<section style="background-color: #ffffff;" class="py-5">
-    <div class="container py-5 justify-content-center">
+<section class="bannerbg position-relative py-5">
+    <div class="container py-5 justify-content-center ">
         <div class="row">
             <div class="text-center socialmedheadingsecthree">
                 Focus <span class="socialmedheadingsubsecthree">Areas</span>

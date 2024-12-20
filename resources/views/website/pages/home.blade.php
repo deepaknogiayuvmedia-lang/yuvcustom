@@ -167,7 +167,7 @@
 
     {{-- services --}}
     <section>
-        <div class="container py-5">
+        <div class="container py-5 ">
             <div class="row">
                 <h2 class="globaltxtcolor text-start">
                     Our Services
@@ -2233,7 +2233,7 @@
             </div>
             </div>
         </div>
-        <div class="container py-5 ">
+        <div class="container py-5 mb-md-5">
 
             <div class="row">
                 <div class="col-md-6" style="z-index: 10">
@@ -2248,63 +2248,84 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
+                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
                         <div class="fw-bold mb-3">
                             Fill Out the form and we will
                             contact you
                         </div>
                         <div>
-                            <form>
-                                <div class="mb-3 d-flex">
-                                    <div class="me-3 flex-grow-1">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" required placeholder="Enter your name">
+                            <form action="#">
+                                <div class="">
+                                    <div class="card-body">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your First Name <span class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="userid" class="form-control customforminput"
+                                                        placeholder="Enter Your First Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Brand Name <span class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="password" class="form-control customforminput"
+                                                        placeholder="Enter Your Brand Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Email <span class="text-danger fs-5">*</span> </label>
+                                                    <input type="email" name="email" class="form-control customforminput"
+                                                        placeholder="Enter Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Phone/Mobile <span class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="expiredate" class="form-control customforminput"
+                                                        placeholder="Enter Phone/Mobile">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Website <span class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="createddate" class="form-control customforminput"
+                                                        placeholder="Enter Your Website link">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label for="labelid">Your Industry <span class="text-danger fs-5">*</span> </label>
+                                                    <select name="servicetype" class="form-select customforminput" id="servicetypeid" required>
+                                                        <option value="" selected>--select industry--</option>
+                                                        <option value="Services">E-Commerce</option>
+                                                        <option value="Consulting">Fantasy Games</option>
+                                                        <option value="Consulting">Tour & Travel</option>
+                                                        <option value="Consulting">Finance</option>
+                                                        <option value="Consulting">Hospitality</option>
+                                                        <option value="Consulting">Healthcare</option>
+                                                        <option value="Consulting">Interior Designing & Architect</option>
+                                                        <option value="Consulting">Education</option>
+                                                        <option value="Consulting">Real E-State</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-12 col-md-12">
+                                                <div>
+                                                    <label for="example-text-input" class="">Please tell about your business <span class="text-danger fs-5">*</span> </label>
+                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="value"
+                                                        type="textarea" rows="3" value="" id="example-text-input" required></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+        
                                     </div>
-                                    <div class="flex-grow-1">
-                                        <label for="brandName" class="form-label">Brand Name</label>
-                                        <input type="text" class="form-control" id="brandName" required placeholder="Enter your brand name">
+                                    <div class="formcustomcardfooter">
+                                        <div class="d-flex justify-content-center">
+                                            <button type="submit" class="btn formbtn">Book a 30-minute Free Consultation</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mb-3 d-flex">
-                                    <div class="me-3 flex-grow-1">
-                                        <label for="email" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="email" required placeholder="Enter your email">
-                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
-                                            else.</div>
-                                    </div>
-                                    <div class="flex-grow-1">
-
-                                        <label for="phone" class="form-label">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" required placeholder="Enter your phone number">
-                                    </div>
-                                </div>
-                                <div class="mb-3 d-flex">
-                                    <div class="me-3 flex-grow-1">
-                                        <label for="website" class="form-label">Website</label>
-                                        <input type="url" class="form-control" id="website" placeholder="Enter your website">
-                                    </div>
-                                    <div class="flex-grow-1">
-
-                                        <label for="industry" class="form-label">Industry</label>
-                                        <select class="form-select" id="industry" required>
-                                            <option selected disabled>Select your industry</option>
-                                            <option value="E-commerce">E-commerce</option>
-                                            <option value="Fantasy Games">Fantasy Games</option>
-                                            <option value="Tour &amp; Travel">Tour &amp; Travel</option>
-                                            <option value="Finance">Finance</option>
-                                            <option value="Hospitality">Hospitality</option>
-                                            <option value="Healthcare">Healthcare</option>
-                                            <option value="Interior Designing &amp; Architect">Interior Designing &amp; Architect</option>
-                                            <option value="Education">Education</option>
-                                            <option value="Real Estate">Real Estate</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Please tell about your business </label>
-                                    <textarea class="form-control" id="message" rows="3" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Book a 30-minute Free Consultation</button>
                             </form>
                         </div>
                     </div>

@@ -1,7 +1,10 @@
 @extends('website.layout.websitemain')
 @section('title', 'Market Place Expertise | ' . config('app.name'))
 @section('content')
-<section style="background-color: #ffffff;" class="py-5">
+<canvas id="gradient-canvas"></canvas>
+
+
+<section class="py-5 position-relative">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -20,17 +23,17 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg marketbbtn">Contact Us<i class="bi bi-arrow-right"></i></a>
+                        <a href="{{route('contact')}}" class="btn btn-lg marketbbtn">Contact Us<i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="marketbimage" src="{{ asset('assets/websiteAssets/images/marketheroback.jpg') }}" alt="">
+                <img class="marketbimage" src="{{ asset('assets/websiteAssets/images/services/people-working-with-laptop.webp') }}" alt="">
             </div>
         </div>
     </div>
 </section>
-<section style="background-image: url('{{ asset('assets/websiteAssets/images/graphicsectionback.jpg') }}'); background-repeat: no-repeat; background-size: cover;" class="py-5">
+<section class="py-5 position-relative bannerbg">
     <div class="container py-5 justify-content-center">
         <div class="row">
             <div class="text-center marketheadingsecthree">
