@@ -12,8 +12,8 @@
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h1 class="heroheading fw-bolder globaltxtcolor">The all in one finance platform</h1>
-                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <h1 class="heroheading fw-bolder globaltxtcolor">Drive More Customers Through</h1>
+                                <h3 class="herosubheading fw-bolder">Our Digital Marketing & IT Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
@@ -44,8 +44,8 @@
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h1 class="globaltxtcolor fw-bolder">The all in one finance platform</h1>
-                                <h3 class="herosubheading fw-bolder">you’ve been looking for</h3>
+                                <h3 class="globaltxtcolor2 fw-bolder text-capitalize">We are a leading design and technology agency offering top-tier digital solutions </h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">for organizations seeking online value and digital growth</h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
@@ -936,11 +936,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -983,11 +979,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -1030,11 +1022,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -1076,11 +1064,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -1122,11 +1106,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -1168,11 +1148,7 @@
                                     <div class="face back">
                                         <div class="inner p-3">
                                             <div>
-                                                <p>Razorpay Magic Checkout is
-                                                    truly a magical solution. Our
-                                                    conversion rate has increased
-                                                    by 35% & our COD, RTO has
-                                                    drastically decreased.</p>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
@@ -1216,7 +1192,7 @@
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
-                            type="button" role="tab">Education</button>
+                            type="button" role="tab">Travel</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3"
@@ -1224,11 +1200,11 @@
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4"
-                            type="button" role="tab">Saas</button>
+                            type="button" role="tab">Hospitality</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5"
-                            type="button" role="tab">Freelance</button>
+                            type="button" role="tab">Healthcare</button>
                     </li>
                 </ul>
 
@@ -1345,13 +1321,16 @@
 
 
     {{-- Tecg tools section --}}
-    <section class="position-relative technologies-sec aos-init aos-animate " data-aos-duration="1200"
+    <section class="position-relative  technologies-sec aos-init aos-animate " data-aos-duration="1200"
         data-aos-delay="000">
         <div class="technical-stack-section">
             <div class="container">
 
                 <div class="text-start globaltxtcolor">
                     Technologies We Use
+                </div>
+                <div class=" text-start fs-4 fw-bold pb-md-5">
+                    Leveraging cutting-edge technologies across all industries.
                 </div>
 
                 <div class="technical-stack-inn mt-5 mt-md-3">
@@ -2226,11 +2205,11 @@
 
     <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
-        <div class="container ">
+            <div class="container ">
 
-            <div class="ms-5 ps-5">
-                <h1 class="text-white fw-bold">Contact us</h1>
-            </div>
+                <div class="ms-5 ps-5">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
             </div>
         </div>
         <div class="container py-5 mb-md-5">
@@ -2248,7 +2227,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
+                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative"
+                        style="z-index: 10">
                         <div class="fw-bold mb-3">
                             Fill Out the form and we will
                             contact you
@@ -2260,43 +2240,54 @@
                                         <div class="row gy-4">
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label class="form-label">Your First Name <span class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="userid" class="form-control customforminput"
+                                                    <label class="form-label">Your First Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="userid"
+                                                        class="form-control customforminput"
                                                         placeholder="Enter Your First Name" autocomplete="off">
                                                 </div>
                                             </div>
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label class="form-label">Your Brand Name <span class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="password" class="form-control customforminput"
+                                                    <label class="form-label">Your Brand Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="password"
+                                                        class="form-control customforminput"
                                                         placeholder="Enter Your Brand Name" autocomplete="off">
                                                 </div>
                                             </div>
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label class="form-label">Email <span class="text-danger fs-5">*</span> </label>
-                                                    <input type="email" name="email" class="form-control customforminput"
-                                                        placeholder="Enter Email">
+                                                    <label class="form-label">Email <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="email" name="email"
+                                                        class="form-control customforminput" placeholder="Enter Email">
                                                 </div>
                                             </div>
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label class="form-label">Phone/Mobile <span class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="expiredate" class="form-control customforminput"
+                                                    <label class="form-label">Phone/Mobile <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="expiredate"
+                                                        class="form-control customforminput"
                                                         placeholder="Enter Phone/Mobile">
                                                 </div>
                                             </div>
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label class="form-label">Your Website <span class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="createddate" class="form-control customforminput"
+                                                    <label class="form-label">Your Website <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="createddate"
+                                                        class="form-control customforminput"
                                                         placeholder="Enter Your Website link">
                                                 </div>
                                             </div>
                                             <div class="col-xxl-6 col-md-6">
                                                 <div>
-                                                    <label for="labelid">Your Industry <span class="text-danger fs-5">*</span> </label>
-                                                    <select name="servicetype" class="form-select customforminput" id="servicetypeid" required>
+                                                    <label for="labelid">Your Industry <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <select name="servicetype" class="form-select customforminput"
+                                                        id="servicetypeid" required>
                                                         <option value="" selected>--select industry--</option>
                                                         <option value="Services">E-Commerce</option>
                                                         <option value="Consulting">Fantasy Games</option>
@@ -2312,17 +2303,19 @@
                                             </div>
                                             <div class="col-xxl-12 col-md-12">
                                                 <div>
-                                                    <label for="example-text-input" class="">Please tell about your business <span class="text-danger fs-5">*</span> </label>
+                                                    <label for="example-text-input" class="">Please tell about
+                                                        your business <span class="text-danger fs-5">*</span> </label>
                                                     <textarea class="form-control customforminput" placeholder="Please tell about your business" name="value"
                                                         type="textarea" rows="3" value="" id="example-text-input" required></textarea>
                                                 </div>
                                             </div>
                                         </div>
-        
+
                                     </div>
                                     <div class="formcustomcardfooter">
                                         <div class="d-flex justify-content-center">
-                                            <button type="submit" class="btn formbtn">Book a 30-minute Free Consultation</button>
+                                            <button type="submit" class="btn formbtn">Book a 30-minute Free
+                                                Consultation</button>
                                         </div>
                                     </div>
                                 </div>

@@ -1821,6 +1821,13 @@ border-radius: 40px;
   font-size: 50px;
   font-weight: 600 !important;
 }
+.globaltxtcolor2{
+  background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: 600 !important;
+}
 
 .bluePurpelGradient {
   background: linear-gradient(146.88deg, #a6edff 9.67%, #715bff 85.4%);

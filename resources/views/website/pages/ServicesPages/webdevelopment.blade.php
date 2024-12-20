@@ -22,13 +22,70 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact')}}" class="btn btn-lg  webbbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="btn btn-lg  webbbtn">Contact Us <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                {{-- <div class="col-md-6">
                     <img class="webimage" src="{{ asset('assets/websiteAssets/images/services/webdev1.webp') }}"
                         alt="webdev">
+                        
+                </div> --}}
+
+                <div
+                    class="col-lg-6 col-md-12 pt-lg-5 mt-lg-3 pt-0 pe-lg-5  animate-right position-relative jaydeskpa dding">
+
+                    <div class="container1">
+                        <img src="https://crmlanding.in/assets/images/hero/bg/manufactbgline.png" class="position-absolute"
+                            id="img_bg">
+                        <img src="https://crmlanding.in/assets/images/hero/bg/manufactbgeff.png"
+                            class="position-absolute img-fluid" id="img_bgeff">
+                        <div class="herocircle-container position-relative z-5">
+                            <div class="herorcg-circle mx-lg-0 mx-2 flex-column" style="order: 3;">
+                                <img src="https://crmlanding.in/assets/images/hero/bg/finwhiteicon.png" class="img-fluid">
+                                <div class="sliderhead">Finance</div>
+                            </div>
+                            <div class="herorcg-circle mx-lg-0 mx-2 flex-column" style="order: 4;">
+                                <img src="https://crmlanding.in/assets/images/hero/bg/realwhiteicon.png" class="img-fluid">
+                                <div class="sliderhead">Real Estate</div>
+                            </div>
+                            <div class="herorcg-circle mx-lg-0 mx-2 flex-column" style="order: 0;">
+                                <img src="https://crmlanding.in/assets/images/hero/bg/autowhiteicon.png" class="img-fluid">
+                                <div class="sliderhead">Automotive</div>
+                            </div>
+                            <div class="herorcg-circle mx-lg-0 mx-2 flex-column" style="order: 1;">
+                                <img src="https://crmlanding.in/assets/images/hero/bg/rcgwhiteicon.png" class="img-fluid">
+                                <div class="sliderhead">RCG</div>
+                            </div>
+                            <div class="herorcg-circle mx-lg-0 mx-2 flex-column active" style="order: 2;">
+                                <img src="https://crmlanding.in/assets/images/hero/bg/manufactureicon.png"
+                                    class="img-fluid">
+                                <div class="sliderhead">Manufacturing</div>
+                            </div>
+                        </div>
+
+                        <div class="herocard herocard-outjay herocard1 active" id="jayho1">
+                            <img id="herocard1-img" src="https://crmlanding.in/assets/images/hero/bg/manufacturing1.jpg"
+                                class="img-fluid" alt="Image 1">
+                        </div>
+                        <div class="herocard herocard-outjay herocard2 active" id="jayho2">
+                            <img id="herocard2-img" src="https://crmlanding.in/assets/images/hero/bg/manufacturing2.jpg"
+                                class="img-fluid" alt="Image 2">
+                        </div>
+                        <div class="herocard herocard-outjay herocard3 active" id="jayho3">
+                            <img id="herocard3-img" src="https://crmlanding.in/assets/images/hero/bg/manufacturing3.jpg"
+                                class="img-fluid" alt="Image 3">
+                        </div>
+                        <div class="herocard herocard-outjay herocard4 active" id="jayho4">
+                            <img id="herocard4-img" src="https://crmlanding.in/assets/images/hero/bg/manufacturing4.jpg"
+                                class="img-fluid" alt="Image 4">
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -336,4 +393,138 @@
             </div>
         </div>
     </section>
+
+
+
+    <script>
+        const circles = document.querySelectorAll('.herorcg-circle');
+        let currentIndex = 0; // Tracks the logical active index in the dataset
+
+        const images = [
+            ["https://crmlanding.in/assets/images/hero/bg/auto1.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/auto2.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/auto3.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/auto4.jpg"
+            ],
+            ["https://crmlanding.in/assets/images/hero/bg/rcg1.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/rcg2.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/rcg3.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/rcg4.jpg"
+            ],
+            ["https://crmlanding.in/assets/images/hero/bg/manufacturing1.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/manufacturing2.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/manufacturing3.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/manufacturing4.jpg"
+            ],
+            ["https://crmlanding.in/assets/images/hero/bg/finance1.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/finance2.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/finance3.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/finance4.jpg"
+            ],
+            ["https://crmlanding.in/assets/images/hero/bg/real1.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/real2.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/real3.jpg",
+                "https://crmlanding.in/assets/images/hero/bg/real4.jpg"
+            ]
+        ];
+
+        const circleactiveimg = [
+            "https://crmlanding.in/assets/images/hero/bg/autoicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/financeicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/manufactureicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/financeicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/realicon.png"
+        ];
+
+        const inactiveImages = [
+            "https://crmlanding.in/assets/images/hero/bg/autowhiteicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/rcgwhiteicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/manuwhiteicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/finwhiteicon.png",
+            "https://crmlanding.in/assets/images/hero/bg/realwhiteicon.png"
+        ];
+
+        const bgimageline = [
+            "https://crmlanding.in/assets/images/hero/bg/autobgline.png",
+            "https://crmlanding.in/assets/images/hero/bg/rcgbglinenew.png",
+            "https://crmlanding.in/assets/images/hero/bg/manufactbgline.png",
+            "https://crmlanding.in/assets/images/hero/bg/finbglinenew.png",
+            "https://crmlanding.in/assets/images/hero/bg/realbgline.png"
+        ];
+
+        const bgeffect = [
+            "https://crmlanding.in/assets/images/hero/bg/autobgeff.png",
+            "https://crmlanding.in/assets/images/hero/bg/rcgbgeff.png",
+            "https://crmlanding.in/assets/images/hero/bg/manufactbgeff.png",
+            "https://crmlanding.in/assets/images/hero/bg/finbgeff.png",
+            "https://crmlanding.in/assets/images/hero/bg/realbgeff.png"
+        ];
+
+        function updateSlider() {
+            circles.forEach((circle, index) => {
+                const positionIndex = (index - currentIndex + circles.length) % circles.length;
+
+                const isActive = positionIndex === 2;
+
+                circle.classList.toggle('active', isActive);
+                const circleImage = circle.querySelector('img');
+                circleImage.src = isActive ? circleactiveimg[currentIndex] : inactiveImages[(currentIndex +
+                    positionIndex - 2 + circles.length) % circles.length];
+
+                circle.style.order = positionIndex;
+            });
+
+            const activeImages = images[currentIndex];
+            document.getElementById('herocard1-img').src = activeImages[0];
+            document.getElementById('herocard2-img').src = activeImages[1];
+            document.getElementById('herocard3-img').src = activeImages[2];
+            document.getElementById('herocard4-img').src = activeImages[3];
+            document.getElementById('img_bg').src = bgimageline[currentIndex];
+            document.getElementById('img_bgeff').src = bgeffect[currentIndex];
+
+            document.querySelectorAll('.herocard').forEach(card => {
+                card.classList.remove('active');
+                void card.offsetWidth;
+                card.classList.add('active');
+            });
+        }
+
+        function adjustCurrentIndexForPosition3(clickedIndex) {
+            const targetPosition = 2;
+            currentIndex = (clickedIndex - targetPosition + circles.length) % circles.length;
+            updateSlider();
+        }
+
+        circles.forEach((circle, index) => {
+            circle.addEventListener('click', () => {
+                adjustCurrentIndexForPosition3(index);
+                resetAutoRotation();
+            });
+        });
+
+        let autoRotationInterval = setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateSlider();
+        }, 3000);
+
+        function resetAutoRotation() {
+            clearInterval(autoRotationInterval);
+            autoRotationInterval = setInterval(() => {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateSlider();
+            }, 3000);
+        }
+
+        const container1 = document.querySelector('.container1');
+
+        container1.addEventListener('mouseenter', () => {
+            clearInterval(autoRotationInterval);
+        });
+
+        container1.addEventListener('mouseleave', () => {
+            resetAutoRotation();
+        });
+
+        updateSlider();
+    </script>
 @endsection

@@ -40,7 +40,7 @@
             <div class="container d-flex justify-content-around">
 
                 <div class="px-3">
-                    <a class="navbar-brand d-flex align-items-center" href="#">
+                    <a class="navbar-brand d-flex align-items-center" href="{{ route('homepage') }}">
                         <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
                     </a>
                 </div>
@@ -250,20 +250,20 @@
                                     <li>
                                         <a href="{{ route('about') }}">About Us</a>
                                     </li>
+                                    {{-- <li>
+                                        <a href="{{ route('ourteam') }}">Our Team</a>
+                                    </li> --}}
                                     <li>
-                                        <a href="{{ route('homepage') }}">Our Team</a>
+                                        <a href="{{ route('work') }}">Work</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Work</a>
+                                        <a href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Partners</a>
+                                        <a href="https://www.yuvmedia.com/">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('homepage') }}">Career</a>
+                                        <a href="https://www.yuvmedia.com/jobs">Career</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('contact') }}">Contact Us</a>
@@ -278,34 +278,34 @@
                                 <h5 class="widget-title">Quick Links</h5>
                                 <ul class="ps-0">
                                     <li>
-                                        <a href="{{ route('homepage') }}">SEO</a>
+                                        <a href="{{ route('seo') }}">SEO</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('about') }}">Social Media</a>
+                                        <a href="{{ route('socialmedia') }}">Social Media</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Whatsapp Marketing</a>
+                                        <a href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Video Production</a>
+                                        <a href="{{ route('videoproduction') }}">Video Production</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Web Development</a>
+                                        <a href="{{ route('webdevelopment') }}">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Designing Services</a>
+                                        <a href="{{ route('designingservices') }}">Designing Services</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('homepage') }}">Performance Media</a>
+                                        <a href="{{ route('performancemedia') }}">Performance Media</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('contact') }}">Marketplace Expertise</a>
+                                        <a href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('contact') }}">Influencer Marketing</a>
+                                        <a href="{{ route('influencermarketing') }}">Influencer Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('contact') }}">Google Business Profile</a>
+                                        <a href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
                                     </li>
                                 </ul>
                             </section>
@@ -341,23 +341,33 @@
                                     <div class="social-icons social-icons--rounded">
                                         <ul class="d-flex ps-0">
                                             <li class="facebook me-3">
-                                                <a href="https://www.facebook.com/">
+                                                <a href="https://www.facebook.com/yuvmedia">
                                                     <i class="bi bi-facebook fs-4"></i>
                                                 </a>
                                             </li>
                                             <li class="twitter me-3">
-                                                <a href="https://twitter.com/">
+                                                <a href="https://twitter.com/YUVMEDIA2">
                                                     <i class="bi bi-twitter fs-4"></i>
                                                 </a>
                                             </li>
                                             <li class="instagram me-3">
-                                                <a href="https://www.instagram.com/">
+                                                <a href="https://www.instagram.com/yuv_media/">
                                                     <i class="bi bi-instagram fs-4"></i>
                                                 </a>
                                             </li>
                                             <li class="google-plus me-3">
-                                                <a href="https://youtube.com/">
+                                                <a href="https://www.youtube.com/channel/UCb4NWy8AA0pnzTnUDntiGyw">
                                                     <i class="bi bi-youtube fs-4"></i>
+                                                </a>
+                                            </li>
+                                            <li class="google-plus me-3">
+                                                <a href="https://www.linkedin.com/company/yuvmedia/">
+                                                    <i class="bi bi-linkedin fs-4"></i>
+                                                </a>
+                                            </li>
+                                            <li class="google-plus me-3">
+                                                <a href="https://www.pinterest.ca/yuvmedia/_created/">
+                                                    <i class="bi bi-pinterest fs-4"></i>
                                                 </a>
                                             </li>
                                         </ul>
