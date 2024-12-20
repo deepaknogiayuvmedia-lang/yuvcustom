@@ -1664,7 +1664,7 @@
   border-radius: 0.2em;
   box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
   overflow: hidden;
-  width: 100%;
+  width: 570px;
   position: relative;
   transition: all 0.1s ease-in-out;
 }
@@ -1674,7 +1674,7 @@
   border-radius: 0.2em;
   box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
   overflow: hidden;
-  width: 100%;
+  width: 570px;
   position: relative;
   transition: all 0.1s ease-in-out;
 }
@@ -1683,7 +1683,7 @@
   border-radius: 0.2em;
   box-shadow: 0 0 0 1px rgba(var(--rgb-black), 0.05), 0 1px 0 0 rgba(var(--rgb-black), 0.05), 0 0.2em 1.6em -0.8em rgba(var(--rgb-black), 0.2), 0 0.4em 2.4em -1em rgba(var(--rgb-black), 0.3), 0 0.4em 0.8em -1.2em rgba(var(--rgb-black), 0.4), 0 0.8em 1.2em -1.6em rgba(var(--rgb-black), 0.5), 0 1.2em 1.6em -2em rgba(var(--rgb-black), 0.6);
   overflow-x: hidden;
-  width: 100%;
+  width: 570px;
   position: relative;
   transition: all  0.1s ease-in-out;
   transform: rotate(-2.2deg) scale(1.1);
@@ -1774,7 +1774,7 @@ margin: 50px auto;
 padding-bottom: 50px;
 }
 
-.swiper-full-mobile:before {
+/* .swiper-full-mobile:before {
 content: "";
 width: 265px;
 background: url(http://md-aqil.github.io/images/Pixel-3-XL.png);
@@ -1787,15 +1787,17 @@ top: 24px;
 height: 565px;
 z-index: 2;
 margin: auto;
-}
+} */
 .swiper-full-mobile .swiper-slide {
 height: 100%;
 }
 .swiper-full-mobile .swiper-slide img{
-width: 75%;
-height: 530px;
-object-fit: cover;
-border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+  padding: 8px;
+  background: #000000;
 
 }
 .swiper-slide.swiper-slide-active img {

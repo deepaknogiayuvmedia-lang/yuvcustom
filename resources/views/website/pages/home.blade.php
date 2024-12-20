@@ -530,90 +530,90 @@
 
 
 
-   {{-- Achieving Goals --}}
-   <section class="bannerbg">
-    <div class="container pt-5">
-        <div class="row">
-            <div class="globaltxtcolor  text-start ">
-                Achieving Goals
-            </div>
-            <div class="text-start">
-                <p>
-                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                    and admire.
-                    Our team of experts is always keen on formulating only the right solutions for your business’
-                    everyday digital needs.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid pb-5">
-        <div class="container ">
-
-            <div class="row goalss justify-content-center p-3">
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Design
-                        </div>
-                        <div class="serviceContent">
-                            Our designs are more than just visuals;
-                            they’re stories waiting to be told.
-                        </div>
-                    </div>
+    {{-- Achieving Goals --}}
+    <section class="bannerbg">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="globaltxtcolor  text-start ">
+                    Achieving Goals
                 </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Social Media Marketing
-                        </div>
-                        <div class="serviceContent">
-                            In the bustling world of social media, we help your brand stand out.
-                        </div>
-                    </div>
+                <div class="text-start">
+                    <p>
+                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
+                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
+                        and admire.
+                        Our team of experts is always keen on formulating only the right solutions for your business’
+                        everyday digital needs.
+                    </p>
                 </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                            class="serviceIcon3">
-                        <div class="serviceHeading">
-                            Website Development
-                        </div>
-                        <div class="serviceContent">
-                            Your website is your digital storefront. We build websites that not only look
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Performance Marketing
-                        </div>
-                        <div class="serviceContent">
-                            Experience substantial profit growth and a competitive edge through
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </div>
-</section>
+        <div class="container-fluid pb-5">
+            <div class="container ">
+
+                <div class="row goalss justify-content-center p-3">
+                    <div class="col">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Design
+                            </div>
+                            <div class="serviceContent">
+                                Our designs are more than just visuals;
+                                they’re stories waiting to be told.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Social Media Marketing
+                            </div>
+                            <div class="serviceContent">
+                                In the bustling world of social media, we help your brand stand out.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
+                                class="serviceIcon3">
+                            <div class="serviceHeading">
+                                Website Development
+                            </div>
+                            <div class="serviceContent">
+                                Your website is your digital storefront. We build websites that not only look
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="servicecard">
+                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
+                                class="servicebg">
+                            <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
+                                class="serviceIcon">
+                            <div class="serviceHeading">
+                                Performance Marketing
+                            </div>
+                            <div class="serviceContent">
+                                Experience substantial profit growth and a competitive edge through
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -2039,12 +2039,14 @@
     <!-- TESTIMONIALS -->
     <section class="testimonials py-5">
         <div class="container-fluid">
-            <div class="row">
-                <div class=" text-center fs-1 fw-bold">
-                    Testimonials
-                </div>
-                <div class=" text-center fs-3 fw-bold">
-                    Exceptional results, happy clients.
+            <div class="container">
+                <div class="row">
+                    <div class="globaltxtcolor">
+                        Testimonials
+                    </div>
+                    <div class=" text-start fs-3 fw-bold">
+                        Exceptional Results, Happy Clients.
+                    </div>
                 </div>
             </div>
 
@@ -2062,22 +2064,21 @@
                                     <i class="bi bi-star-fill text-warning me-2"></i>
                                     <i class="bi bi-star-fill text-warning me-2"></i>
                                 </div>
-                                <p class="pt-3">Dramatically maintain clicks-and-mortar solutions without functional
-                                    solutions.
-                                    Completely
-                                    synergize resource taxing relationships via premier niche markets. Professionally
-                                    cultivate.
+                                <p class="pt-3">
+                                    "We were struggling with online visibility until we partnered with Yuvmedia. Their team
+                                    revamped our website and implemented a targeted social media strategy that brought in a
+                                    steady flow of new patients. Their expertise and dedication are truly unmatched!"
                                 </p>
                                 <div class=" ">
                                     <div class="testimonial-name d-flex  ">
-                                        <div class="me-2 ">
+                                        {{-- <div class="me-2 ">
                                             <img class="img-circle rounded-pill" width="50px"
                                                 src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
                                                 alt="client">
-                                        </div>
+                                        </div> --}}
                                         <div>
-                                            <div class="author">Aditya Shankar</div>
-                                            <div class="fs-6 text-secondary">Co-founder, Doubtnut</div>
+                                            <div class="author">Ravi Mehta</div>
+                                            <div class="fs-6 text-secondary">Sharda Dental Care</div>
                                         </div>
                                     </div>
                                 </div>
@@ -2085,6 +2086,137 @@
 
                         </div>
                         <!--END OF TESTIMONIAL 1 -->
+                        <!--TESTIMONIAL 2 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">
+                                    "Yuvmedia helped us overcome scalability challenges with a personalized digital
+                                    marketing approach. Their PPC campaigns and social media management were game-changers
+                                    for our clinic. We’re now reaching a wider audience and seeing significant growth in
+                                    lead generation."
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        {{-- <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div> --}}
+                                        <div>
+                                            <div class="author">Sonal Patel</div>
+                                            <div class="fs-6 text-secondary">Parihar IVF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 2 -->
+                        <!--TESTIMONIAL 3 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">
+                                    "We partnered with Yuvmedia for SEO and digital branding, and the results have been
+                                    exceptional. Our organic traffic grew by 150%, and we’ve seen a dramatic improvement in
+                                    patient inquiries. Their attention to detail and strategic planning really set them
+                                    apart."
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        {{-- <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div> --}}
+                                        <div>
+                                            <div class="author">Arjun Verma</div>
+                                            <div class="fs-6 text-secondary">Panch Kalyan Ayurveda</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 3 -->
+                        <!--TESTIMONIAL 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">
+                                    "Yuvmedia redesigned our website and implemented an effective SEO strategy that boosted
+                                    our online presence. We’ve seen a 50% increase in organic traffic and much higher
+                                    engagement with potential patients. Their team is knowledgeable and delivers results."
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        {{-- <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div> --}}
+                                        <div>
+                                            <div class="author">Neha Khanna</div>
+                                            <div class="fs-6 text-secondary">Umedha Eye Hospital</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 4 -->
+                        <!--TESTIMONIAL 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                    <i class="bi bi-star-fill text-warning me-2"></i>
+                                </div>
+                                <p class="pt-3">
+                                    "Yuvmedia transformed our digital presence. Thanks to their comprehensive SEO and
+                                    digital strategy, we saw a 300% increase in search engine rankings. Their team is
+                                    professional, responsive, and always a step ahead in anticipating our needs. Highly
+                                    recommended!"
+                                </p>
+                                <div class=" ">
+                                    <div class="testimonial-name d-flex  ">
+                                        {{-- <div class="me-2 ">
+                                            <img class="img-circle rounded-pill" width="50px"
+                                                src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                                                alt="client">
+                                        </div> --}}
+                                        <div>
+                                            <div class="author">Anjali Sharma</div>
+                                            <div class="fs-6 text-secondary">RK Hospital</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 4 -->
                     </div>
                 </div>
             </div>
@@ -2094,15 +2226,18 @@
 
     <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
+        <div class="container ">
+
             <div class="ms-5 ps-5">
-                <h1 class="text-white fw-bold ms-5 ps-5">Contact us</h1>
+                <h1 class="text-white fw-bold">Contact us</h1>
+            </div>
             </div>
         </div>
         <div class="container py-5 ">
 
             <div class="row">
                 <div class="col-md-6" style="z-index: 10">
-                    <div class="d-flex justify-content-center align-items-end h-100 px-md-5 mx-md-5">
+                    <div class="d-flex justify-content-center align-items-end h-100 p-md-5 mx-md-5">
 
                         <p class="fs-2 text-white fw-bold">
                             Get customized solution,
@@ -2114,41 +2249,62 @@
                 </div>
                 <div class="col-md-6">
                     <div class="shadow contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
-                        <div>
+                        <div class="fw-bold mb-3">
                             Fill Out the form and we will
                             contact you
                         </div>
                         <div>
                             <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                <div class="mb-3 d-flex">
+                                    <div class="me-3 flex-grow-1">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" required placeholder="Enter your name">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <label for="brandName" class="form-label">Brand Name</label>
+                                        <input type="text" class="form-control" id="brandName" required placeholder="Enter your brand name">
+                                    </div>
+                                </div>
+                                <div class="mb-3 d-flex">
+                                    <div class="me-3 flex-grow-1">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email" required placeholder="Enter your email">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="flex-grow-1">
+
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" required placeholder="Enter your phone number">
+                                    </div>
+                                </div>
+                                <div class="mb-3 d-flex">
+                                    <div class="me-3 flex-grow-1">
+                                        <label for="website" class="form-label">Website</label>
+                                        <input type="url" class="form-control" id="website" placeholder="Enter your website">
+                                    </div>
+                                    <div class="flex-grow-1">
+
+                                        <label for="industry" class="form-label">Industry</label>
+                                        <select class="form-select" id="industry" required>
+                                            <option selected disabled>Select your industry</option>
+                                            <option value="E-commerce">E-commerce</option>
+                                            <option value="Fantasy Games">Fantasy Games</option>
+                                            <option value="Tour &amp; Travel">Tour &amp; Travel</option>
+                                            <option value="Finance">Finance</option>
+                                            <option value="Hospitality">Hospitality</option>
+                                            <option value="Healthcare">Healthcare</option>
+                                            <option value="Interior Designing &amp; Architect">Interior Designing &amp; Architect</option>
+                                            <option value="Education">Education</option>
+                                            <option value="Real Estate">Real Estate</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="message" class="form-label">Please tell about your business </label>
+                                    <textarea class="form-control" id="message" rows="3" required></textarea>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword2" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword2">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword3" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword3">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword4" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword4">
-                                </div>
-
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Book a 30-minute Free Consultation</button>
                             </form>
                         </div>
                     </div>

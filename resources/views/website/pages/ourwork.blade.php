@@ -1,6 +1,8 @@
 @extends('website.layout.websitemain')
 @section('title', 'Our Work | ' . config('app.name'))
 @section('content')
+
+
 <section class="py-5">
     <canvas id="gradient-canvas"></canvas>
     <div class="container py-5" id="workfirstsection">
@@ -152,29 +154,49 @@
         <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
             <div class="swiper-wrapper py-4">
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia studio.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="{{ asset('assets/websiteAssets/images/yuvmedia.jpg') }}" alt="">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
                 </div>
 
             </div>
