@@ -44,8 +44,10 @@
                     <div class="item">
                         <div class="row ">
                             <div class="col-md-7 hero-content">
-                                <h3 class="globaltxtcolor2 fw-bolder text-capitalize">We are a leading design and technology agency offering top-tier digital solutions </h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">for organizations seeking online value and digital growth</h4>
+                                <h3 class="globaltxtcolor2 fw-bolder text-capitalize">We are a leading design and technology
+                                    agency offering top-tier digital solutions </h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">for organizations seeking online value
+                                    and digital growth</h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
@@ -2234,7 +2236,7 @@
                             contact you
                         </div>
                         <div>
-                            <form action="#">
+                            <form action="#" id="contact-form" method="post">
                                 <div class="">
                                     <div class="card-body">
                                         <div class="row gy-4">
@@ -2242,7 +2244,7 @@
                                                 <div>
                                                     <label class="form-label">Your First Name <span
                                                             class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="userid"
+                                                    <input type="text" name="username"
                                                         class="form-control customforminput"
                                                         placeholder="Enter Your First Name" autocomplete="off">
                                                 </div>
@@ -2251,7 +2253,7 @@
                                                 <div>
                                                     <label class="form-label">Your Brand Name <span
                                                             class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="password"
+                                                    <input type="text" name="brandname"
                                                         class="form-control customforminput"
                                                         placeholder="Enter Your Brand Name" autocomplete="off">
                                                 </div>
@@ -2268,7 +2270,7 @@
                                                 <div>
                                                     <label class="form-label">Phone/Mobile <span
                                                             class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="expiredate"
+                                                    <input type="text" name="phone"
                                                         class="form-control customforminput"
                                                         placeholder="Enter Phone/Mobile">
                                                 </div>
@@ -2277,7 +2279,7 @@
                                                 <div>
                                                     <label class="form-label">Your Website <span
                                                             class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="createddate"
+                                                    <input type="text" name="website"
                                                         class="form-control customforminput"
                                                         placeholder="Enter Your Website link">
                                                 </div>
@@ -2286,7 +2288,7 @@
                                                 <div>
                                                     <label for="labelid">Your Industry <span
                                                             class="text-danger fs-5">*</span> </label>
-                                                    <select name="servicetype" class="form-select customforminput"
+                                                    <select name="industry" class="form-select customforminput"
                                                         id="servicetypeid" required>
                                                         <option value="" selected>--select industry--</option>
                                                         <option value="Services">E-Commerce</option>
@@ -2305,7 +2307,7 @@
                                                 <div>
                                                     <label for="example-text-input" class="">Please tell about
                                                         your business <span class="text-danger fs-5">*</span> </label>
-                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="value"
+                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
                                                         type="textarea" rows="3" value="" id="example-text-input" required></textarea>
                                                 </div>
                                             </div>
@@ -2374,5 +2376,28 @@
         })
     </script>
 
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+                publicKey: "ZpSieWnpQVGRyWwki",
+            });
+        })();
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 
 @endsection
