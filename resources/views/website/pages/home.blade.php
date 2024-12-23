@@ -7,11 +7,11 @@
     <section class="hero-section">
 
         <div class="container">
-            <div class="row py-md-5 pt-0">
+            <div class="row py-md-3 pt-0">
                 <div class="hero-slider owl-carousel owl-theme">
                     <div class="item">
-                        <div class="row ">
-                            <div class="col-md-7 hero-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
                                 <h1 class="heroheading fw-bolder globaltxtcolor">Drive More Customers Through</h1>
                                 <h3 class="herosubheading fw-bolder">Our Digital Marketing & IT Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
@@ -36,14 +36,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/3.png') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="row ">
-                            <div class="col-md-7 hero-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
                                 <h3 class="globaltxtcolor2 fw-bolder text-capitalize">We are a leading design and technology
                                     agency offering top-tier digital solutions </h3>
                                 <h4 class="herosubheading2 fw-bolder text-capitalize">for organizations seeking online value
@@ -70,8 +70,72 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/heroimage.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/1.png') }}" alt="Hero Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Crafting Digital Masterpieces,</h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">Building Your Online Presence.</h4>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5 mb-3 text-center">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/2.png') }}" alt="Hero Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">From logos to marketing materials,</h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">we design with precision and passion.</h4>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
+                                                    Corporates
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                                class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5 mb-3 text-center">
+                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/4.png') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
