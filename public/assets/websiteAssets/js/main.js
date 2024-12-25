@@ -31,11 +31,10 @@ $('#customers-testimonials').owlCarousel({
 
 
 $('#core-team').owlCarousel({
-    items: 5, // Number of visible items
+    items: 4, // Number of visible items
     margin: 20, // Space between items
-    loop: false, // Infinite looping
+    loop: true, // Infinite looping
     autoplay: true, // Automatic scrolling
-    autoplayTimeout: 3000, // Delay between scrolls
     responsive: {
         0: {
             items: 1
@@ -44,12 +43,12 @@ $('#core-team').owlCarousel({
             items: 2
         },
         1000: {
-            items: 5
+            items: 4
         }
     }
 });
 $('#core-teams').owlCarousel({
-    items: 5, // Number of visible items
+    items: 4, // Number of visible items
     margin: 20, // Space between items
     loop: false, // Infinite looping
     autoplay: true, // Automatic scrolling
@@ -62,7 +61,7 @@ $('#core-teams').owlCarousel({
             items: 2
         },
         1000: {
-            items: 5
+            items: 4
         }
     }
 });
@@ -71,6 +70,7 @@ $('#core-teams').owlCarousel({
 $('.hero-slider').owlCarousel({
     loop: true,
     margin: 10,
+    autoplay: true,
     nav: false,
     responsive: {
         0: {
