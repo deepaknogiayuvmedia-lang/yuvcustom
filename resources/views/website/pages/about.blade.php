@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <div class="row h-100 imagesonmob">
+                    {{-- <div class="row h-100 imagesonmob">
                         <div class="col-5 h-100 px-0 mt-1 mt-lg-0">
                             <div class="h-50  pb-2">
                                 <img class="aboutiamgesecthree"
@@ -104,7 +104,9 @@
                                     style="border-radius: 12px; border: 5px solid var(--website-blue-color);">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
+
+                    <iframe class="rounded-3" width="560" height="315" src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -325,7 +327,7 @@
                 </p>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">

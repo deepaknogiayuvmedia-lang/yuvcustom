@@ -5,8 +5,8 @@
     <div class="container py-3 py-md-4">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <div class="contactheading">
-                    Contact <span class="contactheadingsub">Us</span>
+                <div class="globaltxtcolor">
+                    Contact Us
                 </div>
                 <div class="">
                     <p class="text-wrap contactsecondhead">
@@ -64,13 +64,13 @@
         </div>
     </div>
 </section>
-<section style="background-color: #ffffff;" class="py-3 py-md-5">
+<section class="py-3 py-md-5">
     <div class="container py-4">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h5 class="smallheadcontactus">Get In Touch!</h5>
                 <div class="text-start contactsheadingsectwo">
-                    Ready to Dominate <span class="contactsheadingsubsectwo">Your Market?</span>
+                    Ready to Dominate <span class="globaltxtcolor">Your Market?</span>
                 </div>
                 <div class="text-start py-2">
                     <p class="text-wrap contactscontentsectwo">
@@ -177,10 +177,10 @@
     </div>
 </section>
 <section>
+    <div class="container">
     <div class="row">
-        <div class="container">
-            <div class="col-lg-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4236.533192428579!2d74.6082515!3d26.471099100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be7281e354e57%3A0x888b447da4858dab!2sYUVMEDIA-%20Digital%20Marketing%20Services!5e1!3m2!1sen!2sin!4v1734078794961!5m2!1sen!2sin" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col p-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4236.533192428579!2d74.6082515!3d26.471099100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be7281e354e57%3A0x888b447da4858dab!2sYUVMEDIA-%20Digital%20Marketing%20Services!5e1!3m2!1sen!2sin!4v1734078794961!5m2!1sen!2sin" width="100%" height="450" style="border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
