@@ -549,11 +549,18 @@
     font-weight: 600;
   }
 
-  .globaltxtcolor {
+  .hero-section .globaltxtcolor {
     background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 38px;
+    font-weight: 600 !important;
+  }
+  .globaltxtcolor {
+    background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
     font-weight: 600 !important;
   }
 

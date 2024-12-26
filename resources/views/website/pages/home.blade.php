@@ -4,7 +4,7 @@
 
     <!--Hero Section Starts-->
     <canvas id="gradient-canvas"></canvas>
-    <section class="hero-section">
+    <section class="hero-section pt-md-5">
 
         <div class="container">
             <div class="row py-md-3 pt-0">
@@ -43,11 +43,12 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="heroheading fw-bolder globaltxtcolor">Drive More Customers Through</h1>
-                                <h3 class="herosubheading fw-bolder">Our Digital Marketing & IT Solutions</h3>
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Maximize Clicks, Minimize Costs</h3>
+                                <h4 class="herosubheading fw-bolder text-capitalize">PPC Campaigns That Deliver Results</h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
@@ -75,6 +76,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
@@ -107,11 +109,13 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
                                 <h3 class="globaltxtcolor fw-bolder text-capitalize">From logos to marketing materials,</h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">we design with precision and passion.</h4>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">we design with precision and passion.
+                                </h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
@@ -292,38 +296,38 @@
                                         <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
                                             aria-labelledby="performance-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around pmarketing">
-                                                <div class="card  " style=" ">
-                                                    <img src="https://i1.lbrd.ru/fileentry/get/597/15/b0/725bb2f14f35073d1c31d7270d74.png"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
+                                                        class="card-img-top" alt="google-ad">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Google Ads</h5>
+                                                        <h6 class="card-title">Google Ads</h6>
                                                         <p class="card-text">Drive traffic and conversions with targeted,
                                                             high-performing Google Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card  " style=" ">
-                                                    <img src="https://d1baueb6wfhxkz.cloudfront.net/5fd054a9a5dfae0128d29b2f/large/1611731070028966.jpeg"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
+                                                        class="card-img-top" alt="Facebook Ads">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Facebook Ads</h5>
+                                                        <h6 class="card-title">Facebook Ads</h6>
                                                         <p class="card-text">Engage audiences and increase sales with
                                                             data-driven, targeted Facebook Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card  " style=" ">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvS6wb_SW5BlgqY_gRpJfbx9X6iKJTMnu6HIjCGpIyYNZEa-ZcwA-MSNnMGKNgOHINnfhhaiBLRj9WpgzO-qusEcz73cY9nzmQCOzq4xC6xd1hOwHjCAedMq4b8CdWYFYDxqvqjlpqP-vPb-4qSa7_ThhjyFMH4JnpxoteMUwKaqh8gJNgyqvq5-tE8ca/s1600/images%20%282%29.png"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
+                                                        class="card-img-top" alt="mgid">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">MGID Ads</h5>
+                                                        <h6 class="card-title">MGID Ads</h6>
                                                         <p class="card-text">Boost website traffic and revenue with
-                                                            effective, performance-driven MGID Ads campaigns.</p>
+                                                            effective MGID Ads campaigns.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card  " style=" ">
-                                                    <img src="https://hyperhost.ua/info/storage/uploads/2021/01/shopping%20online.png"
-                                                        class="card-img-top" alt="...">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace-ads.webp') }}"
+                                                        class="card-img-top" alt="marketplace ads">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Marketplace Ads</h5>
+                                                        <h6 class="card-title">Marketplace Ads</h6>
                                                         <p class="card-text">Increase product visibility and sales with
                                                             optimized Marketplace Ads for top platforms.</p>
                                                     </div>
@@ -335,20 +339,20 @@
                                         <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
                                             aria-labelledby="seo-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-start pmarketing">
-                                                <div class="card me-4" style=" ">
-                                                    <img src="https://st4.depositphotos.com/1032115/27159/v/450/depositphotos_271594782-stock-illustration-flat-color-modern-isometric-illustration.jpg"
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
                                                         class="card-img-top" alt="SEO">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Search Engine Optimization</h5>
+                                                        <h6 class="card-title">Search Engine Optimization</h6>
                                                         <p class="card-text">Boost search rankings, drive organic traffic,
                                                             grow online visibility.</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style=" ">
-                                                    <img src="https://static.fundrazr.com/rewards/9055f40593bd48989864f39c6a701988_large.jpg?cb=1610462315287"
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
                                                         class="card-img-top" alt="GBP">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Google Business Profile</h5>
+                                                        <h6 class="card-title">Google Business Profile</h6>
                                                         <p class="card-text">Optimize profiles, attract local customers,
                                                             enhance business online presence.</p>
                                                     </div>
@@ -361,38 +365,38 @@
                                         <div class="tab-pane" id="social-tab-pane" role="tabpanel"
                                             aria-labelledby="social-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-around pmarketing">
-                                                <div class="card" style=" ">
-                                                    <img src="https://cdn.nextgov.com/media/img/upload/2018/03/21/032118facebookNG/open-graph.jpg"
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
                                                         class="card-img-top" alt="Facebook">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Facebook</h5>
+                                                        <h6 class="card-title">Facebook</h6>
                                                         <p class="card-text">Grow your business with our professional
                                                             social media services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style=" ">
-                                                    <img src="https://www.menosfios.com/wp-content/uploads/2021/11/modo-noturno-no-instagram-capa.jpg"
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
                                                         class="card-img-top" alt="Instagram">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Instagram</h5>
+                                                        <h6 class="card-title">Instagram</h6>
                                                         <p class="card-text">Level up your brand with our expert Instagram
                                                             marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style=" ">
-                                                    <img src="https://thepostworkspaces.com/wp-content/uploads/2022/07/souvik-banerjee-JLj_NbvlDDo-unsplash-600x600.jpg"
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
                                                         class="card-img-top" alt="LinkedIn">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">LinkedIn</h5>
+                                                        <h6 class="card-title">LinkedIn</h6>
                                                         <p class="card-text">Enhance your professional presence with our
                                                             LinkedIn marketing solutions!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card" style=" ">
-                                                    <img src="https://somewhereoverthepage.wordpress.com/wp-content/uploads/2015/05/jos-in_-the_-know_-pinterest.jpg?w=980&h=980&crop=1"
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/Pinterest.webp') }}"
                                                         class="card-img-top" alt="Pinterest">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Pinterest</h5>
+                                                        <h6 class="card-title">Pinterest</h6>
                                                         <p class="card-text">Drive traffic with our creative and strategic
                                                             Pinterest marketing services!</p>
                                                     </div>
@@ -404,31 +408,30 @@
                                         <div class="tab-pane" id="online-tab-pane" role="tabpanel"
                                             aria-labelledby="online-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-start pmarketing">
-                                                <div class="card me-4" style=" ">
-                                                    <img src="https://framerusercontent.com/images/6AE8iMtu15A4FI6oK288NMx4rc.png?scale-down-to=512"
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
                                                         class="card-img-top" alt="Whatsapp Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Whatsapp Marketing</h5>
+                                                        <h6 class="card-title">Whatsapp Marketing</h6>
                                                         <p class="card-text">Engage your audience instantly with our
                                                             powerful WhatsApp marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style=" ">
-                                                    <img src="https://www.pngplay.com/wp-content/uploads/13/Email-Marketing-Free-PNG.png"
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
                                                         class="card-img-top" alt="Email Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Email Marketing</h5>
+                                                        <h6 class="card-title">Email Marketing</h6>
                                                         <p class="card-text">Connect and convert with our result-driven
                                                             email marketing services!</p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4" style=" ">
-                                                    <img src="https://i.pinimg.com/originals/e6/e5/31/e6e5319b47f55a0af5518f0fcd97f919.jpg"
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
                                                         class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Influencer Marketing</h5>
-                                                        <p class="card-text">Boost your brand with impactful influencer
-                                                            marketing campaigns!</p>
+                                                        <h6 class="card-title">Influencer Marketing</h6>
+                                                        <p class="card-text">Boost your brand with powerful, results-driven influencer marketing campaigns!</p>
                                                     </div>
                                                 </div>
 
@@ -439,45 +442,45 @@
                             </div>
                         </div>
 
-                        {{-- Sellet Management --}}
+                        {{-- Seller Management --}}
                         <div class="service-card" data-index="1">
                             <div class="service-card__inner">
                                 <div class="service-card__content greenBLueGradient">
                                     <h1 class="service-card__title">Seller Management</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card" style=" ">
-                                            <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5979657/23560_302172.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
                                                 class="card-img-top" alt="Amazon Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Amazon Seller</h5>
+                                                <h6 class="card-title">Amazon Seller</h6>
                                                 <p class="card-text">Maximize your sales with our expert Amazon seller
                                                     services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc0NTE5NDM0NDM2NjgzNzIx/etsy.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
                                                 class="card-img-top" alt="Etsy Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Etsy Seller</h5>
+                                                <h6 class="card-title">Etsy Seller</h6>
                                                 <p class="card-text">Grow your Etsy shop with our tailored marketing
                                                     strategies!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://th-i.thgim.com/public/business/Industry/kilrnc/article24671698.ece/alternates/FREE_1200/TH13FLIPKART"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
                                                 class="card-img-top" alt="Flipkart Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Flipkart Seller</h5>
+                                                <h6 class="card-title">Flipkart Seller</h6>
                                                 <p class="card-text">Boost your sales on Flipkart with our expert seller
                                                     services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://thejobcompany.in/adminware/uploads/logos/1728482558.png"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
                                                 class="card-img-top" alt="Meesho Seller">
                                             <div class="card-body">
-                                                <h5 class="card-title">Meesho Seller</h5>
+                                                <h6 class="card-title">Meesho Seller</h6>
                                                 <p class="card-text">Maximize your Meesho sales with our expert seller
                                                     solutions!</p>
                                             </div>
@@ -495,38 +498,38 @@
                                     <h1 class="service-card__title">Design Services</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card" style=" ">
-                                            <img src="https://papik.pro/uploads/posts/2021-10/thumbs/1634672301_3-papik-pro-p-tsifrovoi-plakat-4.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                                 class="card-img-top" alt="Graphic Designing">
                                             <div class="card-body">
-                                                <h5 class="card-title">Graphic Designing</h5>
+                                                <h6 class="card-title">Graphic Designing</h6>
                                                 <p class="card-text">Transform your brand with our creative and
                                                     professional graphic design services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://yt3.googleusercontent.com/ytc/APkrFKYvstGKw7D2Maz2TeaKIl-P3mmoMaZ_gBamx-x_=s900-c-k-c0x00ffffff-no-rj"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/video production.webp') }}"
                                                 class="card-img-top" alt="Video Production">
                                             <div class="card-body">
-                                                <h5 class="card-title">Video Production</h5>
-                                                <p class="card-text">Bring your vision to life with our expert video
+                                                <h6 class="card-title">Video Production</h6>
+                                                <p class="card-text">Bring your vision to life with our professional video
                                                     production services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://d2vx7hn49802k2.cloudfront.net/wp-content/uploads/2021/03/Product-Photography.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.webp') }}"
                                                 class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
-                                                <h5 class="card-title">Product Shoot</h5>
+                                                <h6 class="card-title">Product Shoot</h6>
                                                 <p class="card-text">Showcase your products in style with our professional
                                                     product shoots!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://www.feedsfloor.com/sites/default/files/styles/largenews/public/Merchandise%20Designing%20Market.jpg?itok=OH0sSqP_"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
                                                 class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
-                                                <h5 class="card-title">Brand Designing</h5>
+                                                <h6 class="card-title">Brand Designing</h6>
                                                 <p class="card-text">Create a lasting impression with our expert brand
                                                     designing services!</p>
                                             </div>
@@ -543,38 +546,38 @@
                                 <div class="service-card__content purpelYellowGradient">
                                     <h1 class="service-card__title">Development Services</h1>
                                     <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card" style=" ">
-                                            <img src="https://www.web-rasswet.ru/img/razrabotka-saitow.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
                                                 class="card-img-top" alt="Web Development">
                                             <div class="card-body">
-                                                <h5 class="card-title">Web Development</h5>
+                                                <h6 class="card-title">Web Development</h6>
                                                 <p class="card-text">Build a strong online presence with our expert web
                                                     development services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://cpimg.tistatic.com/05392545/b/5/App-Development-Service.png"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
                                                 class="card-img-top" alt="App Development">
                                             <div class="card-body">
-                                                <h5 class="card-title">App Development</h5>
+                                                <h6 class="card-title">App Development</h6>
                                                 <p class="card-text">Transform your ideas into reality with our expert app
                                                     development services!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1642369415_59-papik-pro-p-sistema-klipart-64.png"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
                                                 class="card-img-top" alt="Software Integrations">
                                             <div class="card-body">
-                                                <h5 class="card-title">Software Integrations</h5>
+                                                <h6 class="card-title">Software Integrations</h6>
                                                 <p class="card-text">Streamline your business with seamless software
                                                     integration solutions!</p>
                                             </div>
                                         </div>
-                                        <div class="card" style=" ">
-                                            <img src="https://russia-dropshipping.ru/800/600/http/themanufacturer-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2016/04/14121345/CRM-Infographic-K3.jpg"
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
                                                 class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                             <div class="card-body">
-                                                <h5 class="card-title">CRM (Odoo, Salesforce)</h5>
+                                                <h6 class="card-title">CRM (Odoo, Salesforce)</h6>
                                                 <p class="card-text">Optimize your customer relationships with our expert
                                                     CRM solutions (Odoo, Salesforce)!</p>
                                             </div>
@@ -597,7 +600,7 @@
 
 
     {{-- Achieving Goals --}}
-    <section class="bannerbg">
+    {{-- <section class="bannerbg">
         <div class="container pt-5">
             <div class="row">
                 <div class="globaltxtcolor  text-start ">
@@ -679,7 +682,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
 
@@ -970,7 +973,7 @@
                 </p>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">
@@ -1277,108 +1280,101 @@
                 <div class="tab-content mt-3" id="myTabContent">
                     <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
                         <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); ">
+                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); background-position: bottom; background-size: cover;">
 
 
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <h4>Empower your <br /> e-commerce business </h4>
                                     <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                        With our advanced digital solutions to enhance user experience, increase sales, drive traffic, and streamline operations for better growth and efficiency.
                                     </p>
                                     <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
+                            <div class="col-md-8"></div>
 
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab2" role="tabpanel">
                         <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services3.webp'); ">
+                            style="background-image: url('assets/websiteAssets/images/services/travelIndustry.webp'); background-position: top; background-size: cover;">
 
 
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <h4>Empower your <br /> travel  business </h4>
                                     <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                        Manage bookings effortlessly with one dashboard, boosting customer satisfaction and revenue.
                                     </p>
+                                    
                                     <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
+                            <div class="col-md-8"></div>
 
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab3" role="tabpanel">
                         <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services5.webp'); ">
+                            style="background-image: url('assets/websiteAssets/images/services/realestate-industry.webp'); background-position: center; background-size: cover;">
 
 
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
                                     <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                        Boost property sales and client engagement with tailored marketing and IT solutions designed to elevate your real estate business.
                                     </p>
                                     <a href="#" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
+                            <div class="col-md-8"></div>
 
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab4" role="tabpanel">
                         <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services4.webp'); ">
+                            style="background-image: url('assets/websiteAssets/images/services/hospitality-industry.webp');  background-position: top; background-size: cover;">
 
 
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
                                     <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT solutions tailored for the hospitality industry.
                                     </p>
                                     <a href="#" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
+                            <div class="col-md-8"></div>
 
                         </div>
                     </div>
                     <div class="tab-pane fade  " id="tab5" role="tabpanel">
                         <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services2.webp');">
+                            style="background-image: url('assets/websiteAssets/images/services/healthcare-industry.webp'); background-position: 0 -130px; background-size: cover;">
 
 
-                            <div class="col-md-6 p-3 my-5 bg-white rounded-3">
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h2>Empower your <br /> e-commerce business </h2>
+                                    <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
                                     <p>
-                                        Streamline payment management with a unified dashboard, enabling both online and
-                                        in-person payment collection while enhancing conversion rates and minimizing fraud.
+                                        Improve patient engagement and streamline operations with customized digital solutions designed for the healthcare industry.
                                     </p>
                                     <a href="#" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
+                            <div class="col-md-8"></div>
 
                         </div>
                     </div>
                 </div>
-
-
-
 
             </div>
         </div>
@@ -2082,7 +2078,7 @@
 
 
     <!-- TESTIMONIALS -->
-    <section class="testimonials py-5">
+    <section class="testimonials py-5 bannerbg">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">

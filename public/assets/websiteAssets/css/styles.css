@@ -18,6 +18,14 @@ body {
     display: none;
 }
 
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
 .page-content {
     background-image: linear-gradient(to bottom, #e6f4fe, #f4f4ff 50%);
     background-size: cover;
@@ -79,19 +87,19 @@ body {
 
 .heroheading {
     /* color: #2881ed; */
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .herosubheading {
     color: #000000;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .herosubheading2 {
     color: #000000;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -771,11 +779,11 @@ a {
     padding: 20px;
     border-radius: 12px;
     text-align: start;
-    border: 1px solid #ececec;
+    border: 0px solid #ececec;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
 
-.shadow-effect:before {
+.testimonials .shadow-effect:before {
     content: "";
     /* Add this line */
     background-image: url("../images/testi-bg.png");
@@ -962,7 +970,7 @@ a {
 
 .flip .corecard {
     width: 100%;
-    height: 450px;
+    height: 250px;
     -webkit-transform-style: preserve-3d;
     -webkit-transition: 0.5s;
     transform-style: preserve-3d;
@@ -1001,8 +1009,12 @@ a {
     transform: rotatey(-180deg);
     position: absolute;
     background-color: #ffffff;
-    height: 340px;
+    height: 100%;
     border-radius: 20px;
+}
+
+.core-team .owl-carousel .owl-stage {
+    padding-block: 50px;
 }
 
 .back .inner {
@@ -1022,7 +1034,7 @@ a {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background: linear-gradient(to bottom, #ffffff00 10%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to bottom, #ffffff00 0%, rgb(42 115 197) 90%);
 }
 
 .authorbox .testimonial-name:before {
@@ -1047,21 +1059,6 @@ a {
     position: relative;
 }
 
-#core-team .owl-item {
-    transition: transform 0.3s ease-in-out;
-}
-
-#core-team .owl-item:nth-child(odd) {
-    transform: translateY(70px);
-}
-
-#core-team .owl-item:nth-child(even) {
-    transform: translateY(20px);
-}
-
-#core-team .owl-item:hover {
-    transform: translateY(0);
-}
 
 .contact_bg {
     background-image: url("../images/map_bg.webp");
@@ -1674,4 +1671,13 @@ a {
     .herorcg-circle .sliderhead {
         bottom: 5px !important;
     }
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 4px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #378df0;
 }
