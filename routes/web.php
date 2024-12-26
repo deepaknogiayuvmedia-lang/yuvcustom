@@ -119,6 +119,7 @@ Route::controller(UserStores::class)->group(function () {
 Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/', 'home')->name('homepage');
     Route::get('/about', 'about')->name('about');
+    Route::get('/ourteam', 'ourteam')->name('ourteam');
     Route::get('/contact', 'contact')->name('contact');
     Route::get('/features', 'features')->name('features');
     Route::get('/services', 'services')->name('services');

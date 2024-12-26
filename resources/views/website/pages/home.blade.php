@@ -188,44 +188,30 @@
             <div class="container mt-4">
                 <div class="row">
                     <div class="col-lg-12">
-                        <article class="wrapper">
-                            <div class="marquee">
-                                <div class="marquee__group">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                    <img class="rounded-2 me-3"
-                                        src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-                                </div>
+                        <div class="logo-slider">
+                            <div class="logos-slide">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
                             </div>
-                        </article>
+                        </div>
+                        <div class="logo-slider2 mt-3 d-none">
+                            <div class="logos-slide2">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2457,5 +2443,11 @@
             });
         }
     </script>
+
+<script>
+    var copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logo-slider").appendChild(copy);
+
+</script>
 
 @endsection

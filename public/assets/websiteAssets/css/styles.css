@@ -968,6 +968,15 @@ a {
     transform: rotatey(-180deg);
 }
 
+.ourteamsection .flip .corecard {
+    width: 100%;
+    height: 450px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #ffffff00;
+}
 .flip .corecard {
     width: 100%;
     height: 250px;
@@ -1680,4 +1689,18 @@ a {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #378df0;
+}
+
+/* Enable hover functionality */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Smooth transition for hover effect */
+.dropdown-menu {
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
 }

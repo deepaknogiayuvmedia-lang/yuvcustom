@@ -15,6 +15,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.about');
     }
+    public function ourteam()
+    {
+        return view('website.pages.ourteam');
+    }
     public function contact()
     {
         return view('website.pages.contact');

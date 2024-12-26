@@ -48,7 +48,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 col-12">
                     <div class="text-start globaltxtcolor">
-                        Our <span class="aboutheadingsubsecthree">Story</span>
+                        Our <span class="globaltxtcolor">Story</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap aboutsecondheadsecthree">
@@ -117,7 +117,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="globaltxtcolor">
-                        Our Core <span class="contactheadingsub text-decoration-underline">Values</span>
+                        Our Core <span class="globaltxtcolor text-decoration-underline">Values</span>
                     </div>
                     <div class="">
                         <p class="text-wrap contactsecondhead">
@@ -212,11 +212,12 @@
         </div>
     </section>
 
+    {{-- key clients --}}
     <section>
         <div class="container pt-5 justify-content-center">
             <div class="row">
                 <div class="text-start globaltxtcolor">
-                    Key <span class="websubheading3">Clientele</span>
+                    Key <span class="globaltxtcolor">Clientele</span>
                 </div>
                 <div class="text-start fs-5">
                     <p class="text-wrap webcontent3">

@@ -53,8 +53,19 @@
                                         <a class="nav-link active" aria-current="page"
                                             href="{{ route('homepage') }}">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Our Story
+                                        </a>
+                                        <ul class="dropdown-menu customdropdown">
+                                            <li>
+                                                <a class="dropdown-item customdrodownitem" href="{{ route('about') }}">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item customdrodownitem" href="{{ route('ourteam') }}">Our Team</a>
+                                            </li>
+                                        </ul>
                                     </li>
 
                                     <li class="nav-item dropdown">
@@ -146,90 +157,102 @@
             </div>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                             aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header">
-                                {{-- <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5> --}}
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body mobileMenu">
-                                <ul class="navbar-nav mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page"
-                                            href="{{ route('homepage') }}">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('about') }}">About Us</a>
-                                    </li>
+                <div class="offcanvas-header">
+                    {{-- <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5> --}}
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body mobileMenu">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="{{ route('homepage') }}">Home</a>
+                        </li>
 
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Services
-                                        </a>
-                                        <ul class="dropdown-menu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Story
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('about') }}">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('ourteam') }}">Our Team</a>
+                                </li>
+                            </ul>
+                        </li>
 
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
-                                                    Marketing</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">Video
-                                                    Production</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">Web
-                                                    Development</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">Designing
-                                                    Services</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('homepage') }}">Performance
-                                                    Media</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
-                                                    Expertise</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('contact') }}">Influencer
-                                                    Marketing</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="{{ route('contact') }}">Google Business
-                                                    Profile</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Work</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Partners</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Career</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
+                                        Marketing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">Video
+                                        Production</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">Web
+                                        Development</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">Designing
+                                        Services</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('homepage') }}">Performance
+                                        Media</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
+                                        Expertise</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('contact') }}">Influencer
+                                        Marketing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('contact') }}">Google Business
+                                        Profile</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <!--Header Ends-->
 
 
-            @yield('content')
+                @yield('content')
 
 
             <!-- Footer Area -->

@@ -218,3 +218,21 @@ $(document).ready(function () {
         ]
     });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const dropdownItems = document.querySelectorAll(".nav-item.dropdown");
+
+    dropdownItems.forEach((dropdown) => {
+        dropdown.addEventListener("mouseleave", () => {
+            const menu = dropdown.querySelector(".dropdown-menu");
+            menu.classList.remove("show");
+        });
+
+        dropdown.addEventListener("mouseenter", () => {
+            const menu = dropdown.querySelector(".dropdown-menu");
+            menu.classList.add("show");
+        });
+    });
+});
