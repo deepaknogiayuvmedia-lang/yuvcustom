@@ -48,10 +48,8 @@
 
     <section class="bg-black p-3 p-md-3 position-relative">
         <div class="d-flex align-items-center justify-content-center">
-            <p class="text-wrap  text-white">
-                Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most effective
-                digital
-                marketing solutions, focusing on a personalized customer experience that ensures results.
+            <p class="text-wrap  text-white text-center">
+                Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most effective digital marketing solutions, <br/> focusing on a personalized customer experience that ensures results.
             </p>
         </div>
     </section>

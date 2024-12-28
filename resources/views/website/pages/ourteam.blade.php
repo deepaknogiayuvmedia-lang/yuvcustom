@@ -43,7 +43,7 @@
                     ">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain.webp') }}"
+                                    src="{{ asset('assets/websiteAssets/images/team/Khivraj-Sain.webp') }}"
                                     alt="client" style="
                                     height: 245px;
                                 ">
