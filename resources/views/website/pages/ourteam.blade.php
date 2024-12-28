@@ -9,7 +9,7 @@
                 <div class="text-center globaltxtcolor">
                     Our Team
                 </div>
-                <div class=" text-center fs-3 fw-bold pb-3">
+                <div class=" text-center fs-3 fw-bold py-5">
                     Empowering every vertical in the country.
                 </div>
                 <div class="text-center">
@@ -28,19 +28,25 @@
     <section class="ourteamsection py-5 position-relative">
         <div class="container">
 
-            {{-- Founders --}}
+
+            {{-- Administration --}}
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Our Founders
+                <div class=" text-center fs-3 fw-bold py-5">
+                    Administration
                 </div>
+
                 {{-- khivraj sir --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
+                        <div class="shadow-effect corebox flip rounded-3" style="
+                        background: white;
+                    ">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
                                     src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain.webp') }}"
-                                    alt="client">
+                                    alt="client" style="
+                                    height: 245px;
+                                ">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
@@ -53,15 +59,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {{-- Administration --}}
-            <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Administration
-                </div>
                 {{-- Nilesh gupta --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -85,12 +84,12 @@
 
             {{-- Developers --}}
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
+                <div class=" text-center fs-3 fw-bold py-5">
                     Developers Team
                 </div>
                 
                 {{-- Kishan gopal --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -111,7 +110,7 @@
                 </div>
 
                 {{-- Anshul --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -132,7 +131,7 @@
                 </div>
 
                 {{-- Nitesh --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -151,15 +150,35 @@
                         </div>
                     </div>
                 </div>
+                {{-- Devendra --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png" alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Devendra Shobawat</div>
+                                        <div class="fs-6 ">Web Developer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {{-- Marketing team --}}
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Marketing Team
+                <div class=" text-center fs-3 fw-bold py-5">
+                    Paid Marketing Team
                 </div>
                 {{-- Manohar sir --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -170,7 +189,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mr. Manohar Singhh</div>
+                                        <div class="author">Mr. Manohar Singh Panwar</div>
                                         <div class="fs-6 ">Paid Marketing Manager</div>
                                     </div>
                                 </div>
@@ -181,7 +200,7 @@
                 </div>
 
                 {{-- Parul --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -192,7 +211,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Miss. Parul Verma</div>
+                                        <div class="author">Ms. Parul Verma</div>
                                         <div class="fs-6 ">Social Media Manager</div>
                                     </div>
                                 </div>
@@ -203,7 +222,7 @@
                 </div>
 
                 {{-- Sejal --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -214,8 +233,30 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Miss. Sejal goyal</div>
-                                        <div class="fs-6 ">Social Media Manager</div>
+                                        <div class="author">Ms. Sejal goyal</div>
+                                        <div class="fs-6 ">Social Media Executive</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {{-- Manish --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png" alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Manish Shobawat</div>
+                                        <div class="fs-6 ">PPC Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -227,11 +268,11 @@
 
             {{-- Designers --}}
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Designer Team
+                <div class=" text-center fs-3 fw-bold py-5">
+                    Graphic Media Team
                 </div>
                 {{-- Rudraksh sir --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -249,28 +290,9 @@
                         </div>
                     </div>
                 </div>
-
-                {{-- Deepanshu --}}
-                <`div class="col-md-4 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Shakti.webp') }}" alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Deepanshu Diwakar</div>
-                                        <div class="fs-6 ">Graphic Design Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </>
+                
                 {{-- Shakti --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -290,7 +312,7 @@
                 </div>
 
                 {{-- Raghuveer --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -308,16 +330,37 @@
                         </div>
                     </div>
                 </div>
+
+                {{-- Deepanshu --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png" alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Deepanshu Diwakar</div>
+                                        <div class="fs-6 ">Graphic Design Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
 
-            {{-- seller team --}}
+            {{-- Seller Team --}}
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Ecom Seller Team
+                <div class=" text-center fs-3 fw-bold py-5">
+                    Seller Mangement Team
                 </div>
                 {{-- Leera ma'am --}}
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -335,38 +378,61 @@
                         </div>
                     </div>
                 </div>
-                {{-- Leera ma'am --}}
-                <div class="col-md-4 mb-4">
+                
+                {{-- Prateek --}}
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}" alt="client">
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Priteek.webp') }}" alt="client">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Ms. Leera Ramesh</div>
-                                        <div class="fs-6 ">Seller Manager</div>
+                                        <div class="author">Mr. Priteek Jain</div>
+                                        <div class="fs-6 ">Ecommerce Executive</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- Leera ma'am --}}
-                <div class="col-md-4 mb-4">
+
+                {{-- Deepak --}}
+                <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}" alt="client">
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Deepak.webp') }}" alt="client">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Ms. Leera Ramesh</div>
-                                        <div class="fs-6 ">Seller Manager</div>
+                                        <div class="author">Mr. Deepak</div>
+                                        <div class="fs-6 ">SEO Executive</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Roshan --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png" alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Roshan Mishra</div>
+                                        <div class="fs-6 ">Ecommerce Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -376,22 +442,110 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class=" text-center fs-3 fw-bold pb-3">
-                    Business Consultant
+                <div class=" text-center fs-3 fw-bold py-5">
+                    Business Consultant Team
                 </div>
-                {{-- Leera ma'am --}}
-                <div class="col-md-4 mb-4">
+                {{-- Kunal --}}
+                <div class="col-md-3 mb-4">
                     <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
+                        <div class="shadow-effect corebox flip rounded-3"style="
+                        background: white;
+                    ">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}" alt="client">
+                                    src="https://yuvmedia.in/wp-content/uploads/2024/06/Kunal.jpg" alt="client" style="
+                                    height: 245px;
+                                ">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Ms. Leera Ramesh</div>
-                                        <div class="fs-6 ">Seller Manager</div>
+                                        <div class="author">Mr. Kunal Basin</div>
+                                        <div class="fs-6 ">Sales Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Gaurav --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Gaurav.webp') }}" alt="client">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Gaurav Rao</div>
+                                        <div class="fs-6 ">Business Development Consultant</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Arti --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Aarti.webp') }}" alt="client">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Ms. Aarti Sachani</div>
+                                        <div class="fs-6 ">Student Counsellor</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Chhavi --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Chhavi.webp') }}" alt="client">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Ms. Chhavi Chauhan</div>
+                                        <div class="fs-6 ">Business Development Consultant</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Abhishek --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="
+                        background: white;
+                    ">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/Abhishek-wh-300x300.jpg') }}" alt="client" style="
+                                    height: 245px;
+                                ">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Abhishek Singh Rathore</div>
+                                        <div class="fs-6 ">Business Development Consultant</div>
                                     </div>
                                 </div>
                             </div>

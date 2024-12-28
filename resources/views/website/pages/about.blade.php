@@ -3,7 +3,7 @@
 @section('content')
     <canvas id="gradient-canvas"></canvas>
 
-    <section id="aboutfirstsection" class="py-5">
+    <section id="aboutfirstsection" class="pt-5">
         <div class="container py-5" style="position: relative;">
             <div class="row">
                 <div class="text-center globaltxtcolor">
@@ -32,6 +32,19 @@
             </div>
         </div>
     </section>
+
+<section class="position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1>
+                <img src="{{ asset('assets/websiteAssets/images/team/team-photo.webp') }}" alt="team"
+                class="img-fluid" style="margin-top: -50px;">
+
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="bg-black p-3 p-md-3 position-relative">
         <div class="d-flex align-items-center justify-content-center">
