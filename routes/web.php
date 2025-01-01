@@ -137,6 +137,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/partners', 'partners')->name('partners');
     Route::get('/work', 'work')->name('work');
     Route::get('/erpservices', 'erpservices')->name('erpservices');
+    Route::get('/emailmarketing', 'emailmarketing')->name('emailmarketing');
 
 });
 // //Excel Routes

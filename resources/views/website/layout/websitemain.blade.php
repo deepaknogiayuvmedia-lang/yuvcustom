@@ -123,6 +123,10 @@
                                                 <a class="dropdown-item customdrodownitem"
                                                     href="{{ route('erpservices') }}">ERP Services</a>
                                             </li>
+                                            <li>
+                                                <a class="dropdown-item customdrodownitem"
+                                                    href="{{ route('emailmarketing') }}">Email Marketing</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
