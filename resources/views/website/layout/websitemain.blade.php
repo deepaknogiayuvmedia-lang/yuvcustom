@@ -119,6 +119,10 @@
                                                     href="{{ route('googlebusinessprofile') }}">Google Business
                                                     Profile</a>
                                             </li>
+                                            <li>
+                                                <a class="dropdown-item customdrodownitem"
+                                                    href="{{ route('erpservices') }}">ERP Services</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">

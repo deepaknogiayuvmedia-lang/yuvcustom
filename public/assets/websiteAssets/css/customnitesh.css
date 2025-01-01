@@ -121,13 +121,17 @@
 }
 
 .gmbcardone {
-  background-color: var(--gmb-color);
+  /* background-color: var(--gmb-color); */
+  background-color: white;
   padding: 1.3rem;
   border-radius: 0px;
   /* box-shadow: 0px 10px 5px #e9e5e5a3; */
-  text-align: center;
-  color: white;
+  text-align: start;
+  color: rgb(0, 0, 0);
   transition: 0.3s ease-in-out;
+}
+.gmbcardone img{
+  width: 60px;
 }
 
 .gmbcards:hover {
@@ -164,6 +168,18 @@
   border-radius: 10px;
   /* box-shadow: 0px 10px 5px #e9e5e5a3; */
   transition: 0.3s ease-in-out;
+}
+.domains .gmbcardssecthree {
+  background-color: #ffffff6e;
+  border-bottom: 5px solid var(--gmb-color);
+  padding: 1rem;
+  border-radius: 10px;
+  /* box-shadow: 0px 10px 5px #e9e5e5a3; */
+  transition: 0.3s ease-in-out;
+}
+.gmbcardssecthree img{
+  width: 60px;
+  
 }
 
 .gmbcardssecthree:hover {

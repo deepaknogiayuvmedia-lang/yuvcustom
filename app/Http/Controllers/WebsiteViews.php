@@ -83,4 +83,8 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.ourwork');
     }
+    public function erpservices() 
+    {
+        return view('website.pages.ServicesPages.erpservices');
+    }
 }
