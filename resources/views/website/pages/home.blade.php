@@ -964,7 +964,7 @@
                     <div id="core-team" class="owl-carousel">
 
                         {{-- khivraj sir --}}
-                        {{-- <div class="item">
+                        <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -972,7 +972,7 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain-300x300.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
@@ -1003,7 +1003,49 @@
                                 </div>
                             </div>
 
-                        </div> --}}
+                        </div>
+
+                        {{-- Kunal Basin sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Mr. Kunal Basin</div>
+                                                            <div class="fs-6 ">Sale Manager</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Mr. Khivraj Sain</div>
+                                                    <div class="fs-6 ">CEO & Founder</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
 
                         {{-- Kishan gopal --}}
                         <div class="item">
@@ -1132,6 +1174,7 @@
                             </div>
 
                         </div>
+
                         {{-- Rudraksh sir --}}
                         <div class="item">
                             <div class="flip">
@@ -1366,7 +1409,7 @@
 
 
 
-    {{-- Tecg tools section --}}
+    {{-- Tech tools section --}}
     <section class="position-relative  technologies-sec aos-init aos-animate " data-aos-duration="1200"
         data-aos-delay="000">
         <div class="technical-stack-section">
@@ -1396,27 +1439,27 @@
                                         <div class="technical-tk-ul">
                                             <ul>
                                                 <li class="frontend aos-init aos-animate" data-aos="fade-right">
-                                                    <a href="javascript:;">Frontend</a>
+                                                    <a href="javascript:;">Development</a>
                                                     <ul>
                                                         <li class="css3">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="css style"
+                                                                    <img alt="laravel style"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="html5">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="html 5"
+                                                                    <img alt="react-native"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/react-native.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1434,11 +1477,11 @@
                                                         <li class="angular">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="angular icon"
+                                                                    <img alt="android icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1456,126 +1499,126 @@
                                                         <li class="less">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="less icon"
+                                                                    <img alt="flutter icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/less.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="jquery">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="jquery icon"
+                                                                    <img alt="ios icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/jQuery.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="backend aos-init aos-animate" data-aos="fade-down">
-                                                    <a href="javascript:;">Backend</a>
+                                                    <a href="javascript:;">Digital Marketing</a>
                                                     <ul>
                                                         <li class="php">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="php technology"
+                                                                    <img alt="Google-Analytics technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Google-Analytics.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Google-Analytics.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="codeigniter">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="ci icon"
+                                                                    <img alt="ahrefs icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ci-icon.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/ahrefs.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ahrefs.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="drupal">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="drupal icon"
+                                                                    <img alt="HubSpot icon"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/HubSpot.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/HubSpot.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="joomla">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="joomla frameworks"
+                                                                    <img alt="Canva frameworks"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Canva.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="laravel">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="laravel development"
+                                                                    <img alt="Jasper development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/Jasper.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Jasper.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="magento">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="magent technology"
+                                                                    <img alt="buffer technology"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/magento.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/buffer.webp"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/buffer.webp') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="mysql">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="mysql language"
+                                                                    <img alt="Hootsuite language"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Hootsuite.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Hootsuite.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="nodejs">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="nodejs development"
+                                                                    <img alt="Meta development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Meta.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Meta.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="rubyonrails">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="ruby on rails"
+                                                                    <img alt="SEMrush on rails"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/SEMrush.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/SEMrush.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1584,36 +1627,36 @@
                                                                 <span>
                                                                     <img alt="shopify development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Mailchimp.webp"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Mailchimp.webp') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="mobile-app aos-init aos-animate" data-aos="fade-left">
-                                                    <a href="javascript:;">Mobile App</a>
+                                                    <a href="javascript:;">Seller</a>
                                                     <ul>
                                                         <li class="android">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="android development"
+                                                                    <img alt="Amazon development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/Amazon.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Amazon.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="ios">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="ios development"
+                                                                    <img alt="flipkart development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/flipkart.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1622,20 +1665,20 @@
                                                                 <span>
                                                                     <img alt="flutter development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/myntra.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/myntra.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                         <li class="kotlin">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="kotlin"
+                                                                    <img alt="meesho"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/meesho.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1644,9 +1687,9 @@
                                                                 <span>
                                                                     <img alt="react native developers"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/react-native.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/Shiprocket.webp"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Shiprocket.webp') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1655,16 +1698,16 @@
                                                                 <span>
                                                                     <img alt="swift logo"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
+                                                                        data-src="assets/websiteAssets/images/technologies/nimbus.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/nimbus.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="ui-ux-design aos-init aos-animate" data-aos="fade-up">
-                                                    <a href="javascript:;">UI/UX design</a>
+                                                    <a href="javascript:;">Design</a>
                                                     <ul>
                                                         <li class="adobe-xd">
                                                             <div class="index-list__divider-inn">
@@ -1738,9 +1781,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="android development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Amazon.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Amazon.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1749,9 +1792,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="angular development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1771,9 +1814,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ci image" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ci-icon.png"
+                                                data-src="assets/websiteAssets/images/technologies/ahrefs.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ahrefs.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1782,9 +1825,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="css 3" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/laravel.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1793,9 +1836,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/HubSpot.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/HubSpot.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1804,9 +1847,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/myntra.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/myntra.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1815,9 +1858,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/react-native.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1837,9 +1880,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ios development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/flipkart.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1848,9 +1891,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Mailchimp.webp"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Mailchimp.webp') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1870,9 +1913,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Canva.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1881,9 +1924,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="jquery" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/jQuery.svg"
+                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1892,9 +1935,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/meesho.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1903,9 +1946,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                data-src="assets/websiteAssets/images/technologies/Jasper.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Jasper.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1914,9 +1957,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="less" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/less.png"
+                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1925,9 +1968,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="magento" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/magento.png"
+                                                data-src="assets/websiteAssets/images/technologies/buffer.webp"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/buffer.webp') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1947,9 +1990,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="mysql" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Hootsuite.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Hootsuite.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1958,9 +2001,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Meta.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Meta.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -1980,9 +2023,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="php developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/Google-Analytics.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Google-Analytics.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2002,9 +2045,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/react-native.png"
+                                                data-src="assets/websiteAssets/images/technologies/Shiprocket.webp"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Shiprocket.webp') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2013,9 +2056,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/SEMrush.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/SEMrush.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2024,9 +2067,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="swift" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
+                                                data-src="assets/websiteAssets/images/technologies/nimbus.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/nimbus.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2420,14 +2463,14 @@
         })
     </script>
 
-    <script type="text/javascript">
+    {{-- <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
                 publicKey: "ZpSieWnpQVGRyWwki",
             });
         })();
-    </script>
+    </script> --}}
 
     <script type="text/javascript">
         window.onload = function() {

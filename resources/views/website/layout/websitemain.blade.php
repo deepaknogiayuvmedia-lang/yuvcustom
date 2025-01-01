@@ -457,7 +457,7 @@
         </script>
         <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
         <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script> 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
 </body>
 
 
