@@ -101,7 +101,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Kishan Gopal</div>
-                                        <div class="fs-6 ">Operations Manager</div>
+                                        <div class="fs-6 ">Operations & IT Manager</div>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Ms. Parul Verma</div>
-                                        <div class="fs-6 ">Social Media Manager</div>
+                                        <div class="fs-6 ">Social Media Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -290,6 +290,27 @@
                         </div>
                     </div>
                 </div>
+
+                {{-- Dipanshu --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Dipanshu.webp') }}" alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Deepanshu Diwakar</div>
+                                        <div class="fs-6 ">Graphic / Video Executive</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 {{-- Shakti --}}
                 <div class="col-md-3 mb-4">
@@ -303,7 +324,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Shakti Rathore</div>
-                                        <div class="fs-6 ">Graphic Design Manager</div>
+                                        <div class="fs-6 ">Graphic / Video Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -323,7 +344,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Raghuveer</div>
-                                        <div class="fs-6 ">Creative Design Manager</div>
+                                        <div class="fs-6 ">Creative / Video Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -331,26 +352,7 @@
                     </div>
                 </div>
 
-                {{-- Deepanshu --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3" style="height: 245px;
-                        background: #f7f7f7;">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png" alt="client" style="height: 245px;">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Deepanshu Diwakar</div>
-                                        <div class="fs-6 ">Graphic Design Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
 
