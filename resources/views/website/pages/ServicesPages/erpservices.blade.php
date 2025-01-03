@@ -188,7 +188,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
                         <div class="col-md-4">
                             <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -257,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -271,7 +271,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -285,7 +285,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -320,19 +320,19 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
                         <img src="{{ asset('assets/websiteAssets/images/services/odoo.jpg') }}" class="img-fluid rounded-pill p-2">
                     </div>
 
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
                         <img src="{{ asset('assets/websiteAssets/images/services/salesforce.jpg') }}" class="img-fluid rounded-pill p-2">
                     </div>
 
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
                         <img src="{{ asset('assets/websiteAssets/images/services/zoho.jpeg') }}" class="img-fluid rounded-pill p-2">
                     </div>

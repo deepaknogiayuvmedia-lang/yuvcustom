@@ -1807,3 +1807,93 @@ a {
 .workflow .card {
     transition: all 0.3s ease;
 }
+
+.seointro ul {
+    list-style-image: url(https://www.rankontechnologies.com/wp-content/uploads/2022/05/check-icon2.png);
+    margin: 0 0 1em 2em !important;
+}
+
+.SlieImgBox {
+    margin-top: -400px;
+}
+
+.stepList {
+    list-style-type: none;
+}
+
+.stepList-item {
+    position: relative;
+    margin-top: 13.5px;
+    margin-bottom: 13.5px;
+}
+
+.stepList-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -33.75px;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #d4d8da;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.stepList-item:after {
+    content: "";
+    position: absolute;
+    left: -21px;
+    top: -67px;
+    width: 2px;
+    height: 70px;
+    background: #d4d8da;
+}
+
+.stepList-item:first-of-type:after {
+    display: none;
+}
+
+/* Active State */
+.stepList-item--active:before {
+    background: #9fcd58;
+    color: white;
+}
+
+.stepList-item--active:after {
+    background: #9fcd58;
+}
+
+.stepList-item--active .stepList-item-icon {
+    content: "\f117"; /* Optional Bootstrap Icon */
+}
+
+/* Complete State */
+.stepList-item--complete:before {
+    background: #ff5722;
+    transition: all 0.3s ease;
+    z-index: 9;
+    color: white;
+    content: "✓"; /* Replace with Bootstrap Icons */
+}
+
+.stepList-item--complete:after {
+    background: #ff5722;
+}
+
+.stepList .stepList-item__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff5722ff;
+    transition: all 0.3s ease;
+}
+
+.stepList-item:hover .stepList-item__title {
+    color: #2fff4b;
+}
+.stepList-item:hover.stepList-item--complete:before {
+    background: #2fff4b;
+}

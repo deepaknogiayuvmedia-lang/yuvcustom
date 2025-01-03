@@ -249,7 +249,7 @@
                                             </p>
                                         </div>
                                         <div class="col-md-6  ">
-                                            <div class="SlieImgBox" style="margin-top: -400px;">
+                                            <div class="SlieImgBox">
                                                 <img class="img-fluid"
                                                     src="https://www.sendx.io/hubfs/Craft-Emails-img.webp" alt="seo">
                                             </div>

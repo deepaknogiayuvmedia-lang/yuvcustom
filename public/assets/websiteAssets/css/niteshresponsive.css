@@ -6,6 +6,20 @@
     color: black;
   }
 
+  .SlieImgBox {
+    margin-top: 0px;
+}
+
+.stepList-item:after {
+  /* content: "";
+  position: absolute;
+  left: -21px; */
+  top: -87px;
+  width: 2px;
+  height: 253px;
+  /* background: #d4d8da; */
+}
+
   .whatheadingsub {
     font-weight: 600 !important;
     font-size: 33px;
@@ -89,6 +103,7 @@
 
   .seoimage {
     width: 90%;
+    margin-top: 40px;
     transition: 0.5s ease-in-out;
     animation: seoleftright 3s ease-out infinite alternate;
   }
@@ -560,7 +575,7 @@
     background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600 !important;
   }
 

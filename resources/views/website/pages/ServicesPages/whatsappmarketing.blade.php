@@ -176,65 +176,65 @@
     </section>
 
     <section class="py-5 position-relative">
-    <div class="container">
-        <h3 class="whatheading">Choose the  advantage
-        </h3>
-        <p>Use Yuvmedia's Whatsapp Portal to engage your prospects through the WhatsApp Business API
+        <div class="container">
+            <h3 class="whatheading">Choose the  advantage
+            </h3>
+            <p>Use Yuvmedia's Whatsapp Portal to engage your prospects through the WhatsApp Business API
 
-        </p>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="p-3">
-                    <img src="https://www.wati.io/wp-content/uploads/2024/05/brk.webp" alt="" width="150">
-                    <div class="py-3">
-                        <div class="fs-5 fw-bold mb-2">Break engagement
-                            barriers</div>
-                        <p>
-                            Engage using WhatsApp and improve response rates over email, SMS and in-app messaging and
-                            campaigning.
-                        </p>
+            </p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/brk.webp" alt="" width="150">
+                        <div class="py-3">
+                            <div class="fs-5 fw-bold mb-2">Break engagement
+                                barriers</div>
+                            <p>
+                                Engage using WhatsApp and improve response rates over email, SMS and in-app messaging and
+                                campaigning.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="p-3">
-                    <img src="https://www.wati.io/wp-content/uploads/2024/05/ups.webp" alt="" width="150">
-                    <div>
-                        <div class="fs-5 fw-bold mb-2">A better way to upscale</div>
-                        <p>
-                            Upscale with multiple users on one single number and get a better return on investment than
-                            alternative WhatsApp BSPs.
-                        </p>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/ups.webp" alt="" width="150">
+                        <div>
+                            <div class="fs-5 fw-bold mb-2">A better way to upscale</div>
+                            <p>
+                                Upscale with multiple users on one single number and get a better return on investment than
+                                alternative WhatsApp BSPs.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="p-3">
-                    <img src="https://www.wati.io/wp-content/uploads/2024/05/sscale.webp" alt="" width="150">
-                    <div>
-                        <div class="fs-5 fw-bold mb-2">Communicate at scale efficiently</div>
-                        <p>
-                            Easily start and manage conversations with thousands of customers and prospects through
-                            automation, chatbots and custom workflows.
-                        </p>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/sscale.webp" alt="" width="150">
+                        <div>
+                            <div class="fs-5 fw-bold mb-2">Communicate at scale efficiently</div>
+                            <p>
+                                Easily start and manage conversations with thousands of customers and prospects through
+                                automation, chatbots and custom workflows.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="p-3">
-                    <img src="https://www.wati.io/wp-content/uploads/2024/05/chhnl.webp" alt="" width="150">
-                    <div>
-                        <div class="fs-5 fw-bold mb-2">Multiple channels in one</div>
-                        <p>
-                            Nurture leads from Facebook and Instagram and increase ROI 10x by funneling your leads to
-                            WhatsApp.
-                        </p>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/chhnl.webp" alt="" width="150">
+                        <div>
+                            <div class="fs-5 fw-bold mb-2">Multiple channels in one</div>
+                            <p>
+                                Nurture leads from Facebook and Instagram and increase ROI 10x by funneling your leads to
+                                WhatsApp.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
     </section>
 
     <section class="py-5 bannerbg">
