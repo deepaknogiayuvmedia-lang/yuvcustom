@@ -1884,7 +1884,7 @@ a {
     background: #ff5722;
 }
 
-.stepList .stepList-item__title{
+.stepList .stepList-item__title {
     font-size: 20px;
     font-weight: 600;
     color: #ff5722ff;
@@ -1902,7 +1902,7 @@ a {
     position: absolute;
     left: -30px;
     top: -30px;
-    padding-right: .5rem;
+    padding-right: 0.5rem;
 }
 .qoutesvg {
     width: 1.5rem;
@@ -1913,8 +1913,103 @@ a {
     width: 10%;
 }
 #serviceSlider svg {
-    width: .875rem;
+    width: 0.875rem;
 }
 #serviceSlider li {
     list-style-type: none;
+}
+.ion-hero-ambient-video {
+    position: relative;
+    width: 70%;
+}
+.ion-hero-ambient-video__container {
+    border-radius: 4px;
+    width: 100%;
+}
+
+.ion-hero-2up-animated .ion-animation-control {
+    align-self: flex-end;
+    margin-top: -72px;
+}
+.ion-animation-control {
+    display: block;
+    position: relative;
+}
+
+.hidden:not(.a):not(.b) {
+    display: none;
+}
+
+.ion-animation-control .pause,
+.ion-animation-control .play {
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    [dir="ltr"] .ion-animation-control .tooltip {
+        right: 20px;
+    }
+}
+[dir="ltr"] .ion-animation-control .tooltip {
+    right: 60px;
+}
+@media (min-width: 1024px) {
+    .ion-animation-control .tooltip {
+        bottom: auto;
+        top: 60px;
+    }
+}
+.ion-animation-control .tooltip {
+    background-color: #5f6368;
+    border-radius: 4px;
+    bottom: 21px;
+    color: #fff;
+    display: none;
+    padding: 3px 8px;
+    position: absolute;
+    white-space: nowrap;
+}
+.ion-animation-control .pause,
+.ion-animation-control .play {
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    padding: 20px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.ion-animation-control .pause:after,
+.ion-animation-control .play:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 26px;
+    z-index: 5;
+}
+.ion-animation-control .tooltip-content {
+    font-size: 12px;
+}
+
+.tab-content .accordion-item {
+    background-color: #ffffff00;
+    border: 0 0 0 1px solid #e5e5e5;
+}
+
+.tab-content .accordion-button {
+    background-color: #ffffff00;
+}
+
+.fade-in-box {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in-box.visible {
+    opacity: 1;
 }
