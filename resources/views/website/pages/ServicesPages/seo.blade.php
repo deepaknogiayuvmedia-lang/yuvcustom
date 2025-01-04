@@ -302,7 +302,7 @@
 
     <section class=" py-5">
         <div class="container py-2 py-md-5">
-            <div class="text-center fs-2 fw-bold mb-5">
+            <div class="text-center seoheadingsecthree mb-5">
                 Benefits of SEO Services
             </div>
             <div class="row justify-items-center">
@@ -392,8 +392,8 @@
     <section class="bannerbg py-5">
         <div class="container py-2 py-md-5">
             <div class="row">
-                <div class="text-center seoheadingsecthree">
-                    What Our <span class="seoheadingsubsecthree">SEO Services Offer</span>
+                <div class="text-center seoheadingsecthree fs-1">
+                    What Our <span class="globaltxtcolor fs-1">SEO Services Offer</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap seosecondheadsecthree">

@@ -47,6 +47,23 @@ $('#core-team').owlCarousel({
         }
     }
 });
+$('#serviceSlider').owlCarousel({
+    items: 3, // Number of visible items
+    margin: 20, // Space between items
+    loop: true, // Infinite looping
+    autoplay: true, // Automatic scrolling
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+});
 $('#core-teams').owlCarousel({
     items: 4, // Number of visible items
     margin: 20, // Space between items

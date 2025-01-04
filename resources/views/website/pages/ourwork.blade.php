@@ -213,8 +213,8 @@
     var copy3 = document.querySelector(".logos-slide3").cloneNode(true);
     document.querySelector(".logo-slider3").appendChild(copy3);
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 <script>
     var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
         slidesPerView: 5,

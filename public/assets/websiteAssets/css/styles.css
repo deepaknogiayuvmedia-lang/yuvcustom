@@ -1897,3 +1897,24 @@ a {
 .stepList-item:hover.stepList-item--complete:before {
     background: #2fff4b;
 }
+
+.qouteicon {
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    padding-right: .5rem;
+}
+.qoutesvg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#serviceSlider .icons {
+    width: 10%;
+}
+#serviceSlider svg {
+    width: .875rem;
+}
+#serviceSlider li {
+    list-style-type: none;
+}
