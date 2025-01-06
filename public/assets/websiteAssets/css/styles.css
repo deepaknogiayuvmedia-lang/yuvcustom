@@ -2212,3 +2212,19 @@ svg:not(:root) {
     margin-top: 25px;
     margin-bottom: 18px;
 }
+.large-values {
+    color: #00ddbd;
+    font-size: 64px;
+    font-weight: 200;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+}
+
+.hero-asset-video {
+    display: block;
+    width: 70%;
+    margin: 20px 0 0 -1px;
+}
