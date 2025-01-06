@@ -316,7 +316,7 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center gmbheading">
-                    Discover the Benefits of Partnering with a <span class="gmbheadingsub">Google My Business Service
+                    Discover the Benefits of Partnering with a <span class="fw-bold text-primary">Google My Business Service
                         Provider</span>
                 </div>
                 <div class="text-center py-2">
@@ -330,8 +330,8 @@
                 <div class="col-md-4">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/online-presence.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/online-presence.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="card-text">Establishing your online presence has never been easier.</p>
                             <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
                         </div>
@@ -363,8 +363,8 @@
                 <div class="col-md-4">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/customer-satisfaction.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/customer-satisfaction.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="card-text">Build a strong reputation through positive client feedback.</p>
                             <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
                         </div>
@@ -373,8 +373,8 @@
                 <div class="col-md-4">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/performance-boost.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/performance-boost.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="card-text">Drive more visitors to your website with our expert Google My Business
                                 services.</p>
                             <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
@@ -407,7 +407,7 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center gmbheadingsecthree">
-                    Complete Optimization for Your <span class="gmbheadingsubsecthree">Google My Business Page</span>
+                    Complete Optimization for Your <span class="fw-bold text-primary">Google My Business Page</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap gmbsecondheadsecthree">

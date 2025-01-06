@@ -464,7 +464,7 @@
         <div class="container py-5 justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
-                    Why <span class="socialmedheadingsubsecthree">Yuvmedia</span>
+                    Why <span class="fw-bold text-primary">Yuvmedia</span>
                 </div>
 
             </div>
@@ -542,7 +542,7 @@
         <div class="container py-5 justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
-                    Focus <span class="socialmedheadingsubsecthree">Areas</span>
+                    Focus <span class="fw-bold text-primary">Areas</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap socialmedsecondheadsecthree">

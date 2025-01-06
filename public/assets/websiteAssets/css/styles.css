@@ -2013,3 +2013,202 @@ svg:not(:root) {
 .fade-in-box.visible {
     opacity: 1;
 }
+
+.hero-video {
+    /* margin-bottom: 20px; */
+    width: 80%;
+    margin: 0rem auto 20px;
+    overflow: hidden;
+}
+.hero-asset {
+    display: block;
+    width: 100%;
+    margin: 20px 0 0 -1px;
+}
+@media (min-width: 681px) {
+    .mob-video {
+        display: none;
+    }
+}
+
+.category-selector .nav-item {
+    display: block;
+    color: #19486d;
+    font-weight: 400;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.85rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    min-width: fit-content;
+}
+.category-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #eff8ff;
+    border: 1px solid #dbe6ef;
+}
+
+.retail-list span {
+    position: relative;
+    display: block;
+    color: #19486d;
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.retail-list span {
+    color: #317021;
+}
+.retail-list span::before {
+    background-color: #5dfd09;
+}
+.retail-list span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    /* background-color: #68b05f; */
+}
+.category-block {
+    margin: 3rem 20% 2rem;
+}
+
+.vertical-legends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-top: 2rem; */
+    padding-top: 1rem;
+    /* margin-bottom: 2rem; */
+    justify-content: flex-start;
+    border-top: 1px dashed #d4d4d4;
+    gap: 10px;
+    width: auto;
+    margin: 1rem 20% 2rem;
+}
+
+.vertical-legends span {
+    display: block;
+    font-weight: 400;
+    position: relative;
+    color: #969696;
+    font-size: 0.85rem;
+    padding-left: 1rem;
+    margin-bottom: 0.25rem;
+    margin-right: 1rem;
+}
+.vertical-legends span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #5dfd09;
+}
+.vertical-legends span:nth-child(2)::before {
+    background-color: #d2d2d2;
+}
+
+.agri-input,
+.agri-output,
+.agri-services {
+    display: flex;
+    flex-direction: column;
+}
+.agri-sub-cat-div {
+    display: flex;
+    justify-content: space-between;
+}
+.agri-cnt-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.retail-list span.inactive::before {
+    background-color: #d2d2d2;
+}
+.retail-list span.inactive {
+    color: #969696;
+}
+.agri-title {
+    font-weight: 600;
+    font-size: 16px !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.roles-card-wrapper .category-selector {
+    margin-top: -12.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.roles-card-wrapper {
+    position: relative;
+    padding: 5rem 5% 5rem;
+    margin: 12.5rem 3rem 0;
+    border-radius: 2rem;
+    border: 1px solid #c9ffe5;
+}
+
+.re-define-tab {
+    justify-content: center !important;
+}
+.roles-card-wrapper .role-block {
+    box-shadow: none;
+    background: #fff;
+    min-height: 420px;
+}
+.role-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1.5rem;
+    background-color: #fff;
+    background: radial-gradient(ellipse at bottom left, #a7eccd -50%, #fff 30%);
+    padding: 4rem;
+    border-radius: 1.5rem;
+    border: 1px solid #ececec;
+    box-shadow: 0 2rem 3.7rem -1.15rem rgba(172, 239, 209, 0.65);
+    position: relative;
+}
+
+ .role-block img {
+    display: block;
+    flex: 1;
+    width: calc(100% - 55%);
+    /* margin-bottom: -4rem; */
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    height: calc(100% - 40px);
+    object-fit: contain;
+    object-position: bottom;
+}
+.role-block .btn {
+    margin-top: 2rem;
+}
+
+.new-buuton-link {
+    display: inline-flex
+;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
