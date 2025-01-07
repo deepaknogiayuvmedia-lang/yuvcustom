@@ -1108,7 +1108,7 @@ a {
     transition: all 0.5s ease;
 }
 
-.slick-slide img {
+.service-cards .slick-slide img {
     height: 275px;
     object-fit: cover;
 }
@@ -2190,7 +2190,7 @@ svg:not(:root) {
     position: relative;
 }
 
- .role-block img {
+.role-block img {
     display: block;
     flex: 1;
     width: calc(100% - 55%);
@@ -2207,8 +2207,7 @@ svg:not(:root) {
 }
 
 .new-buuton-link {
-    display: inline-flex
-;
+    display: inline-flex;
     margin-top: 25px;
     margin-bottom: 18px;
 }
@@ -2227,4 +2226,481 @@ svg:not(:root) {
     display: block;
     width: 70%;
     margin: 20px 0 0 -1px;
+}
+
+.header-marquee {
+    background-color: #000;
+    color: #cbcbcb;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.runner {
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: flex-end; */
+}
+
+.runner-start,
+.runner-end {
+    animation: 25s ticker 0s infinite linear;
+    display: flex;
+    will-change: transform;
+    transition: transform 0.01s;
+}
+
+.marquee-line,
+.marquee-line_text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.marquee-line,
+.marquee-line_text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.marquee-line_text::after {
+    content: "\003e";
+    padding: 0 2em;
+    flex: none;
+    color: #f35422;
+}
+
+.header-marquee {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.marquee-line {
+    display: inline-block;
+    animation: marquee 60s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.shiftbox-carousel {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.slick-list {
+    overflow: hidden; /* Prevents excess slides from showing */
+}
+
+.shiftbox-carousel .slick-track {
+    overflow: visible;
+}
+.shiftbox-carousel .slick-slide {
+    opacity: 1 !important;
+    transition-duration: 1s;
+}
+.shiftbox {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: flex-end;
+    /* margin-top: -218px; */
+    position: relative;
+    z-index: 1;
+    min-height: 400px;
+    grid-template-columns: auto 1fr;
+}
+@media (max-width: 768px) {
+    .shiftbox {
+        grid-template-columns: 1fr;
+    }
+}
+.shiftbox-carousel .shiftbox-image {
+    opacity: 1;
+    transition: all 0s 0.5s;
+    clip-path: inset(0 100% 0 0);
+}
+.shiftbox-carousel .slick-active .shiftbox-image {
+    opacity: 1;
+    transition-delay: 0s;
+    clip-path: inset(0 0 0 0);
+    transition-duration: 0.5s;
+}
+
+.shiftbox-image {
+    min-height: 100%;
+    position: relative;
+    width: 60vw;
+    display: flex;
+}
+
+.shiftbox-image::before {
+    content: "";
+    flex: none;
+    width: 0;
+    padding-top: 55%;
+}
+
+.shiftbox-image .slick-slide img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.shiftbox-carousel .shiftbox-content {
+    opacity: 1;
+    transform: translateX(40px);
+    transition: all 0.5s 0s;
+    clip-path: inset(0 100% 0 0);
+}
+.shiftbox-carousel .slick-active .shiftbox-content {
+    opacity: 1;
+    transform: translateX(0);
+    clip-path: inset(0 0 0 0);
+    transition-delay: 0.5s;
+}
+.shiftbox-content {
+    padding-top: 94px;
+    margin-left: 36px;
+}
+.preview {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.preview-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.preview-name__caption {
+    min-width: 100%;
+    color: #000;
+    font-weight: 700;
+    margin-right: 0;
+}
+.preview-name {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.035em;
+    margin-right: 0.25em;
+}
+.preview-name:first-child::before {
+    content: "";
+    margin-right: 0px;
+}
+.preview-name a {
+    position: relative;
+    z-index: 6;
+    transition: all 0.5s;
+}
+.preview-name__caption a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.shiftbox-carousel .slick-dots {
+    position: absolute;
+    width: 100%;
+    display: flex !important;
+    padding: 0 16px;
+    top: 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 1920px) {
+    .shiftbox-carousel .slick-dots {
+        padding-left: calc((100vw - 1920px) / 2 + 90px);
+    }
+}
+.shiftbox-carousel > :nth-child(n + 2) {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .shiftbox-carousel .slick-dots {
+        width: 60vw;
+        top: 100%;
+        bottom: auto;
+        padding: 0;
+        padding-left: 20px;
+        margin-top: 14px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .shiftbox-carousel .slick-dots {
+        padding-left: 90px;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .shiftbox-carousel .slick-dots {
+        padding-left: calc((100vw - 1920px) / 2 + 90px);
+    }
+}
+.shiftbox-carousel .slick-dots li.slick-active::before {
+    transform: scaleX(1);
+    transform-origin: left center;
+}
+.shiftbox-carousel .slick-dots li {
+    flex: 1;
+    border-top: 1px solid;
+    margin: 20px 0 0;
+    position: relative;
+    line-height: 1;
+}
+.shiftbox-carousel .slick-dots li::before {
+    content: "";
+    height: 3px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    background-color: currentColor;
+    transition: transform 0.25s linear;
+    transform-origin: right center;
+    transform: scaleX(0);
+}
+.shiftbox-carousel .slick-dots li.slick-active::before {
+    transform: scaleX(1);
+    transform-origin: left center;
+}
+.shiftbox-carousel .slick-dots li button {
+    visibility: hidden;
+    height: 1px;
+    overflow: hidden;
+}
+.shiftbox-nav {
+    margin-left: 60vw;
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+.shiftbox-arrow__left {
+    transform: scaleX(-1);
+}
+.shiftbox-arrow {
+    cursor: pointer;
+    flex: none;
+    font-weight: 500;
+    position: relative;
+}
+.shiftbox-arrow::before {
+    content: "\003e";
+}
+.shiftbox-arrow::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: -10px;
+}
+.shiftbox-current {
+    width: 40px;
+    text-align: right;
+    display: inline-block;
+}
+.shiftbox-num {
+    width: 40px;
+    display: inline-block;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
+}
+.fadein.aos-animate {
+    opacity: 1;
+}
+.service-list {
+    counter-reset: index;
+}
+.fadein {
+    opacity: 0;
+    transition: all 0.5s;
+}
+.service:first-child {
+    margin-top: 0;
+}
+.service.active .service-caption {
+    color: #000;
+}
+.service:hover .service-caption {
+    color: #000;
+}
+.service-caption {
+    font-size: 66px;
+    font-weight: 700;
+    color: #cbcbcb;
+    line-height: 1.2;
+    letter-spacing: -0.035em;
+    cursor: pointer;
+    position: relative;
+    padding-left: 48px;
+    display: inline-flex;
+    min-height: 1.2em;
+    white-space: nowrap;
+    transition: all 0.25s;
+}
+.service-caption::before {
+    content: counter(index, decimal-leading-zero);
+    counter-increment: index;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+@media screen and (min-width: 1200px) {
+    .service .service-content {
+        display: none;
+    }
+}
+.service-content {
+    display: flex;
+    flex-direction: column;
+}
+.service-tags {
+    margin-bottom: 40px;
+}
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+.chip {
+    margin: 5px;
+}
+.chip-label,
+.checkbox-label {
+    white-space: nowrap;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 1.25em;
+    display: inline-flex;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    border-radius: 100px;
+    background-color: #eee;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    transition: all 0.15s;
+}
+.service-text {
+    flex: auto;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+.service-text p:last-child,
+table:last-child {
+    margin-bottom: 0 !important;
+}
+.service-text p:first-child,
+table:first-child {
+    margin-top: 0 !important;
+}
+.service-action {
+    margin-top: auto;
+    font-size: 22px;
+    padding: 28px 0;
+    border-bottom: 1px solid;
+}
+.redlink {
+    color: #f35422;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline-flex;
+}
+.service-preview {
+    position: relative;
+    max-width: 540px;
+}
+.service-content-copy {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.service-content-copy.active .service-content {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 3s ease, transform 3s ease;
+}
+.service-content-copy .service-content {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 3s ease, transform 3s ease;
+}
+.service-content-copy.hidden .service-content {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 3s ease, transform 3s ease;
+}
+.service-content-copy .service-content {
+    transition: all 1s;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+.service-content-copy::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: currentColor;
+    transition: transform 1s;
+    transform-origin: right bottom;
+}
+.service-content-copy .service-action {
+    border-bottom-width: 0;
+}
+/* Initially hide all service copies */
+.js-service-copy {
+    display: none;
+}
+
+/* When a service copy has the 'active' class, show it */
+.js-service-copy.active {
+    display: block;
+}
+.service-content-copy.hidden::after {
+    transform: scaleX(0);
+}
+
+.service-grid a {
+    color: black;
+    font-weight: 400;
 }

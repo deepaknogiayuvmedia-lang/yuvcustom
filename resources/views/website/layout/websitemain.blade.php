@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="{{ asset('assets/websiteAssets/images/logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('assets/websiteAssets/images/logo.png') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
 
     <!-- Google font (font-family: 'Josefin Sans', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
@@ -23,17 +23,18 @@
 
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.theme.default.min.css') }}">
-
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/technologies.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
     <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
 </head>
 
 <body>
@@ -56,28 +57,31 @@
                                             href="{{ route('homepage') }}">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
                                             Our Story
                                         </a>
                                         <ul class="dropdown-menu customdropdown">
                                             <li>
-                                                <a class="dropdown-item customdrodownitem" href="{{ route('about') }}">About Us</a>
+                                                <a class="dropdown-item customdrodownitem"
+                                                    href="{{ route('about') }}">About Us</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem" href="{{ route('ourteam') }}">Our Team</a>
+                                                <a class="dropdown-item customdrodownitem"
+                                                    href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
                                             Services
                                         </a>
                                         <ul class="dropdown-menu customdropdown">
                                             <li>
-                                                <a class="dropdown-item customdrodownitem" href="{{ route('seo') }}">SEO</a>
+                                                <a class="dropdown-item customdrodownitem"
+                                                    href="{{ route('seo') }}">SEO</a>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item customdrodownitem"
@@ -132,7 +136,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('work')}}">Work</a>
+                                        <a class="nav-link" href="{{ route('work') }}">Work</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('partners') }}">Partners</a>
@@ -161,12 +165,12 @@
                         </a>
 
 
-                        
+
                     </div>
                 </div>
             </div>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                            aria-labelledby="offcanvasExampleLabel">
+                aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                     {{-- <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5> --}}
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
@@ -175,13 +179,12 @@
                 <div class="offcanvas-body mobileMenu">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="{{ route('homepage') }}">Home</a>
+                            <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Our Story
                             </a>
                             <ul class="dropdown-menu">
@@ -195,8 +198,8 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu">
@@ -262,7 +265,7 @@
             <!--Header Ends-->
 
 
-                @yield('content')
+            @yield('content')
 
 
             <!-- Footer Area -->
@@ -450,7 +453,8 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
+        </script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -466,8 +470,11 @@
             AOS.init();
         </script>
         <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-        <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script> 
+        <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+        
+        
+
         {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
 </body>
 
