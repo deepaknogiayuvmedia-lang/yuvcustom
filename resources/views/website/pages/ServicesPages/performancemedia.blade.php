@@ -28,12 +28,6 @@
                             <source src="{{ asset('assets/websiteAssets/images/performance-ad-video.mp4') }}"
                                 type="video/mp4">
                         </video>
-                        <video autoplay="" muted="" playsinline="" loop=""
-                            class="hero-asset rounded-4 mob-video"
-                            poster="https://ondc.org/assets/theme/images/mobile_video_img.jpg">
-                            <source src="{{ asset('assets/websiteAssets/images/performance-ad-video.mp4') }}"
-                                type="video/mp4">
-                        </video>
                     </div>
                 </div>
             </div>
@@ -58,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="row">
+                    <div class="row py-3">
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">

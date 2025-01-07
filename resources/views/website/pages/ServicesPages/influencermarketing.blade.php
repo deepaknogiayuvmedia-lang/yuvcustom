@@ -54,7 +54,7 @@
                 <div class=" heroTitle">
                     Find Authentic Influencers. Any Industry. Any Size
                 </div>
-                <div>
+                <div class="subTitle">
                     Influencer marketing platform for brands and agencies
                 </div>
                 <div class="mt-3 text-center">
