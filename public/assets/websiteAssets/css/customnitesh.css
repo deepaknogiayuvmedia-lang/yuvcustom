@@ -204,7 +204,7 @@
 .videoproheading {
   font-size: 53px;
   font-weight: 600 !important;
-  color: black;
+  /* color: black; */
 }
 
 .videoproheadingsub {
@@ -265,7 +265,7 @@
   border-left: 3px solid var(--whatsapp-color);
   padding: 1.3rem;
   border-top-left-radius: 10px;
-  box-shadow: 0px 10px 5px #f1f1f1a3;
+  /* box-shadow: 0px 10px 5px #f1f1f1a3; */
   text-align: center;
   transition: 0.3s ease-in-out;
 }
@@ -279,7 +279,7 @@
   border-left: 3px solid var(--gmb-color);
   padding: 1.3rem;
   border-top-left-radius: 10px;
-  box-shadow: 0px 10px 5px #f1f1f1a3;
+  /* box-shadow: 0px 10px 5px #f1f1f1a3; */
   text-align: center;
   transition: 0.3s ease-in-out;
 }

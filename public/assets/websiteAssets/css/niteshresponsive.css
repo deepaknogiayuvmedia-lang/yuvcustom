@@ -144,7 +144,7 @@
     .videoproheading {
         font-size: 33px;
         font-weight: 600 !important;
-        color: black;
+        /* color: black; */
     }
 
     .videoproheadingsub {
