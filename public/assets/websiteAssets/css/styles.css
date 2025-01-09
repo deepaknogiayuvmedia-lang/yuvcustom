@@ -207,7 +207,7 @@ body {
     flex-direction: column;
     gap: var(--gap);
     margin: auto;
-    max-width: 100vw;
+    /* max-width: 100vw; */
 }
 
 .wrapper--vertical {
@@ -2758,7 +2758,7 @@ table:first-child {
     z-index: 3;
     left: 0px;
     top: 0px;
-    width: 1733px;
+    width: 1913px;
 }
 .tn-atom {
     display: table-cell;
@@ -3050,28 +3050,6 @@ table:first-child {
     }
 }
 
-/* Gradient Animation Button */
-button {
-    border: 0;
-    position: relative;
-    border-radius: 12px;
-    color: #fff;
-    background: #000;
-    padding: 0 16px;
-    box-shadow: 0 0 0 1px 0 0 0 1px rgba(255, 255, 255, 0.14);
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-    transition-property: border-color, background, color, transform, box-shadow;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
-    font-size: 16px;
-    line-height: 50px;
-    height: 50px;
-    width: 100%;
-    max-width: 250px;
-    transition: 0.25s;
-}
 
 /* .highlight-bg {
     position: absolute;
@@ -3316,4 +3294,74 @@ button {
     background: #ffcf4d;
     border: 1px solid rgba(255, 0, 88, 0.4);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+}
+
+.processtabs .nav-link {
+    letter-spacing: -0.03em;
+    color: #CBCBCB;
+    font-weight: 700;
+    margin-right: 40px;
+    position: relative;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+
+.citebox {
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 1.03;
+    letter-spacing: -0.05em;
+    margin: 1em 0;
+    position: relative;
+}
+.citebox-content > span {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.citebox-content > span:first-of-type::before {
+    content: "";
+    height: .55em;
+    width: .5em;
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg width='54' height='49' viewBox='0 0 54 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M53.0719 0.77703L51.8719 10.077C48.9385 9.87703 46.6719 10.4104 45.0719 11.677C43.4719 12.9437 42.4052 14.7104 41.8719 16.977C41.3385 19.2437 41.2385 21.8104 41.5719 24.677L53.0719 24.677L53.0719 48.777H30.9719L30.9719 22.677C30.9719 14.8104 32.8385 8.87702 36.5719 4.87703C40.3719 0.810362 45.8719 -0.556302 53.0719 0.77703ZM22.2719 0.77703L21.0719 10.077C18.1385 9.87703 15.8719 10.4104 14.2719 11.677C12.6719 12.9437 11.6052 14.7104 11.0719 16.977C10.5385 19.2437 10.4385 21.8104 10.7719 24.677L22.2719 24.677L22.2719 48.777H0.171876L0.171875 22.677C0.171875 14.8104 2.03854 8.87702 5.77187 4.87703C9.57187 0.810362 15.0719 -0.556302 22.2719 0.77703Z' fill='%23F35422'/%3E %3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    left: 0;
+    bottom: 100%;
+}
+.citebox-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.aos-animate .citebox-mask > span, .citebox-mask > span.aos-animate {
+    transform: scaleX(0);
+}
+.citebox-mask > span {
+    position: relative;
+    color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    white-space: nowrap;
+    transform: scaleX(1);
+    transform-origin: right;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.citebox-mask > span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    height: 100%;
+    width: 105%;
+    background-color: #f5f5ff;
+    opacity: .75;
 }

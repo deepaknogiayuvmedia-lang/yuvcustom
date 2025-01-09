@@ -27,17 +27,17 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                        <a href="{{route('contact')}}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
                                             Partner!</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/3.png') }}" alt="Hero Image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
@@ -60,17 +60,17 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
                                             Partner!</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/1.png') }}" alt="Hero Image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/1.webp') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
@@ -93,17 +93,17 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
                                             Partner!</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/2.png') }}" alt="Hero Image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/2.webp') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>
@@ -127,17 +127,17 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
                                                 class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
+                                        <a  class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
                                             Partner!</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/4.png') }}" alt="Hero Image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/4.webp') }}" alt="Hero Image">
                             </div>
                         </div>
                     </div>

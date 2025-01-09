@@ -1,5 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -12,15 +12,9 @@
     <link rel="shortcut icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
 
-    <!-- Google font (font-family: 'Josefin Sans', sans-serif;) -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
-
     <!-- Stylesheets -->
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
@@ -28,13 +22,13 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/responsive.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/lenis.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick-theme.css') }}">
+    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
+    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script>
 </head>
 
 <body>
@@ -135,15 +129,15 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a class="nav-link" href="{{ route('work') }}">Work</a>
-                                    </li>
+                                    </li> --}}
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('partners') }}">Partners</a>
                                     </li>
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a class="nav-link" href="https://www.yuvmedia.com/">Blog</a>
-                                    </li>
+                                    </li> --}}
                                     <li class="nav-item">
                                         <a class="nav-link" href="https://www.yuvmedia.com/jobs">Career</a>
                                     </li>
@@ -203,61 +197,59 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">SEO</a>
+                                    <a class="dropdown-item" href="{{ route('seo') }}">SEO</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('about') }}">Social Media</a>
+                                    <a class="dropdown-item" href="{{ route('socialmedia') }}">Social Media</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">Whatsapp
+                                    <a class="dropdown-item" href="{{ route('whatsappmarketing') }}">Whatsapp
                                         Marketing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">Video
+                                    <a class="dropdown-item" href="{{ route('videoproduction') }}">Video
                                         Production</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">Web
-                                        Development</a>
+                                    <a class="dropdown-item" href="{{ route('webdevelopment') }}">Web Development</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">Designing
+                                    <a class="dropdown-item" href="{{ route('designingservices') }}">Designing
                                         Services</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('homepage') }}">Performance
+                                    <a class="dropdown-item" href="{{ route('performancemedia') }}">Performance
                                         Media</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('contact') }}">Marketplace
+                                    <a class="dropdown-item" href="{{ route('marketplaceexpertise') }}">Marketplace
                                         Expertise</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('contact') }}">Influencer
+                                    <a class="dropdown-item" href="{{ route('influencermarketing') }}">Influencer
                                         Marketing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('contact') }}">Google Business
-                                        Profile</a>
+                                    <a class="dropdown-item" href="{{ route('googlebusinessprofile') }}">Google
+                                        Business Profile</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Work</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('partners') }}">Partners</a>
+                        </li>
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="https://www.yuvmedia.com/">Blog</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.yuvmedia.com/jobs">Career</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Partners</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Career</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -298,9 +290,9 @@
                                     <li>
                                         <a href="{{ route('partners') }}">Partners</a>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                         <a href="https://www.yuvmedia.com/">Blog</a>
-                                    </li>
+                                    </li> --}}
                                     <li>
                                         <a href="https://www.yuvmedia.com/jobs">Career</a>
                                     </li>
@@ -450,30 +442,29 @@
         <!-- //Main wrapper -->
 
         <!-- JS Files -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+        
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-
-
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+        <script src="{{ asset('assets/websiteAssets/js/swiper.min.js') }}"></script>
+        <script src="{{ asset('assets/websiteAssets/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('assets/websiteAssets/js/slick.min.js') }}"></script>
+        <script src="{{ asset('assets/websiteAssets/js/aos.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/main.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/canvas.js') }}"></script>
         <script>
             AOS.init();
         </script>
-        <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+        <script src="{{ asset('assets/websiteAssets/js/lenis.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-        
-        
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> --}}
+
+        {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script> --}}
 
         {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
 </body>

@@ -126,14 +126,16 @@ elements.forEach(({
     element,
     className
 }) => {
-    element.addEventListener('mouseenter', () => {
-        techstack.classList.add('index-top');
-        element.classList.add('active');
-    });
-    element.addEventListener('mouseleave', () => {
-        techstack.classList.remove('index-top');
-        element.classList.remove('active');
-    });
+    if (element) {
+        element.addEventListener('mouseenter', () => {
+            techstack.classList.add('index-top');
+            element.classList.add('active');
+        });
+        element.addEventListener('mouseleave', () => {
+            techstack.classList.remove('index-top');
+            element.classList.remove('active');
+        });
+    }
 });
 
 $(document).ready(function () {
