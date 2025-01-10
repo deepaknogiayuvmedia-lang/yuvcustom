@@ -26,10 +26,7 @@
                             poster="https://ondc.org/assets/theme/images/video_img.jpg">
                             <source src="https://ondc.org/assets/theme/video/video-desktop1.mp4" type="video/mp4">
                         </video>
-                        <video autoplay="" muted="" playsinline="" loop="" class="hero-asset mob-video"
-                            poster="https://ondc.org/assets/theme/images/mobile_video_img.jpg">
-                            <source src="https://ondc.org/assets/theme/video/video-mobile1.mp4" type="video/mp4">
-                        </video>
+
                     </div>
                 </div>
             </div>
@@ -602,7 +599,7 @@
                                 tabindex="0">
 
                                 <div class="row role-block">
-                                    <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-6">
                                         <div class="category-info">
                                             <h3>Buyer Network Participant</h3>
                                             <p>
@@ -623,9 +620,9 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-6">
                                         <img src="https://ondc.org/assets/theme/images/home-page/home-buyer-asset.jpg?v=20abcc746c"
-                                            alt="Buyer Network Participants- seller">
+                                            alt="Buyer Network Participants- seller" class="img-fluid">
                                     </div>
                                 </div>
                             </div>

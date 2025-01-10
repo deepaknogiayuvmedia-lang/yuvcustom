@@ -2787,12 +2787,27 @@ table:first-child {
     object-fit: cover;
     z-index: 0;
 }
+.social-icons a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #0d6dfc;
+}
+.widget-quick-links .active {
+    color: #0d6dfc;
+}
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #0d6dfc;
+    background-color: #e4f0ff;
+    border-radius: 10px;
+}
 /* Banner Section */
 .bannersection {
     position: absolute;
     bottom: 0%;
-    left: 10%;
+    left: 15%;
     width: 100%;
     text-align: center;
     z-index: 2; /* Above masks */

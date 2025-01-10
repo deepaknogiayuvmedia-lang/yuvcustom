@@ -37,7 +37,7 @@
     <section class="position-relative">
         <div class="container  py-5">
             <div class="row align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex d-md-block align-items-center justify-content-between">
                     <div class="text-start fs-2 fw-bold">
                         Get up to 70% <br />
                         more conversions <br />
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="row py-3">
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">
                                     <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">
                                     <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">
                                     <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">
                                     <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"

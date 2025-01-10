@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="{{ asset('assets/websiteAssets/images/services/whatssdappss.png') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/websiteAssets/images/services/whatssdappss.png') }}" alt="">
                 </div>
 
             </div>
@@ -61,14 +61,14 @@
     <section class="py-5 position-relative">
         <div class="container">
             <h3 class="whatheading">Features</h3>
-            <div class="p-md-5 shadow-sm rounded-4">
+            <div class="p-3 p-md-5 shadow-sm rounded-4">
 
                 <div class="row ">
-                    <div class="col-md-6 p-md-5">
+                    <div class="col-md-6 p-3 p-md-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Broadcast-new1.webp" alt="features">
                     </div>
-                    <div class="col-md-6 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
                         <h3>Broadcast</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="row ">
-                    <div class="col-md-6 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
                         <h3>Chatbots</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -126,7 +126,7 @@
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 p-md-5">
+                    <div class="col-md-6 p-3 p-md-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Botflow-new1.webp" alt="features">
                     </div>
@@ -134,11 +134,11 @@
                 </div>
 
                 <div class="row ">
-                    <div class="col-md-6 p-md-5">
+                    <div class="col-md-6 p-3 p-md-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Team-Inbox-new1.webp" alt="features">
                     </div>
-                    <div class="col-md-6 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
                         <h3>Shared Team Inbox</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -238,7 +238,7 @@
     </section>
 
     <section class="py-5 bannerbg">
-        <div class="container py-5 justify-content-center">
+        <div class="container py-md-5 justify-content-center">
             <div class="row">
                 <div class="text-center whatheading">
                     Why <span class="whatheadingsub">WhatsApp ?</span>

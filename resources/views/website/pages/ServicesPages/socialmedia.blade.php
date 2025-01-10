@@ -4,7 +4,7 @@
     <canvas id="gradient-canvas"></canvas>
 
     <section class="py-2 position-relative" id="socialmediasection">
-        <div class="container py-5">
+        <div class="container py-4 py-md-5 ">
             <div class="row">
                 <div class="text-center socialmedheading">
                     Grow Your Brand Image With <span class="socialmedheadingsub">Social Media</span>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="container  py-5">
+        <div class="container  py-4 py-md-5 ">
             <div class="row align-items-center">
                 <div class="col-md-6 p-3 p-md-5">
                     <div class="text-start fs-2 fw-bold text-capitalize position-relative">
@@ -71,7 +71,7 @@
     </section>
 
     <section class="py-2 position-relative">
-        <div class="container  py-5">
+        <div class="container  py-4 py-md-5 ">
             <div class="row align-items-center mb-5">
                 <div class="col-md-6 p-3 p-md-5 ">
                     <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/social-first-india.jpg') }}"
@@ -203,7 +203,7 @@
 
 
     <section class="py-2 position-relative">
-        <div class="container  py-5">
+        <div class="container  py-4 py-md-5 ">
             <div class="fs-2 fw-bold mb-4">
                 Our full-service Social offering...
             </div>
@@ -406,62 +406,61 @@
                 Checkout our latest <br />
                 Social content
             </div>
-            <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
-                <div class="swiper-wrapper py-4">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
-                    </div>
-
+            <div class="slick-slider">
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
                 </div>
             </div>
+
+            
         </div>
     </section>
 
 
-    <section class="bannerbg position-relative py-5">
-        <div class="container py-5 justify-content-center ">
+    <section class="bannerbg position-relative py-4 py-md-5 ">
+        <div class="container py-4 py-md-5  justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
                     Why <span class="fw-bold text-primary">Yuvmedia</span>
@@ -538,8 +537,8 @@
         </div>
     </section>
 
-    <section class="bannerbg position-relative py-5">
-        <div class="container py-5 justify-content-center ">
+    <section class="bannerbg position-relative py-4 py-md-5 ">
+        <div class="container py-4 py-md-5  justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
                     Focus <span class="fw-bold text-primary">Areas</span>
@@ -648,33 +647,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 
-    <script>
-        var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
-            slidesPerView: 5,
-            spaceBetween: 50,
-            slideToClickedSlide: true,
-            centeredSlides: true,
-            loop: true,
-            autoplay: {
-                delay: 2000,
-            },
-            keyboard: {
-                enabled: true,
-                onlyInViewport: true,
-            },
-            breakpoints: {
-
-                640: {
-                    freemode: true,
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                },
-                320: {
-                    freemode: true,
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                }
-            }
-        });
-    </script>
+    
 @endsection

@@ -6,7 +6,7 @@
         <div class="container py-3 py-md-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <div class="text-start globaltxtcolor fs-1">
+                    <div class="text-start globaltxtcolor text-capitalize">
                         Best custom websites <br /><span class="text-black ">that drive business growth.</span>
                     </div>
 
@@ -379,18 +379,18 @@
     </section>
 
     <section class="position-relative">
-        <div class="container-fluid p-5">
-            <div class="row px-5">
+        <div class="container-fluid p-md-5">
+            <div class="row px-md-5 px-3">
                 <div>Expertise</div>
                 <span>
                     <hr class="w-25 me-3">
                 </span>
-                <div class="text-start fs-2 w-50">
+                <div class="text-start fs-2 w-md-50">
                     Yuvmedia offers high-end web design expertise, tailored to meet your unique business needs.
                 </div>
 
             </div>
-            <div class="row mt-3 g-5 px-5">
+            <div class="row mt-3 g-5 px-md-5 px-3">
                 <div class="col-md-4">
                     <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="500">
@@ -615,13 +615,13 @@
 
             </div>
             {{-- discovery --}}
-            <div class="row mt-3 g-5 px-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-md-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         01
                     </div>
                 </div>
-                <div class="col-md-11 pt-4">
+                <div class="col-md-11 pt-md-4 mt-3 mt-md-5">
                     <div class="fs-1 fw-medium">
                         Discovery
                     </div>
@@ -678,13 +678,13 @@
             </div>
 
             {{-- design --}}
-            <div class="row mt-3 g-5 px-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-md-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         02
                     </div>
                 </div>
-                <div class="col-md-11 pt-4">
+                <div class="col-md-11 pt-md-4 mt-3 mt-md-5">
                     <div class="fs-1 fw-medium">
                         Design
                     </div>
@@ -756,13 +756,13 @@
             </div>
 
             {{-- Development --}}
-            <div class="row mt-3 g-5 px-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-md-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         03
                     </div>
                 </div>
-                <div class="col-md-11 pt-4">
+                <div class="col-md-11 pt-md-4 mt-3 mt-md-5">
                     <div class="fs-1 fw-medium">
                         Development
                     </div>
@@ -833,13 +833,13 @@
                 </div>
             </div>
             {{-- Support --}}
-            <div class="row mt-3 g-5 px-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-md-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         04
                     </div>
                 </div>
-                <div class="col-md-11 pt-4">
+                <div class="col-md-11 pt-md-4 mt-3 mt-md-5">
                     <div class="fs-1 fw-medium">
                         Support
                     </div>
@@ -1043,7 +1043,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/rjs-150x150.webp') }}" alt="service bg"
@@ -1052,7 +1052,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/js-150x150.webp') }}" alt="service bg"
@@ -1061,7 +1061,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/html-5-150x150.webp') }}"
@@ -1071,7 +1071,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/css3-150x150.webp') }}" alt="service bg"
@@ -1080,7 +1080,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/bootstarp-150x150.webp') }}"
@@ -1090,7 +1090,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/angular-150x150.webp') }}"
@@ -1100,7 +1100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/python-150x150.webp') }}"
@@ -1110,7 +1110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/dotnet-core-150x150.webp') }}"
@@ -1120,7 +1120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/csharp-150x150.webp') }}"
@@ -1130,7 +1130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/dotnet-mvc-150x150.webp') }}"
@@ -1140,7 +1140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/dotnet-mvc-150x150.webp') }}"
@@ -1150,7 +1150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/php-150x150.webp') }}" alt="service bg"
@@ -1159,7 +1159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/java-150x150.webp') }}"
@@ -1169,7 +1169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/shopify-150x150.webp') }}"
@@ -1179,7 +1179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/wordpress-150x150.webp') }}"
@@ -1189,7 +1189,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/mysql-150x150.webp') }}"
@@ -1199,7 +1199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/sql-server-150x150.webp') }}"
@@ -1209,7 +1209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="webcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/techs/1_doAg1_fMQKWFoub-6gwUiQ-150x150.png') }}"

@@ -842,7 +842,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/download-1-150x150.png') }}"
@@ -852,7 +852,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/aftereffiect-1-150x150.png') }}"
@@ -862,7 +862,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/kisspng-autodesk-maya-computer-software-adobe-illustrator-5bfbc9d4635ae9.680619741543227860407-150x150.jpg') }}"
@@ -872,7 +872,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/7a9c7615d60e69b14db4711efeca98ed-150x150.png') }}"
@@ -882,7 +882,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/figma-150x150.webp') }}"
@@ -894,7 +894,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/ai-150x150.webp') }}"
@@ -904,7 +904,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/coreldraw-150x150.webp') }}"
@@ -914,7 +914,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/photoshop-1-150x150.png') }}"
@@ -924,7 +924,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/indesign-150x150.png') }}"
@@ -934,7 +934,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-4">
                     <div class="graphictechcards">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/graphictech/download-1-1-150x150.png') }}"

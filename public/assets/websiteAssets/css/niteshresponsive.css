@@ -20,6 +20,32 @@
         /* background: #d4d8da; */
     }
 
+    .bannersection {
+        position: relative;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+        background-color: black;
+    }
+    .video-background {
+        height: 60%;
+    }
+    .tn-atom__img {
+        width: 21.6%;
+    }
+    .section.portfolio .filters {
+        margin-top: 10px;
+    }
+
+    .section.portfolio .filters ul li {
+        padding: 10px 10px;
+    }
+
+    .herosection {
+        height: 50vh;
+    }
     .shiftbox {
         margin-top: 0;
         grid-template-columns: auto;
@@ -70,9 +96,9 @@
         /* margin: 60px 0; */
     }
     .service-grid {
-      grid-template-columns: 1fr auto;
-      grid-gap: 0;
-  }
+        grid-template-columns: 1fr auto;
+        grid-gap: 0;
+    }
     .service-content {
         overflow: hidden;
         max-height: 0;
@@ -302,11 +328,11 @@
     }
 
     .grpahicbimage {
-      width: 80%;
-      border-radius: 20px;
-      transition: 0.5s ease-in-out;
-      animation: webimageleftright 3s ease-out infinite alternate;
-      margin-top: 10px;
+        width: 80%;
+        border-radius: 20px;
+        transition: 0.5s ease-in-out;
+        animation: webimageleftright 3s ease-out infinite alternate;
+        margin-top: 10px;
     }
 
     .graphicheadingsecthree {
@@ -564,19 +590,11 @@
         left: 50px;
     }
 
-    .swiper-full-mobile:before {
-        content: "";
-        width: 265px;
-        background: url(http://md-aqil.github.io/images/Pixel-3-XL.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 50px;
-        right: 77px;
-        top: 24px;
-        height: 565px;
-        z-index: 2;
-        margin: auto;
+    .qouteicon {
+        left: -15px;
+    }
+    .citebox {
+        font-size: 35px;
     }
 
     .aboutheading {
@@ -592,6 +610,23 @@
         font-size: 40px;
         color: var(--website-blue-color);
     }
+    .webcards {
+        padding: 0.3rem;
+    }
+
+    .category-selector {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    .category-selector .nav-item {
+        padding: 0rem 0.85rem;
+    }
+
+    .processtabs .nav-link {
+        margin-right: 10px;
+    }
 
     .aboutsecondhead {
         font-size: 18px;
@@ -599,6 +634,32 @@
         font-weight: 300;
     }
 
+    .role-block {
+        margin-top: -1.5rem;
+        padding: 2.3rem 1rem;
+    }
+    .roles-card-wrapper .category-selector {
+        margin-top: 0rem;
+
+    }
+
+    .role-block img {
+        display: block;
+        flex: 1;
+        width: calc(100% - 55%);
+        position: relative;
+        bottom: 0;
+        right: 0px;
+        margin-inline: auto;
+    }
+
+    .roles-card-wrapper {
+        position: relative;
+        padding: 5rem 5% 5rem;
+        margin: 2.5rem 0rem 0;
+        border-radius: 2rem;
+        border: 1px solid #c9ffe5;
+    }
     .narrrowsectiontext {
         font-size: 18px;
     }

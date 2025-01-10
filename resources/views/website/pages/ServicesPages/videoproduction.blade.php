@@ -103,7 +103,7 @@
                             </div>
                             <div class="col-sm-4 all grading">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-3.png?width=562&name=Email-Temp-3.png"
+                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Tempx-3 p-md-3.png?width=562&name=Email-Tempx-3 p-md-3.png"
                                         alt="Work 1" class="img-fluid">
                                     <div class="p-inner">
                                         <h5>Work 1</h5>
@@ -149,7 +149,7 @@
         </div>
     </section>
 
-    
+
     <section class="py-5 position-relative bg-black" style="z-index: 9">
         <div class="container pt-5">
             <div class="row align-items-center text-white">
@@ -168,12 +168,12 @@
             </div>
             <div class="row g-2 justify-content-center align-items-center">
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3838-3533-4964-b236-366365356563/01.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Filling out the brief for better understanding of the project's tasks
                             </p>
@@ -181,17 +181,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-1">
+                <div class="col-md-1 d-md-block d-none">
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3434-3462-4130-a535-383630333061/02.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Analyzing the information, that you provide
                             </p>
@@ -199,17 +199,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-1">
+                <div class="col-md-1 d-md-block d-none">
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6136-6665-4665-a335-326466633733/03.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Discussing the complexity of your project and how to realize your ideas
                             </p>
@@ -218,12 +218,12 @@
                 </div>
                 {{-- -------------------------------------------- --}}
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3639-6564-4264-b336-303938643966/04.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Uploading of the files and instructions to the cloud
                             </p>
@@ -231,17 +231,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-1">
+                <div class="col-md-1 d-md-block d-none">
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6231-6137-4532-b032-383233663636/05.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Sending an offer and discussing variants of payment
                             </p>
@@ -249,17 +249,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-1">
+                <div class="col-md-1 d-md-block d-none">
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
                 <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6635-3131-4863-a535-636237643037/06.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Making the first draft version
                             </p>
@@ -269,13 +269,13 @@
 
                 {{-- -------------------------------------------- --}}
 
-                <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                <div class="col-md-3 ">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3539-3338-4561-b735-336162366533/07.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Final render or changes (3 or more rounds of revisions)
                             </p>
@@ -283,17 +283,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-1">
+                <div class="col-md-1 d-md-block d-none">
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3">
-                    <div class="d-flex p-3 align-items-center">
+                <div class="col-md-3 ">
+                    <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6131-6232-4538-b863-646438373566/08.svg"
                                 alt="">
                         </div>
-                        <div class="text-white p-3">
+                        <div class="text-white px-3 p-md-3">
                             <p>
                                 Final payment for the order and providing final materials
                             </p>
@@ -331,7 +331,8 @@
 
                         </div>
                         <h2 class="gradient-text-animation">Video Editing</h2>
-                        <p class="mt-3">Transforming raw footage into captivating stories with professional video editing for films, ads, events, and social media content.</p>
+                        <p class="mt-3">Transforming raw footage into captivating stories with professional video editing
+                            for films, ads, events, and social media content.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -360,7 +361,8 @@
                             <img src="https://img.icons8.com/ink/96/FFFFFF/visual-effects.png" alt="visual-effects" />
                         </div>
                         <h2 class="gradient-text-animation">VFX</h2>
-                        <p class="mt-3">Creating stunning visual effects that bring imagination to life, enhancing storytelling for films, commercials, and immersive digital experiences.</p>
+                        <p class="mt-3">Creating stunning visual effects that bring imagination to life, enhancing
+                            storytelling for films, commercials, and immersive digital experiences.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -389,7 +391,8 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/animation.png') }}" alt="icon">
                         </div>
                         <h2 class="gradient-text-animation">2D Animation</h2>
-                        <p class="mt-3">Designing engaging 2D animations with captivating characters and smooth motion, perfect for explainer videos, advertisements, and storytelling.</p>
+                        <p class="mt-3">Designing engaging 2D animations with captivating characters and smooth motion,
+                            perfect for explainer videos, advertisements, and storytelling.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -419,7 +422,8 @@
                                 alt="video-call" />
                         </div>
                         <h2 class="gradient-text-animation">3D Animation</h2>
-                        <p class="mt-3">Creating lifelike 3D animations with realistic textures, dynamic movements, and immersive visuals for films, advertisements, and architectural projects.</p>
+                        <p class="mt-3">Creating lifelike 3D animations with realistic textures, dynamic movements, and
+                            immersive visuals for films, advertisements, and architectural projects.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -449,7 +453,8 @@
                                 alt="video-call" />
                         </div>
                         <h2 class="gradient-text-animation">Pre Production</h2>
-                        <p class="mt-3">Planning and strategizing every detail, from concept development to storyboarding and scripting, ensuring a seamless video production process.</p>
+                        <p class="mt-3">Planning and strategizing every detail, from concept development to storyboarding
+                            and scripting, ensuring a seamless video production process.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -479,7 +484,8 @@
                                 alt="video-call" />
                         </div>
                         <h2 class="gradient-text-animation">3D Services</h2>
-                        <p class="mt-3">Providing high-quality 3D modeling, rendering, and animation services for architectural visualizations, product designs, and immersive virtual experiences.</p>
+                        <p class="mt-3">Providing high-quality 3D modeling, rendering, and animation services for
+                            architectural visualizations, product designs, and immersive virtual experiences.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
                         {{-- <button type="submit" class="mt-3">
@@ -555,7 +561,8 @@
                     </div>
                     <div class="text-center py-2">
                         <p class="text-wrap videoprosecondhead">
-                            When you partner with us, you gain more than just a video; you receive a captivating story that aligns with your brand’s vision.
+                            When you partner with us, you gain more than just a video; you receive a captivating story that
+                            aligns with your brand’s vision.
                         </p>
                     </div>
 
@@ -769,9 +776,9 @@
 
         </div>
     </section>
-    
 
-    
+
+
 
 
 

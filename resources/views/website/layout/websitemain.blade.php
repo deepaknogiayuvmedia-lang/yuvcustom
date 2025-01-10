@@ -47,102 +47,72 @@
                             <div class="px-3">
                                 <ul class="navbar-nav mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page"
-                                            href="{{ route('homepage') }}">Home</a>
+                                        <a class="nav-link {{ request()->routeIs('homepage') ? 'active' : '' }}"  href="{{ route('homepage') }}">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle {{ request()->routeIs('about') || request()->routeIs('ourteam') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Our Story
                                         </a>
                                         <ul class="dropdown-menu customdropdown">
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('about') }}">About Us</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('ourteam') }}">Our Team</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('ourteam') ? 'active' : '' }}" href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
                                         </ul>
                                     </li>
-
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle {{ request()->routeIs('seo') || request()->routeIs('socialmedia') || request()->routeIs('whatsappmarketing') || request()->routeIs('videoproduction') || request()->routeIs('webdevelopment') || request()->routeIs('designingservices') || request()->routeIs('performancemedia') || request()->routeIs('marketplaceexpertise') || request()->routeIs('influencermarketing') || request()->routeIs('googlebusinessprofile') || request()->routeIs('erpservices') || request()->routeIs('emailmarketing') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Services
                                         </a>
                                         <ul class="dropdown-menu customdropdown">
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('seo') }}">SEO</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('seo') ? 'active' : '' }}" href="{{ route('seo') }}">SEO</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('socialmedia') }}">Social Media</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('socialmedia') ? 'active' : '' }}" href="{{ route('socialmedia') }}">Social Media</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('whatsappmarketing') }}">Whatsapp
-                                                    Marketing</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('whatsappmarketing') ? 'active' : '' }}" href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('videoproduction') }}">Video Production</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('videoproduction') ? 'active' : '' }}" href="{{ route('videoproduction') }}">Video Production</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('webdevelopment') }}">Web Development</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('designingservices') }}">Designing
-                                                    Services</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('performancemedia') }}">Performance
-                                                    Media</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('marketplaceexpertise') }}">Marketplace
-                                                    Expertise</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('marketplaceexpertise') ? 'active' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('influencermarketing') }}">Influencer
-                                                    Marketing</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('influencermarketing') ? 'active' : '' }}" href="{{ route('influencermarketing') }}">Influencer Marketing</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('googlebusinessprofile') }}">Google Business
-                                                    Profile</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}" href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('erpservices') }}">ERP Services</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('erpservices') ? 'active' : '' }}" href="{{ route('erpservices') }}">ERP Services</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem"
-                                                    href="{{ route('emailmarketing') }}">Email Marketing</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('emailmarketing') ? 'active' : '' }}" href="{{ route('emailmarketing') }}">Email Marketing</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('work') }}">Work</a>
-                                    </li> --}}
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('partners') }}">Partners</a>
-                                    </li>
-                                    {{-- <li class="nav-item">
-                                        <a class="nav-link" href="https://www.yuvmedia.com/">Blog</a>
-                                    </li> --}}
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="https://www.yuvmedia.com/jobs">Career</a>
+                                        <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}" href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                                        <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}" href="https://www.yuvmedia.com/jobs">Career</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -173,66 +143,59 @@
                 <div class="offcanvas-body mobileMenu">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Home</a>
+                            <a class="nav-link {{ request()->routeIs('homepage') ? 'active' : '' }}" aria-current="page" href="{{ route('homepage') }}">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                            <a class="nav-link dropdown-toggle {{ request()->routeIs('about') || request()->routeIs('ourteam') ? 'active' : '' }}" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Our Story
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('about') }}">About Us</a>
+                                    <a class="dropdown-item {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('ourteam') }}">Our Team</a>
+                                    <a class="dropdown-item {{ request()->routeIs('ourteam') ? 'active' : '' }}" href="{{ route('ourteam') }}">Our Team</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                            <a class="nav-link dropdown-toggle {{ request()->routeIs('seo') || request()->routeIs('socialmedia') || request()->routeIs('whatsappmarketing') || request()->routeIs('videoproduction') || request()->routeIs('webdevelopment') || request()->routeIs('designingservices') || request()->routeIs('performancemedia') || request()->routeIs('marketplaceexpertise') || request()->routeIs('influencermarketing') || request()->routeIs('googlebusinessprofile') ? 'active' : '' }}" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('seo') }}">SEO</a>
+                                    <a class="dropdown-item {{ request()->routeIs('seo') ? 'active' : '' }}" href="{{ route('seo') }}">SEO</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('socialmedia') }}">Social Media</a>
+                                    <a class="dropdown-item {{ request()->routeIs('socialmedia') ? 'active' : '' }}" href="{{ route('socialmedia') }}">Social Media</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('whatsappmarketing') }}">Whatsapp
-                                        Marketing</a>
+                                    <a class="dropdown-item {{ request()->routeIs('whatsappmarketing') ? 'active' : '' }}" href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('videoproduction') }}">Video
-                                        Production</a>
+                                    <a class="dropdown-item {{ request()->routeIs('videoproduction') ? 'active' : '' }}" href="{{ route('videoproduction') }}">Video Production</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('webdevelopment') }}">Web Development</a>
+                                    <a class="dropdown-item {{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('designingservices') }}">Designing
-                                        Services</a>
+                                    <a class="dropdown-item {{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('performancemedia') }}">Performance
-                                        Media</a>
+                                    <a class="dropdown-item {{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('marketplaceexpertise') }}">Marketplace
-                                        Expertise</a>
+                                    <a class="dropdown-item {{ request()->routeIs('marketplaceexpertise') ? 'active' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('influencermarketing') }}">Influencer
-                                        Marketing</a>
+                                    <a class="dropdown-item {{ request()->routeIs('influencermarketing') ? 'active' : '' }}" href="{{ route('influencermarketing') }}">Influencer Marketing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('googlebusinessprofile') }}">Google
-                                        Business Profile</a>
+                                    <a class="dropdown-item {{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}" href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
                                 </li>
                             </ul>
                         </li>
@@ -240,16 +203,16 @@
                             <a class="nav-link" href="#">Work</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('partners') }}">Partners</a>
+                            <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}" href="{{ route('partners') }}">Partners</a>
                         </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="https://www.yuvmedia.com/">Blog</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.yuvmedia.com/jobs">Career</a>
+                            <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}" href="https://www.yuvmedia.com/jobs">Career</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                            <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -276,28 +239,22 @@
                                 <h5 class="widget-title">Quick Links</h5>
                                 <ul class="ps-0">
                                     <li>
-                                        <a href="{{ route('homepage') }}">Home</a>
+                                        <a class="{{ request()->routeIs('homepage') ? 'active' : '' }}" href="{{ route('homepage') }}">Home</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('about') }}">About Us</a>
-                                    </li>
-                                    {{-- <li>
-                                        <a href="{{ route('ourteam') }}">Our Team</a>
-                                    </li> --}}
-                                    <li>
-                                        <a href="{{ route('work') }}">Work</a>
+                                        <a class="{{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('partners') }}">Partners</a>
-                                    </li>
-                                    {{-- <li>
-                                        <a href="https://www.yuvmedia.com/">Blog</a>
-                                    </li> --}}
-                                    <li>
-                                        <a href="https://www.yuvmedia.com/jobs">Career</a>
+                                        <a class="{{ request()->routeIs('ourteam') ? 'active' : '' }}" href="{{ route('ourteam') }}">Our Team</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('contact') }}">Contact Us</a>
+                                        <a class="{{ request()->routeIs('partners') ? 'active' : '' }}" href="{{ route('partners') }}">Partners</a>
+                                    </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('career') ? 'active' : '' }}" href="https://www.yuvmedia.com/jobs">Career</a>
+                                    </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                 </ul>
                             </section>
@@ -309,34 +266,40 @@
                                 <h5 class="widget-title">Quick Links</h5>
                                 <ul class="ps-0">
                                     <li>
-                                        <a href="{{ route('seo') }}">SEO</a>
+                                        <a class="{{ request()->routeIs('seo') ? 'active' : '' }}" href="{{ route('seo') }}">SEO</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('socialmedia') }}">Social Media</a>
+                                        <a class="{{ request()->routeIs('socialmedia') ? 'active' : '' }}" href="{{ route('socialmedia') }}">Social Media</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
+                                        <a class="{{ request()->routeIs('whatsappmarketing') ? 'active' : '' }}" href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('videoproduction') }}">Video Production</a>
+                                        <a class="{{ request()->routeIs('videoproduction') ? 'active' : '' }}" href="{{ route('videoproduction') }}">Video Production</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('webdevelopment') }}">Web Development</a>
+                                        <a class="{{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('designingservices') }}">Designing Services</a>
+                                        <a class="{{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('performancemedia') }}">Performance Media</a>
+                                        <a class="{{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>
+                                        <a class="{{ request()->routeIs('marketplaceexpertise') ? 'active' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('influencermarketing') }}">Influencer Marketing</a>
+                                        <a class="{{ request()->routeIs('influencermarketing') ? 'active' : '' }}" href="{{ route('influencermarketing') }}">Influencer Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
+                                        <a class="{{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}" href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('erpservices') ? 'active' : '' }}" href="{{ route('erpservices') }}">ERP Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('emailmarketing') ? 'active' : '' }}" href="{{ route('emailmarketing') }}">Email Marketing</a>
                                     </li>
                                 </ul>
                             </section>
@@ -372,36 +335,37 @@
                                     <div class="social-icons social-icons--rounded">
                                         <ul class="d-flex ps-0">
                                             <li class="facebook me-3">
-                                                <a href="https://www.facebook.com/yuvmedia">
+                                                <a href="https://www.facebook.com/yuvmedia" style="color: #3b5998;">
                                                     <i class="bi bi-facebook fs-4"></i>
                                                 </a>
                                             </li>
                                             <li class="twitter me-3">
-                                                <a href="https://twitter.com/YUVMEDIA2">
+                                                <a href="https://twitter.com/YUVMEDIA2" style="color: #1DA1F2;">
                                                     <i class="bi bi-twitter fs-4"></i>
                                                 </a>
                                             </li>
                                             <li class="instagram me-3">
-                                                <a href="https://www.instagram.com/yuv_media/">
+                                                <a href="https://www.instagram.com/yuv_media/" style="color: #E1306C;">
                                                     <i class="bi bi-instagram fs-4"></i>
                                                 </a>
                                             </li>
-                                            <li class="google-plus me-3">
-                                                <a href="https://www.youtube.com/channel/UCb4NWy8AA0pnzTnUDntiGyw">
+                                            <li class="youtube me-3">
+                                                <a href="https://www.youtube.com/channel/UCb4NWy8AA0pnzTnUDntiGyw" style="color: #FF0000;">
                                                     <i class="bi bi-youtube fs-4"></i>
                                                 </a>
                                             </li>
-                                            <li class="google-plus me-3">
-                                                <a href="https://www.linkedin.com/company/yuvmedia/">
+                                            <li class="linkedin me-3">
+                                                <a href="https://www.linkedin.com/company/yuvmedia/" style="color: #0077B5;">
                                                     <i class="bi bi-linkedin fs-4"></i>
                                                 </a>
                                             </li>
-                                            <li class="google-plus me-3">
-                                                <a href="https://www.pinterest.ca/yuvmedia/_created/">
+                                            <li class="pinterest me-3">
+                                                <a href="https://www.pinterest.ca/yuvmedia/_created/" style="color: #E60023;">
                                                     <i class="bi bi-pinterest fs-4"></i>
                                                 </a>
                                             </li>
                                         </ul>
+
                                     </div>
                                 </div>
 
@@ -418,15 +382,15 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4">
-                                <div class="footer-area__logo">
+                                <div class="footer-area__logo text-md-start text-center">
                                     <a href="{{ route('homepage') }}">
                                         <img src="{{ asset('assets/websiteAssets/images/logo.png') }}"
                                             alt="footer logo">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8">
-                                <div class="copyright text-end">
+                            <div class="col-lg-8 d-grid align-items-center">
+                                <div class="copyright text-md-end text-center">
                                     Copyright © Yuvnexus digital Pvt. Ltd. All Rights Reserved
                                 </div>
                             </div>
