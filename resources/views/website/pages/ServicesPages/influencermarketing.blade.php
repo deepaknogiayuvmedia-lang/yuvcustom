@@ -6,8 +6,8 @@
     <section class="py-5 position-relative"
         style="background: linear-gradient(180deg, #000 5.32%, #0003 33.25%, #0000003d 53.61%, #00000090 66.46%, #000 81.15%), radial-gradient(211.5% 113.1% at -66.4% 35.9%, #0b014a 33%, #0049b8 51.42%, #4032e3 67.6%, #8000ff 77.37%, #946eff 90%, #ab38f1);">
         <div class="container">
-            <div class="row py-3">
-                <div class="col-md-4">
+            <div class="row py-3 justify-content-center">
+                <div class="col-md-4 col-6">
                     <div class="text-center ">
                         <div class="text-warning">
                             <i class="bi bi-star-fill"></i>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                     <div class="text-center">
                         <div class="text-warning">
                             <i class="bi bi-star-fill"></i>
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-6">
                     <div class="text-center">
                         <div class="text-warning">
                             <i class="bi bi-star-fill"></i>
@@ -50,15 +50,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row py-5">
+            <div class="row py-3 py-md-5">
                 <div class=" heroTitle">
                     Find Authentic Influencers. Any Industry. Any Size
                 </div>
-                <div class="subTitle">
+                <div class="subTitle mt-3">
                     Influencer marketing platform for brands and agencies
                 </div>
                 <div class="mt-3 text-center">
-                    <a href="{{ route('contact') }}" class="btn btn-lg btn-light">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="btn   btn-light">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -66,10 +66,10 @@
 
     <section class="py-5 position-relative">
         <div class="container workflow">
-            <div class="row">
-                <h2 class="text-center fw-bold mb-5" style="font-size: 40px;">
-                    A full stack of solutions for every step of <br />the influencer marketing workflow:
-                </h2>
+            <h2 class="text-center fw-bold mb-5 fs-1">
+                A full stack of solutions for every step of <br />the influencer marketing workflow:
+            </h2>
+            <div class="row g-3">
 
                 <div class="col-md-3">
                     <div class="card border-0 shadow-sm rounded-4 h-100">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href="#" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href="#" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href="#" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href="#" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Learn more about
+                            <a href="{{ route('contact') }}" class="btn btn-outline-primary">Learn more about
                                 influencer discovery<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -245,13 +245,13 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Learn more about
+                            <a href="{{ route('contact') }}" class="btn   btn-outline-primary">Learn more about
                                 influencer analytics<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage" src="https://hypeauditor.com/_nuxt/Index_02.a2TfQcHX.png" alt="analytics">
+                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/Index_02.a2TfQcHX.png" alt="analytics">
                 </div>
             </div>
 
@@ -272,15 +272,15 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">
+                            <a href="{{ route('contact') }}" class="btn   btn-outline-primary">
                                 Learn more about campaign management
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-center">
-                    <img class="" src="https://hypeauditor.com/_nuxt/Index_03.B66UugQl.png" alt="analytics">
+                <div class="col-md-6 mt-3 mt-md-0 text-center">
+                    <img class="img-fluid" src="https://hypeauditor.com/_nuxt/Index_03.B66UugQl.png" alt="analytics">
                 </div>
             </div>
 
@@ -300,7 +300,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">
+                            <a href="{{ route('contact') }}" class="btn   btn-outline-primary">
                                 Learn more about market analysis
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
@@ -308,8 +308,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage" src="https://hypeauditor.com/_nuxt/grid.CUCk2zty.png" alt="analytics">
-                </div>
+                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/grid.CUCk2zty.png" alt="analytics">
+                </div> 
             </div>
         </div>
     </section>
@@ -336,7 +336,7 @@
                             <p class="fw-bold text-start">Identify the perfect influencers</p>
                             <p class="card-text text-start text-wrap">We match your brand with influencers whose values and
                                 style align with yours.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -348,7 +348,7 @@
                             <p class="fw-bold text-start">Measure and optimize</p>
                             <p class="card-text text-start text-wrap">We track campaign performance and provide insights to
                                 maximize your ROI.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -360,7 +360,7 @@
                             <p class="fw-bold text-start">Create engaging campaigns</p>
                             <p class="card-text text-start text-wrap">Our team develops compelling content that resonates
                                 with your audience.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>

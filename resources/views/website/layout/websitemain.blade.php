@@ -119,7 +119,7 @@
                         </div>
                     </nav>
                     <div class="p-3 hideInMobile">
-                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="#">Hire Us!</a>
+                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="{{ route('contact') }}">Hire Us!</a>
                     </div>
                     <div class="mobile-toggle hideInDesktop">
 
@@ -196,6 +196,12 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item {{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}" href="{{ route('googlebusinessprofile') }}">Google Business Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item  {{ request()->routeIs('erpservices') ? 'active' : '' }}" href="{{ route('erpservices') }}">ERP Services</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item  {{ request()->routeIs('emailmarketing') ? 'active' : '' }}" href="{{ route('emailmarketing') }}">Email Marketing</a>
                                 </li>
                             </ul>
                         </li>

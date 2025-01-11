@@ -62,7 +62,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg  seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a  href=" {{route('contact')}}" class="btn btn-lg  seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap ">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg btn-info">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a  href=" {{route('contact')}}" class="btn btn-lg btn-info">Contact Us <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -208,7 +208,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg  seobbtn">Contact Us <i
+                            <a  href=" {{route('contact')}}" class="btn btn-lg  seobbtn">Contact Us <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>

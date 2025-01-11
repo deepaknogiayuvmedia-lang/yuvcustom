@@ -20,6 +20,9 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for medium devices */
+    .service-card__inner {
+        width: 400px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -36,8 +39,10 @@
         display: block;
     }
 
+    
     .service-card__inner {
-        width: 400px;
+        width: 350px;
+        margin-inline: auto;
     }
 
     .action-btn {
@@ -46,7 +51,8 @@
         flex-wrap: nowrap;
         -ms-overflow-style: none;
         scrollbar-width: none;
-        width: 250px;
+        width: 100%;
+        margin-top: 10px;
     }
 
     .service-card .nav, .servicesbox {
@@ -57,13 +63,26 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+    .heroTitle {
+        font-size: 50px;
+        letter-spacing: 0rem;
+        line-height: 52px;
+    }
+    .subTitle {
+        font-size: 30px;
+        letter-spacing: 0rem;
+        line-height: 32px;
+    }
 
+    .ion-hero-ambient-video {
+        width: 100%;
+    }
     .heretext {
-        width: 32%;
+        width: 50%;
     }
     
     .mobileMenu .nav-link {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 700;
     }
     .hero-section {
@@ -71,6 +90,7 @@
     }
     .hereBox {
         margin: 0px;
+        flex-wrap: wrap;
     }
 
     .tab-content > .tab-pane .card {

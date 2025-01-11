@@ -408,53 +408,68 @@
             </div>
             <div class="slick-slider">
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="img-fluid p-3 rounded-5 " src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
                 </div>
             </div>
 
-            
+
         </div>
     </section>
 
@@ -476,7 +491,7 @@
                             <p class="fw-bold text-start">Meta Business Partner</p>
                             <p class="card-text text-start text-wrap">We're recognised as a Meta Business Partner and have
                                 agency reps & relationships with all the major social platforms.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -489,7 +504,7 @@
                             <p class="card-text text-start text-wrap">Our team consists of Social Strategists, Content
                                 Creators, Videographers, Influencer Managers & Analysts - ensuring we have specialists for
                                 every requirement.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -501,7 +516,7 @@
                             <p class="fw-bold text-start">Engaging social-first content</p>
                             <p class="card-text text-start text-wrap">We know how to create engaging social-first content
                                 for each social algorithm whilst building your brand and driving ROI.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -515,7 +530,7 @@
                             <p class="fw-bold text-start">Design & build custom reports</p>
                             <p class="card-text text-start text-wrap">We design & build custom reports that align with your
                                 business goals, priorities and core KPIs.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -528,7 +543,7 @@
                             <p class="card-text text-start text-wrap">Whether you're looking to take your brand through a
                                 social transformation, need a trusted pair of hands to grow your socials, or have a lack of
                                 resource internally - we can help you.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -562,7 +577,7 @@
                                 maintaining your brand's image and
                                 consumer trust above all else, ensuring they align with your
                                 brand values.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -577,7 +592,7 @@
                                 recognition
                                 by precisely placing and highlighting your brand's unique
                                 products or qualities.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -591,7 +606,7 @@
                                 social media target audience is
                                 one
                                 of the most important aspects of social media marketing.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -607,7 +622,7 @@
                                 story, and we'll bring it to life.
                                 We'll take that knowledge and convey the same message as
                                 effectively as possible.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -622,7 +637,7 @@
                                 ingredients to cook the ultimate
                                 social media marketing dish with high-impact campaigns for
                                 your brand.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -636,7 +651,7 @@
                                 vision to life with our custom
                                 templates and designs. We'll capture your brand's unique
                                 personality carefully.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -647,5 +662,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 
-    
+
 @endsection

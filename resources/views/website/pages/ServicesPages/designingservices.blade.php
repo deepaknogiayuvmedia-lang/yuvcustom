@@ -760,7 +760,7 @@
                                 creating
                                 impactful visuals that capture attention and convey messages effectively. Our skilled
                                 designers are best at producing eye-catching logos, compelling marketing materials.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -775,7 +775,7 @@
                                 essential for any digital product. At Yuv Media, we specialize in creating user-friendly
                                 interfaces to enhance user satisfaction. Our process includes research, wireframing,
                                 prototyping, and testing.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -789,7 +789,7 @@
                                 your business and how you connect with your audience. Our branding and identity design
                                 services help you create a strong, unique brand. We work with you to develop a comprehensive
                                 brand strategy.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -805,7 +805,7 @@
                                 dimension to your marketing efforts. Our team creates engaging motion graphics and 3D
                                 animations for your marketing needs, including explainer videos, promotional content, and
                                 animated logos.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -819,7 +819,7 @@
                                 manipulating video shots to create a cohesive final product, incorporating tasks such as
                                 trimming footage, adding transitions, special effects, and syncing audio. It relies on
                                 powerful software like Adobe Premiere Pro and DaVinci Resolve.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>

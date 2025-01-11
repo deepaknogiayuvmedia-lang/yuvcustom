@@ -32,7 +32,7 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap">
                     <div class="me-0">
-                        <a href="#" class="btn btn-lg partnersbtn">Become Our Partner <i
+                        <a href="{{route('contact')}}" class="btn btn-lg partnersbtn">Become Our Partner <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -46,8 +46,8 @@
 <section style="background-color: #f6faff;">
     <div class="container py-5">
         <div class=" row">
-            <div class="text-center partnersheadingsectwo">
-                Are you a mid-sized organization <span class="partnersheadingsubsectwo">struggling to boost
+            <div class="text-center partnersheadingsectwo text-capitalize">
+                Are you a mid-sized organization <span class="fs-1 fw-bold text-primary">struggling to boost
                     profits?</span>
             </div>
             <div class="text-center">
@@ -70,7 +70,7 @@
             </div>
             <div class="d-flex justify-content-center flex-wrap">
                 <div class="me-3">
-                    <a href="#" class="btn btn-lg  partnersbtnsectwo">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('contact')}}" class="btn btn-lg  partnersbtnsectwo">Contact Us <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap">
                     <div class="me-0">
-                        <a href="#" class="btn btn-lg partnersbtnsecthree">Become Our Partner <i
+                        <a href="{{route('contact')}}" class="btn btn-lg partnersbtnsecthree">Become Our Partner <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>

@@ -69,8 +69,8 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h5 class="smallheadcontactus">Get In Touch!</h5>
-                <div class="text-start contactsheadingsectwo">
-                    Ready to Dominate <span class="globaltxtcolor">Your Market?</span>
+                <div class="text-start fs-1 contactsheadingsectwo">
+                    Ready to Dominate <span class="globaltxtcolor fs-1">Your Market?</span>
                 </div>
                 <div class="text-start py-2">
                     <p class="text-wrap contactscontentsectwo">

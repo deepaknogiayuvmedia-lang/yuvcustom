@@ -2,6 +2,7 @@
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
 
+
     <!--Hero Section Starts-->
     <canvas id="gradient-canvas"></canvas>
     <section class="hero-section pt-md-5">
@@ -27,11 +28,12 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="{{route('contact')}}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
+                                            Business
                                             Partner!</a>
                                     </div>
                                 </div>
@@ -60,11 +62,12 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
+                                            Business
                                             Partner!</a>
                                     </div>
                                 </div>
@@ -93,11 +96,12 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
+                                            Business
                                             Partner!</a>
                                     </div>
                                 </div>
@@ -127,11 +131,12 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                                class="bi bi-arrow-right"></i></a>
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                     <div class="mx-5 mb-3 text-center">
-                                        <a  class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our Business
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
+                                            Business
                                             Partner!</a>
                                     </div>
                                 </div>
@@ -153,26 +158,26 @@
                 </div>
                 <div class="col-md-7 col">
                     <div class="d-flex justify-content-start action-btn">
-                        <a href="#">
+                        <a href="{{route('designingservices')}}">
                             Design
                         </a>
-                        <a href="#">
+                        <a href="{{route('socialmedia')}}">
                             Social Media Marketing
 
 
                         </a>
-                        <a href="#">
+                        <a href="{{route('webdevelopment')}}">
                             Website Development
 
                         </a>
-                        <a href="#">
+                        <a href="{{route('performancemedia')}}">
                             Performance Marketing
 
                         </a>
                     </div>
                 </div>
                 <div class="col-md-3 text-end hideInMobile">
-                    <a href="#" class="text-secondary text-decoration-none">
+                    <a href="#servicesanchor" class="text-secondary text-decoration-none">
                         //Find the best service for your business
                     </a>
                 </div>
@@ -239,7 +244,7 @@
             <div class="row">
                 <div>
                     <div class=" service-space service-space--small"></div>
-                    <div class="service-cards">
+                    <div class="service-cards" id="servicesanchor">
 
                         {{-- Digital marketing --}}
                         <div class="service-card" data-index="0">
@@ -415,7 +420,8 @@
                                                         class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Influencer Marketing</h6>
-                                                        <p class="card-text">Boost your brand with powerful, results-driven influencer marketing campaigns!</p>
+                                                        <p class="card-text">Boost your brand with powerful, results-driven
+                                                            influencer marketing campaigns!</p>
                                                     </div>
                                                 </div>
 
@@ -700,7 +706,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can travel">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -723,7 +729,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can trans">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -746,7 +752,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can banking">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -769,7 +775,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can healthc">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -792,7 +798,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can enterta">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -815,7 +821,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can educat">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -838,7 +844,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can business">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -861,7 +867,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can food">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -884,7 +890,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can job_car">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -907,7 +913,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can fit_nes">
-                                        <a href="#">
+                                        <a href="{{route('contact')}}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -1314,9 +1320,10 @@
                                 <div class="serviceBanner">
                                     <h4>Empower your <br /> e-commerce business </h4>
                                     <p>
-                                        With our advanced digital solutions to enhance user experience, increase sales, drive traffic, and streamline operations for better growth and efficiency.
+                                        With our advanced digital solutions to enhance user experience, increase sales,
+                                        drive traffic, and streamline operations for better growth and efficiency.
                                     </p>
-                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+                                    <a href="{{route('contact')}}" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1331,12 +1338,13 @@
 
                             <div class="col-md-4 p-3 my-5 bg-white rounded-3">
                                 <div class="serviceBanner">
-                                    <h4>Empower your <br /> travel  business </h4>
+                                    <h4>Empower your <br /> travel business </h4>
                                     <p>
-                                        Manage bookings effortlessly with one dashboard, boosting customer satisfaction and revenue.
+                                        Manage bookings effortlessly with one dashboard, boosting customer satisfaction and
+                                        revenue.
                                     </p>
-                                    
-                                    <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
+
+                                    <a href="{{route('contact')}}" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1353,9 +1361,10 @@
                                 <div class="serviceBanner">
                                     <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
                                     <p>
-                                        Boost property sales and client engagement with tailored marketing and IT solutions designed to elevate your real estate business.
+                                        Boost property sales and client engagement with tailored marketing and IT solutions
+                                        designed to elevate your real estate business.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1372,9 +1381,10 @@
                                 <div class="serviceBanner">
                                     <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
                                     <p>
-                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT solutions tailored for the hospitality industry.
+                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT
+                                        solutions tailored for the hospitality industry.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1391,9 +1401,10 @@
                                 <div class="serviceBanner">
                                     <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
                                     <p>
-                                        Improve patient engagement and streamline operations with customized digital solutions designed for the healthcare industry.
+                                        Improve patient engagement and streamline operations with customized digital
+                                        solutions designed for the healthcare industry.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -2487,10 +2498,12 @@
         }
     </script>
 
-<script>
-    var copy = document.querySelector(".logos-slide").cloneNode(true);
-    document.querySelector(".logo-slider").appendChild(copy);
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logo-slider").appendChild(copy);
+    </script>
 
-</script>
+
+
 
 @endsection

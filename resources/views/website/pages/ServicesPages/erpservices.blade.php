@@ -64,7 +64,8 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg  seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +98,7 @@
                             <div class="card-title text-start fs-5 fw-bold">Custom ERP</div>
                             <p class="card-text text-start">We offer custom ERP development services to businesses of all
                                 sizes and industries. Our ERP solutions are robust and scalable.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -109,7 +110,7 @@
                             <div class="card-title text-start fs-5 fw-bold">ERP Migration</div>
                             <p class="card-text text-start">Data migration is a complex process of relocating data from its
                                 primary source into a database of a newly adopted ERP system.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -121,7 +122,7 @@
                             <div class="card-title text-start fs-5 fw-bold">Staff Augmentation</div>
                             <p class="card-text text-start">We have an ERP staff augmentation program, which allows you to
                                 hire the best skilled professionals to keep your project on target.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -133,7 +134,7 @@
                             <div class="card-title text-start fs-5 fw-bold">ERP Consulting</div>
                             <p class="card-text text-start">Our ERP Consulting team understands your current business
                                 environment and help you develop the best strategies to implement critical ERP.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -145,7 +146,7 @@
                             <div class="card-title text-start fs-5 fw-bold">Web Based ERP</div>
                             <p class="card-text text-start">With our technology-driven application-design solutions, you can
                                 now automate your business anywhere and anytime.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -157,7 +158,7 @@
                             <div class="card-title text-start fs-5 fw-bold">ERP Integration</div>
                             <p class="card-text text-start">We provide custom ERP system integrations for your requirement
                                 with emphasis on data security and enterprise data integrations.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -191,7 +192,7 @@
                 <div class="col-md-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
+                            <img src="{{ asset('assets/websiteAssets/images/icons/enviromentally-friendly.png') }}"
                                 alt="service bg" class="img-fluid">
                         </div>
                         <div class="col-md-8">
@@ -205,8 +206,8 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="img-fluid">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/ecommerce.png') }}" alt="service bg"
+                                class="img-fluid">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
@@ -219,8 +220,8 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="img-fluid">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/crm.png') }}" alt="service bg"
+                                class="img-fluid">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
@@ -233,7 +234,7 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
+                            <img src="{{ asset('assets/websiteAssets/images/icons/material-management.png') }}"
                                 alt="service bg" class="img-fluid">
                         </div>
                         <div class="col-md-8">
@@ -247,8 +248,8 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="img-fluid">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/social-media.png') }}" alt="service bg"
+                                class="img-fluid">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
@@ -261,8 +262,8 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="img-fluid">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/team.png') }}" alt="service bg"
+                                class="img-fluid">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
@@ -275,7 +276,7 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-analysis.png') }}"
                                 alt="service bg" class="img-fluid">
                         </div>
                         <div class="col-md-8">
@@ -289,8 +290,8 @@
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="img-fluid">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/supply-chain.png') }}" alt="service bg"
+                                class="img-fluid">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
@@ -322,19 +323,22 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/odoo.jpg') }}" class="img-fluid rounded-pill p-2">
+                        <img src="{{ asset('assets/websiteAssets/images/services/odoo.jpg') }}"
+                            class="img-fluid rounded-pill p-2">
                     </div>
 
                 </div>
                 <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/salesforce.jpg') }}" class="img-fluid rounded-pill p-2">
+                        <img src="{{ asset('assets/websiteAssets/images/services/salesforce.jpg') }}"
+                            class="img-fluid rounded-pill p-2">
                     </div>
 
                 </div>
                 <div class="col-md-3 col-6">
                     <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/zoho.jpeg') }}" class="img-fluid rounded-pill p-2">
+                        <img src="{{ asset('assets/websiteAssets/images/services/zoho.jpeg') }}"
+                            class="img-fluid rounded-pill p-2">
                     </div>
 
                 </div>

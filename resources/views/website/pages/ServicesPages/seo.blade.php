@@ -21,7 +21,8 @@
                 </div>
                 <div class="d-flex justify-content-center flex-wrap">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg seobtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                        <a href="{{ route('contact') }}" class="btn btn-lg seobtn">Contact Us <i
+                                class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-lg  btn-outline-primary">Contact Us <i
+                            <a href="{{ route('contact') }}" class="btn btn-lg  btn-outline-primary">Contact Us <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -412,7 +413,7 @@
                             <p class="card-text text-start text-wrap">Our local SEO strategies boost your visibility in
                                 "near me" and location-specific searches by optimizing your Google Business Profile and
                                 citations. This drives relevant, high-intent traffic to your business.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -425,7 +426,7 @@
                             <p class="card-text text-start text-wrap">Our Advanced Keyword Research for Unparalleled SEO
                                 Success. We Master Your Online Visibility with Our Expert Keyword Analysis, with the right
                                 intent for your audience, regardless of the industry or location.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -438,7 +439,7 @@
                             <p class="card-text text-start text-wrap">To know what's going on with your digital marketing,
                                 analytics, and reporting is important. We provide comprehensive reports and tools to monitor
                                 your most important KPIs.Data is the key to success.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -451,7 +452,7 @@
                             <p class="card-text text-start text-wrap">Enhance your online presence and authority with our
                                 digital PR and link-building services. Our strategy focuses on securing high-quality
                                 backlinks, that boost your site's credibility.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -464,7 +465,7 @@
                             <p class="card-text text-start text-wrap">Our team of content strategists, writers, and editors
                                 collaborate with your business to create impactful content. We also have specialists for
                                 niche industries to ensure targeted engagement.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -477,7 +478,7 @@
                             <p class="card-text text-start text-wrap">Yuvmedia specializes in optimizing e-commerce
                                 platforms like Shopify, Wix, and WooCommerce. We resolve technical issues, enhance product
                                 descriptions, and implement strategies.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -490,20 +491,20 @@
                             <p class="card-text text-start text-wrap">Our SEO company provides comprehensive full-funnel
                                 strategies designed to drive business growth. From generating initial demand to warming up
                                 leads and guiding them through the conversion process.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="seocardone">
                         <div class="card-body text-start">
-                            <img src="{{ asset('assets/websiteAssets/images/seo.png') }}" alt="service bg" class="mb-3"
-                                style="width: 60px; height: 60px; object-fit: contain;">
+                            <img src="{{ asset('assets/websiteAssets/images/seo.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-normal text-start">SEO for All Industries</p>
                             <p class="card-text text-start text-wrap">We have extensive experience across industries like
                                 automotive, healthcare, finance, and more. Our expertise spans various business types,
                                 including franchises, subscription services.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+                            <!-- <a  href="{{ route('contact') }}" class="btn whatcardbtn">Know More</a> -->
                         </div>
                     </div>
                 </div>

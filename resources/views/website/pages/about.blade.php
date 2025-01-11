@@ -6,9 +6,9 @@
     <section id="aboutfirstsection" class="pt-5">
         <div class="container py-5" style="position: relative;">
             <div class="row">
-                <div class="text-center globaltxtcolor">
+                <div class="text-center fs-1 fw-bold ">
                     The Digital Agency that's with you <br> 
-                    <span class="">every step of the way.</span>
+                    <span class="globaltxtcolor">every step of the way.</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap aboutsecondhead">
@@ -58,7 +58,7 @@
         <div class="container py-3 py-md-4">
             <div class="row align-items-center">
                 <div class="col-md-6 col-12">
-                    <div class="text-start globaltxtcolor">
+                    <div class="text-start fs-2 fw-bold">
                         Our <span class="globaltxtcolor">Story</span>
                     </div>
                     <div class="text-start py-2">
@@ -127,7 +127,7 @@
         <div class="container py-3 py-md-4">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <div class="globaltxtcolor">
+                    <div class="fs-2 fw-bold">
                         Our Core <span class="globaltxtcolor text-decoration-underline">Values</span>
                     </div>
                     <div class="">
@@ -227,7 +227,7 @@
     <section>
         <div class="container pt-5 justify-content-center">
             <div class="row">
-                <div class="text-start globaltxtcolor">
+                <div class="text-start fs-2 fw-bold">
                     Key <span class="globaltxtcolor">Clientele</span>
                 </div>
                 <div class="text-start fs-5">

@@ -609,12 +609,14 @@
                                                 categories.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
-                                                class="new-buuton-link btn btn-outline-primary " href="#">
+                                                class="new-buuton-link btn btn-outline-primary "
+                                                href="{{ route('contact') }}">
                                                 Know More
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
                                             <a id="home-roles-buyer-how-to-join"
-                                                class="new-buuton-link btn btn-outline-primary" href="#">
+                                                class="new-buuton-link btn btn-outline-primary"
+                                                href="{{ route('contact') }}">
                                                 How to Join
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
@@ -641,12 +643,14 @@
                                                 fulfilment and provide a positive buying experience for customers.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
-                                                class="new-buuton-link btn btn-outline-primary " href="#">
+                                                class="new-buuton-link btn btn-outline-primary "
+                                                href="{{ route('contact') }}">
                                                 Know More
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
                                             <a id="home-roles-buyer-how-to-join"
-                                                class="new-buuton-link btn btn-outline-primary" href="#">
+                                                class="new-buuton-link btn btn-outline-primary"
+                                                href="{{ route('contact') }}">
                                                 How to Join
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
@@ -673,12 +677,14 @@
                                                 the Network Policies of seller.&nbsp;
                                             </p>
                                             <a id="home-roles-buyer-know-more"
-                                                class="new-buuton-link btn btn-outline-primary " href="#">
+                                                class="new-buuton-link btn btn-outline-primary "
+                                                href="{{ route('contact') }}">
                                                 Know More
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
                                             <a id="home-roles-buyer-how-to-join"
-                                                class="new-buuton-link btn btn-outline-primary" href="#">
+                                                class="new-buuton-link btn btn-outline-primary"
+                                                href="{{ route('contact') }}">
                                                 How to Join
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
@@ -707,12 +713,14 @@
                                                 capabilities.&nbsp;&nbsp;
                                             </p>
                                             <a id="home-roles-buyer-know-more"
-                                                class="new-buuton-link btn btn-outline-primary " href="#">
+                                                class="new-buuton-link btn btn-outline-primary "
+                                                href="{{ route('contact') }}">
                                                 Know More
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
                                             <a id="home-roles-buyer-how-to-join"
-                                                class="new-buuton-link btn btn-outline-primary" href="#">
+                                                class="new-buuton-link btn btn-outline-primary"
+                                                href="{{ route('contact') }}">
                                                 How to Join
                                                 <i class="bi bi-arrow-right ms-2"></i>
                                             </a>
@@ -766,7 +774,7 @@
                             <p class="card-text text-start text-wrap">Work closely with an in-house Account Manager to
                                 brainstorm new and creative ideas to help you get your business to the next level
                             </p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -781,7 +789,7 @@
                                 plan, including weekly summary to analyse growth. Get customized recommendations to improve
                                 selection
                             </p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -795,7 +803,7 @@
                             <p class="card-text text-start text-wrap">Get recommendations and best practices to have a good
                                 account health and get critical issues resolved through dedicated escalation paths
                             </p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -808,7 +816,7 @@
                             </p>
                             <p class="card-text text-start text-wrap">Make your presence felt across Amazon.in
                                 Be on top of customers' mind through deals and campaigns recommended by experts</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -839,7 +847,7 @@
                             <p class="card-text text-start text-wrap">We set up and optimize your seller profiles on
                                 popular
                                 platforms such as Amazon, Flipkart, and beyond.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -852,7 +860,7 @@
                             <p class="card-text text-start text-wrap">Our experts will create engaging product listings
                                 with
                                 high-quality images and descriptions.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -864,7 +872,7 @@
                             <p class="fw-bold text-start">Order Fulfillment</p>
                             <p class="card-text text-start text-wrap">We handle your orders with care, ensuring timely
                                 shipping and customer satisfaction.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -876,7 +884,7 @@
                             <p class="fw-bold text-start">Marketing and Promotions</p>
                             <p class="card-text text-start text-wrap">We help you increase visibility through effective
                                 marketing strategies and promotions.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>

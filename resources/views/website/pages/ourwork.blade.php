@@ -25,7 +25,7 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
+                        <a href="{{route('contact')}}" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

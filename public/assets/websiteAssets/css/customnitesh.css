@@ -454,15 +454,15 @@
 .customtablink .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: black;
-  background-color: #f8fff8;
-  border-left: 3px solid var(--whatsapp-color);
+  background-color: #e6e6e6;
+  border-left: 3px solid #818181;
   border-radius: 5px;
   padding: 10px;
   font-weight: 300;
 }
 
 .customtablink .nav-link:hover {
-  background-color: #f8fff8;
+  background-color: #e6e6e6;
 }
 
 .customtablink .nav-link {

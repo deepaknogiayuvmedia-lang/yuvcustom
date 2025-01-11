@@ -32,7 +32,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid" src="{{ asset('assets/websiteAssets/images/services/whatssdappss.png') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/websiteAssets/images/services/whatssdappss.png') }}"
+                        alt="">
                 </div>
 
             </div>
@@ -177,7 +178,7 @@
 
     <section class="py-5 position-relative">
         <div class="container">
-            <h3 class="whatheading">Choose the  advantage
+            <h3 class="whatheading">Choose the advantage
             </h3>
             <p>Use Yuvmedia's Whatsapp Portal to engage your prospects through the WhatsApp Business API
 
@@ -210,7 +211,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="p-3">
-                        <img src="https://www.wati.io/wp-content/uploads/2024/05/sscale.webp" alt="" width="150">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/sscale.webp" alt=""
+                            width="150">
                         <div>
                             <div class="fs-5 fw-bold mb-2">Communicate at scale efficiently</div>
                             <p>
@@ -222,7 +224,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="p-3">
-                        <img src="https://www.wati.io/wp-content/uploads/2024/05/chhnl.webp" alt="" width="150">
+                        <img src="https://www.wati.io/wp-content/uploads/2024/05/chhnl.webp" alt=""
+                            width="150">
                         <div>
                             <div class="fs-5 fw-bold mb-2">Multiple channels in one</div>
                             <p>
@@ -259,7 +262,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">High Open Rates</p>
                             <p class="card-text">Ensuring your message reaches your audience.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -270,7 +273,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">Campaign Management</p>
                             <p class="card-text">Simplify sales and marketing communications.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -281,7 +284,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">Schedule Messages</p>
                             <p class="card-text">Plan Campaigns according to your schedule.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -292,7 +295,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">Stronger Connections</p>
                             <p class="card-text">Talk to your contacts in their first language.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -303,7 +306,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">Targeted Campaigns</p>
                             <p class="card-text">Reach specific Demographics or Interests.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>
@@ -314,7 +317,7 @@
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
                             <p class="fw-normal">Measurable Results</p>
                             <p class="card-text">Track your WhatsApp marketing with analytics.</p>
-                            <!-- <a href="#" class="btn whatcardbtn">Know More</a> -->
+
                         </div>
                     </div>
                 </div>

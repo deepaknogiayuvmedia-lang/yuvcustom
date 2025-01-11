@@ -30,6 +30,27 @@ $('#customers-testimonials').owlCarousel({
 });
 
 
+
+    $(document).ready(function(){
+        $('.inds_cat_set').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 10
+                }
+            }
+        });
+    });
+
+
 $('#core-team').owlCarousel({
     items: 4, // Number of visible items
     margin: 20, // Space between items
