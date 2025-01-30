@@ -3380,3 +3380,31 @@ table:first-child {
     background-color: #f5f5ff;
     opacity: .75;
 }
+
+.action-btn {
+    /* overflow: auto; */
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+#servicestabs .action-btn a {
+    text-decoration: none;
+    color: #192839;
+    background-color: #f2f6f7;
+    border-radius: 50rem;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 20px;
+    transition: all 0.5s;
+    margin-right: 0px;
+}
+#servicestabs .owl-dots {
+    display: none;
+}
+#servicestabs .owl-item {
+    margin-right: 0px !important;
+    margin-bottom: 5px;
+}

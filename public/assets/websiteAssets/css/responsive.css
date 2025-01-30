@@ -78,7 +78,7 @@
         width: 100%;
     }
     .heretext {
-        width: 50%;
+        width: 32%;
     }
     
     .mobileMenu .nav-link {
@@ -91,6 +91,7 @@
     .hereBox {
         margin: 0px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .tab-content > .tab-pane .card {

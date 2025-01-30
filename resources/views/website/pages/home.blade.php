@@ -13,14 +13,13 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="heroheading fw-bolder globaltxtcolor">Drive More Customers Through</h1>
-                                <h3 class="herosubheading fw-bolder">Our Digital Marketing & IT Solutions</h3>
+                                <h1 class="heroheading fw-bolder globaltxtcolor">Reach Further, Engage Better, And </h1>
+                                <h3 class="herosubheading fw-bolder">Grow Faster With Our Digital Marketing Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
                                             <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
                                         </div>
@@ -28,40 +27,6 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
-                                            <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
-                                            Business
-                                            Partner!</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Maximize Clicks, Minimize Costs</h3>
-                                <h4 class="herosubheading fw-bolder text-capitalize">PPC Campaigns That Deliver Results</h4>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-start flex-md-row flex-column">
-                                    <div class="mb-3 text-center ">
                                         <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
@@ -81,14 +46,14 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Crafting Digital Masterpieces,</h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">Building Your Online Presence.</h4>
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Future-Proof Your Business With </h3>
+                                <h4 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
+                                    Solutions</h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
                                             <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
                                         </div>
@@ -115,15 +80,48 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">From logos to marketing materials,</h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">we design with precision and passion.
-                                </h4>
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Let Your Products Shine In The</h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">E-Commerce World With Our Marketplace
+                                    Management Expertise</h4>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
                                             <div class="text-start">
-                                                <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                    Corporates
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="mx-5 mb-3 text-center">
+                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
+                                            Business
+                                            Partner!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Shape Your Brand’s Narrative With</h3>
+                                <h4 class="herosubheading2 fw-bolder text-capitalize">Creative Design And Captivating Video
+                                    Content.</h4>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-start">
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
                                         </div>
@@ -154,26 +152,37 @@
                 <div class=" d-flex align-items-center heretext">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
-                    I'm here to
+                    I'm here for
                 </div>
                 <div class="col-md-7 col">
                     <div class="d-flex justify-content-start action-btn">
-                        <a href="{{route('designingservices')}}">
-                            Design
-                        </a>
-                        <a href="{{route('socialmedia')}}">
-                            Social Media Marketing
+                        <div id="servicestabs" class="owl-carousel">
 
-
-                        </a>
-                        <a href="{{route('webdevelopment')}}">
-                            Website Development
-
-                        </a>
-                        <a href="{{route('performancemedia')}}">
-                            Performance Marketing
-
-                        </a>
+                            <a href="{{ route('designingservices') }}">
+                                Design
+                            </a>
+                            <a href="{{ route('socialmedia') }}">
+                                Social Media Marketing
+                            </a>
+                            <a href="{{ route('webdevelopment') }}">
+                                Web & App Development
+                            </a>
+                            <a href="{{ route('performancemedia') }}">
+                                Performance Media
+                            </a>
+                            <a href="{{ route('videoproduction') }}">
+                                Video Production
+                            </a>
+                            <a href="{{ route('performancemedia') }}">
+                                Social Media
+                            </a>
+                            <a href="{{ route('seo') }}">
+                                SEO
+                            </a>
+                            <a href="{{ route('marketplaceexpertise') }}">
+                                Marketplace Management
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 text-end hideInMobile">
@@ -229,15 +238,12 @@
         <div class="container py-5 ">
             <div class="row">
                 <h2 class="globaltxtcolor text-start">
-                    Our Services
+                    This Is What We Do To Transform Your Business Digitally
                 </h2>
                 <div class="text-start">
                     <p>
-                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                        and admire.
-                        Our team of experts is always keen on formulating only the right solutions for your business’
-                        everyday digital needs.
+                        We help your business evolve by providing cutting-edge digital solutions, from marketing strategies
+                        to innovative technologies, ensuring your brand thrives in the digital world.
                     </p>
                 </div>
             </div>
@@ -290,26 +296,30 @@
                                                         class="card-img-top" alt="google-ad">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Google Ads</h6>
-                                                        <p class="card-text">Drive traffic and conversions with targeted,
-                                                            high-performing Google Ads campaigns.</p>
+                                                        <p class="card-text">
+                                                            Be found with Google ads and make it easier for potential
+                                                            customers to find your business with effective advertising
+                                                            strategies.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
                                                         class="card-img-top" alt="Facebook Ads">
                                                     <div class="card-body">
-                                                        <h6 class="card-title">Facebook Ads</h6>
-                                                        <p class="card-text">Engage audiences and increase sales with
-                                                            data-driven, targeted Facebook Ads campaigns.</p>
+                                                        <h6 class="card-title">Meta Ads</h6>
+                                                        <p class="card-text">Grow your business with Meta Ads. Reach new
+                                                            customers across all Meta platforms including Facebook,
+                                                            Instagram, Messenger and WhatsApp.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
                                                         class="card-img-top" alt="mgid">
                                                     <div class="card-body">
-                                                        <h6 class="card-title">MGID Ads</h6>
-                                                        <p class="card-text">Boost website traffic and revenue with
-                                                            effective MGID Ads campaigns.</p>
+                                                        <h6 class="card-title">Native Ads</h6>
+                                                        <p class="card-text">Get Traffic That Converts – Reach your ideal
+                                                            audience at the lowest cost with native ads.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
@@ -317,8 +327,10 @@
                                                         class="card-img-top" alt="marketplace ads">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Marketplace Ads</h6>
-                                                        <p class="card-text">Increase product visibility and sales with
-                                                            optimized Marketplace Ads for top platforms.</p>
+                                                        <p class="card-text">Meet your customers wherever they are.
+                                                            Discover how marketplace ads can help you connect with customers
+                                                            where they love to browse and buy.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -333,8 +345,9 @@
                                                         class="card-img-top" alt="SEO">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Search Engine Optimization</h6>
-                                                        <p class="card-text">Boost search rankings, drive organic traffic,
-                                                            grow online visibility.</p>
+                                                        <p class="card-text">Reach New Heights in Search Rankings. Rank
+                                                            better, drive more traffic, and convert visitors into customers
+                                                            with our expert SEO services.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4">
@@ -342,8 +355,9 @@
                                                         class="card-img-top" alt="GBP">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Google Business Profile</h6>
-                                                        <p class="card-text">Optimize profiles, attract local customers,
-                                                            enhance business online presence.</p>
+                                                        <p class="card-text">Let Local Customers Find You. Optimize your
+                                                            Google Business Profile to appear in local searches and attract
+                                                            more customers. </p>
                                                     </div>
                                                 </div>
 
@@ -359,8 +373,9 @@
                                                         class="card-img-top" alt="Facebook">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Facebook</h6>
-                                                        <p class="card-text">Grow your business with our professional
-                                                            social media services!</p>
+                                                        <p class="card-text">Connect, Engage, and Grow – Share updates,
+                                                            stories, and content to engage customers and build your brand.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
@@ -368,8 +383,10 @@
                                                         class="card-img-top" alt="Instagram">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Instagram</h6>
-                                                        <p class="card-text">Level up your brand with our expert Instagram
-                                                            marketing services!</p>
+                                                        <p class="card-text">Engage, Inspire, Convert –Utilize Instagram to
+                                                            get noticed, connect with your audience, and showcase your
+                                                            brand’s voice.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
@@ -377,17 +394,20 @@
                                                         class="card-img-top" alt="LinkedIn">
                                                     <div class="card-body">
                                                         <h6 class="card-title">LinkedIn</h6>
-                                                        <p class="card-text">Enhance your professional presence with our
-                                                            LinkedIn marketing solutions!</p>
+                                                        <p class="card-text">Build Professional Relationships – Connect
+                                                            with industry leaders, peers, and potential clients on LinkedIn
+                                                            to grow your network.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/Pinterest.webp') }}"
-                                                        class="card-img-top" alt="Pinterest">
+                                                        class="card-img-top" alt="Youtube">
                                                     <div class="card-body">
-                                                        <h6 class="card-title">Pinterest</h6>
-                                                        <p class="card-text">Drive traffic with our creative and strategic
-                                                            Pinterest marketing services!</p>
+                                                        <h6 class="card-title">Youtube</h6>
+                                                        <p class="card-text">Engage with Visual Content - Use YouTube to
+                                                            build an authentic relationship with your audience through
+                                                            personal and engaging content.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -402,8 +422,10 @@
                                                         class="card-img-top" alt="Whatsapp Marketing">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Whatsapp Marketing</h6>
-                                                        <p class="card-text">Engage your audience instantly with our
-                                                            powerful WhatsApp marketing services!</p>
+                                                        <p class="card-text">Connect Anytime, Anywhere – WhatsApp allows
+                                                            you to stay connected with your audience 24/7, offering quick
+                                                            responses and building trust.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4">
@@ -411,8 +433,10 @@
                                                         class="card-img-top" alt="Email Marketing">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Email Marketing</h6>
-                                                        <p class="card-text">Connect and convert with our result-driven
-                                                            email marketing services!</p>
+                                                        <p class="card-text">Turn Emails Into Conversions – Create
+                                                            personalized emails, target precisely with behavior-based
+                                                            automations and segments, and optimize with real-time reporting.
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="card me-4">
@@ -420,8 +444,9 @@
                                                         class="card-img-top" alt="Influencer Marketing">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Influencer Marketing</h6>
-                                                        <p class="card-text">Boost your brand with powerful, results-driven
-                                                            influencer marketing campaigns!</p>
+                                                        <p class="card-text">Drive Engagement with Trusted Voices – Work
+                                                            with influencers who align with your brand to build credibility
+                                                            and drive meaningful results.</p>
                                                     </div>
                                                 </div>
 
@@ -444,8 +469,9 @@
                                                 class="card-img-top" alt="Amazon Seller">
                                             <div class="card-body">
                                                 <h6 class="card-title">Amazon Seller</h6>
-                                                <p class="card-text">Maximize your sales with our expert Amazon seller
-                                                    services!</p>
+                                                <p class="card-text">Get Your Brand Noticed – Start selling on Amazon and
+                                                    watch your business grow with India’s leading online marketplace.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -453,8 +479,10 @@
                                                 class="card-img-top" alt="Etsy Seller">
                                             <div class="card-body">
                                                 <h6 class="card-title">Etsy Seller</h6>
-                                                <p class="card-text">Grow your Etsy shop with our tailored marketing
-                                                    strategies!</p>
+                                                <p class="card-text">Turn Your Creativity Into Profit – Start selling on
+                                                    Etsy and showcase your digital creations, and customized & unique
+                                                    products to a global audience.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -462,8 +490,10 @@
                                                 class="card-img-top" alt="Flipkart Seller">
                                             <div class="card-body">
                                                 <h6 class="card-title">Flipkart Seller</h6>
-                                                <p class="card-text">Boost your sales on Flipkart with our expert seller
-                                                    services!</p>
+                                                <p class="card-text">Sell Smarter, Sell Bigger on Flipkart- List your
+                                                    products on India’s leading marketplace and reach millions of customers
+                                                    actively searching for what you offer.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -471,8 +501,10 @@
                                                 class="card-img-top" alt="Meesho Seller">
                                             <div class="card-body">
                                                 <h6 class="card-title">Meesho Seller</h6>
-                                                <p class="card-text">Maximize your Meesho sales with our expert seller
-                                                    solutions!</p>
+                                                <p class="card-text">Start Selling on Meesho – Empower your business with
+                                                    Meesho’s platform and connect with millions of customers looking for the
+                                                    best deals!
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -493,35 +525,106 @@
                                                 class="card-img-top" alt="Graphic Designing">
                                             <div class="card-body">
                                                 <h6 class="card-title">Graphic Designing</h6>
-                                                <p class="card-text">Transform your brand with our creative and
-                                                    professional graphic design services!</p>
+                                                <p class="card-text">A Picture Perfect Brand - Bring your ideas to life
+                                                    with designs that connect with your audience and drive your brand’s
+                                                    success.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/video production.webp') }}"
                                                 class="card-img-top" alt="Video Production">
                                             <div class="card-body">
-                                                <h6 class="card-title">Video Production</h6>
-                                                <p class="card-text">Bring your vision to life with our professional video
-                                                    production services!</p>
+                                                <h6 class="card-title">UI/UX Design
+                                                </h6>
+                                                <p class="card-text">Creating Designs That Connect – Our UI/UX services
+                                                    ensure your users enjoy flawless navigation, making their experience
+                                                    smoother and more engaging.</p>
                                             </div>
                                         </div>
-                                        <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.webp') }}"
-                                                class="card-img-top" alt="Product Shoot">
-                                            <div class="card-body">
-                                                <h6 class="card-title">Product Shoot</h6>
-                                                <p class="card-text">Showcase your products in style with our professional
-                                                    product shoots!</p>
-                                            </div>
-                                        </div>
+
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
                                                 class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
                                                 <h6 class="card-title">Brand Designing</h6>
-                                                <p class="card-text">Create a lasting impression with our expert brand
-                                                    designing services!</p>
+                                                <p class="card-text">Unique Designs for Unique Brands – From logo design to
+                                                    complete brand identity, we ensure your business stands out with designs
+                                                    that communicate your core values.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Video Production --}}
+                        <div class="service-card" data-index="3">
+                            <div class="service-card__inner">
+                                <div class="service-card__content greenBLueGradient">
+                                    <h1 class="service-card__title">Video Production</h1>
+
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
+                                                class="card-img-top" alt="Amazon Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Video Editing</h6>
+                                                <p class="card-text">Enhance your footage with seamless editing, smooth
+                                                    transitions, and captivating storytelling that keeps your audience
+                                                    hooked.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
+                                                class="card-img-top" alt="Etsy Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Pre-Production</h6>
+                                                <p class="card-text">Meticulously plan every detail of your video project,
+                                                    from scripting to storyboarding, ensuring a flawless production process.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
+                                                class="card-img-top" alt="Flipkart Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">3D Animation & Modeling</h6>
+                                                <p class="card-text">Add depth and creativity to your content with stunning
+                                                    3D animations and models, bringing your ideas to life in a visually
+                                                    captivating way.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                                class="card-img-top" alt="Meesho Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Color Grading</h6>
+                                                <p class="card-text">Enhance the mood and tone of your videos with expert
+                                                    color grading, ensuring a professional and cinematic look.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                                class="card-img-top" alt="Meesho Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">VFX & Compositing</h6>
+                                                <p class="card-text">Add stunning cinematic effects and flawless
+                                                    compositing to your videos, making your visuals truly stand out with
+                                                    creativity and precision.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                                class="card-img-top" alt="Meesho Seller">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Product Shoot</h6>
+                                                <p class="card-text">Capture the Essence of Your Brand – We ensure your
+                                                    products look their best with top-tier photography, perfect for
+                                                    e-commerce, marketing, and branding.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -531,7 +634,7 @@
                         </div>
 
                         {{-- Development Services --}}
-                        <div class="service-card" data-index="3">
+                        <div class="service-card" data-index="4">
                             <div class="service-card__inner">
                                 <div class="service-card__content purpelYellowGradient">
                                     <h1 class="service-card__title">Development Services</h1>
@@ -541,8 +644,9 @@
                                                 class="card-img-top" alt="Web Development">
                                             <div class="card-body">
                                                 <h6 class="card-title">Web Development</h6>
-                                                <p class="card-text">Build a strong online presence with our expert web
-                                                    development services!</p>
+                                                <p class="card-text">Building the Future of Your Business – From design to
+                                                    launch, our websites are created with one goal in mind: to turn your
+                                                    visitors into loyal customers</p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -550,8 +654,9 @@
                                                 class="card-img-top" alt="App Development">
                                             <div class="card-body">
                                                 <h6 class="card-title">App Development</h6>
-                                                <p class="card-text">Transform your ideas into reality with our expert app
-                                                    development services!</p>
+                                                <p class="card-text">From Ideas to Downloads – We take your app idea and
+                                                    transform it into a fully functional, optimized, and user-friendly
+                                                    mobile application</p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -559,17 +664,20 @@
                                                 class="card-img-top" alt="Software Integrations">
                                             <div class="card-body">
                                                 <h6 class="card-title">Software Integrations</h6>
-                                                <p class="card-text">Streamline your business with seamless software
-                                                    integration solutions!</p>
+                                                <p class="card-text">Get the Most Out of Your Software – We provide custom
+                                                    integrations that link your tools and platforms together, making your
+                                                    business operations smarter and more efficient</p>
                                             </div>
                                         </div>
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
                                                 class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                             <div class="card-body">
-                                                <h6 class="card-title">CRM (Odoo, Salesforce)</h6>
-                                                <p class="card-text">Optimize your customer relationships with our expert
-                                                    CRM solutions (Odoo, Salesforce)!</p>
+                                                <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
+                                                <p class="card-text">Enhance Business Insights with Our ERP Solutions – We
+                                                    integrate all your operations into one system, giving you complete
+                                                    visibility and control over every aspect of your business.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -577,8 +685,6 @@
                                 </div>
                             </div>
                         </div>
-
-
 
                     </div>
                     {{-- <div class="service-space"></div> --}}
@@ -685,7 +791,7 @@
                     Our Work
                 </div>
                 <div class=" text-start fs-2 fw-bold">
-                    Empowering every vertical in the country.
+                    Driving growth across every industry in the nation.
                 </div>
                 <div class="text-start">
                     <p>
@@ -706,7 +812,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can travel">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -729,7 +835,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can trans">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -752,7 +858,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can banking">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -775,7 +881,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can healthc">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -798,7 +904,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can enterta">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -821,7 +927,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can educat">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -844,7 +950,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can business">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -867,7 +973,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can food">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -890,7 +996,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can job_car">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -913,7 +1019,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can fit_nes">
-                                        <a href="{{route('contact')}}">
+                                        <a href="{{ route('contact') }}">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -954,7 +1060,7 @@
                     Core Team
                 </div>
                 <div class=" text-start fs-3 fw-bold">
-                    Empowering every vertical in the country.
+                    Behind every successful project is our talented, committed core team.
                 </div>
                 <p class=" text-start">
                     We seek our thrill from making brands and businesses in diversified domains reach their right audience.
@@ -984,8 +1090,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
+                                                            <div class="fs-6 ">Co-Founder & MD</div>
                                                             <div class="author">Mr. Khivraj Sain</div>
-                                                            <div class="fs-6 ">CEO & Founder</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -999,8 +1105,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
+                                                    <div class="fs-6 ">Co-Founder & MD</div>
                                                     <div class="author">Mr. Khivraj Sain</div>
-                                                    <div class="fs-6 ">CEO & Founder</div>
                                                 </div>
                                             </div>
 
@@ -1008,7 +1114,46 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
+                        {{-- Pinki mam --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Co-founder</div>
+                                                            <div class="author">Mrs. Pinki Sain</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Co-founder</div>
+                                                    <div class="author">Mrs. Pinki Sain</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         {{-- Kunal Basin sir --}}
@@ -1026,8 +1171,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
+                                                            <div class="fs-6 ">Business Development Manager</div>
                                                             <div class="author">Mr. Kunal Basin</div>
-                                                            <div class="fs-6 ">Sale Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1041,8 +1186,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Mr. Khivraj Sain</div>
-                                                    <div class="fs-6 ">CEO & Founder</div>
+                                                    <div class="fs-6 ">Business Development Manager</div>
+                                                    <div class="author">Mr. Kunal Basin</div>
                                                 </div>
                                             </div>
 
@@ -1069,8 +1214,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Kishan Gopal</div>
                                                             <div class="fs-6 ">Operations Manager</div>
+                                                            <div class="author">Mr. Kishan Gopal</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1084,8 +1229,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Kishan Gopal</div>
                                                     <div class="fs-6 ">Operations Manager</div>
+                                                    <div class="author">Mr. Kishan Gopal</div>
                                                 </div>
                                             </div>
 
@@ -1112,8 +1257,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Mr. Nilesh Gupta</div>
                                                             <div class="fs-6 ">Office Admin</div>
+                                                            <div class="author">Mr. Nilesh Gupta</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1127,8 +1272,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Mr. Nilesh Gupta</div>
                                                     <div class="fs-6 ">Office Admin</div>
+                                                    <div class="author">Mr. Nilesh Gupta</div>
                                                 </div>
                                             </div>
 
@@ -1155,7 +1300,7 @@
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
                                                             <div class="author">Mr. Manohar Singhh</div>
-                                                            <div class="fs-6 ">Paid Marketing Manager</div>
+                                                            <div class="fs-6 ">Project Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1170,7 +1315,7 @@
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
                                                     <div class="author">Mr. Manohar Singh</div>
-                                                    <div class="fs-6 ">Paid Marketing Manager</div>
+                                                    <div class="fs-6 ">Project Manager</div>
                                                 </div>
                                             </div>
 
@@ -1240,7 +1385,7 @@
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
                                                             <div class="author">Ms. Leera Ramesh</div>
-                                                            <div class="fs-6 ">Seller Manager</div>
+                                                            <div class="fs-6 ">Project Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1255,7 +1400,7 @@
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
                                                     <div class="author">Ms. Leera Ramesh</div>
-                                                    <div class="fs-6 ">Seller Manager</div>
+                                                    <div class="fs-6 ">Project Manager</div>
                                                 </div>
                                             </div>
 
@@ -1323,7 +1468,7 @@
                                         With our advanced digital solutions to enhance user experience, increase sales,
                                         drive traffic, and streamline operations for better growth and efficiency.
                                     </p>
-                                    <a href="{{route('contact')}}" class="btn btn-primary ">Work With Yuvmedia <i
+                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1344,7 +1489,7 @@
                                         revenue.
                                     </p>
 
-                                    <a href="{{route('contact')}}" class="btn btn-primary ">Work With Yuvmedia <i
+                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1364,7 +1509,7 @@
                                         Boost property sales and client engagement with tailored marketing and IT solutions
                                         designed to elevate your real estate business.
                                     </p>
-                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1384,7 +1529,7 @@
                                         Enhance guest experiences and drive bookings with cutting-edge marketing and IT
                                         solutions tailored for the hospitality industry.
                                     </p>
-                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -1404,7 +1549,7 @@
                                         Improve patient engagement and streamline operations with customized digital
                                         solutions designed for the healthcare industry.
                                     </p>
-                                    <a href="{{route('contact')}}" class="btn btn-primary">Work With Yuvmedia <i
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -2319,10 +2464,7 @@
                     <div class="d-flex justify-content-center align-items-end h-100 p-md-5 mx-md-5">
 
                         <p class="fs-2 text-white fw-bold">
-                            Get customized solution,
-                            recommendation, and
-                            estimate for your
-                            requirement!
+                            Get personalized solutions, expert recommendations, and accurate estimates tailored to your needs!
                         </p>
                     </div>
                 </div>

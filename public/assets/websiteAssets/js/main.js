@@ -68,6 +68,25 @@ $('#core-team').owlCarousel({
         }
     }
 });
+$('#servicestabs').owlCarousel({
+    items: 5, 
+    margin: 20, 
+    loop: true, 
+    autoWidth: true,
+    autoplay: false, 
+    responsive: {
+        0: {
+            items: 3
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
+
 $('#serviceSlider').owlCarousel({
     items: 3, // Number of visible items
     margin: 20, // Space between items

@@ -321,7 +321,7 @@
                                         <a href="callto://+918078671648">+91-8078671648</a>
                                     </li>
                                     <li>
-                                        <a href="mailto://admin@yuvmedia.com">admin@yuvmedia.com</a>
+                                        <a href="mailto://support@yuvmedia.com">support@yuvmedia.com</a>
                                         <a href="mailto://sales@yuvmedia.com">sales@yuvmedia.com</a>
                                     </li>
                                 </ul>
@@ -334,6 +334,7 @@
                                 <div class=" mt-2">
                                     <div>
                                         <h5 class="widget-title">Address</h5>
+                                        <h6>YUVNEXUS DIGITAL PRIVATE LIMITED</h6>
                                         <p>B17, Second Floor, Above Royal Bakers, Glitz circle, Ramnagar Road, Ajmer,
                                             Rajasthan, 305001 </p>
                                     </div>

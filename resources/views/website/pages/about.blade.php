@@ -7,20 +7,20 @@
         <div class="container py-5" style="position: relative;">
             <div class="row">
                 <div class="text-center fs-1 fw-bold ">
-                    The Digital Agency that's with you <br> 
-                    <span class="globaltxtcolor">every step of the way.</span>
+                    We're Built To Lead Change And Deliver <br>
+                    <span class="globaltxtcolor">Future-Ready Solutions.</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap aboutsecondhead">
-                        Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most
-                        effective digital marketing solutions, focusing on a personalized customer experience that ensures
-                        results. We use our profits to help our clients, our team, and our community succeed.
+                        Driven by innovation and fueled by creativity, we are a passionate team at Yuvmedia, committed to
+                        turning your digital visions into reality.
                     </p>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap aboutsecondhead">
-                        You can expect to receive clear and transparent communication throughout your project and beyond.
-                        Our consistent maintenance services are designed to ensure the continuity of your online success.
+                        In this fast-paced world, we blend data, innovation, and intuition to craft compelling stories and
+                        deliver impactful results. At Yuvmedia, we’re not just a team – we’re creators, strategists, and
+                        problem-solvers, committed to shaping your digital journey.
                     </p>
                 </div>
                 <div class="d-flex justify-content-center flex-wrap buttonsdiv">
@@ -33,23 +33,23 @@
         </div>
     </section>
 
-<section class="position-relative">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1>
-                <img src="{{ asset('assets/websiteAssets/images/team/team-photo.webp') }}" alt="team"
-                class="img-fluid" style="margin-top: -50px;">
+    <section class="position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1>
+                    <img src="{{ asset('assets/websiteAssets/images/team/team-photo.webp') }}" alt="team"
+                        class="img-fluid" style="margin-top: -50px;">
 
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section class="bg-black p-3 p-md-3 position-relative">
         <div class="d-flex align-items-center justify-content-center">
             <p class="text-wrap  text-white text-center">
-                Yuvmedia is a premier digital marketing agency In India. Our mission is to deliver the most effective digital marketing solutions, <br/> focusing on a personalized customer experience that ensures results.
+                We are the growth partners that drive results
             </p>
         </div>
     </section>
@@ -59,29 +59,41 @@
             <div class="row align-items-center">
                 <div class="col-md-6 col-12">
                     <div class="text-start fs-2 fw-bold">
-                        Our <span class="globaltxtcolor">Story</span>
+                        Starting Small, Thinking Big:
+                        <span class="globaltxtcolor">The Yuvmedia Story.</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            Born in the difficult time of the pandemic, Our Journey began as a digital marketer during the
-                            COVID-19 pandemic. The world was on hold, we saw an opportunity. Businesses were rushing to move
-                            online, and we knew we could help them navigate the digital landscape.
+                            Born during the challenging times of the COVID-19 pandemic, our journey began with a simple
+                            vision: to help businesses navigate the rapidly evolving digital world. As the world came to a
+                            standstill, we saw an opportunity to guide companies in transitioning to the online space,
+                            ensuring they stayed connected with their audiences and continued to thrive.
+                        </p>
+                    </div>
+
+                    <div class="text-start py-2">
+                        <p class="text-wrap aboutsecondheadsecthree">
+                            Today, Yuvmedia stands as a trusted partner for hundreds of leading companies, from innovative
+                            start-ups to well-established brands. With 7,000+ successful projects and 600+ MSMEs onboard,
+                            we’ve built a strong portfolio of 1,000+ satisfied clients who trust us to deliver exceptional
+                            results.
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            Yuvmedia is the trusted partner of choice for hundreds of top companies, ranging from hot
-                            start-ups to established organizations. Our track record of delivering over <strong>5,000
-                                projects</strong> and onboarding <strong>600 MSMEs</strong>, we boast a clientele of over
-                            <strong>600 happy clients.</strong>
+                            With 5+ years of experience, we’ve continually adapted to the ever-changing digital landscape,
+                            staying ahead of trends and consistently delivering value. Our commitment to innovation and
+                            excellence remains at the heart of everything we do.
+
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap fw-bold">
-                            With 10 years of industry experience, we’ve navigated the evolving landscape, staying ahead of
-                            trends and delivering consistent value.
+                            What started as a small initiative has now evolved into a thriving agency offering 10+ services
+                            including digital marketing, design, technology solutions,Video Production and more.
                         </p>
                     </div>
+
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="#" class="btn btn-outline-primary btn-lg">Contact Us<i
@@ -117,7 +129,11 @@
                         </div>
                     </div> --}}
 
-                    <iframe class="rounded-3" width="560" height="315" src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="rounded-3" width="560" height="315"
+                        src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -228,7 +244,7 @@
         <div class="container pt-5 justify-content-center">
             <div class="row">
                 <div class="text-start fs-2 fw-bold">
-                    Key <span class="globaltxtcolor">Clientele</span>
+                    Accelerating Growth for 500+ Leading Brands.
                 </div>
                 <div class="text-start fs-5">
                     <p class="text-wrap webcontent3">
@@ -281,7 +297,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <section class="py-4">
@@ -293,14 +309,30 @@
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            We go beyond the clicks and metrics. We take the time to understand your brand, your target
-                            audience, and your unique challenges.
+                            Our mission is to empower brands to make informed and impactful decisions in the digital world.
+                            We focus on understanding the essence of your brand and connecting you with your customers in a
+                            meaningful way. By deeply analyzing your audience’s needs and the unique challenges you face, we
+                            craft strategies that resonate and ensure your brand’s voice stands out.
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            We believe in building strong partnerships with our clients, ensuring open communication and a
-                            collaborative approach throughout the entire process.
+                            We are more than just service providers – we are partners committed to your success. Through
+                            open communication, transparency, and collaboration, we ensure that every step of the journey
+                            aligns with your goals. From ideation to execution, we work side by side with you to craft
+                            tailored solutions that drive real results.
+
+                        </p>
+                    </div>
+                    <div class="text-start py-2">
+                        <p class="text-wrap aboutsecondheadsecthree">
+                            Our goal is to help you unlock your brand’s full potential and create lasting value, not just
+                            for you, but for everyone who engages with your business.
+                        </p>
+                    </div>
+                    <div class="text-start py-2">
+                        <p class="text-wrap aboutsecondheadsecthree">
+                            Your success is our purpose, and we are fully committed to making it happen.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -330,7 +362,9 @@
                     Core Team
                 </div>
                 <div class=" text-start fs-3 fw-bold">
-                    Empowering every vertical in the country.
+                    Every Successful Journey Needs the Right Team
+                    We Are That Team.
+
                 </div>
                 <p class=" text-start">
                     We seek our thrill from making brands and businesses in diversified domains reach their right audience.
@@ -346,7 +380,7 @@
                     <div id="core-team" class="owl-carousel">
 
                         {{-- khivraj sir --}}
-                        {{-- <div class="item">
+                        <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -354,14 +388,14 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain-300x300.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
+                                                            <div class="fs-6 ">Co-Founder & MD</div>
                                                             <div class="author">Mr. Khivraj Sain</div>
-                                                            <div class="fs-6 ">CEO & Founder</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -375,8 +409,89 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
+                                                    <div class="fs-6 ">Co-Founder & MD</div>
                                                     <div class="author">Mr. Khivraj Sain</div>
-                                                    <div class="fs-6 ">CEO & Founder</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Pinki mam --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Co-founder</div>
+                                                            <div class="author">Mrs. Pinki Sain</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Co-founder</div>
+                                                    <div class="author">Mrs. Pinki Sain</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Kunal Basin sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Business Development Manager</div>
+                                                            <div class="author">Mr. Kunal Basin</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Business Development Manager</div>
+                                                    <div class="author">Mr. Kunal Basin</div>
                                                 </div>
                                             </div>
 
@@ -385,7 +500,7 @@
                                 </div>
                             </div>
 
-                        </div> --}}
+                        </div>
 
                         {{-- Kishan gopal --}}
                         <div class="item">
@@ -403,8 +518,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Kishan Gopal</div>
                                                             <div class="fs-6 ">Operations Manager</div>
+                                                            <div class="author">Mr. Kishan Gopal</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -418,8 +533,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Kishan Gopal</div>
                                                     <div class="fs-6 ">Operations Manager</div>
+                                                    <div class="author">Mr. Kishan Gopal</div>
                                                 </div>
                                             </div>
 
@@ -446,8 +561,8 @@
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="author">Mr. Nilesh Gupta</div>
                                                             <div class="fs-6 ">Office Admin</div>
+                                                            <div class="author">Mr. Nilesh Gupta</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -461,8 +576,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="author">Mr. Nilesh Gupta</div>
                                                     <div class="fs-6 ">Office Admin</div>
+                                                    <div class="author">Mr. Nilesh Gupta</div>
                                                 </div>
                                             </div>
 
@@ -489,7 +604,7 @@
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
                                                             <div class="author">Mr. Manohar Singhh</div>
-                                                            <div class="fs-6 ">Paid Marketing Manager</div>
+                                                            <div class="fs-6 ">Project Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -504,7 +619,7 @@
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
                                                     <div class="author">Mr. Manohar Singh</div>
-                                                    <div class="fs-6 ">Paid Marketing Manager</div>
+                                                    <div class="fs-6 ">Project Manager</div>
                                                 </div>
                                             </div>
 
@@ -514,6 +629,7 @@
                             </div>
 
                         </div>
+
                         {{-- Rudraksh sir --}}
                         <div class="item">
                             <div class="flip">
@@ -573,7 +689,7 @@
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
                                                             <div class="author">Ms. Leera Ramesh</div>
-                                                            <div class="fs-6 ">Seller Manager</div>
+                                                            <div class="fs-6 ">Project Manager</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -588,7 +704,7 @@
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
                                                     <div class="author">Ms. Leera Ramesh</div>
-                                                    <div class="fs-6 ">Seller Manager</div>
+                                                    <div class="fs-6 ">Project Manager</div>
                                                 </div>
                                             </div>
 
