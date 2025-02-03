@@ -413,10 +413,21 @@
                                             </div>
                                         </div>
 
-                                        {{-- marketing --}}
+                                        {{-- Online marketing --}}
                                         <div class="tab-pane" id="online-tab-pane" role="tabpanel"
                                             aria-labelledby="online-tab" tabindex="0">
                                             <div class="d-flex my-3 justify-content-start pmarketing">
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
+                                                        class="card-img-top" alt="Influencer Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Influencer Marketing</h6>
+                                                        <p class="card-text">Drive Engagement with Trusted Voices – Work
+                                                            with influencers who align with your brand to build credibility
+                                                            and drive meaningful results.</p>
+                                                    </div>
+                                                </div>
+                                                
                                                 <div class="card me-4">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
                                                         class="card-img-top" alt="Whatsapp Marketing">
@@ -428,6 +439,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
+
                                                 <div class="card me-4">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
                                                         class="card-img-top" alt="Email Marketing">
@@ -439,16 +451,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="card me-4">
-                                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
-                                                        class="card-img-top" alt="Influencer Marketing">
-                                                    <div class="card-body">
-                                                        <h6 class="card-title">Influencer Marketing</h6>
-                                                        <p class="card-text">Drive Engagement with Trusted Voices – Work
-                                                            with influencers who align with your brand to build credibility
-                                                            and drive meaningful results.</p>
-                                                    </div>
-                                                </div>
+                                                
 
                                             </div>
                                         </div>
@@ -457,39 +460,28 @@
                             </div>
                         </div>
 
-                        {{-- Seller Management --}}
+                        {{-- Marketplace Management --}}
                         <div class="service-card" data-index="1">
                             <div class="service-card__inner">
                                 <div class="service-card__content greenBLueGradient">
-                                    <h1 class="service-card__title">Seller Management</h1>
+                                    <h1 class="service-card__title">Marketplace Management</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
-                                                class="card-img-top" alt="Amazon Seller">
+                                                class="card-img-top" alt="Amazon">
                                             <div class="card-body">
-                                                <h6 class="card-title">Amazon Seller</h6>
+                                                <h6 class="card-title">Amazon</h6>
                                                 <p class="card-text">Get Your Brand Noticed – Start selling on Amazon and
                                                     watch your business grow with India’s leading online marketplace.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                                                class="card-img-top" alt="Etsy Seller">
-                                            <div class="card-body">
-                                                <h6 class="card-title">Etsy Seller</h6>
-                                                <p class="card-text">Turn Your Creativity Into Profit – Start selling on
-                                                    Etsy and showcase your digital creations, and customized & unique
-                                                    products to a global audience.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                                class="card-img-top" alt="Flipkart Seller">
+                                                class="card-img-top" alt="Flipkart">
                                             <div class="card-body">
-                                                <h6 class="card-title">Flipkart Seller</h6>
+                                                <h6 class="card-title">Flipkart</h6>
                                                 <p class="card-text">Sell Smarter, Sell Bigger on Flipkart- List your
                                                     products on India’s leading marketplace and reach millions of customers
                                                     actively searching for what you offer.
@@ -498,17 +490,27 @@
                                         </div>
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                class="card-img-top" alt="Meesho Seller">
+                                                class="card-img-top" alt="Meesho">
                                             <div class="card-body">
-                                                <h6 class="card-title">Meesho Seller</h6>
+                                                <h6 class="card-title">Meesho</h6>
                                                 <p class="card-text">Start Selling on Meesho – Empower your business with
                                                     Meesho’s platform and connect with millions of customers looking for the
                                                     best deals!
                                                 </p>
                                             </div>
                                         </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
+                                                class="card-img-top" alt="Etsy">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Etsy</h6>
+                                                <p class="card-text">Turn Your Creativity Into Profit – Start selling on
+                                                    Etsy and showcase your digital creations, and customized & unique
+                                                    products to a global audience.
+                                                </p>
+                                            </div>
+                                        </div>                                       
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -692,96 +694,6 @@
             </div>
         </div>
     </section>
-
-
-
-    {{-- Achieving Goals --}}
-    {{-- <section class="bannerbg">
-        <div class="container pt-5">
-            <div class="row">
-                <div class="globaltxtcolor  text-start ">
-                    Achieving Goals
-                </div>
-                <div class="text-start">
-                    <p>
-                        We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                        starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                        and admire.
-                        Our team of experts is always keen on formulating only the right solutions for your business’
-                        everyday digital needs.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid pb-5">
-            <div class="container ">
-
-                <div class="row goalss justify-content-center p-3">
-                    <div class="col">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Design
-                            </div>
-                            <div class="serviceContent">
-                                Our designs are more than just visuals;
-                                they’re stories waiting to be told.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Social Media Marketing
-                            </div>
-                            <div class="serviceContent">
-                                In the bustling world of social media, we help your brand stand out.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                                class="serviceIcon3">
-                            <div class="serviceHeading">
-                                Website Development
-                            </div>
-                            <div class="serviceContent">
-                                Your website is your digital storefront. We build websites that not only look
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="servicecard">
-                            <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                                class="servicebg">
-                            <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                                class="serviceIcon">
-                            <div class="serviceHeading">
-                                Performance Marketing
-                            </div>
-                            <div class="serviceContent">
-                                Experience substantial profit growth and a competitive edge through
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-
-
 
     <!-- our work -->
     <section>
@@ -1117,7 +1029,7 @@
                         </div>
 
                         {{-- Pinki mam --}}
-                        <div class="item">
+                        {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -1154,7 +1066,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
                         {{-- Kunal Basin sir --}}
                         <div class="item">

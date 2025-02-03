@@ -133,7 +133,32 @@
                         src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+
+                    <div class="mt-3">
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
+                                    <div class="counter fs-1 fw-bold globaltxtcolor" data-target="7000">0</div>
+                                    <div class="counter-label fs-5">Successful Projects</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
+                                    <div class="counter fs-1 fw-bold globaltxtcolor" data-target="600">0</div>
+                                    <div class="counter-label fs-5">MSMEs Onboard</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
+                                    <div class="counter fs-1 fw-bold globaltxtcolor" data-target="1000">0</div>
+                                    <div class="counter-label fs-5">Satisfied Clients</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -338,7 +363,7 @@
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="#" class="btn btn-primary btn-lg">Contact Us<i
-                                    class="bi bi-arrow-right"></i></a>
+                                    class="bi bi-arrow-right  ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -717,6 +742,16 @@
 
                     </div>
                 </div>
+                <div class=" text-start fs-3 fw-bold">
+                    Your Success is Just One Click Away.
+                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                        <div class="me-3">
+                            <a href="#" class="btn btn-primary btn-lg">Contact Us
+                                <i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
@@ -732,5 +767,31 @@
 
         var copy3 = document.querySelector(".logos-slide3").cloneNode(true);
         document.querySelector(".logo-slider3").appendChild(copy3);
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 50; // Adjust speed for a smoother effect
+
+            counters.forEach(counter => {
+                counter.innerText = '0+'; // Initialize counter
+
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target'); // Read target value
+                    const count = +counter.innerText.replace('+', ''); // Remove existing '+'
+                    const increment = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + increment) + '+';
+                        setTimeout(updateCount, 30); // Adjust time interval
+                    } else {
+                        counter.innerText = target + '+'; // Ensure final value is exact
+                    }
+                };
+
+                setTimeout(updateCount, 500); // Start counting with a slight delay
+            });
+        });
     </script>
 @endsection

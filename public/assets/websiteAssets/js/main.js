@@ -193,7 +193,7 @@ $(document).ready(function () {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: Math.min(3, slideCount), // Adjust for smaller screens
+                        slidesToShow: Math.min(4, slideCount), // Adjust for smaller screens
                         slidesToScroll: Math.min(1, slideCount),
                         infinite: slideCount > 1
                     }
