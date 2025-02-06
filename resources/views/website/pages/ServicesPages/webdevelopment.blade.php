@@ -6,17 +6,16 @@
         <div class="container py-3 py-md-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <div class="text-start globaltxtcolor text-capitalize">
-                        Best custom websites <br /><span class="text-black ">that drive business growth.</span>
+                    <div class="text-start globaltxtcolor text-capitalize fs-1">
+                        Your Vision, Our Code.
                     </div>
+                    <p class="fw-bold fs-6">
+                        Transform your digital presence with cutting-edge web and app solutions.
+                    </p>
 
                     <div class="text-start py-2">
                         <p class="text-wrap websecondhead">
-                            Choosing us for your web development needs means selecting a service that combines technical
-                            expertise with creative flair. Whether you need an engaging corporate website, a dynamic
-                            e-commerce platform, or a complex web application, our approach is always customized to meet
-                            your specific business objectives. A website is not merely an online brochure; it is an
-                            essential extension of your brand and a powerful tool for engaging with your audience.
+                            You define the goals, and we create the softwares to achieve them. With our deep understanding of industry trends, agile development approach, and expertise in cutting-edge web technologies, we craft web and app solutions that align perfectly with your business objectives. Whether it's optimizing user experience, enhancing functionality, or ensuring scalability, we work closely with you to deliver a high-ROI solution that resonates with users and drives your success.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -26,15 +25,9 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-md-6">
-                    <img class="webimage" src="{{ asset('assets/websiteAssets/images/services/webdev1.webp') }}"
-                        alt="webdev">
-                        
-                </div> --}}
+                
 
-                <div
-                    class="col-lg-6 col-md-12 pt-lg-5 mt-lg-3 pt-0 pe-lg-5  animate-right position-relative jaydeskpa dding">
-
+                <div class="col-lg-6 col-md-12 pt-lg-5 mt-lg-3 pt-0 pe-lg-5  animate-right position-relative jaydeskpa dding">
                     <div class="container1">
                         <img src="https://crmlanding.in/assets/images/hero/bg/manufactbgline.png" class="position-absolute"
                             id="img_bg">
@@ -81,16 +74,10 @@
                                 class="img-fluid" alt="Image 4">
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
 
         </div>
-
-
     </section>
 
     <section class="section py-4 position-relative">
@@ -386,7 +373,7 @@
                     <hr class="w-25 me-3">
                 </span>
                 <div class="text-start fs-2 w-md-50">
-                    Yuvmedia offers high-end web design expertise, tailored to meet your unique business needs.
+                    What We Bring To The Table
                 </div>
 
             </div>
@@ -402,13 +389,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Yuvmedia’s service to design and develop WordPress websites is a collaborative process that
-                            involves an initial consultation to understand the client’s goals and preferences, website
-                            design, development, testing, and launch. The team uses WordPress to create a responsive,
-                            scalable, and optimized website that reflects the client’s brand and incorporates features
-                            as
-                            needed. Yuvmedia also provides ongoing maintenance and support services to ensure that the
-                            website remains up-to-date and secure.
+                            Our WordPress websites are designed with user-friendly interfaces, allowing for easy content management, while ensuring a professional, polished look. Tailored to your brand, these websites deliver seamless functionality and are fully optimized for performance.
                         </div>
                     </div>
                 </div>
@@ -419,16 +400,11 @@
                             02 <i class="bi bi-chevron-compact-right"></i>
                         </div>
                         <div class="fs-1 fw-medium my-3">
-                            Website Support
+                            Website Support & Maintenance
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Yuvmedia offers website support and maintenance services, including updates and backups,
-                            security
-                            measures, hosting on our servers, and technical support. These services are designed to keep
-                            client websites up-to-date, secure, and running smoothly, while freeing clients from the
-                            hassle
-                            of managing their website themselves
+                            We offer ongoing support and maintenance for your website, ensuring it stays updated, secure, and running smoothly. Our team handles everything from bug fixes to regular updates, ensuring your site performs at its best.
                         </div>
                     </div>
                 </div>
@@ -443,13 +419,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Yuvmedia’s service to design and develop WordPress websites is a collaborative process that
-                            involves an initial consultation to understand the client’s goals and preferences, website
-                            design, development, testing, and launch. The team uses WordPress to create a responsive,
-                            scalable, and optimized website that reflects the client’s brand and incorporates features
-                            as
-                            needed. Yuvmedia also provides ongoing maintenance and support services to ensure that the
-                            website remains up-to-date and secure.
+                            In today’s mobile-first world, we design websites that look and function flawlessly across all devices. Our mobile-responsive websites guarantee that users enjoy a smooth and optimized experience on smartphones, tablets, and desktops alike.
                         </div>
                     </div>
                 </div>
@@ -460,17 +430,11 @@
                             04 <i class="bi bi-chevron-compact-right"></i>
                         </div>
                         <div class="fs-1 fw-medium my-3">
-                            Custom Design
+                            Custom Website Design
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Tired of boring old themes applied for your company website? Our team will never start your
-                            project from any theme or previous website design. All designs crafted by Yuvmedia are
-                            custom
-                            and
-                            unique. Stand apart from your competition with a custom bespoke website designed to tell
-                            your
-                            unique story.
+                            We create custom website designs tailored to your unique brand and business objectives. From intuitive layouts to striking visuals, our designs ensure your website stands out while delivering a seamless user experience.
                         </div>
                     </div>
                 </div>
@@ -485,13 +449,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Yuvmedia’s service to design and develop corporate websites involves an initial consultation
-                            to
-                            understand the client’s business goals and website requirements, website design that
-                            incorporates the client’s brand elements and focuses on user experience, website development
-                            using WordPress and incorporation of necessary features, and content creation. The end
-                            result is
-                            a custom website that reflects the client’s brand and meets their specific corporate needs.
+                            We specialize in building corporate websites that reflect your business’s professionalism and authority. With a focus on user experience and clear communication, we deliver sites that build trust and facilitate customer engagement.
                         </div>
                     </div>
                 </div>
@@ -506,10 +464,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Our brochure websites are classy, eye-catching, and speak to your customers. We design and
-                            develop responsive websites to feature your products and services in sync with the latest
-                            design
-                            trends, your brand, and your target audience.
+                            Use our sophisticated and adaptable brochure websites to present your goods and services in a fashionable manner. These websites are ideal for small businesses because they are made to draw in visitors while maintaining consistency with your brand.
                         </div>
                     </div>
                 </div>
@@ -525,11 +480,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            We craft stunning effective landing pages that have one goal in mind – bringing your CTA
-                            (Call
-                            to Action) to your customer. Conversion, testing, improvement. We learn and adapt to
-                            minimize
-                            distractions as we smoothly convert your viewers into your paying customers.
+                            Use effective landing pages to turn visitors into buyers. Our high-converting landing pages are designed to capture attention and drive actions. Whether it’s for lead generation, a promotional campaign, or a product launch, we create landing pages that effectively engage your audience and maximize conversions.
                         </div>
                     </div>
                 </div>
@@ -544,10 +495,7 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            With the growth of online shopping, e-commerce websites are in high demand. Businesses
-                            selling
-                            products or services can create a website to showcase their offerings and allow customers to
-                            purchase online.
+                            We build secure and scalable e-commerce websites that make it easy for customers to browse, shop, and checkout. With features like product management, payment gateway integration, and inventory tracking, our websites are built to support your business growth.
                         </div>
                     </div>
                 </div>
@@ -555,21 +503,29 @@
                     <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1500">
                         <div>
-                            06 <i class="bi bi-chevron-compact-right"></i>
+                            09 <i class="bi bi-chevron-compact-right"></i>
                         </div>
                         <div class="fs-1 fw-medium my-3">
                             Animated Website
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Experience the power of a dynamic online presence with Yuvmedia’s Animated Websites. Our
-                            team of
-                            skilled designers and developers can help bring your website to life with stunning graphics
-                            and
-                            seamless animations that captivate your audience. By creating an engaging user experience,
-                            you
-                            can boost your brand’s online presence, increase conversions, and stay ahead of the
-                            competition.
+                            Enhance your website with visually engaging animations that captivate your audience. We incorporate subtle animations that enhance user experience without compromising on performance, helping your website stand out and keep visitors engaged.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                        data-aos-duration="1500">
+                        <div>
+                            10 <i class="bi bi-chevron-compact-right"></i>
+                        </div>
+                        <div class="fs-1 fw-medium my-3">
+                            Progressive Web Apps (PWAs)
+                        </div>
+                        <hr class="w-50">
+                        <div class="text-dark lh-sm">
+                            Our Progressive Web Apps combine the best features of both websites and mobile apps, providing a fast, engaging, and reliable user experience across all platforms. PWAs are designed to work offline, ensuring your users stay connected no matter where they are.
                         </div>
                     </div>
                 </div>
@@ -607,7 +563,7 @@
     <section class="position-relative py-5">
         <div class="container">
             <div class="row ">
-                <div>Process</div>
+                <div>Our Process</div>
                 <span>
                     <hr class="w-25 me-3">
                 </span>
@@ -650,27 +606,17 @@
                         <!-- Tab panes -->
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Creative" role="tabpanel"
-                                aria-labelledby="Creative-tab" tabindex="0">To deeper understand your objectives
-                                with
-                                the new website – we invite you to
-                                complete our custom and proprietary Creative Brief as a first step to the design of your
-                                new
-                                website. Geared for results, your custom Brief will include questions about your
-                                audience,
-                                goals, CTAs, and your definition of success for our bespoke work.</div>
+                                aria-labelledby="Creative-tab" tabindex="0">
+                                Our process begins with a deep dive into your brand, goals, and target audience. During the creative brief phase, we gather all the necessary information to understand your vision. This helps us create a tailored solution that resonates with your brand’s identity and objectives.
+                            </div>
                             <div class="tab-pane fade " id="Analysis" role="tabpanel" aria-labelledby="Analysis-tab"
-                                tabindex="0">Understanding the purpose of your
-                                website is vital to our success – we begin
-                                the process by discussing your new website’s goals and audience. After, we craft a
-                                strategy
-                                to meet or exceed your objectives with analytics and cognitive behavior in mind.</div>
+                                tabindex="0">
+                                We analyze the current digital landscape to understand where your brand stands. This involves assessing your competitors, market trends, and user behavior to gain insights into the strengths, weaknesses, and opportunities in your digital presence. Our analysis ensures that we craft a strategy that positions your business for success.
+                            </div>
                             <div class="tab-pane fade " id="Strategy" role="tabpanel" aria-labelledby="Strategy-tab"
-                                tabindex="0">Having analyzed your industry,
-                                references, and industry direction – we
-                                devise a strong directional strategy for the next steps of the project and draw up a
-                                plan of
-                                the meeting schedule to follow. Our strategy includes visual direction and team
-                                brainstorming.</div>
+                                tabindex="0">
+                                With the creative brief and digital analysis as the foundation, we develop a comprehensive strategy for your web and app development project. Our approach is data-driven, ensuring we address your goals effectively while also anticipating future needs. Whether it’s user experience optimization, technical specifications, or digital growth, our strategy covers every aspect for long-term success.
+                            </div>
 
                         </div>
                     </div>
@@ -718,38 +664,20 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Ideation" role="tabpanel"
                                 aria-labelledby="Ideation-tab" tabindex="0">
-                                As a cohesive multidisciplinary team, our web designers collaborate with our branding
-                                team
-                                to ensure your website expresses your every brand essence and desire. We utilize
-                                knowledge
-                                transfer and design trends to understand your industry and craft a web design to help
-                                your
-                                business stand out.
+                                In this phase, our team works closely with you to bring your ideas to life. We brainstorm, explore creative directions, and define the core vision for your project. The goal is to conceptualize innovative and impactful solutions that align with your objectives and set the stage for the design process.
                             </div>
                             <div class="tab-pane fade " id="Experience" role="tabpanel" aria-labelledby="Experience-tab"
                                 tabindex="0">
-                                Flowcharts and wireframes identify user motivation and define the hierarchy of items on
-                                a
-                                site based on your audience’s needs. We experiment with cutting-edge innovation and
-                                design
-                                principles to elevate your website to the top of your industry.
+                                We focus on creating a seamless, intuitive, and enjoyable user experience. Our UX design process involves understanding your audience's needs, behaviors, and pain points, allowing us to create an easy-to-navigate layout that ensures users engage with your website or app in the most efficient way possible.
                             </div>
                             <div class="tab-pane fade " id="Interface" role="tabpanel" aria-labelledby="Interface-tab"
                                 tabindex="0">
-                                Next, we build modern high-fidelity design screens that tell a story and reflect your
-                                newfound web design direction. This meticulous process expands into multiple device
-                                sizes
-                                and web design breakpoints.
+                                Our UI design ensures that the interface of your website or app is visually appealing and user-friendly. We focus on designing clear, functional, and aesthetically pleasing layouts that enhance the user’s interaction with the product. Every design element is carefully considered to ensure it aligns with your brand and provides a cohesive experience.
                             </div>
                             <div class="tab-pane fade " id="Prototype" role="tabpanel" aria-labelledby="Prototype-tab"
                                 tabindex="0">
-                                As a final step in our detailed design process, we create clickable animated prototypes
-                                to
-                                walk the client through what our vision of the web design will be and reference and
-                                additional animations we envision (or even create them using professional motion
-                                software).
+                                We bring the designs to life with interactive prototypes that simulate the look and feel of your final product. This stage allows us to test usability and functionality before development begins. Prototypes help visualize how users will interact with your app or website, providing valuable feedback to refine the design and ensure we’re on track.
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -796,38 +724,20 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Architecture" role="tabpanel"
                                 aria-labelledby="Architecture-tab" tabindex="0">
-                                We thoughtfully discuss and decide the fundamental organization of a the backend system
-                                that
-                                will be optimal for your website. Selecting the most elegant of solutions to effectively
-                                reach the desired design solution in the allotted timeline – we proceed to the
-                                development
-                                stage.
+                                In the systems architecture phase, we design the underlying structure of your website or application. This involves organizing how different parts of your system will interact, ensuring scalability, security, and optimal performance. We establish a robust framework that supports your business needs and future growth.
                             </div>
                             <div class="tab-pane fade " id="Integrations" role="tabpanel"
                                 aria-labelledby="Integrations-tab" tabindex="0">
-                                We are skilled in a variety of programming languages to provide you with flexibility for
-                                your site. Unlike many web design companies that utilize outdated approaches and
-                                templates,
-                                all our work is entirely custom and we specialize in headless CMS as a back-end-only
-                                content
-                                management system, making website management and content creation easy.
+                                Our development team builds dynamic and feature-rich websites and applications by integrating both front-end and back-end technologies. Whether it’s a custom solution or utilizing Content Management Systems (CMS) like WordPress or Shopify, we ensure smooth integration that offers flexibility, ease of use, and powerful functionality to meet your goals.
                             </div>
                             <div class="tab-pane fade " id="QA" role="tabpanel" aria-labelledby="QA-tab"
                                 tabindex="0">
-                                Upon design completion, the website undergoes rigorous testing which utilizes the most
-                                state-of-the-art technologies to report and expedite any design inconsistencies and
-                                updates
-                                needed.
+                                Before launching, we rigorously test your website or application to ensure that it meets the highest quality standards. Our QA process includes functional testing, usability checks, and performance assessments to identify and resolve any bugs or issues. We ensure your digital product runs seamlessly across all platforms and devices, offering a flawless user experience.
                             </div>
                             <div class="tab-pane fade " id="Launch" role="tabpanel" aria-labelledby="Launch-tab"
                                 tabindex="0">
-                                The most exciting of steps, we walk our clients through each and every step of the
-                                launch
-                                process and ensure nothing is overlooked. In the strictest of disciplines, website
-                                launches
-                                are the strictest!
+                                Once everything is tested and finalized, it’s time to launch. We carefully deploy your website or application, ensuring a smooth transition from development to live status. Our team monitors the launch process to make sure everything goes as planned, ensuring a seamless roll-out and immediate availability for your users.
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -869,30 +779,16 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Maintenance" role="tabpanel"
                                 aria-labelledby="Maintenance-tab" tabindex="0">
-                                The relationship between a web design company and its clients should not end with the
-                                launch
-                                of a website. We ensure that your site continues working for you by maintaining secure
-                                hosting and providing daily data backups and security scans. We are also available for
-                                any
-                                updates, improvements, or expansions of your website.
+                                Our support doesn’t end at launch. We offer ongoing maintenance and regular updates to ensure your website or application remains secure, up-to-date, and aligned with the latest technologies. Whether it’s updating content, adding new features, or optimizing performance, we provide continuous support to keep your digital presence fresh and functional.
+
                             </div>
                             <div class="tab-pane fade " id="Performance" role="tabpanel"
                                 aria-labelledby="Performance-tab" tabindex="0">
-                                Every project we build has performance and security in mind. We exceed modern web
-                                standards
-                                by optimizing accessibility, usability, responsiveness across platforms, and organic
-                                search.
-                                These factors not only improve the user’s experience but also drive sales, decrease
-                                potential legal issues and help your brand grow.
+                                We continuously monitor the performance of your website or app to ensure it’s running at its best. By tracking loading times, user behavior, and system health, we identify potential issues before they affect your users. This proactive approach helps us optimize performance, ensuring a smooth, fast, and reliable experience for your visitors.
                             </div>
                             <div class="tab-pane fade " id="Training" role="tabpanel" aria-labelledby="Training-tab"
                                 tabindex="0">
-                                We ensure the process of creating and maintaining your website is as simple as possible.
-                                Part of our process teaches you the intricacies of your website to translate our
-                                knowledge
-                                to you. We provide training videos, guides, and/or on-site training to help your team
-                                get up
-                                to speed with your new website.
+                                To ensure you’re fully equipped to manage and utilize your website or app, we offer robust training tailored to your needs. Whether it’s learning how to update content, manage the backend, or analyze data, our team provides comprehensive guidance, making sure you feel confident and empowered to operate and scale your digital product effectively.
                             </div>
                         </div>
                     </div>

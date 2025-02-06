@@ -8,13 +8,12 @@
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center ">
-                        Get Traffic
-                        <span class="fw-bold text-primary">That Converts.</span>
-
+                        Turn Your Clicks into
+                        <span class="fw-bold text-primary">Conversions with Performance Media</span>
                     </h1>
                     <div class="text-center py-2">
                         <p class="text-wrap marketsecondhead">
-                            Your Ad Campaigns Seen by Millions Daily on Premium Publisher Sites
+                            Get Your Ads in Front of Millions – Reach, Engage, Convert!
                         </p>
                     </div>
                 </div>
@@ -128,9 +127,8 @@
                 </div>
                 <div class="text-center">
                     <p class="text-wrap performancesecondhead">
-                        At YUVMEDIA, we understand the importance of reaching your customers at the right moment and place.
-                        Our paid strategies accompany your potential customers, ensuring you receive the strongest
-                        consideration.
+                        Every click counts. Our performance media approach ensures that your media investments directly
+                        contribute to conversions, sales, and long-term success.
                     </p>
                 </div>
                 <div class="text-center fs-6">
@@ -150,19 +148,21 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="text-start fw-bold fs-1">
-                        Drive Results with <br/><span class="text-primary fw-bold">Performance
-                            Media</span>
+                        The Right Audience, The Right Time,
+                        <span class="text-primary fw-bold"> The Right Results</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Our performance media strategies are designed to deliver measurable results. We use data-driven
-                            approaches to optimize your campaigns and ensure maximum ROI.
+                            Reaching the right audience at the right time is the key to driving impactful results. Our
+                            performance media strategies ensure that your brand connects with highly targeted customers when
+                            they are most likely to take action.
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Partner with us to leverage cutting-edge technology and innovative tactics that keep your brand
-                            ahead of the competition.
+                            By leveraging data-driven insights, real-time optimization, and precision targeting, we maximize
+                            engagement, boost conversions, and deliver measurable growth. With our expertise, every ad spend
+                            works harder to generate tangible business results.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -173,8 +173,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="seoimage "
-                        src="{{ asset('assets/websiteAssets/images/services/holding-smartphone.webp') }}" alt="seo">
+                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/holding-smartphone.webp') }}"
+                        alt="seo">
                 </div>
             </div>
         </div>
@@ -240,16 +240,18 @@
         </div>
     </section>
 
-    <section class="position-relative py-5 bannerbg">
+    <section class="position-relative py-5">
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center fw-bold fs-1">
-                    Our Expertise <span class="text-primary fw-bold">Spans</span>
+                    Let Us Help You to Choose the <br /> <span class="text-primary fw-bold">Right Performance Media Type
+                        for Your Business</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap performancesecondheadsecthree">
-                        When you partner with us, you gain more than just a video; you receive a captivating story that
-                        aligns with your brand’s vision.
+                        Our expertise spans across multiple performance media channels, ensuring a comprehensive and
+                        tailored approach that maximizes your brand's visibility, engagement, and conversion rates across
+                        digital platforms.
                     </p>
                 </div>
             </div>
@@ -260,8 +262,10 @@
                             <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Paid Search</p>
-                            <p class="card-text text-start text-wrap">Maximize your online visibility through strategic
-                                keyword bids and ad copy optimization on search engines like Google and Bing.</p>
+                            <p class="card-text text-start text-wrap">
+                                Utilize our keyword-focused techniques to increase your brand's visibility on search engines
+                                like Google and Bing, making sure it stands out when it matters most.
+                            </p>
 
                         </div>
                     </div>
@@ -272,9 +276,10 @@
                             <img src="{{ asset('assets/websiteAssets/images/paid-content.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Paid Social</p>
-                            <p class="card-text text-start text-wrap">Leverage platforms like Facebook, Instagram, and
-                                LinkedIn to connect with your target audience and drive conversions.</p>
-
+                            <p class="card-text text-start text-wrap">
+                                Reach more people by interacting with audiences who are most relevant to your brand on
+                                social media sites like Facebook, Instagram, and LinkedIn.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -284,9 +289,10 @@
                             <img src="{{ asset('assets/websiteAssets/images/native-advertising.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Display & Native Ads</p>
-                            <p class="card-text text-start text-wrap">Reach a wider audience through visually engaging ads
-                                or video ads that blend seamlessly into the content of websites and apps.</p>
-
+                            <p class="card-text text-start text-wrap">
+                                Increase click-through rates and engagement by seamlessly integrating your advertisements
+                                into prestigious websites.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -298,8 +304,10 @@
                             <img src="{{ asset('assets/websiteAssets/images/research-and-development.png') }}"
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Creative Development</p>
-                            <p class="card-text text-start text-wrap">Bring your brand to life with compelling and
-                                attractive ad copy, designs, and visuals that resonate with your target market.</p>
+                            <p class="card-text text-start text-wrap">
+                                It is the core of our performance media service, where we craft compelling ad copies and
+                                visuals that capture attention, drive engagement, and convert audiences into loyal customers
+                            </p>
 
                         </div>
                     </div>
@@ -310,8 +318,10 @@
                             <img src="{{ asset('assets/websiteAssets/images/amazon.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Amazon Marketing</p>
-                            <p class="card-text text-start text-wrap">Optimize your product listings and advertising
-                                campaigns to increase sales and visibility on Amazon.</p>
+                            <p class="card-text text-start text-wrap">
+                                Maximize the potential of your brand with effective campaigns and optimized product listings
+                                designed to boost visibility, drive traffic, and increase sales.
+                            </p>
 
                         </div>
                     </div>
@@ -322,10 +332,136 @@
                             <img src="{{ asset('assets/websiteAssets/images/affiliate-marketing.png') }}"
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Affiliate Marketing</p>
-                            <p class="card-text text-start text-wrap">Expand your reach by building a powerful network of
-                                affiliates who promote your products or services. It's a win-win strategy to boost sales.
+                            <p class="card-text text-start text-wrap">
+                                Use a large network of affiliates to broaden your audience and boost revenue by forming
+                                cooperative alliances.
                             </p>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 position-relative bannerbg">
+        <div class="container py-5 justify-content-center">
+            <div class="row">
+                <div class="text-center graphicheadingsecthree mb-3">
+                    Our Approach to Boost Your Advertising
+                    <span class="fw-bold text-primary">ROI Through Performance Media Services</span>
+                </div>
+            </div>
+            <div class="row gy-4 gx-4">
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">1. Campaign Set-Up</p>
+                            <p class="card-text text-start text-wrap">
+                                We strategically configure campaigns tailored to your goals, ensuring every aspect is optimized for maximum reach and conversion potential.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">2. Keywords Research</p>
+                            <p class="card-text text-start text-wrap">
+                                Our in-depth keyword research uncovers the most relevant and high-performing terms to attract the right audience and drive quality traffic.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">3. Audience Set-Up</p>
+                            <p class="card-text text-start text-wrap">
+                                We define and target the ideal audience segments, helping you reach the people most likely to convert and engage with your brand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 gy-4">
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">4. Competitor Analysis</p>
+                            <p class="card-text text-start text-wrap">
+                                Our team analyzes competitors to identify opportunities, strengths, and gaps, enabling us to create a competitive edge for your campaigns.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">5. CTR Analysis</p>
+                            <p class="card-text text-start text-wrap">
+                                We monitor click-through rates (CTR) to identify what’s working and make necessary adjustments to increase engagement and conversions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">6. Google Analytics Setup</p>
+                            <p class="card-text text-start text-wrap">
+                                We set up Google Analytics to provide deep insights into campaign performance, user behavior, and ROI, enabling data-driven decision-making.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">7. Meta Pixel Setup</p>
+                            <p class="card-text text-start text-wrap">
+                                We integrate Meta Pixel to track and optimize Facebook and Instagram campaigns, improving targeting and retargeting efforts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">8. Google Tag Manager Setup</p>
+                            <p class="card-text text-start text-wrap">
+                                We configure Google Tag Manager to streamline the process of adding tracking and marketing tags, allowing for more efficient data management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">9. Remarketing</p>
+                            <p class="card-text text-start text-wrap">
+                                Our remarketing strategies ensure that users who have previously interacted with your brand are re-engaged, boosting conversion chances.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">10. Ad Copies (Creatives):</p>
+                            <p class="card-text text-start text-wrap">
+                                Our team creates compelling and persuasive ad copies and creatives that speak directly to your audience, driving higher engagement and conversions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">11. Daily Leads Quality Report</p>
+                            <p class="card-text text-start text-wrap">
+                                We provide daily reports on lead quality, ensuring you stay informed and can quickly adjust strategies for optimal performance.
+                            </p>
                         </div>
                     </div>
                 </div>

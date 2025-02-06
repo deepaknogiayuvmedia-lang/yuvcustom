@@ -22,9 +22,11 @@
         <!-- Banner Section -->
         <div class="container bannersection">
             <div class="row py-5">
+                <div class="subTitle fs-3 mb-2">
+                    Tell Your Brand Story
+                </div>
                 <div class="heroTitle">
-                    VFX and 3D animation studio with <br />Customized Solutions
-                    for Diverse Industries
+                    Powerful VFX & 3D Animation for Your Brand.
                 </div>
                 <div class="subTitle">
                     Fusion of Technology and Creativity |
@@ -103,7 +105,7 @@
                             </div>
                             <div class="col-sm-4 all grading">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Tempx-3 p-md-3.png?width=562&name=Email-Tempx-3 p-md-3.png"
+                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-4.png?width=564&name=Email-Temp-4.png"
                                         alt="Work 1" class="img-fluid">
                                     <div class="p-inner">
                                         <h5>Work 1</h5>
@@ -311,14 +313,13 @@
             <div class="row align-items-center text-white">
                 <div class="col-md-12">
                     <div class="text-center videoproheading">
-                        Our <span class="fw-bold text-info">Services</span>
+                        How We Bring <span class="fw-bold text-info"> Your Ideas to Life.</span>
                     </div>
                     <div class="text-center py-2">
                         <p class="text-wrap videoprosecondhead">
-                            We work in 6 most popular directions
+                            We offer a wide array of services to bring your vision to life
                         </p>
                     </div>
-
                 </div>
 
             </div>
@@ -331,86 +332,28 @@
 
                         </div>
                         <h2 class="gradient-text-animation">Video Editing</h2>
-                        <p class="mt-3">Transforming raw footage into captivating stories with professional video editing
-                            for films, ads, events, and social media content.</p>
+                        <p class="mt-3">We turn raw footage into polished, professional videos. From trimming and
+                            sequencing to adding transitions and effects, we make sure your video flows smoothly and
+                            effectively tells your story.
+                        </p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
                     </div>
                 </div>
-
                 <div class="col-lg-4">
                     <div class="gradient-border-card"
-                        style="background-image: url('https://optim.tildacdn.net/tild3337-3133-4034-b333-363961333730/-/cover/550x277/right/top/-/format/webp/u2.jpg'); background-position: bottom;">
+                        style="background-image: url('https://optim.tildacdn.net/tild3130-3332-4133-b038-393633323636/-/cover/547x277/center/center/-/format/webp/u5.jpg'); background-position: bottom;">
                         <div class="icon mb-3">
-                            <img src="https://img.icons8.com/ink/96/FFFFFF/visual-effects.png" alt="visual-effects" />
+                            <img src="https://img.icons8.com/?size=100&id=AaJRQNJMfve1&format=png&color=FFFFFF"
+                                alt="video-call" />
                         </div>
-                        <h2 class="gradient-text-animation">VFX</h2>
-                        <p class="mt-3">Creating stunning visual effects that bring imagination to life, enhancing
-                            storytelling for films, commercials, and immersive digital experiences.</p>
+                        <h2 class="gradient-text-animation">Pre Production</h2>
+                        <p class="mt-3">The foundation of every great video starts in pre-production. We handle
+                            everything from concept development, scriptwriting, storyboarding, and location scouting to
+                            ensure that your vision is ready to go before the cameras start rolling.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
-                    </div>
-                </div>
 
-                <div class="col-lg-4">
-                    <div class="gradient-border-card"
-                        style="background-image: url('https://optim.tildacdn.net/tild6133-3663-4139-b264-613933366339/-/cover/547x277/center/center/-/format/webp/u3.jpg'); background-position: bottom;">
-                        <div class="icon mb-3">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/animation.png') }}" alt="icon">
-                        </div>
-                        <h2 class="gradient-text-animation">2D Animation</h2>
-                        <p class="mt-3">Designing engaging 2D animations with captivating characters and smooth motion,
-                            perfect for explainer videos, advertisements, and storytelling.</p>
-                        <div class="shimmer"></div>
-                        <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
                     </div>
                 </div>
 
@@ -421,58 +364,13 @@
                             <img src="https://img.icons8.com/?size=100&id=41524&format=png&color=FFFFFF"
                                 alt="video-call" />
                         </div>
-                        <h2 class="gradient-text-animation">3D Animation</h2>
-                        <p class="mt-3">Creating lifelike 3D animations with realistic textures, dynamic movements, and
-                            immersive visuals for films, advertisements, and architectural projects.</p>
+                        <h2 class="gradient-text-animation">3D Animation & Modeling</h2>
+                        <p class="mt-3">Bring your ideas to life with stunning 3D animation and modeling. Whether it's
+                            for product visualization, character design, or immersive environments, our team crafts 3D
+                            visuals that capture your imagination.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
-                    </div>
-                </div>
 
-                <div class="col-lg-4">
-                    <div class="gradient-border-card"
-                        style="background-image: url('https://optim.tildacdn.net/tild3130-3332-4133-b038-393633323636/-/cover/547x277/center/center/-/format/webp/u5.jpg'); background-position: bottom;">
-                        <div class="icon mb-3">
-                            <img src="https://img.icons8.com/?size=100&id=AaJRQNJMfve1&format=png&color=FFFFFF"
-                                alt="video-call" />
-                        </div>
-                        <h2 class="gradient-text-animation">Pre Production</h2>
-                        <p class="mt-3">Planning and strategizing every detail, from concept development to storyboarding
-                            and scripting, ensuring a seamless video production process.</p>
-                        <div class="shimmer"></div>
-                        <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
                     </div>
                 </div>
 
@@ -483,30 +381,172 @@
                             <img src="https://img.icons8.com/?size=100&id=37nb8M1MdaMd&format=png&color=FFFFFF"
                                 alt="video-call" />
                         </div>
-                        <h2 class="gradient-text-animation">3D Services</h2>
-                        <p class="mt-3">Providing high-quality 3D modeling, rendering, and animation services for
-                            architectural visualizations, product designs, and immersive virtual experiences.</p>
+                        <h2 class="gradient-text-animation">Color Grading</h2>
+                        <p class="mt-3">Enhance the mood and tone of your footage with expert color grading. We fine-tune
+                            the color palette to give your video a professional, cinematic look that suits your brand and
+                            message.</p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
-                        {{-- <button type="submit" class="mt-3">
-                            <span>
-                                <span class="highlight-bg"></span>
-                                <span class="button-text">
-                                    <svg class="me-2" fill="none" height="24" stroke="currentColor"
-                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        viewBox="0 0 24 24" width="24">
-                                        <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <path d="M20 8v6"></path>
-                                        <path d="M23 11h-6"></path>
-                                    </svg>
-                                    Details
-                                </span>
-                            </span>
-                        </button> --}}
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="gradient-border-card"
+                        style="background-image: url('https://optim.tildacdn.net/tild3337-3133-4034-b333-363961333730/-/cover/550x277/right/top/-/format/webp/u2.jpg'); background-position: bottom;">
+                        <div class="icon mb-3">
+                            <img src="https://img.icons8.com/ink/96/FFFFFF/visual-effects.png" alt="visual-effects" />
+                        </div>
+                        <h2 class="gradient-text-animation">VFX & Compositing</h2>
+                        <p class="mt-3">Add a wow factor to your video with cutting-edge visual effects (VFX). Our team
+                            expertly combines CGI with real-life footage to create seamless effects that elevate the impact
+                            of your video.</p>
+                        <div class="shimmer"></div>
+                        <i aria-hidden="true"></i>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="gradient-border-card"
+                        style="background-image: url('https://optim.tildacdn.net/tild6133-3663-4139-b264-613933366339/-/cover/547x277/center/center/-/format/webp/u3.jpg'); background-position: bottom;">
+                        <div class="icon mb-3">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/animation.png') }}" alt="icon">
+                        </div>
+                        <h2 class="gradient-text-animation">Product Shoot
+                        </h2>
+                        <p class="mt-3">Showcase your products in their best light with a high-quality product shoot. We
+                            focus on every detail to create compelling visuals that highlight the uniqueness of your product
+                            and make it irresistible to your audience.
+                        </p>
+                        <div class="shimmer"></div>
+                        <i aria-hidden="true"></i>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="bg-black py-5">
+        <div class="container py-5">
+            <div class="row align-items-center text-white">
+                <div class="col-md-12">
+                    <div class="text-center videoproheading">
+                        What You Will <span class="fw-bold text-info">Get ?</span>
+                    </div>
+                    <div class="text-center py-2">
+                        <p class="text-wrap videoprosecondhead">
+                            Just tell us the style, length and aim of your video, and we'll work to your brief.
+                        </p>
                     </div>
                 </div>
             </div>
+            <div class="row align-items-center justify-content-center ">
+
+                <div class="row g-5 justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Corporate Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Professional and impactful corporate videos that showcase your brand’s identity, values, and culture, helping you connect with clients, investors, and employees alike.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild3062-3862-4634-a438-653132393763/-/cover/376x109/center/center/-/format/webp/noroot.png');">
+                            <div class="text-white fs-3 fw-light">
+                                Promotional Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Engaging promotional videos designed to highlight your product or service, capture attention, and drive conversions through creative storytelling and high-quality visuals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://static.tildacdn.com/tild6430-3962-4731-b263-396236376130/u3.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Social Media Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Tailored social media videos crafted to maximize engagement, build brand awareness, and encourage interaction across platforms like Instagram, Facebook, and TikTok.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild3865-3338-4438-a364-663935363239/-/cover/376x109/center/center/-/format/webp/u4.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Training Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Clear, professional training videos that effectively communicate complex information, helping your team or clients learn new skills and processes with ease and efficiency.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Commercial Ad Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Attention-grabbing commercial ad videos designed to promote your products or services in an engaging and persuasive way, driving action and increasing brand visibility.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Music Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Creative and visually captivating music videos that perfectly complement the rhythm, emotion, and message of your song, elevating your music brand and audience connection.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5 rounded-4 tabbg"
+                            style="background-image: url('https://static.tildacdn.com/tild6239-3831-4432-b665-636164353637/noroot.png');">
+                            <div class="text-white fs-3 fw-light">
+                                Many More
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    From UGC Videos to product demos, we offer a wide range of video production services tailored to your unique needs, ensuring high-quality, engaging content that delivers results.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
             <div class="row pt-5">
                 <div
                     class="position-relative pointer-events-none overflow-hidden pt-75 s:pt-250 will-change-transform svgsection">
@@ -547,233 +587,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-    </section>
-
-
-    <section class="bg-black py-5">
-        <div class="container py-5">
-            <div class="row align-items-center text-white">
-                <div class="col-md-12">
-                    <div class="text-center videoproheading">
-                        What You Will <span class="fw-bold text-info">Get ?</span>
-                    </div>
-                    <div class="text-center py-2">
-                        <p class="text-wrap videoprosecondhead">
-                            When you partner with us, you gain more than just a video; you receive a captivating story that
-                            aligns with your brand’s vision.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="row align-items-center justify-content-center ">
-
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Corporate Videos
-                        </h2>
-                        <p>
-                            Present your brand's story, values, and achievements through professional corporate videos.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Promotional Videos
-                        </h2>
-                        <p>
-                            Highlight your services or products with engaging promotional videos to attract customers.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Event Coverage
-                        </h2>
-                        <p>
-                            Capture the important moments of your events with thorough video coverage, including all
-                            functions.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Social Media Videos</h2>
-                        <p>
-                            Create a stronger online presence with short, powerful videos for all social platforms.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Training Videos</h2>
-                        <p>
-                            Create informative videos to train your employees or educate your audience effectively.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="py-5 position-relative bg-black" style="z-index: 9">
-        <div class="container pt-5">
-            <div class="row align-items-center text-white">
-                <div class="col-md-12">
-                    <div class="text-center videoproheading">
-                        Directions
-                    </div>
-                    <div class="text-center py-2">
-                        <p class="text-wrap videoprosecondhead">
-                            Just tell us the style, length and aim of your video, and we'll work to your brief
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="row g-5 justify-content-center align-items-center">
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Travel videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Explore stunning travel destinations through captivating videos, showcasing culture, nature,
-                                adventure, and unforgettable experiences worldwide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://optim.tildacdn.net/tild3062-3862-4634-a438-653132393763/-/cover/376x109/center/center/-/format/webp/noroot.png');">
-                        <div class="text-white fs-3 fw-light">
-                            Commercial Ad Videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Engaging commercial ad videos crafted to elevate brand identity, captivate audiences, and
-                                drive impactful connections with your target market.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://static.tildacdn.com/tild6430-3962-4731-b263-396236376130/u3.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Corporate Videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Professional corporate videos designed to showcase your brand's vision, achievements, and
-                                values while strengthening trust with clients and stakeholders.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://optim.tildacdn.net/tild3865-3338-4438-a364-663935363239/-/cover/376x109/center/center/-/format/webp/u4.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Drone videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Stunning drone videos capturing breathtaking aerial views, perfect for real estate, events,
-                                tourism, and promotional storytelling.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Wedding videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Beautifully crafted wedding videos capturing every magical moment, emotion, and detail to
-                                cherish your special day forever.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Photo animation
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Transform static photos into dynamic animations, bringing memories to life with smooth
-                                transitions, effects, and captivating storytelling.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://static.tildacdn.com/tild6239-3831-4432-b665-636164353637/noroot.png');">
-                        <div class="text-white fs-3 fw-light">
-                            Real-estate
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Showcase properties with stunning visuals, dynamic walkthroughs, and aerial views to
-                                captivate buyers and elevate real estate marketing.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://thumb.tildacdn.com/tild3739-3037-4930-b333-653162656638/-/format/webp/noroot.png.webp');">
-                        <div class="text-white fs-3 fw-light">
-                            Music videos
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Bring your music to life with creative storytelling, stunning visuals, and dynamic edits
-                                that resonate with your audience.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-5 rounded-4 tabbg"
-                        style="background-image: url('https://static.tildacdn.com/tild3565-6365-4338-b937-626338303363/u2.jpg');">
-                        <div class="text-white fs-3 fw-light">
-                            Many more
-                        </div>
-                        <div class="text-white">
-                            <p>
-                                Offering diverse video production services tailored to your needs, including documentaries,
-                                event coverage, interviews, product shoots, and more.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
         </div>
     </section>
 

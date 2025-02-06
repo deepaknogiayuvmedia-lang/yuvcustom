@@ -8,7 +8,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-start whatheading">
-                        Revolutionize Your Business with <span class="whatheadingsub">WhatsApp Marketing</span>
+                        Turn Your Conversations Into
+                        <span class="whatheadingsub">Conversions With WhatsApp Marketing</span>
                     </div>
                     <div class=" fs-4">
                         <p class="text-wrap whatsecondhead">
@@ -22,20 +23,34 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg whatbtn">Get Started for Free <i
-                                    class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="btn btn-lg whatbtn">
+                                Get Started for Free
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
                         </div>
                         <div class="mt-3 mt-md-0">
-                            <a class="btn btn-outline-dark btn-lg bookdemobtnwhat" href="{{ route('contact') }}">Book a
-                                Demo</a>
+                            <a class="btn btn-outline-dark btn-lg bookdemobtnwhat" href="{{ route('contact') }}">
+                                Book aDemo
+                            </a>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid" src="{{ asset('assets/websiteAssets/images/services/whatssdappss.png') }}"
                         alt="">
                 </div>
-
+                <div class="mt-3 text-center d-flex justify-content-around">
+                    <div class="fs-6 fw-bold">
+                        ✅Get Green Tick Verified
+                    </div>
+                    <div class="fs-6 fw-bold">
+                        ✅One time & recurring Campaigns on WhatsApp
+                    </div>
+                    <div class="fs-6 fw-bold">
+                        ✅Build your own Workflows
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -61,7 +76,10 @@
 
     <section class="py-5 position-relative">
         <div class="container">
-            <h3 class="whatheading">Features</h3>
+            <h3 class="whatheading text-center">Your Business
+            </h3>
+            <p class="text-wrap fs-4 text-center">Powered by WhatsApp’s Advanced Features
+            </p>
             <div class="p-3 p-md-5 shadow-sm rounded-4">
 
                 <div class="row ">
@@ -70,27 +88,26 @@
                             src="https://www.wati.io/wp-content/uploads/2024/11/Broadcast-new1.webp" alt="features">
                     </div>
                     <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
-                        <h3>Broadcast</h3>
+                        <h3>Send Out a Broadcast</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Push out your campaigns and engage with high response WhatsApp
-                                messages.
+                                Use high-response WhatsApp messages to engage your audience and start effective campaigns.
                             </p>
                         </div>
                         <div class="d-flex">
 
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Tag contacts, categorize and target them in groups using
-                                personalized communications.
+                                Tag contacts, classify them, and send individualized messages to each category to
+                                efficiently arrange contacts.
                             </p>
                         </div>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Build and nurture the relationships that generate future sales by
-                                engaging with your audiences regularly on WhatsApp.
+                                Continue to connect on WhatsApp on a daily basis to build enduring relationships that propel
+                                future sales.
                             </p>
                         </div>
                         <div class="mt-3">
@@ -102,24 +119,25 @@
 
                 <div class="row ">
                     <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
-                        <h3>Chatbots</h3>
+                        <h3>Use chatbots to automate</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Create no-code chatbots to provide instant responses to common requests.
+                                Create user-friendly, no-code chatbots that can instantly respond to frequently asked
+                                questions.
                             </p>
                         </div>
                         <div class="d-flex">
 
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Simplify mass communication and personalized responses with automated tools.
+                                Use automated techniques to personalize interactions and streamline mass communication.
                             </p>
                         </div>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Boost sales by directly converting more customer communications on WhatsApp.
+                                Use WhatsApp to interact directly with clients and boost sales conversions.
                             </p>
                         </div>
                         <div class="mt-3">
@@ -140,33 +158,31 @@
                             src="https://www.wati.io/wp-content/uploads/2024/11/Team-Inbox-new1.webp" alt="features">
                     </div>
                     <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
-                        <h3>Shared Team Inbox</h3>
+                        <h3>Work together using a shared team inbox.</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Share the Yuvmedia Whatsapp inbox across your team and provide stellar support on WhatsApp
-
+                                Use the shared WhatsApp inbox provided by Yuvmedia to enable your team to provide
+                                outstanding service.
                             </p>
                         </div>
                         <div class="d-flex">
 
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Use pre-built integrations to bring in customer context in a few clicks.
-
+                                For thorough context, seamlessly include consumer data using pre-built tools.
                             </p>
                         </div>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
                             <p class="ms-2">
-                                Push post sales communications such as order updates, and resolve support requests quickly
-                                through WhatsApp.
-
+                                Use WhatsApp to effectively handle support requests and provide order updates to improve
+                                post-purchase communication.
                             </p>
                         </div>
                         <div class="mt-3">
-                            <a href="{{ route('contact') }}" class="btn btn-sm btn-outline-success">Get Started for Free <i
-                                    class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="btn btn-sm btn-outline-success">Get Started for Free
+                                <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -240,11 +256,110 @@
         </div>
     </section>
 
+    <section class="py-5 ">
+        <div class="container py-md-5 justify-content-center">
+            <div class="row">
+                <div class="text-center whatheading">
+                    What's
+                    <span class="whatheadingsub">In It For You ?</span>
+                </div>
+            </div>
+            <div class="row gy-4 gx-4">
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/interest-rate.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">WhatsApp Account Creation
+                            </p>
+                            <p class="card-text">
+                                We assist in setting up your business WhatsApp account, ensuring it's properly linked to
+                                your business number and ready for customer engagement.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/marketingcam.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">WhatsApp Profile Setup</p>
+                            <p class="card-text">
+                                Tailor your business profile with a professional photo, description, and relevant business
+                                details to ensure a seamless brand presence on WhatsApp.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/time.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">Quick Replies & Chatbot Setup</p>
+                            <p class="card-text">
+                                We set up automated quick replies and chatbots to provide immediate responses to frequently
+                                asked questions, enhancing customer experience and saving time.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/services/seo/mail.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">WhatsApp Message Templates</p>
+                            <p class="card-text">
+                                Create and organize custom message templates for your marketing campaigns, ensuring consistency and quick responses to your audience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/people.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">Campaign Planning & Execution
+                            </p>
+                            <p class="card-text">
+                                We develop and execute WhatsApp marketing campaigns aimed at increasing engagement,
+                                conversions, and overall brand awareness.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/advertisingtarget.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">Tracking & Optimization
+                            </p>
+                            <p class="card-text">Monitor campaign performance with tracking tools, providing insights to
+                                optimize messaging, delivery times, and customer engagement for better results.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
     <section class="py-5 bannerbg">
         <div class="container py-md-5 justify-content-center">
             <div class="row">
                 <div class="text-center whatheading">
-                    Why <span class="whatheadingsub">WhatsApp ?</span>
+                    Why <span class="whatheadingsub"> WhatsApp ?</span>
                 </div>
                 <div class="text-center fs-5">
                     <p class="text-wrap whywhatcontent">
@@ -260,9 +375,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/interest-rate.png') }}" alt="service bg"
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">High Open Rates</p>
-                            <p class="card-text">Ensuring your message reaches your audience.</p>
-
+                            <p class="fw-bold">High Open Rates</p>
+                            <p class="card-text">
+                                WhatsApp messages enjoy impressive open rates, ensuring your content reaches your audience effectively and promptly.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -271,8 +387,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/marketingcam.png') }}" alt="service bg"
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">Campaign Management</p>
-                            <p class="card-text">Simplify sales and marketing communications.</p>
+                            <p class="fw-bold">Campaign Management</p>
+                            <p class="card-text">
+                                Easily manage and monitor your WhatsApp campaigns, optimizing each phase for better engagement and results.
+                            </p>
 
                         </div>
                     </div>
@@ -282,9 +400,23 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/time.png') }}" alt="service bg"
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">Schedule Messages</p>
-                            <p class="card-text">Plan Campaigns according to your schedule.</p>
+                            <p class="fw-bold">Schedule Messages</p>
+                            <p class="card-text">
+                                Plan and schedule your WhatsApp messages in advance, ensuring timely communication with your audience, even when you're offline.
+                            </p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whatcards">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/services/seo/mail.png') }}" alt="service bg"
+                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
+                            <p class="fw-bold">Stronger Connections</p>
+                            <p class="card-text">
+                                Build direct, personal connections with your customers, fostering loyalty and trust through one-on-one messaging.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -293,8 +425,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/people.png') }}" alt="service bg"
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">Stronger Connections</p>
-                            <p class="card-text">Talk to your contacts in their first language.</p>
+                            <p class="fw-bold">Targeted Campaigns</p>
+                            <p class="card-text">
+                                Reach the right audience with targeted campaigns, ensuring your messages are relevant and impactful for maximum engagement.
+                            </p>
 
                         </div>
                     </div>
@@ -304,23 +438,15 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/advertisingtarget.png') }}" alt="service bg"
                                 class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">Targeted Campaigns</p>
-                            <p class="card-text">Reach specific Demographics or Interests.</p>
+                            <p class="fw-bold">Measurable Results</p>
+                            <p class="card-text">
+                                Track and measure the effectiveness of your WhatsApp campaigns, allowing you to refine your strategy and drive better outcomes.
+                            </p>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="whatcards">
-                        <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/performance-report.png') }}" alt="service bg"
-                                class="mb-3" style="width: 50px; height: 50px; object-fit: contain;">
-                            <p class="fw-normal">Measurable Results</p>
-                            <p class="card-text">Track your WhatsApp marketing with analytics.</p>
-
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

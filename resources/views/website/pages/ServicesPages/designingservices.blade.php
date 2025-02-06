@@ -7,22 +7,17 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <div class="text-start grpahicheading">
-                        Designs That Speak Your <span class="grpahicheadingsub">Brand's Language</span>
+                    <div class="text-start grpahicheading fs-1">
+                        Designing Your Brand's Future <span class="globaltxtcolor fs-1">Brand's Language</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap grpahicsecondhead">
-                            At Yuvmedia, we pride ourselves on offering comprehensive and innovative designing services
-                            tailored to meet the unique needs of our clients. Our expertise covers a wide range of design
-                            disciplines, ensuring that each project we take on is filled with creativity, accuracy, and
-                            strategic insight.
+                            There are no limits to what we can create for your brand. Whether it’s a bold new logo, eye-catching brochures, or a complete rebranding, our expert design team is ready to bring your vision to life. We’re committed to delivering high-quality designs that not only meet but exceed your expectations. With a strong focus on creativity, innovation, and attention to detail, we ensure your brand stands out and resonates with your target audience. 
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap grpahicsecondhead">
-                            Every brand has a unique story to tell, and our designs ensure your message is heard loud and
-                            clear. We create visually compelling experiences that align perfectly with your brand's identity
-                            and vision.
+                            Let us help you create designs that you’ll love and your customers will remember.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -333,46 +328,33 @@
     <section class="py-5 position-relative">
         <div class="container">
             <div class="row">
+                <div class="text-start grpahicheading fs-1 mb-3">
+                    Our <span class="globaltxtcolor fs-1">Specialty</span>
+                </div>
                 <div class="service-grid">
                     <div>
                         <div class="service-list js-service-container fadein" data-aos="fade-up"
                             style="min-height: 363.547px;" data-aos-offset="303" data-aos-once="true">
                             <div class="service active js-service" data-service="web-design">
-                                <div class="service-caption js-service-caption">Web Design</div>
+                                <div class="service-caption js-service-caption">UI Design</div>
                                 <div class="service-content js-service-content">
                                     <div class="service-tags">
                                         <div class="chips">
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Landing</a>
+                                                <a href="#" class="chip-label">UI Design</a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Brochure
-                                                    Site</a>
+                                                <a href="#" class="chip-label">Design System</a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Corporate
-                                                    Website</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">E-Commerce</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Web
-                                                    3.0</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">UI/UX
-                                                    Design</a>
+                                                <a href="#" class="chip-label">Prototyping</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-text">
-                                        <p>We create world-class websites using modern design practices. Mobile-first
-                                            websites and web experiences are essential to the success of your web project.
-                                            While maintaining bespoke originality, our team will focus on responsive design
-                                            and optimize your website for any device and interface. Your new website will
-                                            attract desirable target audiences, boost engagement, drive sales, and increase
-                                            the brand value of your business.</p>
+                                        <p>
+                                            We help businesses establish a strong and recognizable identity with strategic branding solutions. From logo creation to brand guidelines, we ensure consistency across all touchpoints, making your brand stand out in a competitive market.
+                                        </p>
                                     </div>
                                     <div class="service-action">
                                         <a href="#" class="redlink">
@@ -383,38 +365,25 @@
                             </div>
 
                             <div class="service js-service" data-service="branding">
-                                <div class="service-caption js-service-caption">Branding</div>
+                                <div class="service-caption js-service-caption">Graphic Design</div>
                                 <div class="service-content js-service-content">
                                     <div class="service-tags">
                                         <div class="chips">
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Corporate</a>
+                                                <a href="#" class="chip-label">Social Media Post Design </a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Beauty</a>
+                                                <a href="#" class="chip-label">Brochure Design & Pdf Design</a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">F&amp;B</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Web 3.0</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Hospitality</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Re-Branding</a>
+                                                <a href="#" class="chip-label">Print Graphics</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-text">
-                                        <p>Our branding team will excel at presenting your business in its best light.
-                                            Whether you’re looking to attract a new set of eyes, rekindle an old client
-                                            base, or simply refine your business’s identity - our creatives will formulate
-                                            the optimal corporate identity, collateral designs, and brand guidelines unique
-                                            to your company’s needs. Armed with your new bespoke brand - you will now be
-                                            able to captivate engaged new audiences and capitalize on your company’s full
-                                            potential. </p>
+                                        <p>
+                                            Our expert designers create compelling visuals that communicate your message effectively. Whether it’s social media creatives, marketing materials, or corporate presentations, we deliver designs that capture attention and leave a lasting impression.
+                                        </p>
                                     </div>
                                     <div class="service-action">
                                         <a href="#" class="redlink">
@@ -430,31 +399,20 @@
                                     <div class="service-tags">
                                         <div class="chips">
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Print
-                                                    Graphics</a>
+                                                <a href="#" class="chip-label">Social Media Post Design </a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Conference Event Branding</a>
+                                                <a href="#" class="chip-label">Brochure Design & Pdf Design</a>
                                             </div>
                                             <div class="chip">
-                                                <a href="#" class="chip-label">Deck
-                                                    Designs</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Digital Brand Collateral</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Social Media Designs</a>
+                                                <a href="#" class="chip-label">Print Graphics</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-text">
-                                        <p>Our innovative graphic design team will create the digital and print designs for
-                                            your project. Having both startup and enterprise experience, our designers
-                                            consider differing execution and audience demographics when designing a
-                                            pixel-perfect graphic for each unique client challenge. Following an existing
-                                            brand guideline or a specific reference in mind, our team will deliver a sleek,
-                                            clean design within timeline and budget.</p>
+                                        <p>
+                                            Our expert designers create compelling visuals that communicate your message effectively. Whether it’s social media creatives, marketing materials, or corporate presentations, we deliver designs that capture attention and leave a lasting impression.
+                                        </p>
                                     </div>
                                     <div class="service-action">
                                         <a href="#" class="redlink">
@@ -462,6 +420,7 @@
                                         </a>
                                     </div>
                                 </div>
+                                
                             </div>
 
                             <div class="service js-service" data-service="packaging-design">
@@ -484,11 +443,9 @@
                                         </div>
                                     </div>
                                     <div class="service-text">
-                                        <p>Experienced with top-grade packaging design for a wide range of products from
-                                            consumer goods to startup ideas. Your packaging design will exceed all
-                                            expectations with fresh yet pragmatic design ideas realistic to produce by the
-                                            creatives at DD.NYC®. Packaging design is what makes us fall in love with some
-                                            of our favorite products. Make yours a favorite.</p>
+                                        <p>
+                                            We design packaging that not only looks stunning but also tells your brand’s story. With a perfect blend of creativity and market appeal, our packaging solutions enhance product visibility and influence purchase decisions.
+                                        </p>
                                     </div>
                                     <div class="service-action">
                                         <a href="#" class="redlink">
@@ -497,44 +454,9 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="service js-service" data-service="video-production">
-                                <div class="service-caption js-service-caption">Video Production</div>
-                                <div class="service-content js-service-content">
-                                    <div class="service-tags">
-                                        <div class="chips">
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Corporate Video Production</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Event Video Production</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Promotional Videos</a>
-                                            </div>
-                                            <div class="chip">
-                                                <a href="#" class="chip-label">Post-Production &amp; Editing</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-text">
-                                        <p>DD.NYC® specializes in video production since 2015 in Manhattan, our talented
-                                            team leverages over 30 years of combined experience working with advertising
-                                            agencies and brands to create exceptional visual narratives. We are dedicated to
-                                            video excellence, crafting impactful content that authentically engages
-                                            audiences and elevates brands.</p>
-                                    </div>
-                                    <div class="service-action">
-                                        <a href="#" class="redlink">
-                                            <span>Learn More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-
-
                     </div>
+
                     <div class="service-preview desktop  " data-aos="fade-left" data-aos-offset="303.6666666666667"
                         data-aos-once="true">
                         <div class="service-content-copy js-service-copy active" data-service="web-design">
@@ -542,35 +464,20 @@
                                 <div class="service-tags">
                                     <div class="chips">
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Landing</a>
+                                            <a href="#" class="chip-label">UI Design</a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Brochure
-                                                Site</a>
+                                            <a href="#" class="chip-label">Design System</a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Corporate
-                                                Website</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">E-Commerce</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Web 3.0</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">UI/UX
-                                                Design</a>
+                                            <a href="#" class="chip-label">Prototyping</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <p>We create world-class websites using modern design practices. Mobile-first websites
-                                        and web experiences are essential to the success of your web project. While
-                                        maintaining bespoke originality, our team will focus on responsive design and
-                                        optimize your website for any device and interface. Your new website will attract
-                                        desirable target audiences, boost engagement, drive sales, and increase the brand
-                                        value of your business.</p>
+                                    <p>
+                                        We craft user-friendly and visually appealing interfaces that enhance user experience and drive engagement. Our designs prioritize functionality, accessibility, and seamless interaction to ensure your digital presence is intuitive and impactful.
+                                    </p>
                                 </div>
                                 <div class="service-action">
                                     <a href="#" class="redlink">
@@ -585,32 +492,20 @@
                                 <div class="service-tags">
                                     <div class="chips">
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Corporate</a>
+                                            <a href="#" class="chip-label">Social Media Post Design </a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Beauty</a>
+                                            <a href="#" class="chip-label">Brochure Design & Pdf Design</a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">F&amp;B</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Web 3.0</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Hospitality</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Re-Branding</a>
+                                            <a href="#" class="chip-label">Print Graphics</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <p>Our branding team will excel at presenting your business in its best light. Whether
-                                        you’re looking to attract a new set of eyes, rekindle an old client base, or simply
-                                        refine your business’s identity - our creatives will formulate the optimal corporate
-                                        identity, collateral designs, and brand guidelines unique to your company’s needs.
-                                        Armed with your new bespoke brand - you will now be able to captivate engaged new
-                                        audiences and capitalize on your company’s full potential. </p>
+                                    <p>
+                                        Our expert designers create compelling visuals that communicate your message effectively. Whether it’s social media creatives, marketing materials, or corporate presentations, we deliver designs that capture attention and leave a lasting impression.
+                                    </p>
                                 </div>
                                 <div class="service-action">
                                     <a href="#" class="redlink">
@@ -625,34 +520,20 @@
                                 <div class="service-tags">
                                     <div class="chips">
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Print
-                                                Graphics</a>
+                                            <a href="#" class="chip-label">Social Media Post Design </a>
                                         </div>
                                         <div class="chip">
-                                            <a href="https://dd.nyc/services/conference-branding/"
-                                                class="chip-label">Conference Event Branding</a>
+                                            <a href="#" class="chip-label">Brochure Design & Pdf Design</a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Deck
-                                                Designs</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Digital
-                                                Brand Collateral</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Social
-                                                Media Designs</a>
+                                            <a href="#" class="chip-label">Print Graphics</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <p>Our innovative graphic design team will create the digital and print designs for your
-                                        project. Having both startup and enterprise experience, our designers consider
-                                        differing execution and audience demographics when designing a pixel-perfect graphic
-                                        for each unique client challenge. Following an existing brand guideline or a
-                                        specific reference in mind, our team will deliver a sleek, clean design within
-                                        timeline and budget.</p>
+                                    <p>
+                                        Our expert designers create compelling visuals that communicate your message effectively. Whether it’s social media creatives, marketing materials, or corporate presentations, we deliver designs that capture attention and leave a lasting impression.
+                                    </p>
                                 </div>
                                 <div class="service-action">
                                     <a href="#" class="redlink">
@@ -676,17 +557,14 @@
                                             <a href="#" class="chip-label">Beverage Packaging</a>
                                         </div>
                                         <div class="chip">
-                                            <a href="#" class="chip-label">Startup
-                                                Product Packaging</a>
+                                            <a href="#" class="chip-label">Startup Product Packaging</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <p>Experienced with top-grade packaging design for a wide range of products from
-                                        consumer goods to startup ideas. Your packaging design will exceed all expectations
-                                        with fresh yet pragmatic design ideas realistic to produce by the creatives at
-                                        DD.NYC®. Packaging design is what makes us fall in love with some of our favorite
-                                        products. Make yours a favorite.</p>
+                                    <p>
+                                        We design packaging that not only looks stunning but also tells your brand’s story. With a perfect blend of creativity and market appeal, our packaging solutions enhance product visibility and influence purchase decisions.
+                                    </p>
                                 </div>
                                 <div class="service-action">
                                     <a href="#" class="redlink">
@@ -695,40 +573,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="service-content-copy js-service-copy " data-service="video-production">
-                            <div class="service-content js-service-content">
-                                <div class="service-tags">
-                                    <div class="chips">
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Corporate Video Production</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Event Video Production</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Promotional Videos</a>
-                                        </div>
-                                        <div class="chip">
-                                            <a href="#" class="chip-label">Post-Production &amp; Editing</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <p>DD.NYC® specializes in video production since 2015 in Manhattan, our talented team
-                                        leverages over 30 years of combined experience working with advertising agencies and
-                                        brands to create exceptional visual narratives. We are dedicated to video
-                                        excellence, crafting impactful content that authentically engages audiences and
-                                        elevates brands.</p>
-                                </div>
-                                <div class="service-action">
-                                    <a href="#" class="redlink">
-                                        <span>Learn More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
@@ -740,7 +584,7 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center graphicheadingsecthree">
-                    Our Expertise <span class="fw-bold text-primary ">Spans</span>
+                    Our <span class="fw-bold text-primary">Procedure</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap graphicsecondheadsecthree">
@@ -755,11 +599,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/web-design.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Graphic Design</p>
-                            <p class="card-text text-start text-wrap">Our graphic design services are essential for
-                                creating
-                                impactful visuals that capture attention and convey messages effectively. Our skilled
-                                designers are best at producing eye-catching logos, compelling marketing materials.</p>
+                            <p class="fw-bold text-start">Discovery</p>
+                            <p class="card-text text-start text-wrap">
+                                To make sure our designs reflect your vision, we start by learning about your brand, objectives, and target market.
+                            </p>
 
                         </div>
                     </div>
@@ -769,12 +612,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/uiux.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">UI/UX Design</p>
-                            <p class="card-text text-start text-wrap">User Interface (UI) and User Experience (UX) design
-                                is
-                                essential for any digital product. At Yuv Media, we specialize in creating user-friendly
-                                interfaces to enhance user satisfaction. Our process includes research, wireframing,
-                                prototyping, and testing.</p>
+                            <p class="fw-bold text-start">Strategy</p>
+                            <p class="card-text text-start text-wrap">
+                                We create a thorough design plan that specifies the methodology, schedule, and outputs.
+                            </p>
 
                         </div>
                     </div>
@@ -784,11 +625,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/graphic-designer.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Branding and Identity Design</p>
-                            <p class="card-text text-start text-wrap">Your brand is more than just a logo; it’s the core of
-                                your business and how you connect with your audience. Our branding and identity design
-                                services help you create a strong, unique brand. We work with you to develop a comprehensive
-                                brand strategy.</p>
+                            <p class="fw-bold text-start">Design</p>
+                            <p class="card-text text-start text-wrap">
+                                After receiving your input, our team develops preliminary design suggestions to enhance and perfect the images.
+                            </p>
 
                         </div>
                     </div>
@@ -800,11 +640,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/3d-film.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Motion Graphics and 3D Animation</p>
-                            <p class="card-text text-start text-wrap">Motion graphics and 3D animation add a dynamic
-                                dimension to your marketing efforts. Our team creates engaging motion graphics and 3D
-                                animations for your marketing needs, including explainer videos, promotional content, and
-                                animated logos.</p>
+                            <p class="fw-bold text-start">Implementation</p>
+                            <p class="card-text text-start text-wrap">
+                                We make sure the finished designs are responsive across all platforms and gadgets.
+                            </p>
 
                         </div>
                     </div>
@@ -814,12 +653,74 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/trim.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Video Editing</p>
-                            <p class="card-text text-start text-wrap">Video editing is the process of arranging and
-                                manipulating video shots to create a cohesive final product, incorporating tasks such as
-                                trimming footage, adding transitions, special effects, and syncing audio. It relies on
-                                powerful software like Adobe Premiere Pro and DaVinci Resolve.</p>
+                            <p class="fw-bold text-start">Evaluation</p>
+                            <p class="card-text text-start text-wrap">
+                                To make sure the designs fulfill your goals, we evaluate their performance and make the required modifications.
+                            </p>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 position-relative">
+        <div class="container py-5 justify-content-center">
+            <div class="row">
+                <div class="text-center graphicheadingsecthree mb-3">
+                    Smart Solutions, Stronger Brands <span class="fw-bold text-primary">– Choose Yuvmedia</span>
+                </div>
+            </div>
+            <div class="row gy-4 gx-4">
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">Expertise</p>
+                            <p class="card-text text-start text-wrap">
+                                Our team has experts for any need, so you can be sure your project is in good hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">Engaging material</p>
+                            <p class="card-text text-start text-wrap">
+                                We provide material that builds your brand and increases return on investment while prioritizing social media on each platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">Custom Reporting</p>
+                            <p class="card-text text-start text-wrap">
+                                We plan and create reports that are in line with your priorities, business objectives, and key performance indicators.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 gy-4">
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">Social Transformation</p>
+                            <p class="card-text text-start text-wrap">
+                                We can assist you whether you want to change your brand, need a reliable partner to expand your social media following.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="graphicards">
+                        <div class="card-body text-start">
+                            <p class="fw-bold text-start">Evaluation</p>
+                            <p class="card-text text-start text-wrap">
+                                To make sure the designs fulfill your goals, we evaluate their performance and make the required modifications.
+                            </p>
                         </div>
                     </div>
                 </div>
