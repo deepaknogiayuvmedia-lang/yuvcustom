@@ -8,14 +8,15 @@
             <div class=" row">
                 <div class="col-md-12">
                     <div class="text-center globaltxtcolor fs-1">
-                        Email Marketing That <br />
+                        Reach the Right Inbox at the Right Time!
+                        <br />
                         <span id="typewriter" data-array="" class="fw-bold fs-1"></span>
                         <span class="cursor">|</span>
                     </div>
                     <div class="text-center py-2">
                         <p class="text-wrap ">
-                            Email marketing with automation workflows. Grow your audience using smart popups, forms &
-                            landing pages, and interactive emails thanks to our proprietary deliverability engine.
+                            Grow Your Customer Base with the Leading Email Marketing & Automation Platform—Designed to Boost
+                            Engagement and Sales.
                         </p>
                     </div>
 
@@ -40,29 +41,28 @@
 
                 <div class="col-md-6">
                     <div class="text-start fs-2 fw-bold">
-                        Break Free from Email Provider Frustrations
-
-
+                        Drive Sales, Build Relationships, and Keep Your Audience Engaged
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Is your current provider holding you back?
+                            Are you aiming to boost sales, engage your audience, and cultivate lasting customer
+                            relationships?
+                        </p>
+                        <h6 class="text-wrap seosecondhead">
+                            Wondering how to achieve this?
+                        </h6>
+                        <p class="text-wrap seosecondhead">
+                            As a leading email marketing agency, we specialize in propelling your business toward success.
                         </p>
                         <p class="text-wrap seosecondhead">
-                        <ul>
-                            <li>Unresponsive support leaves you stranded</li>
-                            <li>Arbitrary account bans disrupt your business</li>
-                            <li>Emails languish in spam, wasting your efforts</li>
-                        </ul>
-                        </p>
-                        <p class="text-wrap seosecondhead">
-                            Your business deserves better.
+                            Let’s explore how we make it happen!
                         </p>
                     </div>
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a  href=" {{route('contact')}}" class="btn btn-lg  seobbtn">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
     <section class="py-3 position-relative bg-black ">
 
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center mt-5">
 
                 <div class="col-md-12 text-white">
                     <div class="text-start fs-2 fw-bold">
@@ -95,7 +95,8 @@
 
                     <div class="d-flex justify-content-start flex-wrap ">
                         <div class="me-3">
-                            <a  href=" {{route('contact')}}" class="btn btn-lg btn-info">Contact Us <i class="bi bi-arrow-right"></i></a>
+                            <a href=" {{ route('contact') }}" class="btn btn-lg btn-info">Contact Us <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -188,6 +189,43 @@
     <section class="py-5 position-relative">
         <div class="container">
             <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="seoimage " src="https://www.sendx.io/hubfs/automate-your-success.png" alt="seo">
+                </div>
+                <div class="col-md-6">
+                    <div class="text-start fs-2 fw-bold">
+                        Fuel Your Sales with Strategic Email Campaigns
+                    </div>
+                    <div class="text-start py-2">
+                        <p class="text-wrap seosecondhead">
+                            Utilize Yuvmedia's email marketing technologies to create campaigns that convert well with ease.
+                        </p>
+                        <p class="text-wrap seosecondhead">
+                        <ul>
+                            <li>With our user-friendly editor, select from thousands of exquisitely designed templates.</li>
+                            <li>Make engaging, interactive emails for your readers.</li>
+                            <li>Send geo-optimized messages to improve targeting</li>
+                            <li>Easily resend to unopened emails with just one click.</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                        <div class="me-3">
+                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 position-relative">
+        <div class="container">
+            <div class="row align-items-center">
 
                 <div class="col-md-6">
                     <div class="text-start fs-2 fw-bold">
@@ -208,7 +246,7 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a  href=" {{route('contact')}}" class="btn btn-lg  seobbtn">Contact Us <i
+                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -220,7 +258,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="py-5 position-relative">
         <div class="container">
@@ -238,13 +275,16 @@
                                         <div class="col-md-6">
                                             <h1 class="service-card__title">Craft Emails That Convert</h1>
                                             <p class="text-wrap seosecondhead">
-                                                Stand out in crowded inboxes and drive engagement.
+                                                Enhance engagement and ensure your emails stand out in crowded inboxes.
                                             <ul>
-                                                <li>Choose from 1000+ professionally designed templates</li>
-                                                <li>Advanced personalization and segmentation</li>
-                                                <li>Heatmap report to know which CTAs are working</li>
-                                                <li>Add interactive elements like countdown timers</li>
-                                                <li>Optimize send times with Geo-send and Smart Send</li>
+                                                <li>Get access to more than 1,000 expertly designed templates</li>
+                                                <li>Use sophisticated segmentation to personalize emails.</li>
+                                                <li>Use heatmaps to monitor the efficacy of CTAs.</li>
+                                                <li>Include interactive features such as countdown clocks.</li>
+                                                <li>Use Geo-Send and Smart Send Target with Precision to maximize delivery
+                                                    times</li>
+                                                <li>At the right time, convey the right message to the right audience.
+                                                </li>
                                             </ul>
                                             </p>
                                         </div>
@@ -265,13 +305,13 @@
                                 <div class="service-card__content bgBox">
                                     <div class="row position-relative slideBox ">
                                         <div class="col-md-6">
-                                            <h1 class="service-card__title">Target with Laser Precision</h1>
+                                            <h1 class="service-card__title">Target with Precision</h1>
                                             <p class="text-wrap seosecondhead">
                                                 Deliver the right message to the right person, every time.
                                             <ul>
-                                                <li>Create segments based on behavior and demographics</li>
-                                                <li>Utilize smart templating for mass personalization</li>
-                                                <li>Implement dynamic content for tailored experiences</li>
+                                                <li>Divide up your audience based on demographics and behavior.</li>
+                                                <li>Use dynamic content to create individualized encounters.</li>
+                                                <li>Automate bulk personalization with intelligent templating.</li>
                                             </ul>
                                             </p>
                                         </div>
@@ -295,12 +335,15 @@
                                         <div class="col-md-6">
                                             <h1 class="service-card__title">Maximize Your Inbox Potential</h1>
                                             <p class="text-wrap seosecondhead">
-                                                Reach more subscribers and avoid the dreaded spam folder.
+                                                Make sure that your emails end up in the inbox rather than the spam folder.
                                             <ul>
-                                                <li>Leverage our proprietary deliverability engine</li>
-                                                <li>Leverage our proprietary deliverability engine to maximize inboxing</li>
-                                                <li>Automatic list cleaning and spam trap analysis</li>
-                                                <li>Maintain a clean list with advanced threat analysis</li>
+                                                <li>Maximize inbox delivery using our advanced deliverability engine.
+                                                </li>
+                                                <li>Use our in-house deliverability engine to get the best mailbox
+                                                    placement.</li>
+                                                <li>Use sophisticated spam trap and threat analysis to automatically clear
+                                                    your lists.</li>
+                                                <li>Use effective monitoring tools to keep your list healthy.</li>
 
                                             </ul>
                                             </p>
@@ -326,6 +369,191 @@
         </div>
 
     </section>
+
+    <section class=" position-relative py-5">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class=" globaltxtcolor">
+                    Why Your Business Needs an Expert Email Marketing Agency?
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Build Customer Loyalty:
+                            </div>
+                            <p class="card-text text-start">
+                                An email marketing agency helps you foster strong relationships with your customers, ensuring they stay loyal to your brand through personalized and engaging content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Expansion of Business:
+                            </div>
+                            <p class="card-text text-start">
+                                With expert email marketing strategies, you can reach new audiences and scale your business effectively, expanding your market reach and increasing your customer base.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Reduction in Time & Effort:
+                            </div>
+                            <p class="card-text text-start">
+                                By outsourcing your email marketing, you free up valuable time and resources, allowing your team to focus on other important aspects of your business while experts handle your campaigns.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Tracking of Analytics</div>
+                            <p class="card-text text-start">
+                                An agency provides detailed analytics on campaign performance, helping you understand open rates, click rates, and conversions, so you can continuously optimize your strategies for better results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Connection with Different Audiences</div>
+                            <p class="card-text text-start">
+                                Email marketing agencies utilize segmentation and targeted campaigns to connect with various customer segments, ensuring you deliver the right message to the right audience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Testing Email Campaigns</div>
+                            <p class="card-text text-start">
+                                Agencies conduct A/B testing and optimize email campaigns to find the best performing strategies, ensuring each email reaches its highest potential and delivers the desired outcome.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" position-relative py-5">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class=" globaltxtcolor">
+                    What We Bring To The Table?
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email Strategy Development</div>
+                            <p class="card-text text-start">
+                                We craft customized email strategies designed to meet your business goals, driving conversions and building strong customer relationships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email List Building</div>
+                            <p class="card-text text-start">
+                                Our team helps you grow a quality email list by using proven methods to attract and engage your target audience, ensuring higher engagement rates.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email Design and Content Creation</div>
+                            <p class="card-text text-start">
+                                We create visually appealing and engaging email designs, paired with compelling content that speaks directly to your subscribers, encouraging action.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email Automation
+                            </div>
+                            <p class="card-text text-start">
+                                We set up automated email campaigns that nurture leads, send timely messages, and engage customers, saving you time while boosting results.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email Campaign Management</div>
+                            <p class="card-text text-start">
+                                We handle every aspect of your email campaigns, from setup and scheduling to tracking and optimization, ensuring peak performance and maximum ROI.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Email Analytics and Reporting
+                            </div>
+                            <p class="card-text text-start">
+                                We provide in-depth analytics and detailed reports on campaign performance, allowing you to measure success and refine strategies for even better results.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center py-2 bg-success-subtle rounded-4 mt-3">
+                    <p class="text-wrap ">
+                        Join millions of satisfied users who trust us with their email marketing. You can count on us too!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>

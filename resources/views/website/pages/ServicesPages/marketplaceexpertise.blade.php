@@ -9,8 +9,8 @@
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center ">
-                        Get Expert <span class="fw-bold" style="color: #ff9e42">Account Management Services</span>
-
+                        Become an Ecommerce Seller <br/> <span class="fw-bold" style="color: #ff9e42">and sell to 50+ Crore customers
+                        </span>
                     </h1>
                     <div class="text-center py-2">
                         <p class="text-wrap marketsecondhead">
@@ -21,6 +21,7 @@
 
                 <div class="col-md-12">
                     <div class="hero-video">
+                        
                         <!--desk-video-->
                         <video autoplay="" muted="" playsinline="" loop="" class="hero-asset desk-video"
                             poster="https://ondc.org/assets/theme/images/video_img.jpg">
@@ -564,6 +565,54 @@
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class=" marketheading text-center">
+                        Scale Your Business with Our E-commerce Platform
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                        <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Amazon</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                        <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Flipkart</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto h-100" style="width: 18rem;">
+                        <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Meesho</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                        <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Etsy</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 position-relative ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class=" marketheading text-center">
                         Roles on the Seller network
                     </div>
                     <div class="py-3 roles-card-wrapper">
@@ -603,10 +652,8 @@
                                         <div class="category-info">
                                             <h3>Buyer Network Participant</h3>
                                             <p>
-                                                Connects buyers to the seller network via a buyer application and shoulders
-                                                buyer-facing responsibilities such as customer support, ensuring a seamless
-                                                shopping experience, and providing a unified checkout experience across
-                                                categories.
+                                                These are customers who browse, shop, and make purchases on eCommerce platforms. As a marketplace, it's crucial to understand buyer behavior, preferences, and needs to tailor your products and services effectively to this group.
+
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -636,11 +683,7 @@
                                         <div class="category-info">
                                             <h3>Seller Network Participant</h3>
                                             <p>
-                                                A Seller Network Participant is responsible for connecting sellers to the
-                                                seller network through a seller application. They are also responsible for
-                                                digitizing the seller's catalogue and dispersing payments. Additionally,
-                                                they must train sellers on best practices in e-commerce to ensure quality
-                                                fulfilment and provide a positive buying experience for customers.
+                                                Sellers are the backbone of the marketplace ecosystem. They list their products or services for sale, manage their inventory, fulfill orders, and handle customer interactions. Successful sellers engage with the platform’s tools and services to optimize their presence and boost sales
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -668,13 +711,9 @@
                                 <div class="row role-block">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                         <div class="category-info">
-                                            <h3>seller Gateway</h3>
+                                            <h3>Seller Gateway</h3>
                                             <p>
-                                                Gateways play a crucial role in an open-network ecosystem. It refers to
-                                                technology providers who will ensure discoverability of all sellers in the
-                                                seller Network by multicasting the search request received from buyer
-                                                applications to all the seller applications and vice-versa, as provided in
-                                                the Network Policies of seller.&nbsp;
+                                                A gateway acts as the connection point between different parties within the marketplace. It ensures secure transactions, payment processing, and facilitates the exchange of information between buyers, sellers, and other network participants.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -704,13 +743,7 @@
                                         <div class="category-info">
                                             <h3>Technology Service Provider</h3>
                                             <p>
-                                                Technology Service Providers play a vital role in providing a variety of
-                                                software applications (either stand-alone or through the cloud) but only as
-                                                an outsourced software provider to Buyer and Seller applications. Their
-                                                services ensure smooth business operations on the seller network. TSPs
-                                                empower
-                                                players to participate in e-commerce without having any in-house technology
-                                                capabilities.&nbsp;&nbsp;
+                                                Technology service providers offer tools, software, or infrastructure that help improve the performance and functionality of the marketplace. They provide services like payment solutions, data analytics, logistics, customer support, and more, ensuring the smooth operation of the seller network.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -750,10 +783,7 @@
                 </div>
                 <div class="text-start py-2">
                     <p class="text-wrap marketsecondheadsecthree">
-                        ABA is a Paid Account Management service that provides business intelligence driven strategic
-                        insights to the sellers in order to scale up their revenues and contribute in making them successful
-                        on the platform by driving key inputs. As a part of this service, sellers will be getting a
-                        dedicated account manager having expert knowledge in their relevant category.
+                        To assist sellers in expanding their businesses, we offer a premium paid account management product called Amazon Business Advisory (ABA). ABA helps sellers maximize their income potential by utilizing strategic insights and business intelligence. A dedicated account manager with in-depth expertise of their industry is made available to sellers.
                     </p>
                 </div>
             </div>
@@ -769,10 +799,9 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/productlisting.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Account Manager
-                            </p>
-                            <p class="card-text text-start text-wrap">Work closely with an in-house Account Manager to
-                                brainstorm new and creative ideas to help you get your business to the next level
+                            <p class="fw-bold text-start">Account Manager</p>
+                            <p class="card-text text-start text-wrap">
+                                Work directly with an internal account manager to provide innovative ideas and propel your company's expansion.
                             </p>
 
                         </div>
@@ -783,11 +812,9 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/order-fulfillment.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Data-driven Business Plan
-                            </p>
-                            <p class="card-text text-start text-wrap">All sellers will have a dedicated account management
-                                plan, including weekly summary to analyse growth. Get customized recommendations to improve
-                                selection
+                            <p class="fw-bold text-start">Data-driven Business Plan</p>
+                            <p class="card-text text-start text-wrap">
+                                Take advantage of a personalized account management plan that includes weekly updates to monitor and assess your progress. Get personalized suggestions to enhance the performance and choice of your products.
                             </p>
 
                         </div>
@@ -798,10 +825,9 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Account Health
-                            </p>
-                            <p class="card-text text-start text-wrap">Get recommendations and best practices to have a good
-                                account health and get critical issues resolved through dedicated escalation paths
+                            <p class="fw-bold text-start">Account Health Management</p>
+                            <p class="card-text text-start text-wrap">
+                                Get professional advice and best practices to keep your account in good shape. Dedicated escalation channels ensure that critical issues are immediately addressed.
                             </p>
 
                         </div>
@@ -812,11 +838,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/seller.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Visibility & Performance
+                            <p class="fw-bold text-start">Visibility & Performance Optimization</p>
+                            <p class="card-text text-start text-wrap">
+                                Increase brand awareness on sites like Amazon by using expert-recommended marketing campaigns and promotional techniques to keep your name at the forefront of consumers' minds.
                             </p>
-                            <p class="card-text text-start text-wrap">Make your presence felt across Amazon.in
-                                Be on top of customers' mind through deals and campaigns recommended by experts</p>
-
                         </div>
                     </div>
                 </div>
@@ -828,12 +853,11 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center marketheadingsecthree">
-                    FOCUS <span class="text-primary fw-bold">AREAS</span>
+                    What You Gain <span class="text-primary fw-bold">with Our Expertise</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap marketsecondheadsecthree">
-                        When you partner with us, you gain more than just a video; you receive a captivating story that
-                        aligns with your brand’s vision.
+                        Unlock growth, drive engagement, and achieve real results with our expert solutions.
                     </p>
                 </div>
             </div>
@@ -844,9 +868,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/seller.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Seller Account Setup</p>
-                            <p class="card-text text-start text-wrap">We set up and optimize your seller profiles on
-                                popular
-                                platforms such as Amazon, Flipkart, and beyond.</p>
+                            <p class="card-text text-start text-wrap">
+                                We streamline the process of setting up your seller account, ensuring that all the necessary details are filled out accurately and professionally, so you can hit the ground running on marketplaces like Amazon, Flipkart and others.
+                            </p>
 
                         </div>
                     </div>
@@ -857,9 +881,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/productlisting.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Product Listing Creation</p>
-                            <p class="card-text text-start text-wrap">Our experts will create engaging product listings
-                                with
-                                high-quality images and descriptions.</p>
+                            <p class="card-text text-start text-wrap">
+                                Our team creates compelling and SEO-optimized product listings, including high-quality images, detailed descriptions, and effective keywords, to attract potential customers and boost conversions.
+                            </p>
 
                         </div>
                     </div>
@@ -870,8 +894,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/order-fulfillment.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Order Fulfillment</p>
-                            <p class="card-text text-start text-wrap">We handle your orders with care, ensuring timely
-                                shipping and customer satisfaction.</p>
+                            <p class="card-text text-start text-wrap">
+                                We help you manage order fulfillment seamlessly, ensuring timely delivery and customer satisfaction, whether you’re handling it in-house or through third-party logistics.
+                            </p>
 
                         </div>
                     </div>
@@ -882,8 +907,48 @@
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Marketing and Promotions</p>
-                            <p class="card-text text-start text-wrap">We help you increase visibility through effective
-                                marketing strategies and promotions.</p>
+                            <p class="card-text text-start text-wrap">
+                                Our marketing experts develop and execute promotional strategies, including discount campaigns, seasonal promotions, and paid ads, to increase your brand’s visibility and sales on marketplaces.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="marketcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">Product FBA</p>
+                            <p class="card-text text-start text-wrap">
+                                We guide you through setting up Amazon’s Fulfillment by Amazon (FBA), helping you optimize inventory management, reduce shipping costs, and ensure fast delivery to customers.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="marketcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">Brand Registry and Protection</p>
+                            <p class="card-text text-start text-wrap">
+                                We assist with Brand Registry and other marketplace protections to safeguard your brand, intellectual property, and listings from counterfeiters and unauthorized sellers.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="marketcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">Account Health Management</p>
+                            <p class="card-text text-start text-wrap">
+                                Our team actively monitors and maintains your account health, keeping track of performance metrics, customer feedback, and policy compliance to prevent issues and ensure long-term success.
+                            </p>
 
                         </div>
                     </div>

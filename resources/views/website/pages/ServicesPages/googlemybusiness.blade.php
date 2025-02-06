@@ -8,22 +8,24 @@
             <div class=" row">
                 <div class="col-md-6">
                     <div class="text-start gmbheading">
-                        Optimize Your Online Presence with <span class="text-primary fw-bold">Google My Business</span>
+                        Get Noticed Locally, <span class="text-primary fw-bold"> Grow Globally</span>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap gmbsecondhead">
-                            YUVMEDIA is committed to managing your Google My Business (GMB) profile strategically to attract
-                            your target audience and generate real results for your business. Our complete GMB packages are
-                            designed to optimize every aspect of your listing, guaranteeing increased visibility and
-                            engagement.
+                            With a fully optimized Google Business Profile, you can make a powerful impact locally while
+                            expanding your reach globally. By ensuring your business information is accurate, engaging, and
+                            up-to-date, you increase visibility in local search results, making it easier for potential
+                            customers to find you.
                         </p>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap gmbsecondhead">
-                            Choose YUVMEDIA GMB management services for comprehensive listing management, keyword
-                            optimization, post-GMB listing audits, competitor analysis, and local keyword research.
-                            Establishing a robust presence on Google My Business is essential for businesses aiming to
-                            increase revenue and build trust with their audience.
+                            Whether it's showcasing your services, sharing updates, or collecting customer reviews, your
+                            Google Business Profile is the gateway to enhancing your online presence and attracting both
+                            local and international customers.
+                        </p>
+                        <p class="text-wrap gmbsecondhead">
+                            Let’s help you get noticed locally and scale your business globally!
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -94,14 +96,13 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
                                         onclick="switchTab('v-pills-home-tab');">
-                                        Add essential info
+                                        Google Maps Listing
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Add information like your phone number, operating hours, and health and safety
-                                        measures, so customers know what to expect.
+                                        Show up correctly on Google Maps, adjusting your pin and location.
                                     </div>
                                 </div>
                             </div>
@@ -110,14 +111,13 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
                                         onclick="switchTab('v-pills-profile-tab');">
-                                        Share photos, your logo, and more
+                                        Phone Number & Call Tracking
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Show your business’s personality with photos, a cover image, your logo, and more to
-                                        stand out to customers.
+                                        Never miss calls and track how many you get from Google.
                                     </div>
                                 </div>
                             </div>
@@ -126,12 +126,27 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"
                                         onclick="switchTab('v-pills-3-tab');">
-                                        Show who you are
+                                        Correct & Special Hours
                                     </button>
                                 </h2>
                                 <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Add attributes like women-led so people can learn more about your business.
+                                        List correct open hours and show correct holiday hours.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-4 mb-3 ">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"
+                                        onclick="switchTab('v-pills-4-tab');">
+                                        Handle Reviews Responsibly
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Know when new reviews come your way, and respond to them!
                                     </div>
                                 </div>
                             </div>
@@ -161,6 +176,11 @@
                                 aria-selected="false" onclick="switchAccordion('#collapse3');">
                                 Profile
                             </button>
+                            <button class="nav-link" id="v-pills-4-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4"
+                                aria-selected="false" onclick="switchAccordion('#collapse4');">
+                                Profile
+                            </button>
                         </div>
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
@@ -171,16 +191,22 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
+                                aria-labelledby="v-pills-marketing-tab">
                                 <div class="w-75">
                                     <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/be/47/4b57ceb047faa66261121a9b7b02/img-2.png=n-w1008-h1002-rw"
                                         alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
+                            <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
                                 <div class="w-75">
                                     <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/89/75/6d58c53746078041b2d47587cea3/img-3.png=n-w1008-h1002-rw"
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
+                                aria-labelledby="v-pills-assets-tab">
+                                <div class="w-75">
+                                    <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/1f/dc/9c81c95b4cdc88db098c53855d6d/img-1.png=n-w1008-h1002-rw"
                                         alt="" class="img-fluid">
                                 </div>
                             </div>
@@ -197,8 +223,7 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center gmbheading">
-                    Take charge of your first impression
-
+                    Your First Impression Matters – Make It Memorable
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap gmbsecondhead">
@@ -209,46 +234,83 @@
                     <div class="position-sticky" style="top: calc(-259px + 50vh);">
 
                         <h2>Show what you offer,<br /> from menu dishes to services.</h2>
-                        <p>Whether you’re a restaurant, store, or service provider,<br /> your profile helps customers do
-                            business<br />
-                            with you easily and directly with menus, quotes, and more.
+                        <p>Highlight your services, products, and key features to potential <br />customers right in the
+                            search results. Keep them informed with<br /> up-to-date business hours, location, and
+                            promotions, and make<br /> it easy for them to reach out or visit.
+
                         </p>
                         <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Get Started for Free <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">
-
+                    <h2 class="mb-3">
+                        Get Found, Get Chosen
+                    </h2>
                     <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/89/e1/c9ef029444f0bdf061cf5a9becb2/img-8.png=n-w898-h922-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
-                            Accept food orders and more
+                            Easy Online Presence Setup
                         </h4>
                         <p>
-                            Take orders for delivery and pickup and let customers make reservations. Even add your menu,
-                            so people can discover your best dishes.
+                            Quickly establish your online presence and get your business visible to local customers with
+                            minimal effort.
                         </p>
                     </div>
                     <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/eb/96/2faae1e34b2f9afd8282a80ea4c4/img-9.png=n-w782-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
-                            Offer more ways to shop
+                            Get Found on Google Maps
                         </h4>
                         <p>
-                            Show whether you offer options like curbside pickup or delivery.
+                            Ensure your business shows up on Google Maps, making it easy for customers to find you when they
+                            need your services.
                         </p>
                     </div>
                     <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
-                            Offer your services
+                            Showcase Key Business Details
                         </h4>
                         <p>
-                            Show a list of your business services and provide online quotes, so customers get the info they
-                            need to choose you.
+                            Highlight essential information like business hours, phone numbers, and location to make it
+                            easier for customers to contact you.
+                        </p>
+                    </div>
+                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                        <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
+                            alt="" class="img-fluid mb-3">
+                        <h4>
+                            Build a Positive Reputation
+                        </h4>
+                        <p>
+                            Boost your business’s reputation by gathering customer reviews and feedback, helping to
+                            establish trust with potential clients.
+                        </p>
+                    </div>
+                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                        <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
+                            alt="" class="img-fluid mb-3">
+                        <h4>
+                            Drive Traffic with Expert Services
+                        </h4>
+                        <p>
+                            Increase website traffic by optimizing your Google Business Profile, ensuring more eyes on your
+                            offerings and more conversions.
+                        </p>
+                    </div>
+                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                        <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
+                            alt="" class="img-fluid mb-3">
+                        <h4>
+                            Track and Improve Performance
+                        </h4>
+                        <p>
+                            Utilize analytics to monitor customer interactions, track performance, and adjust strategies to
+                            ensure continuous growth.
                         </p>
                     </div>
 
@@ -312,18 +374,16 @@
         </div>
     </section>
 
-    <section class="py-5 position-relative ">
+    <section class="py-5 position-relative bannerbg">
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center gmbheading">
-                    Discover the Benefits of Partnering with a <span class="fw-bold text-primary">Google My Business
-                        Service
-                        Provider</span>
+                    What’s In It <span class="fw-bold text-primary"> For You</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap gmbsecondhead">
-                        Managing your Google My Business profile can be time-consuming, but partnering with a professional
-                        service provider ensures your business gets the attention it deserves.
+                        It might take up significant time to manage a GMB profile; let us do it for you. Your firm will
+                        expand without any hassles if you work with us.
                     </p>
                 </div>
             </div>
@@ -333,7 +393,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/online-presence.png') }}"
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Establishing your online presence has never been easier.</p>
+                            <h5>Current GBP Auditing</h5>
+                            <p class="card-text">
+                                We conduct a comprehensive audit of your Google Business Profile to ensure it's optimized for maximum visibility and performance.
+                            </p>
 
                         </div>
                     </div>
@@ -343,8 +406,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/google-maps.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Ensure your customers can easily find you on Google Maps with a fully
-                                optimized profile.</p>
+                            <h5>Initial Ranking Reporting</h5>
+                            <p class="card-text">
+                                Get a detailed report on where your business stands in local search rankings, giving you insights to plan your next steps.
+                            </p>
 
                         </div>
                     </div>
@@ -354,8 +419,9 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/verified.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Highlight key business details such as operating hours and contact
-                                numbers.
+                            <h5>Geogrid Ranking and Reporting</h5>
+                            <p class="card-text">
+                                We analyze your business's ranking within specific geographic regions to identify key areas for local growth.
                             </p>
 
                         </div>
@@ -366,7 +432,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/customer-satisfaction.png') }}"
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Build a strong reputation through positive client feedback.</p>
+                            <h5>Product & Service Optimization</h5>
+                            <p class="card-text">
+                                We help optimize the products and services listed on your GBP to better align with what your customers are searching for.
+                            </p>
 
                         </div>
                     </div>
@@ -376,8 +445,10 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/performance-boost.png') }}"
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Drive more visitors to your website with our expert Google My Business
-                                services.</p>
+                            <h5>Ask A Question & Reviews Updations</h5>
+                            <p class="card-text">
+                                We manage and update the "Ask a Question" section and customer reviews to enhance engagement and credibility.
+                            </p>
 
                         </div>
                     </div>
@@ -387,89 +458,23 @@
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/monitoring.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="card-text">Track customer interactions, measure performance, and make data-driven
-                                improvements!</p>
+                            <h5>Images & Video Uploading</h5>
+                            <p class="card-text">
+                                We ensure your GBP profile includes up-to-date images and videos that showcase your business in the best light, attracting more attention.
+                            </p>
 
                         </div>
                     </div>
                 </div>
-                <div class="text-center py-2">
-                    <p class="text-wrap fw-bold bg-success-subtle rounded-4 p-3">
-                        Feel the impact of YUVMEDIA GMB Services and elevate your business to new heights while you
-                        concentrate on what you do best.
-                    </p>
-                </div>
+            </div>
+            <div class="text-center py-2 mt-3">
+                <p class="text-wrap fw-bold bg-success-subtle rounded-4 p-3">
+                    Let’s Build Your Business’s Best First Impression – Reach out today!
+                </p>
             </div>
         </div>
     </section>
 
-
-    <section class="py-5 position-relative bannerbg">
-        <div class="container py-2 py-md-5 justify-content-center">
-            <div class="row">
-                <div class="text-center gmbheadingsecthree">
-                    Complete Optimization for Your <span class="fw-bold text-primary">Google My Business Page</span>
-                </div>
-                <div class="text-center py-2">
-                    <p class="text-wrap gmbsecondheadsecthree">
-                        Maximize your local business potential with a fully optimized Google My Business profile. From
-                        keyword analysis to strategic audits and engaging campaigns, we ensure your business stands out in
-                        local search results.
-                    </p>
-                </div>
-            </div>
-            <div class="row gy-4 gx-4">
-                <div class="col-md-3">
-                    <div class="gmbcardssecthree">
-                        <div class="card-body text-start">
-                            <img src="{{ asset('assets/websiteAssets/images/competitive-analysis.png') }}"
-                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Keyword and Competitor Analysis</p>
-                            <p class="card-text text-start text-wrap">We analyze your competitors' GMB and optimize your
-                                GMB with keywords to improve you ranking.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gmbcardssecthree">
-                        <div class="card-body text-start">
-                            <img src="{{ asset('assets/websiteAssets/images/audit.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Audit Of GMB Listing</p>
-                            <p class="card-text text-start text-wrap">Our professionals conduct multiple GMB listing audits
-                                to develop a strategy for your business growth.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gmbcardssecthree">
-                        <div class="card-body text-start">
-                            <img src="{{ asset('assets/websiteAssets/images/social-marketing.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Executing Campaign</p>
-                            <p class="card-text text-start text-wrap">High-quality citations with contextual links for your
-                                business. and make GMB profile for target audience.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gmbcardssecthree">
-                        <div class="card-body text-start">
-                            <img src="{{ asset('assets/websiteAssets/images/monthly-reporting.png') }}" alt="service bg"
-                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Weekly and Monthly Reporting</p>
-                            <p class="card-text text-start text-wrap">We transparently work with our clients, providing
-                                them with weekly and monthly reports of their insights.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

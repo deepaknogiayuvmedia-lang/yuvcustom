@@ -8,17 +8,16 @@
             <div class=" row">
                 <div class="col-md-12">
                     <div class="text-center globaltxtcolor fs-1">
-                        ERP Implementation Services
+                        Automate, Integrate, and Innovate with Our ERP Services
+
                     </div>
                     <div class="text-center py-2">
                         <div class="fw-bold fs-5">
-                            Streamline Your Business with Expert ERP Implementation Services
+                            Future-Proof Your Business with Advanced ERP Solution
                         </div>
                         <p class="text-wrap ">
-                            Optimize your operations, enhance productivity, and unlock growth with our tailored ERP
-                            implementation services. Whether you’re upgrading existing systems or starting fresh, we ensure
-                            seamless integration, data accuracy, and efficient workflows. Empower your business with a
-                            solution built for scalability and success.
+                            Optimize your operations, enhance productivity, and unlock growth with our tailored ERP implementation services. Whether you’re upgrading existing systems or starting fresh, we ensure seamless integration, data accuracy, and efficient workflows. Empower your business with a solution built for scalability and success.
+
                         </p>
                     </div>
 
@@ -40,25 +39,16 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-start fs-2 fw-bold">
-                        Our ERP System Implementation Services
+                        Upgrade to Smarter Workflows with ERP Solutions
+
 
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Enterprise Resource Planning (ERP) is a software solution that integrates all the necessary data
-                            and information on business processes and resources (sale, production, purchasing, delivery,
-                            marketing, human resources, etc.) and can be easily used by small, medium, & large-scale
-                            industries. In the past, whenever a business entity needed a platform with broad functionality,
-                            it was possible to adopt an existing ERP system, but there are now universal lightweight systems
-                            that only have a special set of functions to address specific business requirements. In order to
-                            create a powerful ERP system, it is necessary to have a dedicated ERP team that has experience
-                            in building multi-role ERP applications.
-
-
+                            Sales, production, purchasing, delivery, marketing, and human resources are just a few of the corporate operations and resources that are unified by enterprise resource planning, or ERP, an integrated software solution. It is a versatile platform that works with companies of all sizes, from start-ups to multinational corporations. 
                         </p>
                         <p class="text-wrap seosecondhead">
-                            Got a robust ERP with the latest technology? We're always innovating and delivering the latest
-                            in business software technology. Take your ERP development to the next level.
+                            Today's lightweight, customized solutions concentrate on the unique requirements of a firm, whereas conventional ERP systems offered a wide range of functionalities. A committed group of ERP specialists who are aware of the subtleties of multifunctional applications is required to develop a genuinely potent ERP system.
                         </p>
                     </div>
 
@@ -78,14 +68,11 @@
         <div class="container justify-content-center">
             <div class="row">
                 <div class=" globaltxtcolor">
-                    ERP Development Solutions
+                    Empowering Your Business with Seamless ERP Solutions
                 </div>
                 <div class=" py-2">
                     <p class="text-wrap ">
-                        We are an ERP development company that offers a full range of services from consulting to the
-                        implementation of your enterprise resource planning software. Our team consists of professionals who
-                        have extensive experience in developing ERP software. We provide custom-built ERP software solutions
-                        for various industries.
+                        Providing comprehensive services from consulting to the complete deployment of your enterprise resource planning software, we are a top ERP development firm. Creating unique ERP solutions that meet the demands of diverse sectors is our team's area of expertise.
                     </p>
                 </div>
             </div>
@@ -96,8 +83,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Custom ERP</div>
-                            <p class="card-text text-start">We offer custom ERP development services to businesses of all
-                                sizes and industries. Our ERP solutions are robust and scalable.</p>
+                            <p class="card-text text-start">
+                                Tailor-made ERP solutions designed to meet your unique business needs, ensuring a seamless workflow, enhanced efficiency, and improved decision-making processes.
+                            </p>
 
                         </div>
                     </div>
@@ -108,8 +96,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">ERP Migration</div>
-                            <p class="card-text text-start">Data migration is a complex process of relocating data from its
-                                primary source into a database of a newly adopted ERP system.</p>
+                            <p class="card-text text-start">
+                                Smooth transition to a new ERP system with minimal downtime. Our experts handle data migration and system integration, ensuring a seamless switch without disrupting business operations.
+                            </p>
 
                         </div>
                     </div>
@@ -120,8 +109,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
                                 alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Staff Augmentation</div>
-                            <p class="card-text text-start">We have an ERP staff augmentation program, which allows you to
-                                hire the best skilled professionals to keep your project on target.</p>
+                            <p class="card-text text-start">
+                                Boost your team's capabilities with experienced ERP specialists on-demand. Our staff augmentation service provides skilled professionals to complement your in-house resources for project success.
+                            </p>
 
                         </div>
                     </div>
@@ -132,8 +122,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">ERP Consulting</div>
-                            <p class="card-text text-start">Our ERP Consulting team understands your current business
-                                environment and help you develop the best strategies to implement critical ERP.</p>
+                            <p class="card-text text-start">
+                                Expert advice and guidance on ERP selection, implementation, and optimization. We help you navigate the ERP landscape to find the best solution that aligns with your business goals.
+                            </p>
 
                         </div>
                     </div>
@@ -144,8 +135,8 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Web Based ERP</div>
-                            <p class="card-text text-start">With our technology-driven application-design solutions, you can
-                                now automate your business anywhere and anytime.</p>
+                            <p class="card-text text-start">Access your ERP system from anywhere with our cloud-based solutions. We offer scalable, secure, and flexible web-based ERP platforms that grow with your business.
+                            </p>
 
                         </div>
                     </div>
@@ -156,8 +147,8 @@
                             <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
                                 alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">ERP Integration</div>
-                            <p class="card-text text-start">We provide custom ERP system integrations for your requirement
-                                with emphasis on data security and enterprise data integrations.</p>
+                            <p class="card-text text-start">Seamlessly integrate your ERP system with existing tools and software. Our ERP integration services ensure smooth data flow across platforms, enhancing operational efficiency and data consistency.
+                            </p>
 
                         </div>
                     </div>
@@ -165,10 +156,12 @@
 
 
 
-                <div class="text-center py-2">
-                    <p class="text-wrap fw-bold bg-success-subtle rounded-4">
-                        Feel the impact of YUVMEDIA GMB Services and elevate your business to new heights while you
-                        concentrate on what you do best.
+                <div class="text-center py-2 bg-success-subtle rounded-4 mt-3">
+                    <h5>Discover Yuvmedia ERP Solutions' Power
+                    </h5>
+                    <p class="text-wrap ">
+                        Use Yuvmedia's ERP services to grow your company and concentrate on your core competencies. From implementation to continuous optimization, we'll take care of the rest.
+
                     </p>
                 </div>
             </div>
@@ -183,8 +176,7 @@
                 </div>
                 <div class=" py-2">
                     <p class="text-wrap ">
-                        Based on the business needs, we offer the ERP implementation services for the following ERP modules
-                        to increase the efficiency of your workflows.
+                        Based on the business needs, we offer the ERP implementation services for the following ERP modules to increase the efficiency of your workflows.
                     </p>
                 </div>
             </div>
@@ -211,7 +203,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body ">
-                                <div class="card-title">eCommerce</div>
+                                <div class="card-title">E-Commerce</div>
                             </div>
                         </div>
                     </div>
@@ -313,10 +305,7 @@
                 </div>
                 <div class=" py-2">
                     <p class="text-wrap  text-center">
-                        We recognize the fact that businesses are often challenged with ERP updates and the latest
-                        technology investments. We blend this technology with our expertise and skills to provide you with
-                        the best system for your needs. Here are some of the ERP technologies we follow to promote superior
-                        functionality over competitive solutions.
+                        We are aware of the difficulties companies encounter when integrating the newest technology and updating ERP systems. To provide the best ERP system for your requirements, our team combines these advances with our extensive experience. To guarantee the best ERP performance, we concentrate on the following important technologies:
                     </p>
                 </div>
             </div>
@@ -345,4 +334,103 @@
             </div>
         </div>
     </section>
+
+
+    <section class=" position-relative py-5">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class=" globaltxtcolor">
+                    Your Trusted Partner in ERP Innovation
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Comprehensive ERP Solution</div>
+                            <p class="card-text text-start">
+                                A fully integrated ERP system designed to streamline all your business operations in one place.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Faster Development Timelines</div>
+                            <p class="card-text text-start">
+                                We deliver high-quality ERP solutions within optimized timeframes to accelerate your digital transformation
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">End-to-End Support</div>
+                            <p class="card-text text-start">
+                                From planning to implementation and ongoing maintenance, we provide full-cycle ERP support.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Multi-Platform ERP Compatibility</div>
+                            <p class="card-text text-start">
+                                Our ERP solutions work seamlessly across desktop, mobile, and cloud platforms for maximum flexibility.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
+                                class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Smooth Integration</div>
+                            <p class="card-text text-start">
+                                Effortlessly integrate with your existing software and third-party applications without disruptions.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="gmbcardone shadow-sm rounded-3">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
+                                alt="service bg" class="mb-3 ">
+                            <div class="card-title text-start fs-5 fw-bold">Assured Transparency </div>
+                            <p class="card-text text-start">
+                                Clear reporting, real-time insights, and complete visibility into your business processes ensure informed decision-making.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center py-2 bg-success-subtle rounded-4 mt-3">
+                    <h5>Optimize, Automate, and Grow with a Powerful ERP Solution!</h5>
+                    <p class="text-wrap ">
+                        Get a Customized ERP System Tailored to Your Business Needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection

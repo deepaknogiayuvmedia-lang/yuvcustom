@@ -52,13 +52,14 @@
             </div>
             <div class="row py-3 py-md-5">
                 <div class=" heroTitle">
-                    Find Authentic Influencers. Any Industry. Any Size
+                    Make Your Brand Go Viral With The Right Influencer
                 </div>
                 <div class="subTitle mt-3">
-                    Influencer marketing platform for brands and agencies
+                    All-in-One Influencer Marketing Services for Maximum Impact.
                 </div>
-                <div class="mt-3 text-center">
-                    <a href="{{ route('contact') }}" class="btn   btn-light">Contact Us</a>
+                <div class="me-3 text-center">
+                    <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-light">Contact Us <i
+                            class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -67,7 +68,7 @@
     <section class="py-5 position-relative">
         <div class="container workflow">
             <h2 class="text-center fw-bold mb-5 fs-1">
-                A full stack of solutions for every step of <br />the influencer marketing workflow:
+                Complete Solutions for Every Phase <br /> of Your Influencer Campaign.
             </h2>
             <div class="row g-3">
 
@@ -94,7 +95,8 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{ route('contact') }}" class="btn btn-sm btn-primary w-75 rounded-pill">Get
+                                started</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +125,8 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{ route('contact') }}" class="btn btn-sm btn-primary w-75 rounded-pill">Get
+                                started</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +154,8 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{ route('contact') }}" class="btn btn-sm btn-primary w-75 rounded-pill">Get
+                                started</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +185,8 @@
                             </div>
                         </div>
                         <div class="p-3 text-center">
-                            <a href=" {{route('contact')}}" class="btn btn-sm btn-primary w-75 rounded-pill">Get started</a>
+                            <a href=" {{ route('contact') }}" class="btn btn-sm btn-primary w-75 rounded-pill">Get
+                                started</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +197,7 @@
     <section class="py-5 position-relative">
         <div class="container py-0 py-md-3">
             <h1 class="text-center fw-bolder">
-                We provide insights at every step of your influencer <br />marketing workflow:
+                Your Influencer Marketing <br />Workflow Made Simple
             </h1>
 
             <div class="row align-items-center mt-5">
@@ -205,10 +210,9 @@
                     </h5>
                     <div class="text-start py-2">
                         <p class="text-wrap ">
-                            Discover perfectly matched Instagram, TikTok, Twitch, X (Twitter), and YouTube influencers from
-                            a pool of 205.4M+ using a range of filters to refine your results and reveal high-quality
-                            profiles
-
+                            Find the perfect influencers for your brand with our advanced influencer discovery tool. Explore
+                            over 205.4M+ profiles and use targeted filters to narrow down the best matches for your campaign
+                            and engage with top-tier influencers who resonate with your audience.
                         </p>
                     </div>
 
@@ -231,15 +235,12 @@
                     </p>
                     <h5 class="text-bold fs-4">
                         Access industry-standard analytical reports across major social media platforms
-
                     </h5>
                     <div class="text-start py-2">
                         <p class="text-wrap ">
-                            Analyze influencers on Instagram, TikTok, Twitch, X (Twitter), and YouTube using 35+ in-depth
-                            metrics including audience location, age-gender split, authenticity, reach, overall audience
-                            quality, and more
-
-
+                            Get access to detailed, industry-standard analytical reports across top social media platforms.
+                            Track influencer performance, audience engagement, and campaign success with precise data that
+                            helps you make informed decisions and optimize your marketing strategy.
                         </p>
                     </div>
 
@@ -251,7 +252,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/Index_02.a2TfQcHX.png" alt="analytics">
+                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/Index_02.a2TfQcHX.png"
+                        alt="analytics">
                 </div>
             </div>
 
@@ -265,8 +267,9 @@
                     </h5>
                     <div class="text-start py-2">
                         <p class="text-wrap ">
-                            Keep track of your campaign at every stage from creating influencer lists to generating a final campaign report. Monitor your campaign’s effectiveness, assess audience sentiment, and make adjustments in real-time
-
+                            Effortlessly manage and monitor your influencer marketing campaigns in real-time. Track
+                            performance, monitor deliverables, and ensure seamless collaboration with influencers to drive
+                            successful and measurable results.
                         </p>
                     </div>
 
@@ -294,7 +297,9 @@
                     </h5>
                     <div class="text-start py-2">
                         <p class="text-wrap ">
-                            Explore the competitive landscape and evaluate the influencer marketing performance of your rivals. Compare multiple brands side-by-side and discover the top market players in a particular country and niche
+                            Gain valuable insights into the influencer marketing landscape with our comprehensive snapshot.
+                            Understand trends, audience engagement, and campaign performance to stay ahead of the
+                            competition and make informed decisions.
                         </p>
                     </div>
 
@@ -308,8 +313,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/grid.CUCk2zty.png" alt="analytics">
-                </div> 
+                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/grid.CUCk2zty.png"
+                        alt="analytics">
+                </div>
             </div>
         </div>
     </section>
@@ -318,12 +324,12 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center performanceheadingsecthree">
-                    Our Expertise <span class="performanceheadingsubsecthree">Spans</span>
+                    Why Pick<span class="performanceheadingsubsecthree">Us?</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap performancesecondheadsecthree">
-                        When you partner with us, you gain more than just a video; you receive a captivating story that
-                        aligns with your brand’s vision.
+                        We connect your brand with the right influencers, drive authentic engagement, and deliver measurable
+                        results that boost your brand’s visibility and growth.
                     </p>
                 </div>
             </div>
@@ -333,10 +339,11 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/influencer.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Identify the perfect influencers</p>
-                            <p class="card-text text-start text-wrap">We match your brand with influencers whose values and
-                                style align with yours.</p>
-                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
+                            <p class="fw-bold text-start">1. Influencer Research & Outreach</p>
+                            <p class="card-text text-start text-wrap">We use data-driven strategies to identify the best
+                                influencers for your brand, ensuring alignment with your target audience and brand values,
+                                and initiate meaningful collaborations for maximum impact.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -345,10 +352,11 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/efficiency.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Measure and optimize</p>
-                            <p class="card-text text-start text-wrap">We track campaign performance and provide insights to
-                                maximize your ROI.</p>
-                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
+                            <p class="fw-bold text-start">2. Influencer Negotiation & Evaluation</p>
+                            <p class="card-text text-start text-wrap">Our experts manage negotiations with influencers to
+                                secure fair terms and ensure a mutually beneficial partnership, while evaluating their
+                                reach, engagement, and credibility to guarantee quality results.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -357,10 +365,50 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Create engaging campaigns</p>
-                            <p class="card-text text-start text-wrap">Our team develops compelling content that resonates
-                                with your audience.</p>
-                            <!-- <a href=" {{route('contact')}}" class="btn whatcardbtn">Know More</a> -->
+                            <p class="fw-bold text-start">3. Content Strategy and Planning</p>
+                            <p class="card-text text-start text-wrap">We create a tailored content strategy that resonates
+                                with your audience, ensuring consistency across all channels and optimizing for engagement,
+                                brand awareness, and conversions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="influcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">Campaign Goals & Objectives</p>
+                            <p class="card-text text-start text-wrap">We define clear campaign goals and measurable
+                                objectives, ensuring every influencer marketing effort aligns with your broader marketing
+                                strategy and contributes to your business growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="influcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">Performance Tracking & Analytics</p>
+                            <p class="card-text text-start text-wrap">Through advanced analytics tools, we track the
+                                performance of each campaign, providing you with real-time insights into influencer impact,
+                                audience engagement, and overall campaign ROI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="influcards">
+                        <div class="card-body text-start">
+                            <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start">User Generated Content Creation</p>
+                            <p class="card-text text-start text-wrap">We encourage influencers to create authentic,
+                                user-generated content that strengthens brand trust and drives organic engagement from their
+                                followers, amplifying your brand's message.
+                            </p>
                         </div>
                     </div>
                 </div>
