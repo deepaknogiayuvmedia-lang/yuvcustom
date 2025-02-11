@@ -3264,6 +3264,12 @@ table:first-child {
     margin-bottom: 5px;
 }
 
-/* .seocards {
-    width: 24rem;
-} */
+.performancemedia-slider img{
+    width: 100%; 
+    height: 260px; 
+    object-fit: cover;
+}
+
+.fbads-cards{
+    height: 300px; 
+}

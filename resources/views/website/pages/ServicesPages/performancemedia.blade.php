@@ -344,6 +344,658 @@
         </div>
     </section>
 
+    <section class="position-relative">
+        <div class="container py-5">
+            <div class=" row">
+                <div class="text-center performanceheading">
+                    Performance Media <span class="performanceheadingsub">Portfolio</span>
+                </div>
+
+                <div class="performancemedia-slider">
+                    @for ($i = 1; $i <= 50; $i += 2)
+                        <div>
+                            <div>
+                                <img class="img-fluid p-3 rounded-5 "
+                                    src="{{ asset('assets/websiteAssets/images/services/performanceMedia/' . $i . '.jpg') }}"
+                                    alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid p-3 rounded-5"
+                                    src="{{ asset('assets/websiteAssets/images/services/performanceMedia/' . ($i + 1) . '.jpg') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                    @endfor
+
+                </div>
+
+                <div class="fbads-slider">
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Aziri.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Aziri
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Zee Huzoor.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Zee Huzoor
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Black Buck.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Black Buck
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Bux Media.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Bux Media
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Danish Electronics.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Danish Electronics
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Deva Cricket.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Deva Cricket
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Easy Go Cabs.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Easy Go Cabs
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Galaxy Tourism .png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Galaxy Tourism
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Ghar Sajao.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Ghar Sajao
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Growx.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Growx
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/HOME City.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                HOME City
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Illusion Signage Solution.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Illusion Signage Solution
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Jackpot Trades.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Jackpot Trades
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Kajal Option Trading.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Kajal Option Trading
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Krishna Tour Pushkar.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Krishna Tour Pushkar
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/OM Narmadeshwar.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                OM Narmadeshwar
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/OM Trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                OM Trader
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Rathi Auto.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Rathi Auto
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Reddy Anna.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Reddy Anna
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Scalping World Trade.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Scalping World Trade
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/SEBI Registered Researched Analyst (Alok Daiya).png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                SEBI Registered Researched Analyst (Alok Daiya)
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Shree Balaji Ramapeer Cargo.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Shree Balaji Ramapeer Cargo
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Smatera.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Smatera
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/SMT Learning.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                SMT Learning
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/SMT Today.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                SMT Today
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Stock Gyaan.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock Gyaan
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Stock Optio  Lover.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock Optio Lover
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/The Pro Option Trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                The Pro Option Trader
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Trade Master.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trade Master
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Trade Wale.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trade Wale
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Trade X.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trade X
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Trading Market Expert.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trading Market Expert
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Unick Vision Academy.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Unick Vision Academy
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/UNIFX.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                UNIFX
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Vastu Mandal.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Vastu Mandal
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/performanceMedia/fbads/Veonline.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Veonline
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="fbads-slider">
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Bank Nifty Expert.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Bank Nifty Expert
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Best Option Trading.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Best Option Trading
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Big Profit Trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Big Profit Trader
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Drona Classes.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Drona Classes
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Dubai trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Dubai trader
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Herbanix.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Herbanix
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/I Quanta Jamshedpur.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                I Quanta Jamshedpur
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Mad About Food.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Mad About Food
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Mr P Investments.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Mr P Investments
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/North Indian Pandit Ji.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                North Indian Pandit Ji
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/OM Trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                OM Trader
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Option gains.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Option gains
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Parihar IVF.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Parihar IVF
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Perfect gains.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Perfect gains
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Physiotherapy Planet.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Physiotherapy Planet
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Royal Packer & Mover.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Royal Packer & Mover
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/SB Trader.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                SB Trader
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Scalping Price.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Scalping Price
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Scalping World Trade.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Scalping World Trade
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Sky Traders.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Sky Traders
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/SMT Learning.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                SMT Learning
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/STF Entertainment.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                STF Entertainment
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Stock Ace.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock Ace
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Stock Cloud.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock Cloud
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Stock gainers.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock gainers
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Stock Wala King.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Stock Wala King
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Trader Junction.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trader Junction
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Traders Clan.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Traders Clan
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Tradify.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Tradify
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Trading Edge.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trading Edge
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-white fbads-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/googleads/Trading Market Expert.png') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-primary">
+                                Trading Market Expert
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+
+                </div>
+
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="py-5 position-relative bannerbg">
         <div class="container py-5 justify-content-center">
             <div class="row">
@@ -358,7 +1010,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">1. Campaign Set-Up</p>
                             <p class="card-text text-start text-wrap">
-                                We strategically configure campaigns tailored to your goals, ensuring every aspect is optimized for maximum reach and conversion potential.
+                                We strategically configure campaigns tailored to your goals, ensuring every aspect is
+                                optimized for maximum reach and conversion potential.
                             </p>
                         </div>
                     </div>
@@ -368,7 +1021,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">2. Keywords Research</p>
                             <p class="card-text text-start text-wrap">
-                                Our in-depth keyword research uncovers the most relevant and high-performing terms to attract the right audience and drive quality traffic.
+                                Our in-depth keyword research uncovers the most relevant and high-performing terms to
+                                attract the right audience and drive quality traffic.
                             </p>
                         </div>
                     </div>
@@ -378,7 +1032,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">3. Audience Set-Up</p>
                             <p class="card-text text-start text-wrap">
-                                We define and target the ideal audience segments, helping you reach the people most likely to convert and engage with your brand.
+                                We define and target the ideal audience segments, helping you reach the people most likely
+                                to convert and engage with your brand.
                             </p>
                         </div>
                     </div>
@@ -390,7 +1045,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">4. Competitor Analysis</p>
                             <p class="card-text text-start text-wrap">
-                                Our team analyzes competitors to identify opportunities, strengths, and gaps, enabling us to create a competitive edge for your campaigns.
+                                Our team analyzes competitors to identify opportunities, strengths, and gaps, enabling us to
+                                create a competitive edge for your campaigns.
                             </p>
                         </div>
                     </div>
@@ -400,7 +1056,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">5. CTR Analysis</p>
                             <p class="card-text text-start text-wrap">
-                                We monitor click-through rates (CTR) to identify what’s working and make necessary adjustments to increase engagement and conversions.
+                                We monitor click-through rates (CTR) to identify what’s working and make necessary
+                                adjustments to increase engagement and conversions.
                             </p>
                         </div>
                     </div>
@@ -410,7 +1067,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">6. Google Analytics Setup</p>
                             <p class="card-text text-start text-wrap">
-                                We set up Google Analytics to provide deep insights into campaign performance, user behavior, and ROI, enabling data-driven decision-making.
+                                We set up Google Analytics to provide deep insights into campaign performance, user
+                                behavior, and ROI, enabling data-driven decision-making.
                             </p>
                         </div>
                     </div>
@@ -420,7 +1078,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">7. Meta Pixel Setup</p>
                             <p class="card-text text-start text-wrap">
-                                We integrate Meta Pixel to track and optimize Facebook and Instagram campaigns, improving targeting and retargeting efforts.
+                                We integrate Meta Pixel to track and optimize Facebook and Instagram campaigns, improving
+                                targeting and retargeting efforts.
                             </p>
                         </div>
                     </div>
@@ -430,7 +1089,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">8. Google Tag Manager Setup</p>
                             <p class="card-text text-start text-wrap">
-                                We configure Google Tag Manager to streamline the process of adding tracking and marketing tags, allowing for more efficient data management.
+                                We configure Google Tag Manager to streamline the process of adding tracking and marketing
+                                tags, allowing for more efficient data management.
                             </p>
                         </div>
                     </div>
@@ -440,7 +1100,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">9. Remarketing</p>
                             <p class="card-text text-start text-wrap">
-                                Our remarketing strategies ensure that users who have previously interacted with your brand are re-engaged, boosting conversion chances.
+                                Our remarketing strategies ensure that users who have previously interacted with your brand
+                                are re-engaged, boosting conversion chances.
                             </p>
                         </div>
                     </div>
@@ -450,7 +1111,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">10. Ad Copies (Creatives):</p>
                             <p class="card-text text-start text-wrap">
-                                Our team creates compelling and persuasive ad copies and creatives that speak directly to your audience, driving higher engagement and conversions.
+                                Our team creates compelling and persuasive ad copies and creatives that speak directly to
+                                your audience, driving higher engagement and conversions.
                             </p>
                         </div>
                     </div>
@@ -460,7 +1122,8 @@
                         <div class="card-body text-start">
                             <p class="fw-bold text-start">11. Daily Leads Quality Report</p>
                             <p class="card-text text-start text-wrap">
-                                We provide daily reports on lead quality, ensuring you stay informed and can quickly adjust strategies for optimal performance.
+                                We provide daily reports on lead quality, ensuring you stay informed and can quickly adjust
+                                strategies for optimal performance.
                             </p>
                         </div>
                     </div>

@@ -9,7 +9,8 @@
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center ">
-                        Become an Ecommerce Seller <br/> <span class="fw-bold" style="color: #ff9e42">and sell to 50+ Crore customers
+                        Become an Ecommerce Seller <br /> <span class="fw-bold" style="color: #ff9e42">and sell to 50+ Crore
+                            customers
                         </span>
                     </h1>
                     <div class="text-center py-2">
@@ -21,7 +22,7 @@
 
                 <div class="col-md-12">
                     <div class="hero-video">
-                        
+
                         <!--desk-video-->
                         <video autoplay="" muted="" playsinline="" loop="" class="hero-asset desk-video"
                             poster="https://ondc.org/assets/theme/images/video_img.jpg">
@@ -569,7 +570,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto"  >
+                    <div class="card shadow-sm rounded-4 mx-auto">
                         <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -578,7 +579,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto"  >
+                    <div class="card shadow-sm rounded-4 mx-auto">
                         <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -587,7 +588,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto h-100"  >
+                    <div class="card shadow-sm rounded-4 mx-auto h-100">
                         <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -596,9 +597,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto"  >
-                        <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                            class="card-img-top p-3" alt="...">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top p-3"
+                            alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">Etsy</h5>
                         </div>
@@ -652,7 +653,10 @@
                                         <div class="category-info">
                                             <h3>Buyer Network Participant</h3>
                                             <p>
-                                                These are customers who browse, shop, and make purchases on eCommerce platforms. As a marketplace, it's crucial to understand buyer behavior, preferences, and needs to tailor your products and services effectively to this group.
+                                                These are customers who browse, shop, and make purchases on eCommerce
+                                                platforms. As a marketplace, it's crucial to understand buyer behavior,
+                                                preferences, and needs to tailor your products and services effectively to
+                                                this group.
 
                                             </p>
                                             <a id="home-roles-buyer-know-more"
@@ -683,7 +687,10 @@
                                         <div class="category-info">
                                             <h3>Seller Network Participant</h3>
                                             <p>
-                                                Sellers are the backbone of the marketplace ecosystem. They list their products or services for sale, manage their inventory, fulfill orders, and handle customer interactions. Successful sellers engage with the platform’s tools and services to optimize their presence and boost sales
+                                                Sellers are the backbone of the marketplace ecosystem. They list their
+                                                products or services for sale, manage their inventory, fulfill orders, and
+                                                handle customer interactions. Successful sellers engage with the platform’s
+                                                tools and services to optimize their presence and boost sales
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -713,7 +720,10 @@
                                         <div class="category-info">
                                             <h3>Seller Gateway</h3>
                                             <p>
-                                                A gateway acts as the connection point between different parties within the marketplace. It ensures secure transactions, payment processing, and facilitates the exchange of information between buyers, sellers, and other network participants.
+                                                A gateway acts as the connection point between different parties within the
+                                                marketplace. It ensures secure transactions, payment processing, and
+                                                facilitates the exchange of information between buyers, sellers, and other
+                                                network participants.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -743,7 +753,10 @@
                                         <div class="category-info">
                                             <h3>Technology Service Provider</h3>
                                             <p>
-                                                Technology service providers offer tools, software, or infrastructure that help improve the performance and functionality of the marketplace. They provide services like payment solutions, data analytics, logistics, customer support, and more, ensuring the smooth operation of the seller network.
+                                                Technology service providers offer tools, software, or infrastructure that
+                                                help improve the performance and functionality of the marketplace. They
+                                                provide services like payment solutions, data analytics, logistics, customer
+                                                support, and more, ensuring the smooth operation of the seller network.
                                             </p>
                                             <a id="home-roles-buyer-know-more"
                                                 class="new-buuton-link btn btn-outline-primary "
@@ -783,7 +796,10 @@
                 </div>
                 <div class="text-start py-2">
                     <p class="text-wrap marketsecondheadsecthree">
-                        To assist sellers in expanding their businesses, we offer a premium paid account management product called Amazon Business Advisory (ABA). ABA helps sellers maximize their income potential by utilizing strategic insights and business intelligence. A dedicated account manager with in-depth expertise of their industry is made available to sellers.
+                        To assist sellers in expanding their businesses, we offer a premium paid account management product
+                        called Amazon Business Advisory (ABA). ABA helps sellers maximize their income potential by
+                        utilizing strategic insights and business intelligence. A dedicated account manager with in-depth
+                        expertise of their industry is made available to sellers.
                     </p>
                 </div>
             </div>
@@ -801,7 +817,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Account Manager</p>
                             <p class="card-text text-start text-wrap">
-                                Work directly with an internal account manager to provide innovative ideas and propel your company's expansion.
+                                Work directly with an internal account manager to provide innovative ideas and propel your
+                                company's expansion.
                             </p>
 
                         </div>
@@ -814,7 +831,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Data-driven Business Plan</p>
                             <p class="card-text text-start text-wrap">
-                                Take advantage of a personalized account management plan that includes weekly updates to monitor and assess your progress. Get personalized suggestions to enhance the performance and choice of your products.
+                                Take advantage of a personalized account management plan that includes weekly updates to
+                                monitor and assess your progress. Get personalized suggestions to enhance the performance
+                                and choice of your products.
                             </p>
 
                         </div>
@@ -827,7 +846,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Account Health Management</p>
                             <p class="card-text text-start text-wrap">
-                                Get professional advice and best practices to keep your account in good shape. Dedicated escalation channels ensure that critical issues are immediately addressed.
+                                Get professional advice and best practices to keep your account in good shape. Dedicated
+                                escalation channels ensure that critical issues are immediately addressed.
                             </p>
 
                         </div>
@@ -840,9 +860,45 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Visibility & Performance Optimization</p>
                             <p class="card-text text-start text-wrap">
-                                Increase brand awareness on sites like Amazon by using expert-recommended marketing campaigns and promotional techniques to keep your name at the forefront of consumers' minds.
+                                Increase brand awareness on sites like Amazon by using expert-recommended marketing
+                                campaigns and promotional techniques to keep your name at the forefront of consumers' minds.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="position-relative">
+        <div class="container py-5">
+            <div class=" row">
+                <div class="text-center performanceheading">
+                    Marketplace <span class="performanceheadingsub">Portfolio</span>
+                </div>
+
+                <div class="marketplace-slider">
+                    @for ($i = 1; $i <= 13; $i += 2)
+                        <div>
+                            <div>
+                                <img class="img-fluid p-3 rounded-5 "
+                                    src="{{ asset('assets/websiteAssets/images/services/marketplace/' . $i . '.jpeg') }}"
+                                    alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid p-3 rounded-5"
+                                    src="{{ asset('assets/websiteAssets/images/services/marketplace/' . ($i + 1) . '.jpeg') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                    @endfor
+                </div>
+
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
+                                class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -869,7 +925,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Seller Account Setup</p>
                             <p class="card-text text-start text-wrap">
-                                We streamline the process of setting up your seller account, ensuring that all the necessary details are filled out accurately and professionally, so you can hit the ground running on marketplaces like Amazon, Flipkart and others.
+                                We streamline the process of setting up your seller account, ensuring that all the necessary
+                                details are filled out accurately and professionally, so you can hit the ground running on
+                                marketplaces like Amazon, Flipkart and others.
                             </p>
 
                         </div>
@@ -882,7 +940,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Product Listing Creation</p>
                             <p class="card-text text-start text-wrap">
-                                Our team creates compelling and SEO-optimized product listings, including high-quality images, detailed descriptions, and effective keywords, to attract potential customers and boost conversions.
+                                Our team creates compelling and SEO-optimized product listings, including high-quality
+                                images, detailed descriptions, and effective keywords, to attract potential customers and
+                                boost conversions.
                             </p>
 
                         </div>
@@ -895,7 +955,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Order Fulfillment</p>
                             <p class="card-text text-start text-wrap">
-                                We help you manage order fulfillment seamlessly, ensuring timely delivery and customer satisfaction, whether you’re handling it in-house or through third-party logistics.
+                                We help you manage order fulfillment seamlessly, ensuring timely delivery and customer
+                                satisfaction, whether you’re handling it in-house or through third-party logistics.
                             </p>
 
                         </div>
@@ -908,7 +969,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Marketing and Promotions</p>
                             <p class="card-text text-start text-wrap">
-                                Our marketing experts develop and execute promotional strategies, including discount campaigns, seasonal promotions, and paid ads, to increase your brand’s visibility and sales on marketplaces.
+                                Our marketing experts develop and execute promotional strategies, including discount
+                                campaigns, seasonal promotions, and paid ads, to increase your brand’s visibility and sales
+                                on marketplaces.
                             </p>
 
                         </div>
@@ -921,7 +984,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Product FBA</p>
                             <p class="card-text text-start text-wrap">
-                                We guide you through setting up Amazon’s Fulfillment by Amazon (FBA), helping you optimize inventory management, reduce shipping costs, and ensure fast delivery to customers.
+                                We guide you through setting up Amazon’s Fulfillment by Amazon (FBA), helping you optimize
+                                inventory management, reduce shipping costs, and ensure fast delivery to customers.
                             </p>
 
                         </div>
@@ -934,7 +998,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Brand Registry and Protection</p>
                             <p class="card-text text-start text-wrap">
-                                We assist with Brand Registry and other marketplace protections to safeguard your brand, intellectual property, and listings from counterfeiters and unauthorized sellers.
+                                We assist with Brand Registry and other marketplace protections to safeguard your brand,
+                                intellectual property, and listings from counterfeiters and unauthorized sellers.
                             </p>
 
                         </div>
@@ -947,7 +1012,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Account Health Management</p>
                             <p class="card-text text-start text-wrap">
-                                Our team actively monitors and maintains your account health, keeping track of performance metrics, customer feedback, and policy compliance to prevent issues and ensure long-term success.
+                                Our team actively monitors and maintains your account health, keeping track of performance
+                                metrics, customer feedback, and policy compliance to prevent issues and ensure long-term
+                                success.
                             </p>
 
                         </div>

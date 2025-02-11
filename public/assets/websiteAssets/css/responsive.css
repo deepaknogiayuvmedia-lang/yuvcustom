@@ -50,6 +50,13 @@
         margin-inline: auto;
     }
 
+    .performancemedia-slider img {
+        height: 388px; 
+    }
+
+    .fbads-cards{
+        height: 200px; 
+    }
 
     .seointro ul {
     
