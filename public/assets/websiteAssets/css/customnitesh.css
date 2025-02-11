@@ -1831,6 +1831,7 @@ border-radius: 40px;
 
 .globaltxtcolor{
   background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
+  background-clip: text; 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-size: 35px;
@@ -1838,6 +1839,7 @@ border-radius: 40px;
 }
 .globaltxtcolor2{
   background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
+  background-clip: text; 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-size: 35px;
