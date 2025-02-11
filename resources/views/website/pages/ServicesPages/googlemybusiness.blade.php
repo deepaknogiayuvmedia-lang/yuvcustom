@@ -244,7 +244,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h2 class="mb-3">
+                    <h2 class="my-3">
                         Get Found, Get Chosen
                     </h2>
                     <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
@@ -397,7 +397,6 @@
                             <p class="card-text">
                                 We conduct a comprehensive audit of your Google Business Profile to ensure it's optimized for maximum visibility and performance.
                             </p>
-
                         </div>
                     </div>
                 </div>

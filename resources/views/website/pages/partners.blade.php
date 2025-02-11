@@ -5,9 +5,9 @@
         <div class="container py-3 py-md-4">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="partnersheading">
+                    <div class="fs-1 fw-bold">
                         Become Your
-                        <span class="partnersheadingsub"> Own Boss</span>
+                        <span class="globaltxtcolor"> Own Boss</span>
                     </div>
                     <div class="">
                         <p class="text-wrap partnerssecondhead">
@@ -16,18 +16,24 @@
                             to build a thriving business.
                         </p>
                     </div>
-                    <div id="counter">
-                        <div class="item">
-                            <h1 class="count">150+</h1> <!--Add data-number="150" to start counter-->
-                            <p class="text">Managing Partners</p>
+                    <div id="counter" class="row">
+                        <div class="col-6 col-md-4 text-center mb-3">
+                            <div class="item">
+                                <h1 class="count" data-number="150">150+</h1>
+                                <p class="text">Managing Partners</p>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h1 class="count">1000+</h1>
-                            <p class="text">Happy Clients</p>
+                        <div class="col-6 col-md-4 text-center mb-3">
+                            <div class="item">
+                                <h1 class="count" data-number="1000">1000+</h1>
+                                <p class="text">Happy Clients</p>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h1 class="count">5000+</h1>
-                            <p class="text">Projects</p>
+                        <div class="col-12 col-md-4 text-center mb-3">
+                            <div class="item">
+                                <h1 class="count" data-number="5000">5000+</h1>
+                                <p class="text">Projects</p>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap">
@@ -44,11 +50,12 @@
             </div>
         </div>
     </section>
+
     <section style="background-color: #f6faff;">
         <div class="container py-5">
             <div class=" row">
                 <div class="text-center partnersheadingsectwo text-capitalize">
-                    Empower Your Business <span class="fs-1 fw-bold text-primary">with 100+ Digital Solutions.</span>
+                    Empower Your Business <span class="fs-1 fw-bold globaltxtcolor">with 100+ Digital Solutions.</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap partnerssecondheadsectwo">
@@ -59,52 +66,56 @@
                 </div>
                 <div class="text-center fs-6">
                     <div class="row py-3 align-items-center d-flex justify-content-center">
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/Established-Brand-Advantage.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/Established-Brand-Advantage.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Established Brand Advantage
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/predictive.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/predictive.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Ready-Made Business Model
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/analysis.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/analysis.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Training & Support
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/low-risk.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/low-risk.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Low Risk
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/network.png') }}" alt="service bg"
                                         class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
@@ -114,22 +125,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/expansion.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/expansion.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Scalable Business Model
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="mb-3 card border-0 shadow-sm rounded-4">
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card border-0 shadow-sm rounded-4">
                                 <div class="card-body text-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/income-stream.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/income-stream.png') }}"
+                                        alt="service bg" class="mb-3"
+                                        style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-center">
                                         Regular Income Source
                                     </p>
@@ -148,13 +161,14 @@
             </div>
         </div>
     </section>
+
     <section class="" style="background-color: #ffffff;">
         <div class="container py-5 py-md-5"">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="partnersheadingsecthree">
+                    <div class="fs-1 fw-bold">
                         How Our Partners Are
-                        <span class="partnersheadingsubsecthree"> Shaping the Future of Consultancy?</span>
+                        <span class="globaltxtcolor"> Shaping the Future of Consultancy?</span>
                     </div>
                     <div class="">
                         <p class="text-wrap partnerssecondheadsecthree">
@@ -182,12 +196,13 @@
             </div>
         </div>
     </section>
+
     <section class="py-3 py-md-5" style="background-color: #f6faff;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <div class="joinheading">
-                        Join our Managing <span class="joinsubheading">Partner Tribe.</span>
+                    <div class="fs-1 fw-bold text-center">
+                        Join our Managing <br/> <span class="globaltxtcolor">Partner Tribe.</span>
                     </div>
                     <div class="">
                         <p class="text-wrap joincontentcustom">
@@ -289,6 +304,7 @@
             </div>
         </div>
     </section>
+
     <!-- This JS is for Counter Functionality -->
     <!-- <script>
         let count = document.querySelectorAll(".count")

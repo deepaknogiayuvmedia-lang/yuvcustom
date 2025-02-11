@@ -528,7 +528,7 @@
 
     <section class="py-2 position-relative">
         <div class="container py-2">
-            <div class="text-start socialmedheading">
+            <div class="text-start fs-1 fw-bold">
                 See What’s New in Our <br /> Social Content Portfolio
             </div>
             <div class="slick-slider">

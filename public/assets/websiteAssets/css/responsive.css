@@ -23,6 +23,9 @@
     .service-card__inner {
         width: 400px;
     }
+    .aplhacard {
+        width: 25%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -39,11 +42,20 @@
         display: block;
     }
 
-    
+    #counter .item {
+        width: 170px;
+    }
     .service-card__inner {
         width: 350px;
         margin-inline: auto;
     }
+
+
+    .seointro ul {
+    
+        margin: 0 0 !important;
+    }
+
 
     .action-btn {
         overflow: auto;
@@ -52,7 +64,7 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .service-card .nav, .servicesbox {
@@ -78,7 +90,7 @@
         width: 100%;
     }
     .heretext {
-        width: 32%;
+        width: 40%;
     }
     
     .mobileMenu .nav-link {
@@ -100,13 +112,22 @@
 
     .service-card {
         height: 800px;
-        max-height: 90vh;
+        max-height: 100vh;
         overflow: hidden;
     }
-
+    .teamphoto {
+        margin-top: -20px;
+    }
+    .aplhacard {
+        width: 50%;
+    }
     .servicecard .serviceHeading {
         width: 50%;
     }
+    .contact-msg{
+        color: rgb(0, 0, 0);
+        }
+        
     .servicecard .serviceContent {
         width: 60%;
     }
@@ -121,5 +142,10 @@
     }
     .contactForm {
         margin-block: 10px;
+    }
+
+    .hero-content .heroheading, .hero-content .herosubheading {
+        text-align: center;
+        font-size: 30px;
     }
 }

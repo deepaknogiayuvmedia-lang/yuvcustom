@@ -18,7 +18,7 @@
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
-                                            <div class="text-start">
+                                            <div class="text-md-start text-center">
                                                 <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
@@ -29,11 +29,6 @@
                                     <div class="mb-3 text-center">
                                         <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
-                                            Business
-                                            Partner!</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,13 +41,13 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Future-Proof Your Business With </h3>
-                                <h4 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
-                                    Solutions</h4>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business With </h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
+                                    Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
-                                            <div class="text-start">
+                                            <div class="text-md-start text-center">
                                                 <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
@@ -63,11 +58,6 @@
                                     <div class="mb-3 text-center ">
                                         <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
-                                            Business
-                                            Partner!</a>
                                     </div>
                                 </div>
                             </div>
@@ -80,13 +70,13 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Let Your Products Shine In The</h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">E-Commerce World With Our Marketplace
-                                    Management Expertise</h4>
+                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In The</h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
+                                    Management Expertise</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
-                                            <div class="text-start">
+                                            <div class="text-md-start text-center">
                                                 <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
@@ -97,11 +87,6 @@
                                     <div class="mb-3 text-center ">
                                         <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
-                                            Business
-                                            Partner!</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,13 +99,13 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h3 class="globaltxtcolor fw-bolder text-capitalize">Shape Your Brand’s Narrative With</h3>
-                                <h4 class="herosubheading2 fw-bolder text-capitalize">Creative Design And Captivating Video
-                                    Content.</h4>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s Narrative With</h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
+                                    Content.</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
                                         <div class="col-md-12 stat-item">
-                                            <div class="text-start">
+                                            <div class="text-md-start text-center">
                                                 <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
                                                 </p>
                                             </div>
@@ -131,11 +116,6 @@
                                     <div class="mb-3 text-center ">
                                         <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="mx-5 mb-3 text-center">
-                                        <a class="btn btn-outline-primary btn-lg" href="{{ route('partners') }}">Be Our
-                                            Business
-                                            Partner!</a>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +128,7 @@
             </div>
 
 
-            <div class="row hereBox bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+            <div class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
                 <div class=" d-flex align-items-center heretext">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
@@ -323,7 +303,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace-ads.webp') }}"
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}"
                                                         class="card-img-top" alt="marketplace ads">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Marketplace Ads</h6>
@@ -401,7 +381,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <img src="{{ asset('assets/websiteAssets/images/services/Pinterest.webp') }}"
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}"
                                                         class="card-img-top" alt="Youtube">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Youtube</h6>
@@ -519,7 +499,7 @@
                         <div class="service-card" data-index="2">
                             <div class="service-card__inner">
                                 <div class="service-card__content orangeGreenGradient">
-                                    <h1 class="service-card__title">Design Services</h1>
+                                    <h1 class="service-card__title">Design</h1>
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card">
@@ -534,7 +514,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/video production.webp') }}"
+                                            <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
                                                 class="card-img-top" alt="Video Production">
                                             <div class="card-body">
                                                 <h6 class="card-title">UI/UX Design
@@ -546,7 +526,7 @@
                                         </div>
 
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
+                                            <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
                                                 class="card-img-top" alt="Brand Designing">
                                             <div class="card-body">
                                                 <h6 class="card-title">Brand Designing</h6>
@@ -570,8 +550,8 @@
 
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
-                                                class="card-img-top" alt="Amazon Seller">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
+                                                class="card-img-top" alt="Video Editing">
                                             <div class="card-body">
                                                 <h6 class="card-title">Video Editing</h6>
                                                 <p class="card-text">Enhance your footage with seamless editing, smooth
@@ -580,8 +560,8 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                                                class="card-img-top" alt="Etsy Seller">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}"
+                                                class="card-img-top" alt="Pre-Production">
                                             <div class="card-body">
                                                 <h6 class="card-title">Pre-Production</h6>
                                                 <p class="card-text">Meticulously plan every detail of your video project,
@@ -590,8 +570,8 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                                class="card-img-top" alt="Flipkart Seller">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}"
+                                                class="card-img-top" alt="3D Animation & Modeling">
                                             <div class="card-body">
                                                 <h6 class="card-title">3D Animation & Modeling</h6>
                                                 <p class="card-text">Add depth and creativity to your content with stunning
@@ -601,8 +581,8 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                class="card-img-top" alt="Meesho Seller">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
+                                                class="card-img-top" alt="Color Grading">
                                             <div class="card-body">
                                                 <h6 class="card-title">Color Grading</h6>
                                                 <p class="card-text">Enhance the mood and tone of your videos with expert
@@ -611,7 +591,7 @@
                                         </div>
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                class="card-img-top" alt="Meesho Seller">
+                                                class="card-img-top" alt="VFX & Compositing">
                                             <div class="card-body">
                                                 <h6 class="card-title">VFX & Compositing</h6>
                                                 <p class="card-text">Add stunning cinematic effects and flawless
@@ -621,7 +601,7 @@
                                         </div>
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                class="card-img-top" alt="Meesho Seller">
+                                                class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
                                                 <h6 class="card-title">Product Shoot</h6>
                                                 <p class="card-text">Capture the Essence of Your Brand – We ensure your
@@ -639,7 +619,7 @@
                         <div class="service-card" data-index="4">
                             <div class="service-card__inner">
                                 <div class="service-card__content purpelYellowGradient">
-                                    <h1 class="service-card__title">Development Services</h1>
+                                    <h1 class="service-card__title">Development</h1>
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card">
                                             <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
@@ -724,7 +704,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can travel">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -747,7 +727,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can trans">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -770,7 +750,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can banking">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -793,7 +773,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can healthc">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -816,7 +796,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can enterta">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -839,7 +819,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can educat">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -862,7 +842,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can business">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -885,7 +865,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can food">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -908,7 +888,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can job_car">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -931,7 +911,7 @@
                             <div class="owl-item active" style="width: 129.6px;">
                                 <div class="item">
                                     <div class="can fit_nes">
-                                        <a href="{{ route('contact') }}">
+                                        <a href="#">
                                             <span class="data_text_lin">
                                                 <div class="box-ar">
                                                     <div class="box-indus">
@@ -2375,7 +2355,7 @@
                 <div class="col-md-6" style="z-index: 10">
                     <div class="d-flex justify-content-center align-items-end h-100 p-md-5 mx-md-5">
 
-                        <p class="fs-2 text-white fw-bold">
+                        <p class="fs-2 contact-msg fw-bold">
                             Get personalized solutions, expert recommendations, and accurate estimates tailored to your needs!
                         </p>
                     </div>

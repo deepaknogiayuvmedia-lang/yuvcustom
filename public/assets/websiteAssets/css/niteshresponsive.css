@@ -340,14 +340,14 @@
     }
 
     .graphicheadingsecthree {
-        font-size: 43px;
+        font-size: 36px;
         font-weight: 600 !important;
         color: black;
     }
 
     .graphicheadingsubsecthree {
         font-weight: 600 !important;
-        font-size: 43px;
+        font-size: 36px;
         color: var(--website-blue-color);
         text-decoration: underline;
     }
@@ -385,14 +385,14 @@
     }
 
     .influheading {
-        font-size: 43px;
+        font-size: 36px;
         font-weight: 600 !important;
         color: black;
     }
 
     .influheadingsub {
         font-weight: 600 !important;
-        font-size: 43px;
+        font-size: 36px;
         color: var(--whatsapp-color);
     }
 
@@ -413,7 +413,7 @@
     }
 
     .socialmedheadingsecthree {
-        font-size: 47px;
+        font-size: 36px;
         font-weight: 600 !important;
         color: black;
     }
@@ -462,7 +462,7 @@
     }
 
     .partnersheadingsecthree {
-        font-size: 43px;
+        font-size: 36px;
         text-align: left;
         font-weight: 600 !important;
         color: black;
@@ -472,7 +472,7 @@
     .partnersheadingsubsecthree {
         font-weight: 600 !important;
         text-align: left;
-        font-size: 43px;
+        font-size: 36px;
         color: var(--website-blue-color);
     }
 
@@ -598,7 +598,7 @@
         left: -15px;
     }
     .citebox {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .aboutheading {
@@ -623,6 +623,13 @@
         overflow-x: auto;
         width: 100%;
         margin: 0px;
+        justify-content: start;
+    }
+    .category-block {
+        margin: 2rem 10% 2rem;
+    }
+    .retail-list span {
+        font-size: 20px;
     }
     .category-selector .nav-item {
         padding: 0rem 0.85rem;
@@ -650,7 +657,7 @@
     .role-block img {
         display: block;
         flex: 1;
-        width: calc(100% - 55%);
+        width: 100%;
         position: relative;
         bottom: 0;
         right: 0px;
@@ -674,7 +681,7 @@
     }
 
     .aboutheadingsecthree {
-        font-size: 43px;
+        font-size: 36px;
         font-weight: 600 !important;
         text-align: left;
         color: black;
@@ -683,7 +690,7 @@
     .aboutheadingsubsecthree {
         font-weight: 600 !important;
         text-align: left;
-        font-size: 43px;
+        font-size: 36px;
         color: var(--website-blue-color);
     }
 
@@ -723,14 +730,14 @@
         background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 38px;
+        font-size: 30px;
         font-weight: 600 !important;
     }
     .globaltxtcolor {
         background: linear-gradient(to right, #0d6efd, #be73ff, #03cf64);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600 !important;
     }
 

@@ -70,9 +70,9 @@
             <div class="citebox js-karaoke">
                 <div class="citebox-content js-karaoke-content">
                     <span>We've generated</span> <br />
-                    <span><b>4,000+</b></span>
-                    <span>organic leads via SEO.</span>
-                    <span><b>10000+</b></span>
+                    <span><b>4,000+</b></span><br />
+                    <span>organic leads via SEO.</span><br />
+                    <span><b>10000+</b></span><br />
                     <span>Keywords ranked on 1st Page</span>
                 </div>
                 <div class="citebox-mask js-karaoke-mask">
@@ -136,8 +136,8 @@
                     </p>
                 </div>
 
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/05/one-page-seo.jpg"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -145,8 +145,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Content-Audit1-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -154,8 +154,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto h-100" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto h-100"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/10/Local-Education-SEO.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -163,8 +163,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Competitor-Audit-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -172,8 +172,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Website Review & Analysis.webp')}}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -181,8 +181,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/E-commerce SEO.webp')}}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -190,8 +190,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Digital PR & Link Building.jpg')}}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -199,8 +199,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Lead Generation SEO.jpg')}}""
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -344,7 +344,7 @@
     </section>
 
     <section class=" py-5">
-        <div class="container py-2 py-md-5">
+        <div class="container py-2 py-md-5 seocards">
             <div class="text-center seoheadingsecthree mb-5">
                 Stay Ahead with Smart SEO Strategies
             </div>
@@ -354,21 +354,23 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Quality-Of-Traffic-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Quality Of Traffic</h5>
-                            <p class="card-text">
+                            <h6 class="card-title text-center">Quality Of Traffic</h6>
+                            <p class="card-text  ">
                                 Gain people who are really interested in your offerings, and you'll see a sharp increase in
                                 conversion rates.
                             </p>
                         </div>
                     </div>
+                    
+                    
                 </div>
                 <div class="col-md-4 col-6">
                     <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Free-Traffic-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Zero Ad Spend, Maximum Impact</h5>
-                            <p class="card-text">
+                            <h6 class="card-title text-center">Zero Ad Spend, Maximum Impact</h6>
+                            <p class="card-text  ">
                                 Use SEO to generate free organic visitors. There is no need for paid advertisements.
                             </p>
                         </div>
@@ -379,8 +381,8 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Conversion-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">More Conversions</h5>
-                            <p class="card-text">
+                            <h6 class="card-title text-center">More Conversions</h6>
+                            <p class="card-text  ">
                                 It is a straightforward fact that higher rankings result in more clients.
                             </p>
                         </div>
@@ -391,8 +393,8 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Better-Online-Visibility-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Increased Visibility</h5>
-                            <p class="card-text">
+                            <h6 class="card-title text-center">Increased Visibility</h6>
+                            <p class="card-text  ">
                                 Make sure your content appears on the first page of Google search results, where it counts
                                 most.
                             </p>
@@ -405,8 +407,8 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Higher-Domain-Authority-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Increased Domain Authority</h5>
-                            <p class="card-text">
+                            <h6 class="card-title text-center">Increased Domain Authority</h6>
+                            <p class="card-text  ">
                                 Observe how your SEO approach increases credibility and trust as your website's reputation
                                 rises.
                             </p>
@@ -579,4 +581,19 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cards = document.querySelectorAll('.seocards');
+
+            cards.forEach(card => {
+                card.addEventListener('click', function () {
+                    const cardText = this.querySelector('.card-text');
+                    if (window.innerWidth <= 768) {
+                        cardText.classList.toggle('show');
+                    }
+                });
+            });
+        });
+    </script>
 @endsection

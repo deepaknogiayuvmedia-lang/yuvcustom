@@ -297,45 +297,6 @@
         </div>
     </section>
 
-    <section class="py-5 domains position-relative bannerbg">
-        <div class="container">
-            <div class="row">
-                <div class="globaltxtcolor p-2 text-center">
-                    Technologies We Specialize
-                </div>
-                <div class=" py-2">
-                    <p class="text-wrap  text-center">
-                        We are aware of the difficulties companies encounter when integrating the newest technology and updating ERP systems. To provide the best ERP system for your requirements, our team combines these advances with our extensive experience. To guarantee the best ERP performance, we concentrate on the following important technologies:
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-3 col-6">
-                    <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/odoo.jpg') }}"
-                            class="img-fluid rounded-pill p-2">
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/salesforce.jpg') }}"
-                            class="img-fluid rounded-pill p-2">
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class=" mb-3 border-0 rounded-pill shadow">
-                        <img src="{{ asset('assets/websiteAssets/images/services/zoho.jpeg') }}"
-                            class="img-fluid rounded-pill p-2">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <section class=" position-relative py-5">
         <div class="container justify-content-center">
             <div class="row">
@@ -432,5 +393,44 @@
             </div>
         </div>
     </section>
+
+    <section class="py-5 domains position-relative bannerbg">
+        <div class="container">
+            <div class="row">
+                <div class="globaltxtcolor p-2 text-center">
+                    Technologies We Specialize
+                </div>
+                <div class=" py-2">
+                    <p class="text-wrap  text-center">
+                        We are aware of the difficulties companies encounter when integrating the newest technology and updating ERP systems. To provide the best ERP system for your requirements, our team combines these advances with our extensive experience. To guarantee the best ERP performance, we concentrate on the following important technologies:
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-6">
+                    <div class=" mb-3 border-0 rounded-pill shadow">
+                        <img src="{{ asset('assets/websiteAssets/images/services/odoo.jpg') }}"
+                            class="img-fluid rounded-pill p-2">
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class=" mb-3 border-0 rounded-pill shadow">
+                        <img src="{{ asset('assets/websiteAssets/images/services/salesforce.jpg') }}"
+                            class="img-fluid rounded-pill p-2">
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class=" mb-3 border-0 rounded-pill shadow">
+                        <img src="{{ asset('assets/websiteAssets/images/services/zoho.jpeg') }}"
+                            class="img-fluid rounded-pill p-2">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 @endsection

@@ -31,24 +31,24 @@ $('#customers-testimonials').owlCarousel({
 
 
 
-    $(document).ready(function(){
-        $('.inds_cat_set').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 3
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 10
-                }
+$(document).ready(function () {
+    $('.inds_cat_set').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 3
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 10
             }
-        });
+        }
     });
+});
 
 
 $('#core-team').owlCarousel({
@@ -56,9 +56,10 @@ $('#core-team').owlCarousel({
     margin: 20, // Space between items
     loop: true, // Infinite looping
     autoplay: true, // Automatic scrolling
+
     responsive: {
         0: {
-            items: 1
+            items: 1,
         },
         600: {
             items: 2
@@ -69,11 +70,13 @@ $('#core-team').owlCarousel({
     }
 });
 $('#servicestabs').owlCarousel({
-    items: 5, 
-    margin: 20, 
-    loop: true, 
+    items: 5,
+    margin: 20,
+    loop: true,
     autoWidth: true,
-    autoplay: false, 
+    autoplay: true,
+    autoplayTimeout: 2000, // Increased autoplay speed
+    smartSpeed: 2000, // Adjust the speed of the slide transition
     responsive: {
         0: {
             items: 3
@@ -112,7 +115,7 @@ $('#core-teams').owlCarousel({
     autoplayTimeout: 3000, // Delay between scrolls
     responsive: {
         0: {
-            items: 1
+            items: 1,
         },
         600: {
             items: 2
@@ -189,6 +192,7 @@ $(document).ready(function () {
             slidesToScroll: Math.min(1, slideCount), // Scroll by 1 slide or the available number
             dots: false,
             arrows: false,
+            arrows: true,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -211,6 +215,8 @@ $(document).ready(function () {
                     settings: {
                         slidesToShow: Math.min(1, slideCount),
                         slidesToScroll: 1,
+                        dots: true,
+                        arrows: true,
                         infinite: slideCount > 1
                     }
                 }

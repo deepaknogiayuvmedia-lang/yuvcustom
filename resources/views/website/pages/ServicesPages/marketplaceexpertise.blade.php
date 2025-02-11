@@ -568,8 +568,8 @@
                         Scale Your Business with Our E-commerce Platform
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -577,8 +577,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -586,8 +586,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto h-100" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto h-100"  >
                         <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
@@ -595,8 +595,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card shadow-sm rounded-4 mx-auto" style="width: 18rem;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">

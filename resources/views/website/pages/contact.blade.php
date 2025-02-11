@@ -54,8 +54,8 @@
                                 <img src="{{ asset('assets/websiteAssets/images/24-hour-clock.png') }}" alt="service bg"
                                     class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                                 <p class="fw-bold text-start">Open Hours:</p>
-                                <p class=" text-start text-wrap">Mon – Fri: 9:30 am – 6:30 pm,
-                                    Sat-Sunday: CLOSED.</p>
+                                <p class=" text-start text-wrap">Mon – Sat: 9:30 am – 6:30 pm,<br/>
+                                    Sunday: CLOSED.</p>
                             </div>
                         </div>
                     </div>

@@ -95,6 +95,18 @@ body {
     font-size: 30px;
     font-weight: 600;
 }
+.slick-prev, .slick-next {
+    width: 35px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+.slick-dots li button:before {
+    font-size: 26px !important;
+}
 
 .herosubheading2 {
     color: #000000;
@@ -334,7 +346,30 @@ body {
     padding: 10px;
     margin: 10px;
 }
+.contact-msg{
+color: white;
+}
+.teamphoto {
+    margin-top: -50px;
+}
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.aplhacard {
+    width: 12.5%;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 .service-card .card:hover {
     transform: scale(1.03);
 }
@@ -1830,10 +1865,19 @@ a {
 .workflow .card {
     transition: all 0.3s ease;
 }
+.seocards .card-text {
+    display: none;
+    transform: translateY(20px);
+    transition: transform 0.3s ease-in-out;
+}
 
+.seocards .card-text.show {
+    display: block;
+    transform: translateY(0);
+}
 .seointro ul {
     list-style-image: url(https://www.rankontechnologies.com/wp-content/uploads/2022/05/check-icon2.png);
-    margin: 0 0 1em 2em !important;
+    margin: 0 0 1em 2em;
 }
 
 .SlieImgBox {
@@ -2081,7 +2125,7 @@ svg:not(:root) {
     position: relative;
     display: block;
     color: #19486d;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0;
     padding-left: 1rem;

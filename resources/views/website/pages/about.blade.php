@@ -39,7 +39,7 @@
                 <div class="col">
                     <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1>
                     <img src="{{ asset('assets/websiteAssets/images/team/team-photo.webp') }}" alt="team"
-                        class="img-fluid" style="margin-top: -50px;">
+                        class="img-fluid teamphoto">
 
                 </div>
             </div>
@@ -128,16 +128,16 @@
                             </div>
                         </div>
                     </div> --}}
-
-                    <iframe class="rounded-3" width="560" height="315"
-                        src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
+                    <div class="video-container mt-3">
+                        <iframe class="rounded-3" src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
 
                     <div class="mt-3">
-                        <div class="row text-center">
+                        <div class="row text-cente row gy-4 gx-4 justify-content-centerr">
                             <div class="col-md-4">
                                 <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
                                     <div class="counter fs-1 fw-bold globaltxtcolor" data-target="7000">0</div>
@@ -179,86 +179,87 @@
                         </p>
                     </div>
                     <div class="row gy-4 gx-4 justify-content-center">
-                        <div class="col">
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">Y</p>
-                                    <p class="text-center fw-bold">Youthful</p>
-                                    <p class="card-text text-center text-wrap">Young strategies to engage and inspire modern
-                                        audiences in the digital world.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">Y</p>
+                                    <p class="fw-bold">Youthful</p>
+                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences in the digital world.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">U</p>
-                                    <p class="text-center fw-bold">Unique</p>
-                                    <p class="card-text text-center text-wrap">Suggesting innovative and unique marketing
-                                        strategies.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">U</p>
+                                    <p class="fw-bold">Unique</p>
+                                    <p class="card-text text-wrap">Suggesting innovative and unique marketing strategies.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">V</p>
-                                    <p class="text-center fw-bold">Visionary</p>
-                                    <p class="card-text text-center text-wrap">Visionary creators of digital success.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">V</p>
+                                    <p class="fw-bold">Visionary</p>
+                                    <p class="card-text text-wrap">Visionary creators of digital success.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">M</p>
-                                    <p class="text-center fw-bold">Motivated</p>
-                                    <p class="card-text text-center text-wrap">Motivated to drive digital success.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">M</p>
+                                    <p class="fw-bold">Motivated</p>
+                                    <p class="card-text text-wrap">Motivated to drive digital success.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">E</p>
-                                    <p class="text-center fw-bold">Engaging</p>
-                                    <p class="card-text text-center text-wrap">Engaging audiences through immersive digital
-                                        experiences.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">E</p>
+                                    <p class="fw-bold">Engaging</p>
+                                    <p class="card-text text-wrap">Engaging audiences through immersive digital experiences.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">D</p>
-                                    <p class="text-center fw-bold">Dynamic</p>
-                                    <p class="card-text text-center text-wrap">Dynamically Adapting to the ever-changing
-                                        digital environment.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">D</p>
+                                    <p class="fw-bold">Dynamic</p>
+                                    <p class="card-text text-wrap">Dynamically adapting to the ever-changing digital environment.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">I</p>
-                                    <p class="text-center fw-bold">Innovative</p>
-                                    <p class="card-text text-center text-wrap">Young strategies to engage and inspire
-                                        modern
-                                        audiences in the digital world.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">I</p>
+                                    <p class="fw-bold">Innovative</p>
+                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences in the digital world.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                    
+                        <div class="aplhacard">
                             <div class="aboutcards">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center letterpara">A</p>
-                                    <p class="text-center fw-bold">Ambitious</p>
-                                    <p class="card-text text-center text-wrap">Ambitiously driving digital growth and
-                                        exceeding expectations.</p>
+                                <div class="card-body text-center">
+                                    <p class="fw-bold letterpara">A</p>
+                                    <p class="fw-bold">Ambitious</p>
+                                    <p class="card-text text-wrap">Ambitiously driving digital growth and exceeding expectations.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
