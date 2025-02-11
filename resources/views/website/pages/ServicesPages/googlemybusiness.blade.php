@@ -374,6 +374,434 @@
         </div>
     </section>
 
+    <section class="position-relative">
+        <div class="container py-5">
+            <div class=" row">
+                <div class="text-center performanceheading">
+                    Google Business Profile <span class="performanceheadingsub">Portfolio</span>
+                </div>
+
+                <div class="gbp-slider">
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Ajmer Electronics.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Ajmer Electronics
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Ardra Rubber.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Ardra Rubber
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Arya Neuro Hospital.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Arya Neuro Hospital
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/AS Digital Service.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                AS Digital Service
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Ashritha Innovations.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Ashritha Innovations
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Baba Hairdresser.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Baba Hairdresser
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Comeato India.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Comeato India
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Cooling Services.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Cooling Services
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Direct Astrological Solution.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Direct Astrological Solution
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Dodos Cafe.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Dodo's Cafe
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Easy Go Cabs.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Easy Go Cabs
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Guru AC Fitting & Repairing Center .jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Guru AC Fitting & Repairing Center 
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Hi King Restraurant.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Hi King Restraurant
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Home Appliances And Repair Shop.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Home Appliances And Repair Shop
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/JNJ Motors.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                JNJ Motors
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Kanak beauty saloon.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Kanak beauty saloon
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Kiara Tour and Travels.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Kiara Tour and Travels
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/King Insurance Solution.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                King Insurance Solution
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/KPHB Wine Mart.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                KPHB Wine Mart
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Lokesh Computer & CCTV.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Lokesh Computer & CCTV
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Mad About Food.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Mad About Food
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Maths Planet.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Maths Planet
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Mithilesh Tanan Photography.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Mithilesh Tanan Photography
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Money Tree Solutions.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Money Tree Solutions
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Nakoda Events.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Nakoda Events
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Outbloom Clinic.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Outbloom Clinic
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Palm Paradize.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Palm Paradize
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Parihar hospital and Fertility Center.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Parihar hospital and Fertility Center
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Priyanka Gift and Cosmetic Shop.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Priyanka Gift and Cosmetic Shop
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Realnet Technology.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Realnet Technology
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/RK Hospital.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                RK Hospital
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Royal Packer & Mover.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Royal Packer & Mover
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Shree Balaji Ramapeer Cargo.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Shree Balaji Ramapeer Cargo
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Sikhwal Industry.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Sikhwal Industry
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Silli Baby.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Silli Baby
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Simran Makeover.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Simran Makeover
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Skills Nation Trading Institute.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Skills Nation Trading Institute
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Smile Ajmer Dental Clinic.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Smile Ajmer Dental Clinic
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Solanki Freezco.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Solanki Freezco
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Taaruq Electronics.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Taaruq Electronics
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Thanvik Autocare.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Thanvik Autocare
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/The Gift Trove.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                The Gift Trove
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Unani & Ayurvedic Clinic.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Unani & Ayurvedic Clinic
+                            </div>
+                        </div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Vinayakam Beauty Parlour.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Vinayakam Beauty Parlour
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
+                            <img class="img-fluid p-3 rounded-5 "
+                                src="{{ asset('assets/websiteAssets/images/services/gpb/Zee Huzoor.jpg') }}"
+                                alt="">
+                            <div class="text-center fw-bold text-white">
+                                Zee Huzoor
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="py-5 position-relative bannerbg">
         <div class="container py-5 justify-content-center">
             <div class="row">
@@ -395,7 +823,8 @@
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Current GBP Auditing</h5>
                             <p class="card-text">
-                                We conduct a comprehensive audit of your Google Business Profile to ensure it's optimized for maximum visibility and performance.
+                                We conduct a comprehensive audit of your Google Business Profile to ensure it's optimized
+                                for maximum visibility and performance.
                             </p>
                         </div>
                     </div>
@@ -407,7 +836,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Initial Ranking Reporting</h5>
                             <p class="card-text">
-                                Get a detailed report on where your business stands in local search rankings, giving you insights to plan your next steps.
+                                Get a detailed report on where your business stands in local search rankings, giving you
+                                insights to plan your next steps.
                             </p>
 
                         </div>
@@ -420,7 +850,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Geogrid Ranking and Reporting</h5>
                             <p class="card-text">
-                                We analyze your business's ranking within specific geographic regions to identify key areas for local growth.
+                                We analyze your business's ranking within specific geographic regions to identify key areas
+                                for local growth.
                             </p>
 
                         </div>
@@ -433,7 +864,8 @@
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Product & Service Optimization</h5>
                             <p class="card-text">
-                                We help optimize the products and services listed on your GBP to better align with what your customers are searching for.
+                                We help optimize the products and services listed on your GBP to better align with what your
+                                customers are searching for.
                             </p>
 
                         </div>
@@ -446,7 +878,8 @@
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Ask A Question & Reviews Updations</h5>
                             <p class="card-text">
-                                We manage and update the "Ask a Question" section and customer reviews to enhance engagement and credibility.
+                                We manage and update the "Ask a Question" section and customer reviews to enhance engagement
+                                and credibility.
                             </p>
 
                         </div>
@@ -459,7 +892,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <h5>Images & Video Uploading</h5>
                             <p class="card-text">
-                                We ensure your GBP profile includes up-to-date images and videos that showcase your business in the best light, attracting more attention.
+                                We ensure your GBP profile includes up-to-date images and videos that showcase your business
+                                in the best light, attracting more attention.
                             </p>
 
                         </div>
