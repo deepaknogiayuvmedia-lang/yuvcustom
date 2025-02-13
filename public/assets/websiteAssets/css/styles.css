@@ -314,7 +314,7 @@ body {
     color: #192839;
     background-color: #f2f6f7;
     border-radius: 50rem;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     padding: 7px 20px;
     transition: all 0.5s;
@@ -3260,7 +3260,7 @@ table:first-child {
     color: #192839;
     background-color: #f2f6f7;
     border-radius: 50rem;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     padding: 7px 20px;
     transition: all 0.5s;

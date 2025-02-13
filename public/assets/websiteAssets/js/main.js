@@ -34,8 +34,10 @@ $('#customers-testimonials').owlCarousel({
 $(document).ready(function () {
     $('.inds_cat_set').owlCarousel({
         loop: true,
+        autoplay: true,
+        dots: true,
         margin: 10,
-        nav: false,
+        // nav: false,
         responsive: {
             0: {
                 items: 3
@@ -79,7 +81,7 @@ $('#servicestabs').owlCarousel({
     smartSpeed: 2000, // Adjust the speed of the slide transition
     responsive: {
         0: {
-            items: 3
+            items: 2
         },
         600: {
             items: 3
@@ -192,7 +194,7 @@ $(document).ready(function () {
             slidesToScroll: Math.min(1, slideCount), // Scroll by 1 slide or the available number
             dots: false,
             arrows: false,
-            arrows: true,
+            autoplay: true,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -216,7 +218,6 @@ $(document).ready(function () {
                         slidesToShow: Math.min(1, slideCount),
                         slidesToScroll: 1,
                         dots: true,
-                        arrows: true,
                         infinite: slideCount > 1
                     }
                 }
