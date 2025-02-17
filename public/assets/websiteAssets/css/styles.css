@@ -3401,17 +3401,27 @@ figure img {
 
 .portfolio .nav-link {
     padding: 1rem 1.5rem;
-    
 }
 
 .portfolio .nav {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 1rem;
-
 }
 .portfolio .nav .nav-link:hover {
     background-color: #e4f0ff;
     border-radius: 10px;
+}
 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
 }
