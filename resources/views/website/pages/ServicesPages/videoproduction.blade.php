@@ -63,87 +63,208 @@
                     <div class="filters">
                         <ul>
                             <li class="active" data-filter=".all">All</li>
-                            <li data-filter=".reels">Reels</li>
-                            <li data-filter=".compositing">VFX/Compositing</li>
-                            <li data-filter=".grading">Color Grading</li>
-                            <li data-filter=".editing">Video Editing</li>
-                            <li data-filter=".animation">3D Animation</li>
+                            <li data-filter=".character">2D Character Animation</li>
+                            <li data-filter=".motion">2D Motion Graphics</li>
+                            <li data-filter=".slideshows">Slideshows</li>
+                            <li data-filter=".corporate">Corporate Promo</li>
+                            <li data-filter=".travel">Travel Video</li>
                         </ul>
                     </div>
 
                     <div class="filters-content">
                         <div class="row grid">
-                            <div class="col-sm-4 all reels">
+                            <div class="col-sm-4 all character">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-1.png?width=767&name=Email-Temp-1.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Enlarge</h5>
-                                        <div class="cat">Enlarge</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391357?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all character">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391493?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all character">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391422?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all character">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391456?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all character">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391543?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all character">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057391571?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057402898?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057402944?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057402977?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057402997?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057403012?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057403179?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057403043?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057403138?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all motion">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057403095?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all slideshows">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057414939?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all slideshows">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057414972?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all slideshows">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057414991?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all slideshows">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057414915?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
                             <div class="col-sm-4 all corporate">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-1.png?width=767&name=Email-Temp-1.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner text-white">
-                                        <h5>Enlarge</h5>
-                                        <div class="cat">Enlarge</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057499654?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all compositing">
+                            <div class="col-sm-4 all corporate">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-2.png?width=562&name=Email-Temp-2.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Work 1</h5>
-                                        <div class="cat">Personal</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057499501?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all grading">
+                            <div class="col-sm-4 all travel">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-4.png?width=564&name=Email-Temp-4.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Work 1</h5>
-                                        <div class="cat">Agency</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057500574?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all editing">
+                            <div class="col-sm-4 all travel">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-4.png?width=564&name=Email-Temp-4.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Work 1</h5>
-                                        <div class="cat">Portal</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057500696?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all animation">
+                            <div class="col-sm-4 all travel">
                                 <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-5.png?width=562&name=Email-Temp-5.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Work 1</h5>
-                                        <div class="cat">Portal</div>
-                                    </div>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1057500419?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all animation">
-                                <div class="item">
-                                    <img src="https://20294495.fs1.hubspotusercontent-na1.net/hub/20294495/hubfs/Email-Temp-6.png?width=767&name=Email-Temp-6.png"
-                                        alt="Work 1" class="img-fluid">
-                                    <div class="p-inner">
-                                        <h5>Work 1</h5>
-                                        <div class="cat">Portal</div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -430,7 +551,7 @@
 
 
             </div>
-            
+
         </div>
     </section>
 
@@ -460,7 +581,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Professional and impactful corporate videos that showcase your brand’s identity, values, and culture, helping you connect with clients, investors, and employees alike.
+                                    Professional and impactful corporate videos that showcase your brand’s identity, values,
+                                    and culture, helping you connect with clients, investors, and employees alike.
                                 </p>
                             </div>
                         </div>
@@ -473,7 +595,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Engaging promotional videos designed to highlight your product or service, capture attention, and drive conversions through creative storytelling and high-quality visuals.
+                                    Engaging promotional videos designed to highlight your product or service, capture
+                                    attention, and drive conversions through creative storytelling and high-quality visuals.
                                 </p>
                             </div>
                         </div>
@@ -486,7 +609,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Tailored social media videos crafted to maximize engagement, build brand awareness, and encourage interaction across platforms like Instagram, Facebook, and TikTok.
+                                    Tailored social media videos crafted to maximize engagement, build brand awareness, and
+                                    encourage interaction across platforms like Instagram, Facebook, and TikTok.
                                 </p>
                             </div>
                         </div>
@@ -499,7 +623,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Clear, professional training videos that effectively communicate complex information, helping your team or clients learn new skills and processes with ease and efficiency.
+                                    Clear, professional training videos that effectively communicate complex information,
+                                    helping your team or clients learn new skills and processes with ease and efficiency.
                                 </p>
                             </div>
                         </div>
@@ -512,7 +637,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Attention-grabbing commercial ad videos designed to promote your products or services in an engaging and persuasive way, driving action and increasing brand visibility.
+                                    Attention-grabbing commercial ad videos designed to promote your products or services in
+                                    an engaging and persuasive way, driving action and increasing brand visibility.
                                 </p>
                             </div>
                         </div>
@@ -525,7 +651,8 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Creative and visually captivating music videos that perfectly complement the rhythm, emotion, and message of your song, elevating your music brand and audience connection.
+                                    Creative and visually captivating music videos that perfectly complement the rhythm,
+                                    emotion, and message of your song, elevating your music brand and audience connection.
                                 </p>
                             </div>
                         </div>
@@ -538,12 +665,14 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    From UGC Videos to product demos, we offer a wide range of video production services tailored to your unique needs, ensuring high-quality, engaging content that delivers results.
+                                    From UGC Videos to product demos, we offer a wide range of video production services
+                                    tailored to your unique needs, ensuring high-quality, engaging content that delivers
+                                    results.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -617,4 +746,5 @@
             }
         })
     </script>
+
 @endsection

@@ -1937,3 +1937,9 @@ border-radius: 40px;
 #graphicSection .newsCard {
   height: 510px !important;
 }
+
+.staticbtn {
+  position: fixed;
+  bottom: 1%;
+  z-index: 99;
+}

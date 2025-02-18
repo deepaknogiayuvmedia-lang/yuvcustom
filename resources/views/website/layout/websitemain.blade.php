@@ -139,10 +139,6 @@
                                             href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link {{ request()->routeIs('portfolio') ? 'active' : '' }}"
-                                            href="{{ route('portfolio') }}">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('clients') ? 'active' : '' }}"
                                             href="{{ route('clients') }}">Clients</a>
                                     </li>
@@ -457,7 +453,14 @@
 
                                     </div>
                                 </div>
-
+                                <div class="hideInDesktop">
+                                    <div class="d-flex justify-content-start flex-md-row flex-column staticbtn  ">
+                                        <div class="mb-3 text-center">
+                                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!--// Single Widget -->
 

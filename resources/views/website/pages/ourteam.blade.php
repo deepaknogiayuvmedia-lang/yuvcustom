@@ -77,7 +77,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mrs. Pinki Sain</div>
+                                        <div class="author">Ms. Pinki Sain</div>
                                         <div class="fs-6 ">Co-Founder</div>
                                     </div>
                                 </div>
@@ -446,7 +446,7 @@
                     ">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/gaurav-2.jpg') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -456,6 +456,32 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Gaurav Agarwal</div>
+                                        <div class="fs-6 ">Business Development Consultant</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- Rashi Sharma --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3"
+                            style="
+                        background: #f7f7f7;
+                    ">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Rashi.jpg') }}"
+                                    alt="client"
+                                    style="
+                                    height: 245px;
+                                ">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Ms. Rashi Sharma</div>
                                         <div class="fs-6 ">Business Development Consultant</div>
                                     </div>
                                 </div>
@@ -711,14 +737,14 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Ayushi.jpg') }}"
                                     alt="client" style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Ms. Ayushi Sharma</div>
-                                        <div class="fs-6 ">Performance Marketer</div>
+                                        <div class="fs-6 ">Digital Marketing Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -734,14 +760,14 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Mehazabi.jpg') }}"
                                     alt="client" style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Ms. Mehzabi Sheikh</div>
-                                        <div class="fs-6 ">Performance Marketer</div>
+                                        <div class="fs-6 ">Digital Marketing Executive</div>
                                     </div>
                                 </div>
                             </div>

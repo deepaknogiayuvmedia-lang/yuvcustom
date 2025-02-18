@@ -119,15 +119,19 @@
     .tab-content > .tab-pane .card {
         width: auto;
     }
+    .card-text:last-child {
+        font-size: 12px;
+    }
+    .hideInDesktop .servicescards .card {
+        width: 50%;
+    }
 
     .service-card {
         height: 800px;
         max-height: 100vh;
         overflow: hidden;
     }
-    .teamphoto {
-        margin-top: -20px;
-    }
+    
     .aplhacard {
         width: 50%;
     }
@@ -140,6 +144,13 @@
         
     .servicecard .serviceContent {
         width: 60%;
+    }
+    .mobileNav {
+        overflow-x: auto;
+        width: 380px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
     }
 
     .data_text_lin::before {

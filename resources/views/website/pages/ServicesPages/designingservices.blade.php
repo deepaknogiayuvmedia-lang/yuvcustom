@@ -23,7 +23,11 @@
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Contact Us<i
-                                    class="bi bi-arrow-right"></i></a>
+                                    class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                        <div class="me-3 mt-2 mt-md-0">
+                            <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
+                                    class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -357,7 +361,7 @@
                                         </p>
                                     </div>
                                     <div class="service-action">
-                                        <a href="#" class="redlink">
+                                        <a href="{{ route('portfolio') }}" class="redlink">
                                             <span>Learn more</span>
                                         </a>
                                     </div>
@@ -386,7 +390,7 @@
                                         </p>
                                     </div>
                                     <div class="service-action">
-                                        <a href="#" class="redlink">
+                                        <a href="{{ route('portfolio') }}" class="redlink">
                                             <span>Learn more</span>
                                         </a>
                                     </div>
@@ -415,7 +419,7 @@
                                         </p>
                                     </div>
                                     <div class="service-action">
-                                        <a href="#" class="redlink">
+                                        <a href="{{ route('portfolio') }}" class="redlink">
                                             <span>Learn more</span>
                                         </a>
                                     </div>
@@ -448,7 +452,7 @@
                                         </p>
                                     </div>
                                     <div class="service-action">
-                                        <a href="#" class="redlink">
+                                        <a href="{{ route('portfolio') }}" class="redlink">
                                             <span>Learn more</span>
                                         </a>
                                     </div>
@@ -480,7 +484,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="#" class="redlink">
+                                    <a href="{{ route('portfolio') }}" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -508,7 +512,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="#" class="redlink">
+                                    <a href="{{ route('portfolio') }}" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -536,7 +540,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="#" class="redlink">
+                                    <a href="{{ route('portfolio') }}" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -567,7 +571,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="#" class="redlink">
+                                    <a href="{{ route('portfolio') }}" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -662,6 +666,16 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center flex-wrap buttonsdiv mt-3">
+                <div class="me-3">
+                    <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Contact Us<i
+                            class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="me-3 mt-2 mt-md-0">
+                    <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
+                            class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+            </div>
         </div>
     </section>
     <section class="py-5 position-relative">
@@ -723,6 +737,16 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-wrap buttonsdiv mt-3">
+                <div class="me-3">
+                    <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Contact Us<i
+                            class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="me-3 mt-2 mt-md-0">
+                    <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
+                            class="bi bi-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
