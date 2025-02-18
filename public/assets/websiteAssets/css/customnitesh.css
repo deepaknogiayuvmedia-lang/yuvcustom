@@ -1549,7 +1549,7 @@
   /* width: 150px; */
   height: 150px;
   border-radius: 10%;
-  padding-inline: 80px;
+  padding-inline: 10px;
   background-color: white;
   margin-inline: 10px;
 }
@@ -1586,7 +1586,7 @@
   /* width: 150px; */
   height: 150px;
   border-radius: 10%;
-  padding-inline: 80px;
+  padding-inline: 10px;
   background-color: white;
   margin-inline: 10px;
 }
@@ -1668,7 +1668,7 @@
   /* width: 150px; */
   height: 150px;
   border-radius: 10%;
-  padding-inline: 80px;
+  padding-inline: 10px;
   background-color: white;
   margin-inline: 10px;
 }
@@ -1928,4 +1928,12 @@ border-radius: 40px;
   flex-shrink: 0;
   width: 60vw;
   height: auto;
+}
+
+.yuvengers {
+  margin-top: -80px;
+}
+
+#graphicSection .newsCard {
+  height: 510px !important;
 }

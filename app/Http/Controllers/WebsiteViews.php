@@ -95,4 +95,8 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.portfolio');
     }
+    public function clients()
+    {
+        return view('website.pages.clients');
+    }
 }

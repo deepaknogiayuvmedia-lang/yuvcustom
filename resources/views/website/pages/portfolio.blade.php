@@ -115,8 +115,7 @@
                         type="button" role="tab" aria-controls="v-pills-cgi" aria-selected="false">CGI</button>
                     <button class="nav-link" id="v-pills-Story-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-Story" type="button" role="tab" aria-controls="v-pills-Story"
-                        aria-selected="false">Logo
-                        Story</button>
+                        aria-selected="false">Graphic Design</button>
                     <button class="nav-link" id="v-pills-vfx-tab" data-bs-toggle="pill" data-bs-target="#v-pills-vfx"
                         type="button" role="tab" aria-controls="v-pills-vfx" aria-selected="false">VFX</button>
 
@@ -231,8 +230,8 @@
                     </div>
                     <div class="tab-pane fade" id="v-pills-Story" role="tabpanel" aria-labelledby="v-pills-Story-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="logoStorySection">
-                            <h3>Logo Story</h3>
+                        <div class="row ps-5" id="graphicSection">
+                            <h3>Graphic Design</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-vfx" role="tabpanel" aria-labelledby="v-pills-vfx-tab"
@@ -272,42 +271,6 @@
 
     <!-- Vimeo Player API -->
     <script src="https://player.vimeo.com/api/player.js"></script>
-
-    {{-- <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var mediaModal = document.getElementById('mediaModal');
-            var modalVideo = document.getElementById('modalVideo');
-            var modalImage = document.getElementById('modalImage');
-            var modalTitle = document.getElementById('mediaModalLabel');
-            var modalContent = document.getElementById('modalContent');
-
-            mediaModal.addEventListener('show.bs.modal', function(event) {
-                var button = event.relatedTarget;
-                var mediaSrc = button.getAttribute('data-media-src');
-                var title = button.getAttribute('data-title');
-                var content = button.getAttribute('data-content');
-                var type = button.getAttribute('data-type');
-
-                modalTitle.textContent = title;
-                modalContent.textContent = content;
-
-                if (type === "video") {
-                    modalVideo.style.display = "block";
-                    modalImage.style.display = "none";
-                    modalVideo.setAttribute('src', mediaSrc + "?autoplay=1");
-                } else if (type === "image") {
-                    modalVideo.style.display = "none";
-                    modalImage.style.display = "block";
-                    modalImage.setAttribute('src', mediaSrc);
-                }
-            });
-
-            mediaModal.addEventListener('hidden.bs.modal', function() {
-                modalVideo.setAttribute('src', '');
-                modalImage.setAttribute('src', '');
-            });
-        });
-    </script> --}}
 
     <script>
         // 2d animations
@@ -1137,6 +1100,196 @@
                 "content": "Smooth and expressive 2D character animation bringing characters to life with fluid movements, emotions, and personality for games."
             },
         ];
+
+        // creatives
+        const graphicData = [
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/ag.jpg",
+                "title": "Agarwal Store",
+                "content": "Agarwal store is a traditional clothing brand."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/agarw.jpg",
+                "title": "Agarwal Store",
+                "content": "Agarwal store is a traditional clothing brand."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/agarwal.jpg",
+                "title": "Agarwal Store",
+                "content": "Agarwal store is a traditional clothing brand."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/agrwal 5.jpg",
+                "title": "Agarwal Store",
+                "content": "Agarwal store is a traditional clothing brand."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/chili bistro 3.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/chili.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/chiliii.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/design255.jpg",
+                "title": "GSR",
+                "content": "GSR is a jewellery brand."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/firco.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/firecox.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/go.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopchns.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopi.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichad 8.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichand 2 (2).jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichand 2.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichand 3.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichand 5.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichand.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichang2.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichnd 9.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichnd6.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopichng 7.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/gopihand.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Sandwich0.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-1 (2).jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-1 (3).jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-1 (4).jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-1.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-2.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+            {
+                "type": "image",
+                "mediaSrc": "assets/websiteAssets/images/portfolio/creatives/Untitled-3.jpg",
+                "title": "Chilli Bistro",
+                "content": "Chilli Bistro is a cafe chain."
+            },
+        ];
     </script>
 
 
@@ -1153,12 +1306,12 @@
                 data-title="${item.title}"
                 data-content="${item.content}"
                 data-type="${item.type}">
-                <figure class='newsCard news-Slide-up'>
+                <figure class='newsCard news-Slide-up bg-black'>
                     <div class="media-container">
                         ${item.type === "video" ? 
                             `<iframe src="${item.mediaSrc}?background=1&autoplay=1&loop=1&muted=1"
                             frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                            allowfullscreen height="285px" class="w-100"></iframe>` 
+                            allowfullscreen class="w-100"></iframe>` 
                             : 
                             `<img src="${item.mediaSrc}" alt="${item.title}" class="w-100">`
                         }
@@ -1204,6 +1357,7 @@
             // cgiData
             populateSection("cgiSection", cgiData);
             populateSection("vfxSection", vfxData);
+            populateSection("graphicSection", graphicData);
 
 
             // Handle Modal Interactions

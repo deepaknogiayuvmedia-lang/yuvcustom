@@ -254,7 +254,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Laxminaraya.jpg') }}"
                                     alt="client" style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">
@@ -768,7 +768,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Laxminaraya.jpg') }}"
                                     alt="client" style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">

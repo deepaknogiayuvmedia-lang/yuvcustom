@@ -34,11 +34,11 @@
     </section>
 
     <section class="position-relative">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1>
-                    <img src="{{ asset('assets/websiteAssets/images/team/team-photo.webp') }}" alt="team"
+                <div class="col yuvengers">
+                    {{-- <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1> --}}
+                    <img src="{{ asset('assets/websiteAssets/images/team/team-photo-4.png') }}" alt="team"
                         class="img-fluid teamphoto">
 
                 </div>
@@ -57,7 +57,7 @@
     <section id="aboutmainsection" class="py-4">
         <div class="container py-3 py-md-4">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12">
+                <div class="col-md-12 col-12">
                     <div class="text-start fs-2 fw-bold">
                         Starting Small, Thinking Big:
                         <span class="globaltxtcolor">The Yuvmedia Story.</span>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                {{-- <div class="col-md-6 col-12"> --}}
                     {{-- <div class="row h-100 imagesonmob">
                         <div class="col-5 h-100 px-0 mt-1 mt-lg-0">
                             <div class="h-50  pb-2">
@@ -128,15 +128,15 @@
                             </div>
                         </div>
                     </div> --}}
-                    <div class="video-container mt-3">
+                    {{-- <div class="video-container mt-3">
                         <iframe class="rounded-3" src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" 
                             title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
-                    </div>
+                    </div> --}}
 
-                    <div class="mt-3">
+                    {{-- <div class="mt-3">
                         <div class="row text-cente row gy-4 gx-4 justify-content-centerr">
                             <div class="col-md-4">
                                 <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
@@ -157,9 +157,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                </div>
+                {{-- </div> --}}
             </div>
         </div>
     </section>
@@ -286,38 +286,38 @@
                 <div class="col-lg-12">
                     <div class="logo-slider">
                         <div class="logos-slide">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
                         </div>
                     </div>
                     <div class="logo-slider2 mt-3">
                         <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
                         </div>
                     </div>
                     <div class="logo-slider3">
                         <div class="logos-slide3">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
                         </div>
                     </div>
                 </div>

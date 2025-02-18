@@ -184,26 +184,26 @@
                     <div class="col-lg-12">
                         <div class="logo-slider">
                             <div class="logos-slide">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
                             </div>
                         </div>
                         <div class="logo-slider2 mt-3 d-none">
                             <div class="logos-slide2">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
                             </div>
                         </div>
                     </div>
@@ -590,7 +590,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                            <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
                                                 class="card-img-top" alt="VFX & Compositing">
                                             <div class="card-body">
                                                 <h6 class="card-title">VFX & Compositing</h6>
@@ -600,7 +600,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
                                                 class="card-img-top" alt="Product Shoot">
                                             <div class="card-body">
                                                 <h6 class="card-title">Product Shoot</h6>
