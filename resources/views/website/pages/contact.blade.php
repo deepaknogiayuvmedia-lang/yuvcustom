@@ -196,7 +196,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col p-5">
+                <div class="col p-3">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4236.533192428579!2d74.6082515!3d26.471099100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be7281e354e57%3A0x888b447da4858dab!2sYUVMEDIA-%20Digital%20Marketing%20Services!5e1!3m2!1sen!2sin!4v1734078794961!5m2!1sen!2sin"
                         width="100%" height="450" style="border-radius: 10px;" allowfullscreen="" loading="lazy"

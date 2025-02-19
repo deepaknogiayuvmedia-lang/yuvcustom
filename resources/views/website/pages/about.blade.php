@@ -298,26 +298,26 @@
                     </div>
                     <div class="logo-slider2 mt-3">
                         <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/1.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/2.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/3.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/4.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/5.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/6.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/7.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/8.png') }}">
                         </div>
                     </div>
                     <div class="logo-slider3">
                         <div class="logos-slide3">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/1.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/2.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/3.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/4.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/5.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/6.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/7.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/8.png') }}">
                         </div>
                     </div>
                 </div>
@@ -455,14 +455,14 @@
                                             <div class="shadow-effect corebox flip rounded-3">
                                                 <div class=" ">
                                                     <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Laxminaraya.jpg') }}"
                                                         alt="client">
                                                 </div>
                                                 <div class="authorbox rounded-3">
                                                     <div class="testimonial-name d-flex  text-white">
                                                         <div>
-                                                            <div class="fs-6 ">Co-founder</div>
-                                                            <div class="author">Mrs. Pinki Sain</div>
+                                                            <div class="fs-6 ">Project Manager</div>
+                                                            <div class="author">Mr. Laxminarayan Sain</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -476,8 +476,8 @@
                                             </div>
                                             <div class="testimonial-name d-flex mt-auto text-black">
                                                 <div>
-                                                    <div class="fs-6 ">Co-founder</div>
-                                                    <div class="author">Mrs. Pinki Sain</div>
+                                                    <div class="fs-6 ">Project Manager</div>
+                                                    <div class="author">Mr. Laxminarayan Sain</div>
                                                 </div>
                                             </div>
                                         </div>

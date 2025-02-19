@@ -207,26 +207,6 @@
                     Project Managers
                     <hr class="border-primary border-2 w-50">
                 </div>
-                {{-- Kishan Gopal --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
-                                    alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Kishan Gopal</div>
-                                        <div class="fs-6 ">Operations Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {{-- Leera ma'am --}}
                 <div class="col-md-3 mb-4">
                     <div class="item">
@@ -300,29 +280,7 @@
                     <hr class="border-primary border-2 w-50">
 
                 </div>
-                {{-- Kunal --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3"style="
-                                                        background: white;">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}" alt="client"
-                                    style="
-                                    height: 245px;
-                                ">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Kunal Basin</div>
-                                        <div class="fs-6 ">Business Development Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 {{-- Gaurav --}}
                 <div class="col-md-3 mb-4">
@@ -499,26 +457,6 @@
 
                 </div>
 
-                {{-- Kishan gopal --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
-                                    alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Kishan Gopal</div>
-                                        <div class="fs-6 ">Operations & IT Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 {{-- Anshul --}}
                 <div class="col-md-3 mb-4">
@@ -590,25 +528,7 @@
                     <hr class="border-primary border-2 w-50">
 
                 </div>
-                {{-- Leera ma'am --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}" alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Ms. Leera Ramesh</div>
-                                        <div class="fs-6 ">Project Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 {{-- Roshan --}}
                 <div class="col-md-3 mb-4">
@@ -664,27 +584,7 @@
                     <hr class="border-primary border-2 w-50">
 
                 </div>
-                {{-- Manohar sir --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
-                                    alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Manohar Singh Panwar</div>
-                                        <div class="fs-6 ">Project Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                
 
                 {{-- Parul --}}
                 <div class="col-md-3 mb-4">
@@ -786,28 +686,7 @@
                     <hr class="border-primary border-2 w-50">
 
                 </div>
-                {{-- Laxminarayan sir --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3"
-                            style="height: 245px;
-                        background: #f7f7f7;">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Laxminaraya.jpg') }}"
-                                    alt="client" style="height: 245px;">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Laxminarayan Sain</div>
-                                        <div class="fs-6 ">Project Manager</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 {{-- Rudraksh sir --}}
                 <div class="col-md-3 mb-4">
                     <div class="item">

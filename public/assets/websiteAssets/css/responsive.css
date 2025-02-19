@@ -131,7 +131,9 @@
         max-height: 100vh;
         overflow: hidden;
     }
-    
+    .hero-image img {
+        width: 100% !important;  
+    }
     .aplhacard {
         width: 50%;
     }
@@ -147,10 +149,13 @@
     }
     .mobileNav {
         overflow-x: auto;
-        width: 380px;
+        width: 400px;
         flex-wrap: nowrap;
         white-space: nowrap;
         padding-bottom: 10px;
+    }
+    .teamphoto {
+        margin-top: 0px;
     }
 
     .data_text_lin::before {
@@ -168,5 +173,24 @@
     .hero-content .heroheading, .hero-content .herosubheading {
         text-align: center;
         font-size: 30px;
+    }
+}
+
+@media(max-width: 380px) and (min-width: 340px) {
+    .mobileNav {
+        overflow-x: auto;
+        width: 350px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+}
+@media(max-width: 330px) {
+    .mobileNav {
+        overflow-x: auto;
+        width: 300px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
     }
 }

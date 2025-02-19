@@ -3433,3 +3433,6 @@ figure img {
 .contactscards ul li a {
     color: #6a6a6a;
 }
+.o-livechat-LivechatButton {
+    top: calc(97% - 116px) !important;
+}

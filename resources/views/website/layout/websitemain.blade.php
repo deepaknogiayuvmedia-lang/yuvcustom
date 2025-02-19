@@ -26,9 +26,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/lenis.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick-theme.css') }}">
-    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
-
-    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script>
+    
 </head>
 
 <body>
@@ -65,6 +63,10 @@
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('ourteam') ? 'active' : '' }}"
                                                     href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
+                                            {{-- <li>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('ourteam') ? 'active' : '' }}"
+                                                    href="{{ route('clients') }}">Our Clients</a>
+                                            </li> --}}
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -127,6 +129,10 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="nav-link {{ request()->routeIs('clients') ? 'active' : '' }}"
+                                            href="{{ route('clients') }}">Clients</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                             href="{{ route('partners') }}">Partners</a>
                                     </li>
@@ -137,10 +143,6 @@
                                     <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                                             href="{{ route('contact') }}">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link {{ request()->routeIs('clients') ? 'active' : '' }}"
-                                            href="{{ route('clients') }}">Clients</a>
                                     </li>
                                 </ul>
                             </div>
@@ -454,9 +456,9 @@
                                     </div>
                                 </div>
                                 <div class="hideInDesktop">
-                                    <div class="d-flex justify-content-start flex-md-row flex-column staticbtn  ">
-                                        <div class="mb-3 text-center">
-                                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                    <div class="d-flex justify-content-start flex-md-row flex-column staticbtn w-100 ">
+                                        <div class="m-3 text-center">
+                                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg w-100">Work With Yuvmedia
                                             <i class="bi bi-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -470,7 +472,7 @@
                 <!--// Footer Widgets Area -->
 
                 <!-- Footer Copyright Area -->
-                <div class="footer-area__copyright bg--dark">
+                <div class="footer-area__copyright bg--dark mb-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4">
@@ -516,6 +518,10 @@
 
         <script src="{{ asset('assets/websiteAssets/js/lenis.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script>
+
+        {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
+
+    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> --}}
 
         {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

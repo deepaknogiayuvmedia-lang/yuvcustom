@@ -351,11 +351,11 @@
                 
             ],
             "manifacturer": [{
-                    "src": "assets/websiteAssets/images/clients/manifacturer/1.png",
+                    "src": "assets/websiteAssets/images/clients/Manifacturer/1.png",
                     "alt": "manifacturer 1"
                 },
                 {
-                    "src": "assets/websiteAssets/images/clients/manifacturer/2.png",
+                    "src": "assets/websiteAssets/images/clients/Manifacturer/2.png",
                     "alt": "manifacturer 2"
                 },
                 

@@ -676,7 +676,7 @@
             </div>
 
             <div class="row p-2 hideInDesktop">
-                <div>
+                <div class="p-0">
                     <h1 class="service-card__title">Digital Marketing</h1>
 
                     <!-- Nav tabs -->
