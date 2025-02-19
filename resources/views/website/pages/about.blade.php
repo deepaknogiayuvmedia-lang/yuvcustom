@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col yuvengers">
                     {{-- <h1 class="globaltxtcolor text-center fs-1">Yuvengers</h1> --}}
-                    <img src="{{ asset('assets/websiteAssets/images/team/team-photo-4.png') }}" alt="team"
+                    <img src="{{ asset('assets/websiteAssets/images/team/team-photo-5.png') }}" alt="team"
                         class="img-fluid teamphoto">
 
                 </div>

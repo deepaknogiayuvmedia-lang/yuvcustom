@@ -104,8 +104,40 @@
     }
     
     .mobileMenu .nav-link {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .mobileMenu .nav-item {
+        display: flex;
+        align-items: center;
+    }
+    .mobileMenu .nav-item img, .mobileMenu .accordion-item img {
+        width: 32px;
+        height: 32px;
+        background-color: #0d6dfc;
+        border-radius: 100%;
+        padding: 6px;
+    }
+
+    .mobileMenu .accordion-item {
+        border: 0;
+    }
+    .mobileMenu .accordion-button {
+        padding: 10px;
+        font-weight: 600;
+    }
+    .mobileMenu .accordion-body a{
+        color: black;
+    }
+
+    .mobileMenu .accordion-button:not(.collapsed) {
+        color: var(--bs-accordion-active-color);
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+    .mobileMenu .accordion-button:focus {
+        box-shadow: none;
     }
     .hero-section {
         padding: 0px 0;
