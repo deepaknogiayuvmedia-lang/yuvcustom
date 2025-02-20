@@ -1326,7 +1326,7 @@
 }
 
 .customforminput {
-    border: 2px dashed lightgrey;
+    border: 1px solid lightgrey;
     appearance: none;
     /* Remove browser default styles */
     -webkit-appearance: none;

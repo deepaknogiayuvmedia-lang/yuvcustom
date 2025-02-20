@@ -2,6 +2,7 @@
 #---------------------------------------------------🙏अंतः अस्ति प्रारंभः🙏---------------------------”
 use App\Http\Controllers\AdminStores;
 use App\Http\Controllers\AdminViews;
+use App\Http\Controllers\EmailController;
 use App\Http\Controllers\UserStores;
 use App\Http\Controllers\UserViews;
 use Illuminate\Support\Facades\Route;
@@ -9,7 +10,7 @@ use App\Http\Controllers\ExcelContactSheet;
 use App\Http\Controllers\WebsiteViews;
 use App\Http\Middleware\VerifyCsrfToken;
 
-
+Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.inquiry');
 
 Route::get('admin/login', function () {
     return view('auth.login');

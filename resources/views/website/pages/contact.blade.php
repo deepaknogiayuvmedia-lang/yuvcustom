@@ -103,7 +103,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center">
-                        <form action="#">
+                        <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
+                            @csrf
                             <div class="formcustomcard">
                                 <div class="card-body">
                                     <div class="row gy-4">
@@ -111,7 +112,8 @@
                                             <div>
                                                 <label class="form-label">Your First Name <span
                                                         class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="userid" class="form-control customforminput"
+                                                <input type="text" name="username"
+                                                    class="form-control customforminput"
                                                     placeholder="Enter Your First Name" autocomplete="off">
                                             </div>
                                         </div>
@@ -119,31 +121,32 @@
                                             <div>
                                                 <label class="form-label">Your Brand Name <span
                                                         class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="password" class="form-control customforminput"
+                                                <input required type="text" name="brandname"
+                                                    class="form-control customforminput"
                                                     placeholder="Enter Your Brand Name" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div>
-                                                <label class="form-label">Email <span class="text-danger fs-5">*</span>
-                                                </label>
-                                                <input type="email" name="email" class="form-control customforminput"
-                                                    placeholder="Enter Email">
+                                                <label class="form-label">Email <span
+                                                        class="text-danger fs-5">*</span> </label>
+                                                <input required type="email" name="email"
+                                                    class="form-control customforminput" placeholder="Enter Email">
                                             </div>
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div>
                                                 <label class="form-label">Phone/Mobile <span
                                                         class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="expiredate" class="form-control customforminput"
-                                                    placeholder="Enter Phone/Mobile">
+                                                <input type="tel" name="phone"
+                                                    class="form-control customforminput"
+                                                    placeholder="Enter Phone/Mobile" required>
                                             </div>
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div>
-                                                <label class="form-label">Your Website <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="createddate"
+                                                <label class="form-label">Your Website </label>
+                                                <input type="text" name="website"
                                                     class="form-control customforminput"
                                                     placeholder="Enter Your Website link">
                                             </div>
@@ -151,9 +154,8 @@
                                         <div class="col-xxl-6 col-md-6">
                                             <div>
                                                 <label for="labelid">Your Industry <span
-                                                        class="text-danger fs-5">*</span>
-                                                </label>
-                                                <select name="servicetype" class="form-select customforminput"
+                                                        class="text-danger fs-5">*</span> </label>
+                                                <select name="industry" class="form-select customforminput"
                                                     id="servicetypeid" required>
                                                     <option value="" selected>--select industry--</option>
                                                     <option value="Services">E-Commerce</option>
@@ -170,11 +172,10 @@
                                         </div>
                                         <div class="col-xxl-12 col-md-12">
                                             <div>
-                                                <label for="example-text-input" class="">Please tell about your
-                                                    business
-                                                    <span class="text-danger fs-5">*</span> </label>
-                                                <textarea class="form-control customforminput" placeholder="Please tell about your business" name="value"
-                                                    type="textarea" rows="3" value="" id="example-text-input" required></textarea>
+                                                <label for="example-text-input" class="">Please tell about
+                                                    your business  </label>
+                                                <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
+                                                    type="textarea" rows="3" value="" id="example-text-input" ></textarea>
                                             </div>
                                         </div>
                                     </div>
