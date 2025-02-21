@@ -511,7 +511,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mr. Devendra Shobawat</div>
+                                        <div class="author">Mr. Devendra Shobhawat</div>
                                         <div class="fs-6 ">Wordpress Developer </div>
                                     </div>
                                 </div>

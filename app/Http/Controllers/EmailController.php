@@ -12,15 +12,6 @@ class EmailController extends Controller
 
     public function sendEmail(Request $request)
     {
-        try {
-            Mail::raw('SMTP test successful', function ($message) {
-                $message->to('anshulyuvmedia@gmail.com')
-                    ->subject('SMTP Test');
-            });
-            echo "Mail Sent Successfully!";
-        } catch (\Exception $e) {
-            echo "Error: " . $e->getMessage();
-        }
         // Validate form inputs
         $request->validate([
             'username' => 'required|string|max:255',
