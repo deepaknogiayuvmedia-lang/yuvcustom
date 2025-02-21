@@ -35,7 +35,7 @@ class EmailController extends Controller
         ];
 
         // Define recipient email
-        $toEmail = $details['email'];
+        $toEmail = ['sales@yuvmedia.com', 'admin@yuvmedia.com'];
         $subject = "New Inquiry from " . $details['name'];
         $message = "You have received a new inquiry.";
         // Log::info('Email sent to: ' . json_encode($details));

@@ -134,7 +134,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}"
-                                            href="https://www.yuvmedia.com/jobs">Career</a>
+                                            href="https://yuvmedia-india.odoo.com/jobs">Career</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -278,7 +278,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}"
-                                href="https://www.yuvmedia.com/jobs"><img
+                                href="https://yuvmedia-india.odoo.com/jobs"><img
                                     src="{{ asset('/assets/websiteAssets/images/menu/career.png') }}" alt="home"
                                     class="me-2">Career</a>
                         </li>
@@ -342,7 +342,7 @@
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('career') ? 'active' : '' }}"
-                                            href="https://www.yuvmedia.com/jobs">Career</a>
+                                            href="https://yuvmedia-india.odoo.com/jobs">Career</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('contact') ? 'active' : '' }}"
