@@ -41,7 +41,8 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business With </h1>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business
+                                    With </h1>
                                 <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
                                     Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
@@ -70,7 +71,8 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In The</h1>
+                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In
+                                    The</h1>
                                 <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
                                     Management Expertise</h3>
                                 <div class="stats-section mt-3 mb-3">
@@ -99,7 +101,8 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s Narrative With</h1>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s
+                                    Narrative With</h1>
                                 <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
                                     Content.</h3>
                                 <div class="stats-section mt-3 mb-3">
@@ -128,7 +131,8 @@
             </div>
 
 
-            <div class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+            <div
+                class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
                 <div class=" d-flex align-items-center heretext">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
@@ -409,7 +413,7 @@
                                                             and drive meaningful results.</p>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <div class="card me-4">
                                                     <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
                                                         class="card-img-top" alt="Whatsapp Marketing">
@@ -433,7 +437,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                
+
 
                                             </div>
                                         </div>
@@ -491,7 +495,7 @@
                                                     products to a global audience.
                                                 </p>
                                             </div>
-                                        </div>                                       
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -688,9 +692,9 @@
                                 Marketing</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="seo-tab2" data-bs-toggle="tab"
-                                data-bs-target="#seo-tab2-pane" type="button" role="tab"
-                                aria-controls="seo-tab2-pane" aria-selected="false">SEO</button>
+                            <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane"
+                                type="button" role="tab" aria-controls="seo-tab2-pane"
+                                aria-selected="false">SEO</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="social-tab2" data-bs-toggle="tab"
@@ -757,8 +761,8 @@
                         </div>
 
                         {{-- seo --}}
-                        <div class="tab-pane" id="seo-tab2-pane" role="tabpanel"
-                            aria-labelledby="seo-tab2" tabindex="0">
+                        <div class="tab-pane" id="seo-tab2-pane" role="tabpanel" aria-labelledby="seo-tab2"
+                            tabindex="0">
                             <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
                                 <div class="card">
                                     <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
@@ -785,8 +789,8 @@
                         </div>
 
                         {{-- social media --}}
-                        <div class="tab-pane" id="social-tab2-pane" role="tabpanel"
-                            aria-labelledby="social-tab2" tabindex="0">
+                        <div class="tab-pane" id="social-tab2-pane" role="tabpanel" aria-labelledby="social-tab2"
+                            tabindex="0">
                             <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
                                 <div class="card">
                                     <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
@@ -834,8 +838,8 @@
                         </div>
 
                         {{-- Online marketing --}}
-                        <div class="tab-pane" id="online-tab2-pane" role="tabpanel"
-                            aria-labelledby="online-tab2" tabindex="0">
+                        <div class="tab-pane" id="online-tab2-pane" role="tabpanel" aria-labelledby="online-tab2"
+                            tabindex="0">
                             <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
                                 <div class="card ">
                                     <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
@@ -847,7 +851,7 @@
                                             and drive meaningful results.</p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="card ">
                                     <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
                                         class="card-img-top" alt="Whatsapp Marketing">
@@ -871,7 +875,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                
+
 
                             </div>
                         </div>
@@ -915,8 +919,8 @@
                             </div>
                         </div>
                         <div class="card">
-                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                                class="card-img-top" alt="Etsy">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top"
+                                alt="Etsy">
                             <div class="card-body">
                                 <h6 class="card-title">Etsy</h6>
                                 <p class="card-text">Turn Your Creativity Into Profit – Start selling on
@@ -924,7 +928,7 @@
                                     products to a global audience.
                                 </p>
                             </div>
-                        </div>                                       
+                        </div>
                     </div>
                 </div>
 
@@ -1070,8 +1074,8 @@
                             </div>
                         </div>
                         <div class="card">
-                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
-                                class="card-img-top" alt="CRM (Odoo, Salesforce)">
+                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}" class="card-img-top"
+                                alt="CRM (Odoo, Salesforce)">
                             <div class="card-body">
                                 <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
                                 <p class="card-text">Enhance Business Insights with Our ERP Solutions – We
@@ -2770,7 +2774,8 @@
                     <div class="d-flex justify-content-center align-items-end h-100 p-md-5 mx-md-5">
 
                         <p class="fs-2 contact-msg fw-bold">
-                            Get personalized solutions, expert recommendations, and accurate estimates tailored to your needs!
+                            Get personalized solutions, expert recommendations, and accurate estimates tailored to your
+                            needs!
                         </p>
                     </div>
                 </div>
@@ -2852,9 +2857,9 @@
                                             <div class="col-xxl-12 col-md-12">
                                                 <div>
                                                     <label for="example-text-input" class="">Please tell about
-                                                        your business  </label>
+                                                        your business </label>
                                                     <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
-                                                        type="textarea" rows="3" value="" id="example-text-input" ></textarea>
+                                                        type="textarea" rows="3" value="" id="example-text-input"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -2927,8 +2932,19 @@
         var copy = document.querySelector(".logos-slide").cloneNode(true);
         document.querySelector(".logo-slider").appendChild(copy);
     </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
-
-
+    <!-- Add reCAPTCHA Script -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy"></script>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy', {
+                action: 'submit'
+            }).then(function(token) {
+                document.getElementById('contact-form').insertAdjacentHTML('beforeend',
+                    `<input type="hidden" name="g-recaptcha-response" value="${token}">`);
+            });
+        });
+    </script>
 
 @endsection
