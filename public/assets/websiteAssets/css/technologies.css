@@ -32,6 +32,7 @@
     margin-bottom: 10px;
     display: block;
     background: linear-gradient(to right, #000000, #48bfc4);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -1681,7 +1682,7 @@
   
     .technical-stack-ul ul li.swift {
       right: 185px;
-      top: -64px;
+      top: -55px;
     }
   
     .technical-stack-ul ul li.figma {
@@ -1715,17 +1716,17 @@
     }
   
     .technical-stack-ul ul li.photoshop {
-      top: -64px;
+      top: -55px;
       right: 100px;
     }
   
     .technical-stack-ul ul li.mysql {
-      top: -64px;
+      top: -55px;
       right: 10px;
     }
   
     .technical-stack-ul ul li.jquery {
-      top: -64px;
+      top: -55px;
       left: 0px;
     }
   

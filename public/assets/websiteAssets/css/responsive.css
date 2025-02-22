@@ -20,6 +20,12 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for medium devices */
+    .service-card__inner {
+        width: 400px;
+    }
+    .aplhacard {
+        width: 25%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -36,9 +42,30 @@
         display: block;
     }
 
-    .service-card__inner {
-        width: 400px;
+    #counter .item {
+        width: 170px;
     }
+    .service-card__inner {
+        width: 350px;
+        margin-inline: auto;
+    }
+
+    .performancemedia-slider img {
+        height: 388px; 
+    }
+
+    .fbads-cards{
+        height: 200px; 
+    }
+    .gbp-cards{
+        height: 460px; 
+    }
+
+    .seointro ul {
+    
+        margin: 0 0 !important;
+    }
+
 
     .action-btn {
         overflow: auto;
@@ -46,7 +73,8 @@
         flex-wrap: nowrap;
         -ms-overflow-style: none;
         scrollbar-width: none;
-        width: 250px;
+        width: 100%;
+        margin-top: 5px;
     }
 
     .service-card .nav, .servicesbox {
@@ -57,37 +85,109 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+    .heroTitle {
+        font-size: 50px;
+        letter-spacing: 0rem;
+        line-height: 52px;
+    }
+    .subTitle {
+        font-size: 30px;
+        letter-spacing: 0rem;
+        line-height: 32px;
+    }
 
+    .ion-hero-ambient-video {
+        width: 100%;
+    }
     .heretext {
-        width: 32%;
+        width: 40%;
     }
     
     .mobileMenu .nav-link {
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .mobileMenu .nav-item {
+        display: flex;
+        align-items: center;
+    }
+    .mobileMenu .nav-item img, .mobileMenu .accordion-item img {
+        width: 32px;
+        height: 32px;
+        background-color: #0d6dfc;
+        border-radius: 100%;
+        padding: 6px;
+    }
+
+    .mobileMenu .accordion-item {
+        border: 0;
+    }
+    .mobileMenu .accordion-button {
+        padding: 10px;
+        font-weight: 600;
+    }
+    .mobileMenu .accordion-body a{
+        color: black;
+    }
+
+    .mobileMenu .accordion-button:not(.collapsed) {
+        color: var(--bs-accordion-active-color);
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+    .mobileMenu .accordion-button:focus {
+        box-shadow: none;
     }
     .hero-section {
         padding: 0px 0;
     }
     .hereBox {
         margin: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .tab-content > .tab-pane .card {
         width: auto;
     }
+    .card-text:last-child {
+        font-size: 12px;
+    }
+    .hideInDesktop .servicescards .card {
+        width: 50%;
+    }
 
     .service-card {
         height: 800px;
-        max-height: 90vh;
+        max-height: 100vh;
         overflow: hidden;
     }
-
+    .hero-image img {
+        width: 100% !important;  
+    }
+    .aplhacard {
+        width: 50%;
+    }
     .servicecard .serviceHeading {
         width: 50%;
     }
+    .contact-msg{
+        color: rgb(0, 0, 0);
+        }
+        
     .servicecard .serviceContent {
         width: 60%;
+    }
+    .mobileNav {
+        overflow-x: auto;
+        width: 400px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+    .teamphoto {
+        margin-top: 0px;
     }
 
     .data_text_lin::before {
@@ -100,5 +200,29 @@
     }
     .contactForm {
         margin-block: 10px;
+    }
+
+    .hero-content .heroheading, .hero-content .herosubheading {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 380px) and (min-width: 340px) {
+    .mobileNav {
+        overflow-x: auto;
+        width: 350px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+}
+@media(max-width: 330px) {
+    .mobileNav {
+        overflow-x: auto;
+        width: 300px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-bottom: 10px;
     }
 }

@@ -15,6 +15,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.about');
     }
+    public function ourteam()
+    {
+        return view('website.pages.ourteam');
+    }
     public function contact()
     {
         return view('website.pages.contact');
@@ -45,7 +49,7 @@ class WebsiteViews extends Controller
     }
     public function seo()
     {
-         return view('website.pages.ServicesPages.seo');
+        return view('website.pages.ServicesPages.seo');
     }
     public function webdevelopment()
     {
@@ -55,28 +59,44 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.ServicesPages.designingservices');
     }
-    public function marketplaceexpertise() 
+    public function marketplaceexpertise()
     {
         return view('website.pages.ServicesPages.marketplaceexpertise');
     }
-    public function performancemedia() 
+    public function performancemedia()
     {
         return view('website.pages.ServicesPages.performancemedia');
     }
-    public function influencermarketing() 
+    public function influencermarketing()
     {
         return view('website.pages.ServicesPages.influencermarketing');
     }
-    public function socialmedia() 
+    public function socialmedia()
     {
         return view('website.pages.ServicesPages.socialmedia');
     }
-    public function partners() 
+    public function partners()
     {
         return view('website.pages.partners');
     }
-    public function work() 
+    public function work()
     {
         return view('website.pages.ourwork');
+    }
+    public function erpservices()
+    {
+        return view('website.pages.ServicesPages.erpservices');
+    }
+    public function emailmarketing()
+    {
+        return view('website.pages.ServicesPages.emailmarketing');
+    }
+    public function portfolio()
+    {
+        return view('website.pages.portfolio');
+    }
+    public function clients()
+    {
+        return view('website.pages.clients');
     }
 }

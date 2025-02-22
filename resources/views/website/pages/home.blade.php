@@ -2,182 +2,178 @@
 @section('title', 'Home | ' . config('app.name'))
 @section('content')
 
+
 <!--Hero Section Starts-->
 <canvas id="gradient-canvas"></canvas>
 <section class="hero-section pt-md-5">
 
-    <div class="container">
-        <div class="row py-md-3 pt-0">
-            <div class="hero-slider owl-carousel owl-theme">
-                <div class="item">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 hero-content">
-                            <h3 class="globaltxtcolor2 fw-bolder text-capitalize">We are a leading design and technology
-                                agency offering top-tier digital solutions </h3>
-                            <h4 class="herosubheading2 fw-bolder text-capitalize">for organizations seeking online value
-                                and digital growth</h4>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
+        <div class="container">
+            <div class="row py-md-3 pt-0">
+                <div class="hero-slider owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h1 class="heroheading fw-bolder globaltxtcolor">Reach Further, Engage Better, And </h1>
+                                <h3 class="herosubheading fw-bolder">Grow Faster With Our Digital Marketing Solutions</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-md-start text-center">
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-start flex-md-row flex-column">
-                                <div class="mb-3 text-center ">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5 mb-3 text-center">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center">
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/techs/1.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/1.webp') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="item">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 hero-content">
-                            <h3 class="globaltxtcolor fw-bolder text-capitalize">Maximize Clicks, Minimize Costs</h3>
-                            <h4 class="herosubheading fw-bolder text-capitalize">PPC Campaigns That Deliver Results</h4>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business
+                                    With </h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
+                                    Solutions</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-md-start text-center">
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-start flex-md-row flex-column">
-                                <div class="mb-3 text-center">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5 mb-3 text-center">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/techs/3.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/2.webp') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="item">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 hero-content">
-                            <h3 class="globaltxtcolor fw-bolder text-capitalize">Crafting Digital Masterpieces,</h3>
-                            <h4 class="herosubheading2 fw-bolder text-capitalize">Building Your Online Presence.</h4>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In
+                                    The</h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
+                                    Management Expertise</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-md-start text-center">
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-start flex-md-row flex-column">
-                                <div class="mb-3 text-center ">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5 mb-3 text-center">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/techs/2.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="item">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 hero-content">
-                            <h3 class="globaltxtcolor fw-bolder text-capitalize">From logos to marketing materials,</h3>
-                            <h4 class="herosubheading2 fw-bolder text-capitalize">we design with precision and passion.
-                            </h4>
-                            <div class="stats-section mt-3 mb-3">
-                                <div class="row ">
-                                    <div class="col-md-12 stat-item">
-                                        <div class="text-start">
-                                            <p>4+ Years In Business | 6000+ Completed Projects | 500+ Satisfied
-                                                Corporates
-                                            </p>
+                    <div class="item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 hero-content">
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s
+                                    Narrative With</h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
+                                    Content.</h3>
+                                <div class="stats-section mt-3 mb-3">
+                                    <div class="row ">
+                                        <div class="col-md-12 stat-item">
+                                            <div class="text-md-start text-center">
+                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-start flex-md-row flex-column">
-                                <div class="mb-3 text-center ">
-                                    <a href="#" class="btn btn-primary btn-lg">Work With Yuvmedia <i
-                                            class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="mx-5 mb-3 text-center">
-                                    <a class="btn btn-outline-primary btn-lg" href="#">Be Our Business
-                                        Partner!</a>
+                                <div class="d-flex justify-content-start flex-md-row flex-column">
+                                    <div class="mb-3 text-center ">
+                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Work With Yuvmedia
+                                            <i class="bi bi-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 hero-image">
-                            <img src="{{ asset('assets/websiteAssets/images/techs/4.png') }}" alt="Hero Image">
+                            <div class="col-md-6 hero-image">
+                                <img src="{{ asset('assets/websiteAssets/images/techs/4.webp') }}" alt="Hero Image">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="row hereBox bg-white py-3 mt-3 rounded-4 align-items-center border-primary border-start border-2">
-            <div class=" d-flex align-items-center heretext">
-                <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
-                    class="me-2">
-                I'm here to
-            </div>
-            <div class="col-md-7 col">
-                <div class="d-flex justify-content-start action-btn">
-                    <a href="#">
-                        Design
-                    </a>
-                    <a href="#">
-                        Social Media Marketing
+            <div
+                class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+                <div class=" d-flex align-items-center heretext">
+                    <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
+                        class="me-2">
+                    I'm here for
+                </div>
+                <div class="col-md-7 col">
+                    <div class="d-flex justify-content-start action-btn">
+                        <div id="servicestabs" class="owl-carousel">
 
-
-                    </a>
-                    <a href="#">
-                        Website Development
-
-                    </a>
-                    <a href="#">
-                        Performance Marketing
-
+                            <a href="{{ route('designingservices') }}">
+                                Design
+                            </a>
+                            <a href="{{ route('socialmedia') }}">
+                                Social Media Marketing
+                            </a>
+                            <a href="{{ route('webdevelopment') }}">
+                                Web & App Development
+                            </a>
+                            <a href="{{ route('performancemedia') }}">
+                                Performance Media
+                            </a>
+                            <a href="{{ route('videoproduction') }}">
+                                Video Production
+                            </a>
+                            <a href="{{ route('performancemedia') }}">
+                                Social Media
+                            </a>
+                            <a href="{{ route('seo') }}">
+                                SEO
+                            </a>
+                            <a href="{{ route('marketplaceexpertise') }}">
+                                Marketplace Management
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-end hideInMobile">
+                    <a href="#servicesanchor" class="text-secondary text-decoration-none">
+                        //Find the best service for your business
                     </a>
                 </div>
-            </div>
-            <div class="col-md-3 text-end hideInMobile">
-                <a href="#" class="text-secondary text-decoration-none">
-                    //Find the best service for your business
-                </a>
-            </div>
 
         </div>
     </div>
@@ -186,76 +182,61 @@
     <div class="container">
         <div class="row col-lg-12">
 
-        </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-lg-12">
-                    <article class="wrapper">
-                        <div class="marquee">
-                            <div class="marquee__group">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/1.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/2.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/3.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/4.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/5.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/6.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/7.jpg') }}" alt="img1">
-                                <img class="rounded-2 me-3"
-                                    src="{{ asset('assets/websiteAssets/images/clients/8.jpg') }}" alt="img1">
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="logo-slider">
+                            <div class="logos-slide">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.png') }}">
                             </div>
                         </div>
-                    </article>
+                        <div class="logo-slider2 mt-3 d-none">
+                            <div class="logos-slide2">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/11.png') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/12.png') }}">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--Hero Section Ends-->
+    </section>
+    <!--Hero Section Ends-->
 
-{{-- services --}}
-<section>
-    <div class="container py-5 ">
-        <div class="row">
-            <h2 class="globaltxtcolor text-start">
-                Our Services
-            </h2>
-            <div class="text-start">
-                <p>
-                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                    and admire.
-                    Our team of experts is always keen on formulating only the right solutions for your business’
-                    everyday digital needs.
-                </p>
+    {{-- services --}}
+    <section>
+        <div class="container py-5 ">
+            <div class="row">
+                <h2 class="globaltxtcolor text-start">
+                    This Is What We Do To Transform Your Business Digitally
+                </h2>
+                <div class="text-start">
+                    <p>
+                        We help your business evolve by providing cutting-edge digital solutions, from marketing strategies
+                        to innovative technologies, ensuring your brand thrives in the digital world.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div>
-                <div class=" service-space service-space--small"></div>
-                <div class="service-cards">
+            <div class="row hideInMobile">
+                <div>
+                    <div class=" service-space service-space--small"></div>
+                    <div class="service-cards" id="servicesanchor">
 
                     {{-- Digital marketing --}}
                     <div class="service-card" data-index="0">
@@ -290,423 +271,847 @@
                                     </li>
                                 </ul>
 
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    {{-- performance marketing --}}
-                                    <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
-                                        aria-labelledby="performance-tab" tabindex="0">
-                                        <div class="d-flex my-3 justify-content-around pmarketing">
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
-                                                    class="card-img-top" alt="google-ad">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Google Ads</h6>
-                                                    <p class="card-text">Drive traffic and conversions with targeted,
-                                                        high-performing Google Ads campaigns.</p>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        {{-- performance marketing --}}
+                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
+                                            aria-labelledby="performance-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-around pmarketing">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
+                                                        class="card-img-top" alt="google-ad">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Google Ads</h6>
+                                                        <p class="card-text">
+                                                            Be found with Google ads and make it easier for potential
+                                                            customers to find your business with effective advertising
+                                                            strategies.
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
-                                                    class="card-img-top" alt="Facebook Ads">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Facebook Ads</h6>
-                                                    <p class="card-text">Engage audiences and increase sales with
-                                                        data-driven, targeted Facebook Ads campaigns.</p>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
+                                                        class="card-img-top" alt="Facebook Ads">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Meta Ads</h6>
+                                                        <p class="card-text">Grow your business with Meta Ads. Reach new
+                                                            customers across all Meta platforms including Facebook,
+                                                            Instagram, Messenger and WhatsApp.</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
-                                                    class="card-img-top" alt="mgid">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">MGID Ads</h6>
-                                                    <p class="card-text">Boost website traffic and revenue with
-                                                        effective MGID Ads campaigns.</p>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
+                                                        class="card-img-top" alt="mgid">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Native Ads</h6>
+                                                        <p class="card-text">Get Traffic That Converts – Reach your ideal
+                                                            audience at the lowest cost with native ads.</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/marketplace-ads.webp') }}"
-                                                    class="card-img-top" alt="marketplace ads">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Marketplace Ads</h6>
-                                                    <p class="card-text">Increase product visibility and sales with
-                                                        optimized Marketplace Ads for top platforms.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {{-- seo --}}
-                                    <div class="tab-pane" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab"
-                                        tabindex="0">
-                                        <div class="d-flex my-3 justify-content-start pmarketing">
-                                            <div class="card me-4">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
-                                                    class="card-img-top" alt="SEO">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Search Engine Optimization</h6>
-                                                    <p class="card-text">Boost search rankings, drive organic traffic,
-                                                        grow online visibility.</p>
-                                                </div>
-                                            </div>
-                                            <div class="card me-4">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
-                                                    class="card-img-top" alt="GBP">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Google Business Profile</h6>
-                                                    <p class="card-text">Optimize profiles, attract local customers,
-                                                        enhance business online presence.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    {{-- social media --}}
-                                    <div class="tab-pane" id="social-tab-pane" role="tabpanel"
-                                        aria-labelledby="social-tab" tabindex="0">
-                                        <div class="d-flex my-3 justify-content-around pmarketing">
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
-                                                    class="card-img-top" alt="Facebook">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Facebook</h6>
-                                                    <p class="card-text">Grow your business with our professional
-                                                        social media services!</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
-                                                    class="card-img-top" alt="Instagram">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Instagram</h6>
-                                                    <p class="card-text">Level up your brand with our expert Instagram
-                                                        marketing services!</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
-                                                    class="card-img-top" alt="LinkedIn">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">LinkedIn</h6>
-                                                    <p class="card-text">Enhance your professional presence with our
-                                                        LinkedIn marketing solutions!</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Pinterest.webp') }}"
-                                                    class="card-img-top" alt="Pinterest">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Pinterest</h6>
-                                                    <p class="card-text">Drive traffic with our creative and strategic
-                                                        Pinterest marketing services!</p>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}"
+                                                        class="card-img-top" alt="marketplace ads">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Marketplace Ads</h6>
+                                                        <p class="card-text">Meet your customers wherever they are.
+                                                            Discover how marketplace ads can help you connect with customers
+                                                            where they love to browse and buy.
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {{-- seo --}}
+                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
+                                            aria-labelledby="seo-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-start pmarketing">
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
+                                                        class="card-img-top" alt="SEO">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Search Engine Optimization</h6>
+                                                        <p class="card-text">Reach New Heights in Search Rankings. Rank
+                                                            better, drive more traffic, and convert visitors into customers
+                                                            with our expert SEO services.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
+                                                        class="card-img-top" alt="GBP">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Google Business Profile</h6>
+                                                        <p class="card-text">Let Local Customers Find You. Optimize your
+                                                            Google Business Profile to appear in local searches and attract
+                                                            more customers. </p>
+                                                    </div>
+                                                </div>
+
+                                        </div>
                                     </div>
 
-                                    {{-- marketing --}}
-                                    <div class="tab-pane" id="online-tab-pane" role="tabpanel"
-                                        aria-labelledby="online-tab" tabindex="0">
-                                        <div class="d-flex my-3 justify-content-start pmarketing">
-                                            <div class="card me-4">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
-                                                    class="card-img-top" alt="Whatsapp Marketing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Whatsapp Marketing</h6>
-                                                    <p class="card-text">Engage your audience instantly with our
-                                                        powerful WhatsApp marketing services!</p>
+                                        {{-- social media --}}
+                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel"
+                                            aria-labelledby="social-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-around pmarketing">
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
+                                                        class="card-img-top" alt="Facebook">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Facebook</h6>
+                                                        <p class="card-text">Connect, Engage, and Grow – Share updates,
+                                                            stories, and content to engage customers and build your brand.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
+                                                        class="card-img-top" alt="Instagram">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Instagram</h6>
+                                                        <p class="card-text">Engage, Inspire, Convert –Utilize Instagram to
+                                                            get noticed, connect with your audience, and showcase your
+                                                            brand’s voice.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
+                                                        class="card-img-top" alt="LinkedIn">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">LinkedIn</h6>
+                                                        <p class="card-text">Build Professional Relationships – Connect
+                                                            with industry leaders, peers, and potential clients on LinkedIn
+                                                            to grow your network.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}"
+                                                        class="card-img-top" alt="Youtube">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Youtube</h6>
+                                                        <p class="card-text">Engage with Visual Content - Use YouTube to
+                                                            build an authentic relationship with your audience through
+                                                            personal and engaging content.</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="card me-4">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
-                                                    class="card-img-top" alt="Email Marketing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Email Marketing</h6>
-                                                    <p class="card-text">Connect and convert with our result-driven
-                                                        email marketing services!</p>
-                                                </div>
-                                            </div>
-                                            <div class="card me-4">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
-                                                    class="card-img-top" alt="Influencer Marketing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Influencer Marketing</h6>
-                                                    <p class="card-text">Boost your brand with powerful, results-driven
-                                                        influencer marketing campaigns!</p>
-                                                </div>
-                                            </div>
+                                        </div>
 
+                                        {{-- Online marketing --}}
+                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel"
+                                            aria-labelledby="online-tab" tabindex="0">
+                                            <div class="d-flex my-3 justify-content-start pmarketing">
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
+                                                        class="card-img-top" alt="Influencer Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Influencer Marketing</h6>
+                                                        <p class="card-text">Drive Engagement with Trusted Voices – Work
+                                                            with influencers who align with your brand to build credibility
+                                                            and drive meaningful results.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
+                                                        class="card-img-top" alt="Whatsapp Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Whatsapp Marketing</h6>
+                                                        <p class="card-text">Connect Anytime, Anywhere – WhatsApp allows
+                                                            you to stay connected with your audience 24/7, offering quick
+                                                            responses and building trust.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card me-4">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
+                                                        class="card-img-top" alt="Email Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Email Marketing</h6>
+                                                        <p class="card-text">Turn Emails Into Conversions – Create
+                                                            personalized emails, target precisely with behavior-based
+                                                            automations and segments, and optimize with real-time reporting.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    {{-- Seller Management --}}
-                    <div class="service-card" data-index="1">
-                        <div class="service-card__inner">
-                            <div class="service-card__content greenBLueGradient">
-                                <h1 class="service-card__title">Seller Management</h1>
+                        {{-- Marketplace Management --}}
+                        <div class="service-card" data-index="1">
+                            <div class="service-card__inner">
+                                <div class="service-card__content greenBLueGradient">
+                                    <h1 class="service-card__title">Marketplace Management</h1>
 
-                                <div class="d-flex my-3 justify-content-around pmarketing">
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
-                                            class="card-img-top" alt="Amazon Seller">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Amazon Seller</h6>
-                                            <p class="card-text">Maximize your sales with our expert Amazon seller
-                                                services!</p>
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
+                                                class="card-img-top" alt="Amazon">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Amazon</h6>
+                                                <p class="card-text">Get Your Brand Noticed – Start selling on Amazon and
+                                                    watch your business grow with India’s leading online marketplace.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                                            class="card-img-top" alt="Etsy Seller">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Etsy Seller</h6>
-                                            <p class="card-text">Grow your Etsy shop with our tailored marketing
-                                                strategies!</p>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
+                                                class="card-img-top" alt="Flipkart">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Flipkart</h6>
+                                                <p class="card-text">Sell Smarter, Sell Bigger on Flipkart- List your
+                                                    products on India’s leading marketplace and reach millions of customers
+                                                    actively searching for what you offer.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                            class="card-img-top" alt="Flipkart Seller">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Flipkart Seller</h6>
-                                            <p class="card-text">Boost your sales on Flipkart with our expert seller
-                                                services!</p>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                                class="card-img-top" alt="Meesho">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Meesho</h6>
+                                                <p class="card-text">Start Selling on Meesho – Empower your business with
+                                                    Meesho’s platform and connect with millions of customers looking for the
+                                                    best deals!
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                            class="card-img-top" alt="Meesho Seller">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Meesho Seller</h6>
-                                            <p class="card-text">Maximize your Meesho sales with our expert seller
-                                                solutions!</p>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
+                                                class="card-img-top" alt="Etsy">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Etsy</h6>
+                                                <p class="card-text">Turn Your Creativity Into Profit – Start selling on
+                                                    Etsy and showcase your digital creations, and customized & unique
+                                                    products to a global audience.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+
+                        {{-- Graphic Design --}}
+                        <div class="service-card" data-index="2">
+                            <div class="service-card__inner">
+                                <div class="service-card__content orangeGreenGradient">
+                                    <h1 class="service-card__title">Design</h1>
+
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                                class="card-img-top" alt="Graphic Designing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Graphic Designing</h6>
+                                                <p class="card-text">A Picture Perfect Brand - Bring your ideas to life
+                                                    with designs that connect with your audience and drive your brand’s
+                                                    success.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
+                                                class="card-img-top" alt="Video Production">
+                                            <div class="card-body">
+                                                <h6 class="card-title">UI/UX Design
+                                                </h6>
+                                                <p class="card-text">Creating Designs That Connect – Our UI/UX services
+                                                    ensure your users enjoy flawless navigation, making their experience
+                                                    smoother and more engaging.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
+                                                class="card-img-top" alt="Brand Designing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Brand Designing</h6>
+                                                <p class="card-text">Unique Designs for Unique Brands – From logo design to
+                                                    complete brand identity, we ensure your business stands out with designs
+                                                    that communicate your core values.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Video Production --}}
+                        <div class="service-card" data-index="3">
+                            <div class="service-card__inner">
+                                <div class="service-card__content greenBLueGradient">
+                                    <h1 class="service-card__title">Video Production</h1>
+
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
+                                                class="card-img-top" alt="Video Editing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Video Editing</h6>
+                                                <p class="card-text">Enhance your footage with seamless editing, smooth
+                                                    transitions, and captivating storytelling that keeps your audience
+                                                    hooked.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}"
+                                                class="card-img-top" alt="Pre-Production">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Pre-Production</h6>
+                                                <p class="card-text">Meticulously plan every detail of your video project,
+                                                    from scripting to storyboarding, ensuring a flawless production process.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}"
+                                                class="card-img-top" alt="3D Animation & Modeling">
+                                            <div class="card-body">
+                                                <h6 class="card-title">3D Animation & Modeling</h6>
+                                                <p class="card-text">Add depth and creativity to your content with stunning
+                                                    3D animations and models, bringing your ideas to life in a visually
+                                                    captivating way.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
+                                                class="card-img-top" alt="Color Grading">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Color Grading</h6>
+                                                <p class="card-text">Enhance the mood and tone of your videos with expert
+                                                    color grading, ensuring a professional and cinematic look.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
+                                                class="card-img-top" alt="VFX & Compositing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">VFX & Compositing</h6>
+                                                <p class="card-text">Add stunning cinematic effects and flawless
+                                                    compositing to your videos, making your visuals truly stand out with
+                                                    creativity and precision.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
+                                                class="card-img-top" alt="Product Shoot">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Product Shoot</h6>
+                                                <p class="card-text">Capture the Essence of Your Brand – We ensure your
+                                                    products look their best with top-tier photography, perfect for
+                                                    e-commerce, marketing, and branding.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
                             </div>
                         </div>
                     </div>
 
-                    {{-- Graphic Design --}}
-                    <div class="service-card" data-index="2">
-                        <div class="service-card__inner">
-                            <div class="service-card__content orangeGreenGradient">
-                                <h1 class="service-card__title">Design Services</h1>
-
-                                <div class="d-flex my-3 justify-content-around pmarketing">
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
-                                            class="card-img-top" alt="Graphic Designing">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Graphic Designing</h6>
-                                            <p class="card-text">Transform your brand with our creative and
-                                                professional graphic design services!</p>
+                        {{-- Development Services --}}
+                        <div class="service-card" data-index="4">
+                            <div class="service-card__inner">
+                                <div class="service-card__content purpelYellowGradient">
+                                    <h1 class="service-card__title">Development</h1>
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
+                                                class="card-img-top" alt="Web Development">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Web Development</h6>
+                                                <p class="card-text">Building the Future of Your Business – From design to
+                                                    launch, our websites are created with one goal in mind: to turn your
+                                                    visitors into loyal customers</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
+                                                class="card-img-top" alt="App Development">
+                                            <div class="card-body">
+                                                <h6 class="card-title">App Development</h6>
+                                                <p class="card-text">From Ideas to Downloads – We take your app idea and
+                                                    transform it into a fully functional, optimized, and user-friendly
+                                                    mobile application</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
+                                                class="card-img-top" alt="Software Integrations">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Software Integrations</h6>
+                                                <p class="card-text">Get the Most Out of Your Software – We provide custom
+                                                    integrations that link your tools and platforms together, making your
+                                                    business operations smarter and more efficient</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
+                                                class="card-img-top" alt="CRM (Odoo, Salesforce)">
+                                            <div class="card-body">
+                                                <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
+                                                <p class="card-text">Enhance Business Insights with Our ERP Solutions – We
+                                                    integrate all your operations into one system, giving you complete
+                                                    visibility and control over every aspect of your business.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/video production.webp') }}"
-                                            class="card-img-top" alt="Video Production">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Video Production</h6>
-                                            <p class="card-text">Bring your vision to life with our professional video
-                                                production services!</p>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.webp') }}"
-                                            class="card-img-top" alt="Product Shoot">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Product Shoot</h6>
-                                            <p class="card-text">Showcase your products in style with our professional
-                                                product shoots!</p>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
-                                            class="card-img-top" alt="Brand Designing">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Brand Designing</h6>
-                                            <p class="card-text">Create a lasting impression with our expert brand
-                                                designing services!</p>
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>
                     </div>
 
-                    {{-- Development Services --}}
-                    <div class="service-card" data-index="3">
-                        <div class="service-card__inner">
-                            <div class="service-card__content purpelYellowGradient">
-                                <h1 class="service-card__title">Development Services</h1>
-                                <div class="d-flex my-3 justify-content-around pmarketing">
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
-                                            class="card-img-top" alt="Web Development">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Web Development</h6>
-                                            <p class="card-text">Build a strong online presence with our expert web
-                                                development services!</p>
-                                        </div>
+                    </div>
+                    {{-- <div class="service-space"></div> --}}
+                </div>
+            </div>
+
+            <div class="row p-2 hideInDesktop">
+                <div class="p-0">
+                    <h1 class="service-card__title">Digital Marketing</h1>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-underline my-3 mobileNav" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="performance2-tab" data-bs-toggle="tab"
+                                data-bs-target="#performance2-tab-pane" type="button" role="tab"
+                                aria-controls="performance2-tab-pane" aria-selected="true">Performance
+                                Marketing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane"
+                                type="button" role="tab" aria-controls="seo-tab2-pane"
+                                aria-selected="false">SEO</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="social-tab2" data-bs-toggle="tab"
+                                data-bs-target="#social-tab2-pane" type="button" role="tab"
+                                aria-controls="social-tab2-pane" aria-selected="false">Social
+                                Media</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="online-tab2" data-bs-toggle="tab"
+                                data-bs-target="#online-tab2-pane" type="button" role="tab"
+                                aria-controls="online-tab2-pane" aria-selected="false">Online
+                                Marketing</button>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content px-0">
+                        {{-- performance marketing --}}
+                        <div class="tab-pane active" id="performance2-tab-pane" role="tabpanel"
+                            aria-labelledby="performance2-tab" tabindex="0">
+                            <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
+                                        class="card-img-top" alt="google-ad">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Google Ads</h6>
+                                        <p class="card-text">
+                                            Be found with Google ads and make it easier for potential
+                                            customers to find your business with effective advertising
+                                            strategies.
+                                        </p>
                                     </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
-                                            class="card-img-top" alt="App Development">
-                                        <div class="card-body">
-                                            <h6 class="card-title">App Development</h6>
-                                            <p class="card-text">Transform your ideas into reality with our expert app
-                                                development services!</p>
-                                        </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
+                                        class="card-img-top" alt="Facebook Ads">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Meta Ads</h6>
+                                        <p class="card-text">Grow your business with Meta Ads. Reach new
+                                            customers across all Meta platforms including Facebook,
+                                            Instagram, Messenger and WhatsApp.</p>
                                     </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
-                                            class="card-img-top" alt="Software Integrations">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Software Integrations</h6>
-                                            <p class="card-text">Streamline your business with seamless software
-                                                integration solutions!</p>
-                                        </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
+                                        class="card-img-top" alt="mgid">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Native Ads</h6>
+                                        <p class="card-text">Get Traffic That Converts – Reach your ideal
+                                            audience at the lowest cost with native ads.</p>
                                     </div>
-                                    <div class="card">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
-                                            class="card-img-top" alt="CRM (Odoo, Salesforce)">
-                                        <div class="card-body">
-                                            <h6 class="card-title">CRM (Odoo, Salesforce)</h6>
-                                            <p class="card-text">Optimize your customer relationships with our expert
-                                                CRM solutions (Odoo, Salesforce)!</p>
-                                        </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}"
+                                        class="card-img-top" alt="marketplace ads">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Marketplace Ads</h6>
+                                        <p class="card-text">Meet your customers wherever they are.
+                                            Discover how marketplace ads can help you connect with customers
+                                            where they love to browse and buy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- seo --}}
+                        <div class="tab-pane" id="seo-tab2-pane" role="tabpanel" aria-labelledby="seo-tab2"
+                            tabindex="0">
+                            <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
+                                        class="card-img-top" alt="SEO">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Search Engine Optimization</h6>
+                                        <p class="card-text">Reach New Heights in Search Rankings. Rank
+                                            better, drive more traffic, and convert visitors into customers
+                                            with our expert SEO services.</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
+                                        class="card-img-top" alt="GBP">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Google Business Profile</h6>
+                                        <p class="card-text">Let Local Customers Find You. Optimize your
+                                            Google Business Profile to appear in local searches and attract
+                                            more customers. </p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
+
+                        {{-- social media --}}
+                        <div class="tab-pane" id="social-tab2-pane" role="tabpanel" aria-labelledby="social-tab2"
+                            tabindex="0">
+                            <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
+                                        class="card-img-top" alt="Facebook">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Facebook</h6>
+                                        <p class="card-text">Connect, Engage, and Grow – Share updates,
+                                            stories, and content to engage customers and build your brand.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
+                                        class="card-img-top" alt="Instagram">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Instagram</h6>
+                                        <p class="card-text">Engage, Inspire, Convert –Utilize Instagram to
+                                            get noticed, connect with your audience, and showcase your
+                                            brand’s voice.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
+                                        class="card-img-top" alt="LinkedIn">
+                                    <div class="card-body">
+                                        <h6 class="card-title">LinkedIn</h6>
+                                        <p class="card-text">Build Professional Relationships – Connect
+                                            with industry leaders, peers, and potential clients on LinkedIn
+                                            to grow your network.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}"
+                                        class="card-img-top" alt="Youtube">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Youtube</h6>
+                                        <p class="card-text">Engage with Visual Content - Use YouTube to
+                                            build an authentic relationship with your audience through
+                                            personal and engaging content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Online marketing --}}
+                        <div class="tab-pane" id="online-tab2-pane" role="tabpanel" aria-labelledby="online-tab2"
+                            tabindex="0">
+                            <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                                <div class="card ">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
+                                        class="card-img-top" alt="Influencer Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Influencer Marketing</h6>
+                                        <p class="card-text">Drive Engagement with Trusted Voices – Work
+                                            with influencers who align with your brand to build credibility
+                                            and drive meaningful results.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card ">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
+                                        class="card-img-top" alt="Whatsapp Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Whatsapp Marketing</h6>
+                                        <p class="card-text">Connect Anytime, Anywhere – WhatsApp allows
+                                            you to stay connected with your audience 24/7, offering quick
+                                            responses and building trust.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card ">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
+                                        class="card-img-top" alt="Email Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Email Marketing</h6>
+                                        <p class="card-text">Turn Emails Into Conversions – Create
+                                            personalized emails, target precisely with behavior-based
+                                            automations and segments, and optimize with real-time reporting.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
                     </div>
-
-
-
                 </div>
-                {{-- <div class="service-space"></div> --}}
+
+                <div>
+                    <h1 class="service-card__title">Marketplace Management</h1>
+
+                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
+                                class="card-img-top" alt="Amazon">
+                            <div class="card-body">
+                                <h6 class="card-title">Amazon</h6>
+                                <p class="card-text">Get Your Brand Noticed – Start selling on Amazon and
+                                    watch your business grow with India’s leading online marketplace.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
+                                class="card-img-top" alt="Flipkart">
+                            <div class="card-body">
+                                <h6 class="card-title">Flipkart</h6>
+                                <p class="card-text">Sell Smarter, Sell Bigger on Flipkart- List your
+                                    products on India’s leading marketplace and reach millions of customers
+                                    actively searching for what you offer.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
+                                class="card-img-top" alt="Meesho">
+                            <div class="card-body">
+                                <h6 class="card-title">Meesho</h6>
+                                <p class="card-text">Start Selling on Meesho – Empower your business with
+                                    Meesho’s platform and connect with millions of customers looking for the
+                                    best deals!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top"
+                                alt="Etsy">
+                            <div class="card-body">
+                                <h6 class="card-title">Etsy</h6>
+                                <p class="card-text">Turn Your Creativity Into Profit – Start selling on
+                                    Etsy and showcase your digital creations, and customized & unique
+                                    products to a global audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="service-card__title">Design</h1>
+
+                    <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                class="card-img-top" alt="Graphic Designing">
+                            <div class="card-body">
+                                <h6 class="card-title">Graphic Designing</h6>
+                                <p class="card-text">A Picture Perfect Brand - Bring your ideas to life
+                                    with designs that connect with your audience and drive your brand’s
+                                    success.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
+                                class="card-img-top" alt="Video Production">
+                            <div class="card-body">
+                                <h6 class="card-title">UI/UX Design
+                                </h6>
+                                <p class="card-text">Creating Designs That Connect – Our UI/UX services
+                                    ensure your users enjoy flawless navigation, making their experience
+                                    smoother and more engaging.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
+                                class="card-img-top" alt="Brand Designing">
+                            <div class="card-body">
+                                <h6 class="card-title">Brand Designing</h6>
+                                <p class="card-text">Unique Designs for Unique Brands – From logo design to
+                                    complete brand identity, we ensure your business stands out with designs
+                                    that communicate your core values.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="service-card__title">Video Production</h1>
+
+                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
+                                class="card-img-top" alt="Video Editing">
+                            <div class="card-body">
+                                <h6 class="card-title">Video Editing</h6>
+                                <p class="card-text">Enhance your footage with seamless editing, smooth
+                                    transitions, and captivating storytelling that keeps your audience
+                                    hooked.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}"
+                                class="card-img-top" alt="Pre-Production">
+                            <div class="card-body">
+                                <h6 class="card-title">Pre-Production</h6>
+                                <p class="card-text">Meticulously plan every detail of your video project,
+                                    from scripting to storyboarding, ensuring a flawless production process.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}"
+                                class="card-img-top" alt="3D Animation & Modeling">
+                            <div class="card-body">
+                                <h6 class="card-title">3D Animation & Modeling</h6>
+                                <p class="card-text">Add depth and creativity to your content with stunning
+                                    3D animations and models, bringing your ideas to life in a visually
+                                    captivating way.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
+                                class="card-img-top" alt="Color Grading">
+                            <div class="card-body">
+                                <h6 class="card-title">Color Grading</h6>
+                                <p class="card-text">Enhance the mood and tone of your videos with expert
+                                    color grading, ensuring a professional and cinematic look.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
+                                class="card-img-top" alt="VFX & Compositing">
+                            <div class="card-body">
+                                <h6 class="card-title">VFX & Compositing</h6>
+                                <p class="card-text">Add stunning cinematic effects and flawless
+                                    compositing to your videos, making your visuals truly stand out with
+                                    creativity and precision.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
+                                class="card-img-top" alt="Product Shoot">
+                            <div class="card-body">
+                                <h6 class="card-title">Product Shoot</h6>
+                                <p class="card-text">Capture the Essence of Your Brand – We ensure your
+                                    products look their best with top-tier photography, perfect for
+                                    e-commerce, marketing, and branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="service-card__title">Development</h1>
+                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
+                                class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h6 class="card-title">Web Development</h6>
+                                <p class="card-text">Building the Future of Your Business – From design to
+                                    launch, our websites are created with one goal in mind: to turn your
+                                    visitors into loyal customers</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
+                                class="card-img-top" alt="App Development">
+                            <div class="card-body">
+                                <h6 class="card-title">App Development</h6>
+                                <p class="card-text">From Ideas to Downloads – We take your app idea and
+                                    transform it into a fully functional, optimized, and user-friendly
+                                    mobile application</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
+                                class="card-img-top" alt="Software Integrations">
+                            <div class="card-body">
+                                <h6 class="card-title">Software Integrations</h6>
+                                <p class="card-text">Get the Most Out of Your Software – We provide custom
+                                    integrations that link your tools and platforms together, making your
+                                    business operations smarter and more efficient</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}" class="card-img-top"
+                                alt="CRM (Odoo, Salesforce)">
+                            <div class="card-body">
+                                <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
+                                <p class="card-text">Enhance Business Insights with Our ERP Solutions – We
+                                    integrate all your operations into one system, giving you complete
+                                    visibility and control over every aspect of your business.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
-{{-- Achieving Goals --}}
-{{-- <section class="bannerbg">
-    <div class="container pt-5">
-        <div class="row">
-            <div class="globaltxtcolor  text-start ">
-                Achieving Goals
-            </div>
-            <div class="text-start">
-                <p>
-                    We, at YUVMEDIA Digital, understand the intent, will, time, efforts, and dreams that are invested in
-                    starting and operating a business. Hence we leave no stone unturned in shaping it the way you aspire
-                    and admire.
-                    Our team of experts is always keen on formulating only the right solutions for your business’
-                    everyday digital needs.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid pb-5">
-        <div class="container ">
-
-            <div class="row goalss justify-content-center p-3">
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="service bg"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/advertising.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Design
-                        </div>
-                        <div class="serviceContent">
-                            Our designs are more than just visuals;
-                            they’re stories waiting to be told.
-                        </div>
-                    </div>
+    <!-- our work -->
+    <section>
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="globaltxtcolor text-start ">
+                    Our Work
                 </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/marketing.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Social Media Marketing
-                        </div>
-                        <div class="serviceContent">
-                            In the bustling world of social media, we help your brand stand out.
-                        </div>
-                    </div>
+                <div class=" text-start fs-2 fw-bold">
+                    Driving growth across every industry in the nation.
                 </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/tools.png') }}" alt="icon image"
-                            class="serviceIcon3">
-                        <div class="serviceHeading">
-                            Website Development
-                        </div>
-                        <div class="serviceContent">
-                            Your website is your digital storefront. We build websites that not only look
-                        </div>
-                    </div>
+                <div class="text-start">
+                    <p>
+                        We seek our thrill from making brands and businesses in diversified domains reach their right
+                        audience.
+                        With every conversion and each sale, we strive to set new standards for your business as well as
+                        ourselves.
+                    </p>
                 </div>
-                <div class="col">
-                    <div class="servicecard">
-                        <img src="{{ asset('assets/websiteAssets/images/serviceCard.png') }}" alt="first image"
-                            class="servicebg">
-                        <img src="{{ asset('assets/websiteAssets/images/growth.png') }}" alt="icon image"
-                            class="serviceIcon">
-                        <div class="serviceHeading">
-                            Performance Marketing
-                        </div>
-                        <div class="serviceContent">
-                            Experience substantial profit growth and a competitive edge through
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </div>
-</section> --}}
-
-
-
-
-<!-- our work -->
-<section>
-    <div class="container py-5 ">
-        <div class="row">
-            <div class="globaltxtcolor text-start ">
-                Our Work
-            </div>
-            <div class=" text-start fs-2 fw-bold">
-                Empowering every vertical in the country.
-            </div>
-            <div class="text-start">
-                <p>
-                    We seek our thrill from making brands and businesses in diversified domains reach their right
-                    audience.
-                    With every conversion and each sale, we strive to set new standards for your business as well as
-                    ourselves.
-                </p>
-            </div>
-        </div>
 
         <div class="row industry">
             <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
@@ -957,106 +1362,187 @@
 
 
 
-<!-- core-team -->
-<section class="core-team py-5">
-    <div class="container">
-        <div class="row">
-            <div class="globaltxtcolor text-start ">
-                Core Team
+    <!-- core-team -->
+    <section class="core-team py-5">
+        <div class="container">
+            <div class="row">
+                <div class="globaltxtcolor text-start ">
+                    Core Team
+                </div>
+                <div class=" text-start fs-3 fw-bold">
+                    Behind every successful project is our talented, committed core team.
+                </div>
+                <p class=" text-start">
+                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
+                    With every conversion and each sale, we strive to set new standards for your business as well as
+                    ourselves.
+                </p>
             </div>
-            <div class=" text-start fs-3 fw-bold">
-                Empowering every vertical in the country.
-            </div>
-            <p class=" text-start">
-                We seek our thrill from making brands and businesses in diversified domains reach their right audience.
-                With every conversion and each sale, we strive to set new standards for your business as well as
-                ourselves.
-            </p>
         </div>
-    </div>
-    <div class="container">
+        <div class="container">
 
         <div class="row">
             <div class="col-sm-12">
                 <div id="core-team" class="owl-carousel">
 
-                    {{-- khivraj sir --}}
-                    {{-- <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/Team/Mr.-Khivraj-Sain-300x300.webp') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Mr. Khivraj Sain</div>
-                                                        <div class="fs-6 ">CEO & Founder</div>
+                        {{-- khivraj sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Co-Founder & MD</div>
+                                                            <div class="author">Mr. Khivraj Sain</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>“Business has only two functions- marketing and innovation.”</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Mr. Khivraj Sain</div>
-                                                <div class="fs-6 ">CEO & Founder</div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Co-Founder & MD</div>
+                                                    <div class="author">Mr. Khivraj Sain</div>
+                                                </div>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div> --}}
+                        {{-- Pinki mam --}}
+                        {{-- <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Co-founder</div>
+                                                            <div class="author">Mrs. Pinki Sain</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Co-founder</div>
+                                                    <div class="author">Mrs. Pinki Sain</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> --}}
+
+                        {{-- Kunal Basin sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Business Development Manager</div>
+                                                            <div class="author">Mr. Kunal Basin</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="inner p-3">
+                                            <div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
+                                            </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Business Development Manager</div>
+                                                    <div class="author">Mr. Kunal Basin</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
 
                     {{-- Kishan gopal --}}
                     <div class="item">
                         <div class="flip">
                             <div class="corecard border-0">
 
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Kishan Gopal</div>
-                                                        <div class="fs-6 ">Operations Manager</div>
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Operations Manager</div>
+                                                            <div class="author">Mr. Kishan Gopal</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>“Business has only two functions- marketing and innovation.”</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Kishan Gopal</div>
-                                                <div class="fs-6 ">Operations Manager</div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Operations Manager</div>
+                                                    <div class="author">Mr. Kishan Gopal</div>
+                                                </div>
+                                            </div>
 
                                     </div>
                                 </div>
@@ -1070,36 +1556,36 @@
                         <div class="flip">
                             <div class="corecard border-0">
 
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Mr. Nilesh Gupta</div>
-                                                        <div class="fs-6 ">Office Admin</div>
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="fs-6 ">Office Admin</div>
+                                                            <div class="author">Mr. Nilesh Gupta</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>“Business has only two functions- marketing and innovation.”</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Mr. Nilesh Gupta</div>
-                                                <div class="fs-6 ">Office Admin</div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="fs-6 ">Office Admin</div>
+                                                    <div class="author">Mr. Nilesh Gupta</div>
+                                                </div>
+                                            </div>
 
                                     </div>
                                 </div>
@@ -1108,51 +1594,52 @@
 
                     </div>
 
-                    {{-- Manohar sir --}}
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Mr. Manohar Singhh</div>
-                                                        <div class="fs-6 ">Paid Marketing Manager</div>
+                        {{-- Manohar sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Mr. Manohar Singhh</div>
+                                                            <div class="fs-6 ">Project Manager</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>“Business has only two functions- marketing and innovation.”</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Mr. Manohar Singh</div>
-                                                <div class="fs-6 ">Paid Marketing Manager</div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Mr. Manohar Singh</div>
+                                                    <div class="fs-6 ">Project Manager</div>
+                                                </div>
+                                            </div>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
-                    {{-- Rudraksh sir --}}
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
+                        </div>
+
+                        {{-- Rudraksh sir --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
 
                                 <div class="face front">
                                     <div class="inner">
@@ -1192,40 +1679,40 @@
 
                     </div>
 
-                    {{-- Leera ma'am --}}
-                    <div class="item">
-                        <div class="flip">
-                            <div class="corecard border-0">
-                                <div class="face front">
-                                    <div class="inner">
-                                        <div class="shadow-effect corebox flip rounded-3">
-                                            <div class=" ">
-                                                <img class="img-circle rounded-3" width="50px"
-                                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
-                                                    alt="client">
-                                            </div>
-                                            <div class="authorbox rounded-3">
-                                                <div class="testimonial-name d-flex  text-white">
-                                                    <div>
-                                                        <div class="author">Ms. Leera Ramesh</div>
-                                                        <div class="fs-6 ">Seller Manager</div>
+                        {{-- Leera ma'am --}}
+                        <div class="item">
+                            <div class="flip">
+                                <div class="corecard border-0">
+                                    <div class="face front">
+                                        <div class="inner">
+                                            <div class="shadow-effect corebox flip rounded-3">
+                                                <div class=" ">
+                                                    <img class="img-circle rounded-3" width="50px"
+                                                        src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
+                                                        alt="client">
+                                                </div>
+                                                <div class="authorbox rounded-3">
+                                                    <div class="testimonial-name d-flex  text-white">
+                                                        <div>
+                                                            <div class="author">Ms. Leera Ramesh</div>
+                                                            <div class="fs-6 ">Project Manager</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="face back">
-                                    <div class="inner p-3">
-                                        <div>
-                                            <p>“Business has only two functions- marketing and innovation.”</p>
-                                        </div>
-                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                    <div class="face back">
+                                        <div class="inner p-3">
                                             <div>
-                                                <div class="author">Ms. Leera Ramesh</div>
-                                                <div class="fs-6 ">Seller Manager</div>
+                                                <p>“Business has only two functions- marketing and innovation.”</p>
                                             </div>
-                                        </div>
+                                            <div class="testimonial-name d-flex mt-auto text-black">
+                                                <div>
+                                                    <div class="author">Ms. Leera Ramesh</div>
+                                                    <div class="fs-6 ">Project Manager</div>
+                                                </div>
+                                            </div>
 
                                     </div>
                                 </div>
@@ -1284,18 +1771,18 @@
                         style="background-image: url('assets/websiteAssets/images/services/services1.webp'); background-position: bottom; background-size: cover;">
 
 
-                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                            <div class="serviceBanner">
-                                <h4>Empower your <br /> e-commerce business </h4>
-                                <p>
-                                    With our advanced digital solutions to enhance user experience, increase sales,
-                                    drive traffic, and streamline operations for better growth and efficiency.
-                                </p>
-                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                                <div class="serviceBanner">
+                                    <h4>Empower your <br /> e-commerce business </h4>
+                                    <p>
+                                        With our advanced digital solutions to enhance user experience, increase sales,
+                                        drive traffic, and streamline operations for better growth and efficiency.
+                                    </p>
+                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8"></div>
+                            <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1304,19 +1791,19 @@
                         style="background-image: url('assets/websiteAssets/images/services/travelIndustry.webp'); background-position: top; background-size: cover;">
 
 
-                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                            <div class="serviceBanner">
-                                <h4>Empower your <br /> travel business </h4>
-                                <p>
-                                    Manage bookings effortlessly with one dashboard, boosting customer satisfaction and
-                                    revenue.
-                                </p>
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                                <div class="serviceBanner">
+                                    <h4>Empower your <br /> travel business </h4>
+                                    <p>
+                                        Manage bookings effortlessly with one dashboard, boosting customer satisfaction and
+                                        revenue.
+                                    </p>
 
-                                <a href="#" class="btn btn-primary ">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8"></div>
+                            <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1325,18 +1812,18 @@
                         style="background-image: url('assets/websiteAssets/images/services/realestate-industry.webp'); background-position: center; background-size: cover;">
 
 
-                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                            <div class="serviceBanner">
-                                <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
-                                <p>
-                                    Boost property sales and client engagement with tailored marketing and IT solutions
-                                    designed to elevate your real estate business.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                                <div class="serviceBanner">
+                                    <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
+                                    <p>
+                                        Boost property sales and client engagement with tailored marketing and IT solutions
+                                        designed to elevate your real estate business.
+                                    </p>
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8"></div>
+                            <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1345,18 +1832,18 @@
                         style="background-image: url('assets/websiteAssets/images/services/hospitality-industry.webp');  background-position: top; background-size: cover;">
 
 
-                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                            <div class="serviceBanner">
-                                <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
-                                <p>
-                                    Enhance guest experiences and drive bookings with cutting-edge marketing and IT
-                                    solutions tailored for the hospitality industry.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                                <div class="serviceBanner">
+                                    <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
+                                    <p>
+                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT
+                                        solutions tailored for the hospitality industry.
+                                    </p>
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8"></div>
+                            <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1365,18 +1852,18 @@
                         style="background-image: url('assets/websiteAssets/images/services/healthcare-industry.webp'); background-position: 0 -130px; background-size: cover;">
 
 
-                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                            <div class="serviceBanner">
-                                <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
-                                <p>
-                                    Improve patient engagement and streamline operations with customized digital
-                                    solutions designed for the healthcare industry.
-                                </p>
-                                <a href="#" class="btn btn-primary">Work With Yuvmedia <i
-                                        class="bi bi-arrow-right"></i></a>
+                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                                <div class="serviceBanner">
+                                    <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
+                                    <p>
+                                        Improve patient engagement and streamline operations with customized digital
+                                        solutions designed for the healthcare industry.
+                                    </p>
+                                    <a href="{{ route('contact') }}" class="btn btn-primary">Work With Yuvmedia <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8"></div>
+                            <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1388,11 +1875,11 @@
 
 
 
-{{-- Tecg tools section --}}
-<section class="position-relative  technologies-sec aos-init aos-animate " data-aos-duration="1200"
-    data-aos-delay="000">
-    <div class="technical-stack-section">
-        <div class="container">
+    {{-- Tech tools section --}}
+    <section class="position-relative  technologies-sec aos-init aos-animate " data-aos-duration="1200"
+        data-aos-delay="000">
+        <div class="technical-stack-section">
+            <div class="container">
 
             <div class="text-start globaltxtcolor">
                 Technologies We Use
@@ -1401,681 +1888,686 @@
                 Leveraging cutting-edge technologies across all industries.
             </div>
 
-            <div class="technical-stack-inn mt-5 mt-md-3">
-                <div class="technical-stack-main">
-                    <div class="technical-main-div">
-                        <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                                <div class="technical-main-mdl">
-                                    <div class="technical-main-img aos-init aos-animate">
+                <div class="technical-stack-inn mt-5 mt-md-3">
+                    <div class="technical-stack-main">
+                        <div class="technical-main-div">
+                            <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-6">
+                                    <div class="technical-main-mdl">
+                                        <div class="technical-main-img aos-init aos-animate">
+                                            <span>
+                                                <img class="perfmatters-lazy entered pmloaded" data-ll-status="loaded"
+                                                    src="{{ asset('assets/websiteAssets/images/technology-image.png') }}"
+                                                    alt="technology-image">
+                                            </span>
+                                        </div>
+                                        <div class="technical-tk-ul">
+                                            <ul>
+                                                <li class="frontend aos-init aos-animate" data-aos="fade-right">
+                                                    <a href="javascript:;">Development</a>
+                                                    <ul>
+                                                        <li class="css3">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="laravel style"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="html5">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="react-native"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/react-native.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="javascript">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="javascript language"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="angular">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="android icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="react">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="react native"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="less">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="flutter icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="jquery">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="ios icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="backend aos-init aos-animate" data-aos="fade-down">
+                                                    <a href="javascript:;">Digital Marketing</a>
+                                                    <ul>
+                                                        <li class="php">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Google-Analytics technology"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Google-Analytics.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Google-Analytics.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="codeigniter">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="ahrefs icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/ahrefs.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ahrefs.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="drupal">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="HubSpot icon"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/HubSpot.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/HubSpot.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="joomla">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Canva frameworks"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Canva.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="laravel">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Jasper development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Jasper.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Jasper.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="magento">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="buffer technology"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/buffer.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/buffer.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="mysql">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Hootsuite language"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Hootsuite.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Hootsuite.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="nodejs">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Meta development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Meta.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Meta.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="rubyonrails">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="SEMrush on rails"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/SEMrush.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/SEMrush.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="shopify">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="shopify development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Mailchimp.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Mailchimp.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="mobile-app aos-init aos-animate" data-aos="fade-left">
+                                                    <a href="javascript:;">Seller</a>
+                                                    <ul>
+                                                        <li class="android">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Amazon development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Amazon.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Amazon.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="ios">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="flipkart development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/flipkart.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="flutter">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="flutter development"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/myntra.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/myntra.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="kotlin">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="meesho"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/meesho.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="react-native">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="react native developers"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Shiprocket.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Shiprocket.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="swift">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="swift logo"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/nimbus.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/nimbus.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="ui-ux-design aos-init aos-animate" data-aos="fade-up">
+                                                    <a href="javascript:;">Design</a>
+                                                    <ul>
+                                                        <li class="adobe-xd">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe-xd "
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="illustrator">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe illustrator logo"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="photoshop">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe photoshop"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="figma">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="figma image"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+
+                        <div class="technical-stack-ul">
+                            <ul>
+                                <li class="adobe-xd aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="900">
+                                    <div class="index-list__divider-inn">
                                         <span>
-                                            <img class="perfmatters-lazy entered pmloaded" data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technology-image.png') }}"
-                                                alt="technology-image">
+                                            <img alt="adobe xd image" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
                                         </span>
                                     </div>
-                                    <div class="technical-tk-ul">
-                                        <ul>
-                                            <li class="frontend aos-init aos-animate" data-aos="fade-right">
-                                                <a href="javascript:;">Frontend</a>
-                                                <ul>
-                                                    <li class="css3">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="css style"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="html5">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="html 5"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="javascript">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="javascript language"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="angular">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="angular icon"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="react">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="react native"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="less">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="less icon"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/less.png"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="jquery">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="jquery icon"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/jQuery.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="backend aos-init aos-animate" data-aos="fade-down">
-                                                <a href="javascript:;">Backend</a>
-                                                <ul>
-                                                    <li class="php">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="php technology"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="codeigniter">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="ci icon"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/ci-icon.png"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="drupal">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="drupal icon"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="joomla">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="joomla frameworks"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="laravel">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="laravel development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/laravel.png"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="magento">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="magent technology"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/magento.png"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="mysql">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="mysql language"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="nodejs">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="nodejs development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="rubyonrails">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="ruby on rails"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="shopify">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="shopify development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="mobile-app aos-init aos-animate" data-aos="fade-left">
-                                                <a href="javascript:;">Mobile App</a>
-                                                <ul>
-                                                    <li class="android">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="android development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="ios">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="ios development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flutter">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="flutter development"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="kotlin">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="kotlin"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="react-native">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="react native developers"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/react-native.png"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="swift">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="swift logo"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="ui-ux-design aos-init aos-animate" data-aos="fade-up">
-                                                <a href="javascript:;">UI/UX design</a>
-                                                <ul>
-                                                    <li class="adobe-xd">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="adobe-xd "
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="illustrator">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="adobe illustrator logo"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="photoshop">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="adobe photoshop"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="figma">
-                                                        <div class="index-list__divider-inn">
-                                                            <span>
-                                                                <img alt="figma image"
-                                                                    class="perfmatters-lazy entered pmloaded"
-                                                                    data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
-                                                                    data-ll-status="loaded"
-                                                                    src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                </li>
+                                <li class="android aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="600">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="android development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Amazon.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Amazon.png') }}">
+                                        </span>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3"></div>
+                                </li>
+                                <li class="angularjs aos-init aos-animate" data-aos="fade-left"
+                                    data-aos-duration="1600" data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="angular development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="aws aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="amazon " class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="codeigniter aos-init aos-animate" data-aos="fade-up"
+                                    data-aos-duration="1600" data-aos-delay="800">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ci image" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/ahrefs.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ahrefs.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="css3 aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="css 3" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/laravel.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="drupal aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/HubSpot.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/HubSpot.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="flutter aos-init aos-animate" data-aos="fade-right"
+                                    data-aos-duration="1600" data-aos-delay="200">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/myntra.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/myntra.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="html5 aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/react-native.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="illustrator aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="illustrator" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="ios aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ios development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/flipkart.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="shopify aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Mailchimp.webp"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Mailchimp.webp') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="javascript aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="javascript" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="joomla aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="200">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Canva.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="jquery aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="jquery" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="kotlin aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/meesho.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="laravel aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Jasper.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Jasper.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="less aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="less" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="magento aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="1000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="magento" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/buffer.webp"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/buffer.webp') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mongodb aos-init aos-animate" data-aos="fade-right"
+                                    data-aos-duration="1600" data-aos-delay="1100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="mangodb" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/mongodb.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/mongodb.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mysql aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="600">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="mysql" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Hootsuite.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Hootsuite.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="nodejs aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="500">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Meta.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Meta.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="photoshop aos-init aos-animate" data-aos="fade-left"
+                                    data-aos-duration="1600" data-aos-delay="700">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="adobe photoshop" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="php aos-init" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="800">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="php developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Google-Analytics.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Google-Analytics.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="react aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="react developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="react-native aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Shiprocket.webp"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Shiprocket.webp') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="rubyonrails aos-init" data-aos="fade-left" data-aos-duration="1600"
+                                    data-aos-delay="900">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/SEMrush.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/SEMrush.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="swift aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
+                                    data-aos-delay="1000">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="swift" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/nimbus.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/nimbus.png') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="figma aos-init" data-aos="fade-up" data-aos-duration="1600"
+                                    data-aos-delay="100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="figma" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="wordpress aos-init" data-aos="fade-down" data-aos-duration="1600"
+                                    data-aos-delay="00">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="wordpress development" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/wordpress-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/wordpress-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-
-                    <div class="technical-stack-ul">
-                        <ul>
-                            <li class="adobe-xd aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
-                                data-aos-delay="900">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="adobe xd image" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/adobe-xd-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/adobe-xd-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="android aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="600">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="android development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/android-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/android-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="angularjs aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="700">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="angular development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/angular-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/angular-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="aws aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="400">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="amazon " class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/amazon-web-services-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="codeigniter aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
-                                data-aos-delay="800">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="ci image" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/ci-icon.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/ci-icon.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="css3 aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="500">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="css 3" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/css-3-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/css-3-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="drupal aos-init" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="400">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="drupal development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/drupal-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/drupal-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="flutter aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="200">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="flutter development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/flutter-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/flutter-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="html5 aos-init" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="html 5 " class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/html5-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/html5-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="illustrator aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="000">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="illustrator" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/adobe-illustrator-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="ios aos-init" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="300">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="ios development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/ios-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/ios-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="shopify aos-init" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="300">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="shopify development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/shopify-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/shopify-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="javascript aos-init" data-aos="fade-up" data-aos-duration="1600"
-                                data-aos-delay="100">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="javascript" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/javascript-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/javascript-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="joomla aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="200">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="joomla development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/joomla-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/joomla-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="jquery aos-init" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="100">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="jquery" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/jQuery.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/jQuery.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="kotlin aos-init" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="500">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/kotlin-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/kotlin-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="laravel aos-init aos-animate" data-aos="fade-up" data-aos-duration="1600"
-                                data-aos-delay="700">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="laravel developers" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/laravel.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/laravel.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="less aos-init aos-animate" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="400">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="less" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/less.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/less.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="magento aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="1000">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="magento" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/magento.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/magento.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="mongodb aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="1100">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="mangodb" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/mongodb.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/mongodb.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="mysql aos-init" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="600">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="mysql" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/mysql-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/mysql-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="nodejs aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="500">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="nodejs " class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/node-js-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/node-js-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="photoshop aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="700">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="adobe photoshop" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/adobe-photoshop-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="php aos-init" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="800">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="php developers" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/php-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/php-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="react aos-init" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="react developers" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/react-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="react-native aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="300">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="react native developers" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/react-native.png"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/react-native.png') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="rubyonrails aos-init" data-aos="fade-left" data-aos-duration="1600"
-                                data-aos-delay="900">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="ruby on rails" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/ruby-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/ruby-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="swift aos-init aos-animate" data-aos="fade-right" data-aos-duration="1600"
-                                data-aos-delay="1000">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="swift" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/swift-alt-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/swift-alt-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="figma aos-init" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="figma" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="wordpress aos-init" data-aos="fade-down" data-aos-duration="1600"
-                                data-aos-delay="00">
-                                <div class="index-list__divider-inn">
-                                    <span>
-                                        <img alt="wordpress development" class="perfmatters-lazy entered pmloaded"
-                                            data-src="assets/websiteAssets/images/technologies/wordpress-Icon.svg"
-                                            data-ll-status="loaded"
-                                            src="{{ asset('assets/websiteAssets/images/technologies/wordpress-Icon.svg') }}">
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 <!-- TESTIMONIALS -->
@@ -2281,95 +2773,96 @@
             <div class="col-md-6" style="z-index: 10">
                 <div class="d-flex justify-content-center align-items-end h-100 p-md-5 mx-md-5">
 
-                    <p class="fs-2 text-white fw-bold">
-                        Get customized solution,
-                        recommendation, and
-                        estimate for your
-                        requirement!
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative" style="z-index: 10">
-                    <div class="fw-bold mb-3">
-                        Fill Out the form and we will
-                        contact you
+                        <p class="fs-2 contact-msg fw-bold">
+                            Get personalized solutions, expert recommendations, and accurate estimates tailored to your
+                            needs!
+                        </p>
                     </div>
-                    <div>
-                        <form action="#" id="contact-form" method="post">
-                            <div class="">
-                                <div class="card-body">
-                                    <div class="row gy-4">
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label class="form-label">Your First Name <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="username" class="form-control customforminput"
-                                                    placeholder="Enter Your First Name" autocomplete="off">
+                </div>
+                <div class="col-md-6">
+                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative"
+                        style="z-index: 10">
+                        <div class="fw-bold mb-3">
+                            Fill Out the form and we will
+                            contact you
+                        </div>
+                        <div>
+                            <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
+                                @csrf
+                                <div class="">
+                                    <div class="card-body">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your First Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="username"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your First Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Brand Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input required type="text" name="brandname"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your Brand Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Email <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input required type="email" name="email"
+                                                        class="form-control customforminput" placeholder="Enter Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Phone/Mobile <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="tel" name="phone"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Phone/Mobile" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Website </label>
+                                                    <input type="text" name="website"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your Website link">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label for="labelid">Your Industry <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <select name="industry" class="form-select customforminput"
+                                                        id="servicetypeid" required>
+                                                        <option value="" selected>--select industry--</option>
+                                                        <option value="Services">E-Commerce</option>
+                                                        <option value="Consulting">Fantasy Games</option>
+                                                        <option value="Consulting">Tour & Travel</option>
+                                                        <option value="Consulting">Finance</option>
+                                                        <option value="Consulting">Hospitality</option>
+                                                        <option value="Consulting">Healthcare</option>
+                                                        <option value="Consulting">Interior Designing & Architect</option>
+                                                        <option value="Consulting">Education</option>
+                                                        <option value="Consulting">Real E-State</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-12 col-md-12">
+                                                <div>
+                                                    <label for="example-text-input" class="">Please tell about
+                                                        your business </label>
+                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
+                                                        type="textarea" rows="3" value="" id="example-text-input"></textarea>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label class="form-label">Your Brand Name <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="brandname" class="form-control customforminput"
-                                                    placeholder="Enter Your Brand Name" autocomplete="off">
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label class="form-label">Email <span class="text-danger fs-5">*</span>
-                                                </label>
-                                                <input type="email" name="email" class="form-control customforminput"
-                                                    placeholder="Enter Email">
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label class="form-label">Phone/Mobile <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="phone" class="form-control customforminput"
-                                                    placeholder="Enter Phone/Mobile">
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label class="form-label">Your Website <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <input type="text" name="website" class="form-control customforminput"
-                                                    placeholder="Enter Your Website link">
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div>
-                                                <label for="labelid">Your Industry <span
-                                                        class="text-danger fs-5">*</span> </label>
-                                                <select name="industry" class="form-select customforminput"
-                                                    id="servicetypeid" required>
-                                                    <option value="" selected>--select industry--</option>
-                                                    <option value="Services">E-Commerce</option>
-                                                    <option value="Consulting">Fantasy Games</option>
-                                                    <option value="Consulting">Tour & Travel</option>
-                                                    <option value="Consulting">Finance</option>
-                                                    <option value="Consulting">Hospitality</option>
-                                                    <option value="Consulting">Healthcare</option>
-                                                    <option value="Consulting">Interior Designing & Architect</option>
-                                                    <option value="Consulting">Education</option>
-                                                    <option value="Consulting">Real E-State</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-12 col-md-12">
-                                            <div>
-                                                <label for="example-text-input" class="">Please tell about
-                                                    your business <span class="text-danger fs-5">*</span> </label>
-                                                <textarea class="form-control customforminput"
-                                                    placeholder="Please tell about your business" name="message"
-                                                    type="textarea" rows="3" value="" id="example-text-input"
-                                                    required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                 </div>
                                 <div class="formcustomcardfooter">
@@ -2434,28 +2927,11 @@
     })
 </script>
 
-<script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-                publicKey: "ZpSieWnpQVGRyWwki",
-            });
-        })();
-</script>
 
-<script type="text/javascript">
-    window.onload = function () {
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-            // these IDs from the previous steps
-            emailjs.sendForm('contact_service', 'contact_form', this)
-                .then(() => {
-                    console.log('SUCCESS!');
-                }, (error) => {
-                    console.log('FAILED...', error);
-                });
-        });
-    }
-</script>
+ 
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logo-slider").appendChild(copy);
+    </script>
 
 @endsection

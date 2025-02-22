@@ -25,7 +25,7 @@
                 </div>
                 <div class="d-flex justify-content-start flex-wrap">
                     <div class="me-3">
-                        <a href="#" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
+                        <a href="{{route('contact')}}" class="btn btn-lg workbtnsecone">Start Now <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -213,8 +213,8 @@
     var copy3 = document.querySelector(".logos-slide3").cloneNode(true);
     document.querySelector(".logo-slider3").appendChild(copy3);
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 <script>
     var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
         slidesPerView: 5,
