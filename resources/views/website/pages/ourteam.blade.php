@@ -660,7 +660,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Mehazabi.jpg') }}"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Mehzabi.jpg') }}"
                                     alt="client" style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">

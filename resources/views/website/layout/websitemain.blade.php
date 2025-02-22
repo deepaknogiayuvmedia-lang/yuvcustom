@@ -550,7 +550,19 @@
 
         <script src="{{ asset('assets/websiteAssets/js/lenis.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script>
-
+            
+        <!-- Add reCAPTCHA Script -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy"></script>
+        <script>
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy', {
+                    action: 'submit'
+                }).then(function(token) {
+                    document.getElementById('contact-form').insertAdjacentHTML('beforeend',
+                        `<input type="hidden" name="g-recaptcha-response" value="${token}">`);
+                });
+            });
+        </script>
         {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
     <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
