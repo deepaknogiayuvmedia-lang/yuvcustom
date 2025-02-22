@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>New Inquiry Received</title>
+    <title>Business Partner Inquiry Received</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -93,15 +93,15 @@
 
         <!-- Email Content -->
         <div class="content">
-            <h2>New Inquiry Details</h2>
+            <h2>Business Partner Inquiry Details</h2>
             <table class="inquiry-table">
                 <tr>
                     <td><strong>Name:</strong></td>
                     <td>{{ $details['name'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Brand Name:</strong></td>
-                    <td>{{ $details['brandname'] }}</td>
+                    <td><strong>Age:</strong></td>
+                    <td>{{ $details['age'] }}</td>
                 </tr>
                 <tr>
                     <td><strong>Email:</strong></td>
@@ -112,20 +112,20 @@
                     <td>{{ $details['phone'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Website:</strong></td>
-                    <td><a href="{{ $details['website'] }}" target="_blank">{{ $details['website'] }}</a></td>
+                    <td><strong>City:</strong></td>
+                    <td>{{ $details['city'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Industry:</strong></td>
-                    <td>{{ $details['industry'] }}</td>
+                    <td><strong>Pincode:</strong></td>
+                    <td>{{ $details['pincode'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Service:</strong></td>
-                    <td>{{ $details['servicedropdown'] }}</td>
+                    <td><strong>State:</strong></td>
+                    <td>{{ $details['state'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Message:</strong></td>
-                    <td>{{ $details['message'] }}</td>
+                    <td><strong>Address:</strong></td>
+                    <td>{{ $details['address'] }}</td>
                 </tr>
             </table>
         </div>

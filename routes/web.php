@@ -10,7 +10,7 @@ use App\Http\Controllers\ExcelContactSheet;
 use App\Http\Controllers\WebsiteViews;
 use App\Http\Middleware\VerifyCsrfToken;
 
-Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.inquiry');
+
 
 Route::get('admin/login', function () {
     return view('auth.login');
@@ -143,7 +143,8 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/clients', 'clients')->name('clients');
 
 });
-// //Excel Routes
-// Route::get('/import-excel', [ExcelContactSheet::class, 'index'])->name('import.excel');
-// Route::post('/import-excel', [ExcelContactSheet::class, 'import']);
+
+//Mail Routes
+Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.inquiry');
+Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail'])->name('send.sendpartnerinquiry');
 
