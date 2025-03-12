@@ -1,0 +1,27 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/*.zip
+public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-01.mp4
+public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-02.mp4
+public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-04.mp4
+public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-03.mp4
+public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-05.mp4
+public/assets/websiteAssets/images/work/2d/2d_character_animation/ShaliniAndMalini.mp4
