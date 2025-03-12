@@ -9,6 +9,9 @@ use App\Mail\partnerenquirymail;
 use App\Mail\thankyou;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Http;
+use App\Mail\JobApplicationMail;
+use App\Mail\ThankYouMail;
+use Illuminate\Support\Facades\Storage;
 
 class EmailController extends Controller
 {
@@ -59,7 +62,7 @@ class EmailController extends Controller
         $subject = "New Inquiry from " . $details['name'];
         $message = "You have received a new inquiry.";
         // Log::info('Email sent to: ' . json_encode($details));
-        
+
         // Send the email
         Mail::to($toEmail)->send(new inquiryemail($message, $subject, $details));
         Mail::to($request->input('email'))->send(new thankyou());
@@ -116,7 +119,7 @@ class EmailController extends Controller
         $subject = "New Inquiry for Business Partner : " . $details['name'];
         $message = "You have received a new inquiry.";
         // Log::info('Email sent to: ' . json_encode($details));
-        
+
         // Send the email
         Mail::to($toEmail)->send(new partnerenquirymail($message, $subject, $details));
         Mail::to($request->input('email'))->send(new thankyou());
@@ -125,5 +128,71 @@ class EmailController extends Controller
         Log::info('Email sent to: ' . json_encode($details));
 
         return redirect()->back()->with('success', 'Your inquiry has been sent successfully!');
+    }
+
+    public function sendJobApplication(Request $request)
+    {
+        try {
+            // dd($request->all());
+
+            // Validate form inputs
+            $request->validate([
+                'name' => 'required|string|max:255',
+                'email' => 'required|email',
+                'phone' => 'required|digits_between:10,15',
+                'job_role' => 'required|string',
+                'resume' => 'required|mimes:pdf,doc,docx|max:2048',
+                'message' => 'nullable|string',
+                'g-recaptcha-response' => 'required',
+            ]);
+            // Verify reCAPTCHA with Google
+            $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+                'secret' => env('RECAPTCHA_SECRET_KEY'),
+                'response' => $request->input('g-recaptcha-response'),
+                'remoteip' => $request->ip(),
+            ]);
+
+            $responseData = $response->json();
+
+            if (!$responseData['success'] || $responseData['score'] < 0.5) {
+                return back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.'])->withInput();
+            }
+
+            // Handle file upload
+            if ($request->hasFile('resume')) {
+                $resumePath = $request->file('resume') ? $request->file('resume')->store('resumes', 'local') : null;
+            } else {
+                return back()->withErrors(['resume' => 'Resume upload failed.'])->withInput();
+            }
+            
+
+            // Prepare email data
+            $details = [
+                'name' => $request->input('name'),
+                'email' => $request->input('email'),
+                'phone' => $request->input('phone'),
+                'job_role' => $request->input('job_role'),
+                'resume' => $resumePath,
+                'message' => $request->input('message'),
+            ];
+
+            // Define recipient emails
+            $toEmail = ['hr@yuvmedia.com'];
+            // $toEmail = ['anshulyuvmedia@gmail.com'];
+            $subject = "New Job Application: " . $details['name'];
+
+            // Send emails
+            Mail::to($toEmail)->send(new JobApplicationMail($details));
+            Mail::to($request->input('email'))->send(new ThankYouMail($details));
+
+            // Log submission
+            Log::info('Job Application Submitted: ', $details);
+
+            return redirect()->back()->with('success', 'Your job application has been submitted successfully!');
+        } catch (\Exception $e) {
+            Log::error('Job Application Error: ' . $e->getMessage());
+
+            return redirect()->back()->with('error', $e->getMessage());
+        }
     }
 }

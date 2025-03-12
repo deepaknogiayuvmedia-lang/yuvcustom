@@ -227,60 +227,70 @@
         </div>
     </Section>
 
-    <Section>
+    <Section id="contact">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="fs-1 fw-bold text-center">
-                        Join our Managing <br /> <span class="globaltxtcolor">Partner Tribe.</span>
+                        Join our <span class="globaltxtcolor"> Tribe.</span>
                     </div>
-                    <div class="">
+                    {{-- <div class="">
                         <p class="text-wrap joincontentcustom">
                             Unlock endless growth opportunities with our proven model, expert support, and scalable business
                             solutions. Become a partner and shape the future of consultancy!
                         </p>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center">
-                        <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
+                        <form action="{{ route('send.jobenquiry') }}" id="contact-form" method="post"  enctype="multipart/form-data">
                             @csrf
                             <div class="formcustomcard">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label">Your Name <span class="text-danger">*</span></label>
-                                                <input type="text" name="name" class="form-control" placeholder="Enter Your Name" required>
+                                                <label class="form-label">Your Name <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" name="name" class="form-control"
+                                                    placeholder="Enter Your Name" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Email <span class="text-danger">*</span></label>
-                                                <input type="email" name="email" class="form-control" placeholder="Enter Your Email" required>
+                                                <input type="email" name="email" class="form-control"
+                                                    placeholder="Enter Your Email" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Phone/Mobile <span class="text-danger">*</span></label>
-                                        <input type="tel" name="phone" class="form-control" placeholder="Enter Phone/Mobile" required>
+                                        <input type="tel" name="phone" class="form-control"
+                                            placeholder="Enter Phone/Mobile" required>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label">Select Job Role <span class="text-danger">*</span></label>
+                                        <label class="form-label">Select Job Role <span
+                                                class="text-danger">*</span></label>
                                         <select name="job_role" class="form-select" required>
                                             <option value="">-- Select Job Role --</option>
                                             <option value="SEO Specialist">SEO Specialist</option>
                                             <option value="Social Media Manager">Social Media Manager</option>
-                                            <option value="WhatsApp Marketing Specialist">WhatsApp Marketing Specialist</option>
-                                            <option value="Video Production Specialist">Video Production Specialist</option>
+                                            <option value="WhatsApp Marketing Specialist">WhatsApp Marketing Specialist
+                                            </option>
+                                            <option value="Video Production Specialist">Video Production Specialist
+                                            </option>
                                             <option value="Web Developer">Web Developer</option>
                                             <option value="Graphic Designer">Graphic Designer</option>
-                                            <option value="Performance Marketing Specialist">Performance Marketing Specialist</option>
+                                            <option value="Performance Marketing Specialist">Performance Marketing
+                                                Specialist</option>
                                             <option value="Marketplace Manager">Marketplace Manager</option>
-                                            <option value="Influencer Marketing Executive">Influencer Marketing Executive</option>
-                                            <option value="Google Business Profile Manager">Google Business Profile Manager</option>
+                                            <option value="Influencer Marketing Executive">Influencer Marketing Executive
+                                            </option>
+                                            <option value="Google Business Profile Manager">Google Business Profile Manager
+                                            </option>
                                             <option value="ERP Consultant">ERP Consultant</option>
                                             <option value="Email Marketing Specialist">Email Marketing Specialist</option>
                                         </select>
@@ -291,7 +301,8 @@
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Tell us about yourself</label>
-                                        <textarea name="message" class="form-control" placeholder="Briefly describe your experience and skills" rows="3"></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Briefly describe your experience and skills"
+                                            rows="3"></textarea>
                                     </div>
                                 </div>
                                 <div class="formcustomcardfooter">
@@ -306,4 +317,41 @@
             </div>
         </div>
     </Section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            @if (session('success'))
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: "{{ session('success') }}",
+                });
+            @endif
+
+            @if (session('error'))
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: "{{ session('error') }}",
+                });
+            @endif
+
+        });
+    </script>
+    @if ($errors->any())
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Validation Error!',
+                html: '<ul>' +
+                    @foreach ($errors->all() as $error)
+                        '<li>{{ $error }}</li>' +
+                    @endforeach
+                '</ul>',
+            });
+        </script>
+    @endif
+
 @endsection

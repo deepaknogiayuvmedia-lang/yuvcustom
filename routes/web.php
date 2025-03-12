@@ -149,4 +149,5 @@ Route::controller(WebsiteViews::class)->group(function () {
 //Mail Routes
 Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.inquiry');
 Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail'])->name('send.sendpartnerinquiry');
+Route::post('/send-jobenquiry', [EmailController::class, 'sendJobApplication'])->name('send.jobenquiry');
 
