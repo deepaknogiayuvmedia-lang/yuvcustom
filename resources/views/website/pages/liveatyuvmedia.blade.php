@@ -27,10 +27,23 @@
                     <div class="slider-container">
                         <div class="slider-main">
                             <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner" id="carouselInner"></div>
+                                <div class="carousel-inner" id="carouselInner">
+                                    <!-- Images will be inserted dynamically -->
+                                </div>
+                                <!-- Carousel Controls -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="slider-sidebar" id="carouselSidebar"></div>
+                        <div class="slider-sidebar" id="carouselSidebar">
+                            <!-- Thumbnails will be inserted dynamically -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -39,20 +52,23 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        const logosData = [{
-                "src": "assets/websiteAssets/images/clients/Construction logo/1.png"
-            },
-            {
-                "src": "assets/websiteAssets/images/clients/Construction logo/2.png"
-            },
-            {
-                "src": "assets/websiteAssets/images/clients/Construction logo/3.png"
-            }
+        const logosData = [
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/1.webp"},
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/2.webp"},
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/3.webp"},
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/4.webp"},
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/5.webp"},
+            {"src": "assets/websiteAssets/images/lifeatyuvmedia/6.webp"}
         ];
 
         function populateCarousel() {
             const carouselInner = document.getElementById("carouselInner");
             const sidebar = document.getElementById("carouselSidebar");
+
+            if (!carouselInner || !sidebar) {
+                console.error("Carousel container elements not found.");
+                return;
+            }
 
             logosData.forEach((logo, index) => {
                 // Create carousel item
@@ -61,7 +77,7 @@
 
                 const img = document.createElement("img");
                 img.src = logo.src;
-                img.alt = logo.alt;
+                img.alt = "Life at Yuvmedia";
                 img.className = "d-block w-100";
 
                 itemDiv.appendChild(img);
@@ -70,15 +86,49 @@
                 // Create sidebar thumbnail
                 const thumb = document.createElement("img");
                 thumb.src = logo.src;
-                thumb.alt = logo.alt;
+                thumb.alt = "Thumbnail " + (index + 1);
                 thumb.className = "sidebar-img";
                 thumb.setAttribute("data-bs-target", "#mainCarousel");
                 thumb.setAttribute("data-bs-slide-to", index);
 
                 sidebar.appendChild(thumb);
             });
+
+            initializeCarousel();
+        }
+
+        function initializeCarousel() {
+            $(document).ready(function(){
+                $('#mainCarousel').carousel({
+                    interval: 3000 // Auto-slide every 3 seconds
+                });
+
+                $('#mainCarousel').on('slide.bs.carousel', function (e) {
+                    var index = $(e.relatedTarget).index();
+                    $('.sidebar-img').removeClass('active-slide');
+                    var activeImg = $('.sidebar-img').eq(index);
+                    activeImg.addClass('active-slide');
+
+                    // Auto-scroll sidebar thumbnails
+                    if ($(window).width() < 768) {
+                        var scrollTo = activeImg.outerWidth(true) * index;
+                        $('.slider-sidebar').animate({ scrollLeft: scrollTo }, 500);
+                    } else {
+                        var scrollTo = activeImg.outerHeight(true) * index;
+                        $('.slider-sidebar').animate({ scrollTop: scrollTo }, 500);
+                    }
+                });
+
+                $('.sidebar-img').click(function(){
+                    $('.sidebar-img').removeClass('active-slide');
+                    $(this).addClass('active-slide');
+                    var slideIndex = $(this).data('bs-slide-to');
+                    $('#mainCarousel').carousel(slideIndex);
+                });
+            });
         }
 
         document.addEventListener("DOMContentLoaded", populateCarousel);
     </script>
+
 @endsection

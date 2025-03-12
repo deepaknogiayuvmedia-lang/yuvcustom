@@ -3498,7 +3498,7 @@ figure img {
 @media (min-width: 768px) {
     .slider-container {
         flex-direction: row;
-        height: 480px;
+        height: 580px;
     }
 
     .slider-main {
