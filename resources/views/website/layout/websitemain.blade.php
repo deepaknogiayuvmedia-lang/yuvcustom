@@ -64,8 +64,8 @@
                                                     href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('liveatyuvmedia') ? 'active' : '' }}"
-                                                    href="{{ route('liveatyuvmedia') }}">Life @ Yuvmedia</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('lifeatyuvmedia') ? 'active' : '' }}"
+                                                    href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -208,8 +208,8 @@
                                                     href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
                                             <li>
-                                                <a class="d-block py-2 px-3 {{ request()->routeIs('liveatyuvmedia') ? 'fw-bold text-primary' : '' }}"
-                                                    href="{{ route('liveatyuvmedia') }}">Life @ Yuvmedia</a>
+                                                <a class="d-block py-2 px-3 {{ request()->routeIs('lifeatyuvmedia') ? 'fw-bold text-primary' : '' }}"
+                                                    href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -345,8 +345,8 @@
                                             href="{{ route('ourteam') }}">Our Team</a>
                                     </li>
                                     <li>
-                                        <a class="{{ request()->routeIs('liveatyuvmedia') ? 'active' : '' }}"
-                                            href="{{ route('liveatyuvmedia') }}">Life @ Yuvmedia</a>
+                                        <a class="{{ request()->routeIs('lifeatyuvmedia') ? 'active' : '' }}"
+                                            href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('partners') ? 'active' : '' }}"

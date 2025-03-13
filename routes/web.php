@@ -141,7 +141,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/emailmarketing', 'emailmarketing')->name('emailmarketing');
     Route::get('/portfolio', 'portfolio')->name('portfolio');
     Route::get('/clients', 'clients')->name('clients');
-    Route::get('/live-at-yuvmedia', 'liveatyuvmedia')->name('liveatyuvmedia');
+    Route::get('/lifeatyuvmedia', 'lifeatyuvmedia')->name('lifeatyuvmedia');
     Route::get('/career', 'career')->name('career');
 
 });

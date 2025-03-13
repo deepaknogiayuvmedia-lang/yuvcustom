@@ -101,7 +101,7 @@ class WebsiteViews extends Controller
     }
     public function liveatyuvmedia()
     {
-        return view('website.pages.liveatyuvmedia');
+        return view('website.pages.lifeatyuvmedia');
     }
     public function career()
     {
