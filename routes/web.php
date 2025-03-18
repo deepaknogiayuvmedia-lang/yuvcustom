@@ -119,6 +119,8 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/blog-details/{id}', 'blogdetails')->name('blogdetails');
     Route::get('/casestudies', 'casestudies')->name('casestudies');
     Route::get('/casedetails/{id}', 'casedetails')->name('casedetails');
+    Route::get('/filterstudy/{category}', 'filterstudy')->name('filterstudy');
+    
     
 
 });
