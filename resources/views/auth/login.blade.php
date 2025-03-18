@@ -7,14 +7,29 @@
         <x-validation-errors class="mb-4" />
 
         @session('status')
-            <div class="mb-4 font-medium text-sm text-green-600 dark:text-green-400">
-                {{ $value }}
-            </div>
+        <div class="mb-4 font-medium text-sm text-green-600 dark:text-green-400">
+            {{ $value }}
+        </div>
         @endsession
+        <style>
+            .custom-heading {
+                font-size: 3rem;
+                /* Adjust size as needed */
+                font-weight: 900;
+                text-transform: uppercase;
+                  color: #2C73C3;
+            }
 
+            .custom-subheading {
+                font-size: 1.5rem;
+                /* Adjust size as needed */
+                color: #2C73C3;
+                /* Muted gray color */
+            }
+
+        </style>
         <form method="POST" action="{{ route('login') }}">
             @csrf
-
             <div>
                 <x-label for="email" value="{{ __('Email') }}" />
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
@@ -24,24 +39,16 @@
                 <x-label for="password" value="{{ __('Password') }}" />
                 <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
             </div>
-
-            <div class="block mt-4">
-                <label for="remember_me" class="flex items-center text-white">
-                    <x-checkbox id="remember_me" name="remember" />
-                    <span class="ms-2 text-sm text-white">{{ __('Remember me') }}</span>
-                </label>
-            </div>
-
-            <div class="flex items-center justify-end mt-4">
-                @if (Route::has('password.request'))
-                    <a class="underline text-sm text-white hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('password.request') }}">
-                        {{ __('Forgot your password?') }}
-                    </a>
-                @endif
-
+            <div class="flex items-center justify-center mt-4">
                 <x-button class="ms-4">
                     {{ __('Log in') }}
                 </x-button>
+            </div>
+             <div class="flex items-center justify-center mt-4">
+                <span class="text-sm text-gray-600">New to Portfolio?</span>&nbsp;
+                <a class="underline text-sm text-black ml-2" href="{{ route('register') }}">
+                    {{ __('Create Account') }}
+                </a>
             </div>
         </form>
     </x-authentication-card>

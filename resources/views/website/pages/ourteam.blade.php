@@ -118,7 +118,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/lalit-kishore.png') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -608,27 +608,6 @@
                     </div>
                 </div>
 
-                {{-- Sejal --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Sejal-goyal.webp') }}"
-                                    alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Ms. Sejal goyal</div>
-                                        <div class="fs-6 ">Performance Marketer</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
                 {{-- Ms. Ayushi Sharma --}}
                 <div class="col-md-3 mb-4">
                     <div class="item">

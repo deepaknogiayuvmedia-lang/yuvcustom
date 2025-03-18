@@ -63,6 +63,10 @@
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('ourteam') ? 'active' : '' }}"
                                                     href="{{ route('ourteam') }}">Our Team</a>
                                             </li>
+                                            <li>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('lifeatyuvmedia') ? 'active' : '' }}"
+                                                    href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -129,12 +133,16 @@
                                             href="{{ route('clients') }}">Clients</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="nav-link {{ request()->routeIs('blogs') ? 'active' : '' }}"
+                                            href="{{ route('blogs') }}">Blogs</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                             href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}"
-                                            href="https://yuvmedia-india.odoo.com/jobs">Career</a>
+                                            href="{{ route('career') }}">Career</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -202,6 +210,10 @@
                                             <li>
                                                 <a class="d-block py-2 px-3 {{ request()->routeIs('ourteam') ? 'fw-bold text-primary' : '' }}"
                                                     href="{{ route('ourteam') }}">Our Team</a>
+                                            </li>
+                                            <li>
+                                                <a class="d-block py-2 px-3 {{ request()->routeIs('lifeatyuvmedia') ? 'fw-bold text-primary' : '' }}"
+                                                    href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -278,7 +290,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}"
-                                href="https://yuvmedia-india.odoo.com/jobs"><img
+                                href="{{ route('career') }}"><img
                                     src="{{ asset('/assets/websiteAssets/images/menu/career.png') }}" alt="home"
                                     class="me-2">Career</a>
                         </li>
@@ -293,7 +305,7 @@
                 <div class="d-flex justify-content-start flex-md-row flex-column  w-100 ">
                     <div class="m-3 text-center">
                         <a href="{{ route('contact') }}"
-                            class="btn btn-primary btn-lg w-100">Work With Yuvmedia
+                            class="btn btn-primary btn-lg w-100">Book a Free 1-to-1 Meeting
                             <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -337,12 +349,16 @@
                                             href="{{ route('ourteam') }}">Our Team</a>
                                     </li>
                                     <li>
+                                        <a class="{{ request()->routeIs('lifeatyuvmedia') ? 'active' : '' }}"
+                                            href="{{ route('lifeatyuvmedia') }}">Life @ Yuvmedia</a>
+                                    </li>
+                                    <li>
                                         <a class="{{ request()->routeIs('partners') ? 'active' : '' }}"
                                             href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('career') ? 'active' : '' }}"
-                                            href="https://yuvmedia-india.odoo.com/jobs">Career</a>
+                                            href="{{ route('career') }}">Career</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -490,7 +506,7 @@
                                     <div class="d-flex justify-content-start flex-md-row flex-column staticbtn w-100 ">
                                         <div class="m-3 text-center">
                                             <a href="{{ route('contact') }}"
-                                                class="btn btn-primary btn-lg w-100">Work With Yuvmedia
+                                                class="btn btn-primary btn-lg w-100">Book a Free 1-to-1 Meeting
                                                 <i class="bi bi-arrow-right"></i></a>
                                         </div>
                                     </div>

@@ -1,93 +1,45 @@
 <?php
-#{{-----------------------------------------------------🙏अंतः अस्ति प्रारंभः🙏-----------------------------}}
+
 namespace App\Http\Controllers;
-use App\Models\GroupType;
-use App\Models\PricingDetail;
-use App\Models\PurchaseService;
-use App\Models\ReferIncome;
-use App\Models\RegisterUser;
-use App\Models\FormAttribute;
-use Exception;
-use App\Models\SubMaster;
-use App\Models\Master;
+
+use App\Models\Blog;
+use App\Models\Client;
+use App\Models\InvestSetting;
+use App\Models\Lead;
+use App\Models\Nortification;
+use App\Models\Project;
+use App\Models\PropertyListing;
+use App\Models\RegisterCompany;
+use App\Models\Notification;
 use Illuminate\Http\Request;
+use App\Models\Master;
+use Exception;
+use Illuminate\Support\Facades\Log;
+use Auth;
+use Illuminate\Support\Facades\Hash;
 
 class AdminStores extends Controller
 {
-    public function storemaster(Request $req)
-    {
-        try {
-            $masterdata = $req->validate([
-                'label' => 'required',
-                'value' => 'required',
-            ]);
-            Master::create($masterdata);
-            return back()->with('success', 'Master Added..!!!!');
 
-        } catch (Exception $e) {
-            return redirect()->route('master')->with('error', $e->getMessage());
-            //return redirect()->route('master')->with('error', 'Not Added Try Again...!!!!');
-        }
-    }
-
-    public function storesubmaster(Request $req)
+    public function createmaster(Request $rq)
     {
+        // dd($rq->all());
+        $filename = "";
         try {
-            $submasterdata = $req->validate([
-                'label' => 'required',
-                'value' => 'required',
-                'type' => 'required',
-            ]);
-            if ($req->hasFile('iconimage')) {
-                $req->validate([
-                    'iconimage' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            if ($rq->hasFile('categoryimage')) {
+                $rq->validate([
+                    'categoryimage' => 'image|mimes:jpeg,png,jpg',
                 ]);
-                $file = $req->file('iconimage');
+                $file = $rq->file('categoryimage');
                 $filename = time() . '_' . $file->getClientOriginalName();
-                $file->move(public_path('assets/images/Services'), $filename);
-                $submasterdata['iconimage'] = $filename;
+                $file->move(public_path('assets/images/Categories'), $filename);
             }
-            // dd($submasterdata);
-            Master::create($submasterdata);
-            return back()->with('success', 'Sub-Master Added..!!!!');
-
-        } catch (Exception $e) {
-            return redirect()->route('submaster')->with('error', $e->getMessage());
-            //return redirect()->route('submaster')->with('error', 'Not Added Try Again...!!!!');
-        }
-    }
-
-    public function getsubmasterajax($selectedCat)
-    {
-        $data = Master::where('type', '=', $selectedCat)->get();
-        return response()->json($data);
-
-    }
-
-    public function updatesubmaster(Request $request)
-    {
-
-        try {
-            $carlist = Master::find($request->submasterid);
-
-            // Initialize $filename with the current image or set to null
-            $filename = $carlist->iconimage;
-            if ($request->hasFile('iconimage')) {
-                // dd($request->all());
-                $request->validate([
-                    'iconimage' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-                ]);
-                $file = $request->file('iconimage');
-                $filename = time() . '_' . $file->getClientOriginalName();
-                $file->move(public_path('assets/images/Services'), $filename);
-            }
-            $carlist->update([
-                'label' => $request->label,
-                'type' => $request->type,
-                'value' => $request->value,
-                'iconimage' => $filename,
+            $attributes = Master::create([
+                'type' => $rq->type == 'Master' ? 'Master' : $rq->type,
+                'label' => $rq->label,
+                'categoryimage' => $filename,
             ]);
-            return back()->with('success', "Updated..!!!");
+            return back()->with('success', "Category Added..!!!");
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
             //return back()->with('error', 'Not Updated..Try Again.....');
@@ -96,162 +48,230 @@ class AdminStores extends Controller
 
     public function deletemaster($id)
     {
-        // dd($id);
-        $data = Master::find($id);
-        if (!$data) {
-            return redirect()->back()->with('error', "Data not found.");
-        }
-        $data->delete();
-        return redirect()->back()->with('success', "Deleted.!!!");
-    }
-
-    public function updatemaster(Request $request)
-    {
         try {
-            $carlist = Master::where('id', $request->masterid)->update([
-                'label' => $request->label,
-                'value' => $request->value,
-            ]);
-            return back()->with('success', "Updated..!!!");
+            $data = Master::find($id);
+            $data->delete();
+            return back()->with('success', "Category Deleted..!!!");
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
-            //return back()->with('error', 'Not Updated..Try Again.....');
         }
     }
 
-    public function filterservice($selectedtype)
-    {
-        $master = Master::where('type', $selectedtype)->get();
-        return response()->json(['master' => $master]);
-    }
-
-    public function insertform(Request $rq)
+    public function updatemaster(Request $rq)
     {
         try {
-            $data = $rq->validate([
-                'servicetype' => 'required',
-                'servicename' => 'required',
-                'value' => 'required',
-                'inputtype' => 'required',
-            ]);
-
-            FormAttribute::create([
-                'type' => $rq->servicetype,
-                'servicename' => $rq->servicename,
-                'masterserviceid' => $rq->masterserviceid,
-                'value' => $rq->value,
-                'inputtype' => $rq->inputtype,
-            ]);
-            return back()->with('success', 'Form Attributes Created..!!!!');
-
-        } catch (Exception $e) {
-            return redirect()->route('createform')->with('error', $e->getMessage());
-            //return redirect()->route('createform')->with('error', 'Not Added Try Again...!!!!');
-        }
-    }
-
-    public function getattributes($servicetype, $servicename)
-    {
-        $data = FormAttribute::whereRaw('type = ? AND servicename = ?', [$servicetype, $servicename])->get();
-        return response()->json(['data' => $data]);
-    }
-
-    public function deleteattribute($id)
-    {
-        $data = FormAttribute::find($id);
-        $data->delete();
-        return back()->with('success', "Deleted....!!!");
-    }
-
-    public function updateattributes(Request $request)
-    {
-        // dd($request->all());
-        try {
-            $attributes = FormAttribute::where('id', $request->attributeid)->update([
-                'value' => $request->value,
-                'servicename' => $request->servicename,
-                'inputtype' => $request->inputtype,
-            ]);
-            return back()->with('success', "Updated..!!!");
-        } catch (Exception $e) {
-            return back()->with('error', $e->getMessage());
-            //return back()->with('error', 'Not Updated..Try Again.....');
-        }
-    }
-
-    public function insertpricingform(Request $rq){
-        // dd($rq->all());
-        try {
-            $data = $rq->validate([
-                'serviceid' => 'required',
-                'price' => 'required',
-                'disprice' => 'required',
-                'duration' => 'required',
-                'documents' => 'required',
-            ]);
-            if ($rq->hasFile('coverimage')) {
+            if ($rq->hasFile('categoryimage')) {
                 $rq->validate([
-                    'coverimage' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                    'categoryimage' => 'image|mimes:jpeg,png,jpg',
                 ]);
-                $file = $rq->file('coverimage');
+                $file = $rq->file('categoryimage');
                 $filename = time() . '_' . $file->getClientOriginalName();
-                $file->move(public_path('assets/images/Services'), $filename);
+                $file->move(public_path('assets/images/Categories'), $filename);
             }
-            $data = PricingDetail::create([
-                'servicetype' => $rq->servicetype,
-                'serviceid' => $rq->serviceid,
-                'price' => $rq->price,
-                'disprice' => $rq->disprice,
-                'duration' => $rq->duration,
-                'documents' => json_encode($rq->documents),
-                'coverimage' => $filename,
-                'notereq' => $rq->notereq,
-                'details' => $rq->details,
+            $data = Master::find($rq->masterid);
+            $data->type = $rq->type;
+            $data->label = $rq->label;
+            $data->categoryimage = $filename ?? $data->categoryimage;
+            $data->save();
+            return back()->with('success', "Category Updated..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+
+    public function addcompanydetails(Request $request)
+    {
+        try {
+            if ($request->hasFile('companylogo')) {
+                $request->validate([
+                    'companylogo' => 'image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $companylogo = $request->file('companylogo');
+                $filenamecompanylogo = time() . '_' . $companylogo->getClientOriginalName();
+                $companylogo->move(public_path('assets/images/Services'), $filenamecompanylogo);
+            }
+
+            if ($request->hasFile('registrationimage')) {
+                $request->validate([
+                    'registrationimage' => 'image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $registrationimage = $request->file('registrationimage');
+                $filenameregistrationimage = time() . '_' . $registrationimage->getClientOriginalName();
+                $registrationimage->move(public_path('assets/images/Services'), $filenameregistrationimage);
+            }
+            if ($request->hasFile('pancardimage')) {
+                $request->validate([
+                    'pancardimage' => 'required|image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $pancardimage = $request->file('pancardimage');
+                $filenamepancardimage = time() . '_' . $pancardimage->getClientOriginalName();
+                $pancardimage->move(public_path('assets/images/Services'), $filenamepancardimage);
+            }
+            $data = RegisterCompany::create([
+                'companyname' => $request->companyname,
+                'companylogo' => $filenamecompanylogo,
+                'city' => $request->city,
+                'state' => $request->state,
+                'country' => $request->country,
+                'pincode' => $request->pincode,
+                'contactnumber' => $request->contactnumber,
+                'email' => $request->email,
+                'officeaddress' => $request->officeaddress,
+                'registrationimage' => $filenameregistrationimage,
+                'pancardimage' => $filenamepancardimage,
             ]);
             //dd($data);
-            return back()->with('success', 'Pricing Added..!!!!');
-
+            return back()->with('success', "Company Registered..!!!");
         } catch (Exception $e) {
-            return redirect()->route('pricingdetails')->with('error', $e->getMessage());
-            //return redirect()->route('pricingdetails')->with('error', 'Not Added Try Again...!!!!');
+            return back()->with('error', $e->getMessage());
+            //return back()->with('error', 'Not Updated..Try Again.....');
         }
     }
 
-    public function deletepricing($id)
+    public function updateregistercompany(Request $request)
     {
-        // dd($id);
-        $data = PricingDetail::find($id);
-        if (!$data) {
-            return redirect()->back()->with('error', "Data not found.");
+        // DD( $request->companylogo);
+        try {
+            if ($request->hasFile('companylogo')) {
+                $request->validate([
+                    'companylogo' => 'required|image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $companylogo = $request->file('companylogo');
+                $filenamecompanylogo = time() . '_' . $companylogo->getClientOriginalName();
+                $companylogo->move(public_path('assets/images/Services'), $filenamecompanylogo);
+            }
+
+            if ($request->hasFile('registrationimage')) {
+                $request->validate([
+                    'registrationimage' => 'required|image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $registrationimage = $request->file('registrationimage');
+                $filenameregistrationimage = time() . '_' . $registrationimage->getClientOriginalName();
+                $registrationimage->move(public_path('assets/images/Services'), $filenameregistrationimage);
+            }
+            if ($request->hasFile('pancardimage')) {
+                $request->validate([
+                    'pancardimage' => 'required|image|mimes:jpeg,png,jpg,svg,webp|max:2048',
+                ]);
+                $pancardimage = $request->file('pancardimage');
+                $filenamepancardimage = time() . '_' . $pancardimage->getClientOriginalName();
+                $pancardimage->move(public_path('assets/images/Services'), $filenamepancardimage);
+            }
+            $data = RegisterCompany::where('id', $request->recordid)->update([
+                'companyname' => $request->companyname,
+                'companylogo' => $filenamecompanylogo ?? RegisterCompany::find($request->recordid)->companylogo,
+                'city' => $request->city,
+                'state' => $request->state,
+                'country' => $request->country,
+                'pincode' => $request->pincode,
+                'contactnumber' => $request->contactnumber,
+                'email' => $request->email,
+                'officeaddress' => $request->officeaddress,
+                'registrationimage' => $filenameregistrationimage ?? RegisterCompany::find($request->recordid)->registrationimage,
+                'pancardimage' => $filenamepancardimage ?? RegisterCompany::find($request->recordid)->pancardimage,
+            ]);
+
+            //dd($data);
+
+            return back()->with('success', "Details Updated..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+            //return back()->with('error', 'Not Updated..Try Again.....');
         }
-        $data->delete();
-        return redirect()->back()->with('success', "Deleted.!!!");
     }
 
-    public function updatepricingdetails(Request $rq)
+    public function updatemyprofile(Request $request)
     {
         // dd($request->all());
         try {
-            $pricingdata = PricingDetail::find($rq->pricingid);
-            $filename = $pricingdata->coverimage;
-            if ($rq->hasFile('coverimage')) {
-                $rq->validate([
-                    'coverimage' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            $user = auth()->user();
+            $filenameprofileimage = "";
+            if ($request->hasFile('myprofileimage')) {
+                $request->validate([
+                    'myprofileimage' => 'image|mimes:jpeg,png,jpg,svg,webp|max:2048',
                 ]);
-                $file = $rq->file('coverimage');
-                $filename = time() . '_' . $file->getClientOriginalName();
-                $file->move(public_path('assets/images/Services'), $filename);
+                $profileimage = $request->file('myprofileimage');
+                $filenameprofileimage = time() . '_' . $profileimage->getClientOriginalName();
+                $profileimage->move(public_path('assets/images/'), $filenameprofileimage);
             }
-            $attributes = PricingDetail::where('id', $rq->pricingid)->update([
-                'servicetype' => $rq->servicetype,
-                'serviceid' => $rq->serviceid,
-                'price' => $rq->price,
-                'disprice' => $rq->disprice,
-                'duration' => $rq->duration,
-                'documents' => json_encode($rq->documents),
-                'coverimage' => $filename,
-                'notereq' => $rq->notereq,
-                'details' => $rq->details,
+
+            if (Hash::check($request->oldpassword, $user->password)) {
+                // Update user's password
+                $udpatedpassword = $user->password = Hash::make($request->newpassword);
+            }
+
+            $user->update([
+                'name' => $request->name,
+                'email' => $request->email,
+                'profile_photo_path' => $filenameprofileimage == null ? $user->profile_photo_path : $filenameprofileimage,
+                'website_link' => $request->websitelink,
+                'fulladdress' => $request->fulladdress,
+                'password' => $udpatedpassword ?? $user->password,
+            ]);
+
+            return back()->with('success', "Profile Updated..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+    public function insertclients(Request $rq)
+    {
+        try {
+            if ($rq->hasFile('logo')) {
+                $rq->validate([
+                    'logo' => 'image|mimes:jpeg,png,jpg',
+                ]);
+                $file = $rq->file('logo');
+                $image = getimagesize($file);
+                // dd( $image);
+                if ($image[0] != 520 || $image[1] != 520) {
+                    return back()->with('error', 'Image dimensions must be 520x520 pixels.');
+                }
+                $filename = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Clients'), $filename);
+            }
+            $attributes = Client::create([
+                'category' => $rq->category,
+                'clientname' => $rq->clientname,
+                'logo' => $filename
+            ]);
+            return back()->with('success', "Client Added..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+            //return back()->with('error', 'Not Updated..Try Again.....');
+        }
+    }
+    public function deleteclient($id)
+    {
+        try {
+            $data = Client::find($id);
+            $data->delete();
+            return back()->with('success', "Client Deleted..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+    public function updateclient(Request $rq)
+    {
+        try {
+            if ($rq->hasFile('logo')) {
+                $rq->validate([
+                    'logo' => 'image|mimes:jpeg,png,jpg',
+                ]);
+                $file = $rq->file('logo');
+                $image = getimagesize($file);
+                // dd( $image);
+                if ($image[0] != 520 || $image[1] != 520) {
+                    return back()->with('error', 'Image dimensions must be 520x520 pixels.');
+                }
+                $filename = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Clients'), $filename);
+            }
+            $data = Client::find($rq->clientid);
+            $attributes = Client::where('id', $rq->clientid)->update([
+                'category' => $rq->category,
+                'clientname' => $rq->clientname,
+                'logo' => $filename ?? $data->logo
             ]);
             return back()->with('success', "Updated..!!!");
         } catch (Exception $e) {
@@ -259,60 +279,81 @@ class AdminStores extends Controller
             //return back()->with('error', 'Not Updated..Try Again.....');
         }
     }
-
-    public function filtertype($selectedtype)
+    public function submitblog(Request $request)
     {
-        $masterdata = Master::where('type', $selectedtype)->get();
-        // dd($statedata);
-        return response()->json($masterdata);
-    }
+        $categories = json_decode($request->input('categories'), true);
+        // dd($categories);
+        $description = $request->input('blogdescription');
+        $files = $request->file('blogthumbnail');
+        $blogname = $request->input('blogname');
 
-    public function deleteuser($id)
-    {
-        $data = RegisterUser::find($id);
-        $data->delete();
-        return back()->with('success', "Deleted....!!!");
-    }
-
-    public function deleteorder($id)
-    {
-        $data = PurchaseService::find($id);
-        $data->delete();
-        return back()->with('success', "Deleted....!!!");
-    }
-
-    public function updateorderstatus(Request $req)
-    {
-        $orderstauts = PurchaseService::where('id',$req->record_id)->first();
-        if ($orderstauts) {
-            $orderstauts->status = $req->status;
-            $orderstauts->save();
-            return response()->json(['success' => true]);
-        }
-        return response()->json(['success' => false], 404);
-    }
-
-    public function insertincomelevel(Request $rq){
         try {
+            $thumbnailFilename = null;
+            if ($request->hasFile('blogthumbnail')) {
+                $request->validate([
+                    'blogthumbnail' => 'required|mimes:jpeg,png,jpg',
+                ]);
 
-            $data = ReferIncome::create([
-                'incomename' => $rq->incomename,
-                'criteria' => $rq->criteria,
-                'amount' => $rq->amount,
-                'lessthangreater' => $rq->lessthangreater,
+                $file = $request->file('blogthumbnail');
+                $thumbnailFilename = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Blogs'), $thumbnailFilename);
+            }
+            // Create the property listing
+            $data = Blog::create([
+                'blogname' => $blogname,
+                'blogcategories' => json_encode($categories),
+                'blogthumbnail' => $thumbnailFilename,
+                'blogdescription' => $description,
             ]);
-            return back()->with('success', 'Income Added..!!!!');
+            return response()->json(['data' => $data, 'message' => 'Listing inserted successfully!']);
 
         } catch (Exception $e) {
-            return redirect()->route('referincomelevel')->with('error', $e->getMessage());
-            //return redirect()->route('referincomelevel')->with('error', 'Not Added Try Again...!!!!');
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
         }
     }
 
-    public function deleteincome($id)
+    public function updateblog(Request $request)
     {
-        $data = ReferIncome::find($id);
-        $data->delete();
-        return back()->with('success', "Deleted....!!!");
+        $categories = json_decode($request->input('categories'), true);
+        // dd($categories);
+        $description = $request->input('blogdescription');
+        $files = $request->file('blogthumbnail');
+        $blogname = $request->input('blogname');
+
+        try {
+            $thumbnailFilename = null;
+            if ($request->hasFile('blogthumbnail')) {
+                $request->validate([
+                    'blogthumbnail' => 'required|mimes:jpeg,png,jpg',
+                ]);
+
+                $file = $request->file('blogthumbnail');
+                $thumbnailFilename = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Blogs'), $thumbnailFilename);
+            }
+            $olddata = Blog::find($request->blogid);
+            // Create the property listing
+            $data = Blog::where('id', $request->blogid)->update([
+                'blogname' => $blogname,
+                'blogcategories' => json_encode($categories),
+                'blogthumbnail' => $thumbnailFilename ?? $olddata->blogthumbnail,
+                'blogdescription' => $description,
+            ]);
+            return response()->json(['data' => $data, 'message' => 'Blog Updated.....!']);
+
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
+        }
+    }
+
+    public function deleteblog($id)
+    {
+        try {
+            $data = Blog::find($id);
+            $data->delete();
+            return back()->with('success', "Deleted..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
     }
 }

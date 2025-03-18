@@ -101,7 +101,7 @@
                 <div class="d-flex justify-content-center">
                     <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
                         @csrf
-                        <div class="">
+                        <div class="formcustomcard">
                             <div class="card-body">
                                 <div class="row gy-4">
                                     <div class="col-xxl-6 col-md-6">

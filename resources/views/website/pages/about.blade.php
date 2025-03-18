@@ -25,7 +25,7 @@
                 </div>
                 <div class="d-flex justify-content-center flex-wrap buttonsdiv">
                     <div class="me-3">
-                        <a href="#" class="btn btn-primary btn-lg">Contact Us<i
+                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting<i
                                 class="bi bi-arrow-right ms-3"></i></a>
                     </div>
                 </div>
@@ -96,13 +96,13 @@
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-outline-primary btn-lg">Contact Us<i
+                            <a href="{{ route('contact') }}" class="btn btn-outline-primary btn-lg">Book a Free 1-to-1 Meeting<i
                                     class="bi bi-arrow-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
                 {{-- <div class="col-md-6 col-12"> --}}
-                    {{-- <div class="row h-100 imagesonmob">
+                {{-- <div class="row h-100 imagesonmob">
                         <div class="col-5 h-100 px-0 mt-1 mt-lg-0">
                             <div class="h-50  pb-2">
                                 <img class="aboutiamgesecthree"
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                     </div> --}}
-                    {{-- <div class="video-container mt-3">
+                {{-- <div class="video-container mt-3">
                         <iframe class="rounded-3" src="https://www.youtube.com/embed/qcYip_RMzfI?si=g5P_vthvgF97op0z" 
                             title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -136,7 +136,7 @@
                         </iframe>
                     </div> --}}
 
-                    {{-- <div class="mt-3">
+                {{-- <div class="mt-3">
                         <div class="row text-cente row gy-4 gx-4 justify-content-centerr">
                             <div class="col-md-4">
                                 <div class="counter-box p-4 rounded-3 shadow-sm bg-white h-100">
@@ -184,21 +184,23 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">Y</p>
                                     <p class="fw-bold">Youthful</p>
-                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences in the digital world.</p>
+                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences
+                                        in the digital world.</p>
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">U</p>
                                     <p class="fw-bold">Unique</p>
-                                    <p class="card-text text-wrap">Suggesting innovative and unique marketing strategies.</p>
+                                    <p class="card-text text-wrap">Suggesting innovative and unique marketing strategies.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
@@ -208,7 +210,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
@@ -218,48 +220,52 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">E</p>
                                     <p class="fw-bold">Engaging</p>
-                                    <p class="card-text text-wrap">Engaging audiences through immersive digital experiences.</p>
+                                    <p class="card-text text-wrap">Engaging audiences through immersive digital experiences.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">D</p>
                                     <p class="fw-bold">Dynamic</p>
-                                    <p class="card-text text-wrap">Dynamically adapting to the ever-changing digital environment.</p>
+                                    <p class="card-text text-wrap">Dynamically adapting to the ever-changing digital
+                                        environment.</p>
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">I</p>
                                     <p class="fw-bold">Innovative</p>
-                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences in the digital world.</p>
+                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences
+                                        in the digital world.</p>
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="aplhacard">
                             <div class="aboutcards">
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">A</p>
                                     <p class="fw-bold">Ambitious</p>
-                                    <p class="card-text text-wrap">Ambitiously driving digital growth and exceeding expectations.</p>
+                                    <p class="card-text text-wrap">Ambitiously driving digital growth and exceeding
+                                        expectations.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -363,7 +369,7 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="#" class="btn btn-primary btn-lg">Contact Us<i
+                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting<i
                                     class="bi bi-arrow-right  ms-2"></i></a>
                         </div>
                     </div>
@@ -743,15 +749,20 @@
 
                     </div>
                 </div>
-                <div class=" text-start fs-3 fw-bold">
-                    Your Success is Just One Click Away.
+            </div>
+        </div>
+        <div class="container-fluid bg-black p-0">
+            <div class="container p-3">
+                <div class=" text-start fs-3 fw-bold d-flex justify-content-between flex-wrap align-items-center">
+                    <div class="text-white">
+                        Your Success is Just One Click Away.
+                    </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href="#" class="btn btn-primary btn-lg">Contact Us
+                        <div class="me-3 mt-2">
+                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting
                                 <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

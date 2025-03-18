@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="clientSection">
         <div class="container pt-5" style="position: relative;">
 
             <div class="row g-3 justify-content-start align-items-center mt-3" id="real-estate-container">

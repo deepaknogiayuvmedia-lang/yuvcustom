@@ -9,8 +9,7 @@ class Master extends Model
 {
     protected $fillable = [
         'label',
-        'value',
         'type',
-        'iconimage',
+        'categoryimage',
     ];
 }

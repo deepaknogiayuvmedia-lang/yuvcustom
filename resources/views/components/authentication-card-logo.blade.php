@@ -1,4 +1,3 @@
 <div>
-    <img src="{{asset('assets/images/dbalogo.png')}}" class="rounded-50" alt="" height="250px" width="250px">
+    <img src="{{asset('assets/images/favicon.ico')}}" class="rounded-full" alt="" height="100px" width="100px">
 </div>
-

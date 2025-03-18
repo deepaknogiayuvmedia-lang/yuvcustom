@@ -4,6 +4,7 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/pail
 /vendor
 .env
 .env.backup
@@ -17,11 +18,7 @@ npm-debug.log
 yarn-error.log
 /.fleet
 /.idea
+/.nova
 /.vscode
-/*.zip
-public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-01.mp4
-public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-02.mp4
-public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-04.mp4
-public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-03.mp4
-public/assets/websiteAssets/images/work/2d/2d_character_animation/2D Character Animation-05.mp4
-public/assets/websiteAssets/images/work/2d/2d_character_animation/ShaliniAndMalini.mp4
+/.zed
+*.zip

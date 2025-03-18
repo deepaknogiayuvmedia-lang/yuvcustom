@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
+use Laravel\Fortify\Actions\ConfirmPassword;
 
 class WebsiteViews extends Controller
 {
@@ -98,5 +100,18 @@ class WebsiteViews extends Controller
     public function clients()
     {
         return view('website.pages.clients');
+    }
+    public function lifeatyuvmedia()
+    {
+        return view('website.pages.lifeatyuvmedia');
+    }
+    public function career()
+    {
+        return view('website.pages.career');
+    }
+    public function blogs()
+    {
+        $blogs = Blog::orderBy('created_at','DESC')->get();
+        return view('website.pages.blogs',compact('blogs'));
     }
 }

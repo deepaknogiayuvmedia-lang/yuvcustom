@@ -1,21 +1,26 @@
 <?php
-#{{---------------------------------------------------🙏अंतः अस्ति प्रारंभः🙏---------------------------}}
+
 namespace App\Models;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Laravel\Sanctum\HasApiTokens;
+use Laravel\Sanctum\HasApiTokens; 
 class RegisterUser extends Authenticatable
 {
-    use Notifiable;
+    use HasApiTokens, HasFactory, Notifiable;
     protected $table = 'register_users';
+
     protected $fillable = [
-        'mobilenumber',
+        'name',
+        'mobile',
         'email',
-        'otp',
-        'username',
-        'refercode',
-        'parentreferid',
+        'password',
+        'sponserid',
+        'verification_status',
+        'company_name',
+        'company_document',
+        'profile_photo_path',
     ];
 }
