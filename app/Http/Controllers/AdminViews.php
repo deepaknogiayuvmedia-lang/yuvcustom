@@ -11,6 +11,7 @@ use App\Models\Project;
 use App\Models\PropertyListing;
 use App\Models\RegisterCompany;
 use App\Models\RegisterUser;
+use App\Models\CaseStudy;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Auth;
@@ -69,5 +70,24 @@ class AdminViews extends Controller
         $blogs = Blog::orderBy('created_at', 'DESC')->get();
         $blogcount = Blog::count();
         return view('AdminPanelPages.bloglists', compact('blogs', 'blogcount'));
+    }
+    public function addcasestudy()
+    {
+        $categories = Master::where('type', 'Industry')->get();
+        return view('AdminPanelPages.addcasestudy', compact('categories'));
+    }
+    public function casestudylists()
+    {
+        $cases = CaseStudy::orderBy('created_at', 'DESC')->get(); 
+        $casecnt = CaseStudy::count();
+        return view('AdminPanelPages.casestudies', compact('cases', 'casecnt'));
+    }
+    public function editcasestudy($id)
+    {
+        // dd($id);
+        $cases = CaseStudy::find($id);
+        $casetitle =  $cases->title;
+        $categories = Master::where('type', 'Industry')->get();
+        return view('AdminPanelPages.editcasestudy', compact('cases', 'categories','casetitle'));
     }
 }

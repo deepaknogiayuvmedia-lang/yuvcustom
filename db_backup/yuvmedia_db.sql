@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 18, 2025 at 06:41 AM
+-- Generation Time: Mar 18, 2025 at 01:01 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,8 +65,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:5;', 1742274166),
-('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1742274166;', 1742274166);
+('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:2;', 1742294513),
+('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1742294513;', 1742294513);
 
 -- --------------------------------------------------------
 
@@ -79,6 +79,29 @@ CREATE TABLE `cache_locks` (
   `owner` varchar(255) NOT NULL,
   `expiration` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `case_studies`
+--
+
+CREATE TABLE `case_studies` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `category` varchar(255) DEFAULT NULL,
+  `caseimage` varchar(255) DEFAULT NULL,
+  `casecontent` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `case_studies`
+--
+
+INSERT INTO `case_studies` (`id`, `title`, `category`, `caseimage`, `casecontent`, `created_at`, `updated_at`) VALUES
+(4, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Digital Marketing', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27');
 
 -- --------------------------------------------------------
 
@@ -176,7 +199,16 @@ CREATE TABLE `masters` (
 INSERT INTO `masters` (`id`, `label`, `type`, `categoryimage`, `created_at`, `updated_at`) VALUES
 (52, 'Services', 'Master', '', '2025-03-13 00:47:46', '2025-03-13 00:47:46'),
 (53, 'Social Media Marketing', 'Services', '1741846777_1692439015.png', '2025-03-13 00:49:37', '2025-03-13 00:49:37'),
-(54, 'Industry', 'Master', '', '2025-03-13 00:52:07', '2025-03-13 00:52:07');
+(55, 'Industry', 'Master', '', '2025-03-18 01:15:32', '2025-03-18 01:15:32'),
+(56, 'Stock Trading', 'Industry', '', '2025-03-18 01:17:25', '2025-03-18 01:17:25'),
+(57, 'Sports', 'Industry', '', '2025-03-18 01:17:31', '2025-03-18 01:17:31'),
+(58, 'Entertainment', 'Industry', '', '2025-03-18 01:17:44', '2025-03-18 01:17:44'),
+(59, 'Food & Beverages', 'Industry', '', '2025-03-18 01:17:54', '2025-03-18 01:17:54'),
+(60, 'Health & Care', 'Industry', '', '2025-03-18 01:18:01', '2025-03-18 01:18:01'),
+(61, 'Building Material', 'Industry', '', '2025-03-18 01:18:07', '2025-03-18 01:18:07'),
+(62, 'Education', 'Industry', '', '2025-03-18 01:18:15', '2025-03-18 01:18:15'),
+(63, 'Construction', 'Industry', '', '2025-03-18 01:18:21', '2025-03-18 01:18:21'),
+(64, 'Digital Marketing', 'Industry', '', '2025-03-18 01:19:38', '2025-03-18 01:19:38');
 
 -- --------------------------------------------------------
 
@@ -273,7 +305,7 @@ CREATE TABLE `register_companies` (
 --
 
 INSERT INTO `register_companies` (`id`, `companyname`, `companylogo`, `city`, `state`, `country`, `pincode`, `contactnumber`, `email`, `officeaddress`, `registrationimage`, `pancardimage`, `created_at`, `updated_at`) VALUES
-(2, 'True Omega', '1741848656_1741783080_Favicon-yuvin.png', 'Ajmer', 'Rajasthan', 'India', '305001', '0000000000', 'true@gmail.com', 'Demo Address', '1736320860_music.png', '1736320860_music.png', '2025-01-08 01:51:00', '2025-03-13 01:20:56');
+(2, 'YUVMEDIA', '1741848656_1741783080_Favicon-yuvin.png', 'Ajmer', 'Rajasthan', 'India', '305001', '0000000000', 'yuvmedia@gmail.com', 'Demo Address', '1736320860_music.png', '1736320860_music.png', '2025-01-08 01:51:00', '2025-03-18 00:31:04');
 
 -- --------------------------------------------------------
 
@@ -324,8 +356,9 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('70SlQXpffmKcsbNJM4Hjv0qq2H6S95PTL9iponxa', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiOUZKcW1wdFJwMjBRcU4waGkzWmZPQ0tWcFVYQVl3SjNZSGpHc0wxayI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzU6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9hZGRibG9nIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMiQ5NGJoVklyZXVEQ3pGbzFYcFptazNlVm5HN3c4TVZUeng4ajV4eVQydkgvMUpuLmZnTzJ2UyI7fQ==', 1742276164),
-('J3N9EEtztm9iijCUuFNk5xJ3t92ikAjM5k5PWRvm', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiQ1k2OGROTzI2VE8zSmc4UEZmYUZGR3Z3R2d5OWI4NENxSnJzd1M2dCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ibG9ncyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkdVZBZnZUSVZGeHZVR2w3c1FCVDVYZVhObnlVdEVWa0ZzNzhNOHp2cUhGYUpGbDhHek91dGEiO30=', 1741859775);
+('3J2rhMXAlDnOZnoZqQUOHsg0yyWVP9cua4w6qWYV', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiUHd0OVJQeDRKb1ZKd3pidGQyWWE3cE0xcU54RUNIMklJM3B5dlk1TiI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozNzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL2Rhc2hib2FyZCI7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjI3OiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvbG9naW4iO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1742294435),
+('70SlQXpffmKcsbNJM4Hjv0qq2H6S95PTL9iponxa', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiOUZKcW1wdFJwMjBRcU4waGkzWmZPQ0tWcFVYQVl3SjNZSGpHc0wxayI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1742294454),
+('HZlaCdSyW0H7tDxCw5rTaxqrVFWJoLpmqWlf8zsw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiUHhjQ3I5TnJzbGhaaFdUWUIya1RiaktFZ3FHT0JySXBhRnNGYTZpUCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jYXNlc3R1ZGllcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1742299239);
 
 -- --------------------------------------------------------
 
@@ -382,6 +415,12 @@ ALTER TABLE `cache`
 --
 ALTER TABLE `cache_locks`
   ADD PRIMARY KEY (`key`);
+
+--
+-- Indexes for table `case_studies`
+--
+ALTER TABLE `case_studies`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `clients`
@@ -470,7 +509,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
+-- AUTO_INCREMENT for table `case_studies`
+--
+ALTER TABLE `case_studies`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `clients`
@@ -494,7 +539,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `masters`
 --
 ALTER TABLE `masters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT for table `migrations`

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\CaseStudy;
 use Illuminate\Http\Request;
 use Laravel\Fortify\Actions\ConfirmPassword;
 
@@ -113,5 +114,26 @@ class WebsiteViews extends Controller
     {
         $blogs = Blog::orderBy('created_at','DESC')->get();
         return view('website.pages.blogs',compact('blogs'));
+    }
+    public function blogdetails($id)
+    {
+        $blogdetails = Blog::find($id);
+        $blogs = Blog::orderBy('created_at', 'desc')->get();
+        // dd( $blogdetails);
+        return view('website.pages.blogdetails', compact('blogdetails', 'blogs'));
+
+    }
+    public function casestudies()
+    {
+        $studies = CaseStudy::orderBy('created_at','DESC')->get();
+        return view('website.pages.casestudies',compact('studies'));
+    }
+    public function casedetails($id)
+    {
+        $casedetails = CaseStudy::find($id);
+        // $blogs = Blog::orderBy('created_at', 'desc')->get();
+        // dd( $blogdetails);
+        return view('website.pages.caseStudyDetails', compact('casedetails'));
+
     }
 }

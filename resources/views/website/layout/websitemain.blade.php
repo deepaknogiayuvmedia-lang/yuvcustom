@@ -141,6 +141,10 @@
                                             href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="nav-link {{ request()->routeIs('casestudies') ? 'active' : '' }}"
+                                            href="{{ route('casestudies') }}">Case Studies</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('career') ? 'active' : '' }}"
                                             href="{{ route('career') }}">Career</a>
                                     </li>
@@ -513,7 +517,6 @@
                                 </div>
                             </div>
                             <!--// Single Widget -->
-
                         </div>
                     </div>
                 </div>

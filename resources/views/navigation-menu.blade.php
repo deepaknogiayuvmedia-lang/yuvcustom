@@ -7,7 +7,7 @@
           <div class="brand-logo d-flex align-items-center justify-content-between">
               <a href="{{route('admin.admindashboard')}}" class="text-nowrap text-center fw-bolder fs-6 logo-img">
                   <img src="{{ asset('assets/images/logo.png') }}" class="dark-logo" alt="Logo-Dark" />
-                   {{-- <img src="{{ asset('assets/images/logo.png') }}" class="light-logo" alt="Logo-light" /> --}}
+                  {{-- <img src="{{ asset('assets/images/logo.png') }}" class="light-logo" alt="Logo-light" /> --}}
               </a>
               <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fw-bolder fs-5 d-block d-xl-none">
                   IL
@@ -31,7 +31,7 @@
                   <li class="sidebar-item">
                       <a class="sidebar-link" href="{{route ('admin.allusers')}}" aria-expanded="false">
                           <span>
-                            <i class="ti ti-users"></i>
+                              <i class="ti ti-users"></i>
                           </span>
                           <span class="hide-menu">Registered Users</span>
                       </a>
@@ -39,7 +39,7 @@
                   <li class="sidebar-item">
                       <a class="sidebar-link" href="{{route ('admin.master')}}" aria-expanded="false">
                           <span>
-                            <i class="ti ti-settings"></i>
+                              <i class="ti ti-settings"></i>
                           </span>
                           <span class="hide-menu">Master Settings</span>
                       </a>
@@ -47,20 +47,20 @@
                   <li class="sidebar-item">
                       <a class="sidebar-link" href="{{ route('admin.companyprofile')}}" aria-expanded="false">
                           <span>
-                            <i class="ti ti-circle"></i>
+                              <i class="ti ti-circle"></i>
                           </span>
                           <span class="hide-menu">Company Profile</span>
                       </a>
                   </li>
-                   <li class="sidebar-item">
+                  <li class="sidebar-item">
                       <a class="sidebar-link" href="{{route ('admin.addclients')}}" aria-expanded="false">
                           <span>
-                            <i class="ti ti-users-plus"></i>
+                              <i class="ti ti-users-plus"></i>
                           </span>
                           <span class="hide-menu">Clients</span>
                       </a>
                   </li>
-                   <li class="sidebar-item">
+                  <li class="sidebar-item">
                       <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
                           <span class="d-flex">
                               <i class="ti ti-article"></i>
@@ -74,6 +74,24 @@
                                       <i class="ti ti-circle"></i>
                                   </div>
                                   <span class="hide-menu">All Blogs</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="sidebar-item">
+                      <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
+                          <span class="d-flex">
+                              <i class="ti ti-vocabulary"></i>
+                          </span>
+                          <span class="hide-menu">Case Studies</span>
+                      </a>
+                      <ul aria-expanded="false" class="collapse first-level">
+                          <li class="sidebar-item">
+                              <a href="{{ route('admin.casestudylists')}}" class="sidebar-link">
+                                  <div class="round-16 d-flex align-items-center justify-content-center">
+                                      <i class="ti ti-circle"></i>
+                                  </div>
+                                  <span class="hide-menu">All Case Studies</span>
                               </a>
                           </li>
                       </ul>

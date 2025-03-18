@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\CaseStudy;
 use App\Models\Client;
 use App\Models\InvestSetting;
 use App\Models\Lead;
@@ -354,6 +355,77 @@ class AdminStores extends Controller
             return back()->with('success', "Deleted..!!!");
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
+        }
+    }
+    public function submitstudy(Request $request)
+    {
+    
+        $description = $request->input('studydiscription');
+        $title = $request->input('studytitle');
+        $category = $request->input('categories');
+        try {
+            $casestudyimage = null;
+            if ($request->hasFile('studyimage')) {
+                $request->validate([
+                    'studyimage' => 'required|mimes:jpeg,png,jpg',
+                ]);
+
+                $file = $request->file('studyimage');
+                $casestudyimage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/CaseStudies'), $casestudyimage);
+            }
+            // Create the property listing
+            $data = CaseStudy::create([
+                'title' => $title,
+                'category' => $category,
+                'caseimage' => $casestudyimage,
+                'casecontent' => $description,
+            ]);
+            return response()->json(['data' => $data, 'message' => 'Inserted successfully!']);
+
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
+        }
+    }
+    public function deletecase($id)
+    {
+        try {
+            $data = CaseStudy::find($id);
+            $data->delete();
+            return back()->with('success', "Deleted..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+    public function updatestudy(Request $request)
+    {
+    
+        $description = $request->input('studydiscription');
+        $title = $request->input('studytitle');
+        $category = $request->input('categories');
+        try {
+            $casestudyimage = null;
+            if ($request->hasFile('studyimage')) {
+                $request->validate([
+                    'studyimage' => 'required|mimes:jpeg,png,jpg',
+                ]);
+
+                $file = $request->file('studyimage');
+                $casestudyimage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/CaseStudies'), $casestudyimage);
+            }
+            $olddata = CaseStudy::find($request->caseid);
+            // Create the property listing
+            $data = CaseStudy::where('id',$request->caseid)->update([
+                'title' => $title,
+                'category' => $category,
+                'caseimage' => $casestudyimage ?? $olddata->caseimage,
+                'casecontent' => $description,
+            ]);
+            return response()->json(['data' => $data, 'message' => 'Updated successfully!']);
+
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
         }
     }
 }

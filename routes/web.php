@@ -57,6 +57,12 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/editblog/{id}', [AdminViews::class, 'editblog'])->name('admin.editblog');
     Route::post('/updateblog', [AdminStores::class, 'updateblog'])->name('admin.updateblog');
     Route::get('/deleteblog/{id}', [AdminStores::class, 'deleteblog'])->name('admin.deleteblog');
+    Route::get('/addcasestudy', [AdminViews::class, 'addcasestudy'])->name('admin.addcasestudy');
+    Route::get('/casestudylists', [AdminViews::class, 'casestudylists'])->name('admin.casestudylists');
+    Route::post('/submitstudy', [AdminStores::class, 'submitstudy'])->name('admin.submitstudy');
+    Route::get('/deletecase/{id}', [AdminStores::class, 'deletecase'])->name('admin.deletecase');
+    Route::get('/editcasestudy/{id}', [AdminViews::class, 'editcasestudy'])->name('admin.editcasestudy');
+    Route::post('/updatestudy', [AdminStores::class, 'updatestudy'])->name('admin.updatestudy');
 
 });
 
@@ -110,6 +116,10 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/lifeatyuvmedia', 'lifeatyuvmedia')->name('lifeatyuvmedia');
     Route::get('/career', 'career')->name('career');
     Route::get('/blogs', 'blogs')->name('blogs');
+    Route::get('/blog-details/{id}', 'blogdetails')->name('blogdetails');
+    Route::get('/casestudies', 'casestudies')->name('casestudies');
+    Route::get('/casedetails/{id}', 'casedetails')->name('casedetails');
+    
 
 });
 

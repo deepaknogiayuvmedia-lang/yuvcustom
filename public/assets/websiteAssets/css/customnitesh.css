@@ -1988,3 +1988,6 @@ margin: auto;
     left: 0;
     background: white;
 }
+.blog-img{
+    width: 130px !important;
+}
