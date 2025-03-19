@@ -113,13 +113,14 @@ class WebsiteViews extends Controller
     }
     public function blogs()
     {
-        $blogs = Blog::orderBy('created_at','DESC')->get();
+        $blogs = Blog::orderBy('created_at','DESC')->paginate(12);
         return view('website.pages.blogs',compact('blogs'));
     }
     public function blogdetails($id)
     {
-        $blogdetails = Blog::find($id);
-        $blogs = Blog::orderBy('created_at', 'desc')->get();
+        $finalid = substr(strrchr($id, '-'), 1);
+        $blogdetails = Blog::find($finalid);
+        $blogs = Blog::orderBy('created_at', 'desc')->get();perPage: 
         // dd( $blogdetails);
         return view('website.pages.blogdetails', compact('blogdetails', 'blogs'));
 
@@ -132,7 +133,8 @@ class WebsiteViews extends Controller
     }
     public function casedetails($id)
     {
-        $casedetails = CaseStudy::find($id);
+        $finalid = substr(strrchr($id, '-'), 1);
+        $casedetails = CaseStudy::find($finalid);
         // dd( $blogdetails);
         return view('website.pages.caseStudyDetails', compact('casedetails'));
 
