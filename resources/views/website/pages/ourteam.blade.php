@@ -199,6 +199,32 @@
                         </div>
                     </div>
                 </div>
+                {{-- Abhishek --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3"
+                            style="
+                        background: white;
+                    ">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/abhishek.jpg') }}"
+                                    alt="client"
+                                    style="
+                                    height: 245px;
+                                ">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Abhishek Singh Rathore</div>
+                                        <div class="fs-6 ">Business Strategy Analyst</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {{-- Project managers --}}
@@ -303,7 +329,7 @@
                 </div>
 
                 {{-- Arti --}}
-                <div class="col-md-3 mb-4">
+                {{-- <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3">
                             <div class=" ">
@@ -320,7 +346,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Chhavi --}}
                 <div class="col-md-3 mb-4">
@@ -342,34 +368,8 @@
                     </div>
                 </div>
 
-                {{-- Abhishek --}}
-                <div class="col-md-3 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3"
-                            style="
-                        background: white;
-                    ">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/Abhishek-wh-300x300.jpg') }}"
-                                    alt="client"
-                                    style="
-                                    height: 245px;
-                                ">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Abhishek Singh Rathore</div>
-                                        <div class="fs-6 ">Business Development Consultant</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {{-- Pranjal Vaishnav --}}
-                <div class="col-md-3 mb-4">
+                {{-- <div class="col-md-3 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
                             style="
@@ -393,7 +393,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Gaurav Agarwal --}}
                 <div class="col-md-3 mb-4">
@@ -578,9 +578,9 @@
             </div>
 
             {{-- Marketing team --}}
-            <div class="row justify-content-start">
+           <div class="row justify-content-start">
                 <div class=" text-start fs-3 fw-bold pt-5">
-                    Paid Marketing Team
+                   Performance Marketing Team
                     <hr class="border-primary border-2 w-50">
 
                 </div>
@@ -623,7 +623,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Ms. Ayushi Sharma</div>
-                                        <div class="fs-6 ">Digital Marketing Executive</div>
+                                        <div class="fs-6 ">Performance Marketer</div>
                                     </div>
                                 </div>
                             </div>
@@ -646,12 +646,34 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Ms. Mehzabi Sheikh</div>
-                                        <div class="fs-6 ">Digital Marketing Executive</div>
+                                        <div class="fs-6 ">Performance Marketer</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+                 {{-- Devendra --}}
+                <div class="col-md-3 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3"
+                            style="height: 245px;
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Devendra.jpg') }}"
+                                    alt="client" style="height: 245px;">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Devendra Shobhawat</div>
+                                        <div class="fs-6 ">Wordpress Developer & SEO</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
