@@ -60,6 +60,14 @@
                           <span class="hide-menu">Clients</span>
                       </a>
                   </li>
+                   <li class="sidebar-item">
+                      <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
+                          <span>
+                              <i class="ti ti-users"></i>
+                          </span>
+                          <span class="hide-menu">Registered Influncers</span>
+                      </a>
+                  </li>
                   <li class="sidebar-item">
                       <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
                           <span class="d-flex">

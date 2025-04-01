@@ -54,7 +54,7 @@
                                         </div>
                                         <div class="hstack gap-6">
                                             <i class="ti ti-device-desktop text-dark fs-6"></i>
-                                            <h6 class=" mb-0">{{$userdata->website_link}}</h6>
+                                            <h6 class=" mb-0"><a target="_blank" href="{{$userdata->website_link}}">{{$userdata->website_link}}</a></h6>
                                         </div>
                                         <div class="hstack gap-6">
                                             <i class="ti ti-map-pin text-dark fs-6"></i>

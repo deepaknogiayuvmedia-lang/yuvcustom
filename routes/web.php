@@ -63,6 +63,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/deletecase/{id}', [AdminStores::class, 'deletecase'])->name('admin.deletecase');
     Route::get('/editcasestudy/{id}', [AdminViews::class, 'editcasestudy'])->name('admin.editcasestudy');
     Route::post('/updatestudy', [AdminStores::class, 'updatestudy'])->name('admin.updatestudy');
+    Route::get('/allinfluencers', [AdminViews::class, 'allinfluencers'])->name('admin.allinfluencers');
+    Route::post('/updatefeaturedstatus', [AdminStores::class, 'updatefeaturedstatus'])->name('admin.updatefeaturedstatus');
+    Route::get('/filterResults', [AdminStores::class, 'filterResults'])->name('admin.filterResults');
 
 });
 
@@ -120,12 +123,11 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/casestudies', 'casestudies')->name('casestudies');
     Route::get('/casedetails/{id}', 'casedetails')->name('casedetails');
     Route::get('/filterstudy/{category}', 'filterstudy')->name('filterstudy');
-    
-    
-
+    Route::get('influencer', 'influencer')->name('influencer');
 });
 
 //Mail Routes
 Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.inquiry');
 Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail'])->name('send.sendpartnerinquiry');
 Route::post('/send-jobenquiry', [EmailController::class, 'sendJobApplication'])->name('send.jobenquiry');
+Route::post('/send-influencerenquiry', [EmailController::class, 'influencerenquiry'])->name('send.influencerenquiry');

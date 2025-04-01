@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use App\Models\CaseStudy;
 use App\Models\Client;
+use App\Models\Influencer;
 use App\Models\InvestSetting;
 use App\Models\Lead;
 use App\Models\Nortification;
@@ -428,4 +429,31 @@ class AdminStores extends Controller
             return response()->json(['error' => true, 'message' => $e->getMessage()]);
         }
     }
+    public function updatefeaturedstatus(Request $request)
+    {
+        $lisdata = Influencer::find($request->id);
+        if ($lisdata) {
+            $lisdata->verificationstatus = $request->featuredstatus;
+            $lisdata->save();
+            return response()->json(['success' => true]);
+        }
+        return response()->json(['success' => false], 404);
+    }
+    public function filterResults(Request $request) {
+        $query = Influencer::query();
+    
+        if ($request->filled('category')) {
+            $query->where('category', $request->category);
+        }
+        if ($request->filled('city')) {
+            $query->where('city', $request->city);
+        }
+        if ($request->filled('state')) {
+            $query->where('state', $request->state);
+        }
+    
+        return response()->json(['data' => $query->get()]);
+    }
+    
+    
 }

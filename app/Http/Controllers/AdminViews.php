@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Client;
+use App\Models\Influencer;
 use App\Models\Lead;
 use App\Models\Master;
 use App\Models\Nortification;
@@ -89,5 +90,14 @@ class AdminViews extends Controller
         $casetitle =  $cases->title;
         $categories = Master::where('type', 'Industry')->get();
         return view('AdminPanelPages.editcasestudy', compact('cases', 'categories','casetitle'));
+    }
+    public function allinfluencers(){
+        $data = Influencer::orderBy('created_at', 'DESC')->get();
+        $categories = Master::where('type', 'Influencer')->get();
+        $data = Influencer::orderBy('created_at', 'DESC')->get();
+        $cities = Influencer::select('city')->distinct()->get();
+        $states = Influencer::select('state')->distinct()->get();
+        $datacnt = Influencer::count();
+        return view('AdminPanelPages.allinfluencers', compact('data','datacnt','categories','cities','states'));
     }
 }

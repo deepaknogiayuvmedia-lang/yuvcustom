@@ -60,6 +60,8 @@
                 <div class="me-3 text-center">
                     <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-light">Contact Us <i
                             class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('influencer') }}" class="btn btn-lg btn-outline-light ms-2">Register as Influencer<i
+                            class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>

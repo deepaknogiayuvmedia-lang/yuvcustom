@@ -145,4 +145,9 @@ class WebsiteViews extends Controller
        return response()->json( $casedetails);
 
     }
+    public function influencer()
+    {
+        $categories = Master::where('type', 'Influencer')->get();
+        return view('website.pages.influencer',compact('categories'));
+    }
 }

@@ -2,16 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Influencer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\inquiryemail;
 use App\Mail\partnerenquirymail;
+use App\Mail\ThankYouMailInfluencer;
 use App\Mail\thankyou;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Http;
 use App\Mail\JobApplicationMail;
 use App\Mail\ThankYouMail;
 use Illuminate\Support\Facades\Storage;
+use Validator;
 
 class EmailController extends Controller
 {
@@ -189,6 +192,75 @@ class EmailController extends Controller
             Log::info('Job Application Submitted: ', $details);
 
             return redirect()->back()->with('success', 'Your job application has been submitted successfully!');
+        } catch (\Exception $e) {
+            Log::error('Job Application Error: ' . $e->getMessage());
+
+            return redirect()->back()->with('error', $e->getMessage());
+        }
+    }
+
+    public function influencerenquiry(Request $request)
+    {
+        try {
+            // dd($request->all());
+
+            // Validate form inputs
+            $validator = Validator::make($request->all(), [
+                'category' => 'required',
+                'email' => 'required|email',
+                'phone' => 'required|digits_between:10,15',
+                'city' => 'required',
+                'state' => 'required',
+                'profileimage' => 'mimes:jpeg,png,jpg|max:2048', 
+            ]);
+
+            if ($validator->fails()) {
+                return back()->withErrors($validator)->withInput();
+            }
+
+            // Verify reCAPTCHA with Google    = SUN LE BHAI MAI LOCAL PAR NAHI CHALUNGA YAAD RAKHNAA JALWAA HAI HUMAARA....
+            // $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            //     'secret' => env('RECAPTCHA_SECRET_KEY'),
+            //     'response' => $request->input('g-recaptcha-response'),
+            //     'remoteip' => $request->ip(),
+            // ]);
+
+            // $responseData = $response->json();
+            // if (!$responseData['success'] || $responseData['score'] < 0.5) {
+            //     return back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.'])->withInput();
+            // }
+            
+            
+            // Handle file upload
+            $profileimage = null;
+            if ($request->hasFile('profileimage')) {
+                $file = $request->file('profileimage');
+                $profileimage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/websiteAssets/images/Influencers/'), $profileimage);
+            }
+           
+            // Register Influencer Here.......
+            $data = Influencer::create([
+                'userid' => $request->input('email'),
+                'category' => $request->input('category'),
+                'city' => $request->input('city'),
+                'state' => $request->input('state'),
+                'country' => $request->input('country'),
+                'dob' => $request->input('dob'),
+                'fullname' => $request->input('fullname'),
+                'contactnumber' => $request->input('phone'),
+                'emailaddress' => $request->input('email'),
+                'profileimage' =>  $profileimage,
+                'instagramprofilelink' => $request->input('instagramprofile'),
+                'verificationstatus' => 'pending',
+            ]);
+            // dd($data);
+            // Define recipient emails
+            $toEmail = $request->input('email');
+            $subject = "New Influencer Registration: ";
+            Mail::to($request->input('email'))->send(new ThankYouMailInfluencer());
+
+            return redirect()->back()->with('success', 'Thank you For Registration.!!!!!');
         } catch (\Exception $e) {
             Log::error('Job Application Error: ' . $e->getMessage());
 
