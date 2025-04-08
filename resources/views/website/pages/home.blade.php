@@ -143,7 +143,6 @@
             <div class="col-md-7 col">
                 <div class="d-flex justify-content-start action-btn">
                     <div id="servicestabs" class="owl-carousel">
-
                         <a href="{{ route('designingservices') }}">
                             Design
                         </a>
