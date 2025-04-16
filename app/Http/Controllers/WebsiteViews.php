@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\CaseStudy;
+use App\Models\Influencer;
 use App\Models\Master;
 use Illuminate\Http\Request;
 use Laravel\Fortify\Actions\ConfirmPassword;

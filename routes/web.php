@@ -66,6 +66,11 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/allinfluencers', [AdminViews::class, 'allinfluencers'])->name('admin.allinfluencers');
     Route::post('/updatefeaturedstatus', [AdminStores::class, 'updatefeaturedstatus'])->name('admin.updatefeaturedstatus');
     Route::get('/filterResults', [AdminStores::class, 'filterResults'])->name('admin.filterResults');
+    Route::get('/influencers-cart', [AdminViews::class, 'influencerscart'])->name('admin.influencerscart');
+    Route::post('/addtocart', [AdminStores::class, 'addtocart'])->name('admin.addtocart');
+    Route::get('/view-cart', [AdminViews::class, 'viewcart'])->name('admin.viewcart');
+    Route::post('/removeFromCart/{id}', [AdminStores::class, 'removeFromCart'])->name('admin.removeFromCart');
+    Route::post('/FilterInfluencer', [AdminStores::class, 'FilterInfluencer'])->name('admin.FilterInfluencer');
 
 });
 

@@ -18,5 +18,9 @@ class Influencer extends Model
         'profileimage',
         'instagramprofilelink',
         'verificationstatus',
+        'platforms',
+        'facebookprofile',
+        'youtubeprofile',
+        'linkedinprofile',
     ];
 }

@@ -7,6 +7,7 @@ use App\Models\Client;
 use App\Models\Influencer;
 use App\Models\Lead;
 use App\Models\Master;
+use App\Models\MyCart;
 use App\Models\Nortification;
 use App\Models\Project;
 use App\Models\PropertyListing;
@@ -99,5 +100,25 @@ class AdminViews extends Controller
         $states = Influencer::select('state')->distinct()->get();
         $datacnt = Influencer::count();
         return view('AdminPanelPages.allinfluencers', compact('data','datacnt','categories','cities','states'));
+    }
+    public function influencerscart()
+    {
+        $categories = Master::where('type', 'Influencer')->get();
+        $incluencerdata = Influencer::orderByDesc('created_at')->get();
+        return view('AdminPanelPages.influencercart', compact('categories','incluencerdata'));
+    }
+    public function viewcart()
+    {
+        $categories = Master::where('type', 'Influencer')->get();
+        $mycartproducts = MyCart::where('userid', Auth::user()->id)->get();
+        $incluencerdata = Influencer::whereIn('id', function ($query) {
+            $query->select('productid')
+              ->from('my_carts')
+              ->where('userid', Auth::user()->id);
+        })->get();
+
+        $cartcount = MyCart::where('userid', Auth::user()->id)->count();
+        // dd( $incluencerdata);
+        return view('AdminPanelPages.mycart', compact('incluencerdata','categories','cartcount'));
     }
 }

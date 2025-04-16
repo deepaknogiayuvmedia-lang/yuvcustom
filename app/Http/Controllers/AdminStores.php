@@ -8,6 +8,7 @@ use App\Models\Client;
 use App\Models\Influencer;
 use App\Models\InvestSetting;
 use App\Models\Lead;
+use App\Models\MyCart;
 use App\Models\Nortification;
 use App\Models\Project;
 use App\Models\PropertyListing;
@@ -360,7 +361,7 @@ class AdminStores extends Controller
     }
     public function submitstudy(Request $request)
     {
-    
+
         $description = $request->input('studydiscription');
         $title = $request->input('studytitle');
         $category = $request->input('categories');
@@ -400,7 +401,7 @@ class AdminStores extends Controller
     }
     public function updatestudy(Request $request)
     {
-    
+
         $description = $request->input('studydiscription');
         $title = $request->input('studytitle');
         $category = $request->input('categories');
@@ -417,7 +418,7 @@ class AdminStores extends Controller
             }
             $olddata = CaseStudy::find($request->caseid);
             // Create the property listing
-            $data = CaseStudy::where('id',$request->caseid)->update([
+            $data = CaseStudy::where('id', $request->caseid)->update([
                 'title' => $title,
                 'category' => $category,
                 'caseimage' => $casestudyimage ?? $olddata->caseimage,
@@ -439,9 +440,10 @@ class AdminStores extends Controller
         }
         return response()->json(['success' => false], 404);
     }
-    public function filterResults(Request $request) {
+    public function filterResults(Request $request)
+    {
         $query = Influencer::query();
-    
+
         if ($request->filled('category')) {
             $query->where('category', $request->category);
         }
@@ -451,9 +453,66 @@ class AdminStores extends Controller
         if ($request->filled('state')) {
             $query->where('state', $request->state);
         }
-    
+
         return response()->json(['data' => $query->get()]);
     }
-    
-    
+    public function addtoCart(Request $request)
+    {
+        $loggedinUser = Auth::user();
+        try {
+            $data = MyCart::create([
+                'userid' => $loggedinUser->id ?? '',
+                'productid' => $request->input('influid'),
+            ]);
+            return response()->json([
+                'success' => true,
+                'message' => "Added to cart successfully!",
+                'cart' => $data
+            ], 200);
+        } catch (Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => "Failed to add to cart.",
+                'error' => $e->getMessage()
+            ], 400);
+        }
+    }
+    public function removeFromCart($id)
+    {
+        try {
+            MyCart::where('id', $id)->delete();
+            return response()->json([
+                'success' => true,
+                'message' => "Removed from cart"
+            ], 200);
+        } catch (Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => "Failed to remove from cart.",
+                'error' => $e->getMessage()
+            ], 500);
+        }
+    }
+    public function FilterInfluencer(Request $request)
+    {
+        $categories = $request->input('categories');
+        $platforms = $request->input('platforms');
+
+        $query = Influencer::query();
+
+        if (!empty($categories)) {
+            $query->whereIn('category', $categories);
+        }
+
+        if (!empty($platforms)) {
+            $query->where(function ($q) use ($platforms) {
+                foreach ($platforms as $platform) {
+                    $q->orWhereJsonContains('platforms', $platform);
+                }
+            });
+        }
+
+        $data = $query->get();
+        return response()->json(['data' => $data]);
+    }
 }

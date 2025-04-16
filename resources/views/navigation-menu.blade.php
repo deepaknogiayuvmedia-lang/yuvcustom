@@ -60,14 +60,6 @@
                           <span class="hide-menu">Clients</span>
                       </a>
                   </li>
-                   <li class="sidebar-item">
-                      <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
-                          <span>
-                              <i class="ti ti-users"></i>
-                          </span>
-                          <span class="hide-menu">Registered Influncers</span>
-                      </a>
-                  </li>
                   <li class="sidebar-item">
                       <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
                           <span class="d-flex">
@@ -104,6 +96,32 @@
                           </li>
                       </ul>
                   </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
+                            <span class="d-flex">
+                                <i class="ti ti-file-certificate"></i>
+                            </span>
+                            <span class="hide-menu">Influencer Mangement</span>
+                        </a>
+                        <ul aria-expanded="false" class="collapse first-level">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-users"></i>
+                                    </span>
+                                    <span class="hide-menu">Registered Influncers</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="{{route ('admin.influencerscart')}}" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-users"></i>
+                                    </span>
+                                    <span class="hide-menu">Influencers Cart</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
               </ul>
           </nav>
 
@@ -334,8 +352,8 @@
 
               <div class="d-block d-lg-none py-4">
                   <a href="index.html" class="text-nowrap logo-img">
-                      <img src="https://bootstrapdemos.adminmart.com/modernize/dist/assets/images/logos/dark-logo.svg" class="dark-logo" alt="Logo-Dark" />
-                      <img src="https://bootstrapdemos.adminmart.com/modernize/dist/assets/images/logos/light-logo.svg" class="light-logo" alt="Logo-light" />
+                      <img src="{{asset('assets/websiteAssets/images/logo.png')}}" class="dark-logo" alt="Logo-Dark" />
+                      <img src="{{asset('assets/websiteAssets/images/logo.png')}}" class="light-logo" alt="Logo-light" />
                   </a>
               </div>
               <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 mx-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,6 +1,7 @@
 @extends('website.layout.websitemain')
 @section('title', 'Influencer | ' . config('app.name'))
 @section('content')
+
 <section style="background-color:rgb(255, 255, 255);">
     <div class="container py-5">
         <div class=" row">
@@ -29,6 +30,9 @@
                             @csrf
                             <div class="formcustomcard">
                                 <div class="card-body">
+                                    <!-- Personal Details Section -->
+                                    <h5 class="text-start mb-4">Personal Details</h5>
+                                    <hr>
                                     <div class="row gy-4">
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
@@ -58,7 +62,7 @@
                                         </div>
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
-                                                <label class="form-label">Email Address for Contact for Team<span class="text-danger fs-5">*</span>
+                                                <label class="form-label">Email Address<span class="text-danger fs-5">*</span>
                                                 </label>
                                                 <input required type="email" name="email" class="form-control customforminput" placeholder="Email Address">
                                             </div>
@@ -68,13 +72,42 @@
                                         </div>
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
-                                                <label class="form-label">Contact Number for Connecting Team<span class="text-danger fs-5">*</span> </label>
+                                                <label class="form-label">Contact Number<span class="text-danger fs-5">*</span> </label>
                                                 <input type="tel" name="phone" class="form-control customforminput" placeholder="Enter Phone/Mobile" required>
                                             </div>
                                             @error('phone')
                                             <div class="text-danger">{{ $message }}</div>
                                             @enderror
                                         </div>
+                                        <div class="col-xxl-3 col-md-6">
+                                            <div>
+                                                <label class="form-label">Upload Profile Image<span class="text-danger"> (Max 2 MB)</span> </label>
+                                                <input type="file" name="profileimage" class="form-control customforminput" placeholder="Enter Pincode">
+                                            </div>
+                                            @error('profileimage')
+                                            <div class="text-danger">{{ $message }}</div>
+                                            @enderror
+                                        </div>
+                                        <div class="col-xxl-3 col-md-6">
+                                            <div>
+                                                <div class="inline field">
+                                                    <label>Select Platform</label>
+                                                    <select name="platforms[]" class="label ui selection fluid dropdown form-control" multiple>
+                                                        <option value="">--select platform--</option>
+                                                        <option value="Facebook">Facebook</option>
+                                                        <option value="Instagram">Instagram</option>
+                                                        <option value="Youtube">Youtube</option>
+                                                        <option value="Linkedin">Linkedin</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Address Information Section -->
+                                    <h5 class="text-start my-4">Address Information</h5>
+                                    <hr>
+                                    <div class="row gy-4">
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
                                                 <label class="form-label">City</label>
@@ -99,26 +132,67 @@
                                                 <input type="text" name="country" class="form-control customforminput" placeholder="Enter Country">
                                             </div>
                                         </div>
+                                    </div>
+
+                                    <!-- Social Media Links Section -->
+                                    <h5 class="text-start my-4">Social Media Links</h5>
+                                    <hr>
+                                    <div class="row gy-4">
                                         <div class="col-xxl-3 col-md-6">
-                                            <div>
-                                                <label class="form-label">Upload Profile Image<span class="text-danger"> (Max 2 MB)</span> </label>
-                                                <input type="file" name="profileimage" class="form-control customforminput" placeholder="Enter Pincode">
+                                            <div class="mb-3">
+                                                <label for="instagram-link" class="form-label">Instagram Link</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="instagram-addon">
+                                                        <i class="bi bi-instagram"></i>
+                                                    </span>
+                                                    <input type="text" name="instagramprofilelink" class="form-control" id="instagram-link" placeholder="Enter Instagram Link" aria-describedby="instagram-addon">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-9 col-md-6">
+                                        <div class="col-xxl-3 col-md-6">
                                             <div class="mb-3">
-                                                <label for="basic-url" class="form-label">Instagram Profile Link</label>
+                                                <label for="facebook-link" class="form-label">Facebook Link</label>
                                                 <div class="input-group">
-                                                    <span class="input-group-text" id="basic-addon3">https://www.instagram.com/</span>
-                                                    <input type="text" name="instagramprofile" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                                    <span class="input-group-text" id="facebook-addon">
+                                                        <i class="bi bi-facebook"></i>
+                                                    </span>
+                                                    <input type="text" name="facebookprofile" class="form-control" id="facebook-link" placeholder="Enter Facebook Link" aria-describedby="facebook-addon">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-3 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="youtube-link" class="form-label">Youtube Link</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="youtube-addon">
+                                                        <i class="bi bi-youtube"></i>
+                                                    </span>
+                                                    <input type="text" name="youtubeprofile" class="form-control" id="youtube-link" placeholder="Enter Youtube Link" aria-describedby="youtube-addon">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-3 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="linkedin-link" class="form-label">Linkedin Link</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="linkedin-addon">
+                                                        <i class="bi bi-linkedin"></i>
+                                                    </span>
+                                                    <input type="text" name="linkedinprofile" class="form-control" id="linkedin-link" placeholder="Enter Linkedin Link" aria-describedby="linkedin-addon">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="form-check mt-4">
+                                        <input class="form-check-input" type="checkbox" name="terms" id="terms" required>
+                                        <label class="form-check-label" for="terms">
+                                            I accept the <a href="#" target="_blank">terms and conditions</a>
+                                        </label>
+                                    </div>
                                 </div>
                                 <div class="formcustomcardfooter">
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" class="btn formbtn">Register</button>
+                                        <button type="submit" class="btn formbtn" id="register-btn" disabled>Register</button>
                                     </div>
                                 </div>
                             </div>
@@ -129,6 +203,28 @@
         </div>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+<script>
+    document.getElementById('terms').addEventListener('change', function() {
+        document.getElementById('register-btn').disabled = !this.checked;
+    });
+
+
+    $('.label.ui.dropdown')
+        .dropdown();
+
+    $('.no.label.ui.dropdown')
+        .dropdown({
+            useLabels: false
+        });
+
+    $('.ui.button').on('click', function() {
+        $('.ui.dropdown')
+            .dropdown('restore defaults')
+    })
+
+</script>
 <script>
     setTimeout(function() {
         $('#successAlert').fadeOut('slow');

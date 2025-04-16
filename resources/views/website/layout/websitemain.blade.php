@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/lenis.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick-theme.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+
 
 </head>
 

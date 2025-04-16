@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 18, 2025 at 01:01 PM
+-- Generation Time: Apr 16, 2025 at 10:34 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,8 +65,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:2;', 1742294513),
-('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1742294513;', 1742294513);
+('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:1;', 1744778245),
+('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1744778245;', 1744778245);
 
 -- --------------------------------------------------------
 
@@ -101,7 +101,11 @@ CREATE TABLE `case_studies` (
 --
 
 INSERT INTO `case_studies` (`id`, `title`, `category`, `caseimage`, `casecontent`, `created_at`, `updated_at`) VALUES
-(4, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Digital Marketing', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27');
+(4, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Digital Marketing', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27'),
+(6, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Food & Beverages', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27'),
+(7, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Health & Care', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27'),
+(8, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Health & Care', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27'),
+(9, 'Transforming E-commerce Sales with Data-Driven Strategies', 'Building Material', '1742281211_Data-Driven-Marketing.png', '<div class=\"ql-editor\" data-gramm=\"false\" contenteditable=\"true\"><p><strong>Introduction</strong></p><p>In today\'s competitive e-commerce landscape, businesses must leverage data-driven insights to maximize sales and improve customer retention. Yuvmedia Studio partnered with XYZ Store, an online fashion retailer, to boost their sales performance using strategic digital marketing approaches.</p><p><br></p><p><strong>Challenge</strong></p><p>XYZ Store faced declining sales, poor engagement on social media platforms, and ineffective ad campaigns. Despite having a wide product range, the brand struggled to attract and retain customers.</p><p><br></p><p><strong>Solution</strong></p><p>Yuvmedia Studio implemented a multi-phase strategy to address these challenges:</p><ol><li><strong>Data Analysis &amp; Insights:</strong> Conducted an in-depth analysis of XYZ Store\'s website traffic, customer behavior, and product performance.</li><li><strong>Content Revamp:</strong> Improved product descriptions, added customer reviews, and optimized on-page SEO.</li><li><strong>Social Media Strategy:</strong> Created engaging content focused on fashion trends, seasonal promotions, and influencer collaborations.</li><li><strong>Performance Marketing:</strong> Launched targeted Facebook and Instagram ad campaigns using demographic and behavioral data.</li><li><strong>Email Marketing Automation:</strong> Developed personalized email sequences for abandoned carts, product recommendations, and special offers.</li></ol><p><br></p><p><strong>Results</strong></p><p>Within six months of implementation:</p><ul><li><strong>30% increase</strong> in website traffic.</li><li><strong>45% growth</strong> in conversion rates.</li><li><strong>50% improvement</strong> in social media engagement.</li><li><strong>20% boost</strong> in repeat customer purchases.</li></ul><p><br></p><p><strong>Conclusion</strong></p><p>By adopting data-driven marketing strategies, XYZ Store successfully revitalized its online presence and significantly improved its sales performance. This case study highlights the importance of combining insights with effective marketing tactics to achieve sustainable growth.</p></div><div class=\"ql-clipboard\" contenteditable=\"true\" tabindex=\"-1\"></div><div class=\"ql-tooltip ql-hidden\"><a class=\"ql-preview\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"about:blank\"></a><a class=\"ql-action\"></a><a class=\"ql-remove\"></a></div>', '2025-03-18 01:30:11', '2025-03-18 11:54:27');
 
 -- --------------------------------------------------------
 
@@ -141,6 +145,43 @@ CREATE TABLE `failed_jobs` (
   `exception` longtext NOT NULL,
   `failed_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `influencers`
+--
+
+CREATE TABLE `influencers` (
+  `id` int(11) NOT NULL,
+  `category` varchar(255) DEFAULT NULL,
+  `userid` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `state` varchar(255) DEFAULT NULL,
+  `country` varchar(255) DEFAULT NULL,
+  `dob` varchar(255) DEFAULT NULL,
+  `fullname` varchar(255) DEFAULT NULL,
+  `contactnumber` varchar(255) DEFAULT NULL,
+  `emailaddress` varchar(255) DEFAULT NULL,
+  `profileimage` varchar(255) DEFAULT NULL,
+  `instagramprofilelink` varchar(255) DEFAULT NULL,
+  `platforms` varchar(255) DEFAULT NULL,
+  `facebookprofile` varchar(255) DEFAULT NULL,
+  `youtubeprofile` varchar(255) DEFAULT NULL,
+  `linkedinprofile` varchar(255) DEFAULT NULL,
+  `verificationstatus` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `influencers`
+--
+
+INSERT INTO `influencers` (`id`, `category`, `userid`, `city`, `state`, `country`, `dob`, `fullname`, `contactnumber`, `emailaddress`, `profileimage`, `instagramprofilelink`, `platforms`, `facebookprofile`, `youtubeprofile`, `linkedinprofile`, `verificationstatus`, `created_at`, `updated_at`) VALUES
+(12, 'Entertainment', 'kishanyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Kishan Gopal', '9874562156', 'kishanyuvmedia@gmail.com', '1743234379_FnkWDXIXoAEEUZt.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Instagram\",\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-16 07:49:13'),
+(15, 'Sports', 'anshulyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Anshul Kumar', '5658458585', 'anshulyuvmedia@gmail.com', 'webdevelopnew.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Instagram\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-16 07:39:01'),
+(16, 'Sports', 'anshulyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Anshul Kumar', '5658458585', 'anshulyuvmedia@gmail.com', 'webdevelopnew.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-16 05:17:04');
 
 -- --------------------------------------------------------
 
@@ -208,7 +249,12 @@ INSERT INTO `masters` (`id`, `label`, `type`, `categoryimage`, `created_at`, `up
 (61, 'Building Material', 'Industry', '', '2025-03-18 01:18:07', '2025-03-18 01:18:07'),
 (62, 'Education', 'Industry', '', '2025-03-18 01:18:15', '2025-03-18 01:18:15'),
 (63, 'Construction', 'Industry', '', '2025-03-18 01:18:21', '2025-03-18 01:18:21'),
-(64, 'Digital Marketing', 'Industry', '', '2025-03-18 01:19:38', '2025-03-18 01:19:38');
+(64, 'Digital Marketing', 'Industry', '', '2025-03-18 01:19:38', '2025-03-18 01:19:38'),
+(65, 'Influencer', 'Master', '', '2025-03-29 00:08:29', '2025-03-29 00:08:29'),
+(66, 'Sports', 'Influencer', '', '2025-03-29 00:08:39', '2025-03-29 00:08:39'),
+(67, 'Education', 'Influencer', '', '2025-03-29 00:09:14', '2025-03-29 00:09:14'),
+(68, 'Health', 'Influencer', '', '2025-03-29 00:09:22', '2025-03-29 00:09:22'),
+(69, 'Entertainment', 'Influencer', '', '2025-03-29 00:09:33', '2025-03-29 00:09:33');
 
 -- --------------------------------------------------------
 
@@ -233,6 +279,28 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2025_01_02_080358_add_two_factor_columns_to_users_table', 1),
 (5, '2025_01_02_080436_create_personal_access_tokens_table', 1),
 (6, '2025_01_09_070838_add_website_link_to_users_table', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `my_carts`
+--
+
+CREATE TABLE `my_carts` (
+  `id` int(11) NOT NULL,
+  `productid` varchar(255) DEFAULT NULL,
+  `userid` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `my_carts`
+--
+
+INSERT INTO `my_carts` (`id`, `productid`, `userid`, `created_at`, `updated_at`) VALUES
+(62, '12', '1', '2025-04-16 00:12:12', '2025-04-16 00:12:12'),
+(63, '15', '1', '2025-04-16 00:12:26', '2025-04-16 00:12:26');
 
 -- --------------------------------------------------------
 
@@ -356,9 +424,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('3J2rhMXAlDnOZnoZqQUOHsg0yyWVP9cua4w6qWYV', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiUHd0OVJQeDRKb1ZKd3pidGQyWWE3cE0xcU54RUNIMklJM3B5dlk1TiI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozNzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL2Rhc2hib2FyZCI7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjI3OiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvbG9naW4iO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1742294435),
-('70SlQXpffmKcsbNJM4Hjv0qq2H6S95PTL9iponxa', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiOUZKcW1wdFJwMjBRcU4waGkzWmZPQ0tWcFVYQVl3SjNZSGpHc0wxayI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1742294454),
-('HZlaCdSyW0H7tDxCw5rTaxqrVFWJoLpmqWlf8zsw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiUHhjQ3I5TnJzbGhaaFdUWUIya1RiaktFZ3FHT0JySXBhRnNGYTZpUCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jYXNlc3R1ZGllcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1742299239);
+('oZ2zNCAXoJqw0SO83cPLgLGMGJWV2KMTWYJLqhuP', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiQXUzYUJDRnZ2WXpnclhBbW5NU29WOVJCSVRzYVJPQ0NrUE5sUmZHeCI7czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjQ0OiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYWRtaW4vaW5mbHVlbmNlcnMtY2FydCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1744792157);
 
 -- --------------------------------------------------------
 
@@ -392,7 +458,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `two_factor_confirmed_at`, `remember_token`, `current_team_id`, `profile_photo_path`, `website_link`, `fulladdress`, `old_password`, `new_password`, `confirm_password`, `created_at`, `updated_at`) VALUES
-(1, 'YUVMEDIA', 'yuvmedia@gmail.com', NULL, '$2y$12$94bhVIreuDCzFo1XpZmk3eVnG7w8MVTzx8j5xyT2vH/1Jn.fgO2vS', '2222', NULL, NULL, NULL, NULL, '1741783349_Favicon-yuvin.png', NULL, 'Ajmer, Rajasthan, India.', NULL, NULL, NULL, '2025-01-02 02:38:23', '2025-03-12 07:12:29');
+(1, 'YUVMEDIA', 'yuvmedia@gmail.com', NULL, '$2y$12$94bhVIreuDCzFo1XpZmk3eVnG7w8MVTzx8j5xyT2vH/1Jn.fgO2vS', '2222', NULL, NULL, NULL, NULL, '1741783349_Favicon-yuvin.png', 'https://yuvmedia.com/', 'Ajmer, Rajasthan, India.', NULL, NULL, NULL, '2025-01-02 02:38:23', '2025-03-29 02:34:29');
 
 --
 -- Indexes for dumped tables
@@ -436,6 +502,12 @@ ALTER TABLE `failed_jobs`
   ADD UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`);
 
 --
+-- Indexes for table `influencers`
+--
+ALTER TABLE `influencers`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `jobs`
 --
 ALTER TABLE `jobs`
@@ -458,6 +530,12 @@ ALTER TABLE `masters`
 -- Indexes for table `migrations`
 --
 ALTER TABLE `migrations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `my_carts`
+--
+ALTER TABLE `my_carts`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -515,7 +593,7 @@ ALTER TABLE `blogs`
 -- AUTO_INCREMENT for table `case_studies`
 --
 ALTER TABLE `case_studies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `clients`
@@ -530,6 +608,12 @@ ALTER TABLE `failed_jobs`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `influencers`
+--
+ALTER TABLE `influencers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
 -- AUTO_INCREMENT for table `jobs`
 --
 ALTER TABLE `jobs`
@@ -539,13 +623,19 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `masters`
 --
 ALTER TABLE `masters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `my_carts`
+--
+ALTER TABLE `my_carts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`

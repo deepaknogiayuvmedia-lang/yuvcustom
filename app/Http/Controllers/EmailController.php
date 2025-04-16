@@ -202,19 +202,17 @@ class EmailController extends Controller
     public function influencerenquiry(Request $request)
     {
         try {
-            // dd($request->all());
+           
 
             // Validate form inputs
             $validator = Validator::make($request->all(), [
                 'category' => 'required',
                 'email' => 'required|email',
                 'phone' => 'required|digits_between:10,15',
-                'city' => 'required',
-                'state' => 'required',
                 'profileimage' => 'mimes:jpeg,png,jpg|max:2048', 
             ]);
-
             if ($validator->fails()) {
+                //dd($request->all());
                 return back()->withErrors($validator)->withInput();
             }
 
@@ -251,10 +249,14 @@ class EmailController extends Controller
                 'contactnumber' => $request->input('phone'),
                 'emailaddress' => $request->input('email'),
                 'profileimage' =>  $profileimage,
-                'instagramprofilelink' => $request->input('instagramprofile'),
+                'instagramprofilelink' => $request->input('instagramprofilelink'),
+                'platforms' => json_encode($request->input('platforms')),
+                'facebookprofile' => $request->input('facebookprofile'),
+                'youtubeprofile' => $request->input('youtubeprofile'),
+                'linkedinprofile' => $request->input('linkedinprofile'),
                 'verificationstatus' => 'pending',
             ]);
-            // dd($data);
+             //dd($data);
             // Define recipient emails
             $toEmail = $request->input('email');
             $subject = "New Influencer Registration: ";
