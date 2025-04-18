@@ -109,9 +109,18 @@
                                     <hr>
                                     <div class="row gy-4">
                                         <div class="col-xxl-3 col-md-6">
+                                            <pre class="json-preview d-none"><code id="js-preview-json">{}</code></pre>
+                                            <div class="content">
+                                                <div class="mt-0">
+                                                    <label class="form-label">Full Location</label>
+                                                    <input type="text" id="address" class="form-control" placeholder="Enter Address to Search" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-3 col-md-6">
                                             <div>
                                                 <label class="form-label">City</label>
-                                                <input type="text" name="city" class="form-control customforminput" placeholder="Enter City">
+                                                <input type="text" value="" id="cityinput" name="city" class="form-control customforminput" placeholder="Enter City">
                                             </div>
                                             @error('city')
                                             <div class="text-danger">{{ $message }}</div>
@@ -120,7 +129,7 @@
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
                                                 <label class="form-label">State</label>
-                                                <input type="text" name="state" class="form-control customforminput" placeholder="Enter State">
+                                                <input type="text" value="" id="stateinput" name="state" class="form-control customforminput" placeholder="Enter State">
                                             </div>
                                             @error('state')
                                             <div class="text-danger">{{ $message }}</div>
@@ -129,7 +138,7 @@
                                         <div class="col-xxl-3 col-md-6">
                                             <div>
                                                 <label class="form-label">Country</label>
-                                                <input type="text" name="country" class="form-control customforminput" placeholder="Enter Country">
+                                                <input type="text" value="" id="countryinput" name="country" class="form-control customforminput" placeholder="Enter Country">
                                             </div>
                                         </div>
                                     </div>
@@ -205,6 +214,84 @@
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_KLtDmYZB0Qy_b0f6LHJSlDV2wYYPf8s&libraries=places"></script>
+<script>
+        var locationInfo = {
+            geo: null
+            , country: null
+            , state: null
+            , city: null
+            , postalCode: null
+            , street: null
+            , streetNumber: null
+            , reset: function() {
+                this.geo = null;
+                this.country = null;
+                this.state = null;
+                this.city = null;
+                this.postalCode = null;
+                this.street = null;
+                this.streetNumber = null;
+            }
+        , };
+
+        function initAutocomplete() {
+            var addressField = document.getElementById("address");
+            var autocomplete = new google.maps.places.Autocomplete(
+                addressField, {
+                    types: ["geocode"]
+                , }
+            );
+
+            autocomplete.addListener("place_changed", function() {
+                var place = autocomplete.getPlace();
+                if (!place.geometry) {
+                    return;
+                }
+
+                var address = place.address_components;
+                var lat = place.geometry.location.lat();
+                var lng = place.geometry.location.lng();
+
+                locationInfo.reset();
+                locationInfo.geo = [lat, lng];
+
+                for (var i = 0; i < address.length; i++) {
+                    var component = address[i].types[0];
+                    switch (component) {
+                        case "country":
+                            locationInfo.country = address[i].long_name;
+                            break;
+                        case "administrative_area_level_1":
+                            locationInfo.state = address[i].long_name;
+                            break;
+                        case "locality":
+                            locationInfo.city = address[i].long_name;
+                            break;
+                        case "postal_code":
+                            locationInfo.postalCode = address[i].long_name;
+                            break;
+                        case "route":
+                            locationInfo.street = address[i].long_name;
+                            break;
+                        case "street_number":
+                            locationInfo.streetNumber =
+                                address[i].long_name;
+                            break;
+                    }
+                }
+
+
+                // Display JSON output
+                document.getElementById("js-preview-json").textContent = JSON.stringify(locationInfo, null, 4);
+                document.getElementById("cityinput").value = locationInfo.city
+                document.getElementById("stateinput").value = locationInfo.state
+                document.getElementById("countryinput").value = locationInfo.country
+            });
+        }
+        window.onload = initAutocomplete;
+    </script>
+
 <script>
     document.getElementById('terms').addEventListener('change', function() {
         document.getElementById('register-btn').disabled = !this.checked;

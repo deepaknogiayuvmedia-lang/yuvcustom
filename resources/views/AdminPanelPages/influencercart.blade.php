@@ -67,6 +67,28 @@
                             </label>
                         </li>
                     </ul>
+                    <ul class="list-group pt-2 border-bottom rounded-0">
+                        <h6 class="my-3 mx-4">Sort By City</h6>
+                        @foreach($incluencerdata->unique('city') as $key => $data)
+                        <li class="list-group-item border-0 p-0 mx-4 mb-2 d-flex align-items-center">
+                            <input type="checkbox" class="form-check-input me-2" id="city-{{$key}}" value="{{$data->city}}">
+                            <label class="form-check-label" for="city-{{$key}}">
+                                {{ ucfirst($data->city) }}
+                            </label>
+                        </li>
+                        @endforeach
+                    </ul>
+                    <ul class="list-group pt-2 border-bottom rounded-0">
+                        <h6 class="my-3 mx-4">Sort By State</h6>
+                        @foreach($incluencerdata->unique('state') as $key => $datanew)
+                        <li class="list-group-item border-0 p-0 mx-4 mb-2 d-flex align-items-center">
+                            <input type="checkbox" class="form-check-input me-2" id="state-{{$key}}" value="{{$datanew->state}}">
+                            <label class="form-check-label" for="state-{{$key}}">
+                                {{ ucfirst($datanew->state) }}
+                            </label>
+                        </li>
+                        @endforeach
+                    </ul>
                     <div class="p-4">
                         <a href="javascript:void(0)" id="filterBtn" class="btn btn-primary w-100">Apply Filter</a>
                     </div>
@@ -93,6 +115,7 @@
                                 <div class="card-body pt-3 p-4">
                                     <h6 class="fs-4">{{$value->fullname}}</h6>
                                     <p class="text-muted">+91- {{$value->contactnumber}}</p>
+                                    <p class="text-muted">{{ ucfirst($value->city)}},{{ ucfirst($value->state)}}</p>
                                     <p class="text-muted">{{$value->emailaddress}}</p>
                                     <div class="d-flex align-items-center justify-content-start gap-1">
                                         @foreach (json_decode($value->platforms) as $plat)
@@ -180,6 +203,8 @@
         $('#filterBtn').on('click', function() {
             let selectedCategories = [];
             let selectedPlatforms = [];
+            let cities = [];
+            let states = [];
 
             // Collect selected categories
             $('input[type="checkbox"][id^="category-"]:checked').each(function() {
@@ -191,19 +216,33 @@
                 selectedPlatforms.push($(this).val());
             });
 
+
+            // Collect selected Cities
+            $('input[type="checkbox"][id^="city-"]:checked').each(function() {
+                cities.push($(this).val());
+            });
+
+            // Collect selected States
+            $('input[type="checkbox"][id^="state-"]:checked').each(function() {
+                states.push($(this).val());
+            });
+
             console.log("Categories:", selectedCategories);
+            console.log("Cities:", cities);
             console.log("Platforms:", selectedPlatforms);
 
             var _token = "{{ csrf_token() }}";
             $.ajax({
-                url: "{{ route('admin.FilterInfluencer') }}",
-                type: "POST",
-                data: {
-                    _token: _token,
-                    categories: selectedCategories,
-                    platforms: selectedPlatforms
-                },
-                success: function(response) {
+                url: "{{ route('admin.FilterInfluencer') }}"
+                , type: "POST"
+                , data: {
+                    _token: _token
+                    , categories: selectedCategories
+                    , platforms: selectedPlatforms
+                    , cities: cities
+                    , states: states
+                , }
+                , success: function(response) {
                     console.log(response.data);
                     $('#product-list').empty();
 
@@ -223,6 +262,7 @@
                                         <div class="card-body pt-3 p-4">
                                             <h6 class="fs-4">${value.fullname}</h6>
                                             <p class="text-muted">+91- ${value.contactnumber}</p>
+                                            <p class="text-muted text-capitalize">${value.city},${value.state}</p>
                                             <p class="text-muted">${value.emailaddress}</p>
                                             <div class="d-flex align-items-center justify-content-start gap-1">
                                                 ${JSON.parse(value.platforms).map(plat => `
@@ -242,5 +282,6 @@
                 }
             });
         });
+
     </script>
 </x-app-layout>

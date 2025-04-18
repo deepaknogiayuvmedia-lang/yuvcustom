@@ -12,6 +12,7 @@ class Influencer extends Model
         'city',
         'state',
         'dob',
+        'country',
         'fullname',
         'contactnumber',
         'emailaddress',

@@ -497,6 +497,8 @@ class AdminStores extends Controller
     {
         $categories = $request->input('categories');
         $platforms = $request->input('platforms');
+        $cities = $request->input('cities');
+        $states = $request->input('states');
 
         $query = Influencer::query();
 
@@ -506,10 +508,18 @@ class AdminStores extends Controller
 
         if (!empty($platforms)) {
             $query->where(function ($q) use ($platforms) {
-                foreach ($platforms as $platform) {
-                    $q->orWhereJsonContains('platforms', $platform);
-                }
+            foreach ($platforms as $platform) {
+                $q->orWhereJsonContains('platforms', $platform);
+            }
             });
+        }
+
+        if (!empty($cities)) {
+            $query->whereIn('city', $cities);
+        }
+
+        if (!empty($states)) {
+            $query->whereIn('state', $states);
         }
 
         $data = $query->get();
