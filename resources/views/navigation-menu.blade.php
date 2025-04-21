@@ -96,32 +96,58 @@
                           </li>
                       </ul>
                   </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
-                            <span class="d-flex">
-                                <i class="ti ti-file-certificate"></i>
-                            </span>
-                            <span class="hide-menu">Influencer Mangement</span>
-                        </a>
-                        <ul aria-expanded="false" class="collapse first-level">
-                            <li class="sidebar-item">
-                                <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
-                                    <span>
-                                        <i class="ti ti-users"></i>
-                                    </span>
-                                    <span class="hide-menu">Registered Influncers</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-item">
-                                <a class="sidebar-link" href="{{route ('admin.influencerscart')}}" aria-expanded="false">
-                                    <span>
-                                        <i class="ti ti-users"></i>
-                                    </span>
-                                    <span class="hide-menu">Influencers Cart</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                  <li class="sidebar-item">
+                      <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
+                          <span class="d-flex">
+                              <i class="ti ti-file-certificate"></i>
+                          </span>
+                          <span class="hide-menu">Influencer Mangement</span>
+                      </a>
+                      <ul aria-expanded="false" class="collapse first-level">
+                          <li class="sidebar-item">
+                              <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
+                                  <span>
+                                      <i class="ti ti-users"></i>
+                                  </span>
+                                  <span class="hide-menu">Registered Influncers</span>
+                              </a>
+                          </li>
+                          <li class="sidebar-item">
+                              <a class="sidebar-link" href="{{route ('admin.influencerscart')}}" aria-expanded="false">
+                                  <span>
+                                      <i class="ti ti-users"></i>
+                                  </span>
+                                  <span class="hide-menu">Influencers Cart</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="sidebar-item">
+                      <a class="sidebar-link has-arrow" href="javascript:void(0)" id="get-url" aria-expanded="false">
+                          <span class="d-flex">
+                            <i class="ti ti-users-group"></i>
+                          </span>
+                          <span class="hide-menu">Managing Partners</span>
+                      </a>
+                      <ul aria-expanded="false" class="collapse first-level">
+                          <li class="sidebar-item">
+                              <a href="{{ route('admin.addpartner')}}" class="sidebar-link">
+                                  <div class="round-16 d-flex align-items-center justify-content-center">
+                                      <i class="ti ti-circle"></i>
+                                  </div>
+                                  <span class="hide-menu">Add Partner</span>
+                              </a>
+                          </li>
+                          <li class="sidebar-item">
+                              <a href="{{ route('admin.allpartners')}}" class="sidebar-link">
+                                  <div class="round-16 d-flex align-items-center justify-content-center">
+                                      <i class="ti ti-circle"></i>
+                                  </div>
+                                  <span class="hide-menu">Partners List</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
               </ul>
           </nav>
 

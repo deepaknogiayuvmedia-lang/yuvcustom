@@ -71,6 +71,10 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/view-cart', [AdminViews::class, 'viewcart'])->name('admin.viewcart');
     Route::post('/removeFromCart/{id}', [AdminStores::class, 'removeFromCart'])->name('admin.removeFromCart');
     Route::post('/FilterInfluencer', [AdminStores::class, 'FilterInfluencer'])->name('admin.FilterInfluencer');
+    Route::get('/add-partner', [AdminViews::class, 'addpartner'])->name('admin.addpartner');
+    Route::post('/insertpartner', [AdminStores::class, 'insertpartner'])->name('admin.insertpartner');
+    Route::get('/allpartners', [AdminViews::class, 'allpartners'])->name('admin.allpartners');
+    Route::post('/FilterPartners', [AdminStores::class, 'FilterPartners'])->name('admin.FilterPartners');
 
 });
 
@@ -129,6 +133,10 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/casedetails/{id}', 'casedetails')->name('casedetails');
     Route::get('/filterstudy/{category}', 'filterstudy')->name('filterstudy');
     Route::get('influencer', 'influencer')->name('influencer');
+    Route::get('managingpartners', 'managingpartners')->name('managingpartners');
+    Route::get('/filterpartner', 'filterpartner')->name('filterpartner');
+    Route::get('/partner-details/{id}/{city}', 'partnerDetails')->name('partnerDetails');
+
 });
 
 //Mail Routes

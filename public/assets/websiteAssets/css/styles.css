@@ -3741,3 +3741,9 @@ figure img {
         max-height: 21.37142857rem;
     }
 }
+.partnercard{
+    transition: all .2s ease-in-out;
+}
+.partnercard:hover{
+    transform: scale(1.01);
+}

@@ -10,6 +10,7 @@ use App\Models\InvestSetting;
 use App\Models\Lead;
 use App\Models\MyCart;
 use App\Models\Nortification;
+use App\Models\Partner;
 use App\Models\Project;
 use App\Models\PropertyListing;
 use App\Models\RegisterCompany;
@@ -501,6 +502,69 @@ class AdminStores extends Controller
         $states = $request->input('states');
 
         $query = Influencer::query();
+
+        if (!empty($categories)) {
+            $query->whereIn('category', $categories);
+        }
+
+        if (!empty($platforms)) {
+            $query->where(function ($q) use ($platforms) {
+            foreach ($platforms as $platform) {
+                $q->orWhereJsonContains('platforms', $platform);
+            }
+            });
+        }
+
+        if (!empty($cities)) {
+            $query->whereIn('city', $cities);
+        }
+
+        if (!empty($states)) {
+            $query->whereIn('state', $states);
+        }
+
+        $data = $query->get();
+        return response()->json(['data' => $data]);
+    }
+    public function insertpartner(Request $request)
+    {
+        try {
+            $profileImage = null;
+            if ($request->hasFile('profileimage')) {
+                $request->validate([
+                    'profileimage' => 'required|mimes:jpeg,png,jpg',
+                ]);
+
+                $file = $request->file('profileimage');
+                $profileImage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Partners'), $profileImage);
+            }
+
+            // Create the partner record
+            $data = Partner::create([
+                'partnername' => $request->partnername,
+                'partnertype' => $request->partnertype,
+                'partneremail' => $request->partneremail,
+                'partnerphone' => $request->partnerphone,
+                'city' => $request->city,
+                'state' => $request->state,
+                'aboutuscontent' => $request->aboutuscontent,
+                'profileimage' => $profileImage,
+            ]);
+
+            return response()->json(['data' => $data, 'message' => 'Partner inserted successfully!']);
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
+        }
+    }
+    public function FilterPartners(Request $request)
+    {
+        $categories = $request->input('categories');
+        $platforms = $request->input('platforms');
+        $cities = $request->input('cities');
+        $states = $request->input('states');
+
+        $query = Partner::query();
 
         if (!empty($categories)) {
             $query->whereIn('category', $categories);

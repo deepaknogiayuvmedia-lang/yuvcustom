@@ -143,6 +143,10 @@
                                             href="{{ route('partners') }}">Partners</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="nav-link {{ request()->routeIs('managingpartners') ? 'active' : '' }}"
+                                            href="{{ route('managingpartners') }}">Managing Partners</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link {{ request()->routeIs('casestudies') ? 'active' : '' }}"
                                             href="{{ route('casestudies') }}">Case Studies</a>
                                     </li>

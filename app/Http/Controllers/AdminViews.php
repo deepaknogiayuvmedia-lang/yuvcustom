@@ -9,6 +9,7 @@ use App\Models\Lead;
 use App\Models\Master;
 use App\Models\MyCart;
 use App\Models\Nortification;
+use App\Models\Partner;
 use App\Models\Project;
 use App\Models\PropertyListing;
 use App\Models\RegisterCompany;
@@ -120,5 +121,16 @@ class AdminViews extends Controller
         $cartcount = MyCart::where('userid', Auth::user()->id)->count();
         // dd( $incluencerdata);
         return view('AdminPanelPages.mycart', compact('incluencerdata','categories','cartcount'));
+    }
+    public function addpartner()
+    {   
+        $partnerstypes = Master::where('type', 'Partner Type')->get();
+        return view('AdminPanelPages.addpartner', compact('partnerstypes'));
+    }
+    public function allpartners()
+    {   
+        $partnerstypes = Master::where('type', 'Partner Type')->get();
+        $partnersdata = Partner::orderByDesc('created_at')->get();
+        return view('AdminPanelPages.allpartnerspage', compact('partnersdata'));
     }
 }

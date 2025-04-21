@@ -6,6 +6,7 @@ use App\Models\Blog;
 use App\Models\CaseStudy;
 use App\Models\Influencer;
 use App\Models\Master;
+use App\Models\Partner;
 use Illuminate\Http\Request;
 use Laravel\Fortify\Actions\ConfirmPassword;
 
@@ -150,5 +151,22 @@ class WebsiteViews extends Controller
     {
         $categories = Master::where('type', 'Influencer')->get();
         return view('website.pages.influencer',compact('categories'));
+    }
+    public function managingpartners()
+    {
+        $partnersdata = Partner::orderByDesc('created_at')->get();
+        return view('website.pages.managingpartners', compact('partnersdata'));
+    }
+    public function filterpartner()
+    {
+        $city = request()->input('city');
+        $partnersdata = Partner::where('city', $city)->orderByDesc('created_at')->get();
+       return response()->json( $partnersdata);
+    }
+    public function partnerDetails($id,$city)
+    {
+        $partnersdata = Partner::where('id', $id)->orderByDesc('created_at')->get();
+        $cityname = $city;
+        return view('website.pages.partnerdetails', compact('partnersdata','cityname'));
     }
 }
