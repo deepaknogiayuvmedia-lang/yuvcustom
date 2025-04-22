@@ -135,7 +135,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('influencer', 'influencer')->name('influencer');
     Route::get('managingpartners', 'managingpartners')->name('managingpartners');
     Route::get('/filterpartner', 'filterpartner')->name('filterpartner');
-    Route::get('/partner-details/{id}/{city}', 'partnerDetails')->name('partnerDetails');
+    Route::get('/partnerDetails/{id}/{city}', 'partnerDetails')->name('partnerDetails');
 
 });
 
@@ -144,3 +144,4 @@ Route::post('/send-inquiry', [EmailController::class, 'sendEmail'])->name('send.
 Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail'])->name('send.sendpartnerinquiry');
 Route::post('/send-jobenquiry', [EmailController::class, 'sendJobApplication'])->name('send.jobenquiry');
 Route::post('/send-influencerenquiry', [EmailController::class, 'influencerenquiry'])->name('send.influencerenquiry');
+Route::post('/send-partnerservice', [EmailController::class, 'partnerservice'])->name('send.partnerservice');

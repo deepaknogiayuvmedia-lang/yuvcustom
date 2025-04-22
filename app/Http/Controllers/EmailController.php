@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ManagingPartnerMail;
+use App\Mail\ManagingPartnerThankYouMail;
 use App\Models\Influencer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -263,6 +265,63 @@ class EmailController extends Controller
             Mail::to($request->input('email'))->send(new ThankYouMailInfluencer());
 
             return redirect()->back()->with('success', 'Thank you For Registration.!!!!!');
+        } catch (\Exception $e) {
+            Log::error('Job Application Error: ' . $e->getMessage());
+
+            return redirect()->back()->with('error', $e->getMessage());
+        }
+    }
+
+    public function partnerservice(Request $request)
+    {
+        try {
+            // dd($request->all());
+
+            // Validate form inputs
+            $request->validate([
+                'username' => 'required|string|max:255',
+                'email' => 'required|email',
+                'phone' => 'required|digits_between:10,15',
+                'city' => 'required|string',
+                'state' => 'required|string',
+                 // 'g-recaptcha-response' => 'required',
+            ]);
+            // Verify reCAPTCHA with Google
+            // $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            //     'secret' => env('RECAPTCHA_SECRET_KEY'),
+            //     'response' => $request->input('g-recaptcha-response'),
+            //     'remoteip' => $request->ip(),
+            // ]);
+
+            // $responseData = $response->json();
+
+            // if (!$responseData['success'] || $responseData['score'] < 0.5) {
+            //     return back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.'])->withInput();
+            // }
+
+            // Prepare email data
+            $details = [
+                'username' => $request->input('username'),
+                'email' => $request->input('email'),
+                'phone' => $request->input('phone'),
+                'city' => $request->input('city'),
+                'state' => $request->input('state'),
+                'service' => $request->input('service'),
+            ];
+
+            // Define recipient emails
+            //$toEmail = ['hr@yuvmedia.com'];
+             $toEmail = ['anshulyuvmedia@gmail.com'];
+            $subject = "Managing Partner Lead";
+
+            // Send emails
+            Mail::to($toEmail)->send(new ManagingPartnerMail($details));
+            Mail::to($request->input('email'))->send(new ManagingPartnerThankYouMail());
+
+            // Log submission
+            Log::info('Job Application Submitted: ', $details);
+
+            return redirect()->back()->with('success', 'Your job application has been submitted successfully!');
         } catch (\Exception $e) {
             Log::error('Job Application Error: ' . $e->getMessage());
 

@@ -165,7 +165,7 @@ class WebsiteViews extends Controller
     }
     public function partnerDetails($id,$city)
     {
-        $partnersdata = Partner::where('id', $id)->orderByDesc('created_at')->get();
+        $partnersdata = Partner::where('id', $id)->orderByDesc('created_at')->first();
         $cityname = $city;
         return view('website.pages.partnerdetails', compact('partnersdata','cityname'));
     }
