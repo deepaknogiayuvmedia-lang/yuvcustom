@@ -93,7 +93,7 @@
                                                     <i class="bi bi-star me-1 text-primary"></i>
                                                     <a href="#" class="text-decoration-none text-primary fw-semibold">${data.partnertype}</a>
                                                 </p>
-                                                <a href="#" class="btn btn-primary mt-2 rounded-3">View More</a>
+                                                <a href="/partnerDetails/${data.id}/${data.city}" class="btn btn-primary mt-2 rounded-3">View More</a>
                                             </div>
                                             <div class="ms-3">
                                                 <img src="/assets/images/Partners/${data.profileimage}" alt="Profile" class="rounded" style="width: 100%; height: 140px; object-fit: cover;">
