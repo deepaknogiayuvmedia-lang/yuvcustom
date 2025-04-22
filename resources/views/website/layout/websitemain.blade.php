@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/lenis.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick-theme.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/semantic.min.css') }}">
 
 
 </head>
@@ -165,8 +165,8 @@
                     <div class="p-3 hideInMobile">
                         <a class="btn btn-outline-primary hire-us-btn questrial-regular"
                             href="{{ route('contact') }}">Hire Us!</a>
-                        <a class="btn btn-outline-primary hire-us-btn questrial-regular"
-                            href="tel:918824269821">Call Now!</a>
+                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="tel:918824269821">Call
+                            Now!</a>
                     </div>
                     <div class="mobile-toggle hideInDesktop">
 
@@ -194,7 +194,9 @@
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('homepage') ? 'active' : '' }}"
-                                aria-current="page" href="{{ route('homepage') }}"><img src="{{asset('/assets/websiteAssets/images/menu/home.png')}}" alt="home" class="me-2">Home</a>
+                                aria-current="page" href="{{ route('homepage') }}"><img
+                                    src="{{ asset('/assets/websiteAssets/images/menu/home.png') }}" alt="home"
+                                    class="me-2">Home</a>
                         </li>
 
                         <div class="accordion" id="ourStoryAccordion">
@@ -271,7 +273,8 @@
                                                     href="{{ route('marketplaceexpertise') }}">Marketplace
                                                     Expertise</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('influencermarketing') ? 'fw-bold text-primary' : '' }}"
-                                                    href="{{ route('influencermarketing') }}">Influencer Marketing</a>
+                                                    href="{{ route('influencermarketing') }}">Influencer
+                                                    Marketing</a>
                                             </li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('googlebusinessprofile') ? 'fw-bold text-primary' : '' }}"
                                                     href="{{ route('googlebusinessprofile') }}">Google Business
@@ -290,14 +293,14 @@
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                 href="{{ route('partners') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/handshake.png') }}" alt="home"
-                                    class="me-2">Partners</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/handshake.png') }}"
+                                    alt="home" class="me-2">Partners</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                 href="{{ route('clients') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/Clients.png') }}" alt="home"
-                                    class="me-2">Clients</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/Clients.png') }}"
+                                    alt="home" class="me-2">Clients</a>
                         </li>
 
                         <li class="nav-item">
@@ -309,21 +312,21 @@
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                                 href="{{ route('contact') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/contact.png') }}" alt="home"
-                                    class="me-2">Contact Us</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/contact.png') }}"
+                                    alt="home" class="me-2">Contact Us</a>
                         </li>
                     </ul>
                 </div>
                 <div class="d-flex justify-content-start flex-md-row flex-column  w-100 ">
                     <div class="m-3 text-center">
-                        <a href="{{ route('contact') }}"
-                            class="btn btn-primary btn-lg w-100">Book a Free 1-to-1 Meeting
+                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg w-100">Book a Free 1-to-1
+                            Meeting
                             <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="offcanvas-footer border-top pt-2">
                     <div class="copyright text-md-end text-center">
-                        Copyright © Yuvnexus digital Pvt. Ltd.<br/> All Rights Reserved
+                        Copyright © Yuvnexus digital Pvt. Ltd.<br /> All Rights Reserved
                     </div>
                 </div>
             </div>
@@ -522,6 +525,19 @@
                                                 <i class="bi bi-arrow-right"></i></a>
                                         </div>
                                     </div>
+                                    <div>
+                                        <div class="floating-buttons">
+                                            <a href="https://wa.me/918824269821" target="_blank"
+                                                class="floating-whatsapp">
+                                                <img src="{{ asset('assets/websiteAssets/images/whatsapp-icon.png') }}"
+                                                    alt="WhatsApp"> whatsapp
+                                            </a>
+                                            <a href="tel:+918824269821" class="floating-call">
+                                                <img src="{{ asset('assets/websiteAssets/images/call-icon.png') }}"
+                                                    alt="Call">call
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!--// Single Widget -->
@@ -555,7 +571,7 @@
             </footer>
             <!-- //Footer Area -->
             <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
-            
+
             <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script>
 
         </div>
@@ -580,7 +596,7 @@
 
         <script src="{{ asset('assets/websiteAssets/js/lenis.min.js') }}"></script>
         <script src="{{ asset('assets/websiteAssets/js/lenis.js') }}"></script>
-            
+
         <!-- Add reCAPTCHA Script -->
         <script src="https://www.google.com/recaptcha/api.js?render=6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy"></script>
         <script>

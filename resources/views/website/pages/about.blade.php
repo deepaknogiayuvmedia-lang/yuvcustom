@@ -292,38 +292,38 @@
                 <div class="col-lg-12">
                     <div class="logo-slider">
                         <div class="logos-slide">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.webp') }}">
                         </div>
                     </div>
                     <div class="logo-slider2 mt-3">
                         <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/4.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/8.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/1.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/2.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/3.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/4.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/5.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/6.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/7.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Construction logo/8.webp') }}">
                         </div>
                     </div>
                     <div class="logo-slider3">
                         <div class="logos-slide3">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/4.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/8.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/1.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/2.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/3.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/4.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/5.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/6.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/7.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/Travel/8.webp') }}">
                         </div>
                     </div>
                 </div>

@@ -115,23 +115,23 @@ class WebsiteViews extends Controller
     }
     public function blogs()
     {
-        $blogs = Blog::orderBy('created_at','DESC')->paginate(12);
-        return view('website.pages.blogs',compact('blogs'));
+        $blogs = Blog::orderBy('created_at', 'DESC')->paginate(12);
+        return view('website.pages.blogs', compact('blogs'));
     }
     public function blogdetails($id)
     {
         $finalid = substr(strrchr($id, '-'), 1);
         $blogdetails = Blog::find($finalid);
-        $blogs = Blog::orderBy('created_at', 'desc')->get();perPage: 
+        $blogs = Blog::orderBy('created_at', 'desc')->get();
+        perPage:
         // dd( $blogdetails);
         return view('website.pages.blogdetails', compact('blogdetails', 'blogs'));
-
     }
     public function casestudies()
     {
-        $studies = CaseStudy::orderBy('created_at','DESC')->get();
+        $studies = CaseStudy::orderBy('created_at', 'DESC')->get();
         $categories = Master::where('type', 'Industry')->get();
-        return view('website.pages.casestudies',compact('studies','categories'));
+        return view('website.pages.casestudies', compact('studies', 'categories'));
     }
     public function casedetails($id)
     {
@@ -139,18 +139,16 @@ class WebsiteViews extends Controller
         $casedetails = CaseStudy::find($finalid);
         // dd( $blogdetails);
         return view('website.pages.caseStudyDetails', compact('casedetails'));
-
     }
     public function filterstudy($category)
     {
-        $casedetails = CaseStudy::where('category',$category)->get();
-       return response()->json( $casedetails);
-
+        $casedetails = CaseStudy::where('category', $category)->get();
+        return response()->json($casedetails);
     }
     public function influencer()
     {
         $categories = Master::where('type', 'Influencer')->get();
-        return view('website.pages.influencer',compact('categories'));
+        return view('website.pages.influencer', compact('categories'));
     }
     public function managingpartners()
     {
@@ -161,12 +159,12 @@ class WebsiteViews extends Controller
     {
         $city = request()->input('city');
         $partnersdata = Partner::where('city', $city)->orderByDesc('created_at')->get();
-       return response()->json( $partnersdata);
+        return response()->json($partnersdata);
     }
-    public function partnerDetails($id,$city)
+    public function partnerDetails($id, $city)
     {
         $partnersdata = Partner::where('id', $id)->orderByDesc('created_at')->get();
         $cityname = $city;
-        return view('website.pages.partnerdetails', compact('partnersdata','cityname'));
+        return view('website.pages.partnerdetails', compact('partnersdata', 'cityname'));
     }
 }

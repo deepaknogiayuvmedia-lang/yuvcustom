@@ -189,28 +189,28 @@
                 <div class="col-lg-12">
                     <div class="logo-slider">
                         <div class="logos-slide">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.webp') }}">
                         </div>
                     </div>
                     <div class="logo-slider2 mt-3 d-none">
                         <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/11.png') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/12.png') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.webp') }}">
+                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.webp') }}">
+                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/11.webp') }}">
+                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/12.webp') }}">
                         </div>
                     </div>
                 </div>
