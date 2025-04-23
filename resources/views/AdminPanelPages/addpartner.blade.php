@@ -73,7 +73,6 @@
                                             <span class="input-group-text" id="basic-addon1">+91</span>
                                             <input type="text" class="form-control" name="partnerphone" placeholder="Your Phone Number" aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
-                                        {{-- <input type="text" placeholder="Your Phone Number" name="partnerphone" class="form-control" required> --}}
                                     </div>
                                 </div>
                                 <div class="col-md-4">

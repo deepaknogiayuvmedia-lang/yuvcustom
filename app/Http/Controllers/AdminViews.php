@@ -131,6 +131,6 @@ class AdminViews extends Controller
     {   
         $partnerstypes = Master::where('type', 'Partner Type')->get();
         $partnersdata = Partner::orderByDesc('created_at')->get();
-        return view('AdminPanelPages.allpartnerspage', compact('partnersdata'));
+        return view('AdminPanelPages.allpartnerspage', compact('partnersdata','partnerstypes'));
     }
 }

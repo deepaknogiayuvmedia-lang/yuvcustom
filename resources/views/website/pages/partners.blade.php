@@ -40,6 +40,9 @@
                     <div class="me-0">
                         <a href="{{ route('contact') }}" class="btn btn-lg partnersbtn">Become Our Partner <i class="bi bi-arrow-right"></i></a>
                     </div>
+                    <div class="ms-3">
+                        <a href="{{ route('managingpartners') }}" class="btn btn-lg partnersbtn">Our Managing Partners <i class="bi bi-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">

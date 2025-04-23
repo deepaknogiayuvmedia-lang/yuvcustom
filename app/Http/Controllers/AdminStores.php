@@ -532,7 +532,7 @@ class AdminStores extends Controller
             $profileImage = null;
             if ($request->hasFile('profileimage')) {
                 $request->validate([
-                    'profileimage' => 'required|mimes:jpeg,png,jpg',
+                    'profileimage' => 'required|mimes:jpeg,png,jpg,webp',
                 ]);
 
                 $file = $request->file('profileimage');
@@ -588,5 +588,36 @@ class AdminStores extends Controller
 
         $data = $query->get();
         return response()->json(['data' => $data]);
+    }
+    public function updatePartner(Request $request)
+    {
+        try {
+            $profileImage = null;
+            if ($request->hasFile('profileimage')) {
+                $request->validate([
+                    'profileimage' => 'required|mimes:jpeg,png,jpg,webp',
+                ]);
+
+                $file = $request->file('profileimage');
+                $profileImage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/images/Partners'), $profileImage);
+            }
+
+            // Update the partner record
+            $data = Partner::where('id', $request->partnerid)->update([
+                'partnername' => $request->partnername,
+                'partnertype' => $request->partnertype,
+                'partneremail' => $request->partneremail,
+                'partnerphone' => $request->partnerphone,
+                'city' => $request->city,
+                'state' => $request->state,
+                'aboutuscontent' => $request->aboutuscontent,
+                'profileimage' => $profileImage ?? Partner::find($request->partnerid)->profileimage,
+            ]);
+
+            return back()->with('success', "Partner Updated..!!!");
+        } catch (Exception $e) {
+            return back()->with('error',$e->getMessage());
+        }
     }
 }

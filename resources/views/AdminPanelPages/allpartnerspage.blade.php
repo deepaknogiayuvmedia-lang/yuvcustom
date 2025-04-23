@@ -59,6 +59,9 @@
                                     <a href="#">
                                         <img src="{{ asset("assets/images/Partners/{$value->profileimage}") }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover;">
                                     </a>
+                                     <a href="#" data-partner="{{json_encode($value)}}" data-bs-toggle="modal" data-bs-target="#primary-header-modal" class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 editbtnmodal">
+                                        <i class="ti ti-edit fs-4"></i>
+                                    </a>
                                 </div>
                                 <div class="card-body pt-3 p-4">
                                     <h6 class="fs-4">{{$value->partnername}}</h6>
@@ -79,8 +82,34 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <div id="primary-header-modal" class="modal fade" tabindex="-1" aria-labelledby="primary-header-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header modal-colored-header bg-primary text-white">
+                    <h4 class="modal-title text-white" id="primary-header-modalLabel">
+                        Edit Details
+                    </h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
+                <form action="{{route('admin.updatePartner')}}" class="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="modal-body" id="modalbodyedit">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <button type="submit" class="btn bg-primary-subtle text-primary ">
+                            Save changes
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     {{-- Filter Category --}}
     <script>
         $('#filterBtn').on('click', function() {
@@ -138,6 +167,9 @@
                                             <a href="#">
                                                 <img src="{{ asset('assets/images/Partners/${value.profileimage}') }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover;">
                                             </a>
+                                             <a href="#" data-partner='${JSON.stringify(value)}' class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 editbtnmodal" data-bs-toggle="modal" data-bs-target="#primary-header-modal">
+                                                <i class="ti ti-edit fs-4"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body pt-3 p-4">
                                             <h6 class="fs-4">${value.partnername}</h6>
@@ -161,5 +193,85 @@
             });
         });
 
+    </script>
+
+ {{-- Edit Partner --}}
+    <script>
+        $('.editbtnmodal').on('click', function() {
+            const partnerdata = $(this).data('partner');
+            const partnerstypes = {{ Js::from($partnerstypes) }};
+            console.log(partnerstypes);
+            console.log(partnerdata);
+            $('#modal-body').empty();
+            const imageSrc = partnerdata.profileimage ? '{{ asset('assets/images/Partners/') }}/' + partnerdata.profileimage : '{{asset('assets/images/Categories/placeholder.png') }}';
+            $('#modalbodyedit').html(`
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">Name<span class="text-danger">*</span></label>
+                                <input type="text" value="${partnerdata.partnername}" placeholder="Partner Name" name="partnername" class="form-control" required>
+                                <input type="hidden" value="${partnerdata.id}" name="partnerid" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">Partner Type<span class="text-danger">*</span></label>
+                                <select name="partnertype" class="form-select mr-sm-2 mb-2" id="inlineFormCustomSelect" required>
+                                    <option selected="">--select partner type--</option>
+                                    ${partnerstypes.map(type => `
+                                    <option value="${type.label}" ${partnerdata.partnertype == type.label ? 'selected' : ''}>${type.label}</option>
+                                    `).join('')}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">Email Address<span class="text-danger">*</span></label>
+                                <input type="email" value="${partnerdata.partneremail}" placeholder="Your Email Address" name="partneremail" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">Phone Number<span class="text-danger">*</span></label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">+91</span>
+                                    <input type="text" value="${partnerdata.partnerphone}" class="form-control" name="partnerphone" placeholder="Your Phone Number" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">City<span class="text-danger">*</span></label>
+                                <input type="text" value="${partnerdata.city}" id="address" placeholder="Enter City to Search" name="city" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label class="form-label">State<span class="text-danger">*</span></label>
+                                <input type="text" value="${partnerdata.state}" placeholder="State" id="stateinput" name="state" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label">About Us Content<span class="text-danger">*</span></label>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" name="aboutuscontent" placeholder="Your Content Here...">${partnerdata.aboutuscontent}"</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="text-start">
+                        <img id="partnerImagePreview" src="${imageSrc}" alt="Partner Image" class="img-fluid rounded" style="max-height: 300px; object-fit: cover;">
+                        <div class="mt-3">
+                            <label class="form-label">Upload Image</label>
+                            <input type="file" name="profileimage" class="form-control" accept="image/*">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `);
+         });
     </script>
 </x-app-layout>

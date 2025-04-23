@@ -75,6 +75,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::post('/insertpartner', [AdminStores::class, 'insertpartner'])->name('admin.insertpartner');
     Route::get('/allpartners', [AdminViews::class, 'allpartners'])->name('admin.allpartners');
     Route::post('/FilterPartners', [AdminStores::class, 'FilterPartners'])->name('admin.FilterPartners');
+    Route::post('/updatePartner', [AdminStores::class, 'updatePartner'])->name('admin.updatePartner');
 
 });
 
