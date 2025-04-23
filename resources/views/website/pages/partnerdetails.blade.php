@@ -1,13 +1,15 @@
 @extends('website.layout.websitemain')
 @section('title', $cityname . ' | ' . config('app.name'))
 @section('content')
-<section class="py-5 ">
+<section class="py-5">
     <div class="container py-4">
-        <div class="card p-4 shadow rounded-4 bg-white">
+        <div class="card p-4 shadow rounded-4 " style="
+            background-image: url('{{ asset('assets/websiteAssets/images/graphicsectionback.jpg') }}'); 
+            background-repeat: repeat; background-position: center; background-size: cover">
             <div class="row align-items-center">
                 <!-- Left Image Section -->
                 <div class="col-md-4 text-center">
-                    <img src="{{ asset('assets/images/Partners/' . $partnersdata->profileimage) }}" alt="Profile Image" class="img-fluid rounded" style="max-height: 300px; object-fit: cover;">
+                    <img src="{{ asset('assets/images/Partners/' . $partnersdata->profileimage) }}" alt="Profile Image" class="img-fluid rounded-4" style="max-height: 300px; object-fit: cover;">
                 </div>
 
                 <!-- Right Info Section -->
@@ -23,11 +25,20 @@
                     <p class="mb-4">
                         <i class="bi bi-telephone-fill me-2 text-primary"></i>+91-{{$partnersdata->partnerphone}}
                     </p>
-                    <a href="#" class="btn btn-primary shadow-sm px-4 py-2">Schedule a Meeting</a>
+                    <a href="tel:+91{{$partnersdata->partnerphone}}" class="btn btn-primary shadow-sm px-4 py-2 me-2">
+                        <i class="bi bi-telephone-fill me-2"></i>Call
+                    </a>
+                    <a href="https://wa.me/+91{{$partnersdata->partnerphone}}" target="_blank" class="btn btn-success shadow-sm px-4 py-2 me-2">
+                        <i class="bi bi-whatsapp me-2"></i>WhatsApp
+                    </a>
+                    <a href="#formsection" class="btn btn-dark shadow-sm px-4 py-2">
+                        <i class="bi bi-envelope-fill me-2"></i>Enquiry
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
 </section>
 
 <section class="" style="background-color: #ffffff;">
@@ -43,11 +54,11 @@
                     {{$partnersdata->aboutuscontent}}
                 </p>
             </div>
-            <div class="d-flex justify-content-start flex-wrap">
+            {{-- <div class="d-flex justify-content-start flex-wrap">
                 <div class="me-0">
                     <a href="{{ route('contact') }}" class="btn btn-lg partnersbtnsecthree">Become Our Partner <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     </div>
@@ -212,7 +223,7 @@
 </section>
 
 
-<section class="py-3 py-md-5" style="background-color: #f6faff;">
+<section class="py-3 py-md-5" style="background-color: #f6faff;" id="formsection">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">

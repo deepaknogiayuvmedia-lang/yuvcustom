@@ -21,19 +21,14 @@
     <div class="d-flex-justify-content-center client-container">
         <div class="row  py-md-3 py-1 mt-3">
             <div class="col-md-12">
-                <div class="d-flex align-items-center">
-                    <div class="flex-grow-1 me-2">
-                        <label for="labelid">Select City <span class="text-danger fs-5 mb-3">*</span></label>
-                        <select name="category" class="form-select p-3 rounded-5" id="citydrop" required>
-                            <option value="" selected>--select city--</option>
-                            @foreach($partnersdata->unique('city') as $key => $value)
-                            <option value="{{$value->city}}">{{ucfirst($value->city)}}</option>
-                            @endforeach
-                        </select>
-                    </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary rounded-5" id="find-btn">Find</button>
-                    </div>
+                <div class="input-group">
+                    <select name="category" class="form-select p-2" id="citydrop" aria-label="Example select with button addon" required>
+                        <option selected>Choose...</option>
+                        @foreach($partnersdata->unique('city') as $key => $value)
+                        <option value="{{$value->city}}">{{ucfirst($value->city)}}</option>
+                        @endforeach
+                    </select>
+                    <button class="btn btn-primary p-2" type="button" id="find-btn">Find</button>
                 </div>
             </div>
         </div>
@@ -50,7 +45,7 @@
                                 <i class="bi bi-star me-1 text-primary"></i>
                                 <a href="#" class="text-decoration-none text-primary fw-semibold">{{ ucfirst($row->partnertype) }}</a>
                             </p>
-                            <a href="/partnerDetails/{{$row->id}}/{{$row->city}}" class="btn btn-primary mt-2 rounded-3">View More</a>
+                            <a href="/partnerDetails/{{$row->id}}/{{$row->city}}" class="btn-sm btn btn-primary mt-2 rounded-3">View More</a>
                         </div>
                         <div class="ms-3">
                             <img src="{{ asset('assets/images/Partners/' . $row->profileimage) }}" alt="Profile" class="rounded" style="width: 100%; height: 140px; object-fit: cover;">
@@ -70,12 +65,12 @@
             console.log(selectedcity);
 
             $.ajax({
-                url: "/filterpartner/",
-                type: "GET",
-                data: {
+                url: "/filterpartner/"
+                , type: "GET"
+                , data: {
                     city: selectedcity
-                },
-                success: function(response) {
+                }
+                , success: function(response) {
                     console.log(response);
                     $('#partnercards').empty();
 
@@ -93,7 +88,7 @@
                                                     <i class="bi bi-star me-1 text-primary"></i>
                                                     <a href="#" class="text-decoration-none text-primary fw-semibold">${data.partnertype}</a>
                                                 </p>
-                                                <a href="/partnerDetails/${data.id}/${data.city}" class="btn btn-primary mt-2 rounded-3">View More</a>
+                                                <a href="/partnerDetails/${data.id}/${data.city}" class="btn-sm btn btn-primary mt-2 rounded-3">View More</a>
                                             </div>
                                             <div class="ms-3">
                                                 <img src="/assets/images/Partners/${data.profileimage}" alt="Profile" class="rounded" style="width: 100%; height: 140px; object-fit: cover;">
@@ -106,12 +101,13 @@
                     } else {
                         $('#partnercards').append(`<p class="text-muted text-center">No Partners Found</p>`);
                     }
-                },
-                error: function() {
+                }
+                , error: function() {
                     $('#partnercards').append(`<p class="text-muted text-center">Error fetching data. Please try again.</p>`);
                 }
             });
         });
     });
+
 </script>
 @endsection
