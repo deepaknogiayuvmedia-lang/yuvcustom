@@ -88,7 +88,7 @@
                                         @foreach ($allcategories as $index => $rows)
                                         <tr>
                                             <td>{{ $index + 1}}</td>
-                                            <td>{{ $rows->label}}</td>
+                                            <td>{{ ucwords($rows->label)}}</td>
                                             <td>
                                                 @if($rows->type == 'Master')
                                                 <span class="badge bg-secondary">Parent Category</span>

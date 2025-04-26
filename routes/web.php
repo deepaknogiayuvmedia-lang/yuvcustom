@@ -76,6 +76,11 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/allpartners', [AdminViews::class, 'allpartners'])->name('admin.allpartners');
     Route::post('/FilterPartners', [AdminStores::class, 'FilterPartners'])->name('admin.FilterPartners');
     Route::post('/updatePartner', [AdminStores::class, 'updatePartner'])->name('admin.updatePartner');
+    Route::get('/deletePartner/{id}', [AdminStores::class, 'deletePartner'])->name('admin.deletePartner');
+    Route::get('/deleteInfluencer/{id}', [AdminStores::class, 'deleteInfluencer'])->name('admin.deleteInfluencer');
+    Route::get('/uploadclients', [AdminViews::class, 'uploadclients'])->name('admin.uploadclients');
+    Route::post('/insertlogos', [AdminStores::class, 'insertlogos'])->name('admin.insertlogos');
+    Route::get('/removelogo', [AdminStores::class, 'removelogo'])->name('admin.removelogo');
 
 });
 

@@ -23,8 +23,15 @@ class AdminViews extends Controller
 {
     public function admindashboard()
     {
-        
-        return view('AdminPanelPages.dashboard');
+        $users = RegisterUser::count();
+        $influencers = Influencer::count();
+        $partners = Partner::count();
+        $blogs = Blog::count();
+        $cases = CaseStudy::count();
+        $blogsdata = Blog::orderBy('created_at', 'DESC')->get();
+        $casesdata = CaseStudy::orderBy('created_at', 'DESC')->get(); 
+        $allusers = User::orderBy('created_at', 'desc')->get();
+        return view('AdminPanelPages.dashboard', compact('allusers','casesdata','blogsdata','users', 'influencers', 'partners', 'blogs', 'cases'));
     }
     public function master()
     {
@@ -132,5 +139,8 @@ class AdminViews extends Controller
         $partnerstypes = Master::where('type', 'Partner Type')->get();
         $partnersdata = Partner::orderByDesc('created_at')->get();
         return view('AdminPanelPages.allpartnerspage', compact('partnersdata','partnerstypes'));
+    }
+    public function uploadclients(){
+        return view('AdminPanelPages.uploadclientlogo');
     }
 }

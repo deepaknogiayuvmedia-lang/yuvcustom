@@ -20,6 +20,7 @@ use App\Models\Master;
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Auth;
+use File;
 use Illuminate\Support\Facades\Hash;
 
 class AdminStores extends Controller
@@ -509,9 +510,9 @@ class AdminStores extends Controller
 
         if (!empty($platforms)) {
             $query->where(function ($q) use ($platforms) {
-            foreach ($platforms as $platform) {
-                $q->orWhereJsonContains('platforms', $platform);
-            }
+                foreach ($platforms as $platform) {
+                    $q->orWhereJsonContains('platforms', $platform);
+                }
             });
         }
 
@@ -572,9 +573,9 @@ class AdminStores extends Controller
 
         if (!empty($platforms)) {
             $query->where(function ($q) use ($platforms) {
-            foreach ($platforms as $platform) {
-                $q->orWhereJsonContains('platforms', $platform);
-            }
+                foreach ($platforms as $platform) {
+                    $q->orWhereJsonContains('platforms', $platform);
+                }
             });
         }
 
@@ -617,7 +618,73 @@ class AdminStores extends Controller
 
             return back()->with('success', "Partner Updated..!!!");
         } catch (Exception $e) {
-            return back()->with('error',$e->getMessage());
+            return back()->with('error', $e->getMessage());
         }
     }
+    public function deletePartner($id)
+    {
+        try {
+            $data = Partner::find($id);
+            $data->delete();
+            return back()->with('success', "Deleted..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+    public function deleteInfluencer($id)
+    {
+        try {
+            $data = Influencer::find($id);
+            $data->delete();
+            return back()->with('success', "Deleted..!!!");
+        } catch (Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
+    }
+    public function insertlogos(Request $request)
+    {
+        try {
+            $mediaImages = [];
+
+            if ($request->hasFile('logos')) {
+                $request->validate([
+                    'logos.*' => 'required|mimes:jpeg,png,jpg,webp',
+                    'directoryname' => 'required|string',
+                ]);
+
+                $directoryname = $request->input('directoryname');
+                $files = $request->file('logos');
+
+                foreach ($files as $file) {
+                    $imageFullName = time() . '_' . $file->getClientOriginalName();
+                    $uploadedPath = public_path("assets/websiteAssets/images/clients/{$directoryname}");
+
+                    // Make directory if not exists
+                    if (!file_exists($uploadedPath)) {
+                        mkdir($uploadedPath, 0777, true);
+                    }
+
+                    $file->move($uploadedPath, $imageFullName);
+                    $mediaImages[] = asset("assets/websiteAssets/images/clients/{$directoryname}/" . $imageFullName);
+                }
+            }
+
+            return response()->json([
+                'message' => 'Media inserted successfully!',
+                'images' => $mediaImages, // Return images list to AJAX
+            ]);
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
+        }
+    }
+    public function removelogo(Request $request){
+        $filename = public_path("assets/websiteAssets/images/clients/$request->directoryname/" . basename($request->url));
+        // dd( $filename);
+        if (File::exists($filename)) {
+            File::delete($filename);
+            return response()->json(['success' => true]);
+        }
+        return response()->json(['success' => false], 404);
+    }
+
 }

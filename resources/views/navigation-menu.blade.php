@@ -53,11 +53,11 @@
                       </a>
                   </li>
                   <li class="sidebar-item">
-                      <a class="sidebar-link" href="{{route ('admin.addclients')}}" aria-expanded="false">
+                      <a class="sidebar-link" href="{{route ('admin.uploadclients')}}" aria-expanded="false">
                           <span>
                               <i class="ti ti-users-plus"></i>
                           </span>
-                          <span class="hide-menu">Clients</span>
+                          <span class="hide-menu">Add Client Logos</span>
                       </a>
                   </li>
                   <li class="sidebar-item">

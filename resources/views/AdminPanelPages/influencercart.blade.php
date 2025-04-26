@@ -111,6 +111,9 @@
                                     <a href="#" data-influ="{{json_encode($value)}}" class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 addtoCartBtn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart">
                                         <i class="ti ti-basket fs-4"></i>
                                     </a>
+                                    <a href="#" onclick="confirmDelete('{{ $value->id }}','{{ $value->fullname }}')" class="delete-btn d-inline-flex text-bg-danger rounded-circle p-2 text-white  mb-n3 ms-3" style="position: absolute; bottom: 0px; left: 67%;">
+                                        <i class="ti ti-x fs-4"></i>
+                                    </a>
                                 </div>
                                 <div class="card-body pt-3 p-4">
                                     <h6 class="fs-4">{{$value->fullname}}</h6>
@@ -134,6 +137,26 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script>
+        function confirmDelete(id,name) {
+            Swal.fire({
+                    title: "Are you sure?"
+                    , html: "You want to delete Influencer <strong>" + name + "</strong> from cart?"
+                    , icon: "warning"
+                    , showCancelButton: true
+                    , confirmButtonColor: "#222222"
+                    , cancelButtonColor: "#d33"
+                    , confirmButtonText: "Yes, delete it!"
+                    , cancelButtonText: "Cancel"
+                })
+                .then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = "/admin/deleteInfluencer/" + id;
+                    }
+                });
+        }
+
+    </script>
     {{-- Add to Cart --}}
     <script>
         $(document).ready(function() {
@@ -257,6 +280,9 @@
                                             </a>
                                             <a href="#" data-influ='${JSON.stringify(value)}' class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 addtoCartBtn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart">
                                                 <i class="ti ti-basket fs-4"></i>
+                                            </a>
+                                             <a href="#" onclick="confirmDelete('${value.id}','${value.fullname}')" class="delete-btn d-inline-flex text-bg-danger rounded-circle p-2 text-white  mb-n3 ms-3" style="position: absolute; bottom: 0px; left: 67%;">
+                                                <i class="ti ti-x fs-4"></i>
                                             </a>
                                         </div>
                                         <div class="card-body pt-3 p-4">
