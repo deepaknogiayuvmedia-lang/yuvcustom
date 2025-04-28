@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2025 at 03:28 PM
+-- Generation Time: Apr 28, 2025 at 01:58 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,8 +65,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:1;', 1745220987),
-('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1745220987;', 1745220987);
+('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:1;', 1745831537),
+('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1745831537;', 1745831537);
 
 -- --------------------------------------------------------
 
@@ -180,8 +180,6 @@ CREATE TABLE `influencers` (
 
 INSERT INTO `influencers` (`id`, `category`, `userid`, `city`, `state`, `country`, `dob`, `fullname`, `contactnumber`, `emailaddress`, `profileimage`, `instagramprofilelink`, `platforms`, `facebookprofile`, `youtubeprofile`, `linkedinprofile`, `verificationstatus`, `created_at`, `updated_at`) VALUES
 (12, 'Entertainment', 'kishanyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Kishan Gopal', '9874562156', 'kishanyuvmedia@gmail.com', '1743234379_FnkWDXIXoAEEUZt.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Instagram\",\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-16 07:49:13'),
-(15, 'Gaming', 'anshulyuvmedia@gmail.com', 'jaipur', 'Rajasthan', NULL, '2025-04-18', 'Anshul Kumar', '5658458585', 'anshulyuvmedia@gmail.com', 'webdevelopnew.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Instagram\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-18 06:07:11'),
-(16, 'Sports', 'anshulyuvmedia@gmail.com', 'bhilwara', 'Rajasthan', NULL, '2025-04-18', 'Nitesh Sharma', '5658458585', 'anshulyuvmedia@gmail.com', 'webdevelopnew.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-18 06:06:49'),
 (17, 'Gaming', 'nitesh.yuvmedia@gmail.com', 'Jaipur', 'Rajasthan', 'India', '2025-04-16', 'Priteek Jain', '917678045430', 'nitesh.yuvmedia@gmail.com', '1744959127_avatar-3.jpg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'pending', '2025-04-18 01:22:07', '2025-04-18 06:54:42');
 
 -- --------------------------------------------------------
@@ -263,6 +261,31 @@ INSERT INTO `masters` (`id`, `label`, `type`, `categoryimage`, `created_at`, `up
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `meta_settings`
+--
+
+CREATE TABLE `meta_settings` (
+  `id` int(11) NOT NULL,
+  `metatitle` varchar(255) DEFAULT NULL,
+  `page` varchar(255) DEFAULT NULL,
+  `authorname` varchar(255) DEFAULT NULL,
+  `metadescription` text DEFAULT NULL,
+  `keywords` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `meta_settings`
+--
+
+INSERT INTO `meta_settings` (`id`, `metatitle`, `page`, `authorname`, `metadescription`, `keywords`, `created_at`, `updated_at`) VALUES
+(1, 'dummy', 'about', 'Dummy Author', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur id reiciendis optio, deserunt cumque quaerat veniam sunt inventor', '[\"digital marketing\",\"IT\"]', '2025-04-28 04:19:37', '2025-04-28 10:48:31'),
+(3, 'dummy Home', 'homepage', 'dummy Author Home', 'sdfdsfdsdsf', '[\"home\",\"about\",\"dummy home\"]', '2025-04-28 04:34:39', '2025-04-28 10:48:25');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `migrations`
 --
 
@@ -305,7 +328,8 @@ CREATE TABLE `my_carts` (
 INSERT INTO `my_carts` (`id`, `productid`, `userid`, `created_at`, `updated_at`) VALUES
 (62, '12', '1', '2025-04-16 00:12:12', '2025-04-16 00:12:12'),
 (63, '15', '1', '2025-04-16 00:12:26', '2025-04-16 00:12:26'),
-(64, '17', '1', '2025-04-21 02:10:35', '2025-04-21 02:10:35');
+(64, '17', '1', '2025-04-21 02:10:35', '2025-04-21 02:10:35'),
+(65, '12', '1', '2025-04-26 02:41:35', '2025-04-26 02:41:35');
 
 -- --------------------------------------------------------
 
@@ -332,9 +356,7 @@ CREATE TABLE `partners` (
 --
 
 INSERT INTO `partners` (`id`, `partnername`, `partnertype`, `partneremail`, `partnerphone`, `city`, `state`, `aboutuscontent`, `profileimage`, `created_at`, `updated_at`) VALUES
-(1, 'Mr.Kishan Gopal', 'Managing Partner', 'kishangopal.yuvmedia@gmail.com', '8695425858', 'ajmer', 'Rajasthan', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.', '1745229876_avatar-3.jpg', '2025-04-21 04:34:36', '2025-04-21 11:47:53'),
-(2, 'Mr.Nitesh Sharma', 'Managing Partner', 'nitesh.yuvmedia@gmail.com', '5645745854', 'Jaipur', 'Rajasthan', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.', '1745231858_ChatGPT Image Apr 3, 2025, 01_16_46 PM.png', '2025-04-21 05:07:38', '2025-04-21 11:47:58'),
-(3, 'Miss.Anshi Gupta', 'Managing Partner', 'anshiii.yuvmedia@gmail.com', '2535695858', 'Vadodra', 'Gujarat', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.', 'Anurag09.jpg', '2025-04-21 05:07:38', '2025-04-21 11:48:04');
+(2, 'Mr. Nitesh Sharma', 'Managing Partner', 'nitesh.yuvmedia@gmail.com', '5645745854', 'Bhilwara', 'Rajasthan', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.\"\"\"\"', '1745392284_Nitesh.webp', '2025-04-21 05:07:38', '2025-04-23 02:53:40');
 
 -- --------------------------------------------------------
 
@@ -458,8 +480,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('LOyhA7unonfHg8LZXWBwmovggYlplahmW11MDww5', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiUXBJUXFiQVB3a0dGTE9hMWF3V2RGcHcyejVoVFlzbVRIMmVXUDMzaCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9tYW5hZ2luZ3BhcnRuZXJzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMiQ5NGJoVklyZXVEQ3pGbzFYcFptazNlVm5HN3c4TVZUeng4ajV4eVQydkgvMUpuLmZnTzJ2UyI7fQ==', 1745241242),
-('yxetEaEtQSPBG4D4ByklqPGaWk3bGBhtIq1CHseN', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRG1GcDN3RW9wOWRUcURTSjY1b1lXcVNFMTdiSThCWXU5d2RtTGFNaCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9tYW5hZ2luZ3BhcnRuZXJzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1745235066);
+('C8Y3UAJ6vZavDUG7qw5A27uv5dZA2G17bjkIK712', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoidzU1RUVNSXNoaE9oZE5RQTVmdnI1QWoxRFRxS3R3MkJMRjVOcjdsOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1745840736);
 
 -- --------------------------------------------------------
 
@@ -559,6 +580,12 @@ ALTER TABLE `job_batches`
 -- Indexes for table `masters`
 --
 ALTER TABLE `masters`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `meta_settings`
+--
+ALTER TABLE `meta_settings`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -664,7 +691,13 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `masters`
 --
 ALTER TABLE `masters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+
+--
+-- AUTO_INCREMENT for table `meta_settings`
+--
+ALTER TABLE `meta_settings`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -676,7 +709,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `my_carts`
 --
 ALTER TABLE `my_carts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 
 --
 -- AUTO_INCREMENT for table `partners`

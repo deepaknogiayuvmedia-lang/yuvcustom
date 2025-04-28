@@ -8,6 +8,7 @@ use App\Models\Client;
 use App\Models\Influencer;
 use App\Models\InvestSetting;
 use App\Models\Lead;
+use App\Models\MetaSetting;
 use App\Models\MyCart;
 use App\Models\Nortification;
 use App\Models\Partner;
@@ -22,6 +23,7 @@ use Illuminate\Support\Facades\Log;
 use Auth;
 use File;
 use Illuminate\Support\Facades\Hash;
+use PHPUnit\Metadata\Metadata;
 
 class AdminStores extends Controller
 {
@@ -677,7 +679,8 @@ class AdminStores extends Controller
             return response()->json(['error' => true, 'message' => $e->getMessage()]);
         }
     }
-    public function removelogo(Request $request){
+    public function removelogo(Request $request)
+    {
         $filename = public_path("assets/websiteAssets/images/clients/$request->directoryname/" . basename($request->url));
         // dd( $filename);
         if (File::exists($filename)) {
@@ -685,6 +688,31 @@ class AdminStores extends Controller
             return response()->json(['success' => true]);
         }
         return response()->json(['success' => false], 404);
+    }
+    public function saveMetaSettings(Request $request)
+    {
+        try {
+
+            // Create the meta record
+            $data = MetaSetting::updateOrCreate(
+                ['page' => $request->page],
+                [
+                    'metatitle' => $request->metatitle,
+                    'authorname' => $request->authorname,
+                    'metadescription' => $request->metadescription,
+                    'keywords' => $request->keywords,
+                ]
+            );
+
+            return response()->json(['data' => $data, 'message' => 'Settings Saved successfully!']);
+        } catch (Exception $e) {
+            return response()->json(['error' => true, 'message' => $e->getMessage()]);
+        }
+    }
+    public function GetMetaSettings(Request $request)
+    {
+        $data = MetaSetting::where('page', $request->pagename)->first();
+        return response()->json(['data' => $data, 'status' => 200]);
     }
 
 }

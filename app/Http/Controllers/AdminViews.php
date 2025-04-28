@@ -143,4 +143,7 @@ class AdminViews extends Controller
     public function uploadclients(){
         return view('AdminPanelPages.uploadclientlogo');
     }
+    public function metasettings(){
+        return view('AdminPanelPages.metasettings');
+    }
 }

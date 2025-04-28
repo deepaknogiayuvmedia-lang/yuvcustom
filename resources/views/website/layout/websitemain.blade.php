@@ -4,8 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>YUVMEDIA - Next Level Partner</title>
-    <meta name="description" content="">
+    @php
+        use App\Models\MetaSetting;
+        $metadetails = MetaSetting::where('page', request()->route()->getName())->first();
+        $keywords = optional($metadetails)->keywords;
+        $keywordsArray = is_string($keywords) ? json_decode($keywords, true) : $keywords;
+    @endphp
+    <title>{{ $metadetails->metatitle ?? 'YUVMEDIA - Next Level Partner' }}</title>
+    <meta property="og:image" content="{{ asset('assets/websiteAssets/images/favicon.ico') }}">
+    <meta property="og:image:alt" content="Yuvmedia - Next Level Partner">
+    <meta name="description" content="{{ optional($metadetails)->metadescription }}">
+    <meta name="keywords" content="{{ is_array($keywordsArray) ? implode(', ', array_map('ucfirst', $keywordsArray)) : ucfirst($keywordsArray) }}">
+    <meta name="author" content="{{ $metadetails->authorname ?? 'Yuvmedia' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicons -->

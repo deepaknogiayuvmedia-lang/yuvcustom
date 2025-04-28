@@ -6,6 +6,7 @@ use App\Models\Blog;
 use App\Models\CaseStudy;
 use App\Models\Influencer;
 use App\Models\Master;
+use App\Models\MetaSetting;
 use App\Models\Partner;
 use Illuminate\Http\Request;
 use Laravel\Fortify\Actions\ConfirmPassword;

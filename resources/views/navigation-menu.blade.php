@@ -148,6 +148,14 @@
                           </li>
                       </ul>
                   </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-link" href="{{route ('admin.metasettings')}}" aria-expanded="false">
+                          <span>
+                             <i class="ti ti-file-settings"></i>
+                          </span>
+                          <span class="hide-menu">Meta Tag Settings</span>
+                      </a>
+                  </li>
               </ul>
           </nav>
 

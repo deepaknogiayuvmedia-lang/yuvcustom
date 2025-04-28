@@ -81,7 +81,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/uploadclients', [AdminViews::class, 'uploadclients'])->name('admin.uploadclients');
     Route::post('/insertlogos', [AdminStores::class, 'insertlogos'])->name('admin.insertlogos');
     Route::get('/removelogo', [AdminStores::class, 'removelogo'])->name('admin.removelogo');
-
+    Route::get('/meta-settings', [AdminViews::class, 'metasettings'])->name('admin.metasettings');
+    Route::post('/saveMetaSettings', [AdminStores::class, 'saveMetaSettings'])->name('admin.saveMetaSettings');
+    Route::post('/GetMetaSettings', [AdminStores::class, 'GetMetaSettings'])->name('admin.GetMetaSettings');
 });
 
 
