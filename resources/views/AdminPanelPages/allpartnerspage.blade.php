@@ -189,7 +189,7 @@
                                             <a href="#">
                                                 <img src="{{ asset('assets/images/Partners/${value.profileimage}') }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover;">
                                             </a>
-                                            <a href="#" data-partner="{{json_encode($value)}}" class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 editbtnmodal" data-bs-toggle="modal" data-bs-target="#primary-header-modal">
+                                            <a href="#" data-partner='${JSON.stringify(value)}' class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 editbtnmodal" data-bs-toggle="modal" data-bs-target="#primary-header-modal">
                                                 <i class="ti ti-edit fs-4"></i>
                                             </a>
                                             <a href="#" onclick="confirmDelete('${value.id}','${value.partnername}')" class="delete-btn d-inline-flex text-bg-danger rounded-circle p-2 text-white mb-n3 ms-3" style="position: absolute; bottom: 0px; left: 67%;">
@@ -221,7 +221,7 @@
 
     {{-- Edit Partner --}}
     <script>
-        $('.editbtnmodal').on('click', function() {
+        $(document).on('click', '.editbtnmodal', function() {
             console.log('modale called');
 
             const partnerdata = $(this).data('partner');
