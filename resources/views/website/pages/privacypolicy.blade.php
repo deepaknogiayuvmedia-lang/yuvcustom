@@ -1,185 +1,82 @@
 @extends('website.layout.websitemain')
-@section('title', 'Privacy policy | ' . config('app.name'))
+@section('title', 'Privacy Policy | ' . config('app.name'))
 @section('content')
-<style>
-    :root { font-size: 16px; }
-    @media (max-width: 500px) { :root { font-size: 14px; } }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<section class="py-3 py-md-3" style="background-color: #e4f0ff;">
+    <div class="container py-3 py-md-4">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="globaltxtcolor mb-4">
+                    Privacy Policy
+                </div>
+                <div class="text-dark">
+                    <p><strong>Effective Date:</strong> {{ \Carbon\Carbon::now()->format('F d, Y') }}</p>
 
-    ::selection {
-      background: #87cd33;
-      color: white;
-    }
+                    <p>At <strong>Yuvmedia</strong>, accessible from <a href="https://yuvmedia.com">https://yuvmedia.com</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy outlines the types of information that are collected and recorded by Yuvmedia and how we use it.</p>
 
-    body {
-      overflow: hidden;
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-    }
+                    <h5>1. Information We Collect</h5>
+                    <ul>
+                        <li><strong>Personal Information:</strong> Name, Email, Phone Number, Company Name, Preferences.</li>
+                        <li><strong>Non-Personal Information:</strong> IP address, browser type, operating system, and usage behavior via cookies.</li>
+                    </ul>
 
-    h1 { font-size: 5rem; }
-    h2 { font-size: 2rem; }
+                    <h5>2. How We Use Your Information</h5>
+                    <ul>
+                        <li>To provide and improve our services.</li>
+                        <li>To personalize user experience.</li>
+                        <li>To communicate via email, WhatsApp, or phone regarding inquiries or services.</li>
+                        <li>For marketing and promotional activities.</li>
+                        <li>To comply with legal requirements.</li>
+                    </ul>
 
-    img {
-      width: 100%;
-      height: auto;
-      background: #f0f0f0;
-    }
+                    <h5>3. Services Covered</h5>
+                    <p>This Privacy Policy applies to all Yuvmedia services:</p>
+                    <ul>
+                        <li>SEO</li>
+                        <li>Social Media</li>
+                        <li>WhatsApp Marketing</li>
+                        <li>Video Production</li>
+                        <li>Web Development</li>
+                        <li>Designing Services</li>
+                        <li>Performance Media</li>
+                        <li>Marketplace Expertise</li>
+                        <li>Influencer Marketing</li>
+                        <li>Google Business Profile</li>
+                        <li>ERP Services</li>
+                        <li>Email Marketing</li>
+                    </ul>
 
-    ul {
-      padding-left: 1rem;
-      list-style: none;
-    }
+                    <h5>4. Sharing of Information</h5>
+                    <p>We do not sell your data. Information may be shared with trusted partners or to comply with laws.</p>
 
-    li {
-      flex-shrink: 0;
-      width: clamp(500px, 60vw, 800px);
-      padding-right: 1rem;
-    }
+                    <h5>5. Cookies</h5>
+                    <p>We use cookies to improve site performance and user experience. You can disable cookies in your browser settings.</p>
 
-    header { height: 100vh; }
-    footer { height: 50vh; }
+                    <h5>6. Data Retention</h5>
+                    <p>We retain your data only for as long as necessary to fulfill the purposes outlined in this policy.</p>
 
-    :any-link { color: #4e9815; }
+                    <h5>7. Your Rights</h5>
+                    <p>You have the right to access, correct, or request deletion of your data. Contact us at <a href="mailto:support@yuvmedia.com">support@yuvmedia.com</a> to exercise your rights.</p>
 
-    .df { display: flex; }
-    .aic { align-items: center; }
-    .jcc { justify-content: center; }
+                    <h5>8. Data Security</h5>
+                    <p>We implement technical and organizational measures to protect your data.</p>
 
-    .loader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: black;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
+                    <h5>9. Third-Party Links</h5>
+                    <p>We are not responsible for the content or practices of third-party websites linked from our site.</p>
 
-    .demo-wrapper {
-      overflow-x: hidden;
-    }
+                    <h5>10. Changes to This Policy</h5>
+                    <p>We may update this policy from time to time. The latest version will always be posted on this page.</p>
 
-    .wrapper {
-      display: flex;
-    }
+                    <h5>11. Contact Information</h5>
+                    <p>For any questions, contact us at:</p>
+                    <p><strong>Yuvmedia Studio</strong><br>
+                    Email: <a href="mailto:support@yuvmedia.com">support@yuvmedia.com</a><br>
+                    Phone: <a href="tel:+918078671648">+91-8078671648</a><br>
+                    Website: <a href="https://yuvmedia.com">yuvmedia.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    .demo-gallery:not(.last) {
-      padding-bottom: 1rem;
-    }
-
-    .demo-text .text {
-      font-size: clamp(8rem, 15vw, 16rem);
-      line-height: 1;
-      font-weight: 900;
-    }
-  </style>
-
-<div class="loader df aic jcc">
-    <h1>Loading</h1>
-    <h2 class="loader--text">0%</h2>
-  </div>
-
-  <div class="demo-wrapper">
-    <header class="df aic jcc">
-      <div>
-        <h1>ScrollTrigger</h1>
-        <h2>demo</h2>
-      </div>
-    </header>
-
-    <section class="demo-text">
-      <div class="wrapper text">
-     AAAAAAAAAAAAAAAAAAAAAAAAAAA
-      </div>
-    </section>
-
-    <!-- Dynamic sections with random images -->
-    <section class="demo-gallery">
-      <ul class="wrapper">
-        <li>
-          <img src="https://www.processmaker.com/wp-content/uploads/2020/05/1026-scaled.jpg" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.processmaker.com/wp-content/uploads/2020/05/1026-scaled.jpg" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.processmaker.com/wp-content/uploads/2020/05/1026-scaled.jpg" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.processmaker.com/wp-content/uploads/2020/05/1026-scaled.jpg" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.processmaker.com/wp-content/uploads/2020/05/1026-scaled.jpg" width="1240" height="874" alt="Random Image">
-        </li>
-      </ul>
-    </section>
-    <section class="demo-gallery">
-      <ul class="wrapper">
-        <li>
-          <img src="https://www.acconcept.ru/wp-content/uploads/2021/06/uslugi-po-programmnomu-obespecheniju-vedenija-informacionnogo-resursa-tehnologicheskih-processov-i-instrukcij-na-rabochie-mesta-acconcept.webp" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.acconcept.ru/wp-content/uploads/2021/06/uslugi-po-programmnomu-obespecheniju-vedenija-informacionnogo-resursa-tehnologicheskih-processov-i-instrukcij-na-rabochie-mesta-acconcept.webp" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.acconcept.ru/wp-content/uploads/2021/06/uslugi-po-programmnomu-obespecheniju-vedenija-informacionnogo-resursa-tehnologicheskih-processov-i-instrukcij-na-rabochie-mesta-acconcept.webp" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.acconcept.ru/wp-content/uploads/2021/06/uslugi-po-programmnomu-obespecheniju-vedenija-informacionnogo-resursa-tehnologicheskih-processov-i-instrukcij-na-rabochie-mesta-acconcept.webp" width="1240" height="874" alt="Random Image">
-        </li>
-        <li>
-          <img src="https://www.acconcept.ru/wp-content/uploads/2021/06/uslugi-po-programmnomu-obespecheniju-vedenija-informacionnogo-resursa-tehnologicheskih-processov-i-instrukcij-na-rabochie-mesta-acconcept.webp" width="1240" height="874" alt="Random Image">
-        </li>
-      </ul>
-    </section>
-
-    <section class="demo-text">
-      <div class="wrapper text">
-        AAAAAAAAAAAAAAAAAAAAAAAAAAA
-      </div>
-    </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-<script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    const initGalleryScroll = () => {
-        // Loop through each gallery
-        gsap.utils.toArray('.demo-gallery').forEach((gallery) => {
-            const wrapper = gallery.querySelector('.wrapper'); // Target the inner wrapper
-            const xEnd = -1 * (wrapper.scrollWidth - gallery.offsetWidth); // Calculate scroll distance
-
-            // Create horizontal scroll animation
-            gsap.fromTo(
-                wrapper,
-                { x: 0 }, // Start at position 0
-                {
-                    x: xEnd, // Scroll to the calculated end position
-                    ease: 'none',
-                    scrollTrigger: {
-                        trigger: gallery, // Trigger the gallery section
-                        start: 'top center', // Animation starts when top of section reaches center
-                        end: 'bottom top', // Animation ends when bottom of section leaves viewport
-                        scrub: 1, // Smooth scrubbing
-                    },
-                }
-            );
-        });
-    };
-
-    // Ensure all images are loaded before initializing animations
-    imagesLoaded('.gsapimgs', { background: true }).on('always', () => {
-        initGalleryScroll();
-    });
-</script>
 @endsection

@@ -385,6 +385,14 @@
                                         <a class="{{ request()->routeIs('contact') ? 'active' : '' }}"
                                             href="{{ route('contact') }}">Contact Us</a>
                                     </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('privacypolicy') ? 'active' : '' }}"
+                                            href="{{ route('privacypolicy') }}">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a class="{{ request()->routeIs('termsservices') ? 'active' : '' }}"
+                                            href="{{ route('termsservices') }}">Terms & Conditions</a>
+                                    </li>
                                 </ul>
                             </section>
                             <!--// Single Widget -->
@@ -392,7 +400,7 @@
 
                             <!-- Single Widget -->
                             <section class="col-md-3 widget widget-quick-links">
-                                <h5 class="widget-title">Quick Links</h5>
+                                <h5 class="widget-title">Services</h5>
                                 <ul class="ps-0">
                                     <li>
                                         <a class="{{ request()->routeIs('seo') ? 'active' : '' }}"

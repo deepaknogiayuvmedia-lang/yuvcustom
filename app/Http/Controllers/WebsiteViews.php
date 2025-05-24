@@ -42,6 +42,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.privacypolicy');
     }
+    public function termsservices()
+    {
+        return view('website.pages.terms&service');
+    }
     public function whatsappmarketing()
     {
         return view('website.pages.ServicesPages.whatsappmarketing');

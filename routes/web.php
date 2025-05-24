@@ -14,7 +14,7 @@ use App\http\Controllers\CategoryController;
 use App\http\Controllers\RegisterListController;
 use App\http\Controllers\DataUpdateController;
 
-Route::get('/portfolio/login', function () {
+Route::get('/admin/login', function () {
     return view('auth.login');
 });
 
@@ -22,7 +22,7 @@ Route::get('/portfolio/login', function () {
 
 Route::post('/logout', function () {
     Auth::logout();
-    return redirect('/portfolio/login');
+    return redirect('/admin/login');
 })->name('logout');
 
 
@@ -117,6 +117,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/features', 'features')->name('features');
     Route::get('/services', 'services')->name('services');
     Route::get('/privacypolicy', 'privacypolicy')->name('privacypolicy');
+    Route::get('/terms-services', 'termsservices')->name('termsservices');
     Route::get('/whatsapp-marketing', 'whatsappmarketing')->name('whatsappmarketing');
     Route::get('/google-business-profile', 'googlebusinessprofile')->name('googlebusinessprofile');
     Route::get('/video-production', 'videoproduction')->name('videoproduction');
