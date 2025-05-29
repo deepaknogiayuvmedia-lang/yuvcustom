@@ -1555,13 +1555,13 @@
     padding-inline: 10px;
     background-color: white;
     margin-inline: 10px;
-    filter: grayscale(1);
-    transition: filter 0.5s linear;
+    /* filter: grayscale(1);
+    transition: filter 0.5s linear; */
 }
 
-.logos-slide img:hover {
+/* .logos-slide img:hover {
     filter: grayscale(0);
-}
+} */
 
 @keyframes logoslidenew {
     from {
