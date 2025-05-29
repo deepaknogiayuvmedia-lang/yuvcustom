@@ -7,132 +7,132 @@
 <canvas id="gradient-canvas"></canvas>
 <section class="hero-section pt-md-5">
 
-        <div class="container">
-            <div class="row py-md-3 pt-0">
-                <div class="hero-slider owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 hero-content">
-                                <h1 class="heroheading fw-bolder globaltxtcolor">Reach Further, Engage Better, And </h1>
-                                <h3 class="herosubheading fw-bolder">Grow Faster With Our Digital Marketing Solutions</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
-                                            </div>
+    <div class="container">
+        <div class="row py-md-3 pt-0">
+            <div class="hero-slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 hero-content">
+                            <h1 class="heroheading fw-bolder globaltxtcolor">Reach Further, Engage Better, And </h1>
+                            <h3 class="herosubheading fw-bolder">Grow Faster With Our Digital Marketing Solutions</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-md-start text-center">
+                                            <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start flex-md-row flex-column">
-                                    <div class="mb-3 text-center">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
-                                            <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                </div>
                             </div>
-                            <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/1.webp') }}" alt="Hero Image">
+                            <div class="d-flex justify-content-start flex-md-row flex-column">
+                                <div class="mb-3 text-center">
+                                    <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
+                                        Meeting
+                                        <i class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business
-                                    With </h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
-                                    Solutions</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-start flex-md-row flex-column">
-                                    <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
-                                            <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/2.webp') }}" alt="Hero Image">
-                            </div>
+                        <div class="col-md-6 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/techs/1.webp') }}" alt="Hero Image">
                         </div>
                     </div>
+                </div>
 
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In
-                                    The</h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
-                                    Management Expertise</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
-                                            </div>
+                <div class="item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 hero-content">
+                            <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business
+                                With </h1>
+                            <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
+                                Solutions</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-md-start text-center">
+                                            <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start flex-md-row flex-column">
-                                    <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
-                                            <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                </div>
                             </div>
-                            <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
+                            <div class="d-flex justify-content-start flex-md-row flex-column">
+                                <div class="mb-3 text-center ">
+                                    <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
+                                        Meeting
+                                        <i class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-md-6 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/techs/2.webp') }}" alt="Hero Image">
+                        </div>
                     </div>
+                </div>
 
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s
-                                    Narrative With</h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
-                                    Content.</h3>
-                                <div class="stats-section mt-3 mb-3">
-                                    <div class="row ">
-                                        <div class="col-md-12 stat-item">
-                                            <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
-                                            </div>
+                <div class="item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 hero-content">
+                            <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In
+                                The</h1>
+                            <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
+                                Management Expertise</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-md-start text-center">
+                                            <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-start flex-md-row flex-column">
-                                    <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
-                                            <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-start flex-md-row flex-column">
+                                <div class="mb-3 text-center ">
+                                    <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
+                                        Meeting
+                                        <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/techs/3.webp') }}" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 hero-content">
+                            <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s
+                                Narrative With</h1>
+                            <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
+                                Content.</h3>
+                            <div class="stats-section mt-3 mb-3">
+                                <div class="row ">
+                                    <div class="col-md-12 stat-item">
+                                        <div class="text-md-start text-center">
+                                            <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 hero-image">
-                                <img src="{{ asset('assets/websiteAssets/images/techs/4.webp') }}" alt="Hero Image">
+                            <div class="d-flex justify-content-start flex-md-row flex-column">
+                                <div class="mb-3 text-center ">
+                                    <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
+                                        Meeting
+                                        <i class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="col-md-6 hero-image">
+                            <img src="{{ asset('assets/websiteAssets/images/techs/4.webp') }}" alt="Hero Image">
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
         <div class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
@@ -184,33 +184,34 @@
         <div class="row col-lg-12">
 
         </div>
-        <div class="container mt-4">
+        <div class="container mt-4 position-relative">
             <div class="row">
+                <h2 class="globaltxtcolor text-start">
+                   Awards & Affiliations
+                </h2>
                 <div class="col-lg-12">
                     <div class="logo-slider">
                         <div class="logos-slide">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/1.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/2.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/3.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/4.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/4.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/7.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
                         </div>
                     </div>
                     <div class="logo-slider2 mt-3 d-none">
                         <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/5.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/6.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/7.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/8.webp') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/9.webp') }}">
-                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/10.webp') }}">
-                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/11.webp') }}">
-                        <img src="{{ asset('assets/websiteAssets/images/clients/ecommerce/12.webp') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/7.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
                         </div>
                     </div>
                 </div>
@@ -264,201 +265,184 @@
                                     </li>
                                 </ul>
 
-                                    <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        {{-- performance marketing --}}
-                                        <div class="tab-pane active" id="performance-tab-pane" role="tabpanel"
-                                            aria-labelledby="performance-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around pmarketing">
-                                                <div class="card">
-                                                    <a href="{{ route('performancemedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
-                                                            class="card-img-top" alt="google-ad">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Google Ads</h6>
-                                                            <p class="card-text text-black">
-                                                                Be found with Google ads and make it easier for potential
-                                                                customers to find your business with effective advertising
-                                                                strategies.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('performancemedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
-                                                        class="card-img-top" alt="Facebook Ads">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Meta Ads</h6>
-                                                            <p class="card-text text-black">Grow your business with Meta Ads. Reach new
-                                                                customers across all Meta platforms including Facebook,
-                                                                Instagram, Messenger and WhatsApp.</p>
-                                                            </div>
-                                                        </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('performancemedia') }}">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    {{-- performance marketing --}}
+                                    <div class="tab-pane active" id="performance-tab-pane" role="tabpanel" aria-labelledby="performance-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-around pmarketing">
+                                            <div class="card">
+                                                <a href="{{ route('performancemedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}" class="card-img-top" alt="google-ad">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Google Ads</h6>
+                                                        <p class="card-text text-black">
+                                                            Be found with Google ads and make it easier for potential
+                                                            customers to find your business with effective advertising
+                                                            strategies.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('performancemedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}" class="card-img-top" alt="Facebook Ads">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Meta Ads</h6>
+                                                        <p class="card-text text-black">Grow your business with Meta Ads. Reach new
+                                                            customers across all Meta platforms including Facebook,
+                                                            Instagram, Messenger and WhatsApp.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('performancemedia') }}">
 
-                                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
-                                                        class="card-img-top" alt="mgid">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}" class="card-img-top" alt="mgid">
                                                     <div class="card-body">
                                                         <h6 class="card-title">Native Ads</h6>
                                                         <p class="card-text text-black">Get Traffic That Converts – Reach your ideal
                                                             audience at the lowest cost with native ads.</p>
                                                     </div>
-                                                    </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('performancemedia') }}">
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('performancemedia') }}">
 
-                                                        
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}"
-                                                        class="card-img-top" alt="marketplace ads">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Marketplace Ads</h6>
-                                                            <p class="card-text text-black">Meet your customers wherever they are.
-                                                                Discover how marketplace ads can help you connect with customers
-                                                                where they love to browse and buy.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}" class="card-img-top" alt="marketplace ads">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Marketplace Ads</h6>
+                                                        <p class="card-text text-black">Meet your customers wherever they are.
+                                                            Discover how marketplace ads can help you connect with customers
+                                                            where they love to browse and buy.
+                                                        </p>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        {{-- seo --}}
-                                        <div class="tab-pane" id="seo-tab-pane" role="tabpanel"
-                                            aria-labelledby="seo-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start pmarketing">
-                                                <div class="card me-4">
-                                                    <a href="{{ route('seo') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
-                                                        class="card-img-top" alt="SEO">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Search Engine Optimization</h6>
-                                                            <p class="card-text text-black">Reach New Heights in Search Rankings. Rank
-                                                                better, drive more traffic, and convert visitors into customers
-                                                                with our expert SEO services.</p>
-                                                            </div>
-                                                        </a>
-                                                </div>
-                                                <div class="card me-4">
-                                                    <a href="{{ route('googlebusinessprofile') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
-                                                        class="card-img-top" alt="GBP">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Google Business Profile</h6>
-                                                            <p class="card-text text-black">Let Local Customers Find You. Optimize your
-                                                                Google Business Profile to appear in local searches and attract
-                                                                more customers. </p>
-                                                            </div>
-                                                        </a>
-                                                </div>
+                                    {{-- seo --}}
+                                    <div class="tab-pane" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-start pmarketing">
+                                            <div class="card me-4">
+                                                <a href="{{ route('seo') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}" class="card-img-top" alt="SEO">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Search Engine Optimization</h6>
+                                                        <p class="card-text text-black">Reach New Heights in Search Rankings. Rank
+                                                            better, drive more traffic, and convert visitors into customers
+                                                            with our expert SEO services.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card me-4">
+                                                <a href="{{ route('googlebusinessprofile') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}" class="card-img-top" alt="GBP">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Google Business Profile</h6>
+                                                        <p class="card-text text-black">Let Local Customers Find You. Optimize your
+                                                            Google Business Profile to appear in local searches and attract
+                                                            more customers. </p>
+                                                    </div>
+                                                </a>
+                                            </div>
 
                                         </div>
                                     </div>
 
-                                        {{-- social media --}}
-                                        <div class="tab-pane" id="social-tab-pane" role="tabpanel"
-                                            aria-labelledby="social-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-around pmarketing">
-                                                <div class="card">
-                                                    <a href="{{ route('socialmedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
-                                                        class="card-img-top" alt="Facebook">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Facebook</h6>
-                                                            <p class="card-text text-black">Connect, Engage, and Grow – Share updates,
-                                                                stories, and content to engage customers and build your brand.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('socialmedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
-                                                        class="card-img-top" alt="Instagram">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Instagram</h6>
-                                                            <p class="card-text text-black">Engage, Inspire, Convert –Utilize Instagram to
-                                                                get noticed, connect with your audience, and showcase your
-                                                                brand’s voice.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('socialmedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
-                                                        class="card-img-top" alt="LinkedIn">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">LinkedIn</h6>
-                                                            <p class="card-text text-black">Build Professional Relationships – Connect
-                                                                with industry leaders, peers, and potential clients on LinkedIn
-                                                                to grow your network.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="card">
-                                                    <a href="{{ route('socialmedia') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}"
-                                                        class="card-img-top" alt="Youtube">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Youtube</h6>
-                                                            <p class="card-text text-black">Engage with Visual Content - Use YouTube to
-                                                                build an authentic relationship with your audience through
-                                                                personal and engaging content.</p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                    {{-- social media --}}
+                                    <div class="tab-pane" id="social-tab-pane" role="tabpanel" aria-labelledby="social-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-around pmarketing">
+                                            <div class="card">
+                                                <a href="{{ route('socialmedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}" class="card-img-top" alt="Facebook">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Facebook</h6>
+                                                        <p class="card-text text-black">Connect, Engage, and Grow – Share updates,
+                                                            stories, and content to engage customers and build your brand.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('socialmedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}" class="card-img-top" alt="Instagram">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Instagram</h6>
+                                                        <p class="card-text text-black">Engage, Inspire, Convert –Utilize Instagram to
+                                                            get noticed, connect with your audience, and showcase your
+                                                            brand’s voice.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('socialmedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}" class="card-img-top" alt="LinkedIn">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">LinkedIn</h6>
+                                                        <p class="card-text text-black">Build Professional Relationships – Connect
+                                                            with industry leaders, peers, and potential clients on LinkedIn
+                                                            to grow your network.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card">
+                                                <a href="{{ route('socialmedia') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}" class="card-img-top" alt="Youtube">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Youtube</h6>
+                                                        <p class="card-text text-black">Engage with Visual Content - Use YouTube to
+                                                            build an authentic relationship with your audience through
+                                                            personal and engaging content.</p>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        {{-- Online marketing --}}
-                                        <div class="tab-pane" id="online-tab-pane" role="tabpanel"
-                                            aria-labelledby="online-tab" tabindex="0">
-                                            <div class="d-flex my-3 justify-content-start pmarketing">
-                                                <div class="card me-4">
-                                                    <a href="{{ route('influencermarketing') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
-                                                        class="card-img-top" alt="Influencer Marketing">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Influencer Marketing</h6>
+                                    {{-- Online marketing --}}
+                                    <div class="tab-pane" id="online-tab-pane" role="tabpanel" aria-labelledby="online-tab" tabindex="0">
+                                        <div class="d-flex my-3 justify-content-start pmarketing">
+                                            <div class="card me-4">
+                                                <a href="{{ route('influencermarketing') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}" class="card-img-top" alt="Influencer Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Influencer Marketing</h6>
                                                         <p class="card-text text-black">Drive Engagement with Trusted Voices – Work
                                                             with influencers who align with your brand to build credibility
                                                             and drive meaningful results.</p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                                    </div>
+                                                </a>
+                                            </div>
 
-                                                <div class="card me-4">
-                                                    <a href="{{ route('whatsappmarketing') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
-                                                        class="card-img-top" alt="Whatsapp Marketing">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Whatsapp Marketing</h6>
-                                                            <p class="card-text text-black">Connect Anytime, Anywhere – WhatsApp allows
-                                                                you to stay connected with your audience 24/7, offering quick
-                                                                responses and building trust.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                            <div class="card me-4">
+                                                <a href="{{ route('whatsappmarketing') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}" class="card-img-top" alt="Whatsapp Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Whatsapp Marketing</h6>
+                                                        <p class="card-text text-black">Connect Anytime, Anywhere – WhatsApp allows
+                                                            you to stay connected with your audience 24/7, offering quick
+                                                            responses and building trust.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
 
-                                                <div class="card me-4">
-                                                    <a href="{{ route('emailmarketing') }}">
-                                                        <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
-                                                        class="card-img-top" alt="Email Marketing">
-                                                        <div class="card-body">
-                                                            <h6 class="card-title">Email Marketing</h6>
-                                                            <p class="card-text text-black">Turn Emails Into Conversions – Create
-                                                                personalized emails, target precisely with behavior-based
-                                                                automations and segments, and optimize with real-time reporting.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                            <div class="card me-4">
+                                                <a href="{{ route('emailmarketing') }}">
+                                                    <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}" class="card-img-top" alt="Email Marketing">
+                                                    <div class="card-body">
+                                                        <h6 class="card-title">Email Marketing</h6>
+                                                        <p class="card-text text-black">Turn Emails Into Conversions – Create
+                                                            personalized emails, target precisely with behavior-based
+                                                            automations and segments, and optimize with real-time reporting.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
 
 
                                         </div>
@@ -474,36 +458,33 @@
                             <div class="service-card__content greenBLueGradient">
                                 <h1 class="service-card__title">Marketplace Management</h1>
 
-                                    <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card">
-                                            <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
-                                                class="card-img-top" alt="Amazon">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Amazon</h6>
-                                                    <p class="card-text text-black">Get Your Brand Noticed – Start selling on Amazon and
-                                                        watch your business grow with India’s leading online marketplace.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                                class="card-img-top" alt="Flipkart">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Flipkart</h6>
-                                                    <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart- List your
-                                                        products on India’s leading marketplace and reach millions of customers
-                                                        actively searching for what you offer.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                class="card-img-top" alt="Meesho">
+                                <div class="d-flex my-3 justify-content-around pmarketing">
+                                    <div class="card">
+                                        <a href="{{ route('marketplaceexpertise') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}" class="card-img-top" alt="Amazon">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Amazon</h6>
+                                                <p class="card-text text-black">Get Your Brand Noticed – Start selling on Amazon and
+                                                    watch your business grow with India’s leading online marketplace.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('marketplaceexpertise') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}" class="card-img-top" alt="Flipkart">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Flipkart</h6>
+                                                <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart- List your
+                                                    products on India’s leading marketplace and reach millions of customers
+                                                    actively searching for what you offer.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('marketplaceexpertise') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}" class="card-img-top" alt="Meesho">
                                             <div class="card-body">
                                                 <h6 class="card-title">Meesho</h6>
                                                 <p class="card-text text-black">Start Selling on Meesho – Empower your business with
@@ -512,24 +493,23 @@
                                                 </p>
                                             </div>
                                         </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}"
-                                                class="card-img-top" alt="Etsy">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Etsy</h6>
-                                                    <p class="card-text text-black">Turn Your Creativity Into Profit – Start selling on
-                                                        Etsy and showcase your digital creations, and customized & unique
-                                                        products to a global audience.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('marketplaceexpertise') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top" alt="Etsy">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Etsy</h6>
+                                                <p class="card-text text-black">Turn Your Creativity Into Profit – Start selling on
+                                                    Etsy and showcase your digital creations, and customized & unique
+                                                    products to a global audience.
+                                                </p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                     {{-- Graphic Design --}}
                     <div class="service-card" data-index="2">
@@ -537,48 +517,45 @@
                             <div class="service-card__content orangeGreenGradient">
                                 <h1 class="service-card__title">Design</h1>
 
-                                    <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card">
-                                            <a href="{{ route('designingservices') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
-                                                class="card-img-top" alt="Graphic Designing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Graphic Designing</h6>
-                                                    <p class="card-text text-black">A Picture Perfect Brand - Bring your ideas to life
-                                                        with designs that connect with your audience and drive your brand’s
-                                                        success.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('designingservices') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
-                                                class="card-img-top" alt="Video Production">
-                                                <div class="card-body">
+                                <div class="d-flex my-3 justify-content-around pmarketing">
+                                    <div class="card">
+                                        <a href="{{ route('designingservices') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}" class="card-img-top" alt="Graphic Designing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Graphic Designing</h6>
+                                                <p class="card-text text-black">A Picture Perfect Brand - Bring your ideas to life
+                                                    with designs that connect with your audience and drive your brand’s
+                                                    success.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('designingservices') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}" class="card-img-top" alt="Video Production">
+                                            <div class="card-body">
                                                 <h6 class="card-title">UI/UX Design
                                                 </h6>
                                                 <p class="card-text text-black">Creating Designs That Connect – Our UI/UX services
                                                     ensure your users enjoy flawless navigation, making their experience
                                                     smoother and more engaging.</p>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="card">
-                                            <a href="{{ route('designingservices') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                                class="card-img-top" alt="Brand Designing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Brand Designing</h6>
-                                                    <p class="card-text text-black">Unique Designs for Unique Brands – From logo design to
-                                                        complete brand identity, we ensure your business stands out with designs
-                                                        that communicate your core values.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                            </div>
+                                        </a>
                                     </div>
+
+                                    <div class="card">
+                                        <a href="{{ route('designingservices') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}" class="card-img-top" alt="Brand Designing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Brand Designing</h6>
+                                                <p class="card-text text-black">Unique Designs for Unique Brands – From logo design to
+                                                    complete brand identity, we ensure your business stands out with designs
+                                                    that communicate your core values.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
@@ -590,141 +567,131 @@
                             <div class="service-card__content greenBLueGradient">
                                 <h1 class="service-card__title">Video Production</h1>
 
-                                    <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
-                                                class="card-img-top" alt="Video Editing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Video Editing</h6>
-                                                    <p class="card-text text-black">Enhance your footage with seamless editing, smooth
-                                                        transitions, and captivating storytelling that keeps your audience
-                                                        hooked.</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}"
-                                                class="card-img-top" alt="Pre-Production">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Pre-Production</h6>
-                                                    <p class="card-text text-black">Meticulously plan every detail of your video project,
-                                                        from scripting to storyboarding, ensuring a flawless production process.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                    <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}"
-                                                    class="card-img-top" alt="3D Animation & Modeling">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">3D Animation & Modeling</h6>
-                                                    <p class="card-text text-black">Add depth and creativity to your content with stunning
-                                                        3D animations and models, bringing your ideas to life in a visually
-                                                        captivating way.
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
-                                                class="card-img-top" alt="Color Grading">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Color Grading</h6>
-                                                    <p class="card-text text-black">Enhance the mood and tone of your videos with expert
-                                                        color grading, ensuring a professional and cinematic look.</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
-                                                class="card-img-top" alt="VFX & Compositing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">VFX & Compositing</h6>
-                                                    <p class="card-text text-black">Add stunning cinematic effects and flawless
-                                                        compositing to your videos, making your visuals truly stand out with
-                                                        creativity and precision.</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
-                                                class="card-img-top" alt="Product Shoot">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Product Shoot</h6>
-                                                    <p class="card-text text-black">Capture the Essence of Your Brand – We ensure your
-                                                        products look their best with top-tier photography, perfect for
-                                                        e-commerce, marketing, and branding.</p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                <div class="d-flex my-3 justify-content-around pmarketing">
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}" class="card-img-top" alt="Video Editing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Video Editing</h6>
+                                                <p class="card-text text-black">Enhance your footage with seamless editing, smooth
+                                                    transitions, and captivating storytelling that keeps your audience
+                                                    hooked.</p>
+                                            </div>
+                                        </a>
                                     </div>
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}" class="card-img-top" alt="Pre-Production">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Pre-Production</h6>
+                                                <p class="card-text text-black">Meticulously plan every detail of your video project,
+                                                    from scripting to storyboarding, ensuring a flawless production process.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}" class="card-img-top" alt="3D Animation & Modeling">
+                                            <div class="card-body">
+                                                <h6 class="card-title">3D Animation & Modeling</h6>
+                                                <p class="card-text text-black">Add depth and creativity to your content with stunning
+                                                    3D animations and models, bringing your ideas to life in a visually
+                                                    captivating way.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}" class="card-img-top" alt="Color Grading">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Color Grading</h6>
+                                                <p class="card-text text-black">Enhance the mood and tone of your videos with expert
+                                                    color grading, ensuring a professional and cinematic look.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}" class="card-img-top" alt="VFX & Compositing">
+                                            <div class="card-body">
+                                                <h6 class="card-title">VFX & Compositing</h6>
+                                                <p class="card-text text-black">Add stunning cinematic effects and flawless
+                                                    compositing to your videos, making your visuals truly stand out with
+                                                    creativity and precision.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('videoproduction') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}" class="card-img-top" alt="Product Shoot">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Product Shoot</h6>
+                                                <p class="card-text text-black">Capture the Essence of Your Brand – We ensure your
+                                                    products look their best with top-tier photography, perfect for
+                                                    e-commerce, marketing, and branding.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
                     </div>
 
-                        {{-- Development Services --}}
-                        <div class="service-card" data-index="4">
-                            <div class="service-card__inner">
-                                <div class="service-card__content purpelYellowGradient">
-                                    <h1 class="service-card__title">Development</h1>
-                                    <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card">
-                                            <a href="{{ route('webdevelopment') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
-                                                class="card-img-top" alt="Web Development">
+                    {{-- Development Services --}}
+                    <div class="service-card" data-index="4">
+                        <div class="service-card__inner">
+                            <div class="service-card__content purpelYellowGradient">
+                                <h1 class="service-card__title">Development</h1>
+                                <div class="d-flex my-3 justify-content-around pmarketing">
+                                    <div class="card">
+                                        <a href="{{ route('webdevelopment') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}" class="card-img-top" alt="Web Development">
                                             <div class="card-body">
                                                 <h6 class="card-title">Web Development</h6>
                                                 <p class="card-text text-black">Building the Future of Your Business – From design to
                                                     launch, our websites are created with one goal in mind: to turn your
                                                     visitors into loyal customers</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('webdevelopment') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
-                                                class="card-img-top" alt="App Development">
-                                                <div class="card-body">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('webdevelopment') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}" class="card-img-top" alt="App Development">
+                                            <div class="card-body">
                                                 <h6 class="card-title">App Development</h6>
                                                 <p class="card-text text-black">From Ideas to Downloads – We take your app idea and
                                                     transform it into a fully functional, optimized, and user-friendly
                                                     mobile application</p>
                                             </div>
                                         </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('webdevelopment') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
-                                                class="card-img-top" alt="Software Integrations">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">Software Integrations</h6>
-                                                    <p class="card-text text-black">Get the Most Out of Your Software – We provide custom
-                                                        integrations that link your tools and platforms together, making your
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('webdevelopment') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}" class="card-img-top" alt="Software Integrations">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Software Integrations</h6>
+                                                <p class="card-text text-black">Get the Most Out of Your Software – We provide custom
+                                                    integrations that link your tools and platforms together, making your
                                                     business operations smarter and more efficient</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
-                                            <a href="{{ route('erpservices') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}"
-                                                class="card-img-top" alt="CRM (Odoo, Salesforce)">
-                                                <div class="card-body">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="{{ route('erpservices') }}">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}" class="card-img-top" alt="CRM (Odoo, Salesforce)">
+                                            <div class="card-body">
                                                 <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
                                                 <p class="card-text text-black">Enhance Business Insights with Our ERP Solutions – We
                                                     integrate all your operations into one system, giving you complete
                                                     visibility and control over every aspect of your business.
                                                 </p>
-                                                </div>
-                                            </a>
-                                        </div>
+                                            </div>
+                                        </a>
                                     </div>
+                                </div>
 
                             </div>
                         </div>
@@ -739,224 +706,199 @@
             <div class="p-0">
                 <h1 class="service-card__title">Digital Marketing</h1>
 
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-underline my-3 mobileNav" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="performance2-tab" data-bs-toggle="tab"
-                                data-bs-target="#performance2-tab-pane" type="button" role="tab"
-                                aria-controls="performance2-tab-pane" aria-selected="true">Performance
-                                Marketing</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane"
-                                type="button" role="tab" aria-controls="seo-tab2-pane"
-                                aria-selected="false">SEO</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="social-tab2" data-bs-toggle="tab"
-                                data-bs-target="#social-tab2-pane" type="button" role="tab"
-                                aria-controls="social-tab2-pane" aria-selected="false">Social
-                                Media</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="online-tab2" data-bs-toggle="tab"
-                                data-bs-target="#online-tab2-pane" type="button" role="tab"
-                                aria-controls="online-tab2-pane" aria-selected="false">Online
-                                Marketing</button>
-                        </li>
-                    </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content px-0">
-                        {{-- performance marketing --}}
-                        <div class="tab-pane active" id="performance2-tab-pane" role="tabpanel"
-                            aria-labelledby="performance2-tab" tabindex="0">
-                            <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
-                                <div class="card">
-                                    <a href="{{ route('performancemedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}"
-                                        class="card-img-top" alt="google-ad">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Google Ads</h6>
-                                            <p class="card-text text-black">
-                                                Be found with Google ads and make it easier for potential
-                                                customers to find your business with effective advertising
-                                                strategies.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('performancemedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}"
-                                        class="card-img-top" alt="Facebook Ads">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Meta Ads</h6>
-                                            <p class="card-text text-black">Grow your business with Meta Ads. Reach new
-                                                customers across all Meta platforms including Facebook,
-                                                Instagram, Messenger and WhatsApp.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('performancemedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}"
-                                        class="card-img-top" alt="mgid">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Native Ads</h6>
-                                            <p class="card-text text-black">Get Traffic That Converts – Reach your ideal
-                                                audience at the lowest cost with native ads.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('performancemedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}"
-                                        class="card-img-top" alt="marketplace ads">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Marketplace Ads</h6>
-                                            <p class="card-text text-black">Meet your customers wherever they are.
-                                                Discover how marketplace ads can help you connect with customers
-                                                where they love to browse and buy.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-underline my-3 mobileNav" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="performance2-tab" data-bs-toggle="tab" data-bs-target="#performance2-tab-pane" type="button" role="tab" aria-controls="performance2-tab-pane" aria-selected="true">Performance
+                            Marketing</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane" type="button" role="tab" aria-controls="seo-tab2-pane" aria-selected="false">SEO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="social-tab2" data-bs-toggle="tab" data-bs-target="#social-tab2-pane" type="button" role="tab" aria-controls="social-tab2-pane" aria-selected="false">Social
+                            Media</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="online-tab2" data-bs-toggle="tab" data-bs-target="#online-tab2-pane" type="button" role="tab" aria-controls="online-tab2-pane" aria-selected="false">Online
+                            Marketing</button>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content px-0">
+                    {{-- performance marketing --}}
+                    <div class="tab-pane active" id="performance2-tab-pane" role="tabpanel" aria-labelledby="performance2-tab" tabindex="0">
+                        <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                            <div class="card">
+                                <a href="{{ route('performancemedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/google-ad.webp') }}" class="card-img-top" alt="google-ad">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Google Ads</h6>
+                                        <p class="card-text text-black">
+                                            Be found with Google ads and make it easier for potential
+                                            customers to find your business with effective advertising
+                                            strategies.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('performancemedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/meta ad.webp') }}" class="card-img-top" alt="Facebook Ads">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Meta Ads</h6>
+                                        <p class="card-text text-black">Grow your business with Meta Ads. Reach new
+                                            customers across all Meta platforms including Facebook,
+                                            Instagram, Messenger and WhatsApp.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('performancemedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/mgid.webp') }}" class="card-img-top" alt="mgid">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Native Ads</h6>
+                                        <p class="card-text text-black">Get Traffic That Converts – Reach your ideal
+                                            audience at the lowest cost with native ads.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('performancemedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/marketplace ads.webp') }}" class="card-img-top" alt="marketplace ads">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Marketplace Ads</h6>
+                                        <p class="card-text text-black">Meet your customers wherever they are.
+                                            Discover how marketplace ads can help you connect with customers
+                                            where they love to browse and buy.
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                    </div>
 
-                        {{-- seo --}}
-                        <div class="tab-pane" id="seo-tab2-pane" role="tabpanel" aria-labelledby="seo-tab2"
-                            tabindex="0">
-                            <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
-                                <div class="card">
-                                    <a href="{{ route('seo') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
-                                        class="card-img-top" alt="SEO">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Search Engine Optimization</h6>
-                                            <p class="card-text text-black">Reach New Heights in Search Rankings. Rank
-                                                better, drive more traffic, and convert visitors into customers
-                                                with our expert SEO services.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('googlebusinessprofile') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
-                                        class="card-img-top" alt="GBP">
-                                        <div class="card-body">
+                    {{-- seo --}}
+                    <div class="tab-pane" id="seo-tab2-pane" role="tabpanel" aria-labelledby="seo-tab2" tabindex="0">
+                        <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                            <div class="card">
+                                <a href="{{ route('seo') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}" class="card-img-top" alt="SEO">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Search Engine Optimization</h6>
+                                        <p class="card-text text-black">Reach New Heights in Search Rankings. Rank
+                                            better, drive more traffic, and convert visitors into customers
+                                            with our expert SEO services.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('googlebusinessprofile') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}" class="card-img-top" alt="GBP">
+                                    <div class="card-body">
                                         <h6 class="card-title">Google Business Profile</h6>
                                         <p class="card-text text-black">Let Local Customers Find You. Optimize your
                                             Google Business Profile to appear in local searches and attract
                                             more customers. </p>
-                                        </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                     </div>
 
-                        {{-- social media --}}
-                        <div class="tab-pane" id="social-tab2-pane" role="tabpanel" aria-labelledby="social-tab2"
-                            tabindex="0">
-                            <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
-                                <div class="card">
-                                    <a href="{{ route('socialmedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}"
-                                        class="card-img-top" alt="Facebook">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Facebook</h6>
-                                            <p class="card-text text-black">Connect, Engage, and Grow – Share updates,
-                                                stories, and content to engage customers and build your brand.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('socialmedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}"
-                                        class="card-img-top" alt="Instagram">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Instagram</h6>
-                                            <p class="card-text text-black">Engage, Inspire, Convert –Utilize Instagram to
-                                                get noticed, connect with your audience, and showcase your
-                                                brand’s voice.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('socialmedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}"
-                                        class="card-img-top" alt="LinkedIn">
-                                        <div class="card-body">
-                                            <h6 class="card-title">LinkedIn</h6>
-                                            <p class="card-text text-black">Build Professional Relationships – Connect
-                                                with industry leaders, peers, and potential clients on LinkedIn
-                                                to grow your network.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ route('socialmedia') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}"
-                                        class="card-img-top" alt="Youtube">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Youtube</h6>
-                                            <p class="card-text text-black">Engage with Visual Content - Use YouTube to
-                                                build an authentic relationship with your audience through
-                                                personal and engaging content.</p>
-                                        </div>
-                                    </a>
-                                </div>
+                    {{-- social media --}}
+                    <div class="tab-pane" id="social-tab2-pane" role="tabpanel" aria-labelledby="social-tab2" tabindex="0">
+                        <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                            <div class="card">
+                                <a href="{{ route('socialmedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/FaceBook.webp') }}" class="card-img-top" alt="Facebook">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Facebook</h6>
+                                        <p class="card-text text-black">Connect, Engage, and Grow – Share updates,
+                                            stories, and content to engage customers and build your brand.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('socialmedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/Instagram.webp') }}" class="card-img-top" alt="Instagram">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Instagram</h6>
+                                        <p class="card-text text-black">Engage, Inspire, Convert –Utilize Instagram to
+                                            get noticed, connect with your audience, and showcase your
+                                            brand’s voice.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('socialmedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/linkedIn.webp') }}" class="card-img-top" alt="LinkedIn">
+                                    <div class="card-body">
+                                        <h6 class="card-title">LinkedIn</h6>
+                                        <p class="card-text text-black">Build Professional Relationships – Connect
+                                            with industry leaders, peers, and potential clients on LinkedIn
+                                            to grow your network.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ route('socialmedia') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/youtube.webp') }}" class="card-img-top" alt="Youtube">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Youtube</h6>
+                                        <p class="card-text text-black">Engage with Visual Content - Use YouTube to
+                                            build an authentic relationship with your audience through
+                                            personal and engaging content.</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                    </div>
 
-                        {{-- Online marketing --}}
-                        <div class="tab-pane" id="online-tab2-pane" role="tabpanel" aria-labelledby="online-tab2"
-                            tabindex="0">
-                            <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
-                                <div class="card ">
-                                    <a href="{{ route('influencermarketing') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}"
-                                        class="card-img-top" alt="Influencer Marketing">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Influencer Marketing</h6>
-                                            <p class="card-text text-black">Drive Engagement with Trusted Voices – Work
-                                                with influencers who align with your brand to build credibility
-                                                and drive meaningful results.</p>
-                                        </div>
-                                    </a>
-                                </div>
+                    {{-- Online marketing --}}
+                    <div class="tab-pane" id="online-tab2-pane" role="tabpanel" aria-labelledby="online-tab2" tabindex="0">
+                        <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                            <div class="card ">
+                                <a href="{{ route('influencermarketing') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/influncer marketing.webp') }}" class="card-img-top" alt="Influencer Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Influencer Marketing</h6>
+                                        <p class="card-text text-black">Drive Engagement with Trusted Voices – Work
+                                            with influencers who align with your brand to build credibility
+                                            and drive meaningful results.</p>
+                                    </div>
+                                </a>
+                            </div>
 
-                                <div class="card ">
-                                    <a href="{{ route('whatsappmarketing') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}"
-                                        class="card-img-top" alt="Whatsapp Marketing">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Whatsapp Marketing</h6>
-                                            <p class="card-text text-black">Connect Anytime, Anywhere – WhatsApp allows
-                                                you to stay connected with your audience 24/7, offering quick
-                                                responses and building trust.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="card ">
+                                <a href="{{ route('whatsappmarketing') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/whatsapp marketing.webp') }}" class="card-img-top" alt="Whatsapp Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Whatsapp Marketing</h6>
+                                        <p class="card-text text-black">Connect Anytime, Anywhere – WhatsApp allows
+                                            you to stay connected with your audience 24/7, offering quick
+                                            responses and building trust.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
 
-                                <div class="card ">
-                                    <a href="{{ route('emailmarketing') }}">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}"
-                                        class="card-img-top" alt="Email Marketing">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Email Marketing</h6>
-                                            <p class="card-text text-black">Turn Emails Into Conversions – Create
-                                                personalized emails, target precisely with behavior-based
-                                                automations and segments, and optimize with real-time reporting.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="card ">
+                                <a href="{{ route('emailmarketing') }}">
+                                    <img src="{{ asset('assets/websiteAssets/images/services/E-Mail.webp') }}" class="card-img-top" alt="Email Marketing">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Email Marketing</h6>
+                                        <p class="card-text text-black">Turn Emails Into Conversions – Create
+                                            personalized emails, target precisely with behavior-based
+                                            automations and segments, and optimize with real-time reporting.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
 
 
                         </div>
@@ -967,241 +909,224 @@
             <div>
                 <h1 class="service-card__title">Marketplace Management</h1>
 
-                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
-                        <div class="card">
-                            <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}"
-                                class="card-img-top" alt="Amazon">
-                                <div class="card-body">
-                                    <h6 class="card-title">Amazon</h6>
-                                    <p class="card-text text-black">Get Your Brand Noticed – Start selling on Amazon and
-                                        watch your business grow with India’s leading online marketplace.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                class="card-img-top" alt="Flipkart">
-                                <div class="card-body">
-                                    <h6 class="card-title">Flipkart</h6>
-                                    <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart- List your
-                                        products on India’s leading marketplace and reach millions of customers
-                                        actively searching for what you offer.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                class="card-img-top" alt="Meesho">
-                                <div class="card-body">
-                                    <h6 class="card-title">Meesho</h6>
-                                    <p class="card-text text-black">Start Selling on Meesho – Empower your business with
-                                        Meesho’s platform and connect with millions of customers looking for the
-                                        best deals!
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top"
-                                alt="Etsy">
-                                <div class="card-body">
-                                    <h6 class="card-title">Etsy</h6>
-                                    <p class="card-text text-black">Turn Your Creativity Into Profit – Start selling on
-                                        Etsy and showcase your digital creations, and customized & unique
-                                        products to a global audience.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+                <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                    <div class="card">
+                        <a href="{{ route('marketplaceexpertise') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/amazon.webp') }}" class="card-img-top" alt="Amazon">
+                            <div class="card-body">
+                                <h6 class="card-title">Amazon</h6>
+                                <p class="card-text text-black">Get Your Brand Noticed – Start selling on Amazon and
+                                    watch your business grow with India’s leading online marketplace.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('marketplaceexpertise') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}" class="card-img-top" alt="Flipkart">
+                            <div class="card-body">
+                                <h6 class="card-title">Flipkart</h6>
+                                <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart- List your
+                                    products on India’s leading marketplace and reach millions of customers
+                                    actively searching for what you offer.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('marketplaceexpertise') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}" class="card-img-top" alt="Meesho">
+                            <div class="card-body">
+                                <h6 class="card-title">Meesho</h6>
+                                <p class="card-text text-black">Start Selling on Meesho – Empower your business with
+                                    Meesho’s platform and connect with millions of customers looking for the
+                                    best deals!
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('marketplaceexpertise') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Etsy.webp') }}" class="card-img-top" alt="Etsy">
+                            <div class="card-body">
+                                <h6 class="card-title">Etsy</h6>
+                                <p class="card-text text-black">Turn Your Creativity Into Profit – Start selling on
+                                    Etsy and showcase your digital creations, and customized & unique
+                                    products to a global audience.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
             <div>
                 <h1 class="service-card__title">Design</h1>
 
-                    <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
-                        <div class="card">
-                            <a href="{{ route('designingservices') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
-                                class="card-img-top" alt="Graphic Designing">
-                                <div class="card-body">
-                                    <h6 class="card-title">Graphic Designing</h6>
-                                    <p class="card-text text-black">A Picture Perfect Brand - Bring your ideas to life
-                                        with designs that connect with your audience and drive your brand’s
-                                        success.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('designingservices') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
-                                class="card-img-top" alt="Video Production">
-                                <div class="card-body">
-                                    <h6 class="card-title">UI/UX Design
-                                    </h6>
-                                    <p class="card-text text-black">Creating Designs That Connect – Our UI/UX services
-                                        ensure your users enjoy flawless navigation, making their experience
-                                        smoother and more engaging.</p>
-                                </div>
-                            </a>
-                        </div>
+                <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
+                    <div class="card">
+                        <a href="{{ route('designingservices') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}" class="card-img-top" alt="Graphic Designing">
+                            <div class="card-body">
+                                <h6 class="card-title">Graphic Designing</h6>
+                                <p class="card-text text-black">A Picture Perfect Brand - Bring your ideas to life
+                                    with designs that connect with your audience and drive your brand’s
+                                    success.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('designingservices') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}" class="card-img-top" alt="Video Production">
+                            <div class="card-body">
+                                <h6 class="card-title">UI/UX Design
+                                </h6>
+                                <p class="card-text text-black">Creating Designs That Connect – Our UI/UX services
+                                    ensure your users enjoy flawless navigation, making their experience
+                                    smoother and more engaging.</p>
+                            </div>
+                        </a>
+                    </div>
 
-                        <div class="card">
-                            <a href="{{ route('designingservices') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                class="card-img-top" alt="Brand Designing">
-                                <div class="card-body">
-                                    <h6 class="card-title">Brand Designing</h6>
-                                    <p class="card-text text-black">Unique Designs for Unique Brands – From logo design to
-                                        complete brand identity, we ensure your business stands out with designs
-                                        that communicate your core values.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="card">
+                        <a href="{{ route('designingservices') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}" class="card-img-top" alt="Brand Designing">
+                            <div class="card-body">
+                                <h6 class="card-title">Brand Designing</h6>
+                                <p class="card-text text-black">Unique Designs for Unique Brands – From logo design to
+                                    complete brand identity, we ensure your business stands out with designs
+                                    that communicate your core values.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
             <div>
                 <h1 class="service-card__title">Video Production</h1>
 
-                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
-                                class="card-img-top" alt="Video Editing">
-                                <div class="card-body">
-                                    <h6 class="card-title">Video Editing</h6>
-                                    <p class="card-text text-black">Enhance your footage with seamless editing, smooth
-                                        transitions, and captivating storytelling that keeps your audience
-                                        hooked.</p>
-                                    </div>
-                                </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}"
-                                class="card-img-top" alt="Pre-Production">
-                                <div class="card-body">
-                                    <h6 class="card-title">Pre-Production</h6>
-                                    <p class="card-text text-black">Meticulously plan every detail of your video project,
-                                        from scripting to storyboarding, ensuring a flawless production process.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}"
-                                class="card-img-top" alt="3D Animation & Modeling">
-                                <div class="card-body">
-                                    <h6 class="card-title">3D Animation & Modeling</h6>
-                                    <p class="card-text text-black">Add depth and creativity to your content with stunning
-                                        3D animations and models, bringing your ideas to life in a visually
-                                        captivating way.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
-                                class="card-img-top" alt="Color Grading">
-                                <div class="card-body">
-                                    <h6 class="card-title">Color Grading</h6>
-                                    <p class="card-text text-black">Enhance the mood and tone of your videos with expert
-                                        color grading, ensuring a professional and cinematic look.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
-                                class="card-img-top" alt="VFX & Compositing">
-                                <div class="card-body">
-                                    <h6 class="card-title">VFX & Compositing</h6>
-                                    <p class="card-text text-black">Add stunning cinematic effects and flawless
-                                        compositing to your videos, making your visuals truly stand out with
-                                        creativity and precision.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
-                                class="card-img-top" alt="Product Shoot">
-                                <div class="card-body">
-                                    <h6 class="card-title">Product Shoot</h6>
-                                    <p class="card-text text-black">Capture the Essence of Your Brand – We ensure your
-                                        products look their best with top-tier photography, perfect for
-                                        e-commerce, marketing, and branding.</p>
-                                </div>
-                            </a>
-                        </div>
+                <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}" class="card-img-top" alt="Video Editing">
+                            <div class="card-body">
+                                <h6 class="card-title">Video Editing</h6>
+                                <p class="card-text text-black">Enhance your footage with seamless editing, smooth
+                                    transitions, and captivating storytelling that keeps your audience
+                                    hooked.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/pre production.webp') }}" class="card-img-top" alt="Pre-Production">
+                            <div class="card-body">
+                                <h6 class="card-title">Pre-Production</h6>
+                                <p class="card-text text-black">Meticulously plan every detail of your video project,
+                                    from scripting to storyboarding, ensuring a flawless production process.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/3d animation.webp') }}" class="card-img-top" alt="3D Animation & Modeling">
+                            <div class="card-body">
+                                <h6 class="card-title">3D Animation & Modeling</h6>
+                                <p class="card-text text-black">Add depth and creativity to your content with stunning
+                                    3D animations and models, bringing your ideas to life in a visually
+                                    captivating way.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}" class="card-img-top" alt="Color Grading">
+                            <div class="card-body">
+                                <h6 class="card-title">Color Grading</h6>
+                                <p class="card-text text-black">Enhance the mood and tone of your videos with expert
+                                    color grading, ensuring a professional and cinematic look.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}" class="card-img-top" alt="VFX & Compositing">
+                            <div class="card-body">
+                                <h6 class="card-title">VFX & Compositing</h6>
+                                <p class="card-text text-black">Add stunning cinematic effects and flawless
+                                    compositing to your videos, making your visuals truly stand out with
+                                    creativity and precision.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('videoproduction') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}" class="card-img-top" alt="Product Shoot">
+                            <div class="card-body">
+                                <h6 class="card-title">Product Shoot</h6>
+                                <p class="card-text text-black">Capture the Essence of Your Brand – We ensure your
+                                    products look their best with top-tier photography, perfect for
+                                    e-commerce, marketing, and branding.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <div>
-                    <h1 class="service-card__title">Development</h1>
-                    <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
-                        <div class="card">
-                            <a href="{{ route('webdevelopment') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}"
-                                class="card-img-top" alt="Web Development">
-                                <div class="card-body">
-                                    <h6 class="card-title">Web Development</h6>
-                                    <p class="card-text text-black">Building the Future of Your Business – From design to
-                                        launch, our websites are created with one goal in mind: to turn your
-                                        visitors into loyal customers</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('webdevelopment') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}"
-                                class="card-img-top" alt="App Development">
-                                <div class="card-body">
-                                    <h6 class="card-title">App Development</h6>
-                                    <p class="card-text text-black">From Ideas to Downloads – We take your app idea and
-                                        transform it into a fully functional, optimized, and user-friendly
-                                        mobile application</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('webdevelopment') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}"
-                                class="card-img-top" alt="Software Integrations">
-                                <div class="card-body">
+            <div>
+                <h1 class="service-card__title">Development</h1>
+                <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
+                    <div class="card">
+                        <a href="{{ route('webdevelopment') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/Web-Devlopment.webp') }}" class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h6 class="card-title">Web Development</h6>
+                                <p class="card-text text-black">Building the Future of Your Business – From design to
+                                    launch, our websites are created with one goal in mind: to turn your
+                                    visitors into loyal customers</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('webdevelopment') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/App-Devlopment.webp') }}" class="card-img-top" alt="App Development">
+                            <div class="card-body">
+                                <h6 class="card-title">App Development</h6>
+                                <p class="card-text text-black">From Ideas to Downloads – We take your app idea and
+                                    transform it into a fully functional, optimized, and user-friendly
+                                    mobile application</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('webdevelopment') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/software-integration.png') }}" class="card-img-top" alt="Software Integrations">
+                            <div class="card-body">
                                 <h6 class="card-title">Software Integrations</h6>
                                 <p class="card-text text-black">Get the Most Out of Your Software – We provide custom
                                     integrations that link your tools and platforms together, making your
                                     business operations smarter and more efficient</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="{{ route('erpservices') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}" class="card-img-top"
-                                alt="CRM (Odoo, Salesforce)">
-                                <div class="card-body">
-                                    <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
-                                    <p class="card-text text-black">Enhance Business Insights with Our ERP Solutions – We
-                                        integrate all your operations into one system, giving you complete
-                                        visibility and control over every aspect of your business.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="{{ route('erpservices') }}">
+                            <img src="{{ asset('assets/websiteAssets/images/services/CRM.webp') }}" class="card-img-top" alt="CRM (Odoo, Salesforce)">
+                            <div class="card-body">
+                                <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
+                                <p class="card-text text-black">Enhance Business Insights with Our ERP Solutions – We
+                                    integrate all your operations into one system, giving you complete
+                                    visibility and control over every aspect of your business.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
         </div>
     </div>
@@ -1826,18 +1751,18 @@
                     <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg" style="background-image: url('assets/websiteAssets/images/services/services1.webp'); background-position: bottom; background-size: cover;">
 
 
-                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Empower your <br /> e-commerce business </h4>
-                                    <p>
-                                        With our advanced digital solutions to enhance user experience, increase sales,
-                                        drive traffic, and streamline operations for better growth and efficiency.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
+                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                            <div class="serviceBanner">
+                                <h4>Empower your <br /> e-commerce business </h4>
+                                <p>
+                                    With our advanced digital solutions to enhance user experience, increase sales,
+                                    drive traffic, and streamline operations for better growth and efficiency.
+                                </p>
+                                <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
+                                    Meeting <i class="bi bi-arrow-right"></i></a>
                             </div>
-                            <div class="col-md-8"></div>
+                        </div>
+                        <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1853,11 +1778,11 @@
                                     revenue.
                                 </p>
 
-                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
+                                <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
+                                    Meeting <i class="bi bi-arrow-right"></i></a>
                             </div>
-                            <div class="col-md-8"></div>
+                        </div>
+                        <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1865,18 +1790,18 @@
                     <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg" style="background-image: url('assets/websiteAssets/images/services/realestate-industry.webp'); background-position: center; background-size: cover;">
 
 
-                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
-                                    <p>
-                                        Boost property sales and client engagement with tailored marketing and IT solutions
-                                        designed to elevate your real estate business.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
+                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                            <div class="serviceBanner">
+                                <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
+                                <p>
+                                    Boost property sales and client engagement with tailored marketing and IT solutions
+                                    designed to elevate your real estate business.
+                                </p>
+                                <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
+                                    Meeting <i class="bi bi-arrow-right"></i></a>
                             </div>
-                            <div class="col-md-8"></div>
+                        </div>
+                        <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1884,18 +1809,18 @@
                     <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg" style="background-image: url('assets/websiteAssets/images/services/hospitality-industry.webp');  background-position: top; background-size: cover;">
 
 
-                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
-                                    <p>
-                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT
-                                        solutions tailored for the hospitality industry.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
+                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                            <div class="serviceBanner">
+                                <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
+                                <p>
+                                    Enhance guest experiences and drive bookings with cutting-edge marketing and IT
+                                    solutions tailored for the hospitality industry.
+                                </p>
+                                <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
+                                    Meeting <i class="bi bi-arrow-right"></i></a>
                             </div>
-                            <div class="col-md-8"></div>
+                        </div>
+                        <div class="col-md-8"></div>
 
                     </div>
                 </div>
@@ -1903,18 +1828,18 @@
                     <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg" style="background-image: url('assets/websiteAssets/images/services/healthcare-industry.webp'); background-position: 0 -130px; background-size: cover;">
 
 
-                            <div class="col-md-4 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
-                                    <p>
-                                        Improve patient engagement and streamline operations with customized digital
-                                        solutions designed for the healthcare industry.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
+                        <div class="col-md-4 p-3 my-5 bg-white rounded-3">
+                            <div class="serviceBanner">
+                                <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
+                                <p>
+                                    Improve patient engagement and streamline operations with customized digital
+                                    solutions designed for the healthcare industry.
+                                </p>
+                                <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
+                                    Meeting <i class="bi bi-arrow-right"></i></a>
                             </div>
-                            <div class="col-md-8"></div>
+                        </div>
+                        <div class="col-md-8"></div>
 
                     </div>
                 </div>
