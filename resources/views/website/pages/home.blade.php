@@ -190,28 +190,24 @@
                    Awards & Affiliations
                 </h2>
                 <div class="col-lg-12">
-                    <div class="logo-slider">
-                        <div class="logos-slide">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/4.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/7.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
+                    <div class="row g-3 justify-content-center mt-2">
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}" class="img-fluid rounded-4" alt="Award 1">
                         </div>
-                    </div>
-                    <div class="logo-slider2 mt-3 d-none">
-                        <div class="logos-slide2">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/7.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}">
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}" class="img-fluid rounded-4" alt="Award 2">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}" class="img-fluid rounded-4" alt="Award 4">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/4.jpg') }}" class="img-fluid rounded-4" alt="Award 4">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}" class="img-fluid rounded-4" alt="Award 5">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}" class="img-fluid rounded-4" alt="Award 6">
                         </div>
                     </div>
                 </div>
