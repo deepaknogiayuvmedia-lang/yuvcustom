@@ -195,7 +195,7 @@
                             <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}" class="img-fluid rounded-4" alt="Award 1">
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/2.jpg') }}" class="img-fluid rounded-4" alt="Award 2">
+                            <a href="https://www.google.com/partners/agency?id=2709071831" target="_blank"><img src="{{ asset('assets/websiteAssets/images/certilogos/7.jpg') }}" class="img-fluid rounded-4" alt="Award 2"></a>
                         </div>
                         <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}" class="img-fluid rounded-4" alt="Award 4">
