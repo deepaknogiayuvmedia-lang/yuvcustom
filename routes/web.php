@@ -145,6 +145,8 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('managingpartners', 'managingpartners')->name('managingpartners');
     Route::get('/filterpartner', 'filterpartner')->name('filterpartner');
     Route::get('/partnerDetails/{id}/{city}', 'partnerDetails')->name('partnerDetails');
+    Route::get('/aziri', 'aziri')->name('aziri');
+    Route::get('/house-of-dorik', 'houseofdorik')->name('houseofdorik');
 
 });
 

@@ -584,9 +584,9 @@
 
             </footer>
             <!-- //Footer Area -->
-            <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
+            {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
-            <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script>
+            <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
 
         </div>
         <!-- //Main wrapper -->

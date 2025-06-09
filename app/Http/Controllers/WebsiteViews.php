@@ -172,4 +172,12 @@ class WebsiteViews extends Controller
         $cityname = $city;
         return view('website.pages.partnerdetails', compact('partnersdata', 'cityname'));
     }
+    public function aziri()
+    {
+        return view('website.pages.aziri');
+    }
+    public function houseofdorik()
+    {
+        return view('website.pages.houseofdorik');
+    }
 }
