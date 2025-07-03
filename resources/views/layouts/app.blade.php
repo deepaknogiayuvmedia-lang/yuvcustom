@@ -37,6 +37,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/daterangepicker.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 
 
 
@@ -118,11 +120,13 @@
     <script src="{{ asset('assets/js/daterangepicker-init.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('assets/js/kanban.js') }}"></script>
-    <script src="{{ asset('assets/js/map.js') }}"></script> 
+    <script src="{{ asset('assets/js/map.js') }}"></script>
     <script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=places"></script>
     <script src="https://rawgit.com/Logicify/jquery-locationpicker-plugin/master/dist/locationpicker.jquery.js"></script>
     <script src="https://cdnjs.com/libraries/Chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_KLtDmYZB0Qy_b0f6LHJSlDV2wYYPf8s&libraries=places"></script>
+
     <script>
         $('.floating-labels .form-control').on('focus blur', function(e) {
             $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));

@@ -28,7 +28,7 @@
         </div>
         <div class="card position-relative overflow-hidden">
             <div class="shop-part d-flex w-100">
-                <div class="shop-filters flex-shrink-0 border-end d-none d-lg-block">
+                <div class="shop-filters flex-shrink-0 border-end d-none d-lg-block" style="height: 600px; overflow-y: scroll; scroll-behavior: smooth; scrollbar-width: thin;">
                     <ul class="list-group pt-2 border-bottom rounded-0">
                         <h6 class="my-3 mx-4">Sort By Category</h6>
                         @foreach($categories as $key => $value)
@@ -69,14 +69,15 @@
                     </ul>
                     <ul class="list-group pt-2 border-bottom rounded-0">
                         <h6 class="my-3 mx-4">Sort By City</h6>
-                        @foreach($incluencerdata->unique('city') as $key => $data)
+                        @foreach($cities as $key => $data)
                         <li class="list-group-item border-0 p-0 mx-4 mb-2 d-flex align-items-center">
-                            <input type="checkbox" class="form-check-input me-2" id="city-{{$key}}" value="{{$data->city}}">
+                            <input type="checkbox" class="form-check-input me-2" id="city-{{$key}}" value="{{$data}}">
                             <label class="form-check-label" for="city-{{$key}}">
-                                {{ ucfirst($data->city) }}
+                                {{ ucfirst($data) }}
                             </label>
                         </li>
                         @endforeach
+
                     </ul>
                     <ul class="list-group pt-2 border-bottom rounded-0">
                         <h6 class="my-3 mx-4">Sort By State</h6>
@@ -114,6 +115,9 @@
                                     <a href="#" onclick="confirmDelete('{{ $value->id }}','{{ $value->fullname }}')" class="delete-btn d-inline-flex text-bg-danger rounded-circle p-2 text-white  mb-n3 ms-3" style="position: absolute; bottom: 0px; left: 67%;">
                                         <i class="ti ti-x fs-4"></i>
                                     </a>
+                                    <a href="{{route('admin.editinfluencer',['id' => $value->id])}}" data-influ="{{json_encode($value)}}" class="text-bg-primary rounded-circle p-2 text-white mb-n3 me-3" style="position: absolute; left: 59%; bottom: 0px; width: 33px; display: flex; justify-content: center; align-items: center;">
+                                        <i class="ti ti-edit fs-4"></i>
+                                    </a>
                                 </div>
                                 <div class="card-body pt-3 p-4">
                                     <h6 class="fs-4">{{$value->fullname}}</h6>
@@ -136,9 +140,36 @@
             </div>
         </div>
     </div>
+    <div id="primary-header-modal" class="modal fade" tabindex="-1" aria-labelledby="primary-header-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header modal-colored-header bg-primary text-white">
+                    <h4 class="modal-title text-white" id="primary-header-modalLabel">
+                        Edit Details
+                    </h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <form action="#" class="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="modal-body" id="modalbodyedit">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <button type="submit" class="btn bg-primary-subtle text-primary ">
+                            Save changes
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-     <script>
-        function confirmDelete(id,name) {
+    <script>
+        function confirmDelete(id, name) {
             Swal.fire({
                     title: "Are you sure?"
                     , html: "You want to delete Influencer <strong>" + name + "</strong> from cart?"
@@ -283,6 +314,9 @@
                                             </a>
                                              <a href="#" onclick="confirmDelete('${value.id}','${value.fullname}')" class="delete-btn d-inline-flex text-bg-danger rounded-circle p-2 text-white  mb-n3 ms-3" style="position: absolute; bottom: 0px; left: 67%;">
                                                 <i class="ti ti-x fs-4"></i>
+                                            </a>
+                                            <a href="/admin/editinfluencer/${value.id}" data-influ='${JSON.stringify(value)}' class="text-bg-primary rounded-circle p-2 text-white mb-n3 me-3" style="position: absolute; left: 59%; bottom: 0px; width: 33px; display: flex; justify-content: center; align-items: center;">
+                                                <i class="ti ti-edit fs-4"></i>
                                             </a>
                                         </div>
                                         <div class="card-body pt-3 p-4">

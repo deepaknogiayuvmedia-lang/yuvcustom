@@ -105,6 +105,14 @@
                       </a>
                       <ul aria-expanded="false" class="collapse first-level">
                           <li class="sidebar-item">
+                              <a class="sidebar-link" href="{{route ('admin.addinfluencer')}}" aria-expanded="false">
+                                  <span>
+                                      <i class="ti ti-users"></i>
+                                  </span>
+                                  <span class="hide-menu">Add Influncers</span>
+                              </a>
+                          </li>
+                          <li class="sidebar-item">
                               <a class="sidebar-link" href="{{route ('admin.allinfluencers')}}" aria-expanded="false">
                                   <span>
                                       <i class="ti ti-users"></i>

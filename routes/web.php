@@ -84,6 +84,10 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/meta-settings', [AdminViews::class, 'metasettings'])->name('admin.metasettings');
     Route::post('/saveMetaSettings', [AdminStores::class, 'saveMetaSettings'])->name('admin.saveMetaSettings');
     Route::post('/GetMetaSettings', [AdminStores::class, 'GetMetaSettings'])->name('admin.GetMetaSettings');
+    Route::get('/addinfluencer', [AdminViews::class, 'addinfluencer'])->name('admin.addinfluencer');
+    Route::post('/insertInfluencer', [AdminStores::class, 'insertInfluencer'])->name('admin.insertInfluencer');
+    Route::get('/editinfluencer/{id}', [AdminViews::class, 'editinfluencer'])->name('admin.editinfluencer');
+    Route::post('/updateInfluencer', [AdminStores::class, 'updateInfluencer'])->name('admin.updateInfluencer');
 });
 
 

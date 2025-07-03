@@ -714,5 +714,78 @@ class AdminStores extends Controller
         $data = MetaSetting::where('page', $request->pagename)->first();
         return response()->json(['data' => $data, 'status' => 200]);
     }
+    public function insertInfluencer(Request $request)
+    {
+        try {
+            // Handle file upload
+            $profileimage = null;
+            if ($request->hasFile('profileimage')) {
+                $file = $request->file('profileimage');
+                $profileimage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/websiteAssets/images/Influencers/'), $profileimage);
+            }
+
+            // Register Influencer Here.......
+            $data = Influencer::create([
+                'userid' => $request->input('emailaddress'),
+                'category' => $request->input('category'),
+                'city' => $request->input('city'),
+                'state' => $request->input('state'),
+                'country' => $request->input('country'),
+                'dob' => $request->input('dob'),
+                'fullname' => $request->input('fullname'),
+                'contactnumber' => $request->input('contactnumber'),
+                'emailaddress' => $request->input('emailaddress'),
+                'profileimage' => $profileimage ?? 'defaultuser.png',
+                'instagramprofilelink' => $request->input('instagram'),
+                'platforms' => json_encode($request->input('platforms')),
+                'facebookprofile' => $request->input('facebook'),
+                'youtubeprofile' => $request->input('youtube'),
+                'linkedinprofile' => $request->input('linkedin'),
+                'verificationstatus' => 'pending',
+            ]);
+            return back()->with('success', "Influencer Inserted..!!!");
+        } catch (Exception $e) {
+            return redirect()->back()->with('error', $e->getMessage());
+        }
+    }
+    public function updateInfluencer(Request $request)
+    {
+        try {
+            // Handle file upload
+            $profileimage = null;
+            if ($request->hasFile('profileimage')) {
+                $file = $request->file('profileimage');
+                $profileimage = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('assets/websiteAssets/images/Influencers/'), $profileimage);
+            }
+
+            $influencer = Influencer::find($request->input('influid'));
+            if (!$influencer) {
+                return back()->with('error', "Influencer not found.");
+            }
+
+            $data = Influencer::where('id', $request->input('influid'))->update([
+                'userid' => $request->input('emailaddress'),
+                'category' => $request->input('category'),
+                'city' => $request->input('city'),
+                'state' => $request->input('state'),
+                'country' => $request->input('country'),
+                'dob' => $request->input('dob'),
+                'fullname' => $request->input('fullname'),
+                'contactnumber' => $request->input('contactnumber'),
+                'emailaddress' => $request->input('emailaddress'),
+                'profileimage' => $profileimage ?? $influencer->profileimage,
+                'instagramprofilelink' => $request->input('instagram'),
+                'platforms' => json_encode($request->input('platforms')),
+                'facebookprofile' => $request->input('facebook'),
+                'youtubeprofile' => $request->input('youtube'),
+                'linkedinprofile' => $request->input('linkedin'),
+            ]);
+            return back()->with('success', "Influencer Updated..!!!");
+        } catch (Exception $e) {
+            return redirect()->back()->with('error', $e->getMessage());
+        }
+    }
 
 }

@@ -290,7 +290,7 @@
             });
         }
         window.onload = initAutocomplete;
-    </script>
+</script>
 
 <script>
     document.getElementById('terms').addEventListener('change', function() {

@@ -37,7 +37,7 @@
                             <select name="category" class="form-select mr-sm-2  mb-2" id="citydropdown" required>
                                 <option value="3" selected="">--Filter by city--</option>
                                 @foreach ($cities as $citydata)
-                                <option value="{{$citydata->city}}">{{$citydata->city}}</option>
+                                <option value="{{ucfirst($citydata)}}">{{ucfirst($citydata)}}</option>
                                 @endforeach
                             </select>
                         </div>
@@ -69,6 +69,7 @@
                                 <th>Category</th>
                                 <th>Full Address</th>
                                 <th>Set Verification Status</th>
+                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody id="table-body">
@@ -81,7 +82,6 @@
                                         <img src="{{asset('assets/websiteAssets/images/Influencers/'.$row->profileimage)}}" width="45" class="rounded">
                                         <div>
                                             <h6 class="mb-1">Name: {{ $row->fullname }}</h6>
-                                            <h6 class="mb-1">DOB: {{ \Carbon\Carbon::parse($row->dob)->format('jS-M-Y') }}</h6>
                                             <h6 class="mb-1">Contact: {{ $row->contactnumber }}</h6>
                                             <h6 class="mb-0">Email: {{ $row->emailaddress }}</h6>
                                         </div>
@@ -97,11 +97,43 @@
                                         </label>
                                     </div>
                                 </td>
+                                <td>
+                                    <div class="hstack gap-3 flex-wrap">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#primary-header-modal" data-influ='@json($row)' class="btn btn-outline-primary btn-sm editbtnmodal">
+                                        <i class="ti ti-eye"></i> 
+                                         View details
+                                        </a>
+                                        {{-- <button data-bs-toggle="tooltip" title="Delete" onclick="confirmDelete('{{ $row->id }}')" class="link-danger  fs-6"><i class="ti ti-trash"></i></button> --}}
+                                    </div>
+                                </td>
                             </tr>
                             @endforeach
                         </tbody>
                     </table>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="primary-header-modal" class="modal fade" tabindex="-1" aria-labelledby="primary-header-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header modal-colored-header bg-primary text-white">
+                    <h4 class="modal-title text-white" id="primary-header-modalLabel">
+                       Details
+                    </h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="#" class="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="modal-body" id="modalbodyedit">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -249,5 +281,57 @@
             $('#categorydropdown, #citydropdown, #statedropdown').on('change', filterData);
         });
 
-</script>
+    </script>
+     <script>
+        $(document).on('click', '.editbtnmodal', function() {
+            const infludata = $(this).data('influ');
+            console.log(infludata);
+             $('#modalbodyedit').html(`
+                 <div class="p-4 rounded bg-white text-dark">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="{{asset('assets/websiteAssets/images/Influencers/${infludata.profileimage}')}}" alt="Profile Image" class="rounded-circle me-3" width="80" height="80">
+                            <div>
+                                <h5 class="mb-0">${infludata.fullname}</h5>
+                                <small class="text-muted">${infludata.category} | ${infludata.city}, ${infludata.state}</small>
+                            </div>
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <strong>Email:</strong> <br>${infludata.emailaddress}
+                            </div>
+                            <div class="col-md-6">
+                                <strong>Phone:</strong> <br>${infludata.contactnumber}
+                            </div>
+                            <div class="col-md-6">
+                                <strong>Date of Birth:</strong> <br>${infludata.dob}
+                            </div>
+                            <div class="col-md-6">
+                                <strong>Verification:</strong> <br>
+                                <span class="badge ${infludata.verificationstatus === 'verified' ? 'bg-success text-white' : 'bg-warning text-dark'}">
+                                    ${infludata.verificationstatus}
+                                </span>
+                            </div>
+                            <div class="col-md-12">
+                                <strong>Platforms:</strong> <br>
+                                ${
+                                    JSON.parse(infludata.platforms)
+                                        .map(platform => `<span class="badge rounded-pill  bg-info-subtle text-info me-1">${platform}</span>`)
+                                        .join(' ')
+                                }
+                            </div>
+                            <div class="col-md-12">
+                                <strong>Profile Links:</strong>
+                                <div class="mt-3">
+                                    ${infludata.facebookprofile ? `<a href="${infludata.facebookprofile}" target="_blank" class="me-2 badge badge rounded-pill text-bg-primary">Facebook</a>` : ''}
+                                    ${infludata.instagramprofilelink ? `<a href="${infludata.instagramprofilelink}" target="_blank" class="me-2 badge rounded-pill text-bg-primary">Instagram</a>` : ''}
+                                    ${infludata.linkedinprofile ? `<a href="${infludata.linkedinprofile}" target="_blank" class="me-2 badge rounded-pill text-bg-primary">LinkedIn</a>` : ''}
+                                    ${infludata.youtubeprofile ? `<a href="${infludata.youtubeprofile}" target="_blank" class="me-2 badge rounded-pill text-bg-primary">YouTube</a>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             `);
+        });
+    </script>
 </x-app-layout>

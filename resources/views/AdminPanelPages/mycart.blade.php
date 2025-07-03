@@ -36,8 +36,6 @@
                                         <div>
                                             <h6 class="mb-1">Name: {{ $row->fullname }}</h6>
                                             <h6 class="mb-1">DOB: {{ \Carbon\Carbon::parse($row->dob)->format('jS-M-Y') }}</h6>
-                                            <h6 class="mb-1">Contact: {{ $row->contactnumber }}</h6>
-                                            <h6 class="mb-0">Email: {{ $row->emailaddress }}</h6>
                                         </div>
                                     </div>
                                 </td>

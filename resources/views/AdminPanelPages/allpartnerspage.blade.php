@@ -31,11 +31,11 @@
                 <div class="shop-filters flex-shrink-0 border-end d-none d-lg-block">
                     <ul class="list-group pt-2 border-bottom rounded-0">
                         <h6 class="my-3 mx-4">Sort By City</h6>
-                        @foreach($partnersdata->unique('city') as $key => $datav)
+                        @foreach($cities as $key => $datav)
                         <li class="list-group-item border-0 p-0 mx-4 mb-2 d-flex align-items-center">
-                            <input type="checkbox" class="form-check-input me-2" id="city-{{$key}}" value="{{$datav->city}}">
+                            <input type="checkbox" class="form-check-input me-2" id="city-{{$key}}" value="{{$datav}}">
                             <label class="form-check-label" for="city-{{$key}}">
-                                {{ ucfirst($datav->city) }}
+                                {{ ucfirst($datav) }}
                             </label>
                         </li>
                         @endforeach
