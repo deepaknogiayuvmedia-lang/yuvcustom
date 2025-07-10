@@ -63,7 +63,7 @@
 
                                 <div class="col-md-4 mb-3">
                                     <label class="form-label">Email Address <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" name="emailaddress" placeholder="Email Address" required>
+                                    <input type="email" class="form-control" name="emailaddress" placeholder="Email Address">
                                 </div>
 
                                 <div class="col-md-4 mb-3">
