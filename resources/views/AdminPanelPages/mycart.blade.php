@@ -20,7 +20,8 @@
                         <thead>
                             <tr>
                                 <th>SNo.</th>
-                                <th>Influencer Details</th>
+                                <th>Profile</th>
+                                <th>Name</th>
                                 <th>Category</th>
                                 <th>City</th>
                                 <th>Platforms</th>
@@ -32,15 +33,21 @@
                             <tr>
                                 <td>{{ $index + 1}}</td>
                                 <td>
+                                    @if($row->profileimage)
+                                    <img src="{{ asset('assets/websiteAssets/images/Influencers/' . $row->profileimage) }}" alt="Profile Image" class="me-2 rounded-circle border" style="width: 60px; height: 60px; object-fit: cover;">
+                                    @else
+                                    <img src="{{ asset('assets/websiteAssets/images/Influencers/defaultuser.png') }}" alt="Profile Image" class="me-2 rounded-circle border" style="width: 60px; height: 60px; object-fit: cover;">
+                                    @endif
+                                </td>
+                                <td>
                                     <div class="d-flex align-items-center gap-3">
                                         <div>
-                                            <h6 class="mb-1">Name: {{ $row->fullname }}</h6>
-                                            <h6 class="mb-1">DOB: {{ \Carbon\Carbon::parse($row->dob)->format('jS-M-Y') }}</h6>
+                                            <h6 class="mb-1 text-wrap">{{ $row->fullname }}</h6>
                                         </div>
                                     </div>
                                 </td>
-                                <td>{{ $row->category}}</td>
-                                <td>{{ ucwords($row->city)}}, {{ ucwords($row->state)}}</td>
+                                <td class="text-wrap">{{ $row->category}}</td>
+                                <td class="text-wrap">{{ ucwords($row->city)}}, {{ ucwords($row->state)}}</td>
                                 <td>
                                     @foreach (json_decode($row->platforms) as $plat)
                                     <div class="mb-2">
@@ -87,7 +94,20 @@
             var printContents = document.getElementById(divId).innerHTML;
             var originalContents = document.body.innerHTML;
 
-            document.body.innerHTML = printContents;
+            // Remove the "Action" column header
+            var ths = printContents.querySelectorAll('th');
+            ths.forEach(function(th, idx) {
+                if (th.textContent.trim() === 'Action') {
+                    // Remove the header cell
+                    th.parentNode.removeChild(th);
+                    // Remove the corresponding cell in each row
+                    printContents.querySelectorAll('tbody tr').forEach(function(tr) {
+                        tr.removeChild(tr.children[idx]);
+                    });
+                }
+            });
+
+            document.body.innerHTML = ths;
             window.print();
             document.body.innerHTML = originalContents;
             window.location.reload(); // Reload to restore original state
