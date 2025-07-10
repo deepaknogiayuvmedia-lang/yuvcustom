@@ -43,7 +43,7 @@ $(document).ready(function () {
                 items: 3
             },
             600: {
-                items: 3
+                items: 6
             },
             1000: {
                 items: 10
@@ -199,7 +199,7 @@ $(document).ready(function () {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: Math.min(4, slideCount), // Adjust for smaller screens
+                        slidesToShow: Math.min(2, slideCount), // Adjust for smaller screens
                         slidesToScroll: Math.min(1, slideCount),
                         infinite: slideCount > 1
                     }
@@ -434,7 +434,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
@@ -473,7 +473,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true

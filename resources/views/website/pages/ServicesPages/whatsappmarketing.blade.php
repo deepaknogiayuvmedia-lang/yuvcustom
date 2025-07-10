@@ -28,7 +28,7 @@
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
-                        <div class="mt-3 mt-md-0">
+                        <div class="mt-3 mt-lg-0">
                             <a class="btn btn-outline-dark btn-lg bookdemobtnwhat" href="{{ route('contact') }}">
                                 Book aDemo
                             </a>
@@ -58,15 +58,15 @@
     <section class="py-5 position-relative">
         <div class="container-fluid">
             <div class="row gy-3">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <img class="img-fluid  rounded-3" src="{{ asset('assets/websiteAssets/images/Screenshot_1.jpg') }}"
                         alt="">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <img class="img-fluid  rounded-3" src="{{ asset('assets/websiteAssets/images/Screenshot_2.jpg') }}"
                         alt="">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <img class="img-fluid  rounded-3" src="{{ asset('assets/websiteAssets/images/Screenshot_3.jpg') }}"
                         alt="">
                 </div>
@@ -83,11 +83,11 @@
             <div class="p-3 p-md-5 shadow-sm rounded-4">
 
                 <div class="row ">
-                    <div class="col-md-6 p-3 p-md-5">
+                    <div class="col-md-6 p-3 p-lg-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Broadcast-new1.webp" alt="features">
                     </div>
-                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-lg-5  d-flex flex-column justify-content-center">
                         <h3>Send Out a Broadcast</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="row ">
-                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-lg-5  d-flex flex-column justify-content-center">
                         <h3>Use chatbots to automate</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -145,7 +145,7 @@
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 p-3 p-md-5">
+                    <div class="col-md-6 p-3 p-lg-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Botflow-new1.webp" alt="features">
                     </div>
@@ -153,11 +153,11 @@
                 </div>
 
                 <div class="row ">
-                    <div class="col-md-6 p-3 p-md-5">
+                    <div class="col-md-6 p-3 p-lg-5">
                         <img class="img-fluid  rounded-3"
                             src="https://www.wati.io/wp-content/uploads/2024/11/Team-Inbox-new1.webp" alt="features">
                     </div>
-                    <div class="col-md-6 p-3 p-md-5  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 p-3 p-lg-5  d-flex flex-column justify-content-center">
                         <h3>Work together using a shared team inbox.</h3>
                         <div class="d-flex">
                             <i class="bi bi-patch-check text-success"></i>
@@ -200,7 +200,7 @@
 
             </p>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="p-3">
                         <img src="https://www.wati.io/wp-content/uploads/2024/05/brk.webp" alt="" width="150">
                         <div class="py-3">
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="p-3">
                         <img src="https://www.wati.io/wp-content/uploads/2024/05/ups.webp" alt="" width="150">
                         <div>
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="p-3">
                         <img src="https://www.wati.io/wp-content/uploads/2024/05/sscale.webp" alt=""
                             width="150">
@@ -238,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="p-3">
                         <img src="https://www.wati.io/wp-content/uploads/2024/05/chhnl.webp" alt=""
                             width="150">

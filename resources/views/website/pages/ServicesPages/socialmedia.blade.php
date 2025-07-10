@@ -31,7 +31,7 @@
         </div>
         <div class="container  py-4 py-md-5 ">
             <div class="row align-items-center">
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <div class="text-start fs-2 fw-bold text-capitalize position-relative">
                         More Reach, More Engagement, More Sales!
                         <span class="qouteicon">
@@ -65,7 +65,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <img class="seoimage "
                         src="{{ asset('assets/websiteAssets/images/services/social-media-marketing.webp') }}"
                         alt="seo">
@@ -77,11 +77,11 @@
     <section class="py-2 position-relative">
         <div class="container  py-4 py-md-5 ">
             <div class="row align-items-center mb-5">
-                <div class="col-md-6 p-3 p-md-5 ">
+                <div class="col-md-6 p-3 p-lg-5 ">
                     <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/social-first-india.jpg') }}"
                         alt="seo">
                 </div>
-                <div class="col-md-6 p-3 p-md-5 ">
+                <div class="col-md-6 p-3 p-lg-5 ">
                     <div class="text-start fs-2 fw-bold text-capitalize position-relative">
                         Social-first strategies, for our social-first world
                         <span class="qouteicon">
@@ -119,7 +119,7 @@
             </div>
 
             <div class="row align-items-center mb-5">
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <div class="text-start fs-2 fw-bold text-capitalize position-relative">
                         Engage Your Audience with Platform-Specific Content
                         <span class="qouteicon">
@@ -155,7 +155,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <img class="seoimage img-fluid"
                         src="{{ asset('assets/websiteAssets/images/services/Platform-specific-social-content.jpg') }}"
                         alt="seo">
@@ -163,11 +163,11 @@
             </div>
 
             <div class="row align-items-center mb-5">
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/data-driven.png') }}"
                         alt="seo">
                 </div>
-                <div class="col-md-6 p-3 p-md-5">
+                <div class="col-md-6 p-3 p-lg-5">
                     <div class="text-start fs-2 fw-bold text-capitalize position-relative">
                         We take a data-driven approach to social
                         <span class="qouteicon">

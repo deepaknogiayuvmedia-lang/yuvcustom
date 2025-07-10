@@ -74,7 +74,7 @@
             </h2>
             <div class="row g-3">
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card border-0 shadow-sm rounded-4 h-100">
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-2">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card border-0 shadow-sm rounded-4 h-100">
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-2">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card border-0 shadow-sm rounded-4 h-100">
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-2">
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card border-0 shadow-sm rounded-4 h-100">
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-2">
@@ -226,7 +226,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage" src="https://hypeauditor.com/_nuxt/Index_01.DWwSnX24.png" alt="discovery">
+                    <img class="influbimage" src="{{ asset('assets/websiteAssets/images/services/influencers/Discovery.png') }}" alt="discovery">
                 </div>
             </div>
 
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/Index_02.a2TfQcHX.png"
+                    <img class="influbimage img-fluid" src="{{ asset('assets/websiteAssets/images/services/influencers/Analytics.png') }}"
                         alt="analytics">
                 </div>
             </div>
@@ -284,8 +284,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt-3 mt-md-0 text-center">
-                    <img class="img-fluid" src="https://hypeauditor.com/_nuxt/Index_03.B66UugQl.png" alt="analytics">
+                <div class="col-md-6 text-center">
+                    <img class="influbimage  img-fluid" src="{{ asset('assets/websiteAssets/images/services/influencers/Management.png') }}" alt="analytics">
                 </div>
             </div>
 
@@ -315,7 +315,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="influbimage img-fluid" src="https://hypeauditor.com/_nuxt/grid.CUCk2zty.png"
+                    <img class="influbimage img-fluid" src="{{ asset('assets/websiteAssets/images/services/influencers/Market.png') }}"
                         alt="analytics">
                 </div>
             </div>
@@ -336,7 +336,7 @@
                 </div>
             </div>
             <div class="row gy-4 gx-4">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/influencer.png') }}" alt="service bg"
@@ -349,7 +349,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/efficiency.png') }}" alt="service bg"
@@ -362,7 +362,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
@@ -375,7 +375,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
@@ -388,7 +388,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"
@@ -401,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="influcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/content-marketing.png') }}" alt="service bg"

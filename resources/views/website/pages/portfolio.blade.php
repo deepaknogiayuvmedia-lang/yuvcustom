@@ -26,7 +26,7 @@
             <div class="d-flex align-items-start position-relative">
                 <div class="nav flex-column nav-pill me-3  position-sticky top-50 " id="v-pills-tab" role="tablist"
                     aria-orientation="vertical">
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown ">
                         <button class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
                             aria-expanded="false">2D Animation </button>
                         <ul class="dropdown-menu">
@@ -125,7 +125,7 @@
                     {{-- 2D Character Animation --}}
                     <div class="tab-pane fade show active" id="v-pills-Character" role="tabpanel"
                         aria-labelledby="v-pills-Character-tab" tabindex="0">
-                        <div class="row ps-5" id="characterAnimationSection">
+                        <div class="row ps-2" id="characterAnimationSection">
                             <h3>2D Animation > <span class="fw-bold">2D Character Animation</span></h3>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                     {{-- 2D Motion Graphics --}}
                     <div class="tab-pane fade" id="v-pills-Motion" role="tabpanel" aria-labelledby="v-pills-Motion-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="motionGraphicsSection">
+                        <div class="row ps-2" id="motionGraphicsSection">
                             <h3>2D Animation > <span class="fw-bold">2D Motion Graphics</span></h3>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                     {{-- Logo Animations --}}
                     <div class="tab-pane fade" id="v-pills-Logo" role="tabpanel" aria-labelledby="v-pills-Logo-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="logoAnimationSection">
+                        <div class="row ps-2" id="logoAnimationSection">
                             <h3>Logo Animations</h3>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                     {{-- Slideshows --}}
                     <div class="tab-pane fade" id="v-pills-Slideshow" role="tabpanel"
                         aria-labelledby="v-pills-Slideshow-tab" tabindex="0">
-                        <div class="row ps-5" id="slideShowSection">
+                        <div class="row ps-2" id="slideShowSection">
                             <h3>Slideshows</h3>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                     {{-- Youtube Intro Outro --}}
                     <div class="tab-pane fade" id="v-pills-youtube" role="tabpanel"
                         aria-labelledby="v-pills-youtube-tab" tabindex="0">
-                        <div class="row ps-5" id="youtubeIntroSection">
+                        <div class="row ps-2" id="youtubeIntroSection">
                             <h3>Youtube Intro Outro</h3>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                     {{-- 3D Animation --}}
                     <div class="tab-pane fade" id="v-pills-Modeling" role="tabpanel"
                         aria-labelledby="v-pills-Modeling-tab" tabindex="0">
-                        <div class="row ps-5" id="modelingSection">
+                        <div class="row ps-2" id="modelingSection">
                             <h3>3D Modeling</h3>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                     {{-- 3D Product Animation --}}
                     <div class="tab-pane fade" id="v-pills-Product" role="tabpanel"
                         aria-labelledby="v-pills-Product-tab" tabindex="0">
-                        <div class="row ps-5" id="productAnimationSection">
+                        <div class="row ps-2" id="productAnimationSection">
                             <h3>3D Product Animation</h3>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                     {{-- Lighting and Compositing --}}
                     <div class="tab-pane fade" id="v-pills-Lighting" role="tabpanel"
                         aria-labelledby="v-pills-Lighting-tab" tabindex="0">
-                        <div class="row ps-5" id="lightingCompositingSection">
+                        <div class="row ps-2" id="lightingCompositingSection">
                             <h3>Lighting and Compositing</h3>
                         </div>
 
@@ -189,7 +189,7 @@
 
                     <div class="tab-pane fade" id="v-pills-Rigging" role="tabpanel"
                         aria-labelledby="v-pills-Rigging-tab" tabindex="0">
-                        <div class="row ps-5" id="riggingSimulationSection">
+                        <div class="row ps-2" id="riggingSimulationSection">
                             <h3>Rigging And Simulation</h3>
                         </div>
                     </div>
@@ -198,25 +198,25 @@
                     {{-- Video Editing --}}
                     <div class="tab-pane fade" id="v-pills-Commercial" role="tabpanel"
                         aria-labelledby="v-pills-Commercial-tab" tabindex="0">
-                        <div class="row ps-5" id="commercialVideoSection">
+                        <div class="row ps-2" id="commercialVideoSection">
                             <h3>Commercial Video Shoot</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-Corporate" role="tabpanel"
                         aria-labelledby="v-pills-Corporate-tab" tabindex="0">
-                        <div class="row ps-5" id="corporatePromoSection">
+                        <div class="row ps-2" id="corporatePromoSection">
                             <h3>Corporate Promo</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-Music" role="tabpanel" aria-labelledby="v-pills-Music-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="musicVideoSection">
+                        <div class="row ps-2" id="musicVideoSection">
                             <h3>Music Video</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-Travel" role="tabpanel" aria-labelledby="v-pills-Travel-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="travelVideoSection">
+                        <div class="row ps-2" id="travelVideoSection">
                             <h3>Travel Video</h3>
                         </div>
                     </div>
@@ -224,19 +224,19 @@
 
                     <div class="tab-pane fade" id="v-pills-cgi" role="tabpanel" aria-labelledby="v-pills-cgi-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="cgiSection">
+                        <div class="row ps-2" id="cgiSection">
                             <h3>CGI</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-Story" role="tabpanel" aria-labelledby="v-pills-Story-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="graphicSection">
+                        <div class="row ps-2" id="graphicSection">
                             <h3>Graphic Design</h3>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-vfx" role="tabpanel" aria-labelledby="v-pills-vfx-tab"
                         tabindex="0">
-                        <div class="row ps-5" id="vfxSection">
+                        <div class="row ps-2" id="vfxSection">
                             <h3>VFX</h3>
                         </div>
                     </div>

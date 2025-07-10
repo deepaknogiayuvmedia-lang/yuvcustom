@@ -5,7 +5,7 @@
     <section class="py-5 py-md-3 position-relative">
         <div class="container py-3 py-md-5">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="text-start globaltxtcolor text-capitalize fs-1">
                         Your Vision, Our Code.
                     </div>
@@ -15,7 +15,11 @@
 
                     <div class="text-start py-2">
                         <p class="text-wrap websecondhead">
-                            You define the goals, and we create the softwares to achieve them. With our deep understanding of industry trends, agile development approach, and expertise in cutting-edge web technologies, we craft web and app solutions that align perfectly with your business objectives. Whether it's optimizing user experience, enhancing functionality, or ensuring scalability, we work closely with you to deliver a high-ROI solution that resonates with users and drives your success.
+                            You define the goals, and we create the softwares to achieve them. With our deep understanding
+                            of industry trends, agile development approach, and expertise in cutting-edge web technologies,
+                            we craft web and app solutions that align perfectly with your business objectives. Whether it's
+                            optimizing user experience, enhancing functionality, or ensuring scalability, we work closely
+                            with you to deliver a high-ROI solution that resonates with users and drives your success.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -25,9 +29,10 @@
                         </div>
                     </div>
                 </div>
-                
 
-                <div class="col-lg-6 col-md-12 pt-lg-5 mt-lg-3 pt-0 pe-lg-5  animate-right position-relative jaydeskpa dding">
+
+                <div
+                    class="col-lg-6 col-md-12 pt-md-5 mt-lg-3 pt-0 pe-lg-5  animate-right position-relative jaydeskpa dding">
                     <div class="container1">
                         <img src="https://crmlanding.in/assets/images/hero/bg/manufactbgline.png" class="position-absolute"
                             id="img_bg">
@@ -377,9 +382,9 @@
                 </div>
 
             </div>
-            <div class="row mt-3 g-5 px-md-5 px-3">
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+            <div class="row mt-3 g-5 px-lg-5 px-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="500">
                         <div>
                             01 <i class="bi bi-chevron-compact-right"></i>
@@ -389,12 +394,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Our WordPress websites are designed with user-friendly interfaces, allowing for easy content management, while ensuring a professional, polished look. Tailored to your brand, these websites deliver seamless functionality and are fully optimized for performance.
+                            Our WordPress websites are designed with user-friendly interfaces, allowing for easy content
+                            management, while ensuring a professional, polished look. Tailored to your brand, these websites
+                            deliver seamless functionality and are fully optimized for performance.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1000">
                         <div>
                             02 <i class="bi bi-chevron-compact-right"></i>
@@ -404,12 +411,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            We offer ongoing support and maintenance for your website, ensuring it stays updated, secure, and running smoothly. Our team handles everything from bug fixes to regular updates, ensuring your site performs at its best.
+                            We offer ongoing support and maintenance for your website, ensuring it stays updated, secure,
+                            and running smoothly. Our team handles everything from bug fixes to regular updates, ensuring
+                            your site performs at its best.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1500">
                         <div>
                             03 <i class="bi bi-chevron-compact-right"></i>
@@ -419,12 +428,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            In today’s mobile-first world, we design websites that look and function flawlessly across all devices. Our mobile-responsive websites guarantee that users enjoy a smooth and optimized experience on smartphones, tablets, and desktops alike.
+                            In today’s mobile-first world, we design websites that look and function flawlessly across all
+                            devices. Our mobile-responsive websites guarantee that users enjoy a smooth and optimized
+                            experience on smartphones, tablets, and desktops alike.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="500">
                         <div>
                             04 <i class="bi bi-chevron-compact-right"></i>
@@ -434,12 +445,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            We create custom website designs tailored to your unique brand and business objectives. From intuitive layouts to striking visuals, our designs ensure your website stands out while delivering a seamless user experience.
+                            We create custom website designs tailored to your unique brand and business objectives. From
+                            intuitive layouts to striking visuals, our designs ensure your website stands out while
+                            delivering a seamless user experience.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1000">
                         <div>
                             05 <i class="bi bi-chevron-compact-right"></i>
@@ -449,12 +462,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            We specialize in building corporate websites that reflect your business’s professionalism and authority. With a focus on user experience and clear communication, we deliver sites that build trust and facilitate customer engagement.
+                            We specialize in building corporate websites that reflect your business’s professionalism and
+                            authority. With a focus on user experience and clear communication, we deliver sites that build
+                            trust and facilitate customer engagement.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1500">
                         <div>
                             06 <i class="bi bi-chevron-compact-right"></i>
@@ -464,12 +479,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Use our sophisticated and adaptable brochure websites to present your goods and services in a fashionable manner. These websites are ideal for small businesses because they are made to draw in visitors while maintaining consistency with your brand.
+                            Use our sophisticated and adaptable brochure websites to present your goods and services in a
+                            fashionable manner. These websites are ideal for small businesses because they are made to draw
+                            in visitors while maintaining consistency with your brand.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="500">
                         <div>
                             07 <i class="bi bi-chevron-compact-right"></i>
@@ -480,12 +497,15 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Use effective landing pages to turn visitors into buyers. Our high-converting landing pages are designed to capture attention and drive actions. Whether it’s for lead generation, a promotional campaign, or a product launch, we create landing pages that effectively engage your audience and maximize conversions.
+                            Use effective landing pages to turn visitors into buyers. Our high-converting landing pages are
+                            designed to capture attention and drive actions. Whether it’s for lead generation, a promotional
+                            campaign, or a product launch, we create landing pages that effectively engage your audience and
+                            maximize conversions.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1000">
                         <div>
                             08 <i class="bi bi-chevron-compact-right"></i>
@@ -495,12 +515,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            We build secure and scalable e-commerce websites that make it easy for customers to browse, shop, and checkout. With features like product management, payment gateway integration, and inventory tracking, our websites are built to support your business growth.
+                            We build secure and scalable e-commerce websites that make it easy for customers to browse,
+                            shop, and checkout. With features like product management, payment gateway integration, and
+                            inventory tracking, our websites are built to support your business growth.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1500">
                         <div>
                             09 <i class="bi bi-chevron-compact-right"></i>
@@ -510,12 +532,14 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Enhance your website with visually engaging animations that captivate your audience. We incorporate subtle animations that enhance user experience without compromising on performance, helping your website stand out and keep visitors engaged.
+                            Enhance your website with visually engaging animations that captivate your audience. We
+                            incorporate subtle animations that enhance user experience without compromising on performance,
+                            helping your website stand out and keep visitors engaged.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rounded-4 shadow-sm p-5 bg-secondary-subtle h-100" data-aos="fade-up"
+                <div class="col-lg-4 col-md-6">
+                    <div class="rounded-4 shadow-sm p-lg-5 p-md-4 p-3 bg-secondary-subtle h-100" data-aos="fade-up"
                         data-aos-duration="1500">
                         <div>
                             10 <i class="bi bi-chevron-compact-right"></i>
@@ -525,7 +549,9 @@
                         </div>
                         <hr class="w-50">
                         <div class="text-dark lh-sm">
-                            Our Progressive Web Apps combine the best features of both websites and mobile apps, providing a fast, engaging, and reliable user experience across all platforms. PWAs are designed to work offline, ensuring your users stay connected no matter where they are.
+                            Our Progressive Web Apps combine the best features of both websites and mobile apps, providing a
+                            fast, engaging, and reliable user experience across all platforms. PWAs are designed to work
+                            offline, ensuring your users stay connected no matter where they are.
                         </div>
                     </div>
                 </div>
@@ -534,7 +560,7 @@
     </section>
 
     <div class="section">
-        <div class="wrapper container">
+        <div class="wrapper container p-5 p-md-3">
             <div class="citebox js-karaoke">
                 <div class="citebox-content js-karaoke-content">
                     <span>We pride ourselves on </span>
@@ -571,8 +597,9 @@
 
             </div>
             {{-- discovery --}}
-            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1 col-3">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="col-lg-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         01
                     </div>
@@ -607,15 +634,25 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Creative" role="tabpanel"
                                 aria-labelledby="Creative-tab" tabindex="0">
-                                Our process begins with a deep dive into your brand, goals, and target audience. During the creative brief phase, we gather all the necessary information to understand your vision. This helps us create a tailored solution that resonates with your brand’s identity and objectives.
+                                Our process begins with a deep dive into your brand, goals, and target audience. During the
+                                creative brief phase, we gather all the necessary information to understand your vision.
+                                This helps us create a tailored solution that resonates with your brand’s identity and
+                                objectives.
                             </div>
                             <div class="tab-pane fade " id="Analysis" role="tabpanel" aria-labelledby="Analysis-tab"
                                 tabindex="0">
-                                We analyze the current digital landscape to understand where your brand stands. This involves assessing your competitors, market trends, and user behavior to gain insights into the strengths, weaknesses, and opportunities in your digital presence. Our analysis ensures that we craft a strategy that positions your business for success.
+                                We analyze the current digital landscape to understand where your brand stands. This
+                                involves assessing your competitors, market trends, and user behavior to gain insights into
+                                the strengths, weaknesses, and opportunities in your digital presence. Our analysis ensures
+                                that we craft a strategy that positions your business for success.
                             </div>
                             <div class="tab-pane fade " id="Strategy" role="tabpanel" aria-labelledby="Strategy-tab"
                                 tabindex="0">
-                                With the creative brief and digital analysis as the foundation, we develop a comprehensive strategy for your web and app development project. Our approach is data-driven, ensuring we address your goals effectively while also anticipating future needs. Whether it’s user experience optimization, technical specifications, or digital growth, our strategy covers every aspect for long-term success.
+                                With the creative brief and digital analysis as the foundation, we develop a comprehensive
+                                strategy for your web and app development project. Our approach is data-driven, ensuring we
+                                address your goals effectively while also anticipating future needs. Whether it’s user
+                                experience optimization, technical specifications, or digital growth, our strategy covers
+                                every aspect for long-term success.
                             </div>
 
                         </div>
@@ -624,8 +661,9 @@
             </div>
 
             {{-- design --}}
-            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1 col-3">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="col-lg-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         02
                     </div>
@@ -664,19 +702,31 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Ideation" role="tabpanel"
                                 aria-labelledby="Ideation-tab" tabindex="0">
-                                In this phase, our team works closely with you to bring your ideas to life. We brainstorm, explore creative directions, and define the core vision for your project. The goal is to conceptualize innovative and impactful solutions that align with your objectives and set the stage for the design process.
+                                In this phase, our team works closely with you to bring your ideas to life. We brainstorm,
+                                explore creative directions, and define the core vision for your project. The goal is to
+                                conceptualize innovative and impactful solutions that align with your objectives and set the
+                                stage for the design process.
                             </div>
                             <div class="tab-pane fade " id="Experience" role="tabpanel" aria-labelledby="Experience-tab"
                                 tabindex="0">
-                                We focus on creating a seamless, intuitive, and enjoyable user experience. Our UX design process involves understanding your audience's needs, behaviors, and pain points, allowing us to create an easy-to-navigate layout that ensures users engage with your website or app in the most efficient way possible.
+                                We focus on creating a seamless, intuitive, and enjoyable user experience. Our UX design
+                                process involves understanding your audience's needs, behaviors, and pain points, allowing
+                                us to create an easy-to-navigate layout that ensures users engage with your website or app
+                                in the most efficient way possible.
                             </div>
                             <div class="tab-pane fade " id="Interface" role="tabpanel" aria-labelledby="Interface-tab"
                                 tabindex="0">
-                                Our UI design ensures that the interface of your website or app is visually appealing and user-friendly. We focus on designing clear, functional, and aesthetically pleasing layouts that enhance the user’s interaction with the product. Every design element is carefully considered to ensure it aligns with your brand and provides a cohesive experience.
+                                Our UI design ensures that the interface of your website or app is visually appealing and
+                                user-friendly. We focus on designing clear, functional, and aesthetically pleasing layouts
+                                that enhance the user’s interaction with the product. Every design element is carefully
+                                considered to ensure it aligns with your brand and provides a cohesive experience.
                             </div>
                             <div class="tab-pane fade " id="Prototype" role="tabpanel" aria-labelledby="Prototype-tab"
                                 tabindex="0">
-                                We bring the designs to life with interactive prototypes that simulate the look and feel of your final product. This stage allows us to test usability and functionality before development begins. Prototypes help visualize how users will interact with your app or website, providing valuable feedback to refine the design and ensure we’re on track.
+                                We bring the designs to life with interactive prototypes that simulate the look and feel of
+                                your final product. This stage allows us to test usability and functionality before
+                                development begins. Prototypes help visualize how users will interact with your app or
+                                website, providing valuable feedback to refine the design and ensure we’re on track.
                             </div>
                         </div>
                     </div>
@@ -684,8 +734,9 @@
             </div>
 
             {{-- Development --}}
-            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1 col-3">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="col-lg-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         03
                     </div>
@@ -724,27 +775,42 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Architecture" role="tabpanel"
                                 aria-labelledby="Architecture-tab" tabindex="0">
-                                In the systems architecture phase, we design the underlying structure of your website or application. This involves organizing how different parts of your system will interact, ensuring scalability, security, and optimal performance. We establish a robust framework that supports your business needs and future growth.
+                                In the systems architecture phase, we design the underlying structure of your website or
+                                application. This involves organizing how different parts of your system will interact,
+                                ensuring scalability, security, and optimal performance. We establish a robust framework
+                                that supports your business needs and future growth.
                             </div>
                             <div class="tab-pane fade " id="Integrations" role="tabpanel"
                                 aria-labelledby="Integrations-tab" tabindex="0">
-                                Our development team builds dynamic and feature-rich websites and applications by integrating both front-end and back-end technologies. Whether it’s a custom solution or utilizing Content Management Systems (CMS) like WordPress or Shopify, we ensure smooth integration that offers flexibility, ease of use, and powerful functionality to meet your goals.
+                                Our development team builds dynamic and feature-rich websites and applications by
+                                integrating both front-end and back-end technologies. Whether it’s a custom solution or
+                                utilizing Content Management Systems (CMS) like WordPress or Shopify, we ensure smooth
+                                integration that offers flexibility, ease of use, and powerful functionality to meet your
+                                goals.
                             </div>
                             <div class="tab-pane fade " id="QA" role="tabpanel" aria-labelledby="QA-tab"
                                 tabindex="0">
-                                Before launching, we rigorously test your website or application to ensure that it meets the highest quality standards. Our QA process includes functional testing, usability checks, and performance assessments to identify and resolve any bugs or issues. We ensure your digital product runs seamlessly across all platforms and devices, offering a flawless user experience.
+                                Before launching, we rigorously test your website or application to ensure that it meets the
+                                highest quality standards. Our QA process includes functional testing, usability checks, and
+                                performance assessments to identify and resolve any bugs or issues. We ensure your digital
+                                product runs seamlessly across all platforms and devices, offering a flawless user
+                                experience.
                             </div>
                             <div class="tab-pane fade " id="Launch" role="tabpanel" aria-labelledby="Launch-tab"
                                 tabindex="0">
-                                Once everything is tested and finalized, it’s time to launch. We carefully deploy your website or application, ensuring a smooth transition from development to live status. Our team monitors the launch process to make sure everything goes as planned, ensuring a seamless roll-out and immediate availability for your users.
+                                Once everything is tested and finalized, it’s time to launch. We carefully deploy your
+                                website or application, ensuring a smooth transition from development to live status. Our
+                                team monitors the launch process to make sure everything goes as planned, ensuring a
+                                seamless roll-out and immediate availability for your users.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             {{-- Support --}}
-            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="col-md-1 col-3">
+            <div class="row mt-3 g-5 px-md-5 px-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="col-lg-1 col-3">
                     <div class="fs-3 fw-light rounded-pill p-2  bg-secondary-subtle text-center mt-3n">
                         04
                     </div>
@@ -779,16 +845,25 @@
                         <div class="tab-content my-3 w-75">
                             <div class="tab-pane fade show  active" id="Maintenance" role="tabpanel"
                                 aria-labelledby="Maintenance-tab" tabindex="0">
-                                Our support doesn’t end at launch. We offer ongoing maintenance and regular updates to ensure your website or application remains secure, up-to-date, and aligned with the latest technologies. Whether it’s updating content, adding new features, or optimizing performance, we provide continuous support to keep your digital presence fresh and functional.
+                                Our support doesn’t end at launch. We offer ongoing maintenance and regular updates to
+                                ensure your website or application remains secure, up-to-date, and aligned with the latest
+                                technologies. Whether it’s updating content, adding new features, or optimizing performance,
+                                we provide continuous support to keep your digital presence fresh and functional.
 
                             </div>
                             <div class="tab-pane fade " id="Performance" role="tabpanel"
                                 aria-labelledby="Performance-tab" tabindex="0">
-                                We continuously monitor the performance of your website or app to ensure it’s running at its best. By tracking loading times, user behavior, and system health, we identify potential issues before they affect your users. This proactive approach helps us optimize performance, ensuring a smooth, fast, and reliable experience for your visitors.
+                                We continuously monitor the performance of your website or app to ensure it’s running at its
+                                best. By tracking loading times, user behavior, and system health, we identify potential
+                                issues before they affect your users. This proactive approach helps us optimize performance,
+                                ensuring a smooth, fast, and reliable experience for your visitors.
                             </div>
                             <div class="tab-pane fade " id="Training" role="tabpanel" aria-labelledby="Training-tab"
                                 tabindex="0">
-                                To ensure you’re fully equipped to manage and utilize your website or app, we offer robust training tailored to your needs. Whether it’s learning how to update content, manage the backend, or analyze data, our team provides comprehensive guidance, making sure you feel confident and empowered to operate and scale your digital product effectively.
+                                To ensure you’re fully equipped to manage and utilize your website or app, we offer robust
+                                training tailored to your needs. Whether it’s learning how to update content, manage the
+                                backend, or analyze data, our team provides comprehensive guidance, making sure you feel
+                                confident and empowered to operate and scale your digital product effectively.
                             </div>
                         </div>
                     </div>

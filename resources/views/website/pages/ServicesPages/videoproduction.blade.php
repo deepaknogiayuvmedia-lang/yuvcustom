@@ -20,7 +20,7 @@
         </video>
 
         <!-- Banner Section -->
-        <div class="container bannersection">
+        <div class="container-fluid bannersection">
             <div class="row py-5">
                 <div class="subTitle fs-3 mb-2">
                     Tell Your Brand Story
@@ -290,7 +290,7 @@
 
             </div>
             <div class="row g-2 justify-content-center align-items-center">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3838-3533-4964-b236-366365356563/01.svg"
@@ -308,7 +308,7 @@
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3434-3462-4130-a535-383630333061/02.svg"
@@ -326,7 +326,7 @@
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6136-6665-4665-a335-326466633733/03.svg"
@@ -340,7 +340,7 @@
                     </div>
                 </div>
                 {{-- -------------------------------------------- --}}
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3639-6564-4264-b336-303938643966/04.svg"
@@ -358,7 +358,7 @@
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6231-6137-4532-b032-383233663636/05.svg"
@@ -376,7 +376,7 @@
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6635-3131-4863-a535-636237643037/06.svg"
@@ -392,7 +392,7 @@
 
                 {{-- -------------------------------------------- --}}
 
-                <div class="col-md-3 ">
+                <div class="col-lg-3 col-md-5 ">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild3539-3338-4561-b735-336162366533/07.svg"
@@ -410,7 +410,7 @@
                     <img src="https://static.tildacdn.net/tild3436-6363-4535-b135-633961343634/arrow2.svg" alt="">
                 </div>
 
-                <div class="col-md-3 ">
+                <div class="col-lg-3 col-md-5 ">
                     <div class="d-flex px-3 p-md-3 align-items-center">
                         <div>
                             <img src="https://static.tildacdn.net/tild6131-6232-4538-b863-646438373566/08.svg"
@@ -445,7 +445,7 @@
 
             </div>
             <div class="row g-5">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                         <div class="icon mb-3">
@@ -461,7 +461,7 @@
                         <i aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3130-3332-4133-b038-393633323636/-/cover/547x277/center/center/-/format/webp/u5.jpg'); background-position: bottom;">
                         <div class="icon mb-3">
@@ -478,7 +478,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3230-3839-4565-b432-383833643461/-/cover/550x277/center/center/-/format/webp/u4.jpg');">
                         <div class="icon mb-3">
@@ -495,7 +495,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3364-3438-4235-a431-366332323434/-/cover/550x277/center/center/-/format/webp/u6.jpg');">
                         <div class="icon mb-3">
@@ -511,7 +511,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3337-3133-4034-b333-363961333730/-/cover/550x277/right/top/-/format/webp/u2.jpg'); background-position: bottom;">
                         <div class="icon mb-3">
@@ -527,7 +527,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild6133-3663-4139-b264-613933366339/-/cover/547x277/center/center/-/format/webp/u3.jpg'); background-position: bottom;">
                         <div class="icon mb-3">
@@ -573,8 +573,8 @@
             <div class="row align-items-center justify-content-center ">
 
                 <div class="row g-5 justify-content-center align-items-center">
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                             <div class="text-white fs-3 fw-light">
                                 Corporate Videos
@@ -587,8 +587,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3062-3862-4634-a438-653132393763/-/cover/376x109/center/center/-/format/webp/noroot.png');">
                             <div class="text-white fs-3 fw-light">
                                 Promotional Videos
@@ -601,8 +601,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6430-3962-4731-b263-396236376130/u3.jpg');">
                             <div class="text-white fs-3 fw-light">
                                 Social Media Videos
@@ -615,8 +615,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3865-3338-4438-a364-663935363239/-/cover/376x109/center/center/-/format/webp/u4.jpg');">
                             <div class="text-white fs-3 fw-light">
                                 Training Videos
@@ -629,8 +629,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
                             <div class="text-white fs-3 fw-light">
                                 Commercial Ad Videos
@@ -643,8 +643,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">
                             <div class="text-white fs-3 fw-light">
                                 Music Videos
@@ -657,8 +657,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-5 rounded-4 tabbg"
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6239-3831-4432-b665-636164353637/noroot.png');">
                             <div class="text-white fs-3 fw-light">
                                 Many More

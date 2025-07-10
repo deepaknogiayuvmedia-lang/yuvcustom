@@ -136,7 +136,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/05/one-page-seo.jpg"
                             class="card-img-top p-3" alt="...">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Content-Audit1-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto h-100"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/10/Local-Education-SEO.png"
                             class="card-img-top p-3" alt="...">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Competitor-Audit-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Website Review & Analysis.webp')}}"
                             class="card-img-top p-3" alt="...">
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/E-commerce SEO.webp')}}"
                             class="card-img-top p-3" alt="...">
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Digital PR & Link Building.jpg')}}"
                             class="card-img-top p-3" alt="...">
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-3">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
                     <div class="card shadow-sm rounded-4 mx-auto"  >
                         <img src="{{asset('assets/websiteAssets/images/services/seo/Lead Generation SEO.jpg')}}""
                             class="card-img-top p-3" alt="...">
@@ -434,7 +434,7 @@
                 </div>
             </div>
             <div class="row gy-4 gx-4">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/local-seo.png') }}" alt="service bg"
@@ -446,7 +446,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/keyword.png') }}" alt="service bg"
@@ -459,7 +459,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/dashboard.png') }}" alt="service bg"
@@ -472,7 +472,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/pr.png') }}" alt="service bg" class="mb-3"
@@ -485,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/copy-writing.png') }}" alt="service bg"
@@ -497,7 +497,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/ecommerce.png') }}" alt="service bg"
@@ -508,7 +508,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/magnet.png') }}" alt="service bg"
@@ -520,7 +520,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/services/seo/blogging.png') }}" alt="service bg"
@@ -532,7 +532,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/services/seo/optimizing.png') }}" alt="service bg"
@@ -543,7 +543,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/services/seo/on-page.png') }}" alt="service bg"
@@ -554,7 +554,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/services/seo/off-page-seo.png') }}" alt="service bg"
@@ -566,7 +566,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="seocardone">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/services/seo/information.png') }}" alt="service bg"

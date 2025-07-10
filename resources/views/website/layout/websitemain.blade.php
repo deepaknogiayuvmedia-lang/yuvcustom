@@ -331,7 +331,7 @@
                     </div>
                 </div>
                 <div class="offcanvas-footer border-top pt-2">
-                    <div class="copyright text-md-end text-center">
+                    <div class="copyright text-center">
                         Copyright © Yuvnexus digital Pvt. Ltd.<br /> All Rights Reserved
                     </div>
                 </div>
@@ -354,7 +354,7 @@
 
 
                             <!-- Single Widget -->
-                            <section class="col-md-3 widget widget-quick-links">
+                            <section class="col-lg-3 col-md-6 widget widget-quick-links">
                                 <h5 class="widget-title">Quick Links</h5>
                                 <ul class="ps-0">
                                     <li>
@@ -399,7 +399,7 @@
 
 
                             <!-- Single Widget -->
-                            <section class="col-md-3 widget widget-quick-links">
+                            <section class="col-lg-3 col-md-6 widget widget-quick-links">
                                 <h5 class="widget-title">Services</h5>
                                 <ul class="ps-0">
                                     <li>
@@ -456,7 +456,7 @@
 
 
                             <!-- Single Widget -->
-                            <section class="col-md-3 widget widget-contact-info">
+                            <section class="col-lg-3 col-md-6 widget widget-contact-info">
                                 <h5 class="widget-title">Reach Us
                                 </h5>
                                 <ul class="ps-0">
@@ -481,7 +481,7 @@
                             <!--// Single Widget -->
 
                             <!-- Single Widget -->
-                            <div class=" col-md-3 widget widget-about ">
+                            <div class=" col-lg-3 col-md-6 widget widget-about ">
 
                                 <div class=" mt-2">
                                     <div>
@@ -564,7 +564,7 @@
                 <div class="footer-area__copyright bg--dark mb-5">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-4">
                                 <div class="footer-area__logo text-md-start text-center">
                                     <a href="{{ route('homepage') }}">
                                         <img src="{{ asset('assets/websiteAssets/images/logo.png') }}"
@@ -572,7 +572,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8 d-grid align-items-center">
+                            <div class="col-md-8 d-grid align-items-center">
                                 <div class="copyright text-md-end text-center">
                                     Copyright © Yuvnexus digital Pvt. Ltd. All Rights Reserved
                                 </div>

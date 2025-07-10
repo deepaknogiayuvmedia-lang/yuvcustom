@@ -32,9 +32,9 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="partnercards">
+        <div class="row g-3" id="partnercards">
             @foreach ($partnersdata as $row)
-            <div class="col-md-4 partnercard">
+            <div class="col-lg-4 col-md-6 partnercard">
                 <div class="card shadow-sm rounded-3 border-0 p-3" style="max-width: 400px;">
                     <div class="d-flex align-items-start">
                         <div class="flex-grow-1">
@@ -77,7 +77,7 @@
                     if (response && response.length > 0) {
                         response.forEach(function(data) {
                             $('#partnercards').append(`
-                                <div class="col-md-4 partnercard">
+                                <div class="col-lg-4 col-md-6 partnercard">
                                     <div class="card shadow-sm rounded-3 border-0 p-3" style="max-width: 400px;">
                                         <div class="d-flex align-items-start">
                                             <div class="flex-grow-1">

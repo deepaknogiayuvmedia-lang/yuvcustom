@@ -59,10 +59,10 @@
     <section class="clientSection">
         <div class="container pt-5" style="position: relative;">
             <div class="row">
-                <div class="col-md-6 px-5 py-3">
+                <div class="col-lg-6 col-md-4 px-lg-5 py-3">
                     <div class="fs-3 fw-bold">Let’s create clever things together! Are you up for it? Let us know!</div>
                 </div>
-                <div class="col-md-6 px-5 py-3">
+                <div class="col-lg-6 col-md-8 px-5 py-3">
                     <div class="fs-4 fw-medium ">
                         We’re a close-knit crew of professionals, focused on delivering best-in-class digital products and
                         exciting campaigns for clients all over the world. There’s only one thing we take really seriously:

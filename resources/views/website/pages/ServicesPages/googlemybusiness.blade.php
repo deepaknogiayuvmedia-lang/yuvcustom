@@ -36,7 +36,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 position-relative pt-5 px-md-5">
+                <div class="col-md-6 position-relative pt-5 px-lg-5">
                     <div class="ion-hero-ambient-video ">
 
                         <video class="ion-hero-ambient-video__container" autoplay="" playsinline="" muted="true"
@@ -233,21 +233,21 @@
                 <div class="col-md-6 position-relative">
                     <div class="position-sticky" style="top: calc(-259px + 50vh);">
 
-                        <h2>Show what you offer,<br /> from menu dishes to services.</h2>
-                        <p>Highlight your services, products, and key features to potential <br />customers right in the
-                            search results. Keep them informed with<br /> up-to-date business hours, location, and
-                            promotions, and make<br /> it easy for them to reach out or visit.
+                        <h2>Show what you offer, from menu dishes to services.</h2>
+                        <p>Highlight your services, products, and key features to potential customers right in the
+                            search results. Keep them informed with up-to-date business hours, location, and
+                            promotions, and make it easy for them to reach out or visit.
 
                         </p>
                         <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Get Started for Free <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <h2 class="my-3">
                         Get Found, Get Chosen
                     </h2>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/89/e1/c9ef029444f0bdf061cf5a9becb2/img-8.png=n-w898-h922-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -258,7 +258,7 @@
                             minimal effort.
                         </p>
                     </div>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/eb/96/2faae1e34b2f9afd8282a80ea4c4/img-9.png=n-w782-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -269,7 +269,7 @@
                             need your services.
                         </p>
                     </div>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -280,7 +280,7 @@
                             easier for customers to contact you.
                         </p>
                     </div>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -291,7 +291,7 @@
                             establish trust with potential clients.
                         </p>
                     </div>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -302,7 +302,7 @@
                             offerings and more conversions.
                         </p>
                     </div>
-                    <div class="p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
+                    <div class="p-lg-5 p-md-4 p-5 mb-3 rounded-3 bg-white shadow-sm text-center fade-in-box">
                         <img src="https://www.gstatic.com/marketing-cms/assets/images/ads/d3/10/21f17ceb4ff3849c450eafbf8cba/img-10.png=n-w934-h887-rw"
                             alt="" class="img-fluid mb-3">
                         <h4>
@@ -486,7 +486,7 @@
                                 src="{{ asset('assets/websiteAssets/images/services/gpb/Guru AC Fitting & Repairing Center .jpg') }}"
                                 alt="">
                             <div class="text-center fw-bold text-white">
-                                Guru AC Fitting & Repairing Center 
+                                Guru AC Fitting & Repairing Center
                             </div>
                         </div>
                     </div>
@@ -816,7 +816,7 @@
                 </div>
             </div>
             <div class="row gy-4 gx-4">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/online-presence.png') }}"
@@ -829,7 +829,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/google-maps.png') }}" alt="service bg"
@@ -843,7 +843,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/verified.png') }}" alt="service bg"
@@ -857,7 +857,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/customer-satisfaction.png') }}"
@@ -871,7 +871,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/performance-boost.png') }}"
@@ -885,7 +885,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="rounded-4 p-3 card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/monitoring.png') }}" alt="service bg"

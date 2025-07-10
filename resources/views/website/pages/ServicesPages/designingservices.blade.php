@@ -25,7 +25,7 @@
                             <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Contact Us<i
                                     class="bi bi-arrow-right ms-2"></i></a>
                         </div>
-                        <div class="me-3 mt-2 mt-md-0">
+                        <div class="me-3 mt-2 mt-lg-0">
                             <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
                                     class="bi bi-arrow-right ms-2"></i></a>
                         </div>

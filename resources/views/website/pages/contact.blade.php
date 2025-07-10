@@ -5,7 +5,7 @@
     <div class="container py-3 py-md-4">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <div class="globaltxtcolor">
+                <div class="globaltxtcolor text-center">
                     Contact Us
                 </div>
                 <div class="">
@@ -16,7 +16,7 @@
                     </p>
                 </div>
                 <div class="row gy-4 gx-4 justify-content-center">
-                    <div class="col-md-3">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contactscards">
                             <div class="card-body text-start">
                                 <img src="{{ asset('assets/websiteAssets/images/location.png') }}" alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contactscards">
                             <div class="card-body text-start">
                                 <img src="{{ asset('assets/websiteAssets/images/message.png') }}" alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contactscards">
                             <div class="card-body text-start">
                                 <img src="{{ asset('assets/websiteAssets/images/phone-call.png') }}" alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contactscards">
                             <div class="card-body text-start">
                                 <img src="{{ asset('assets/websiteAssets/images/24-hour-clock.png') }}" alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">

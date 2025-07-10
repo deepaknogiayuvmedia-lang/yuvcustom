@@ -21,10 +21,62 @@
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for medium devices */
     .service-card__inner {
-        width: 400px;
+        width: 700px;
     }
     .aplhacard {
         width: 25%;
+    }
+    .heretext {
+        width: 19%;
+    }
+    .mobile-toggle.hideInDesktop {
+        display: block;
+    }
+    .mobileMenu .nav-item img,
+    .mobileMenu .accordion-item img {
+        width: 32px;
+        height: 32px;
+        background-color: #0d6dfc;
+        border-radius: 100%;
+        padding: 6px;
+    }
+    .mobileMenu .accordion-item {
+        border: 0;
+    }
+    .mobileMenu .accordion-button {
+        padding: 10px;
+        font-weight: 600;
+    }
+    .mobileMenu .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .customfont {
+        font-size: 26px;
+    }
+    .tn-atom__img {
+        width: 40.6%;
+    }
+    .fbads-cards {
+        height: 340px;
+    }
+    .retail-list span {
+        font-size: 14px;
+    }
+    .re-define-tab {
+        justify-content: start !important;
+    }
+    .ion-hero-ambient-video {
+        position: relative;
+        width: 100%;
+    }
+    .carousel-item {
+        height: 240px;
+    }
+    .newsCaption {
+        bottom: 55px;
+        left: 0;
     }
 }
 
@@ -34,7 +86,9 @@
 
 @media (max-width: 576px) {
     /* Styles for extra small devices */
-
+    .citebox {
+        font-size: 30px;
+    }
     .hideInMobile {
         display: none;
     }
@@ -51,21 +105,19 @@
     }
 
     .performancemedia-slider img {
-        height: 388px; 
+        height: 388px;
     }
 
-    .fbads-cards{
-        height: 200px; 
+    .fbads-cards {
+        height: 200px;
     }
-    .gbp-cards{
-        height: 460px; 
+    .gbp-cards {
+        height: 460px;
     }
 
     .seointro ul {
-    
         margin: 0 0 !important;
     }
-
 
     .action-btn {
         overflow: auto;
@@ -77,7 +129,8 @@
         margin-top: 5px;
     }
 
-    .service-card .nav, .servicesbox {
+    .service-card .nav,
+    .servicesbox {
         overflow: auto;
         white-space: nowrap;
         flex-wrap: nowrap;
@@ -102,7 +155,7 @@
     .heretext {
         width: 40%;
     }
-    
+
     .mobileMenu .nav-link {
         font-size: 18px;
         font-weight: 500;
@@ -112,7 +165,8 @@
         display: flex;
         align-items: center;
     }
-    .mobileMenu .nav-item img, .mobileMenu .accordion-item img {
+    .mobileMenu .nav-item img,
+    .mobileMenu .accordion-item img {
         width: 32px;
         height: 32px;
         background-color: #0d6dfc;
@@ -127,7 +181,7 @@
         padding: 10px;
         font-weight: 600;
     }
-    .mobileMenu .accordion-body a{
+    .mobileMenu .accordion-body a {
         color: black;
     }
 
@@ -164,7 +218,7 @@
         overflow: hidden;
     }
     .hero-image img {
-        width: 100% !important;  
+        width: 100% !important;
     }
     .aplhacard {
         width: 50%;
@@ -172,10 +226,10 @@
     .servicecard .serviceHeading {
         width: 50%;
     }
-    .contact-msg{
+    .contact-msg {
         color: rgb(0, 0, 0);
-        }
-        
+    }
+
     .servicecard .serviceContent {
         width: 60%;
     }
@@ -193,22 +247,22 @@
     .data_text_lin::before {
         right: 30%;
         top: 80px;
-        
     }
-    .serviceBanner p{
+    .serviceBanner p {
         text-wrap: auto;
     }
     .contactForm {
         margin-block: 10px;
     }
 
-    .hero-content .heroheading, .hero-content .herosubheading {
+    .hero-content .heroheading,
+    .hero-content .herosubheading {
         text-align: center;
         font-size: 30px;
     }
 }
 
-@media(max-width: 380px) and (min-width: 340px) {
+@media (max-width: 380px) and (min-width: 340px) {
     .mobileNav {
         overflow-x: auto;
         width: 350px;
@@ -217,7 +271,7 @@
         padding-bottom: 10px;
     }
 }
-@media(max-width: 330px) {
+@media (max-width: 330px) {
     .mobileNav {
         overflow-x: auto;
         width: 300px;

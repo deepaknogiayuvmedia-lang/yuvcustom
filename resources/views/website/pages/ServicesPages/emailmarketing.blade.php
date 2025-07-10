@@ -378,7 +378,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
@@ -386,25 +386,27 @@
                             <div class="card-title text-start fs-5 fw-bold">Build Customer Loyalty:
                             </div>
                             <p class="card-text text-start">
-                                An email marketing agency helps you foster strong relationships with your customers, ensuring they stay loyal to your brand through personalized and engaging content.
+                                An email marketing agency helps you foster strong relationships with your customers,
+                                ensuring they stay loyal to your brand through personalized and engaging content.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
-                                class="mb-3 ">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}"
+                                alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Expansion of Business:
                             </div>
                             <p class="card-text text-start">
-                                With expert email marketing strategies, you can reach new audiences and scale your business effectively, expanding your market reach and increasing your customer base.
+                                With expert email marketing strategies, you can reach new audiences and scale your business
+                                effectively, expanding your market reach and increasing your customer base.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
@@ -412,43 +414,50 @@
                             <div class="card-title text-start fs-5 fw-bold">Reduction in Time & Effort:
                             </div>
                             <p class="card-text text-start">
-                                By outsourcing your email marketing, you free up valuable time and resources, allowing your team to focus on other important aspects of your business while experts handle your campaigns.
+                                By outsourcing your email marketing, you free up valuable time and resources, allowing your
+                                team to focus on other important aspects of your business while experts handle your
+                                campaigns.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Tracking of Analytics</div>
                             <p class="card-text text-start">
-                                An agency provides detailed analytics on campaign performance, helping you understand open rates, click rates, and conversions, so you can continuously optimize your strategies for better results.
+                                An agency provides detailed analytics on campaign performance, helping you understand open
+                                rates, click rates, and conversions, so you can continuously optimize your strategies for
+                                better results.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Connection with Different Audiences</div>
                             <p class="card-text text-start">
-                                Email marketing agencies utilize segmentation and targeted campaigns to connect with various customer segments, ensuring you deliver the right message to the right audience.
+                                Email marketing agencies utilize segmentation and targeted campaigns to connect with various
+                                customer segments, ensuring you deliver the right message to the right audience.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
                                 alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Testing Email Campaigns</div>
                             <p class="card-text text-start">
-                                Agencies conduct A/B testing and optimize email campaigns to find the best performing strategies, ensuring each email reaches its highest potential and delivers the desired outcome.
+                                Agencies conduct A/B testing and optimize email campaigns to find the best performing
+                                strategies, ensuring each email reaches its highest potential and delivers the desired
+                                outcome.
                             </p>
                         </div>
                     </div>
@@ -464,45 +473,48 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Email Strategy Development</div>
                             <p class="card-text text-start">
-                                We craft customized email strategies designed to meet your business goals, driving conversions and building strong customer relationships.
+                                We craft customized email strategies designed to meet your business goals, driving
+                                conversions and building strong customer relationships.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
-                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
-                                class="mb-3 ">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}"
+                                alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Email List Building</div>
                             <p class="card-text text-start">
-                                Our team helps you grow a quality email list by using proven methods to attract and engage your target audience, ensuring higher engagement rates.
+                                Our team helps you grow a quality email list by using proven methods to attract and engage
+                                your target audience, ensuring higher engagement rates.
 
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
                                 alt="service bg" class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Email Design and Content Creation</div>
                             <p class="card-text text-start">
-                                We create visually appealing and engaging email designs, paired with compelling content that speaks directly to your subscribers, encouraging action.
+                                We create visually appealing and engaging email designs, paired with compelling content that
+                                speaks directly to your subscribers, encouraging action.
 
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
@@ -510,26 +522,28 @@
                             <div class="card-title text-start fs-5 fw-bold">Email Automation
                             </div>
                             <p class="card-text text-start">
-                                We set up automated email campaigns that nurture leads, send timely messages, and engage customers, saving you time while boosting results.
+                                We set up automated email campaigns that nurture leads, send timely messages, and engage
+                                customers, saving you time while boosting results.
 
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
                                 class="mb-3 ">
                             <div class="card-title text-start fs-5 fw-bold">Email Campaign Management</div>
                             <p class="card-text text-start">
-                                We handle every aspect of your email campaigns, from setup and scheduling to tracking and optimization, ensuring peak performance and maximum ROI.
+                                We handle every aspect of your email campaigns, from setup and scheduling to tracking and
+                                optimization, ensuring peak performance and maximum ROI.
 
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
@@ -537,7 +551,8 @@
                             <div class="card-title text-start fs-5 fw-bold">Email Analytics and Reporting
                             </div>
                             <p class="card-text text-start">
-                                We provide in-depth analytics and detailed reports on campaign performance, allowing you to measure success and refine strategies for even better results.
+                                We provide in-depth analytics and detailed reports on campaign performance, allowing you to
+                                measure success and refine strategies for even better results.
 
                             </p>
                         </div>

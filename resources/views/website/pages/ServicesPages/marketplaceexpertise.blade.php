@@ -810,7 +810,7 @@
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/productlisting.png') }}" alt="service bg"
@@ -824,7 +824,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/order-fulfillment.png') }}" alt="service bg"
@@ -839,7 +839,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
@@ -853,7 +853,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/seller.png') }}" alt="service bg"
@@ -918,7 +918,7 @@
                 </div>
             </div>
             <div class="row gy-4 gx-4">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/seller.png') }}" alt="service bg"
@@ -933,7 +933,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/productlisting.png') }}" alt="service bg"
@@ -948,7 +948,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/order-fulfillment.png') }}" alt="service bg"
@@ -962,7 +962,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
@@ -977,7 +977,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
@@ -991,7 +991,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"
@@ -1005,7 +1005,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="marketcards">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/businessman.png') }}" alt="service bg"

@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
@@ -141,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
@@ -181,7 +181,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
                         <div class="col-md-4">
                             <img src="{{ asset('assets/websiteAssets/images/icons/enviromentally-friendly.png') }}"
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -236,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -250,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-lg-3 col-6">
                     <div class="row m-2 gmbcardssecthree align-items-center">
 
                         <div class="col-md-4">
@@ -305,7 +305,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/erp2.png') }}" alt="service bg"
@@ -318,7 +318,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body">
                             <img src="{{ asset('assets/websiteAssets/images/icons/data-migration.png') }}" alt="service bg"
@@ -331,7 +331,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/staff-management.png') }}"
@@ -344,7 +344,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/conversation.png') }}" alt="service bg"
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/web.png') }}" alt="service bg"
@@ -370,7 +370,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-lg-4 col-md-6 p-2">
                     <div class="gmbcardone shadow-sm rounded-3">
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/icons/system-integration.png') }}"
