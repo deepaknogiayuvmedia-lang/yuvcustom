@@ -107,7 +107,7 @@
                             <div class="card hover-img overflow-hidden">
                                 <div class="position-relative">
                                     <a href="#">
-                                        <img src="{{ asset("assets/websiteAssets/images/Influencers/{$value->profileimage}") }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover;">
+                                        <img src="{{ asset('assets/websiteAssets/images/Influencers/' . ($value->profileimage ?? 'defaultuser.png')) }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover; object-position: top;">
                                     </a>
                                     <a href="#" data-influ="{{json_encode($value)}}" class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 addtoCartBtn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart">
                                         <i class="ti ti-basket fs-4"></i>
@@ -125,11 +125,11 @@
                                     <p class="text-muted">{{ ucfirst($value->city)}},{{ ucfirst($value->state)}}</p>
                                     <p class="text-muted">{{$value->emailaddress}}</p>
                                     <div class="d-flex align-items-center justify-content-start gap-1">
-                                        @foreach (json_decode($value->platforms) as $plat)
+                                      @foreach (json_decode($value->platforms ?? '[]') as $plat)
                                         <div>
-                                            <span class="badge bg-success">{{$plat}}</span>
+                                            <span class="badge bg-success">{{ $plat }}</span>
                                         </div>
-                                        @endforeach
+                                    @endforeach
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +307,7 @@
                                     <div class="card hover-img overflow-hidden">
                                         <div class="position-relative">
                                             <a href="#">
-                                                <img src="{{ asset('assets/websiteAssets/images/Influencers/${value.profileimage}') }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover;">
+                                                <img src="{{ asset('assets/websiteAssets/images/Influencers/${value.profileimage}') }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover; object-position: top;">
                                             </a>
                                             <a href="#" data-influ='${JSON.stringify(value)}' class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3 addtoCartBtn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart">
                                                 <i class="ti ti-basket fs-4"></i>
@@ -324,13 +324,21 @@
                                             <p class="text-muted">+91- ${value.contactnumber}</p>
                                             <p class="text-muted text-capitalize">${value.city},${value.state}</p>
                                             <p class="text-muted">${value.emailaddress}</p>
-                                            <div class="d-flex align-items-center justify-content-start gap-1">
-                                                ${JSON.parse(value.platforms).map(plat => `
-                                                    <div>
-                                                        <span class="badge bg-success">${plat}</span>
-                                                    </div>
-                                                `).join('')}
-                                            </div>
+                                           <div class="d-flex align-items-center justify-content-start gap-1">
+                                            ${(() => {
+                                                try {
+                                                    const platforms = JSON.parse(value.platforms || '[]');
+                                                    return Array.isArray(platforms) ? platforms.map(plat => `
+                                                        <div>
+                                                            <span class="badge bg-success">${plat}</span>
+                                                        </div>
+                                                    `).join('') : '';
+                                                } catch (e) {
+                                                    return '';
+                                                }
+                                            })()}
+                                        </div>
+
                                         </div>
                                     </div>
                                 </div>

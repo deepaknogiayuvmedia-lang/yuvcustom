@@ -49,7 +49,7 @@
                                 <td class="text-wrap">{{ $row->category}}</td>
                                 <td class="text-wrap">{{ ucwords($row->city)}}, {{ ucwords($row->state)}}</td>
                                 <td>
-                                    @foreach (json_decode($row->platforms) as $plat)
+                                    @foreach (json_decode($value->platforms ?? '[]') as $plat)
                                     <div class="mb-2">
                                         <span class="badge bg-success">{{$plat}}</span>
                                     </div>
@@ -94,20 +94,7 @@
             var printContents = document.getElementById(divId).innerHTML;
             var originalContents = document.body.innerHTML;
 
-            // Remove the "Action" column header
-            var ths = printContents.querySelectorAll('th');
-            ths.forEach(function(th, idx) {
-                if (th.textContent.trim() === 'Action') {
-                    // Remove the header cell
-                    th.parentNode.removeChild(th);
-                    // Remove the corresponding cell in each row
-                    printContents.querySelectorAll('tbody tr').forEach(function(tr) {
-                        tr.removeChild(tr.children[idx]);
-                    });
-                }
-            });
-
-            document.body.innerHTML = ths;
+            document.body.innerHTML = printContents;
             window.print();
             document.body.innerHTML = originalContents;
             window.location.reload(); // Reload to restore original state
