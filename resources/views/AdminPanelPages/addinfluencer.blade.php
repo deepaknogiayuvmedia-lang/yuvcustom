@@ -62,7 +62,7 @@
                                 </div>
 
                                 <div class="col-md-4 mb-3">
-                                    <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                                    <label class="form-label">Email Address</label>
                                     <input type="email" class="form-control" name="emailaddress" placeholder="Email Address">
                                 </div>
 
@@ -84,6 +84,10 @@
                                         <option value="Youtube">Youtube</option>
                                         <option value="Linkedin">Linkedin</option>
                                     </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Engagement Rate <small class="text-danger">(in Percentage %)</small></label>
+                                    <input type="text" class="form-control" name="engagementrate"  placeholder="Engagement Rate in %">
                                 </div>
                             </div>
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 28, 2025 at 01:58 PM
+-- Generation Time: Jul 18, 2025 at 02:54 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,8 +65,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:1;', 1745831537),
-('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1745831537;', 1745831537);
+('f31e11d2bad12bbbd5abccdf33bafcb9', 'i:1;', 1752840334),
+('f31e11d2bad12bbbd5abccdf33bafcb9:timer', 'i:1752840334;', 1752840334);
 
 -- --------------------------------------------------------
 
@@ -166,6 +166,7 @@ CREATE TABLE `influencers` (
   `profileimage` varchar(255) DEFAULT NULL,
   `instagramprofilelink` varchar(255) DEFAULT NULL,
   `platforms` varchar(255) DEFAULT NULL,
+  `engagementrate` varchar(255) DEFAULT NULL,
   `facebookprofile` varchar(255) DEFAULT NULL,
   `youtubeprofile` varchar(255) DEFAULT NULL,
   `linkedinprofile` varchar(255) DEFAULT NULL,
@@ -178,9 +179,10 @@ CREATE TABLE `influencers` (
 -- Dumping data for table `influencers`
 --
 
-INSERT INTO `influencers` (`id`, `category`, `userid`, `city`, `state`, `country`, `dob`, `fullname`, `contactnumber`, `emailaddress`, `profileimage`, `instagramprofilelink`, `platforms`, `facebookprofile`, `youtubeprofile`, `linkedinprofile`, `verificationstatus`, `created_at`, `updated_at`) VALUES
-(12, 'Entertainment', 'kishanyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Kishan Gopal', '9874562156', 'kishanyuvmedia@gmail.com', '1743234379_FnkWDXIXoAEEUZt.jpeg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Instagram\",\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-04-16 07:49:13'),
-(17, 'Gaming', 'nitesh.yuvmedia@gmail.com', 'Jaipur', 'Rajasthan', 'India', '2025-04-16', 'Priteek Jain', '917678045430', 'nitesh.yuvmedia@gmail.com', '1744959127_avatar-3.jpg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Linkedin\"]', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'pending', '2025-04-18 01:22:07', '2025-04-18 06:54:42');
+INSERT INTO `influencers` (`id`, `category`, `userid`, `city`, `state`, `country`, `dob`, `fullname`, `contactnumber`, `emailaddress`, `profileimage`, `instagramprofilelink`, `platforms`, `engagementrate`, `facebookprofile`, `youtubeprofile`, `linkedinprofile`, `verificationstatus`, `created_at`, `updated_at`) VALUES
+(12, 'Entertainment', 'kishanyuvmedia@gmail.com', 'ajmer', 'Rajasthan', NULL, '2025-04-18', 'Kishan Gopal', '9874562156', 'kishanyuvmedia@gmail.com', '1752841549_avatar-3.jpg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Instagram\",\"Linkedin\"]', '12', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'verified', '2025-04-15 05:38:03', '2025-07-18 12:39:41'),
+(17, 'Gaming', 'nitesh.yuvmedia@gmail.com', 'Jaipur', 'Rajasthan', 'India', '2025-04-16', 'Priteek Jain', '917678045430', 'nitesh.yuvmedia@gmail.com', '1744959127_avatar-3.jpg', 'http://127.0.0.1:8000/influencer', '[\"Facebook\",\"Linkedin\"]', '45', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'http://127.0.0.1:8000/influencer', 'pending', '2025-04-18 01:22:07', '2025-07-18 12:39:44'),
+(20, 'Entertainment', 'dmmm@gmail.com', 'Jaipur', 'Rajasthan', 'India', '2025-07-18', 'Nitesh Sharma', '5878954858', 'dmmm@gmail.com', '1751531556_Anurag09.jpg', 'https://www.inbegusarai.com/addPlace', '[\"Facebook\",\"Instagram\",\"Linkedin\"]', '67', 'https://www.inbegusarai.com/addPlace', 'https://www.inbegusarai.com/addPlace', 'https://www.inbegusarai.com/addPlace', 'verified', '2025-07-03 01:40:06', '2025-07-18 12:39:45');
 
 -- --------------------------------------------------------
 
@@ -326,10 +328,16 @@ CREATE TABLE `my_carts` (
 --
 
 INSERT INTO `my_carts` (`id`, `productid`, `userid`, `created_at`, `updated_at`) VALUES
-(62, '12', '1', '2025-04-16 00:12:12', '2025-04-16 00:12:12'),
-(63, '15', '1', '2025-04-16 00:12:26', '2025-04-16 00:12:26'),
-(64, '17', '1', '2025-04-21 02:10:35', '2025-04-21 02:10:35'),
-(65, '12', '1', '2025-04-26 02:41:35', '2025-04-26 02:41:35');
+(68, '20', '1', '2025-07-03 03:30:31', '2025-07-03 03:30:31'),
+(69, '17', '1', '2025-07-18 06:34:55', '2025-07-18 06:34:55'),
+(70, '12', '1', '2025-07-18 06:34:57', '2025-07-18 06:34:57'),
+(71, '20', '1', '2025-07-18 06:59:56', '2025-07-18 06:59:56'),
+(72, '21', '1', '2025-07-18 06:59:58', '2025-07-18 06:59:58'),
+(73, '12', '1', '2025-07-18 07:00:01', '2025-07-18 07:00:01'),
+(74, '17', '1', '2025-07-18 07:00:03', '2025-07-18 07:00:03'),
+(75, '17', '1', '2025-07-18 07:03:02', '2025-07-18 07:03:02'),
+(76, '20', '1', '2025-07-18 07:03:04', '2025-07-18 07:03:04'),
+(77, '22', '1', '2025-07-18 07:03:06', '2025-07-18 07:03:06');
 
 -- --------------------------------------------------------
 
@@ -356,7 +364,7 @@ CREATE TABLE `partners` (
 --
 
 INSERT INTO `partners` (`id`, `partnername`, `partnertype`, `partneremail`, `partnerphone`, `city`, `state`, `aboutuscontent`, `profileimage`, `created_at`, `updated_at`) VALUES
-(2, 'Mr. Nitesh Sharma', 'Managing Partner', 'nitesh.yuvmedia@gmail.com', '5645745854', 'Bhilwara', 'Rajasthan', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.\"\"\"\"', '1745392284_Nitesh.webp', '2025-04-21 05:07:38', '2025-04-23 02:53:40');
+(2, 'Nitesh Sharma', 'Managing Partner', 'nitesh.yuvmedia@gmail.com', '5645745854', 'Bhilwara', 'Rajasthan', 'Introducing Yuvmedia, a dynamic consultancy based in Ajmer, Rajasthan, with a strategic branch in Indore, Madhya Pradesh, led by the capable management of Deepak mukati. With a focus on leveraging technology and driving business growth, Yuvmedia specializes in assisting clients in optimizing processes, reducing costs, and enhancing profitability. With years of expertise in business development and leadership, Yuvmedia brings unparalleled proficiency in digital marketing solutions, media and, IT Solutions empowering clients with cutting-edge software solutions for video production, streaming media, and web development. Our unique model democratizes transformational resources, making. From outsourcing to process consulting and digital transformation, Yuvmedia is your trusted partner for innovative solutions tailored to your needs.\"\"\"\"', '1745392284_Nitesh.webp', '2025-04-21 05:07:38', '2025-04-28 07:02:23');
 
 -- --------------------------------------------------------
 
@@ -480,7 +488,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('C8Y3UAJ6vZavDUG7qw5A27uv5dZA2G17bjkIK712', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoidzU1RUVNSXNoaE9oZE5RQTVmdnI1QWoxRFRxS3R3MkJMRjVOcjdsOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkOTRiaFZJcmV1REN6Rm8xWHBabWszZVZuRzd3OE1WVHp4OGo1eHlUMnZILzFKbi5mZ08ydlMiO30=', 1745840736);
+('J8JdD8J7wDHjXJ6DMJVV680eFbGGAZCenR8eQmML', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiUHBBY0c5N2JNS2o2R3J5Z1cwZ2ZQc3QwQU5VWjNHeUJQTWVtemJqMiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi92aWV3LWNhcnQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEyJDk0YmhWSXJldURDekZvMVhwWm1rM2VWbkc3dzhNVlR6eDhqNXh5VDJ2SC8xSm4uZmdPMnZTIjt9', 1752843216);
 
 -- --------------------------------------------------------
 
@@ -679,7 +687,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `influencers`
 --
 ALTER TABLE `influencers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `jobs`
@@ -709,7 +717,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `my_carts`
 --
 ALTER TABLE `my_carts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
 
 --
 -- AUTO_INCREMENT for table `partners`

@@ -13,6 +13,7 @@ class Influencer extends Model
         'state',
         'dob',
         'country',
+        'engagementrate',
         'fullname',
         'contactnumber',
         'emailaddress',

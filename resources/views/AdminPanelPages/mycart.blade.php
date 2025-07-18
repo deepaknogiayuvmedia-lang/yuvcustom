@@ -1,72 +1,63 @@
 {{----------------------------------------------------🔱🙏HAR HAR MAHADEV🔱🙏----------------------------------------------------}}
 @section('title', 'Influencers Cart')
 <x-app-layout>
+    <style>
+        @media print {
+            @page {
+                size: tabloid landscape;
+                margin: 10mm;
+            }
+        }
+
+    </style>
     <div class="container-fluid">
         <div class="mt-3 d-flex align-items-center justify-content-end">
             <a href="#" class="btn btn-outline-primary" onclick="printDiv('printableArea')">
                 <i class="ti ti-printer"></i> Print
             </a>
         </div>
-        <div class="card" id="printableArea" style="background-image: url('{{ asset('assets/websiteAssets/images/logo.png') }}'); background-repeat: no-repeat; background-position: center;">
+        <div class="card" id="printableArea">
             <div class="card-header text-center">
                 <div class="d-flex flex-column align-items-center">
                     <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo" class="mb-2" style="width: 250px;">
                     <h4 class="mb-0">Influencers List</h4>
                 </div>
             </div>
-            <div class="">
-                <div class="p-4">
-                    <table id="" class="table table-hover table-bordered display text-nowrap py-3">
-                        <thead>
-                            <tr>
-                                <th>SNo.</th>
-                                <th>Profile</th>
-                                <th>Name</th>
-                                <th>Category</th>
-                                <th>City</th>
-                                <th>Platforms</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="table-body">
-                            @foreach ($incluencerdata as $index => $row)
-                            <tr>
-                                <td>{{ $index + 1}}</td>
-                                <td>
-                                    @if($row->profileimage)
-                                    <img src="{{ asset('assets/websiteAssets/images/Influencers/' . $row->profileimage) }}" alt="Profile Image" class="me-2 rounded-circle border" style="width: 60px; height: 60px; object-fit: cover;">
-                                    @else
-                                    <img src="{{ asset('assets/websiteAssets/images/Influencers/defaultuser.png') }}" alt="Profile Image" class="me-2 rounded-circle border" style="width: 60px; height: 60px; object-fit: cover;">
-                                    @endif
-                                </td>
-                                <td>
-                                    <div class="d-flex align-items-center gap-3">
-                                        <div>
-                                            <h6 class="mb-1 text-wrap">{{ $row->fullname }}</h6>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="text-wrap">{{ $row->category}}</td>
-                                <td class="text-wrap">{{ ucwords($row->city)}}, {{ ucwords($row->state)}}</td>
-                                <td>
-                                    @if(!empty($value->platforms) && is_array(json_decode($value->platforms)))
-                                        @foreach (json_decode($value->platforms) as $plat)
-                                            <div>
-                                                <span class="badge bg-success">{{ $plat }}</span>
-                                            </div>
-                                        @endforeach
-                                    @endif
-                                </td>
-                                <td>
-                                    <div class="hstack gap-3 flex-wrap">
-                                        <button data-bs-toggle="tooltip" title="Delete" onclick="printDiv('{{ $row->id }}')" class="link-danger  fs-6"><i class="ti ti-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
+            <div class="row mt-3">
+                @foreach ($incluencerdata as $index => $row)
+                <div class="col-md-3">
+                    <div class="card overflow-hidden hover-img">
+                        <div class="position-relative">
+                            <a href="javascript:void(0)">
+                                <img src="{{ asset('assets/websiteAssets/images/Influencers/'.($row->profileimage ?? 'defaultuser.png')) }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover; object-position: top;">
+                            </a>
+                            <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">{{ $row->category}}</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <a class="d-block mb-2 fs-5 text-dark fw-semibold link-primary" href="javascript:void(0)">{{ $row->fullname }}</a>
+                            <div class="d-flex align-items-center gap-4">
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="ti ti-map text-dark fs-5"></i>{{ ucwords($row->city)}}, {{ ucwords($row->state)}}
+                                </div>
+                                @if($row->engagementrate)
+                                <div class="d-flex align-items-center fs-2 ms-auto">
+                                    <i class="ti ti-activity text-dark"></i>{{ $row->engagementrate ?? '0' }} %
+                                </div>
+                                @endif
+                            </div>
+                            @if(!empty($row->platforms) && is_array(json_decode($row->platforms)))
+                            <div class="d-flex justify-content-start flex-wrap">
+                                @foreach (json_decode($row->platforms) as $plat)
+                                <div>
+                                    <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">{{ $plat }}</span>
+                                </div>
+                                @endforeach
+                            </div>
+                            @endif
+                        </div>
+                    </div>
                 </div>
+                @endforeach
             </div>
         </div>
     </div>

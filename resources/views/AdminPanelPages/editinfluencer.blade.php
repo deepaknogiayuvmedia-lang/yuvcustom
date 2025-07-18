@@ -80,7 +80,7 @@
                                     </div>
                                 </div>
                                 @php
-                                    $selectedPlatforms = is_array($data->platforms) ? $data->platforms : (json_decode($data->platforms, true) ?? []);
+                                $selectedPlatforms = is_array($data->platforms) ? $data->platforms : (json_decode($data->platforms, true) ?? []);
                                 @endphp
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label">Select Platforms</label>
@@ -91,6 +91,10 @@
                                         <option value="Youtube" {{ in_array('Youtube', $selectedPlatforms) ? 'selected' : '' }}>Youtube</option>
                                         <option value="Linkedin" {{ in_array('Linkedin', $selectedPlatforms) ? 'selected' : '' }}>Linkedin</option>
                                     </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Engagement Rate <small class="text-danger">(in Percentage %)</small></label>
+                                    <input type="text" class="form-control" value="{{$data->engagementrate}}" name="engagementrate" placeholder="Engagement Rate in %">
                                 </div>
                             </div>
 
@@ -105,15 +109,15 @@
                                 </div>
                                 <div class="col-md-3 mb-3">
                                     <label class="form-label">City</label>
-                                    <input type="text" class="form-control" value="{{$data->city}}"  id="cityinput" name="city" placeholder="Enter City">
+                                    <input type="text" class="form-control" value="{{$data->city}}" id="cityinput" name="city" placeholder="Enter City">
                                 </div>
                                 <div class="col-md-3 mb-3">
                                     <label class="form-label">State</label>
-                                    <input type="text" class="form-control" value="{{$data->state}}"  id="stateinput" name="state" placeholder="Enter State">
+                                    <input type="text" class="form-control" value="{{$data->state}}" id="stateinput" name="state" placeholder="Enter State">
                                 </div>
                                 <div class="col-md-3 mb-3">
                                     <label class="form-label">Country</label>
-                                    <input type="text" class="form-control" value="{{$data->country}}"  id="countryinput" name="country" placeholder="Enter Country">
+                                    <input type="text" class="form-control" value="{{$data->country}}" id="countryinput" name="country" placeholder="Enter Country">
                                 </div>
                             </div>
 
