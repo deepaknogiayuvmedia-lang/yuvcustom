@@ -49,11 +49,13 @@
                                 <td class="text-wrap">{{ $row->category}}</td>
                                 <td class="text-wrap">{{ ucwords($row->city)}}, {{ ucwords($row->state)}}</td>
                                 <td>
-                                    @foreach (json_decode($value->platforms ?? '[]') as $plat)
-                                    <div class="mb-2">
-                                        <span class="badge bg-success">{{$plat}}</span>
-                                    </div>
-                                    @endforeach
+                                    @if(!empty($value->platforms) && is_array(json_decode($value->platforms)))
+                                        @foreach (json_decode($value->platforms) as $plat)
+                                            <div>
+                                                <span class="badge bg-success">{{ $plat }}</span>
+                                            </div>
+                                        @endforeach
+                                    @endif
                                 </td>
                                 <td>
                                     <div class="hstack gap-3 flex-wrap">

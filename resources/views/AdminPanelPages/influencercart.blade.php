@@ -125,11 +125,13 @@
                                     <p class="text-muted">{{ ucfirst($value->city)}},{{ ucfirst($value->state)}}</p>
                                     <p class="text-muted">{{$value->emailaddress}}</p>
                                     <div class="d-flex align-items-center justify-content-start gap-1">
-                                      @foreach (json_decode($value->platforms ?? '[]') as $plat)
-                                        <div>
-                                            <span class="badge bg-success">{{ $plat }}</span>
-                                        </div>
-                                    @endforeach
+                                     @if(!empty($value->platforms) && is_array(json_decode($value->platforms)))
+                                        @foreach (json_decode($value->platforms) as $plat)
+                                            <div>
+                                                <span class="badge bg-success">{{ $plat }}</span>
+                                            </div>
+                                        @endforeach
+                                    @endif
                                     </div>
                                 </div>
                             </div>

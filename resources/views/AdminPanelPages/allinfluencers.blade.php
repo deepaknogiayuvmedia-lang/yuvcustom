@@ -312,12 +312,21 @@
                                     ${infludata.verificationstatus}
                                 </span>
                             </div>
-                            <div class="col-md-12">
+                           <div class="col-md-12">
                                 <strong>Platforms:</strong> <br>
                                 ${
-                                    JSON.parse(infludata.platforms)
-                                        .map(platform => `<span class="badge rounded-pill  bg-info-subtle text-info me-1">${platform}</span>`)
-                                        .join(' ')
+                                    (() => {
+                                        try {
+                                            const platforms = JSON.parse(infludata.platforms || '[]');
+                                            return Array.isArray(platforms) && platforms.length
+                                                ? platforms.map(platform => `
+                                                    <span class="badge rounded-pill bg-info-subtle text-info me-1">${platform}</span>
+                                                `).join(' ')
+                                                : '<span class="text-muted">No platforms yet</span>';
+                                        } catch (e) {
+                                            return '<span class="text-muted">No platforms yet</span>';
+                                        }
+                                    })()
                                 }
                             </div>
                             <div class="col-md-12">
