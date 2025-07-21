@@ -85,9 +85,17 @@
                                         <option value="Linkedin">Linkedin</option>
                                     </select>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <label class="form-label">Engagement Rate <small class="text-danger">(in Percentage %)</small></label>
+                                <div class="col-md-2 mb-3">
+                                    <label class="form-label">Engagement Rate <small class="text-danger">(%)</small></label>
                                     <input type="text" class="form-control" name="engagementrate"  placeholder="Engagement Rate in %">
+                                </div>
+                                <div class="col-md-2 mb-3">
+                                    <label class="form-label">Followers Count</label>
+                                    <input type="text" class="form-control" name="followercount"  placeholder="Followers Count">
+                                </div>
+                                <div class="col-md-2 mb-3">
+                                    <label class="form-label">Client Ratings</label>
+                                    <input type="text" class="form-control" name="clientratings"  placeholder="Client Ratings">
                                 </div>
                             </div>
 

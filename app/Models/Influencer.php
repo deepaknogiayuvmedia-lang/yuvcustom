@@ -14,6 +14,8 @@ class Influencer extends Model
         'dob',
         'country',
         'engagementrate',
+        'followercount',
+        'clientratings',
         'fullname',
         'contactnumber',
         'emailaddress',

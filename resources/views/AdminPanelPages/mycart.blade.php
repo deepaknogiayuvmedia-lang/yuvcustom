@@ -29,21 +29,35 @@
                     <div class="card overflow-hidden hover-img">
                         <div class="position-relative">
                             <a href="javascript:void(0)">
-                                <img src="{{ asset('assets/websiteAssets/images/Influencers/'.($row->profileimage ?? 'defaultuser.png')) }}" class="card-img-top" alt="modernize-img" style="height: 260px; object-fit: cover; object-position: top;">
+                                <img src="{{ asset('assets/websiteAssets/images/Influencers/'.($row->profileimage ?? 'defaultuser.png')) }}" class="card-img-top" alt="modernize-img" style="height: 400px;object-fit: cover;ob;object-position: top;">
                             </a>
                             <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">{{ $row->category}}</span>
                         </div>
                         <div class="card-body p-4">
                             <a class="d-block mb-2 fs-5 text-dark fw-semibold link-primary" href="javascript:void(0)">{{ $row->fullname }}</a>
+                            <ul class="d-flex align-items-center gap-1 mb-0">
+                                @for ($i = 1; $i <= 5; $i++) <li>
+                                    @if ($i <= $row->clientratings)
+                                        <i class="ti ti-star text-warning"></i> <!-- Filled star -->
+                                        @else
+                                        <i class="ti ti-star text-muted"></i> <!-- Empty star -->
+                                        @endif
+                                        </li>
+                                        @endfor
+                            </ul>
                             <div class="d-flex align-items-center gap-4">
                                 <div class="d-flex align-items-center gap-2">
                                     <i class="ti ti-map text-dark fs-5"></i>{{ ucwords($row->city)}}, {{ ucwords($row->state)}}
                                 </div>
                                 @if($row->engagementrate)
                                 <div class="d-flex align-items-center fs-2 ms-auto">
-                                    <i class="ti ti-activity text-dark"></i>{{ $row->engagementrate ?? '0' }} %
+                                    <i class="ti ti-activity text-dark"></i>{{ $row->engagementrate ?? '0' }}
                                 </div>
                                 @endif
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-instagram text-dark fs-5"></i>
+                                    {{ $row->followercount ?? '0' }}
+                                </div>
                             </div>
                             @if(!empty($row->platforms) && is_array(json_decode($row->platforms)))
                             <div class="d-flex justify-content-start flex-wrap">
