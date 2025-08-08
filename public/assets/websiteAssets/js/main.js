@@ -163,6 +163,10 @@ const elements = [{
     element: document.querySelector('.ui-ux-design'),
     className: 'ui-ux-design'
 },
+{
+    element: document.querySelector('.video-editing-logo'),
+    className: 'video-editing-logo'
+},
 ];
 
 const techstack = document.querySelector('.technical-stack-main');

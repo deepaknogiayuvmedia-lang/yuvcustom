@@ -227,7 +227,9 @@
         width: 50%;
     }
     .contact-msg {
-        color: rgb(0, 0, 0);
+        font-size: 50px;
+        background-color: #032a3e;
+        color: #ffffff;
     }
 
     .servicecard .serviceContent {

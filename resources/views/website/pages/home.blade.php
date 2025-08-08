@@ -13,14 +13,14 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="heroheading fw-bolder globaltxtcolor">Reach Further, Engage Better, And </h1>
-                                <h3 class="herosubheading fw-bolder">Grow Faster With Our Digital Marketing Solutions</h3>
+                                <h1 class="heroheading fw-bolder globaltxtcolor">Reach Smarter, Engage Deeper & Scale </h1>
+                                <h3 class="herosubheading fw-bolder">Faster With Integrated Media, Technology & Marketing
+                                    Solutions</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
-                                        <div class="col-md-12 stat-item">
+                                        <div class="col-md-12 stat-item d-none">
                                             <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
+                                                <p>5+ Years in Business | 7000+ Projects Delivered | 1000+ Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -42,16 +42,15 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Future-Proof Your Business
-                                    With </h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">Custom Web And App Development
-                                    Solutions</h3>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Build Scalable Digital
+                                    Experiences With</h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize"> Custom Web & App Development Tailored
+                                    for Business Growth</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
-                                        <div class="col-md-12 stat-item">
+                                        <div class="col-md-12 stat-item d-none">
                                             <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
+                                                <p>5+ Years in Business | 7000+ Projects Delivered | 1000+ Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -73,16 +72,15 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Let Your Products Shine In
-                                    The</h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce World With Our Marketplace
-                                    Management Expertise</h3>
+                                <h1 class="globaltxtcolor heroheading  fw-bolder text-capitalize">Maximize Your Brand Reach
+                                    Across </h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">E-Commerce Platforms With Marketplace
+                                    Strategy & Automation</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
-                                        <div class="col-md-12 stat-item">
+                                        <div class="col-md-12 stat-item d-none">
                                             <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
+                                                <p>5+ Years in Business | 7000+ Projects Delivered | 1000+ Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -104,16 +102,15 @@
                     <div class="item">
                         <div class="row align-items-center">
                             <div class="col-md-6 hero-content">
-                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Shape Your Brand’s
-                                    Narrative With</h1>
-                                <h3 class="herosubheading fw-bolder text-capitalize">Creative Design And Captivating Video
-                                    Content.</h3>
+                                <h1 class="globaltxtcolor heroheading fw-bolder text-capitalize">Tell Powerful Brand Stories
+                                    With </h1>
+                                <h3 class="herosubheading fw-bolder text-capitalize">Visual Design, Motion Graphics &
+                                    Production-Ready Videos</h3>
                                 <div class="stats-section mt-3 mb-3">
                                     <div class="row ">
-                                        <div class="col-md-12 stat-item">
+                                        <div class="col-md-12 stat-item d-none">
                                             <div class="text-md-start text-center">
-                                                <p>5+ Years In Business | 7000+ Completed Projects | 1000+ Satisfied Clients
-                                                </p>
+                                                <p>5+ Years in Business | 7000+ Projects Delivered | 1000+ Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +139,7 @@
                         class="me-2">
                     I'm here for
                 </div>
-                <div class="col-lg-7 col-md-9 col-12">
+                <div class="col-lg-10 col-md-9 col-12">
                     <div class="d-flex justify-content-start action-btn">
                         <div id="servicestabs" class="owl-carousel">
                             <a href="{{ route('designingservices') }}">
@@ -188,7 +185,7 @@
             </div>
             <div class="container mt-4 position-relative">
                 <div class="row">
-                    <h2 class="globaltxtcolor text-start">
+                    <h2 class="globaltxtcolor text-start fs-3">
                         Awards & Affiliations
                     </h2>
                     <div class="col-lg-12">
@@ -230,14 +227,16 @@
     <section>
         <div class="container py-5 ">
             <div class="row">
-                <h2 class="globaltxtcolor text-start">
-                    This Is What We Do To Transform Your Business Digitally
+                <h2 class="globaltxtcolor text-start fs-3">
+                    The YUV Framework: <span style=" -webkit-text-fill-color: black; font-weight: 500;"> Unified Digital Solutions Across Digital Media, Technology & Marketing </span> 
                 </h2>
                 <div class="text-start">
                     <p>
-                        We help your business evolve by providing cutting-edge digital solutions, from marketing strategies
-                        to innovative technologies, ensuring your brand thrives in the digital world.
+                        We transform your business through a connected ecosystem of creative design, smart development, and
+                        strategic marketing. From AI-integrated SEO to scalable web solutions and media strategy, we align
+                        every touchpoint to your brand’s growth journey.
                     </p>
+                    <p>5+ Years in Business | 7000+ Projects Delivered | 1000+ Happy Clients</p>
                 </div>
             </div>
             <div class="row hideInMobile">
@@ -256,25 +255,25 @@
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="performance-tab" data-bs-toggle="tab"
                                                 data-bs-target="#performance-tab-pane" type="button" role="tab"
-                                                aria-controls="performance-tab-pane" aria-selected="true">Performance
-                                                Marketing</button>
+                                                aria-controls="performance-tab-pane" aria-selected="true">Media Planning &
+                                                Buying</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="seo-tab" data-bs-toggle="tab"
                                                 data-bs-target="#seo-tab-pane" type="button" role="tab"
-                                                aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
+                                                aria-controls="seo-tab-pane" aria-selected="false">AI-Powered SEO</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="social-tab" data-bs-toggle="tab"
                                                 data-bs-target="#social-tab-pane" type="button" role="tab"
-                                                aria-controls="social-tab-pane" aria-selected="false">Social
-                                                Media</button>
+                                                aria-controls="social-tab-pane" aria-selected="false">Strategic Social
+                                                Media Growth</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="online-tab" data-bs-toggle="tab"
                                                 data-bs-target="#online-tab-pane" type="button" role="tab"
-                                                aria-controls="online-tab-pane" aria-selected="false">Online
-                                                Marketing</button>
+                                                aria-controls="online-tab-pane" aria-selected="false">Earned
+                                                Media</button>
                                         </li>
                                     </ul>
 
@@ -291,9 +290,8 @@
                                                         <div class="card-body">
                                                             <h6 class="card-title">Google Ads</h6>
                                                             <p class="card-text text-black">
-                                                                Be found with Google ads and make it easier for potential
-                                                                customers to find your business with effective advertising
-                                                                strategies.
+                                                                Run high-intent Google campaigns with smart bidding and
+                                                                keyword-targeted ad placements.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -304,10 +302,9 @@
                                                             class="card-img-top" alt="Facebook Ads">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Meta Ads</h6>
-                                                            <p class="card-text text-black">Grow your business with Meta
-                                                                Ads. Reach new
-                                                                customers across all Meta platforms including Facebook,
-                                                                Instagram, Messenger and WhatsApp.</p>
+                                                            <p class="card-text text-black">Unlock growth on Facebook,
+                                                                Instagram, WhatsApp using conversion-led ad segmentation
+                                                                tools.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -318,9 +315,9 @@
                                                             class="card-img-top" alt="mgid">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Native Ads</h6>
-                                                            <p class="card-text text-black">Get Traffic That Converts –
-                                                                Reach your ideal
-                                                                audience at the lowest cost with native ads.</p>
+                                                            <p class="card-text text-black">Use native ad placements for
+                                                                low-cost customer acquisition with contextual targeting
+                                                                strategy.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -332,11 +329,9 @@
                                                             class="card-img-top" alt="marketplace ads">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Marketplace Ads</h6>
-                                                            <p class="card-text text-black">Meet your customers wherever
-                                                                they are.
-                                                                Discover how marketplace ads can help you connect with
-                                                                customers
-                                                                where they love to browse and buy.
+                                                            <p class="card-text text-black">Promote your products on
+                                                                Amazon, Flipkart & more with automated marketplace ad
+                                                                campaigns.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -353,12 +348,10 @@
                                                         <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
                                                             class="card-img-top" alt="SEO">
                                                         <div class="card-body">
-                                                            <h6 class="card-title">Search Engine Optimization</h6>
-                                                            <p class="card-text text-black">Reach New Heights in Search
-                                                                Rankings. Rank
-                                                                better, drive more traffic, and convert visitors into
-                                                                customers
-                                                                with our expert SEO services.</p>
+                                                            <h6 class="card-title">Semantic SEO Optimization</h6>
+                                                            <p class="card-text text-black">Rank higher with NLP content,
+                                                                schema, and audits designed for semantic search and Google
+                                                                algorithms.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -367,12 +360,10 @@
                                                         <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
                                                             class="card-img-top" alt="GBP">
                                                         <div class="card-body">
-                                                            <h6 class="card-title">Google Business Profile</h6>
-                                                            <p class="card-text text-black">Let Local Customers Find You.
-                                                                Optimize your
-                                                                Google Business Profile to appear in local searches and
-                                                                attract
-                                                                more customers. </p>
+                                                            <h6 class="card-title">Google Business Profile 3.0</h6>
+                                                            <p class="card-text text-black">Boost local visibility via
+                                                                AI-powered reviews, voice search ranking & advanced GBP
+                                                                optimization tools.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -390,10 +381,9 @@
                                                             class="card-img-top" alt="Facebook">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Facebook</h6>
-                                                            <p class="card-text text-black">Connect, Engage, and Grow –
-                                                                Share updates,
-                                                                stories, and content to engage customers and build your
-                                                                brand.
+                                                            <p class="card-text text-black">Drive engagement with ad
+                                                                creatives, retargeting, and community-focused content
+                                                                strategies.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -404,10 +394,9 @@
                                                             class="card-img-top" alt="Instagram">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Instagram</h6>
-                                                            <p class="card-text text-black">Engage, Inspire, Convert
-                                                                –Utilize Instagram to
-                                                                get noticed, connect with your audience, and showcase your
-                                                                brand’s voice.
+                                                            <p class="card-text text-black">Boost reach and conversions
+                                                                using reels, carousels, influencer content, and visual
+                                                                storytelling.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -418,11 +407,9 @@
                                                             class="card-img-top" alt="LinkedIn">
                                                         <div class="card-body">
                                                             <h6 class="card-title">LinkedIn</h6>
-                                                            <p class="card-text text-black">Build Professional
-                                                                Relationships – Connect
-                                                                with industry leaders, peers, and potential clients on
-                                                                LinkedIn
-                                                                to grow your network.
+                                                            <p class="card-text text-black">Generate quality B2B leads
+                                                                through thought leadership posts and targeted InMail ad
+                                                                campaigns.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -433,10 +420,9 @@
                                                             class="card-img-top" alt="Youtube">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Youtube</h6>
-                                                            <p class="card-text text-black">Engage with Visual Content -
-                                                                Use YouTube to
-                                                                build an authentic relationship with your audience through
-                                                                personal and engaging content.</p>
+                                                            <p class="card-text text-black">Improve rankings with SEO
+                                                                metadata and boost watch time using long-form video
+                                                                storytelling.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -453,11 +439,9 @@
                                                             class="card-img-top" alt="Influencer Marketing">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Influencer Marketing</h6>
-                                                            <p class="card-text text-black">Drive Engagement with Trusted
-                                                                Voices – Work
-                                                                with influencers who align with your brand to build
-                                                                credibility
-                                                                and drive meaningful results.</p>
+                                                            <p class="card-text text-black">Drive authentic engagement by
+                                                                partnering with creators your audience already follows &
+                                                                trusts.</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -468,11 +452,9 @@
                                                             class="card-img-top" alt="Whatsapp Marketing">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Whatsapp Marketing</h6>
-                                                            <p class="card-text text-black">Connect Anytime, Anywhere –
-                                                                WhatsApp allows
-                                                                you to stay connected with your audience 24/7, offering
-                                                                quick
-                                                                responses and building trust.
+                                                            <p class="card-text text-black">Use click-to-chat, catalog ads
+                                                                & automation via official WhatsApp Business API for
+                                                                conversions.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -484,11 +466,9 @@
                                                             class="card-img-top" alt="Email Marketing">
                                                         <div class="card-body">
                                                             <h6 class="card-title">Email Marketing</h6>
-                                                            <p class="card-text text-black">Turn Emails Into Conversions –
-                                                                Create
-                                                                personalized emails, target precisely with behavior-based
-                                                                automations and segments, and optimize with real-time
-                                                                reporting.
+                                                            <p class="card-text text-black">Automate lifecycle emails using
+                                                                AI-tested subject lines & behavior-based audience
+                                                                segmentation.
                                                             </p>
                                                         </div>
                                                     </a>
@@ -515,9 +495,8 @@
                                                     class="card-img-top" alt="Amazon">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Amazon</h6>
-                                                    <p class="card-text text-black">Get Your Brand Noticed – Start selling
-                                                        on Amazon and
-                                                        watch your business grow with India’s leading online marketplace.
+                                                    <p class="card-text text-black">Boost product sales with AI listing
+                                                        optimization and ad strategies for high conversions.
                                                     </p>
                                                 </div>
                                             </a>
@@ -528,11 +507,8 @@
                                                     class="card-img-top" alt="Flipkart">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Flipkart</h6>
-                                                    <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart-
-                                                        List your
-                                                        products on India’s leading marketplace and reach millions of
-                                                        customers
-                                                        actively searching for what you offer.
+                                                    <p class="card-text text-black">Win the buy box and improve rankings
+                                                        using SEO listings and competitive pricing tactics.
                                                     </p>
                                                 </div>
                                             </a>
@@ -543,11 +519,8 @@
                                                     class="card-img-top" alt="Meesho">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Meesho</h6>
-                                                    <p class="card-text text-black">Start Selling on Meesho – Empower your
-                                                        business with
-                                                        Meesho’s platform and connect with millions of customers looking for
-                                                        the
-                                                        best deals!
+                                                    <p class="card-text text-black">Onboard fast with commission-based ads
+                                                        and low-cost campaigns for rising marketplace sellers.
                                                     </p>
                                                 </div>
                                             </a>
@@ -558,10 +531,8 @@
                                                     class="card-img-top" alt="Etsy">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Etsy</h6>
-                                                    <p class="card-text text-black">Turn Your Creativity Into Profit –
-                                                        Start selling on
-                                                        Etsy and showcase your digital creations, and customized & unique
-                                                        products to a global audience.
+                                                    <p class="card-text text-black">Stand out globally with SEO-rich
+                                                        listings, brand storytelling, and creative product content.
                                                     </p>
                                                 </div>
                                             </a>
@@ -581,13 +552,11 @@
                                         <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
-                                                    class="card-img-top" alt="Graphic Designing">
+                                                    class="card-img-top" alt="Creative Designing">
                                                 <div class="card-body">
-                                                    <h6 class="card-title">Graphic Designing</h6>
-                                                    <p class="card-text text-black">A Picture Perfect Brand - Bring your
-                                                        ideas to life
-                                                        with designs that connect with your audience and drive your brand’s
-                                                        success.
+                                                    <h6 class="card-title">Creative Designing</h6>
+                                                    <p class="card-text text-black">Design scroll-stopping creatives that
+                                                        boost conversions and reflect your unique brand identity.
                                                     </p>
                                                 </div>
                                             </a>
@@ -599,10 +568,8 @@
                                                 <div class="card-body">
                                                     <h6 class="card-title">UI/UX Design
                                                     </h6>
-                                                    <p class="card-text text-black">Creating Designs That Connect – Our
-                                                        UI/UX services
-                                                        ensure your users enjoy flawless navigation, making their experience
-                                                        smoother and more engaging.</p>
+                                                    <p class="card-text text-black">Build intuitive user flows with
+                                                        wireframes, prototypes, and responsive UI for all screen sizes.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -613,11 +580,8 @@
                                                     class="card-img-top" alt="Brand Designing">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Brand Designing</h6>
-                                                    <p class="card-text text-black">Unique Designs for Unique Brands – From
-                                                        logo design to
-                                                        complete brand identity, we ensure your business stands out with
-                                                        designs
-                                                        that communicate your core values.
+                                                    <p class="card-text text-black">Craft a memorable brand with visual
+                                                        identity, scalable kits, and strategic storytelling tools.
                                                     </p>
                                                 </div>
                                             </a>
@@ -637,14 +601,23 @@
                                     <div class="d-flex my-3 justify-content-around pmarketing">
                                         <div class="card">
                                             <a href="{{ route('videoproduction') }}">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
+                                                    class="card-img-top" alt="VFX & Compositing">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">VFX & CGI Compositing</h6>
+                                                    <p class="card-text text-black">Add cinematic depth with high-end
+                                                        transitions and advanced CGI for impactful storytelling.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card">
+                                            <a href="{{ route('videoproduction') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
                                                     class="card-img-top" alt="Video Editing">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Video Editing</h6>
-                                                    <p class="card-text text-black">Enhance your footage with seamless
-                                                        editing, smooth
-                                                        transitions, and captivating storytelling that keeps your audience
-                                                        hooked.</p>
+                                                    <p class="card-text text-black">Create narrative edits with motion
+                                                        graphics and ideal runtime for better viewer retention.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -654,10 +627,8 @@
                                                     class="card-img-top" alt="Pre-Production">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Pre-Production</h6>
-                                                    <p class="card-text text-black">Meticulously plan every detail of your
-                                                        video project,
-                                                        from scripting to storyboarding, ensuring a flawless production
-                                                        process.
+                                                    <p class="card-text text-black">Plan scripts, storyboards, budgets &
+                                                        logistics—complete creative prep under one workflow.
                                                     </p>
                                                 </div>
                                             </a>
@@ -668,10 +639,8 @@
                                                     class="card-img-top" alt="3D Animation & Modeling">
                                                 <div class="card-body">
                                                     <h6 class="card-title">3D Animation & Modeling</h6>
-                                                    <p class="card-text text-black">Add depth and creativity to your
-                                                        content with stunning
-                                                        3D animations and models, bringing your ideas to life in a visually
-                                                        captivating way.
+                                                    <p class="card-text text-black">Design lifelike 3D models and animation
+                                                        for product ads, explainers, games & social reels.
                                                     </p>
                                                 </div>
                                             </a>
@@ -682,26 +651,13 @@
                                                     class="card-img-top" alt="Color Grading">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Color Grading</h6>
-                                                    <p class="card-text text-black">Enhance the mood and tone of your
-                                                        videos with expert
-                                                        color grading, ensuring a professional and cinematic look.</p>
+                                                    <p class="card-text text-black">Enhance brand visuals with consistent
+                                                        tones and cinematic grading across all video formats.</p>
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="card">
-                                            <a href="{{ route('videoproduction') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
-                                                    class="card-img-top" alt="VFX & Compositing">
-                                                <div class="card-body">
-                                                    <h6 class="card-title">VFX & Compositing</h6>
-                                                    <p class="card-text text-black">Add stunning cinematic effects and
-                                                        flawless
-                                                        compositing to your videos, making your visuals truly stand out with
-                                                        creativity and precision.</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card">
+
+                                        {{-- <div class="card">
                                             <a href="{{ route('videoproduction') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
                                                     class="card-img-top" alt="Product Shoot">
@@ -713,7 +669,7 @@
                                                         e-commerce, marketing, and branding.</p>
                                                 </div>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                     </div>
 
                                 </div>
@@ -732,10 +688,8 @@
                                                     class="card-img-top" alt="Web Development">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Web Development</h6>
-                                                    <p class="card-text text-black">Building the Future of Your Business –
-                                                        From design to
-                                                        launch, our websites are created with one goal in mind: to turn your
-                                                        visitors into loyal customers</p>
+                                                    <p class="card-text text-black">Fast, responsive, SEO-optimized
+                                                        websites with CMS integration & design system use.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -745,10 +699,8 @@
                                                     class="card-img-top" alt="App Development">
                                                 <div class="card-body">
                                                     <h6 class="card-title">App Development</h6>
-                                                    <p class="card-text text-black">From Ideas to Downloads – We take your
-                                                        app idea and
-                                                        transform it into a fully functional, optimized, and user-friendly
-                                                        mobile application</p>
+                                                    <p class="card-text text-black">Cross-platform apps using Flutter,
+                                                        React Native, and performance analytics.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -758,11 +710,8 @@
                                                     class="card-img-top" alt="Software Integrations">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Software Integrations</h6>
-                                                    <p class="card-text text-black">Get the Most Out of Your Software – We
-                                                        provide custom
-                                                        integrations that link your tools and platforms together, making
-                                                        your
-                                                        business operations smarter and more efficient</p>
+                                                    <p class="card-text text-black">Seamlessly connect CRM, ERP, payment
+                                                        systems & APIs into one ecosystem.</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -772,10 +721,8 @@
                                                     class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                                 <div class="card-body">
                                                     <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
-                                                    <p class="card-text text-black">Enhance Business Insights with Our ERP
-                                                        Solutions – We
-                                                        integrate all your operations into one system, giving you complete
-                                                        visibility and control over every aspect of your business.
+                                                    <p class="card-text text-black">Optimize business workflows using
+                                                        Salesforce, Odoo & custom dashboards.
                                                     </p>
                                                 </div>
                                             </a>
@@ -800,25 +747,22 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="performance2-tab" data-bs-toggle="tab"
                                 data-bs-target="#performance2-tab-pane" type="button" role="tab"
-                                aria-controls="performance2-tab-pane" aria-selected="true">Performance
-                                Marketing</button>
+                                aria-controls="performance2-tab-pane" aria-selected="true">Media Planning & Buying</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane"
                                 type="button" role="tab" aria-controls="seo-tab2-pane"
-                                aria-selected="false">SEO</button>
+                                aria-selected="false">AI-Powered SEO</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="social-tab2" data-bs-toggle="tab"
                                 data-bs-target="#social-tab2-pane" type="button" role="tab"
-                                aria-controls="social-tab2-pane" aria-selected="false">Social
-                                Media</button>
+                                aria-controls="social-tab2-pane" aria-selected="false">Strategic Social Media Growth</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="online-tab2" data-bs-toggle="tab"
                                 data-bs-target="#online-tab2-pane" type="button" role="tab"
-                                aria-controls="online-tab2-pane" aria-selected="false">Online
-                                Marketing</button>
+                                aria-controls="online-tab2-pane" aria-selected="false">Earned Media</button>
                         </li>
                     </ul>
                     <!-- Tab panes -->
@@ -834,9 +778,7 @@
                                         <div class="card-body">
                                             <h6 class="card-title">Google Ads</h6>
                                             <p class="card-text text-black">
-                                                Be found with Google ads and make it easier for potential
-                                                customers to find your business with effective advertising
-                                                strategies.
+                                                Run high-intent Google campaigns with smart bidding and keyword-targeted ad placements.
                                             </p>
                                         </div>
                                     </a>
@@ -847,9 +789,7 @@
                                             class="card-img-top" alt="Facebook Ads">
                                         <div class="card-body">
                                             <h6 class="card-title">Meta Ads</h6>
-                                            <p class="card-text text-black">Grow your business with Meta Ads. Reach new
-                                                customers across all Meta platforms including Facebook,
-                                                Instagram, Messenger and WhatsApp.</p>
+                                            <p class="card-text text-black">Unlock growth on Facebook, Instagram, WhatsApp using conversion-led ad segmentation tools.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -859,8 +799,7 @@
                                             class="card-img-top" alt="mgid">
                                         <div class="card-body">
                                             <h6 class="card-title">Native Ads</h6>
-                                            <p class="card-text text-black">Get Traffic That Converts – Reach your ideal
-                                                audience at the lowest cost with native ads.</p>
+                                            <p class="card-text text-black">Use native ad placements for low-cost customer acquisition with contextual targeting strategy.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -870,9 +809,7 @@
                                             class="card-img-top" alt="marketplace ads">
                                         <div class="card-body">
                                             <h6 class="card-title">Marketplace Ads</h6>
-                                            <p class="card-text text-black">Meet your customers wherever they are.
-                                                Discover how marketplace ads can help you connect with customers
-                                                where they love to browse and buy.
+                                            <p class="card-text text-black">Promote your products on Amazon, Flipkart & more with automated marketplace ad campaigns.
                                             </p>
                                         </div>
                                     </a>
@@ -889,10 +826,8 @@
                                         <img src="{{ asset('assets/websiteAssets/images/services/SEO.webp') }}"
                                             class="card-img-top" alt="SEO">
                                         <div class="card-body">
-                                            <h6 class="card-title">Search Engine Optimization</h6>
-                                            <p class="card-text text-black">Reach New Heights in Search Rankings. Rank
-                                                better, drive more traffic, and convert visitors into customers
-                                                with our expert SEO services.</p>
+                                            <h6 class="card-title">Semantic SEO Optimization</h6>
+                                            <p class="card-text text-black">Rank higher with NLP content, schema, and audits designed for semantic search and Google algorithms.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -901,10 +836,8 @@
                                         <img src="{{ asset('assets/websiteAssets/images/services/GBP.webp') }}"
                                             class="card-img-top" alt="GBP">
                                         <div class="card-body">
-                                            <h6 class="card-title">Google Business Profile</h6>
-                                            <p class="card-text text-black">Let Local Customers Find You. Optimize your
-                                                Google Business Profile to appear in local searches and attract
-                                                more customers. </p>
+                                            <h6 class="card-title">Google Business Profile 3.0</h6>
+                                            <p class="card-text text-black">Boost local visibility via AI-powered reviews, voice search ranking & advanced GBP optimization tools.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -922,8 +855,7 @@
                                             class="card-img-top" alt="Facebook">
                                         <div class="card-body">
                                             <h6 class="card-title">Facebook</h6>
-                                            <p class="card-text text-black">Connect, Engage, and Grow – Share updates,
-                                                stories, and content to engage customers and build your brand.
+                                            <p class="card-text text-black">Drive engagement with ad creatives, retargeting, and community-focused content strategies.
                                             </p>
                                         </div>
                                     </a>
@@ -934,9 +866,7 @@
                                             class="card-img-top" alt="Instagram">
                                         <div class="card-body">
                                             <h6 class="card-title">Instagram</h6>
-                                            <p class="card-text text-black">Engage, Inspire, Convert –Utilize Instagram to
-                                                get noticed, connect with your audience, and showcase your
-                                                brand’s voice.
+                                            <p class="card-text text-black">Boost reach and conversions using reels, carousels, influencer content, and visual storytelling.
                                             </p>
                                         </div>
                                     </a>
@@ -947,9 +877,8 @@
                                             class="card-img-top" alt="LinkedIn">
                                         <div class="card-body">
                                             <h6 class="card-title">LinkedIn</h6>
-                                            <p class="card-text text-black">Build Professional Relationships – Connect
-                                                with industry leaders, peers, and potential clients on LinkedIn
-                                                to grow your network.
+                                            <p class="card-text text-black">Generate quality B2B leads through thought leadership posts and targeted InMail ad campaigns.
+
                                             </p>
                                         </div>
                                     </a>
@@ -960,9 +889,7 @@
                                             class="card-img-top" alt="Youtube">
                                         <div class="card-body">
                                             <h6 class="card-title">Youtube</h6>
-                                            <p class="card-text text-black">Engage with Visual Content - Use YouTube to
-                                                build an authentic relationship with your audience through
-                                                personal and engaging content.</p>
+                                            <p class="card-text text-black">Improve rankings with SEO metadata and boost watch time using long-form video storytelling.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -979,9 +906,7 @@
                                             class="card-img-top" alt="Influencer Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Influencer Marketing</h6>
-                                            <p class="card-text text-black">Drive Engagement with Trusted Voices – Work
-                                                with influencers who align with your brand to build credibility
-                                                and drive meaningful results.</p>
+                                            <p class="card-text text-black">Drive authentic engagement by partnering with creators your audience already follows & trusts.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -992,9 +917,7 @@
                                             class="card-img-top" alt="Whatsapp Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Whatsapp Marketing</h6>
-                                            <p class="card-text text-black">Connect Anytime, Anywhere – WhatsApp allows
-                                                you to stay connected with your audience 24/7, offering quick
-                                                responses and building trust.
+                                            <p class="card-text text-black">Use click-to-chat, catalog ads & automation via official WhatsApp Business API for conversions.
                                             </p>
                                         </div>
                                     </a>
@@ -1006,9 +929,7 @@
                                             class="card-img-top" alt="Email Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Email Marketing</h6>
-                                            <p class="card-text text-black">Turn Emails Into Conversions – Create
-                                                personalized emails, target precisely with behavior-based
-                                                automations and segments, and optimize with real-time reporting.
+                                            <p class="card-text text-black">Automate lifecycle emails using AI-tested subject lines & behavior-based audience segmentation.
                                             </p>
                                         </div>
                                     </a>
@@ -1030,8 +951,7 @@
                                     class="card-img-top" alt="Amazon">
                                 <div class="card-body">
                                     <h6 class="card-title">Amazon</h6>
-                                    <p class="card-text text-black">Get Your Brand Noticed – Start selling on Amazon and
-                                        watch your business grow with India’s leading online marketplace.
+                                    <p class="card-text text-black">Boost product sales with AI listing optimization and ad strategies for high conversions.
                                     </p>
                                 </div>
                             </a>
@@ -1042,9 +962,7 @@
                                     class="card-img-top" alt="Flipkart">
                                 <div class="card-body">
                                     <h6 class="card-title">Flipkart</h6>
-                                    <p class="card-text text-black">Sell Smarter, Sell Bigger on Flipkart- List your
-                                        products on India’s leading marketplace and reach millions of customers
-                                        actively searching for what you offer.
+                                    <p class="card-text text-black">Win the buy box and improve rankings using SEO listings and competitive pricing tactics.
                                     </p>
                                 </div>
                             </a>
@@ -1055,9 +973,7 @@
                                     class="card-img-top" alt="Meesho">
                                 <div class="card-body">
                                     <h6 class="card-title">Meesho</h6>
-                                    <p class="card-text text-black">Start Selling on Meesho – Empower your business with
-                                        Meesho’s platform and connect with millions of customers looking for the
-                                        best deals!
+                                    <p class="card-text text-black">Onboard fast with commission-based ads and low-cost campaigns for rising marketplace sellers.
                                     </p>
                                 </div>
                             </a>
@@ -1068,9 +984,7 @@
                                     class="card-img-top" alt="Etsy">
                                 <div class="card-body">
                                     <h6 class="card-title">Etsy</h6>
-                                    <p class="card-text text-black">Turn Your Creativity Into Profit – Start selling on
-                                        Etsy and showcase your digital creations, and customized & unique
-                                        products to a global audience.
+                                    <p class="card-text text-black">Stand out globally with SEO-rich listings, brand storytelling, and creative product content.
                                     </p>
                                 </div>
                             </a>
@@ -1085,12 +999,10 @@
                         <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
-                                    class="card-img-top" alt="Graphic Designing">
+                                    class="card-img-top" alt="Creative Designing">
                                 <div class="card-body">
-                                    <h6 class="card-title">Graphic Designing</h6>
-                                    <p class="card-text text-black">A Picture Perfect Brand - Bring your ideas to life
-                                        with designs that connect with your audience and drive your brand’s
-                                        success.
+                                    <h6 class="card-title">Creative Designing</h6>
+                                    <p class="card-text text-black">Design scroll-stopping creatives that boost conversions and reflect your unique brand identity.
                                     </p>
                                 </div>
                             </a>
@@ -1102,9 +1014,7 @@
                                 <div class="card-body">
                                     <h6 class="card-title">UI/UX Design
                                     </h6>
-                                    <p class="card-text text-black">Creating Designs That Connect – Our UI/UX services
-                                        ensure your users enjoy flawless navigation, making their experience
-                                        smoother and more engaging.</p>
+                                    <p class="card-text text-black">Build intuitive user flows with wireframes, prototypes, and responsive UI for all screen sizes.</p>
                                 </div>
                             </a>
                         </div>
@@ -1115,9 +1025,7 @@
                                     class="card-img-top" alt="Brand Designing">
                                 <div class="card-body">
                                     <h6 class="card-title">Brand Designing</h6>
-                                    <p class="card-text text-black">Unique Designs for Unique Brands – From logo design to
-                                        complete brand identity, we ensure your business stands out with designs
-                                        that communicate your core values.
+                                    <p class="card-text text-black">Craft a memorable brand with visual identity, scalable kits, and strategic storytelling tools.
                                     </p>
                                 </div>
                             </a>
@@ -1131,13 +1039,21 @@
                     <div class="d-flex my-3 justify-content-around flex-wrap servicescards">
                         <div class="card">
                             <a href="{{ route('videoproduction') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
+                                    class="card-img-top" alt="VFX & Compositing">
+                                <div class="card-body">
+                                    <h6 class="card-title">VFX & Compositing</h6>
+                                    <p class="card-text text-black">Add cinematic depth with high-end transitions and advanced CGI for impactful storytelling.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="{{ route('videoproduction') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/video editing.webp') }}"
                                     class="card-img-top" alt="Video Editing">
                                 <div class="card-body">
                                     <h6 class="card-title">Video Editing</h6>
-                                    <p class="card-text text-black">Enhance your footage with seamless editing, smooth
-                                        transitions, and captivating storytelling that keeps your audience
-                                        hooked.</p>
+                                    <p class="card-text text-black">Create narrative edits with motion graphics and ideal runtime for better viewer retention</p>
                                 </div>
                             </a>
                         </div>
@@ -1147,8 +1063,7 @@
                                     class="card-img-top" alt="Pre-Production">
                                 <div class="card-body">
                                     <h6 class="card-title">Pre-Production</h6>
-                                    <p class="card-text text-black">Meticulously plan every detail of your video project,
-                                        from scripting to storyboarding, ensuring a flawless production process.
+                                    <p class="card-text text-black">Plan scripts, storyboards, budgets & logistics—complete creative prep under one workflow.
                                     </p>
                                 </div>
                             </a>
@@ -1159,9 +1074,8 @@
                                     class="card-img-top" alt="3D Animation & Modeling">
                                 <div class="card-body">
                                     <h6 class="card-title">3D Animation & Modeling</h6>
-                                    <p class="card-text text-black">Add depth and creativity to your content with stunning
-                                        3D animations and models, bringing your ideas to life in a visually
-                                        captivating way.
+                                    <p class="card-text text-black">Design lifelike 3D models and animation for product ads, explainers, games & social reels.
+
                                     </p>
                                 </div>
                             </a>
@@ -1172,24 +1086,12 @@
                                     class="card-img-top" alt="Color Grading">
                                 <div class="card-body">
                                     <h6 class="card-title">Color Grading</h6>
-                                    <p class="card-text text-black">Enhance the mood and tone of your videos with expert
-                                        color grading, ensuring a professional and cinematic look.</p>
+                                    <p class="card-text text-black">Enhance brand visuals with consistent tones and cinematic grading across all video formats.</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="card">
-                            <a href="{{ route('videoproduction') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/vfx compositing.jpg') }}"
-                                    class="card-img-top" alt="VFX & Compositing">
-                                <div class="card-body">
-                                    <h6 class="card-title">VFX & Compositing</h6>
-                                    <p class="card-text text-black">Add stunning cinematic effects and flawless
-                                        compositing to your videos, making your visuals truly stand out with
-                                        creativity and precision.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
+                        
+                        {{-- <div class="card">
                             <a href="{{ route('videoproduction') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
                                     class="card-img-top" alt="Product Shoot">
@@ -1200,7 +1102,7 @@
                                         e-commerce, marketing, and branding.</p>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -1213,9 +1115,7 @@
                                     class="card-img-top" alt="Web Development">
                                 <div class="card-body">
                                     <h6 class="card-title">Web Development</h6>
-                                    <p class="card-text text-black">Building the Future of Your Business – From design to
-                                        launch, our websites are created with one goal in mind: to turn your
-                                        visitors into loyal customers</p>
+                                    <p class="card-text text-black">Fast, responsive, SEO-optimized websites with CMS integration & design system use.</p>
                                 </div>
                             </a>
                         </div>
@@ -1225,9 +1125,7 @@
                                     class="card-img-top" alt="App Development">
                                 <div class="card-body">
                                     <h6 class="card-title">App Development</h6>
-                                    <p class="card-text text-black">From Ideas to Downloads – We take your app idea and
-                                        transform it into a fully functional, optimized, and user-friendly
-                                        mobile application</p>
+                                    <p class="card-text text-black">Cross-platform apps using Flutter, React Native, and performance analytics.</p>
                                 </div>
                             </a>
                         </div>
@@ -1237,9 +1135,7 @@
                                     class="card-img-top" alt="Software Integrations">
                                 <div class="card-body">
                                     <h6 class="card-title">Software Integrations</h6>
-                                    <p class="card-text text-black">Get the Most Out of Your Software – We provide custom
-                                        integrations that link your tools and platforms together, making your
-                                        business operations smarter and more efficient</p>
+                                    <p class="card-text text-black">Seamlessly connect CRM, ERP, payment systems & APIs into one ecosystem.</p>
                                 </div>
                             </a>
                         </div>
@@ -1249,9 +1145,7 @@
                                     class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                 <div class="card-body">
                                     <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
-                                    <p class="card-text text-black">Enhance Business Insights with Our ERP Solutions – We
-                                        integrate all your operations into one system, giving you complete
-                                        visibility and control over every aspect of your business.
+                                    <p class="card-text text-black">Optimize business workflows using Salesforce, Odoo & custom dashboards.
                                     </p>
                                 </div>
                             </a>
@@ -1535,8 +1429,9 @@
 
 
     <!-- core-team -->
-    <section class="core-team py-5">
-        <div class="container">
+
+    {{-- <section class="core-team py-5"> --}}
+    {{-- <div class="container">
             <div class="row">
                 <div class="globaltxtcolor text-start ">
                     Core Team
@@ -1550,15 +1445,15 @@
                     ourselves.
                 </p>
             </div>
-        </div>
-        <div class="container">
+        </div> --}}
+    {{-- <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">
-                    <div id="core-team" class="owl-carousel">
+                    <div id="core-team" class="owl-carousel"> --}}
 
-                        {{-- khivraj sir --}}
-                        <div class="item">
+    {{-- khivraj sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -1596,50 +1491,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        {{-- Pinki mam --}}
-                        {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
-                    alt="client">
-                </div>
-                <div class="authorbox rounded-3">
-                    <div class="testimonial-name d-flex  text-white">
-                        <div>
-                            <div class="fs-6 ">Co-founder</div>
-                            <div class="author">Mrs. Pinki Sain</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="face back">
-        <div class="inner p-3">
-            <div>
-                <p>“Business has only two functions- marketing and innovation.”</p>
-            </div>
-            <div class="testimonial-name d-flex mt-auto text-black">
-                <div>
-                    <div class="fs-6 ">Co-founder</div>
-                    <div class="author">Mrs. Pinki Sain</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div> --}}
-
-                        {{-- Kunal Basin sir --}}
-                        <div class="item">
+    {{-- Kunal Basin sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -1677,11 +1532,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div> --}}
 
-                        </div>
-
-                        {{-- Kishan gopal --}}
-                        <div class="item">
+    {{-- Kishan gopal --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -1721,10 +1575,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Nilesh gupta --}}
-                        <div class="item">
+    {{-- Nilesh gupta --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -1764,10 +1618,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Manohar sir --}}
-                        <div class="item">
+    {{-- Manohar sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -1806,10 +1660,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Rudraksh sir --}}
-                        <div class="item">
+    {{-- Rudraksh sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -1848,11 +1702,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div> --}}
 
-                        </div>
-
-                        {{-- Leera ma'am --}}
-                        <div class="item">
+    {{-- Leera ma'am --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -1890,21 +1743,20 @@
                                     </div>
                                 </div>
                             </div>
+                        </div> --}}
 
-                        </div>
-
-                    </div>
+    {{-- </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- END OF core-team -->
 
 
 
 
     {{-- services --}}
-    <section>
+    {{-- <section>
         <div class="container py-5  servicesbox">
 
             <div class="row">
@@ -2043,7 +1895,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
 
@@ -2056,9 +1908,10 @@
                 <div class="text-start globaltxtcolor">
                     Technologies We Use
                 </div>
-                <div class=" text-start fs-4 fw-bold pb-md-5">
-                    Leveraging cutting-edge technologies across all industries.
+                <div class=" text-start fs-4 fw-bold ">
+                    Your Growth, Backed by Smart Technology
                 </div>
+                <p class="pb-md-5">Building connected digital experiences through adaptive and AI-first technologies.</p>
 
                 <div class="technical-stack-inn mt-5 mt-md-3">
                     <div class="technical-stack-main">
@@ -2126,7 +1979,7 @@
                                                         <li class="react">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="react native"
+                                                                    <img alt="android icon"
                                                                         class="perfmatters-lazy entered pmloaded"
                                                                         data-src="assets/websiteAssets/images/technologies/react-Icon.svg"
                                                                         data-ll-status="loaded"
@@ -2388,6 +2241,55 @@
                                                                         data-src="assets/websiteAssets/images/technologies/figma-Icon.svg"
                                                                         data-ll-status="loaded"
                                                                         src="{{ asset('assets/websiteAssets/images/technologies/figma-Icon.svg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="video-editing-logo aos-init aos-animate" data-aos="fade-up">
+                                                    <a href="javascript:;">Video Editing</a>
+                                                    <ul>
+                                                        <li class="adobe-premiere">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="adobe premiere"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe_premiere_pro.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe_premiere_pro.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="after-effects">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="after effects"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/adobe-after-effects.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/adobe-after-effects.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="final-cut-pro">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="final cut pro"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/blender3d.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/blender3d.webp') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="canva-logo">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="Maya"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/Apps-Autodesk-Maya.webp"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Apps-Autodesk-Maya.webp') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -2733,10 +2635,57 @@
                                         </span>
                                     </div>
                                 </li>
+                                {{-- <li class="adobe-premiere aos-init aos-animate" data-aos="fade-up"
+                                    data-aos-duration="1600" data-aos-delay="1100">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="adobe premiere" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/adobe-premiere-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-premiere-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="after-effects aos-init aos-animate" data-aos="fade-down"
+                                    data-aos-duration="1600" data-aos-delay="1200">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="after effects" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/after-effects-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/after-effects-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="final-cut-pro aos-init aos-animate" data-aos="fade-left"
+                                    data-aos-duration="1600" data-aos-delay="1300">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="final cut pro" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/final-cut-pro-Icon.svg"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/final-cut-pro-Icon.svg') }}">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="canva-logo aos-init aos-animate" data-aos="fade-right"
+                                    data-aos-duration="1600" data-aos-delay="1400">
+                                    <div class="index-list__divider-inn">
+                                        <span>
+                                            <img alt="canva logo" class="perfmatters-lazy entered pmloaded"
+                                                data-src="assets/websiteAssets/images/technologies/Canva.png"
+                                                data-ll-status="loaded"
+                                                src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
+                                        </span>
+                                    </div>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </section>
@@ -2751,7 +2700,7 @@
                         Testimonials
                     </div>
                     <div class=" text-start fs-3 fw-bold">
-                        Exceptional Results, Happy Clients.
+                        Hear what scaling brands have to say.
                     </div>
                 </div>
             </div>
@@ -2934,7 +2883,7 @@
         <div class="container-fluid py-3 " style="background-color: #032A3E">
             <div class="container ">
 
-                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2">
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
                     <h1 class="text-white fw-bold">Contact us</h1>
                 </div>
             </div>
@@ -2943,11 +2892,10 @@
 
             <div class="row">
                 <div class="col-lg-6 col-md-4" style="z-index: 10">
-                    <div class="d-flex justify-content-center align-items-end h-100 p-lg-5 mx-lg-5 p-md-2 mx-md-2">
+                    <div class="d-flex justify-content-start align-items-center h-100">
 
-                        <p class="fs-2 contact-msg fw-bold">
-                            Get personalized solutions, expert recommendations, and accurate estimates tailored to your
-                            needs!
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
                         </p>
                     </div>
                 </div>

@@ -356,7 +356,11 @@ body {
 }
 
 .contact-msg {
-    color: white;
+    color: #ffffffc7;
+    font-size: 110px;
+    /* background-color: #032a3e; */
+    padding-inline: 20px;
+    border-radius: 10px;
 }
 
 .teamphoto {
