@@ -476,6 +476,10 @@
     top: -237px;
     left: -782px;
 }
+.technical-tk-ul ul li ul li.coraldraw {
+    top: 90px;
+    left: 92px;
+}
 
 .technical-tk-ul ul li ul li.illustrator {
     top: -237px;
@@ -535,6 +539,11 @@
     top: 100px;
     right: 22px;
 }
+.technical-tk-ul > ul > li.ui-ux-design ul li:nth-child(5)::before {
+    transform: rotate(42deg);
+    top: -5px;
+    right: 55px;
+}
 
 /* Video Editing & Logo Section */
 .technical-tk-ul ul li ul li.adobe-premiere {
@@ -555,6 +564,10 @@
 .technical-tk-ul ul li ul li.canva-logo {
     top: -37px;
     right: -108px;
+}
+.technical-tk-ul ul li ul li.davinci-logo {
+    top: 107px;
+    right: -88px;
 }
 
 .index-top
@@ -596,6 +609,15 @@
     top: -123px;
     right: -30px;
 }
+.index-top
+    .technical-tk-ul
+    > ul
+    > li.video-editing-logo.active
+    ul
+    li.davinci-logo {
+    top: 100px;
+    right: -100px;
+}
 
 .technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(1)::before {
     transform: rotate(0);
@@ -614,11 +636,16 @@
     top: 103px;
     left: 10px;
 }
-
 .technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(4)::before {
-    transform: rotate(92deg);
-    top: -34px;
-    right: -8px;
+    transform: rotate(101deg);
+    top: 103px;
+    left: -20px;
+}
+
+.technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(5)::before {
+    transform: rotate(42deg);
+    top: -5px;
+    right: 55px;
 }
 
 .technical-stack-main.index-top .technical-site-logo {
@@ -841,6 +868,10 @@
     top: 200px;
     right: 180px;
 }
+.technical-stack-ul ul li.davinci-logo {
+    top: 200px;
+    right: 180px;
+}
 
 .technical-main-mdl {
     position: relative;
@@ -862,7 +893,7 @@
     padding: 10px;
     text-decoration: none;
     justify-content: center;
-    font-size: 16px;
+    font-size: 13px;
     color: #505050;
     position: relative;
     z-index: 33;
@@ -895,8 +926,14 @@
 }
 
 .technical-tk-ul > ul > li:nth-child(5) {
-    top: 230px;
+    top: 0px;
     left: 240px;
+}
+
+.technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(3)::before {
+    transform: rotate(64deg);
+    top: 103px;
+    left: 30px;
 }
 
 .technical-main-img span {
@@ -1118,6 +1155,10 @@
         top: 430px;
         right: 110px;
     }
+    .technical-stack-ul ul li.davinci-logo {
+        top: 430px;
+        right: 110px;
+    }
 
     .technical-main-img span {
         width: 360px;
@@ -1272,6 +1313,10 @@
         top: -237px;
         left: -547px;
     }
+    .technical-tk-ul ul li ul li.coraldraw {
+        top: -237px;
+        left: -547px;
+    }
 
     .technical-tk-ul ul li ul li.illustrator {
         top: 28px;
@@ -1307,6 +1352,10 @@
         top: -77px;
         right: -88px;
     }
+    .technical-tk-ul ul li ul li.davinci-logo {
+        top: -77px;
+        right: -88px;
+    }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -1332,7 +1381,7 @@
 
     .technical-tk-ul > ul > li:nth-child(5) {
         left: 40%;
-        top: 151px;
+        top: 0px;
     }
 }
 
@@ -1373,7 +1422,7 @@
 
     .technical-tk-ul > ul > li:nth-child(5) {
         left: 44%;
-        top: 170px;
+        top: 0px;
     }
 }
 
@@ -1408,6 +1457,10 @@
     }
 
     .technical-stack-ul ul li.adobe-xd {
+        top: 10px;
+        left: 0px;
+    }
+    .technical-stack-ul ul li.coraldraw {
         top: 10px;
         left: 0px;
     }
@@ -1576,6 +1629,10 @@
         top: 720px;
         right: 50px;
     }
+    .technical-stack-ul ul li.davinci-logo {
+        top: 720px;
+        right: 50px;
+    }
 
     .technical-main-img span {
         width: 360px;
@@ -1705,6 +1762,10 @@
         top: -237px;
         left: -547px;
     }
+    .technical-tk-ul ul li ul li.coraldraw {
+        top: -237px;
+        left: -547px;
+    }
 
     .technical-tk-ul ul li ul li.illustrator {
         top: 28px;
@@ -1737,6 +1798,10 @@
     }
 
     .technical-tk-ul ul li ul li.canva-logo {
+        top: -77px;
+        right: -88px;
+    }
+    .technical-tk-ul ul li ul li.davinci-logo {
         top: -77px;
         right: -88px;
     }
@@ -1788,8 +1853,8 @@
 
     .technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(3)::before {
         transform: rotate(91deg);
-        top: 100px;
-        left: 10px;
+        top: 105px;
+        left: 0px;
     }
 
     .technical-stack-ul ul li.swift {
@@ -1881,6 +1946,10 @@
         top: 110px;
         right: 20px;
     }
+    .technical-stack-ul ul li.davinci-logo {
+        top: 110px;
+        right: 20px;
+    }
 
     .index-top
         .technical-tk-ul
@@ -1895,6 +1964,10 @@
     .index-top .technical-tk-ul > ul > li.ui-ux-design.active ul li.adobe-xd {
         top: 15px;
         left: 100px;
+    }
+    .index-top .technical-tk-ul > ul > li.ui-ux-design.active ul li.coraldraw {
+        top: 100px;
+        left: 70px;
     }
 
     .index-top .technical-tk-ul > ul > li.mobile-app.active ul li.swift {
@@ -1948,8 +2021,8 @@
         > li.video-editing-logo.active
         ul
         li.after-effects {
-        top: -60px;
-        left: 90px;
+        top: -70px;
+        left: 80px;
     }
 
     .index-top
@@ -1958,8 +2031,8 @@
         > li.video-editing-logo.active
         ul
         li.final-cut-pro {
-        top: -57px;
-        right: -70px;
+        top: -110px;
+        right: 20px;
     }
 
     .index-top
@@ -1968,8 +2041,32 @@
         > li.video-editing-logo.active
         ul
         li.canva-logo {
-        top: 15px;
-        right: -80px;
+        top: 100px;
+        right: -70px;
+    }
+    .index-top
+        .technical-tk-ul
+        > ul
+        > li.video-editing-logo.active
+        ul
+        li.davinci-logo {
+        top: 125px;
+        right: 10px;
+    }
+    .technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(5)::before {
+        transform: rotate(89deg);
+        top: -35px;
+        right: 5px;
+    }
+    .technical-tk-ul > ul > li.video-editing-logo ul li:nth-child(4)::before {
+        transform: rotate(50deg);
+        top: -13px;
+        left: -50px;
+    }
+    .technical-tk-ul > ul > li.ui-ux-design ul li:nth-child(5)::before {
+        transform: rotate(62deg);
+        top: -25px;
+        right: 35px;
     }
 }
 

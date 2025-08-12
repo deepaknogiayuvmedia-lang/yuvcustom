@@ -3798,3 +3798,63 @@ figure img {
     height: 100%;
     object-fit: cover;
 }
+
+.ourworkk .video-wrapper {
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.ourworkk .video-floating {
+    position: absolute;
+    top: 0;
+    right: 130px;
+    background-color: white;
+    transform: translate(20%, -20%);
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.ourworkk .section-text {
+    font-weight: bold;
+}
+
+.ourworkk .highlight {
+    color: #0d6efd;
+}
+
+.ourworkk video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    /* Tablet: Place floating video below main video */
+    .ourworkk .video-floating {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Mobile: Reduce padding and shadow for compact look */
+    .ourworkk .video-wrapper {
+        padding: 10px;
+    }
+    .ourworkk .video-floating {
+        padding: 10px;
+    }
+    .ourworkk .section-text {
+        font-size: 14px;
+    }
+}
+

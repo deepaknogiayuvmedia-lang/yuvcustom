@@ -37,6 +37,7 @@
             .domains .certlogosection img {
                 width: 80px;
             }
+
             .domains .subtitlecert {
                 font-size: 14px;
             }
@@ -67,8 +68,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
-                                            Consultation
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -97,8 +97,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
-                                            Consultation
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -127,8 +126,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
-                                            Consultation
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -157,8 +155,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
-                                            Consultation
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -413,8 +410,7 @@
             </div>
             <div class="d-flex justify-content-start flex-md-row flex-column">
                 <div class="mb-3 text-center">
-                    <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
-                        Consultation
+                    <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your Free Consultation
                         <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
@@ -529,7 +525,7 @@
                                                         <div class="card-body">
                                                             <h6 class="card-title">Marketplace Ads</h6>
                                                             <p class="card-text text-black">Promote your products on
-                                                                Amazon, Flipkart & more with automated marketplace ad
+                                                                Amazon, Ebay & more with automated marketplace ad
                                                                 campaigns.
                                                             </p>
                                                         </div>
@@ -702,10 +698,10 @@
                                         </div>
                                         <div class="card">
                                             <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                                    class="card-img-top" alt="Flipkart">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/ebay.png') }}"
+                                                    class="card-img-top" alt="Ebay">
                                                 <div class="card-body">
-                                                    <h6 class="card-title">Flipkart</h6>
+                                                    <h6 class="card-title">Ebay</h6>
                                                     <p class="card-text text-black">Win the buy box and improve rankings
                                                         using SEO listings and competitive pricing tactics.
                                                     </p>
@@ -714,10 +710,10 @@
                                         </div>
                                         <div class="card">
                                             <a href="{{ route('marketplaceexpertise') }}">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                                    class="card-img-top" alt="Meesho">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/wallmart.jpg') }}"
+                                                    class="card-img-top" alt="Wallmart">
                                                 <div class="card-body">
-                                                    <h6 class="card-title">Meesho</h6>
+                                                    <h6 class="card-title">Wallmart</h6>
                                                     <p class="card-text text-black">Onboard fast with commission-based ads
                                                         and low-cost campaigns for rising marketplace sellers.
                                                     </p>
@@ -747,8 +743,8 @@
                                 <div class="service-card__content orangeGreenGradient">
                                     <h1 class="service-card__title">Design</h1>
 
-                                    <div class="d-flex my-3 justify-content-around pmarketing">
-                                        <div class="card">
+                                    <div class="d-flex my-3 justify-content-start pdesgin">
+                                        <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                                     class="card-img-top" alt="Creative Designing">
@@ -760,7 +756,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="card">
+                                        <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
                                                     class="card-img-top" alt="Video Production">
@@ -773,7 +769,7 @@
                                             </a>
                                         </div>
 
-                                        <div class="card">
+                                        {{-- <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
                                                     class="card-img-top" alt="Brand Designing">
@@ -784,8 +780,9 @@
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                     </div>
+
 
                                 </div>
                             </div>
@@ -844,7 +841,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="card">
+                                        {{-- <div class="card">
                                             <a href="{{ route('videoproduction') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
                                                     class="card-img-top" alt="Color Grading">
@@ -854,7 +851,7 @@
                                                         tones and cinematic grading across all video formats.</p>
                                                 </div>
                                             </a>
-                                        </div>
+                                        </div> --}}
 
                                         {{-- <div class="card">
                                             <a href="{{ route('videoproduction') }}">
@@ -1013,8 +1010,8 @@
                                             class="card-img-top" alt="marketplace ads">
                                         <div class="card-body">
                                             <h6 class="card-title">Marketplace Ads</h6>
-                                            <p class="card-text text-black">Promote your products on Amazon, Flipkart &
-                                                more with automated marketplace ad campaigns.
+                                            <p class="card-text text-black">Promote your products on Amazon, Ebay & more
+                                                with automated marketplace ad campaigns.
                                             </p>
                                         </div>
                                     </a>
@@ -1173,10 +1170,10 @@
                         </div>
                         <div class="card">
                             <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Flipkart.webp') }}"
-                                    class="card-img-top" alt="Flipkart">
+                                <img src="{{ asset('assets/websiteAssets/images/services/ebay.png') }}"
+                                    class="card-img-top" alt="Ebay">
                                 <div class="card-body">
-                                    <h6 class="card-title">Flipkart</h6>
+                                    <h6 class="card-title">Ebay</h6>
                                     <p class="card-text text-black">Win the buy box and improve rankings using SEO listings
                                         and competitive pricing tactics.
                                     </p>
@@ -1185,10 +1182,10 @@
                         </div>
                         <div class="card">
                             <a href="{{ route('marketplaceexpertise') }}">
-                                <img src="{{ asset('assets/websiteAssets/images/services/Meesho.webp') }}"
-                                    class="card-img-top" alt="Meesho">
+                                <img src="{{ asset('assets/websiteAssets/images/services/wallmart.jpg') }}"
+                                    class="card-img-top" alt="Wallmart">
                                 <div class="card-body">
-                                    <h6 class="card-title">Meesho</h6>
+                                    <h6 class="card-title">Wallmart</h6>
                                     <p class="card-text text-black">Onboard fast with commission-based ads and low-cost
                                         campaigns for rising marketplace sellers.
                                     </p>
@@ -1239,18 +1236,17 @@
                             </a>
                         </div>
 
-                        <div class="card">
+                        {{-- <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
                                     class="card-img-top" alt="Brand Designing">
                                 <div class="card-body">
                                     <h6 class="card-title">Brand Designing</h6>
-                                    <p class="card-text text-black">Craft a memorable brand with visual identity, scalable
-                                        kits, and strategic storytelling tools.
+                                    <p class="card-text text-black">Craft a memorable brand with visual identity, scalable kits, and strategic storytelling tools.
                                     </p>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -1305,17 +1301,16 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card">
+                        {{-- <div class="card">
                             <a href="{{ route('videoproduction') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
                                     class="card-img-top" alt="Color Grading">
                                 <div class="card-body">
                                     <h6 class="card-title">Color Grading</h6>
-                                    <p class="card-text text-black">Enhance brand visuals with consistent tones and
-                                        cinematic grading across all video formats.</p>
+                                    <p class="card-text text-black">Enhance brand visuals with consistent tones and cinematic grading across all video formats.</p>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
 
                         {{-- <div class="card">
                             <a href="{{ route('videoproduction') }}">
@@ -1408,6 +1403,38 @@
                     </p>
                 </div>
             </div>
+
+            <div class="container my-5 ourworkk">
+                <div class="row align-items-center position-relative">
+                    <!-- Left Video & Text -->
+                    <div class="col-lg-8 video-wrapper">
+                        {{-- <p class="section-text mb-3">
+                            <span class="highlight">Creative</span> storytelling and branding.
+                        </p> --}}
+                        <video autoplay muted loop playsinline controls controlsList="nodownload">
+                            <source
+                                src="{{ asset('assets/websiteAssets/images/videos/YM_Reel_1.mp4') }}"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <!-- Floating Video -->
+                    <div class="col-lg-4 video-floating">
+                        <video autoplay muted loop playsinline controls controlsList="nodownload">
+                            <source src="{{ asset('assets/websiteAssets/images/videos/YM_Reel_2.mp4') }}"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        {{-- <div class="section-text mt-2">
+                            Flawless <span class="highlight">digital marketing</span> execution.
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+
+
+
 
             <div class="row industry">
                 <div class="inds_cat_set owl-carousel owl-loaded owl-drag">
@@ -1901,9 +1928,9 @@
                                                                 <span>
                                                                     <img alt="flipkart development"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/flipkart.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/ebaylogo.webp"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/ebaylogo.webp') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1921,11 +1948,11 @@
                                                         <li class="kotlin">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="meesho"
+                                                                    <img alt="walmartlogo"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/meesho.png"
+                                                                        data-src="assets/websiteAssets/images/technologies/walmartlogo.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/walmartlogo.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -1956,6 +1983,7 @@
                                                 <li class="ui-ux-design aos-init aos-animate" data-aos="fade-up">
                                                     <a href="javascript:;">Design</a>
                                                     <ul>
+
                                                         <li class="adobe-xd">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
@@ -2000,10 +2028,21 @@
                                                                 </span>
                                                             </div>
                                                         </li>
+                                                        <li class="coraldraw">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="coraldraw"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/coraldraw.jpg"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/coraldraw.jpg') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li class="video-editing-logo aos-init aos-animate" data-aos="fade-up">
-                                                    <a href="javascript:;">Video Editing</a>
+                                                    <a href="javascript:;">Video Production</a>
                                                     <ul>
                                                         <li class="adobe-premiere">
                                                             <div class="index-list__divider-inn">
@@ -2041,11 +2080,22 @@
                                                         <li class="canva-logo">
                                                             <div class="index-list__divider-inn">
                                                                 <span>
-                                                                    <img alt="Maya"
+                                                                    <img alt="nuke"
                                                                         class="perfmatters-lazy entered pmloaded"
-                                                                        data-src="assets/websiteAssets/images/technologies/Apps-Autodesk-Maya.webp"
+                                                                        data-src="assets/websiteAssets/images/technologies/nukelogo.png"
                                                                         data-ll-status="loaded"
-                                                                        src="{{ asset('assets/websiteAssets/images/technologies/Apps-Autodesk-Maya.webp') }}">
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/nukelogo.png') }}">
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="davinci-logo">
+                                                            <div class="index-list__divider-inn">
+                                                                <span>
+                                                                    <img alt="davinci"
+                                                                        class="perfmatters-lazy entered pmloaded"
+                                                                        data-src="assets/websiteAssets/images/technologies/davinci_resolve.png"
+                                                                        data-ll-status="loaded"
+                                                                        src="{{ asset('assets/websiteAssets/images/technologies/davinci_resolve.png') }}">
                                                                 </span>
                                                             </div>
                                                         </li>
@@ -2176,9 +2226,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="ios development" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/flipkart.png"
+                                                data-src="assets/websiteAssets/images/technologies/ebaylogo.webp"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/flipkart.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/ebaylogo.webp') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2231,9 +2281,9 @@
                                     <div class="index-list__divider-inn">
                                         <span>
                                             <img alt="kotlin " class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/meesho.png"
+                                                data-src="assets/websiteAssets/images/technologies/walmartlogo.png"
                                                 data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/meesho.png') }}">
+                                                src="{{ asset('assets/websiteAssets/images/technologies/walmartlogo.png') }}">
                                         </span>
                                     </div>
                                 </li>
@@ -2782,11 +2832,49 @@
 
     </section> --}}
 
+    {{-- <section class="container pt-5 ">
+        <h5 class="widget-title fs-3 fw-bold">Contact Us</h5>
+        <div class="row widget widget-contact-info px-3">
+            <div class="col-lg-4 col-md-6">
+                <ul class="ps-0">
+                    <h5 class="widget-title">For Support:</h5>
+                    <li>
+                        <a href="mailto://support@yuvmedia.com">support@yuvmedia.com</a>
+                    </li>
+                    <li>
+                        <a href="tel://+918078671648">+91-8078671648</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <ul class="ps-0">
+                    <h5 class="widget-title">For Sales:</h5>
+                    <li>
+                        <a href="mailto://sales@yuvmedia.com">sales@yuvmedia.com</a>
+                    </li>
+                    <li>
+                        <a href="tel://+918824269821">+91-8824269821</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h5 class="widget-title">Address</h5>
+                <div class="ps-0">
+                    <h6>YUVNEXUS DIGITAL PRIVATE LIMITED</h6>
+                    <p>B17, Second Floor, Above Royal Bakers, Glitz circle, Ramnagar Road,
+                        Ajmer,
+                        Rajasthan, 305001 </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section> --}}
 
 
     <div class="fixed-button">
         <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">
-            Book Your Free Consultation <i class="bi bi-arrow-right"></i>
+            Schedule Your Free Consultation <i class="bi bi-arrow-right"></i>
         </a>
     </div>
 
