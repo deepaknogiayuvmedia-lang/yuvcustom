@@ -1,7 +1,47 @@
 @extends('website.layout.websitemain')
-@section('title', 'Home | ' . config('app.name'))
+@section('title', 'USA | ' . config('app.name'))
 @section('content')
 
+    <style>
+        .domains .certlogosection {
+
+            background-color: #ffffff6e;
+            border-bottom: 5px solid var(--gmb-color) #568aef;
+            padding: 0.5rem;
+            border-radius: 10px;
+            /* box-shadow: 0px 10px 5px #e9e5e5a3; */
+            transition: 0.3s ease-in-out;
+        }
+
+        .domains .certlogosection img {
+            width: 100px;
+        }
+
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 40%;
+            z-index: 9999;
+        }
+
+        @media (max-width: 768px) {
+            .fixed-button {
+                bottom: 15px;
+                right: 55px;
+            }
+
+            .entre {
+                margin: 30px 0 10px 0;
+            }
+
+            .domains .certlogosection img {
+                width: 80px;
+            }
+            .domains .subtitlecert {
+                font-size: 14px;
+            }
+        }
+    </style>
 
     <!--Hero Section Starts-->
     <canvas id="gradient-canvas"></canvas>
@@ -27,8 +67,8 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
+                                            Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -57,8 +97,8 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
+                                            Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -87,8 +127,8 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
+                                            Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -117,8 +157,8 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1
-                                            Meeting
+                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
+                                            Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -223,12 +263,171 @@
     </section>
     <!--Hero Section Ends-->
 
+    <section class="py-5 domains position-relative px-3">
+        <div class="container">
+            <div class="row">
+                <div class="globaltxtcolor p-2">
+                    Award-Winning Digital Marketing Company
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/forbes1-logo.webp') }}"
+                                alt="service bg" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Forbes India</div>
+                                <p class="subtitlecert">Best SEO Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/entrepreneur.webp') }}"
+                                alt="service bg" class="img-fluid entre">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Entrepreneur</div>
+                                <p class="subtitlecert">Top Digital Marketing Agency India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/clutch.webp') }}" alt="service bg"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Clutch</div>
+                                <p class="subtitlecert">Top Digital Marketing Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/fitsmallbusiness.webp') }}"
+                                alt="service bg" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Fit Small Business</div>
+                                <p class="subtitlecert">Top Digital Marketing Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/goodfirms.webp') }}"
+                                alt="service bg" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Good Firms</div>
+                                <p class="subtitlecert">Best SEO Company In India</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/plerdy.webp') }}" alt="service bg"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Plerdy</div>
+                                <p class="subtitlecert">Top SEO Experts</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/g2.webp') }}" alt="service bg"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">G2</div>
+                                <p class="subtitlecert">Best Local SEO Agency</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/software-world.webp') }}"
+                                alt="service bg" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Software World</div>
+                                <p class="subtitlecert">Best Marketing Consultant</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 px-0">
+                    <div class="row m-2 certlogosection  align-items-center">
+
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/websiteAssets/images/certilogos/clouds.webp') }}" alt="service bg"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <div class="card-title fw-bold">Clouds Ways</div>
+                                <p class="subtitlecert">Best SEO Company in World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-start flex-md-row flex-column">
+                <div class="mb-3 text-center">
+                    <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Book Your Free
+                        Consultation
+                        <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- services --}}
     <section>
         <div class="container py-5 ">
             <div class="row">
                 <h2 class="globaltxtcolor text-start fs-3">
-                    The YUV Framework: <span style=" -webkit-text-fill-color: black; font-weight: 500;"> Unified Digital Solutions Across Digital Media, Technology & Marketing </span> 
+                    The YUV Framework: <span style=" -webkit-text-fill-color: black; font-weight: 500;"> Unified Digital
+                        Solutions Across Digital Media, Technology & Marketing </span>
                 </h2>
                 <div class="text-start">
                     <p>
@@ -548,8 +747,8 @@
                                 <div class="service-card__content orangeGreenGradient">
                                     <h1 class="service-card__title">Design</h1>
 
-                                    <div class="d-flex my-3 justify-content-start pdesgin">
-                                        <div class="card me-4">
+                                    <div class="d-flex my-3 justify-content-around pmarketing">
+                                        <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                                     class="card-img-top" alt="Creative Designing">
@@ -561,7 +760,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="card me-4">
+                                        <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
                                                     class="card-img-top" alt="Video Production">
@@ -574,7 +773,7 @@
                                             </a>
                                         </div>
 
-                                        {{-- <div class="card">
+                                        <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
                                                     class="card-img-top" alt="Brand Designing">
@@ -585,9 +784,8 @@
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div> --}}
+                                        </div>
                                     </div>
-                                    
 
                                 </div>
                             </div>
@@ -646,7 +844,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        {{-- <div class="card">
+                                        <div class="card">
                                             <a href="{{ route('videoproduction') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
                                                     class="card-img-top" alt="Color Grading">
@@ -656,7 +854,7 @@
                                                         tones and cinematic grading across all video formats.</p>
                                                 </div>
                                             </a>
-                                        </div> --}}
+                                        </div>
 
                                         {{-- <div class="card">
                                             <a href="{{ route('videoproduction') }}">
@@ -748,7 +946,8 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="performance2-tab" data-bs-toggle="tab"
                                 data-bs-target="#performance2-tab-pane" type="button" role="tab"
-                                aria-controls="performance2-tab-pane" aria-selected="true">Media Planning & Buying</button>
+                                aria-controls="performance2-tab-pane" aria-selected="true">Media Planning &
+                                Buying</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="seo-tab2" data-bs-toggle="tab" data-bs-target="#seo-tab2-pane"
@@ -758,7 +957,8 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="social-tab2" data-bs-toggle="tab"
                                 data-bs-target="#social-tab2-pane" type="button" role="tab"
-                                aria-controls="social-tab2-pane" aria-selected="false">Strategic Social Media Growth</button>
+                                aria-controls="social-tab2-pane" aria-selected="false">Strategic Social Media
+                                Growth</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="online-tab2" data-bs-toggle="tab"
@@ -779,7 +979,8 @@
                                         <div class="card-body">
                                             <h6 class="card-title">Google Ads</h6>
                                             <p class="card-text text-black">
-                                                Run high-intent Google campaigns with smart bidding and keyword-targeted ad placements.
+                                                Run high-intent Google campaigns with smart bidding and keyword-targeted ad
+                                                placements.
                                             </p>
                                         </div>
                                     </a>
@@ -790,7 +991,8 @@
                                             class="card-img-top" alt="Facebook Ads">
                                         <div class="card-body">
                                             <h6 class="card-title">Meta Ads</h6>
-                                            <p class="card-text text-black">Unlock growth on Facebook, Instagram, WhatsApp using conversion-led ad segmentation tools.</p>
+                                            <p class="card-text text-black">Unlock growth on Facebook, Instagram, WhatsApp
+                                                using conversion-led ad segmentation tools.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -800,7 +1002,8 @@
                                             class="card-img-top" alt="mgid">
                                         <div class="card-body">
                                             <h6 class="card-title">Native Ads</h6>
-                                            <p class="card-text text-black">Use native ad placements for low-cost customer acquisition with contextual targeting strategy.</p>
+                                            <p class="card-text text-black">Use native ad placements for low-cost customer
+                                                acquisition with contextual targeting strategy.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -810,7 +1013,8 @@
                                             class="card-img-top" alt="marketplace ads">
                                         <div class="card-body">
                                             <h6 class="card-title">Marketplace Ads</h6>
-                                            <p class="card-text text-black">Promote your products on Amazon, Flipkart & more with automated marketplace ad campaigns.
+                                            <p class="card-text text-black">Promote your products on Amazon, Flipkart &
+                                                more with automated marketplace ad campaigns.
                                             </p>
                                         </div>
                                     </a>
@@ -828,7 +1032,8 @@
                                             class="card-img-top" alt="SEO">
                                         <div class="card-body">
                                             <h6 class="card-title">Semantic SEO Optimization</h6>
-                                            <p class="card-text text-black">Rank higher with NLP content, schema, and audits designed for semantic search and Google algorithms.</p>
+                                            <p class="card-text text-black">Rank higher with NLP content, schema, and
+                                                audits designed for semantic search and Google algorithms.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -838,7 +1043,8 @@
                                             class="card-img-top" alt="GBP">
                                         <div class="card-body">
                                             <h6 class="card-title">Google Business Profile 3.0</h6>
-                                            <p class="card-text text-black">Boost local visibility via AI-powered reviews, voice search ranking & advanced GBP optimization tools.</p>
+                                            <p class="card-text text-black">Boost local visibility via AI-powered reviews,
+                                                voice search ranking & advanced GBP optimization tools.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -856,7 +1062,8 @@
                                             class="card-img-top" alt="Facebook">
                                         <div class="card-body">
                                             <h6 class="card-title">Facebook</h6>
-                                            <p class="card-text text-black">Drive engagement with ad creatives, retargeting, and community-focused content strategies.
+                                            <p class="card-text text-black">Drive engagement with ad creatives,
+                                                retargeting, and community-focused content strategies.
                                             </p>
                                         </div>
                                     </a>
@@ -867,7 +1074,8 @@
                                             class="card-img-top" alt="Instagram">
                                         <div class="card-body">
                                             <h6 class="card-title">Instagram</h6>
-                                            <p class="card-text text-black">Boost reach and conversions using reels, carousels, influencer content, and visual storytelling.
+                                            <p class="card-text text-black">Boost reach and conversions using reels,
+                                                carousels, influencer content, and visual storytelling.
                                             </p>
                                         </div>
                                     </a>
@@ -878,7 +1086,8 @@
                                             class="card-img-top" alt="LinkedIn">
                                         <div class="card-body">
                                             <h6 class="card-title">LinkedIn</h6>
-                                            <p class="card-text text-black">Generate quality B2B leads through thought leadership posts and targeted InMail ad campaigns.
+                                            <p class="card-text text-black">Generate quality B2B leads through thought
+                                                leadership posts and targeted InMail ad campaigns.
 
                                             </p>
                                         </div>
@@ -890,7 +1099,8 @@
                                             class="card-img-top" alt="Youtube">
                                         <div class="card-body">
                                             <h6 class="card-title">Youtube</h6>
-                                            <p class="card-text text-black">Improve rankings with SEO metadata and boost watch time using long-form video storytelling.</p>
+                                            <p class="card-text text-black">Improve rankings with SEO metadata and boost
+                                                watch time using long-form video storytelling.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -907,7 +1117,8 @@
                                             class="card-img-top" alt="Influencer Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Influencer Marketing</h6>
-                                            <p class="card-text text-black">Drive authentic engagement by partnering with creators your audience already follows & trusts.</p>
+                                            <p class="card-text text-black">Drive authentic engagement by partnering with
+                                                creators your audience already follows & trusts.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -918,7 +1129,8 @@
                                             class="card-img-top" alt="Whatsapp Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Whatsapp Marketing</h6>
-                                            <p class="card-text text-black">Use click-to-chat, catalog ads & automation via official WhatsApp Business API for conversions.
+                                            <p class="card-text text-black">Use click-to-chat, catalog ads & automation via
+                                                official WhatsApp Business API for conversions.
                                             </p>
                                         </div>
                                     </a>
@@ -930,7 +1142,8 @@
                                             class="card-img-top" alt="Email Marketing">
                                         <div class="card-body">
                                             <h6 class="card-title">Email Marketing</h6>
-                                            <p class="card-text text-black">Automate lifecycle emails using AI-tested subject lines & behavior-based audience segmentation.
+                                            <p class="card-text text-black">Automate lifecycle emails using AI-tested
+                                                subject lines & behavior-based audience segmentation.
                                             </p>
                                         </div>
                                     </a>
@@ -952,7 +1165,8 @@
                                     class="card-img-top" alt="Amazon">
                                 <div class="card-body">
                                     <h6 class="card-title">Amazon</h6>
-                                    <p class="card-text text-black">Boost product sales with AI listing optimization and ad strategies for high conversions.
+                                    <p class="card-text text-black">Boost product sales with AI listing optimization and ad
+                                        strategies for high conversions.
                                     </p>
                                 </div>
                             </a>
@@ -963,7 +1177,8 @@
                                     class="card-img-top" alt="Flipkart">
                                 <div class="card-body">
                                     <h6 class="card-title">Flipkart</h6>
-                                    <p class="card-text text-black">Win the buy box and improve rankings using SEO listings and competitive pricing tactics.
+                                    <p class="card-text text-black">Win the buy box and improve rankings using SEO listings
+                                        and competitive pricing tactics.
                                     </p>
                                 </div>
                             </a>
@@ -974,7 +1189,8 @@
                                     class="card-img-top" alt="Meesho">
                                 <div class="card-body">
                                     <h6 class="card-title">Meesho</h6>
-                                    <p class="card-text text-black">Onboard fast with commission-based ads and low-cost campaigns for rising marketplace sellers.
+                                    <p class="card-text text-black">Onboard fast with commission-based ads and low-cost
+                                        campaigns for rising marketplace sellers.
                                     </p>
                                 </div>
                             </a>
@@ -985,7 +1201,8 @@
                                     class="card-img-top" alt="Etsy">
                                 <div class="card-body">
                                     <h6 class="card-title">Etsy</h6>
-                                    <p class="card-text text-black">Stand out globally with SEO-rich listings, brand storytelling, and creative product content.
+                                    <p class="card-text text-black">Stand out globally with SEO-rich listings, brand
+                                        storytelling, and creative product content.
                                     </p>
                                 </div>
                             </a>
@@ -1003,7 +1220,8 @@
                                     class="card-img-top" alt="Creative Designing">
                                 <div class="card-body">
                                     <h6 class="card-title">Creative Designing</h6>
-                                    <p class="card-text text-black">Design scroll-stopping creatives that boost conversions and reflect your unique brand identity.
+                                    <p class="card-text text-black">Design scroll-stopping creatives that boost conversions
+                                        and reflect your unique brand identity.
                                     </p>
                                 </div>
                             </a>
@@ -1015,22 +1233,24 @@
                                 <div class="card-body">
                                     <h6 class="card-title">UI/UX Design
                                     </h6>
-                                    <p class="card-text text-black">Build intuitive user flows with wireframes, prototypes, and responsive UI for all screen sizes.</p>
+                                    <p class="card-text text-black">Build intuitive user flows with wireframes, prototypes,
+                                        and responsive UI for all screen sizes.</p>
                                 </div>
                             </a>
                         </div>
 
-                        {{-- <div class="card">
+                        <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
                                     class="card-img-top" alt="Brand Designing">
                                 <div class="card-body">
                                     <h6 class="card-title">Brand Designing</h6>
-                                    <p class="card-text text-black">Craft a memorable brand with visual identity, scalable kits, and strategic storytelling tools.
+                                    <p class="card-text text-black">Craft a memorable brand with visual identity, scalable
+                                        kits, and strategic storytelling tools.
                                     </p>
                                 </div>
                             </a>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
 
@@ -1044,7 +1264,8 @@
                                     class="card-img-top" alt="VFX & Compositing">
                                 <div class="card-body">
                                     <h6 class="card-title">VFX & Compositing</h6>
-                                    <p class="card-text text-black">Add cinematic depth with high-end transitions and advanced CGI for impactful storytelling.</p>
+                                    <p class="card-text text-black">Add cinematic depth with high-end transitions and
+                                        advanced CGI for impactful storytelling.</p>
                                 </div>
                             </a>
                         </div>
@@ -1054,7 +1275,8 @@
                                     class="card-img-top" alt="Video Editing">
                                 <div class="card-body">
                                     <h6 class="card-title">Video Editing</h6>
-                                    <p class="card-text text-black">Create narrative edits with motion graphics and ideal runtime for better viewer retention</p>
+                                    <p class="card-text text-black">Create narrative edits with motion graphics and ideal
+                                        runtime for better viewer retention</p>
                                 </div>
                             </a>
                         </div>
@@ -1064,7 +1286,8 @@
                                     class="card-img-top" alt="Pre-Production">
                                 <div class="card-body">
                                     <h6 class="card-title">Pre-Production</h6>
-                                    <p class="card-text text-black">Plan scripts, storyboards, budgets & logistics—complete creative prep under one workflow.
+                                    <p class="card-text text-black">Plan scripts, storyboards, budgets & logistics—complete
+                                        creative prep under one workflow.
                                     </p>
                                 </div>
                             </a>
@@ -1075,23 +1298,25 @@
                                     class="card-img-top" alt="3D Animation & Modeling">
                                 <div class="card-body">
                                     <h6 class="card-title">3D Animation & Modeling</h6>
-                                    <p class="card-text text-black">Design lifelike 3D models and animation for product ads, explainers, games & social reels.
+                                    <p class="card-text text-black">Design lifelike 3D models and animation for product
+                                        ads, explainers, games & social reels.
 
                                     </p>
                                 </div>
                             </a>
                         </div>
-                        {{-- <div class="card">
+                        <div class="card">
                             <a href="{{ route('videoproduction') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/color grading.webp') }}"
                                     class="card-img-top" alt="Color Grading">
                                 <div class="card-body">
                                     <h6 class="card-title">Color Grading</h6>
-                                    <p class="card-text text-black">Enhance brand visuals with consistent tones and cinematic grading across all video formats.</p>
+                                    <p class="card-text text-black">Enhance brand visuals with consistent tones and
+                                        cinematic grading across all video formats.</p>
                                 </div>
                             </a>
-                        </div> --}}
-                        
+                        </div>
+
                         {{-- <div class="card">
                             <a href="{{ route('videoproduction') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/Product-Photoshoot.jpg') }}"
@@ -1116,7 +1341,8 @@
                                     class="card-img-top" alt="Web Development">
                                 <div class="card-body">
                                     <h6 class="card-title">Web Development</h6>
-                                    <p class="card-text text-black">Fast, responsive, SEO-optimized websites with CMS integration & design system use.</p>
+                                    <p class="card-text text-black">Fast, responsive, SEO-optimized websites with CMS
+                                        integration & design system use.</p>
                                 </div>
                             </a>
                         </div>
@@ -1126,7 +1352,8 @@
                                     class="card-img-top" alt="App Development">
                                 <div class="card-body">
                                     <h6 class="card-title">App Development</h6>
-                                    <p class="card-text text-black">Cross-platform apps using Flutter, React Native, and performance analytics.</p>
+                                    <p class="card-text text-black">Cross-platform apps using Flutter, React Native, and
+                                        performance analytics.</p>
                                 </div>
                             </a>
                         </div>
@@ -1136,7 +1363,8 @@
                                     class="card-img-top" alt="Software Integrations">
                                 <div class="card-body">
                                     <h6 class="card-title">Software Integrations</h6>
-                                    <p class="card-text text-black">Seamlessly connect CRM, ERP, payment systems & APIs into one ecosystem.</p>
+                                    <p class="card-text text-black">Seamlessly connect CRM, ERP, payment systems & APIs
+                                        into one ecosystem.</p>
                                 </div>
                             </a>
                         </div>
@@ -1146,7 +1374,8 @@
                                     class="card-img-top" alt="CRM (Odoo, Salesforce)">
                                 <div class="card-body">
                                     <h6 class="card-title">ERP Solutions (Odoo, Salesforce)</h6>
-                                    <p class="card-text text-black">Optimize business workflows using Salesforce, Odoo & custom dashboards.
+                                    <p class="card-text text-black">Optimize business workflows using Salesforce, Odoo &
+                                        custom dashboards.
                                     </p>
                                 </div>
                             </a>
@@ -1424,480 +1653,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-    <!-- core-team -->
-
-    {{-- <section class="core-team py-5"> --}}
-    {{-- <div class="container">
-            <div class="row">
-                <div class="globaltxtcolor text-start ">
-                    Core Team
-                </div>
-                <div class=" text-start fs-3 fw-bold">
-                    Behind every successful project is our talented, committed core team.
-                </div>
-                <p class=" text-start">
-                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
-                    With every conversion and each sale, we strive to set new standards for your business as well as
-                    ourselves.
-                </p>
-            </div>
-        </div> --}}
-    {{-- <div class="container">
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="core-team" class="owl-carousel"> --}}
-
-    {{-- khivraj sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Co-Founder & MD</div>
-                                                            <div class="author">Mr. Khivraj Sain</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Co-Founder & MD</div>
-                                                    <div class="author">Mr. Khivraj Sain</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- Kunal Basin sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Business Development Manager</div>
-                                                            <div class="author">Mr. Kunal Basin</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Business Development Manager</div>
-                                                    <div class="author">Mr. Kunal Basin</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- Kishan gopal --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Operations Manager</div>
-                                                            <div class="author">Mr. Kishan Gopal</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Operations Manager</div>
-                                                    <div class="author">Mr. Kishan Gopal</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> --}}
-
-    {{-- Nilesh gupta --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Office Admin</div>
-                                                            <div class="author">Mr. Nilesh Gupta</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Office Admin</div>
-                                                    <div class="author">Mr. Nilesh Gupta</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> --}}
-
-    {{-- Manohar sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Mr. Manohar Singhh</div>
-                                                            <div class="fs-6 ">Project Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Mr. Manohar Singh</div>
-                                                    <div class="fs-6 ">Project Manager</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> --}}
-
-    {{-- Rudraksh sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Rudraksh.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Mr. Rudraksh Singh</div>
-                                                            <div class="fs-6 ">Creative Design Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Mr. Rudraksh Singh</div>
-                                                    <div class="fs-6 ">Creative Design Manager</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- Leera ma'am --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Ms. Leera Ramesh</div>
-                                                            <div class="fs-6 ">Project Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Ms. Leera Ramesh</div>
-                                                    <div class="fs-6 ">Project Manager</div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- END OF core-team -->
-
-
-
-
-    {{-- services --}}
-    {{-- <section>
-        <div class="container py-5  servicesbox">
-
-            <div class="row">
-                <div class="col-md-6 text-wrap">
-                    <h1 class="globaltxtcolor">Powering every industry. Powering all disruptors.</h1>
-                </div>
-            </div>
-            <div class="row p-3">
-                <!-- Nav tabs -->
-                <ul class="nav nav-underline servicesbox" id="myTabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
-                            type="button" role="tab">E-Commerce</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2"
-                            type="button" role="tab">Travel</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3"
-                            type="button" role="tab">Real Estate</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4"
-                            type="button" role="tab">Hospitality</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5"
-                            type="button" role="tab">Healthcare</button>
-                    </li>
-                </ul>
-
-                <div class="tab-content mt-3" id="myTabContent">
-                    <div class="tab-pane fade  show active" id="tab1" role="tabpanel">
-                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/services1.webp'); background-position: bottom; background-size: cover;">
-
-
-                            <div class="col-lg-4 col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Empower your <br /> e-commerce business </h4>
-                                    <p>
-                                        With our advanced digital solutions to enhance user experience, increase sales,
-                                        drive traffic, and streamline operations for better growth and efficiency.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab2" role="tabpanel">
-                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/travelIndustry.webp'); background-position: top; background-size: cover;">
-
-
-                            <div class="col-lg-4 col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Empower your <br /> travel business </h4>
-                                    <p>
-                                        Manage bookings effortlessly with one dashboard, boosting customer satisfaction and
-                                        revenue.
-                                    </p>
-
-                                    <a href="{{ route('contact') }}" class="btn btn-primary ">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab3" role="tabpanel">
-                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/realestate-industry.webp'); background-position: center; background-size: cover;">
-
-
-                            <div class="col-lg-4 col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Transforming Real Estate <br /> with Digital Excellence </h4>
-                                    <p>
-                                        Boost property sales and client engagement with tailored marketing and IT solutions
-                                        designed to elevate your real estate business.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab4" role="tabpanel">
-                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/hospitality-industry.webp');  background-position: top; background-size: cover;">
-
-
-                            <div class="col-lg-4 col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Elevating Hospitality <br /> Through Digital Innovation</h4>
-                                    <p>
-                                        Enhance guest experiences and drive bookings with cutting-edge marketing and IT
-                                        solutions tailored for the hospitality industry.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8"></div>
-
-                        </div>
-                    </div>
-                    <div class="tab-pane fade  " id="tab5" role="tabpanel">
-                        <div class="row p-3 py-5 p-md-5 border rounded-3 servicebg"
-                            style="background-image: url('assets/websiteAssets/images/services/healthcare-industry.webp'); background-position: 0 -130px; background-size: cover;">
-
-
-                            <div class="col-lg-4 col-md-6 p-3 my-5 bg-white rounded-3">
-                                <div class="serviceBanner">
-                                    <h4>Revolutionizing Healthcare <br /> with Technology and Marketing </h4>
-                                    <p>
-                                        Improve patient engagement and streamline operations with customized digital
-                                        solutions designed for the healthcare industry.
-                                    </p>
-                                    <a href="{{ route('contact') }}" class="btn btn-primary">Book a Free 1-to-1
-                                        Meeting <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8"></div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> --}}
-
 
 
     {{-- Tech tools section --}}
@@ -2880,7 +2635,7 @@
     </section>
     <!-- END OF TESTIMONIALS -->
 
-    <section class="contact_bg">
+    {{-- <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
             <div class="container ">
 
@@ -3025,9 +2780,15 @@
             </div>
         </div>
 
-    </section>
+    </section> --}}
 
 
+
+    <div class="fixed-button">
+        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">
+            Book Your Free Consultation <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
 
 
     <!-- stack effect  -->

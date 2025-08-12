@@ -7,16 +7,16 @@
         <div class="container  py-3 py-md-5">
             <div class=" row">
                 <div class="text-center globaltxtcolor text-capitalize">
-                    Google rankings can make or break your business
+                    Boost Your Visibility with the Best SEO Services
                 </div>
                 <div class="text-center fs-4">
                     <p class="text-wrap seosecondhead">
-                        Today it’s not just about ‘Getting The Traffic’ – it’s about Getting The right traffic.
+                        Google rankings can make or break your business.
                     </p>
                 </div>
                 <div class="text-center fs-6">
                     <p class="text-wrap">
-                        A successful website is all about inviting the right crowd to the table.
+                        At Yuvmedia, we offer the best SEO services to attract not just traffic — but the right traffic. <br/> Because a successful website isn’t about clicks alone, it’s about reaching the audience that truly matters.
                     </p>
                 </div>
                 <div class="d-flex justify-content-center flex-wrap">
@@ -32,21 +32,16 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="text-start globaltxtcolor">
-                        Rank Higher, Reach Farther, Grow Faster.
+                        Rank Higher with the Best SEO Services
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            The key to driving results lies in attracting the right audience. With our expert SEO services,
-                            we don’t just focus on boosting traffic; we focus on bringing in relevant traffic—visitors who
-                            are more likely to convert into loyal customers.
+                            Reach farther and grow faster by attracting the right audience — not just any audience. With Yuvmedia’s Best SEO services, we go beyond boosting raw traffic to bring in qualified visitors who are ready to convert into loyal customers.
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            By optimizing your website for search engines and enhancing its visibility, we help you connect
-                            with the right audience at the right time. Whether it’s through targeted keyword strategies,
-                            high-quality content, or technical SEO improvements, we ensure your website becomes a powerful
-                            tool for growth.
+                            Our specialists refine every facet of your site: targeted keyword research, compelling content, and technical SEO that enhances speed, structure, and crawlability. By aligning search intent with your brand’s message, we ensure you appear before the right people at the right moment, turning your website into a true growth engine.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -69,27 +64,35 @@
         <div class="wrapper container">
             <div class="citebox js-karaoke">
                 <div class="citebox-content js-karaoke-content">
-                    <span>We've generated</span> <br />
+                    <span>We’ve delivered</span> <br />
                     <span><b>4,000+</b></span><br />
-                    <span>organic leads via SEO.</span><br />
+                    <span>organic leads and ranked</span><br />
                     <span><b>10000+</b></span><br />
-                    <span>Keywords ranked on 1st Page</span>
+                    <span>keywords on Google’s 1st Page</span>
+                    <span>through our <b>best SEO</b></span>
+                    <span>services at Yuvmedia.</span>
                 </div>
                 <div class="citebox-mask js-karaoke-mask">
                     <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init aos-animate">
-                        We've generated
+                        We’ve delivered
                     </span><br />
                     <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
                         4,000+
                     </span>
                     <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
-                        organic leads via SEO.
+                        organic leads and ranked
                     </span>
                     <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
                         10000+
                     </span>
                     <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
-                        Keywords ranked on 1st Page
+                        keywords on Google’s 1st Page
+                    </span>
+                    <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
+                        through our best SEO
+                    </span>
+                    <span data-aos="true" data-aos-offset="164.66666666666666" class="aos-init">
+                        services at Yuvmedia.
                     </span>
                 </div>
             </div>
@@ -106,16 +109,16 @@
                 <div class="row mt-3">
                     <div class="col-md-6">
                         <ul class="fs-5">
-                            <li>All-time access to premium SEO tools</li>
-                            <li>Dedicated and skilled Project managers and SEO professionals</li>
-                            <li>Proven Track Record of Success with Clients Across Various Industries</li>
+                            <li>Best SEO services with full access to premium tools, anytime</li>
+                            <li>Best digital marketing agency in India with expert project managers and SEO professionals</li>
+                            <li>Best digital marketing company in India with a proven track record across diverse industries</li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="fs-5">
-                            <li>Affordable SEO Packages</li>
-                            <li>Competitive pricing and timely reporting</li>
-                            <li>In-depth Keyword Research for Targeted Results</li>
+                            <li>Best SEO services tailored to fit your budget</li>
+                            <li>Digital marketing services in India with competitive pricing and real-time reporting</li>
+                            <li>Best SEO services backed by in-depth keyword research for precise targeting</li>
                         </ul>
                     </div>
                 </div>
@@ -128,11 +131,11 @@
         <div class="container py-2 pb-md-5">
             <div class="row">
                 <div class="text-center fs-2 fw-bold">
-                    Everything You Need for SEO Success
+                    Best SEO services designed for small 
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap seosecondheadsecthree">
-                        We Follow Certain Steps To Provide High-Quality Small Business SEO Services.
+                        businesses with a step-by-step success strategy
                     </p>
                 </div>
 

@@ -952,7 +952,7 @@
     }
 
     .technical-tk-ul > ul > li:nth-child(5) {
-        top: 440px;
+        top: 0px;
         left: 280px;
     }
 }

@@ -364,7 +364,7 @@ body {
 }
 
 .teamphoto {
-    margin-top: -50px;
+    margin-top: 10px;
 }
 
 .video-container {
@@ -3339,7 +3339,7 @@ table:first-child {
 }
 
 .citebox {
-    font-size: 110px;
+    font-size: 90px;
     font-weight: 600;
     line-height: 1.03;
     letter-spacing: -0.05em;

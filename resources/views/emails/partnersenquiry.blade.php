@@ -107,10 +107,10 @@
                     <td><strong>Email:</strong></td>
                     <td>{{ $details['email'] }}</td>
                 </tr>
-                <tr>
+                {{-- <tr>
                     <td><strong>Phone:</strong></td>
                     <td>{{ $details['phone'] }}</td>
-                </tr>
+                </tr> --}}
                 <tr>
                     <td><strong>City:</strong></td>
                     <td>{{ $details['city'] }}</td>

@@ -503,3 +503,38 @@ $(document).ready(function () {
         // centerMode: true
     });
 });
+$(document).ready(function () {
+    $('.pdesgin').slick({
+        // infinite: slideCount > 1, // Only enable infinite scroll if there are more than 1 slide
+        slidesToShow: 2.5, // Show up to 4 slides, or the number of slides available
+        slidesToScroll: 1, // Scroll by 1 slide or the available number
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2, // Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2.5, // Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2.5,// Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                    dots: true,
+                    // infinite: slideCount > 1
+                }
+            }
+        ]
+    });
+});

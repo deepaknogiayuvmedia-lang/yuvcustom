@@ -51,7 +51,6 @@
             transition: background-color 0.3s ease;
             border-radius: 20px;
         }
-
     </style>
 
     <section id="aboutfirstsection" class="pt-3">
@@ -59,12 +58,12 @@
             <div class="row">
                 <div class="text-center fs-1 fw-bold">
                     Our Clients <br>
-                    <span class="globaltxtcolor">Building Success Together.</span>
+                    <span class="globaltxtcolor">Inspiring Progress Through Collaboration.</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap aboutsecondhead">
-                        At Yuvmedia, we empower brands with cutting-edge digital solutions,<br />
-                        blending strategy, creativity, and technology to drive meaningful growth.
+                        Yuvmedia blends strategic thinking, creative excellence, and modern tools to help you move
+                        forward—smarter.
                     </p>
                 </div>
             </div>
@@ -161,5 +160,21 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="container-fluid bg-black p-0">
+        <div class="container p-3">
+            <div class=" text-start fs-3 fw-bold d-flex justify-content-between flex-wrap align-items-center">
+                <div class="text-white">
+                    It’s not just who we work for, it’s who we work with.
+                </div>
+                <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    <div class="me-3 mt-2">
+                        <a href="{{ route('managingpartners') }}" class="btn btn-primary btn-lg">Explore Our Partners
+                            <i class="bi bi-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection

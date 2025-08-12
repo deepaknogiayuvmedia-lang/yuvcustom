@@ -6,21 +6,18 @@
     <section id="aboutfirstsection" class="pt-5">
         <div class="container py-5" style="position: relative;">
             <div class="row">
-                <div class="text-center fs-1 fw-bold ">
-                    We're Built To Lead Change And Deliver <br>
-                    <span class="globaltxtcolor">Future-Ready Solutions.</span>
-                </div>
+                <div class="text-center fs-1 fw-bold globaltxtcolor">
+                    We build digital ecosystems that scale.</div>
                 <div class="text-center">
-                    <p class="text-wrap aboutsecondhead">
-                        Driven by innovation and fueled by creativity, we are a passionate team at Yuvmedia, committed to
-                        turning your digital visions into reality.
+                    <p class="text-wrap aboutsecondhead fw-bold">
+                        Blending creativity, data, and technology, we craft growth-focused solutions through <br />strategic
+                        marketing, performance media, UX design, and full-stack development.
                     </p>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap aboutsecondhead">
-                        In this fast-paced world, we blend data, innovation, and intuition to craft compelling stories and
-                        deliver impactful results. At Yuvmedia, we’re not just a team – we’re creators, strategists, and
-                        problem-solvers, committed to shaping your digital journey.
+                        Your partner in digital transformation and measurable results.
+
                     </p>
                 </div>
                 <div class="d-flex justify-content-center flex-wrap buttonsdiv">
@@ -49,7 +46,7 @@
     <section class="bg-black p-3 p-md-3 position-relative">
         <div class="d-flex align-items-center justify-content-center">
             <p class="text-wrap  text-white text-center">
-                We are the growth partners that drive results
+                Your growth partner for scalable, measurable results
             </p>
         </div>
     </section>
@@ -62,7 +59,7 @@
                         Starting Small, Thinking Big:
                         <span class="globaltxtcolor">The Yuvmedia Story.</span>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap aboutsecondheadsecthree">
                             Born during the challenging times of the COVID-19 pandemic, our journey began with a simple
                             vision: to help businesses navigate the rapidly evolving digital world. As the world came to a
@@ -71,7 +68,7 @@
                         </p>
                     </div>
 
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap aboutsecondheadsecthree">
                             Today, Yuvmedia stands as a trusted partner for hundreds of leading companies, from innovative
                             start-ups to well-established brands. With 7,000+ successful projects and 600+ MSMEs onboard,
@@ -79,7 +76,7 @@
                             results.
                         </p>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap aboutsecondheadsecthree">
                             With 5+ years of experience, we’ve continually adapted to the ever-changing digital landscape,
                             staying ahead of trends and consistently delivering value. Our commitment to innovation and
@@ -87,17 +84,19 @@
 
                         </p>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap fw-bold">
-                            What started as a small initiative has now evolved into a thriving agency offering 10+ services
-                            including digital marketing, design, technology solutions,Video Production and more.
+                            From our first media buying campaign to delivering cutting-edge digital experiences — we’ve
+                            grown into a powerhouse agency with 10+ services. From performance marketing, creative design,
+                            and AI-powered technology solutions to VFX-driven video production and beyond — everything we do
+                            is to raise the bar for client success.
                         </p>
                     </div>
 
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-outline-primary btn-lg">Book a Free 1-to-1 Meeting<i
-                                    class="bi bi-arrow-right ms-3"></i></a>
+                            <a href="{{ route('contact') }}" class="btn btn-outline-primary btn-lg">Book a Free 1-to-1
+                                Meeting<i class="bi bi-arrow-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -184,8 +183,8 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">Y</p>
                                     <p class="fw-bold">Youthful</p>
-                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences
-                                        in the digital world.</p>
+                                    <p class="card-text text-wrap">Fresh strategies to engage and inspire today’s digital
+                                        world.</p>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +194,7 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">U</p>
                                     <p class="fw-bold">Unique</p>
-                                    <p class="card-text text-wrap">Suggesting innovative and unique marketing strategies.
+                                    <p class="card-text text-wrap">Offering innovative and distinctive marketing strategies.
                                     </p>
                                 </div>
                             </div>
@@ -206,7 +205,8 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">V</p>
                                     <p class="fw-bold">Visionary</p>
-                                    <p class="card-text text-wrap">Visionary creators of digital success.</p>
+                                    <p class="card-text text-wrap">Forward-thinking creators of measurable digital success.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">M</p>
                                     <p class="fw-bold">Motivated</p>
-                                    <p class="card-text text-wrap">Motivated to drive digital success.</p>
+                                    <p class="card-text text-wrap">Dedicated and driven to achieve digital excellence.</p>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">E</p>
                                     <p class="fw-bold">Engaging</p>
-                                    <p class="card-text text-wrap">Engaging audiences through immersive digital experiences.
+                                    <p class="card-text text-wrap">Connecting audiences through immersive brand experiences.
                                     </p>
                                 </div>
                             </div>
@@ -237,8 +237,8 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">D</p>
                                     <p class="fw-bold">Dynamic</p>
-                                    <p class="card-text text-wrap">Dynamically adapting to the ever-changing digital
-                                        environment.</p>
+                                    <p class="card-text text-wrap">Constantly adapting to the fast-evolving digital space.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -248,8 +248,8 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">I</p>
                                     <p class="fw-bold">Innovative</p>
-                                    <p class="card-text text-wrap">Young strategies to engage and inspire modern audiences
-                                        in the digital world.</p>
+                                    <p class="card-text text-wrap">Creative solutions to inspire and engage digital users.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -259,8 +259,8 @@
                                 <div class="card-body text-center">
                                     <p class="fw-bold letterpara">A</p>
                                     <p class="fw-bold">Ambitious</p>
-                                    <p class="card-text text-wrap">Ambitiously driving digital growth and exceeding
-                                        expectations.</p>
+                                    <p class="card-text text-wrap">Relentlessly driving growth and exceeding expectations.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -337,49 +337,55 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="text-start globaltxtcolor">
-                        Our <span class="aboutheadingsubsecthree">Purpose</span>
+                        Founder’s Message
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            Our mission is to empower brands to make informed and impactful decisions in the digital world.
-                            We focus on understanding the essence of your brand and connecting you with your customers in a
-                            meaningful way. By deeply analyzing your audience’s needs and the unique challenges you face, we
-                            craft strategies that resonate and ensure your brand’s voice stands out.
+                            In today’s fast-changing digital world, marketing is no longer just about visibility — it’s
+                            about creating intelligent, immersive, and measurable experiences. At Yuvmedia, we believe the
+                            future belongs to brands that combine creativity, technology, and AI-driven insights to connect
+                            with audiences on a deeper level.
                         </p>
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-start">
                         <p class="text-wrap aboutsecondheadsecthree">
-                            We are more than just service providers – we are partners committed to your success. Through
-                            open communication, transparency, and collaboration, we ensure that every step of the journey
-                            aligns with your goals. From ideation to execution, we work side by side with you to craft
-                            tailored solutions that drive real results.
+                            From growth marketing and performance media to UX-first design, AI-powered personalization, and
+                            scalable full-stack development, our mission is simple — to empower businesses to not just keep
+                            up with change, but lead it.
+                        </p>
+                    </div>
+                    <div class="text-start">
+                        <p class="text-wrap aboutsecondheadsecthree">
+                            We partner with brands as their strategic growth allies, blending data, design, and innovation
+                            to craft strategies that are future-ready, conversion-focused, and built for scale. Every idea
+                            is backed by analytics, every design optimized for engagement, and every campaign engineered for
+                            measurable ROI.
+                        </p>
+                    </div>
+                    <div class="text-start">
+                        <p class="text-wrap aboutsecondheadsecthree">
+                            The digital landscape will keep evolving — and so will we. Together, let’s unlock your brand’s
+                            full potential, amplify your impact, and shape the future of your industry.
 
                         </p>
                     </div>
-                    <div class="text-start py-2">
-                        <p class="text-wrap aboutsecondheadsecthree">
-                            Our goal is to help you unlock your brand’s full potential and create lasting value, not just
-                            for you, but for everyone who engages with your business.
+                    <div class="text-start">
+                        <img class="img-circle rounded-3" width="25%"
+                        src="{{ asset('assets/websiteAssets/images/khivrajsirsign.png') }}" alt="client">
+                        <p class="text-wrap fw-bold">
+                            Mr. Khivraj Sain <br/>
+                            <span class="fw-normal fs-6">Co-Founder & MD</span>
                         </p>
-                    </div>
-                    <div class="text-start py-2">
-                        <p class="text-wrap aboutsecondheadsecthree">
-                            Your success is our purpose, and we are fully committed to making it happen.
-                        </p>
-                    </div>
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting<i
-                                    class="bi bi-arrow-right  ms-2"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0">
-                    <iframe class="rounded-3" src="https://www.youtube.com/embed/DKfYhgaYeD8" frameborder="0"
+                    {{-- <iframe class="rounded-3" src="https://www.youtube.com/embed/DKfYhgaYeD8" frameborder="0"
                         width="100%" height="315"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
-                    </iframe>
+                    </iframe> --}}
+                    <img class="img-circle rounded-3" width="100%"
+                        src="{{ asset('assets/websiteAssets/images/KhivrajSir.png') }}" alt="client">
                 </div>
 
             </div>
@@ -387,7 +393,7 @@
     </section>
 
     <!-- core-team -->
-    <section class="core-team py-5">
+    {{-- <section class="core-team py-5">
         <div class="container">
             <div class="row">
                 <div class="globaltxtcolor text-start ">
@@ -405,14 +411,14 @@
                 </p>
             </div>
         </div>
-        <div class="container">
+         <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">
-                    <div id="core-team" class="owl-carousel">
+                    <div id="core-team" class="owl-carousel"> --}}
 
-                        {{-- khivraj sir --}}
-                        <div class="item">
+    {{-- khivraj sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -450,10 +456,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        {{-- Pinki mam --}}
-                        <div class="item">
+    {{-- Pinki mam --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -490,10 +496,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        {{-- Kunal Basin sir --}}
-                        <div class="item">
+    {{-- Kunal Basin sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -532,10 +538,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Kishan gopal --}}
-                        <div class="item">
+    {{-- Kishan gopal --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -575,10 +581,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Nilesh gupta --}}
-                        <div class="item">
+    {{-- Nilesh gupta --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -618,10 +624,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Manohar sir --}}
-                        <div class="item">
+    {{-- Manohar sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -660,10 +666,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Rudraksh sir --}}
-                        <div class="item">
+    {{-- Rudraksh sir --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
 
@@ -703,10 +709,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> --}}
 
-                        {{-- Leera ma'am --}}
-                        <div class="item">
+    {{-- Leera ma'am --}}
+    {{-- <div class="item">
                             <div class="flip">
                                 <div class="corecard border-0">
                                     <div class="face front">
@@ -750,22 +756,24 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid bg-black p-0">
-            <div class="container p-3">
-                <div class=" text-start fs-3 fw-bold d-flex justify-content-between flex-wrap align-items-center">
-                    <div class="text-white">
-                        Your Success is Just One Click Away.
-                    </div>
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3 mt-2">
-                            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting
-                                <i class="bi bi-arrow-right ms-2"></i></a>
-                        </div>
+        </div> --}}
+
+
+    <div class="container-fluid bg-black p-0">
+        <div class="container p-3">
+            <div class=" text-start fs-3 fw-bold d-flex justify-content-between flex-wrap align-items-center">
+                <div class="text-white">
+                    Let’s build your digital future together
+                </div>
+                <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    <div class="me-3 mt-2">
+                        <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Book a Free 1-to-1 Meeting
+                            <i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!-- END OF core-team -->
 
