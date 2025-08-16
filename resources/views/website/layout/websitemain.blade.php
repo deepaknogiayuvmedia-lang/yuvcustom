@@ -193,12 +193,11 @@
                             </div>
                         </nav>
 
-                        <div class="p-3 hideInMobile">
+                        <div class=" ">
                             {{-- <a class="btn btn-outline-primary hire-us-btn questrial-regular"
                                 href="{{ route('contact') }}">Hire Us!</a> --}}
                             <a class="btn btn-outline-primary hire-us-btn questrial-regular"
-                                href="tel:918824269821">Call
-                                Now!</a>
+                                href="tel:918824269821"><i class="bi bi-telephone"></i> Call Now</a>
                         </div>
                         <div class="mobile-toggle hideInDesktop">
 
@@ -572,7 +571,7 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <div class="floating-buttons">
+                                            {{-- <div class="floating-buttons">
                                                 <a href="https://wa.me/918824269821" target="_blank"
                                                     class="floating-whatsapp">
                                                     <img src="{{ asset('assets/websiteAssets/images/whatsapp-icon.png') }}"
@@ -582,7 +581,7 @@
                                                     <img src="{{ asset('assets/websiteAssets/images/call-icon.png') }}"
                                                         alt="Call">call
                                                 </a>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>

@@ -144,7 +144,7 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/05/one-page-seo.jpg"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">OnPage SEO</h5>
+                            <h5 class="card-title text-center">On Page SEO</h5>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Content-Audit1-copy.png"
                             class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">OffPage SEO</h5>
+                            <h5 class="card-title text-center">Off Page SEO</h5>
                         </div>
                     </div>
                 </div>

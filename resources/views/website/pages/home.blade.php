@@ -221,157 +221,157 @@
             </div>
         </div>
 
-         <section class="py-5 domains position-relative px-3">
-        <div class="container">
-            <div class="row">
-                <div class="globaltxtcolor p-2">
-                    Award-Winning Digital Marketing Company
+        <section class="py-5 domains position-relative px-3">
+            <div class="container">
+                <div class="row">
+                    <div class="globaltxtcolor p-2">
+                        Award-Winning Digital Marketing Company
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/forbes1-logo.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Forbes India</div>
+                                    <p class="subtitlecert">Best SEO Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/entrepreneur.webp') }}"
+                                    alt="service bg" class="img-fluid entre">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Entrepreneur</div>
+                                    <p class="subtitlecert">Top Digital Marketing Agency India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/clutch.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Clutch</div>
+                                    <p class="subtitlecert">Top Digital Marketing Agency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/fitsmallbusiness.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Fit Small Business</div>
+                                    <p class="subtitlecert">Top Digital Marketing Agency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/goodfirms.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Good Firms</div>
+                                    <p class="subtitlecert">Best SEO Company In India</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/plerdy.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Plerdy</div>
+                                    <p class="subtitlecert">Top SEO Experts</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/g2.webp') }}" alt="service bg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">G2</div>
+                                    <p class="subtitlecert">Best Local SEO Agency</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/software-world.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Software World</div>
+                                    <p class="subtitlecert">Best Marketing Consultant</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/clouds.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Clouds Ways</div>
+                                    <p class="subtitlecert">Best SEO Company in World</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/forbes1-logo.webp') }}"
-                                alt="service bg" class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Forbes India</div>
-                                <p class="subtitlecert">Best SEO Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/entrepreneur.webp') }}"
-                                alt="service bg" class="img-fluid entre">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Entrepreneur</div>
-                                <p class="subtitlecert">Top Digital Marketing Agency India</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/clutch.webp') }}" alt="service bg"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Clutch</div>
-                                <p class="subtitlecert">Top Digital Marketing Agency</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/fitsmallbusiness.webp') }}"
-                                alt="service bg" class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Fit Small Business</div>
-                                <p class="subtitlecert">Top Digital Marketing Agency</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/goodfirms.webp') }}"
-                                alt="service bg" class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Good Firms</div>
-                                <p class="subtitlecert">Best SEO Company In India</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/plerdy.webp') }}" alt="service bg"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Plerdy</div>
-                                <p class="subtitlecert">Top SEO Experts</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/g2.webp') }}" alt="service bg"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">G2</div>
-                                <p class="subtitlecert">Best Local SEO Agency</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/software-world.webp') }}"
-                                alt="service bg" class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Software World</div>
-                                <p class="subtitlecert">Best Marketing Consultant</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 px-0">
-                    <div class="row m-2 certlogosection  align-items-center">
-
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/websiteAssets/images/certilogos/clouds.webp') }}" alt="service bg"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body ">
-                                <div class="card-title fw-bold">Clouds Ways</div>
-                                <p class="subtitlecert">Best SEO Company in World</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            
-        </div>
-    </section>
+        </section>
     </section>
     <!--Hero Section Ends-->
 
@@ -702,7 +702,7 @@
                                     <h1 class="service-card__title">Design</h1>
 
                                     <div class="d-flex my-3 justify-content-start pdesgin">
-                                        <div class="card me-4">
+                                        {{-- <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                                     class="card-img-top" alt="Creative Designing">
@@ -713,7 +713,7 @@
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                         <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
@@ -727,18 +727,40 @@
                                             </a>
                                         </div>
 
-                                        {{-- <div class="card">
+                                        <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                                    class="card-img-top" alt="Brand Designing">
+                                                    class="card-img-top" alt="Brand Design">
                                                 <div class="card-body">
-                                                    <h6 class="card-title">Brand Designing</h6>
+                                                    <h6 class="card-title">Brand Design</h6>
                                                     <p class="card-text text-black">Craft a memorable brand with visual
                                                         identity, scalable kits, and strategic storytelling tools.
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div> --}}
+                                        </div>
+                                        <div class="card">
+                                            <a href="{{ route('designingservices') }}">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                                    class="card-img-top" alt="Brand Design">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">Product Design</h6>
+                                                    <p class="card-text text-black">Crafting innovative, user-centric designs that blend functionality with aesthetics.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card">
+                                            <a href="{{ route('designingservices') }}">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
+                                                    class="card-img-top" alt="Brand Design">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">Logo Design</h6>
+                                                    <p class="card-text text-black">Designing impactful logos that capture vision, values, and personality.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
 
 
@@ -1169,7 +1191,7 @@
                     <h1 class="service-card__title">Design</h1>
 
                     <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
-                        <div class="card">
+                        {{-- <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                     class="card-img-top" alt="Creative Designing">
@@ -1180,7 +1202,7 @@
                                     </p>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                         <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
@@ -1194,17 +1216,39 @@
                             </a>
                         </div>
 
-                        {{-- <div class="card">
+                        <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                    class="card-img-top" alt="Brand Designing">
+                                    class="card-img-top" alt="Brand Design">
                                 <div class="card-body">
-                                    <h6 class="card-title">Brand Designing</h6>
+                                    <h6 class="card-title">Brand Design</h6>
                                     <p class="card-text text-black">Craft a memorable brand with visual identity, scalable kits, and strategic storytelling tools.
                                     </p>
                                 </div>
                             </a>
-                        </div> --}}
+                        </div>
+                        <div class="card">
+                            <a href="{{ route('designingservices') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                    class="card-img-top" alt="Product Design">
+                                <div class="card-body">
+                                    <h6 class="card-title">Product Design</h6>
+                                    <p class="card-text text-black">Crafting innovative, user-centric designs that blend functionality with aesthetics.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="{{ route('designingservices') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
+                                    class="card-img-top" alt="Logo Design">
+                                <div class="card-body">
+                                    <h6 class="card-title">Logo Design</h6>
+                                    <p class="card-text text-black">Designing impactful logos that capture vision, values, and personality.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1370,8 +1414,7 @@
                             <span class="highlight">Creative</span> storytelling and branding.
                         </p> --}}
                         <video autoplay muted loop playsinline controls controlsList="nodownload">
-                            <source
-                                src="{{ asset('assets/websiteAssets/images/videos/YM_Reel_1.mp4') }}"
+                            <source src="{{ asset('assets/websiteAssets/images/videos/YM_Reel_1.mp4') }}"
                                 type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -3126,22 +3169,38 @@
         </div>
         <div class="container py-5 mb-md-5">
 
-            <div class="row">
-                <div class="col-lg-6 col-md-4" style="z-index: 10">
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
                     <div class="d-flex justify-content-start align-items-center h-100">
 
                         <p class="contact-msg fw-bold">
                             Let’s Talk
                         </p>
                     </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 " style="color: #000088">Are you ready to level up your growth? <u
+                                    class="fw-bold">Let's Talk!</u></h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Schedule a Meeting</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-8">
+                {{-- <div class="col-lg-6 col-md-8">
                     <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative"
                         style="z-index: 10">
                         <div class="fw-bold mb-3">
                             Fill Out the form and we will
                             contact you
                         </div>
+
+                        
                         <div>
                             <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
                                 @csrf
@@ -3256,7 +3315,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -3276,7 +3335,7 @@
         const cards = document.querySelectorAll('.service-card')
         cardsContainer.style.setProperty('--cards-count', cards.length)
         cardsContainer.style.setProperty(
-            '--card-height', `${cards[0].clientHeight}px`
+            '--card-height', `700px`
         )
         Array.from(cards).forEach((card, index) => {
             const offsetTop = 20 + index * 20

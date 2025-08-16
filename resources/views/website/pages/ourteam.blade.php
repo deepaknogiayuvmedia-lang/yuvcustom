@@ -617,7 +617,7 @@
                     </div>
                 </div>
 
-                {{-- Aashish --}}
+                {{-- Aashish Dholpuria --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
@@ -634,7 +634,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mr. Aashish</div>
+                                        <div class="author">Mr. Aashish Dholpuria</div>
                                         <div class="fs-6">3D Animation</div>
                                     </div>
                                 </div>
@@ -643,7 +643,7 @@
                     </div>
                 </div>
 
-                {{-- Jayesh --}}
+                {{-- Jayesh Kumawat --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
@@ -660,7 +660,7 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mr. Jayesh</div>
+                                        <div class="author">Mr. Jayesh Kumawat</div>
                                         <div class="fs-6">Editor</div>
                                     </div>
                                 </div>
