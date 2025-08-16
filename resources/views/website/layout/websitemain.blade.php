@@ -194,8 +194,8 @@
                         </nav>
 
                         <div class="p-3 hideInMobile">
-                            <a class="btn btn-outline-primary hire-us-btn questrial-regular"
-                                href="{{ route('contact') }}">Hire Us!</a>
+                            {{-- <a class="btn btn-outline-primary hire-us-btn questrial-regular"
+                                href="{{ route('contact') }}">Hire Us!</a> --}}
                             <a class="btn btn-outline-primary hire-us-btn questrial-regular"
                                 href="tel:918824269821">Call
                                 Now!</a>

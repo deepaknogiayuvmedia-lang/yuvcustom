@@ -17,9 +17,16 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for large devices */
+    .service-card__inner {
+        width: 940px;
+    }
+    .navbar-brand img {
+        max-height: 40px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for medium devices */
+
     .service-card__inner {
         width: 700px;
     }

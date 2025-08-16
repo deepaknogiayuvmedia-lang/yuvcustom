@@ -3858,3 +3858,41 @@ figure img {
     }
 }
 
+.domains .certlogosection {
+    background-color: #ffffff6e;
+    border-bottom: 5px solid var(--gmb-color) #568aef;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* box-shadow: 0px 10px 5px #e9e5e5a3; */
+    transition: 0.3s ease-in-out;
+}
+
+.domains .certlogosection img {
+    width: 100px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 40%;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .fixed-button {
+        bottom: 15px;
+        right: 55px;
+    }
+
+    .entre {
+        margin: 30px 0 10px 0;
+    }
+
+    .domains .certlogosection img {
+        width: 80px;
+    }
+
+    .domains .subtitlecert {
+        font-size: 14px;
+    }
+}
