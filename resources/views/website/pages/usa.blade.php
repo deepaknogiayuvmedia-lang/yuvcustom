@@ -702,7 +702,7 @@
                                     <h1 class="service-card__title">Design</h1>
 
                                     <div class="d-flex my-3 justify-content-start pdesgin">
-                                        <div class="card me-4">
+                                        {{-- <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                                     class="card-img-top" alt="Creative Designing">
@@ -713,7 +713,7 @@
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                         <div class="card me-4">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
@@ -727,18 +727,40 @@
                                             </a>
                                         </div>
 
-                                        {{-- <div class="card">
+                                        <div class="card">
                                             <a href="{{ route('designingservices') }}">
                                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                                    class="card-img-top" alt="Brand Designing">
+                                                    class="card-img-top" alt="Brand Design">
                                                 <div class="card-body">
-                                                    <h6 class="card-title">Brand Designing</h6>
+                                                    <h6 class="card-title">Brand Design</h6>
                                                     <p class="card-text text-black">Craft a memorable brand with visual
                                                         identity, scalable kits, and strategic storytelling tools.
                                                     </p>
                                                 </div>
                                             </a>
-                                        </div> --}}
+                                        </div>
+                                        <div class="card">
+                                            <a href="{{ route('designingservices') }}">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                                    class="card-img-top" alt="Brand Design">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">Product Design</h6>
+                                                    <p class="card-text text-black">Crafting innovative, user-centric designs that blend functionality with aesthetics.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card">
+                                            <a href="{{ route('designingservices') }}">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
+                                                    class="card-img-top" alt="Brand Design">
+                                                <div class="card-body">
+                                                    <h6 class="card-title">Logo Design</h6>
+                                                    <p class="card-text text-black">Designing impactful logos that capture vision, values, and personality.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
 
 
@@ -1169,7 +1191,7 @@
                     <h1 class="service-card__title">Design</h1>
 
                     <div class="d-flex my-3 justify-content-start flex-wrap servicescards">
-                        <div class="card">
+                        {{-- <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
                                     class="card-img-top" alt="Creative Designing">
@@ -1180,7 +1202,7 @@
                                     </p>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                         <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/ui ux.webp') }}"
@@ -1194,17 +1216,39 @@
                             </a>
                         </div>
 
-                        {{-- <div class="card">
+                        <div class="card">
                             <a href="{{ route('designingservices') }}">
                                 <img src="{{ asset('assets/websiteAssets/images/services/branding1.webp') }}"
-                                    class="card-img-top" alt="Brand Designing">
+                                    class="card-img-top" alt="Brand Design">
                                 <div class="card-body">
-                                    <h6 class="card-title">Brand Designing</h6>
+                                    <h6 class="card-title">Brand Design</h6>
                                     <p class="card-text text-black">Craft a memorable brand with visual identity, scalable kits, and strategic storytelling tools.
                                     </p>
                                 </div>
                             </a>
-                        </div> --}}
+                        </div>
+                        <div class="card">
+                            <a href="{{ route('designingservices') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/services/Graphic-Design.webp') }}"
+                                    class="card-img-top" alt="Product Design">
+                                <div class="card-body">
+                                    <h6 class="card-title">Product Design</h6>
+                                    <p class="card-text text-black">Crafting innovative, user-centric designs that blend functionality with aesthetics.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="{{ route('designingservices') }}">
+                                <img src="{{ asset('assets/websiteAssets/images/services/branding.webp') }}"
+                                    class="card-img-top" alt="Logo Design">
+                                <div class="card-body">
+                                    <h6 class="card-title">Logo Design</h6>
+                                    <p class="card-text text-black">Designing impactful logos that capture vision, values, and personality.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -2399,50 +2443,6 @@
                                         </span>
                                     </div>
                                 </li>
-                                {{-- <li class="adobe-premiere aos-init aos-animate" data-aos="fade-up"
-                                    data-aos-duration="1600" data-aos-delay="1100">
-                                    <div class="index-list__divider-inn">
-                                        <span>
-                                            <img alt="adobe premiere" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/adobe-premiere-Icon.svg"
-                                                data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/adobe-premiere-Icon.svg') }}">
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="after-effects aos-init aos-animate" data-aos="fade-down"
-                                    data-aos-duration="1600" data-aos-delay="1200">
-                                    <div class="index-list__divider-inn">
-                                        <span>
-                                            <img alt="after effects" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/after-effects-Icon.svg"
-                                                data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/after-effects-Icon.svg') }}">
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="final-cut-pro aos-init aos-animate" data-aos="fade-left"
-                                    data-aos-duration="1600" data-aos-delay="1300">
-                                    <div class="index-list__divider-inn">
-                                        <span>
-                                            <img alt="final cut pro" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/final-cut-pro-Icon.svg"
-                                                data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/final-cut-pro-Icon.svg') }}">
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="canva-logo aos-init aos-animate" data-aos="fade-right"
-                                    data-aos-duration="1600" data-aos-delay="1400">
-                                    <div class="index-list__divider-inn">
-                                        <span>
-                                            <img alt="canva logo" class="perfmatters-lazy entered pmloaded"
-                                                data-src="assets/websiteAssets/images/technologies/Canva.png"
-                                                data-ll-status="loaded"
-                                                src="{{ asset('assets/websiteAssets/images/technologies/Canva.png') }}">
-                                        </span>
-                                    </div>
-                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -2641,9 +2641,9 @@
             </div>
         </div>
     </section>
-    <!-- END OF TESTIMONIALS -->
+    <!-- END OF TESTIMONIALS -->    
 
-    {{-- <section class="contact_bg">
+    <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
             <div class="container ">
 
@@ -2653,181 +2653,25 @@
             </div>
         </div>
         <div class="container py-5 mb-md-5">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-4" style="z-index: 10">
-                    <div class="d-flex justify-content-start align-items-center h-100">
-
-                        <p class="contact-msg fw-bold">
-                            Let’s Talk
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-8">
-                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative"
-                        style="z-index: 10">
-                        <div class="fw-bold mb-3">
-                            Fill Out the form and we will
-                            contact you
-                        </div>
-                        <div>
-                            <form action="{{ route('send.inquiry') }}" id="contact-form" method="post">
-                                @csrf
-                                <div class="">
-                                    <div class="card-body">
-                                        <div class="row gy-4">
-                                            <div class="col-xxl-6 col-md-6">
-                                                <div>
-                                                    <label class="form-label">Your First Name <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <input type="text" name="username"
-                                                        class="form-control customforminput"
-                                                        placeholder="Enter Your First Name" autocomplete="off">
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-6 col-md-6">
-                                                <div>
-                                                    <label class="form-label">Your Brand Name <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <input required type="text" name="brandname"
-                                                        class="form-control customforminput"
-                                                        placeholder="Enter Your Brand Name" autocomplete="off">
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-6 col-md-6">
-                                                <div>
-                                                    <label class="form-label">Email <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <input required type="email" name="email"
-                                                        class="form-control customforminput" placeholder="Enter Email">
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-6 col-md-6">
-                                                <div>
-                                                    <label class="form-label">Phone/Mobile <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <input type="tel" name="phone"
-                                                        class="form-control customforminput"
-                                                        placeholder="Enter Phone/Mobile" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-4 col-md-6">
-                                                <div>
-                                                    <label class="form-label">Your Website </label>
-                                                    <input type="text" name="website"
-                                                        class="form-control customforminput"
-                                                        placeholder="Enter Your Website link">
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-4 col-md-6">
-                                                <div>
-                                                    <label for="labelid">Your Industry <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <select name="industry" class="form-select customforminput"
-                                                        id="servicetypeid" required>
-                                                        <option value="" selected>--select industry--</option>
-                                                        <option value="Services">E-Commerce</option>
-                                                        <option value="Consulting">Fantasy Games</option>
-                                                        <option value="Consulting">Tour & Travel</option>
-                                                        <option value="Consulting">Finance</option>
-                                                        <option value="Consulting">Hospitality</option>
-                                                        <option value="Consulting">Healthcare</option>
-                                                        <option value="Consulting">Interior Designing & Architect</option>
-                                                        <option value="Consulting">Education</option>
-                                                        <option value="Consulting">Real E-State</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xxl-4 col-md-6">
-                                                <div>
-                                                    <label for="labelid">Your Service <span
-                                                            class="text-danger fs-5">*</span> </label>
-                                                    <select name="servicedropdown" class="form-select customforminput"
-                                                        id="servicetypeid" required>
-                                                        <option value="" selected>--select service--</option>
-                                                        <option value="SEO">SEO</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Whatsapp Marketing">Whatsapp Marketing</option>
-                                                        <option value="Video Production">Video Production</option>
-                                                        <option value="Web Development">Web Development</option>
-                                                        <option value="Designing Services">Designing Services</option>
-                                                        <option value="Performance Media">Performance Media</option>
-                                                        <option value="Marketplace Expertise">Marketplace Expertise
-                                                        </option>
-                                                        <option value="Influencer Marketing">Influencer Marketing</option>
-                                                        <option value="Google Business Profile">Google Business Profile
-                                                        </option>
-                                                        <option value="ERP Services">ERP Services</option>
-                                                        <option value="Email Marketing">Email Marketing</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xxl-12 col-md-12">
-                                                <div>
-                                                    <label for="example-text-input" class="">Please tell about
-                                                        your business </label>
-                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
-                                                        type="textarea" rows="3" value="" id="example-text-input"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="formcustomcardfooter">
-                                        <div class="d-flex justify-content-center">
-                                            <button type="submit" class="btn formbtn">Book a 30-minute Free
-                                                Consultation</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 " style="color: #000088">Are you ready to level up your growth? <u
+                                    class="fw-bold">Let's Talk!</u></h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Schedule a Meeting</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </section> --}}
-
-    {{-- <section class="container pt-5 ">
-        <h5 class="widget-title fs-3 fw-bold">Contact Us</h5>
-        <div class="row widget widget-contact-info px-3">
-            <div class="col-lg-4 col-md-6">
-                <ul class="ps-0">
-                    <h5 class="widget-title">For Support:</h5>
-                    <li>
-                        <a href="mailto://support@yuvmedia.com">support@yuvmedia.com</a>
-                    </li>
-                    <li>
-                        <a href="tel://+918078671648">+91-8078671648</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <ul class="ps-0">
-                    <h5 class="widget-title">For Sales:</h5>
-                    <li>
-                        <a href="mailto://sales@yuvmedia.com">sales@yuvmedia.com</a>
-                    </li>
-                    <li>
-                        <a href="tel://+918824269821">+91-8824269821</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <h5 class="widget-title">Address</h5>
-                <div class="ps-0">
-                    <h6>YUVNEXUS DIGITAL PRIVATE LIMITED</h6>
-                    <p>B17, Second Floor, Above Royal Bakers, Glitz circle, Ramnagar Road,
-                        Ajmer,
-                        Rajasthan, 305001 </p>
-                </div>
-            </div>
-        </div>
-
-
-    </section> --}}
+    </section>
 
 
     <div class="fixed-button">
@@ -2848,7 +2692,7 @@
         const cards = document.querySelectorAll('.service-card')
         cardsContainer.style.setProperty('--cards-count', cards.length)
         cardsContainer.style.setProperty(
-            '--card-height', `${cards[0].clientHeight}px`
+            '--card-height', `700px`
         )
         Array.from(cards).forEach((card, index) => {
             const offsetTop = 20 + index * 20

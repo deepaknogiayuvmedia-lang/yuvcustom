@@ -1687,321 +1687,321 @@
     <!-- core-team -->
 
     {{-- <section class="core-team py-5"> --}}
-    {{-- <div class="container">
-            <div class="row">
-                <div class="globaltxtcolor text-start ">
-                    Core Team
+        {{-- <div class="container">
+                <div class="row">
+                    <div class="globaltxtcolor text-start ">
+                        Core Team
+                    </div>
+                    <div class=" text-start fs-3 fw-bold">
+                        Behind every successful project is our talented, committed core team.
+                    </div>
+                    <p class=" text-start">
+                        We seek our thrill from making brands and businesses in diversified domains reach their right audience.
+                        With every conversion and each sale, we strive to set new standards for your business as well as
+                        ourselves.
+                    </p>
                 </div>
-                <div class=" text-start fs-3 fw-bold">
-                    Behind every successful project is our talented, committed core team.
-                </div>
-                <p class=" text-start">
-                    We seek our thrill from making brands and businesses in diversified domains reach their right audience.
-                    With every conversion and each sale, we strive to set new standards for your business as well as
-                    ourselves.
-                </p>
-            </div>
-        </div> --}}
-    {{-- <div class="container">
+            </div> --}}
+        {{-- <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">
                     <div id="core-team" class="owl-carousel"> --}}
 
-    {{-- khivraj sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Co-Founder & MD</div>
-                                                            <div class="author">Mr. Khivraj Sain</div>
+                {{-- khivraj sir --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="fs-6 ">Co-Founder & MD</div>
+                                                                        <div class="author">Mr. Khivraj Sain</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="fs-6 ">Co-Founder & MD</div>
+                                                                <div class="author">Mr. Khivraj Sain</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Co-Founder & MD</div>
-                                                    <div class="author">Mr. Khivraj Sain</div>
-                                                </div>
-                                            </div>
+                                    </div> --}}
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- Kunal Basin sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Business Development Manager</div>
-                                                            <div class="author">Mr. Kunal Basin</div>
+                {{-- Kunal Basin sir --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/kunal-basin.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="fs-6 ">Business Development Manager</div>
+                                                                        <div class="author">Mr. Kunal Basin</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="fs-6 ">Business Development Manager</div>
+                                                                <div class="author">Mr. Kunal Basin</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Business Development Manager</div>
-                                                    <div class="author">Mr. Kunal Basin</div>
-                                                </div>
-                                            </div>
+                                    </div> --}}
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
+                {{-- Kishan gopal --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
 
-    {{-- Kishan gopal --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Operations Manager</div>
-                                                            <div class="author">Mr. Kishan Gopal</div>
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/kishangopal.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="fs-6 ">Operations Manager</div>
+                                                                        <div class="author">Mr. Kishan Gopal</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="fs-6 ">Operations Manager</div>
+                                                                <div class="author">Mr. Kishan Gopal</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Operations Manager</div>
-                                                    <div class="author">Mr. Kishan Gopal</div>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> --}}
 
-                        </div> --}}
+                {{-- Nilesh gupta --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
 
-    {{-- Nilesh gupta --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="fs-6 ">Office Admin</div>
-                                                            <div class="author">Mr. Nilesh Gupta</div>
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="fs-6 ">Office Admin</div>
+                                                                        <div class="author">Mr. Nilesh Gupta</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="fs-6 ">Office Admin</div>
+                                                                <div class="author">Mr. Nilesh Gupta</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="fs-6 ">Office Admin</div>
-                                                    <div class="author">Mr. Nilesh Gupta</div>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> --}}
 
-                        </div> --}}
-
-    {{-- Manohar sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Mr. Manohar Singhh</div>
-                                                            <div class="fs-6 ">Project Manager</div>
+                {{-- Manohar sir --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/Manohar-sir.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="author">Mr. Manohar Singhh</div>
+                                                                        <div class="fs-6 ">Project Manager</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="author">Mr. Manohar Singh</div>
+                                                                <div class="fs-6 ">Project Manager</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Mr. Manohar Singh</div>
-                                                    <div class="fs-6 ">Project Manager</div>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> --}}
 
-                        </div> --}}
+                {{-- Rudraksh sir --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
 
-    {{-- Rudraksh sir --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Rudraksh.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Mr. Rudraksh Singh</div>
-                                                            <div class="fs-6 ">Creative Design Manager</div>
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/Rudraksh.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="author">Mr. Rudraksh Singh</div>
+                                                                        <div class="fs-6 ">Creative Design Manager</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="author">Mr. Rudraksh Singh</div>
+                                                                <div class="fs-6 ">Creative Design Manager</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Mr. Rudraksh Singh</div>
-                                                    <div class="fs-6 ">Creative Design Manager</div>
-                                                </div>
-                                            </div>
+                                    </div> --}}
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- Leera ma'am --}}
-    {{-- <div class="item">
-                            <div class="flip">
-                                <div class="corecard border-0">
-                                    <div class="face front">
-                                        <div class="inner">
-                                            <div class="shadow-effect corebox flip rounded-3">
-                                                <div class=" ">
-                                                    <img class="img-circle rounded-3" width="50px"
-                                                        src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
-                                                        alt="client">
-                                                </div>
-                                                <div class="authorbox rounded-3">
-                                                    <div class="testimonial-name d-flex  text-white">
-                                                        <div>
-                                                            <div class="author">Ms. Leera Ramesh</div>
-                                                            <div class="fs-6 ">Project Manager</div>
+                {{-- Leera ma'am --}}
+                {{-- <div class="item">
+                                        <div class="flip">
+                                            <div class="corecard border-0">
+                                                <div class="face front">
+                                                    <div class="inner">
+                                                        <div class="shadow-effect corebox flip rounded-3">
+                                                            <div class=" ">
+                                                                <img class="img-circle rounded-3" width="50px"
+                                                                    src="{{ asset('assets/websiteAssets/images/team/new/Leera.webp') }}"
+                                                                    alt="client">
+                                                            </div>
+                                                            <div class="authorbox rounded-3">
+                                                                <div class="testimonial-name d-flex  text-white">
+                                                                    <div>
+                                                                        <div class="author">Ms. Leera Ramesh</div>
+                                                                        <div class="fs-6 ">Project Manager</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="face back">
+                                                    <div class="inner p-3">
+                                                        <div>
+                                                            <p>“Business has only two functions- marketing and innovation.”</p>
+                                                        </div>
+                                                        <div class="testimonial-name d-flex mt-auto text-black">
+                                                            <div>
+                                                                <div class="author">Ms. Leera Ramesh</div>
+                                                                <div class="fs-6 ">Project Manager</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="inner p-3">
-                                            <div>
-                                                <p>“Business has only two functions- marketing and innovation.”</p>
-                                            </div>
-                                            <div class="testimonial-name d-flex mt-auto text-black">
-                                                <div>
-                                                    <div class="author">Ms. Leera Ramesh</div>
-                                                    <div class="fs-6 ">Project Manager</div>
-                                                </div>
-                                            </div>
+                                    </div> --}}
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-    {{-- </div>
+                {{-- </div>
                 </div>
             </div>
         </div>

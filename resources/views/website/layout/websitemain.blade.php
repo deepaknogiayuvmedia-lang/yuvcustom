@@ -208,6 +208,15 @@
 
                         </div>
                     @endif
+                    @if (request()->routeIs('usa'))
+                        <div class=" ">
+                            {{-- <a class="btn btn-outline-primary hire-us-btn questrial-regular"
+                                href="{{ route('contact') }}">Hire Us!</a> --}}
+                            <a class="btn btn-outline-primary hire-us-btn questrial-regular"
+                                href="tel:918824269821"><i class="bi bi-telephone"></i> Call Now</a>
+                        </div>
+                    @endif
+
                 </div>
             </div>
 
