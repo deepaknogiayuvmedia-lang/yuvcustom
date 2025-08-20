@@ -63,6 +63,7 @@
                     <div class="filters">
                         <ul>
                             <li class="active" data-filter=".all">All</li>
+                            <li data-filter=".cgi">3D CGI</li>
                             <li data-filter=".character">2D Character Animation</li>
                             <li data-filter=".motion">2D Motion Graphics</li>
                             <li data-filter=".slideshows">Slideshows</li>
@@ -73,6 +74,102 @@
 
                     <div class="filters-content">
                         <div class="row grid">
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639191?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639233?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639291?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639333?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639386?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639436?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639487?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639541?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639576?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639616?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639656?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all cgi">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1111639704?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
                             <div class="col-sm-4 all character">
                                 <div class="item">
                                     <iframe
@@ -265,6 +362,7 @@
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -444,13 +542,12 @@
                 </div>
 
             </div>
-            <div class="row g-5">
+            <div class="row g-5 justify-content-center">
                 <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                         <div class="icon mb-3">
                             <img src="https://img.icons8.com/isometric-line/100/FFFFFF/video-call.png" alt="video-call" />
-
                         </div>
                         <h2 class="gradient-text-animation">Video Editing</h2>
                         <p class="mt-3">We turn raw footage into polished, professional videos. From trimming and
@@ -538,6 +635,23 @@
                         <p class="mt-3">Showcase your products in their best light with a high-quality product shoot. We
                             focus on every detail to create compelling visuals that highlight the uniqueness of your product
                             and make it irresistible to your audience.
+                        </p>
+                        <div class="shimmer"></div>
+                        <i aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="gradient-border-card"
+                        style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
+                        <div class="icon mb-3">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/3d-modeling.png') }}" alt="icon">
+                        </div>
+                        <h2 class="gradient-text-animation">3D CGI
+                        </h2>
+                        <p class="mt-3">Bring your ideas to life with stunning 3D CGI visuals. From hyper-realistic
+                            renders to imaginative concepts, we craft digital creations that showcase your product or brand
+                            in ways traditional photography can’t. 
                         </p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
