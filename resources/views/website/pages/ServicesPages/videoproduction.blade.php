@@ -64,11 +64,9 @@
                         <ul>
                             <li class="active" data-filter=".all">All</li>
                             <li data-filter=".cgi">3D CGI</li>
-                            <li data-filter=".character">2D Character Animation</li>
-                            <li data-filter=".motion">2D Motion Graphics</li>
-                            <li data-filter=".slideshows">Slideshows</li>
-                            <li data-filter=".corporate">Corporate Promo</li>
-                            <li data-filter=".travel">Travel Video</li>
+                            <li data-filter=".character">UGC</li>
+                            <li data-filter=".motion">Influencers</li>
+                            <li data-filter=".slideshows">Celebrity</li>
                         </ul>
                     </div>
 
@@ -687,49 +685,59 @@
             <div class="row align-items-center justify-content-center ">
 
                 <div class="row g-5 justify-content-center align-items-center">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                             <div class="text-white fs-3 fw-light">
-                                Corporate Videos
+                                UGC Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Professional and impactful corporate videos that showcase your brand’s identity, values,
-                                    and culture, helping you connect with clients, investors, and employees alike.
+                                    Authentic and relatable user-generated content that builds trust and credibility for your brand. We craft engaging UGC-style videos that highlight real experiences, foster stronger connections with your audience, and drive meaningful engagement across digital platforms.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3062-3862-4634-a438-653132393763/-/cover/376x109/center/center/-/format/webp/noroot.png');">
                             <div class="text-white fs-3 fw-light">
-                                Promotional Videos
+                                Influencer Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Engaging promotional videos designed to highlight your product or service, capture
-                                    attention, and drive conversions through creative storytelling and high-quality visuals.
+                                    Powerful collaborations with influencers that amplify your brand’s reach and credibility. We create impactful influencer-driven videos that align with your brand values, engage target audiences, and inspire action through authentic storytelling.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6430-3962-4731-b263-396236376130/u3.jpg');">
                             <div class="text-white fs-3 fw-light">
-                                Social Media Videos
+                                Celebrity Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Tailored social media videos crafted to maximize engagement, build brand awareness, and
-                                    encourage interaction across platforms like Instagram, Facebook, and TikTok.
+                                    Leverage the star power of renowned personalities to elevate your brand presence. Our celebrity videos build trust, spark excitement, and create lasting impact, helping you connect with audiences on a larger scale through authentic and influential storytelling.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Commercial Ad Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Engage your audience with high-impact commercial ads designed to captivate, persuade, and inspire action. We craft powerful visuals and compelling narratives that bring your brand message to life across TV, digital, and social platforms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3865-3338-4438-a364-663935363239/-/cover/376x109/center/center/-/format/webp/u4.jpg');">
                             <div class="text-white fs-3 fw-light">
@@ -742,22 +750,9 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="p-5 p-md-4 rounded-4 tabbg"
-                            style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
-                            <div class="text-white fs-3 fw-light">
-                                Commercial Ad Videos
-                            </div>
-                            <div class="text-white">
-                                <p>
-                                    Attention-grabbing commercial ad videos designed to promote your products or services in
-                                    an engaging and persuasive way, driving action and increasing brand visibility.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    </div> --}}
+                    
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">
                             <div class="text-white fs-3 fw-light">
@@ -770,8 +765,8 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    </div> --}}
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6239-3831-4432-b665-636164353637/noroot.png');">
                             <div class="text-white fs-3 fw-light">
@@ -785,7 +780,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>

@@ -189,7 +189,7 @@
                         Awards & Affiliations
                     </h2>
                     <div class="col-lg-12">
-                        <div class="row g-3 justify-content-center mt-2">
+                        <div class="row g-3 justify-content-start mt-2">
                             <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/1.jpg') }}"
                                     class="img-fluid rounded-4" alt="Award 1">
@@ -200,7 +200,7 @@
                                         class="img-fluid rounded-4" alt="Award 2"></a>
                             </div>
                             <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
-                                <img src="{{ asset('assets/websiteAssets/images/certilogos/3.jpg') }}"
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/odoolerning.png') }}"
                                     class="img-fluid rounded-4" alt="Award 4">
                             </div>
                             <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
@@ -210,10 +210,6 @@
                             <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/5.jpg') }}"
                                     class="img-fluid rounded-4" alt="Award 5">
-                            </div>
-                            <div class="col-6 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
-                                <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}"
-                                    class="img-fluid rounded-4" alt="Award 6">
                             </div>
                         </div>
                     </div>
@@ -229,16 +225,31 @@
                     </div>
                 </div>
                 <div class="row">
+                    
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
-                            <div class="col-md-4">
-                                <img src="{{ asset('assets/websiteAssets/images/certilogos/forbes1-logo.webp') }}"
-                                    alt="service bg" class="img-fluid">
+                            <div class="col-md-5 text-center">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/6.jpg') }}"
+                                    alt="service bg" class="img-fluid" style="width: 150px; padding: 16px 0px;">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
-                                    <div class="card-title fw-bold">Forbes India</div>
-                                    <p class="subtitlecert">Best SEO Company</p>
+                                    <div class="card-title fw-bold">Stratup India</div>
+                                    <p class="subtitlecert">Growing Startup Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+                            <div class="col-md-5 text-center">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/nsdc.webp') }}"
+                                    alt="service bg" class="img-fluid" style="width: 150px;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">NSDC Certified</div>
+                                    <p class="subtitlecert">Transforming the Skill Landscape</p>
                                 </div>
                             </div>
                         </div>
@@ -246,11 +257,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/entrepreneur.webp') }}"
-                                    alt="service bg" class="img-fluid entre">
+                                    alt="service bg" class="img-fluid entre"  style="width: 150px;">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Entrepreneur</div>
                                     <p class="subtitlecert">Top Digital Marketing Agency India</p>
@@ -260,12 +271,41 @@
                     </div>
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
+                            <div class="col-md-5 text-center">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/Logo-ISO-27001.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">ISO/IEC (27001:2022)</div>
+                                    <p class="subtitlecert">ISO Certified Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
+                            <div class="col-md-5 text-center">
+                                <img src="{{ asset('assets/websiteAssets/images/certilogos/forbes1-logo.webp') }}"
+                                    alt="service bg" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body ">
+                                    <div class="card-title fw-bold">Forbes India</div>
+                                    <p class="subtitlecert">Best SEO Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-6 px-0">
+                        <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/clutch.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Clutch</div>
                                     <p class="subtitlecert">Top Digital Marketing Agency</p>
@@ -276,11 +316,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/fitsmallbusiness.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Fit Small Business</div>
                                     <p class="subtitlecert">Top Digital Marketing Agency</p>
@@ -291,11 +331,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/goodfirms.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Good Firms</div>
                                     <p class="subtitlecert">Best SEO Company In India</p>
@@ -307,11 +347,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/plerdy.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Plerdy</div>
                                     <p class="subtitlecert">Top SEO Experts</p>
@@ -323,11 +363,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/g2.webp') }}" alt="service bg"
                                     class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">G2</div>
                                     <p class="subtitlecert">Best Local SEO Agency</p>
@@ -339,11 +379,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/software-world.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Software World</div>
                                     <p class="subtitlecert">Best Marketing Consultant</p>
@@ -355,11 +395,11 @@
                     <div class="col-lg-4 col-6 px-0">
                         <div class="row m-2 certlogosection  align-items-center">
 
-                            <div class="col-md-4">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ asset('assets/websiteAssets/images/certilogos/clouds.webp') }}"
                                     alt="service bg" class="img-fluid">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body ">
                                     <div class="card-title fw-bold">Clouds Ways</div>
                                     <p class="subtitlecert">Best SEO Company in World</p>

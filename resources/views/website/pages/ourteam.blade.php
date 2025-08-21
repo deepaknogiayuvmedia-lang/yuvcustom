@@ -32,7 +32,7 @@
             {{-- Administration --}}
             <div class="row justify-content-start">
                 <div class=" text-start fs-2 fw-bold">
-                    Office Administration
+                    Founders
                     <hr class="border-primary border-2 w-50">
                 </div>
 
@@ -83,7 +83,41 @@
                         </div>
                     </div>
                 </div>
-                {{-- Dhanwanti Gupta --}}
+
+                {{-- Sushil Bansal --}}
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3"
+                            style="
+                        background: #f7f7f7;">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/SushilBansal.jpg') }}"
+                                    alt="client"
+                                    style="
+                                    height: 245px;
+                                ">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Sushil Bansal</div>
+                                        <div class="fs-6">Chartered Accountant</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- Administration --}}
+            <div class="row justify-content-start">
+                <div class=" text-start fs-2 fw-bold">
+                    Office Administration
+                    <hr class="border-primary border-2 w-50">
+                </div>
+                {{-- Mahak Sharma --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
@@ -100,8 +134,8 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Ms. Dhanwanti Gupta</div>
-                                        <div class="fs-6">Chartered Accountant</div>
+                                        <div class="author">Ms. Mahak Sharma</div>
+                                        <div class="fs-6">Human Resources</div>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +214,6 @@
                     </div>
                 </div>
             </div>
-
 
             {{-- Business Development Team --}}
             <div class="row justify-content-start">
@@ -509,7 +542,7 @@
             {{-- Designers --}}
             <div class="row justify-content-start">
                 <div class=" text-start fs-3 fw-bold pt-5">
-                    Graphic Media Team
+                    Creative Team
                     <hr class="border-primary border-2 w-50">
 
                 </div>
@@ -677,9 +710,8 @@
                     {{-- Developers --}}
                     <div class="row justify-content-start">
                         <div class=" text-start fs-3 fw-bold pt-5">
-                            IT Team
+                            Tech Team
                             <hr class="border-primary border-2 w-50">
-
                         </div>
                         {{-- Mr. Kishan Gopal --}}
                         <div class="col-lg-3 col-md-6 mb-4">

@@ -39,7 +39,7 @@
                     <div class="d-flex align-items-start">
                         <div class="flex-grow-1">
                             <h5 class="fw-bold mb-1">{{ ucfirst($row->partnername) }}</h5>
-                            <p class="mb-1 text-muted small">+91-{{ $row->partnerphone }}</p>
+                            {{-- <p class="mb-1 text-muted small">+91-{{ $row->partnerphone }}</p> --}}
                             <p class="mb-1">{{ ucfirst($row->city) }}, {{ ucfirst($row->state) }}</p>
                             <p class="mb-1">
                                 <i class="bi bi-star me-1 text-primary"></i>
@@ -82,7 +82,6 @@
                                         <div class="d-flex align-items-start">
                                             <div class="flex-grow-1">
                                                 <h5 class="fw-bold mb-1">${data.partnername}</h5>
-                                                <p class="mb-1 text-muted small">+91-${data.partnerphone}</p>
                                                 <p class="mb-1">${data.city}, ${data.state}</p>
                                                 <p class="mb-1">
                                                     <i class="bi bi-star me-1 text-primary"></i>
