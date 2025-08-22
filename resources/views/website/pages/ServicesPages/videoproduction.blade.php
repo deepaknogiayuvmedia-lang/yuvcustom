@@ -1,7 +1,6 @@
 @extends('website.layout.websitemain')
 @section('title', 'Video Production | ' . config('app.name'))
 @section('content')
-    {{-- <canvas id="gradient-canvas"></canvas> --}}
 
     <section class="pb-5 position-relative herosection ">
 
@@ -64,9 +63,9 @@
                         <ul>
                             <li class="active" data-filter=".all">All</li>
                             <li data-filter=".cgi">3D CGI</li>
-                            <li data-filter=".character">UGC</li>
-                            <li data-filter=".motion">Influencers</li>
-                            <li data-filter=".slideshows">Celebrity</li>
+                            <li data-filter=".celebrity">Celebrity</li>
+                            <li data-filter=".ugc">UGC</li>
+                            <li data-filter=".influencers">Influencers</li>
                         </ul>
                     </div>
 
@@ -168,198 +167,215 @@
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391357?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216743?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391493?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216780?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391422?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216801?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391456?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216833?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391543?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216878?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391571?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216942?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402898?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216993?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402944?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216692?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402977?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112220911?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402997?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112220959?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403012?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112221892?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403179?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234663?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403043?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234744?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403138?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234796?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403095?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234710?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414939?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234622?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414972?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112243198?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414991?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112244046?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414915?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112243960?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all corporate">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057499654?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112244001?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all corporate">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057499501?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112244925?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500574?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112244890?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500696?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112245344?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500419?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112245364?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245271?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245819?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>
@@ -831,6 +847,7 @@
 
 
 
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

@@ -131,7 +131,8 @@
             </div>
 
 
-            <div class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
+            <div
+                class="row hereBox bg-white py-md-3 py-1 mt-3 rounded-4 align-items-center border-primary border-start border-2">
                 <div class=" d-flex align-items-center heretext">
                     <img src="{{ asset('assets/websiteAssets/images/navigatoinIcon.png') }}" alt="navigatoinIcon"
                         class="me-2">
@@ -2695,7 +2696,7 @@
                 </div>
             </div>
         </div>
-        <div class="container py-5 mb-md-5">
+        <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 py-5">
                     <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
@@ -2715,6 +2716,70 @@
         </div>
 
     </section>
+    <section class="branches py-5">
+        <div class="container">
+            <h1 class="text-center fw-bold mb-5" style="color:#032A3E;">🌍 Our Branches</h1>
+            <div class="row g-4 justify-content-center">
+
+                <!-- India -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0 rounded-3 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="mb-3">
+                            <h4 class="fw-bold">India</h4>
+                            <p class="text-muted">Delhi, Mumbai, Bangalore, Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- USA -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0 rounded-3 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="mb-3">
+                            <h4 class="fw-bold">United States</h4>
+                            <p class="text-muted">New York, San Francisco, Chicago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UK -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0 rounded-3 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="mb-3">
+                            <h4 class="fw-bold">United Kingdom</h4>
+                            <p class="text-muted">London, Manchester, Birmingham</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Australia -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0 rounded-3 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://flagcdn.com/w40/au.png" alt="Australia Flag" class="mb-3">
+                            <h4 class="fw-bold">Australia</h4>
+                            <p class="text-muted">Sydney, Melbourne, Brisbane</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UAE -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0 rounded-3 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://flagcdn.com/w40/ae.png" alt="UAE Flag" class="mb-3">
+                            <h4 class="fw-bold">United Arab Emirates</h4>
+                            <p class="text-muted">Dubai, Abu Dhabi, Sharjah</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
 
     <div class="fixed-button">
