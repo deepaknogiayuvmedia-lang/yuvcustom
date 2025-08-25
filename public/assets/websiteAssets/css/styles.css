@@ -356,11 +356,15 @@ body {
 }
 
 .contact-msg {
-    color: white;
+    color: #ffffffc7;
+    font-size: 110px;
+    /* background-color: #032a3e; */
+    padding-inline: 20px;
+    border-radius: 10px;
 }
 
 .teamphoto {
-    margin-top: -50px;
+    margin-top: 10px;
 }
 
 .video-container {
@@ -3335,7 +3339,7 @@ table:first-child {
 }
 
 .citebox {
-    font-size: 110px;
+    font-size: 90px;
     font-weight: 600;
     line-height: 1.03;
     letter-spacing: -0.05em;
@@ -3793,4 +3797,102 @@ figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.ourworkk .video-wrapper {
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.ourworkk .video-floating {
+    position: absolute;
+    top: 0;
+    right: 130px;
+    background-color: white;
+    transform: translate(20%, -20%);
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.ourworkk .section-text {
+    font-weight: bold;
+}
+
+.ourworkk .highlight {
+    color: #0d6efd;
+}
+
+.ourworkk video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    /* Tablet: Place floating video below main video */
+    .ourworkk .video-floating {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Mobile: Reduce padding and shadow for compact look */
+    .ourworkk .video-wrapper {
+        padding: 10px;
+    }
+    .ourworkk .video-floating {
+        padding: 10px;
+    }
+    .ourworkk .section-text {
+        font-size: 14px;
+    }
+}
+
+.domains .certlogosection {
+    background-color: #ffffff6e;
+    border-bottom: 5px solid var(--gmb-color) #568aef;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* box-shadow: 0px 10px 5px #e9e5e5a3; */
+    transition: 0.3s ease-in-out;
+}
+
+.domains .certlogosection img {
+    width: 100px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 40%;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .fixed-button {
+        bottom: 15px;
+        right: 55px;
+    }
+
+    .entre {
+        margin: 30px 0 10px 0;
+    }
+
+    .domains .certlogosection img {
+        width: 80px;
+    }
+
+    .domains .subtitlecert {
+        font-size: 14px;
+    }
 }

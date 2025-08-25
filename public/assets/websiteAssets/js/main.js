@@ -163,6 +163,10 @@ const elements = [{
     element: document.querySelector('.ui-ux-design'),
     className: 'ui-ux-design'
 },
+{
+    element: document.querySelector('.video-editing-logo'),
+    className: 'video-editing-logo'
+},
 ];
 
 const techstack = document.querySelector('.technical-stack-main');
@@ -497,5 +501,40 @@ $(document).ready(function () {
         // Add space between slides
         // variableWidth: true,
         // centerMode: true
+    });
+});
+$(document).ready(function () {
+    $('.pdesgin').slick({
+        // infinite: slideCount > 1, // Only enable infinite scroll if there are more than 1 slide
+        slidesToShow: 4, // Show up to 4 slides, or the number of slides available
+        slidesToScroll: 1, // Scroll by 1 slide or the available number
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2, // Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 4, // Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 4,// Show up to 4 slides, or the number of slides available
+                    slidesToScroll: 1,
+                    dots: true,
+                    // infinite: slideCount > 1
+                }
+            }
+        ]
     });
 });

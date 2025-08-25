@@ -18,6 +18,14 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.home');
     }
+    public function usa()
+    {
+        return view('website.pages.usa');
+    }
+    public function appointment()
+    {
+        return view('website.pages.appointment');
+    }
     public function about()
     {
         return view('website.pages.about');
@@ -117,6 +125,10 @@ class WebsiteViews extends Controller
     public function career()
     {
         return view('website.pages.career');
+    }
+    public function internalportfolio()
+    {
+        return view('website.pages.internalportfolio');
     }
     public function blogs()
     {

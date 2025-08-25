@@ -85,7 +85,7 @@ class EmailController extends Controller
             'username' => 'required|string|max:255',
             'age' => 'required|numeric',
             'email' => 'required|email',
-            'phone' => 'required|digits_between:10,15',
+            // 'phone' => 'required|digits_between:10,15',
             'city' => 'required|string',
             'pincode' => 'required|string',
             'state' => 'required|string',
@@ -112,7 +112,7 @@ class EmailController extends Controller
             'name' => $request->input('username'),
             'age' => $request->input('age'),
             'email' => $request->input('email'),
-            'phone' => $request->input('phone'),
+            // 'phone' => $request->input('phone'),
             'city' => $request->input('city'),
             'pincode' => $request->input('pincode'),
             'state' => $request->input('state'),
@@ -310,8 +310,8 @@ class EmailController extends Controller
             ];
 
             // Define recipient emails
-            //$toEmail = ['hr@yuvmedia.com'];
-             $toEmail = ['anshulyuvmedia@gmail.com'];
+            $toEmail = ['hr@yuvmedia.com'];
+            //  $toEmail = ['anshulyuvmedia@gmail.com'];
             $subject = "Managing Partner Lead";
 
             // Send emails

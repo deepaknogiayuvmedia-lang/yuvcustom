@@ -19,16 +19,16 @@
                     <p class="mb-2">
                         <i class="bi bi-geo-alt-fill me-2 text-primary"></i>{{ ucfirst($partnersdata->city)}}, {{ucfirst($partnersdata->state)}}
                     </p>
-                    <p class="mb-2">
+                    {{-- <p class="mb-2">
                         <i class="bi bi-envelope-fill me-2 text-primary"></i>{{$partnersdata->partneremail}}
                     </p>
                     <p class="mb-4">
                         <i class="bi bi-telephone-fill me-2 text-primary"></i>+91-{{$partnersdata->partnerphone}}
-                    </p>
-                    <a href="tel:+91{{$partnersdata->partnerphone}}" class="btn btn-primary shadow-sm px-4 py-2 me-2">
+                    </p> --}}
+                    <a href="tel:+918078671648" class="btn btn-primary shadow-sm px-4 py-2 me-2">
                         <i class="bi bi-telephone-fill me-2"></i>Call
                     </a>
-                    <a href="https://wa.me/+91{{$partnersdata->partnerphone}}" target="_blank" class="btn btn-success shadow-sm px-4 py-2 me-2">
+                    <a href="https://wa.me/+918078671648" target="_blank" class="btn btn-success shadow-sm px-4 py-2 me-2">
                         <i class="bi bi-whatsapp me-2"></i>WhatsApp
                     </a>
                     <a href="#formsection" class="btn btn-dark shadow-sm px-4 py-2">

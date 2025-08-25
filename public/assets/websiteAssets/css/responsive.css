@@ -13,13 +13,24 @@
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     /* Styles for extra large devices */
+
+    .service-card__inner {
+        width: 1100px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for large devices */
+    .service-card__inner {
+        width: 940px;
+    }
+    .navbar-brand img {
+        max-height: 40px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     /* Styles for medium devices */
+
     .service-card__inner {
         width: 700px;
     }
@@ -227,7 +238,9 @@
         width: 50%;
     }
     .contact-msg {
-        color: rgb(0, 0, 0);
+        font-size: 50px;
+        background-color: #032a3e;
+        color: #ffffff;
     }
 
     .servicecard .serviceContent {

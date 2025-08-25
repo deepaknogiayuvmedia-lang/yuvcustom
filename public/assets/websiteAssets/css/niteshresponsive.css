@@ -642,7 +642,7 @@
 
     .aboutsecondhead {
         font-size: 18px;
-        text-align: left !important;
+        /* text-align: left !important; */
         font-weight: 300;
     }
 

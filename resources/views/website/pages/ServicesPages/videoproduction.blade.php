@@ -1,7 +1,6 @@
 @extends('website.layout.websitemain')
 @section('title', 'Video Production | ' . config('app.name'))
 @section('content')
-    {{-- <canvas id="gradient-canvas"></canvas> --}}
 
     <section class="pb-5 position-relative herosection ">
 
@@ -63,208 +62,321 @@
                     <div class="filters">
                         <ul>
                             <li class="active" data-filter=".all">All</li>
-                            <li data-filter=".character">2D Character Animation</li>
-                            <li data-filter=".motion">2D Motion Graphics</li>
-                            <li data-filter=".slideshows">Slideshows</li>
-                            <li data-filter=".corporate">Corporate Promo</li>
-                            <li data-filter=".travel">Travel Video</li>
+                            <li data-filter=".cgi">3D CGI</li>
+                            <li data-filter=".celebrity">Celebrity</li>
+                            <li data-filter=".ugc">UGC</li>
+                            <li data-filter=".influencers">Influencers</li>
                         </ul>
                     </div>
 
                     <div class="filters-content">
                         <div class="row grid">
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391357?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639191?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391493?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639233?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391422?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639291?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391456?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639333?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391543?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639386?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all character">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057391571?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639436?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402898?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639487?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402944?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639541?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402977?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639576?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057402997?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639616?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403012?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639656?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all cgi">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403179?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1111639704?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403043?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216743?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403138?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216780?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all motion">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057403095?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216801?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414939?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216833?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414972?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216878?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414991?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216942?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all slideshows">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057414915?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216993?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all corporate">
+                            <div class="col-sm-4 all celebrity">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057499654?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112216692?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all corporate">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057499501?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112220911?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500574?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112220959?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500696?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112221892?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all travel">
+                            <div class="col-sm-4 all ugc">
                                 <div class="item">
                                     <iframe
-                                        src="https://player.vimeo.com/video/1057500419?background=1&autoplay=1&loop=1&muted=1"
+                                        src="https://player.vimeo.com/video/1112234663?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
+                            <div class="col-sm-4 all ugc">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112234744?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all ugc">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112234796?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all ugc">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112234710?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all ugc">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112234622?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all ugc">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112243198?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112244046?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112243960?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112244001?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112244925?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112244890?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245344?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245364?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245271?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112245819?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -444,13 +556,12 @@
                 </div>
 
             </div>
-            <div class="row g-5">
+            <div class="row g-5 justify-content-center">
                 <div class="col-lg-4 col-md-12">
                     <div class="gradient-border-card"
                         style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                         <div class="icon mb-3">
                             <img src="https://img.icons8.com/isometric-line/100/FFFFFF/video-call.png" alt="video-call" />
-
                         </div>
                         <h2 class="gradient-text-animation">Video Editing</h2>
                         <p class="mt-3">We turn raw footage into polished, professional videos. From trimming and
@@ -544,6 +655,23 @@
 
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="gradient-border-card"
+                        style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
+                        <div class="icon mb-3">
+                            <img src="{{ asset('assets/websiteAssets/images/icons/3d-modeling.png') }}" alt="icon">
+                        </div>
+                        <h2 class="gradient-text-animation">3D CGI
+                        </h2>
+                        <p class="mt-3">Bring your ideas to life with stunning 3D CGI visuals. From hyper-realistic
+                            renders to imaginative concepts, we craft digital creations that showcase your product or brand
+                            in ways traditional photography can’t. 
+                        </p>
+                        <div class="shimmer"></div>
+                        <i aria-hidden="true"></i>
+
+                    </div>
+                </div>
 
 
 
@@ -573,49 +701,59 @@
             <div class="row align-items-center justify-content-center ">
 
                 <div class="row g-5 justify-content-center align-items-center">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3563-6163-4435-a435-366335366365/-/cover/547x277/center/center/-/format/webp/u1.jpg');">
                             <div class="text-white fs-3 fw-light">
-                                Corporate Videos
+                                UGC Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Professional and impactful corporate videos that showcase your brand’s identity, values,
-                                    and culture, helping you connect with clients, investors, and employees alike.
+                                    Authentic and relatable user-generated content that builds trust and credibility for your brand. We craft engaging UGC-style videos that highlight real experiences, foster stronger connections with your audience, and drive meaningful engagement across digital platforms.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3062-3862-4634-a438-653132393763/-/cover/376x109/center/center/-/format/webp/noroot.png');">
                             <div class="text-white fs-3 fw-light">
-                                Promotional Videos
+                                Influencer Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Engaging promotional videos designed to highlight your product or service, capture
-                                    attention, and drive conversions through creative storytelling and high-quality visuals.
+                                    Powerful collaborations with influencers that amplify your brand’s reach and credibility. We create impactful influencer-driven videos that align with your brand values, engage target audiences, and inspire action through authentic storytelling.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6430-3962-4731-b263-396236376130/u3.jpg');">
                             <div class="text-white fs-3 fw-light">
-                                Social Media Videos
+                                Celebrity Videos
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Tailored social media videos crafted to maximize engagement, build brand awareness, and
-                                    encourage interaction across platforms like Instagram, Facebook, and TikTok.
+                                    Leverage the star power of renowned personalities to elevate your brand presence. Our celebrity videos build trust, spark excitement, and create lasting impact, helping you connect with audiences on a larger scale through authentic and influential storytelling.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="p-5 p-md-4 rounded-4 tabbg"
+                            style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
+                            <div class="text-white fs-3 fw-light">
+                                Commercial Ad Videos
+                            </div>
+                            <div class="text-white">
+                                <p>
+                                    Engage your audience with high-impact commercial ads designed to captivate, persuade, and inspire action. We craft powerful visuals and compelling narratives that bring your brand message to life across TV, digital, and social platforms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild3865-3338-4438-a364-663935363239/-/cover/376x109/center/center/-/format/webp/u4.jpg');">
                             <div class="text-white fs-3 fw-light">
@@ -628,22 +766,9 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="p-5 p-md-4 rounded-4 tabbg"
-                            style="background-image: url('https://optim.tildacdn.net/tild6265-3666-4637-b461-626236653762/-/cover/376x109/center/center/-/format/webp/u5.jpg');">
-                            <div class="text-white fs-3 fw-light">
-                                Commercial Ad Videos
-                            </div>
-                            <div class="text-white">
-                                <p>
-                                    Attention-grabbing commercial ad videos designed to promote your products or services in
-                                    an engaging and persuasive way, driving action and increasing brand visibility.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    </div> --}}
+                    
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">
                             <div class="text-white fs-3 fw-light">
@@ -656,8 +781,8 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    </div> --}}
+                    {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://static.tildacdn.com/tild6239-3831-4432-b665-636164353637/noroot.png');">
                             <div class="text-white fs-3 fw-light">
@@ -671,7 +796,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
@@ -722,6 +847,7 @@
 
 
 
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

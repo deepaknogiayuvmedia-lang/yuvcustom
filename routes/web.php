@@ -151,6 +151,9 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/partnerDetails/{id}/{city}', 'partnerDetails')->name('partnerDetails');
     Route::get('/aziri', 'aziri')->name('aziri');
     Route::get('/house-of-dorik', 'houseofdorik')->name('houseofdorik');
+    Route::get('/usa', 'usa')->name('usa');
+    Route::get('/appointment', 'appointment')->name('appointment');
+    Route::get('/internalportfolio', 'internalportfolio')->name('internalportfolio');
 
 });
 

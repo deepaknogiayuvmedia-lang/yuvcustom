@@ -12,9 +12,7 @@
                     </div>
                     <div class="text-start">
                         <p class="text-wrap aboutsecondhead">
-                            We’re a close-knit crew of professionals, focused on delivering best-in-class digital products
-                            and exciting campaigns for clients all over the world. There’s only one thing we take really
-                            seriously: work.
+                            We’re a team of dedicated creatives and strategists, focused on producing meaningful work that gets results. We keep things fun—but our work ethic is no joke.
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -64,9 +62,7 @@
                 </div>
                 <div class="col-lg-6 col-md-8 px-5 py-3">
                     <div class="fs-4 fw-medium ">
-                        We’re a close-knit crew of professionals, focused on delivering best-in-class digital products and
-                        exciting campaigns for clients all over the world. There’s only one thing we take really seriously:
-                        work.
+                        We’re a tight team of thinkers, makers, and doers—passionate about crafting standout digital experiences and memorable campaigns. Around here, the only thing we take seriously is great work.
                     </div>
                     <div class="fs-4 mt-3 fw-medium ">
                         Browse our open positions by company:
@@ -90,8 +86,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">SEO Specialist</div>
                     <hr class="w-50">
-                    <div>Optimize websites, improve search rankings, and drive organic traffic through strategic SEO
-                        techniques.</div>
+                    <div>Enhance site performance and visibility through smart optimization strategies.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -102,8 +97,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Social Media Manager</div>
                     <hr class="w-50">
-                    <div>Develop and execute social media strategies to enhance brand presence and engagement across
-                        platforms.</div>
+                    <div>Keep your brand buzzing with fresh, engaging content on every social channel.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -114,7 +108,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">WhatsApp Marketing Specialist</div>
                     <hr class="w-50">
-                    <div>Leverage WhatsApp marketing campaigns to boost customer engagement and conversions.</div>
+                    <div>Use personalized outreach to build real connections with your audience.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -125,7 +119,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Video Production Specialist</div>
                     <hr class="w-50">
-                    <div>Create and edit high-quality videos for branding, marketing, and digital campaigns.</div>
+                    <div>Tell your story through high-quality videos that leave a mark.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -136,7 +130,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Web Developer</div>
                     <hr class="w-50">
-                    <div>Design, develop, and maintain responsive websites for businesses and e-commerce platforms.</div>
+                    <div>Design responsive websites that look great and function flawlessly</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -147,7 +141,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Graphic Designer</div>
                     <hr class="w-50">
-                    <div>Create stunning visuals and branding materials for digital and print media.</div>
+                    <div>Create impactful visual designs for both digital and print channels.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -158,7 +152,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Performance Marketing Specialist</div>
                     <hr class="w-50">
-                    <div>Run and optimize paid ad campaigns across digital platforms to maximize ROI.</div>
+                    <div>Get the most from your ad spend with smart targeting and regular optimizations.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -169,7 +163,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Marketplace Manager</div>
                     <hr class="w-50">
-                    <div>Manage and optimize product listings on e-commerce platforms like Amazon, Flipkart, and Myntra.
+                    <div>Manage and improve product visibility across top online marketplaces.
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
@@ -181,7 +175,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Influencer Marketing Executive</div>
                     <hr class="w-50">
-                    <div>Collaborate with influencers to create impactful campaigns that drive brand awareness and sales.
+                    <div>Team up with influencers to create buzz that actually converts.
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
@@ -193,7 +187,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Google Business Profile Manager</div>
                     <hr class="w-50">
-                    <div>Optimize and manage Google Business Profiles to enhance local search visibility.</div>
+                    <div>Make sure people can find you easily with polished local listings.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -204,7 +198,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">ERP Consultant</div>
                     <hr class="w-50">
-                    <div>Implement and manage ERP solutions to streamline business operations and workflows.</div>
+                    <div>Keep things running smoothly with smart, efficient business tools.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -215,7 +209,7 @@
                 <div class="col-md-6 p-5">
                     <div class="fs-3 fw-bold">Email Marketing Specialist</div>
                     <hr class="w-50">
-                    <div>Develop and execute email marketing campaigns to nurture leads and drive conversions.</div>
+                    <div>Send messages your audience wants to open—and act on.</div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="mt-2">
                             <a href="#contact" class="btn btn-outline-primary btn-sm">View Open Positions<i
@@ -231,8 +225,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <div class="fs-1 fw-bold text-center">
-                        Join our <span class="globaltxtcolor"> Tribe.</span>
+                    <div class="fs-2 fw-bold text-center">
+                        Ready to take <span class="globaltxtcolor"> the next step?.</span>
                     </div>
                     {{-- <div class="">
                         <p class="text-wrap joincontentcustom">
@@ -245,7 +239,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center">
-                        <form action="{{ route('send.jobenquiry') }}" id="contact-form" method="post"  enctype="multipart/form-data">
+                        <form action="{{ route('send.jobenquiry') }}" id="contact-form" method="post"
+                            enctype="multipart/form-data">
                             @csrf
                             <div class="formcustomcard">
                                 <div class="card-body">
@@ -317,6 +312,8 @@
             </div>
         </div>
     </Section>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
