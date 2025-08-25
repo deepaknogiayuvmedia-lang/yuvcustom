@@ -3361,6 +3361,57 @@
 
     </section>
 
+    <div id="chat-toggle">
+        <i class="fas fa-comment-dots fs-4"></i>
+    </div>
+
+    <!-- Chat Box -->
+    <div id="chat-box" class="d-flex flex-column">
+        <!-- Header -->
+        <div class="bg-primary text-white p-3 d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-2">
+                <img src="https://yuvmedia.com/assets/websiteAssets/images/Favicon-yuvin.png" class="rounded-circle" style="width: 32px; height: 32px;">
+                <span class="fw-semibold">Yuvmedia AI Assistant</span>
+            </div>
+            <button id="close-chat" class="btn btn-close btn-close-white"></button>
+        </div>
+
+        <!-- Chat Messages -->
+        <div id="chat-container" class="flex-grow-1 p-3 overflow-auto bg-light d-flex flex-column gap-3">
+            <div class="d-flex">
+                <div class="bg-info-subtle text-dark p-3 rounded-3 chat-msg fs-6">
+                    👋 Hello! Welcome to <b>Yuvmedia</b>!<br>
+                    I can help you explore our services. Here are the main areas:
+                    <ul>
+                        <li><a href="https://yuvmedia.com/web-development" target="_blank">Web Development</a></li>
+                        <li><a href="https://yuvmedia.com/designing-services" target="_blank">Designing Services</a></li>
+                        <li><a href="https://yuvmedia.com/seo" target="_blank">SEO</a></li>
+                        <li><a href="https://yuvmedia.com/social-media" target="_blank">Social Media</a></li>
+                        <li><a href="https://yuvmedia.com whatsapp-marketing" target="_blank">WhatsApp Marketing</a></li>
+                        <li><a href="https://yuvmedia.com/video-production" target="_blank">Video Production</a></li>
+                        <li><a href="https://yuvmedia.com/performance-media" target="_blank">Performance Media</a></li>
+                        <li><a href="https://yuvmedia.com/marketplace-expertise" target="_blank">Marketplace Expertise</a></li>
+                        <li><a href="https://yuvmedia.com/influencer-marketing" target="_blank">Influencer Marketing</a></li>
+                        <li><a href="https://yuvmedia.com/google-business-profile" target="_blank">Google Business Profile</a></li>
+                        <li><a href="https://yuvmedia.com/erp-services" target="_blank">ERP Services</a></li>
+                        <li><a href="https://yuvmedia.com/email-marketing" target="_blank">Email Marketing</a></li>
+                    </ul>
+                    📞 Call: <a href="tel:+918003328383">+91 80033 28383</a><br>
+                    💬 WhatsApp: <a href="https://wa.me/918003328383" target="_blank">Chat Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input -->
+        <form id="chat-form" class="p-2 bg-white border-top d-flex gap-2">
+            <input id="user-input" type="text" placeholder="Ask about Yuvmedia services..." class="form-control form-control-sm" style="flex: 1;">
+            <button class="btn btn-primary btn-sm">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+
+
 
 
 
