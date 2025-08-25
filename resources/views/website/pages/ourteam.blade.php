@@ -84,31 +84,6 @@
                     </div>
                 </div>
 
-                {{-- Sushil Bansal --}}
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3"
-                            style="
-                        background: #f7f7f7;">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/SushilBansal.jpg') }}"
-                                    alt="client"
-                                    style="
-                                    height: 245px;
-                                ">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Sushil Bansal</div>
-                                        <div class="fs-6">Chartered Accountant</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             {{-- Administration --}}
@@ -117,7 +92,28 @@
                     Office Administration
                     <hr class="border-primary border-2 w-50">
                 </div>
-                {{-- Mahak Sharma --}}
+                {{-- Nilesh gupta --}}
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
+                                    alt="client">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Nilesh Gupta</div>
+                                        <div class="fs-6 ">Office Admin</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                {{-- Vipra Arora --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
@@ -134,8 +130,32 @@
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Ms. Mahak Sharma</div>
+                                        <div class="author">Ms. Vipra Arora</div>
                                         <div class="fs-6">Human Resources</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                {{-- Abhishek --}}
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="item">
+                        <div class="shadow-effect corebox flip rounded-3"
+                            style="
+                        background: white;
+                    ">
+                            <div class=" ">
+                                <img class="img-circle rounded-3 img-fluid"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/abhishek.webp') }}" alt="client"
+                                    style="">
+                            </div>
+                            <div class="authorbox rounded-3">
+                                <div class="testimonial-name d-flex  text-white">
+                                    <div>
+                                        <div class="author">Mr. Abhishek Singh Rathore</div>
+                                        <div class="fs-6 ">Executive Assistant</div>
                                     </div>
                                 </div>
                             </div>
@@ -167,46 +187,27 @@
                         </div>
                     </div>
                 </div>
-                {{-- Nilesh gupta --}}
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Nilesh-Sir.webp') }}"
-                                    alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Nilesh Gupta</div>
-                                        <div class="fs-6 ">Office Admin</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                
 
-                    </div>
-                </div>
-                {{-- Abhishek --}}
+                {{-- Sushil Bansal --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
                         <div class="shadow-effect corebox flip rounded-3"
                             style="
-                        background: white;
-                    ">
+                        background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/abhishek.webp') }}" alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/SushilBansal.jpg') }}"
+                                    alt="client"
                                     style="
-                                     
+                                    height: 245px;
                                 ">
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
-                                        <div class="author">Mr. Abhishek Singh Rathore</div>
-                                        <div class="fs-6 ">Business Strategy Analyst</div>
+                                        <div class="author">Mr. Sushil Bansal</div>
+                                        <div class="fs-6">Chartered Accountant</div>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +391,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Priteek Jain</div>
-                                        <div class="fs-6 ">Marketplace Expert</div>
+                                        <div class="fs-6 ">Business Development Executive</div>
                                     </div>
                                 </div>
                             </div>
@@ -542,7 +543,7 @@
             {{-- Designers --}}
             <div class="row justify-content-start">
                 <div class=" text-start fs-3 fw-bold pt-5">
-                    Creative Team
+                    Media Team
                     <hr class="border-primary border-2 w-50">
 
                 </div>
@@ -788,7 +789,7 @@
                                         <div class="testimonial-name d-flex  text-white">
                                             <div>
                                                 <div class="author">Mr. Devendra Shobhawat</div>
-                                                <div class="fs-6 ">Wordpress Developer & SEO</div>
+                                                <div class="fs-6 ">CMS Developer</div>
                                             </div>
                                         </div>
                                     </div>

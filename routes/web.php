@@ -153,6 +153,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/house-of-dorik', 'houseofdorik')->name('houseofdorik');
     Route::get('/usa', 'usa')->name('usa');
     Route::get('/appointment', 'appointment')->name('appointment');
+    Route::get('/internalportfolio', 'internalportfolio')->name('internalportfolio');
 
 });
 

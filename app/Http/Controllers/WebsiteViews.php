@@ -126,6 +126,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.career');
     }
+    public function internalportfolio()
+    {
+        return view('website.pages.internalportfolio');
+    }
     public function blogs()
     {
         $blogs = Blog::orderBy('created_at', 'DESC')->paginate(12);
