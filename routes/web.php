@@ -154,6 +154,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/usa', 'usa')->name('usa');
     Route::get('/appointment', 'appointment')->name('appointment');
     Route::get('/internalportfolio', 'internalportfolio')->name('internalportfolio');
+    Route::get('/studiopackages', 'studiopackages')->name('studiopackages');
 
 });
 

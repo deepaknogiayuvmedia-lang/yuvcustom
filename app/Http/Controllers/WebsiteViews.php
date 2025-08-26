@@ -130,6 +130,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.internalportfolio');
     }
+    public function studiopackages()
+    {
+        return view('website.pages.studiopackages');
+    }
     public function blogs()
     {
         $blogs = Blog::orderBy('created_at', 'DESC')->paginate(12);
