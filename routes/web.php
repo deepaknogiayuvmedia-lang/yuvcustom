@@ -125,7 +125,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/whatsapp-marketing', 'whatsappmarketing')->name('whatsappmarketing');
     Route::get('/google-business-profile', 'googlebusinessprofile')->name('googlebusinessprofile');
     Route::get('/video-production', 'videoproduction')->name('videoproduction');
-    Route::get('/seo', 'seo')->name('seo');
+    Route::get('/seo-services', 'seo')->name('seo');
     Route::get('/web-development', 'webdevelopment')->name('webdevelopment');
     Route::get('/designing-services', 'designingservices')->name('designingservices');
     Route::get('/marketplace-expertise', 'marketplaceexpertise')->name('marketplaceexpertise');
@@ -154,6 +154,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/usa', 'usa')->name('usa');
     Route::get('/appointment', 'appointment')->name('appointment');
     Route::get('/internalportfolio', 'internalportfolio')->name('internalportfolio');
+    Route::get('/studiopackages', 'studiopackages')->name('studiopackages');
 
 });
 

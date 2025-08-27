@@ -1728,6 +1728,73 @@
     </section>
 
 
+    <!-- Testimonials -->
+    <style>
+        .ratio-9x16 {
+            position: relative;
+            width: 100%;
+            padding-top: 177.78%;
+            /* 16/9 * 100 = 177.78% */
+        }
+
+        .ratio-9x16 iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- Testimonials -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="globaltxtcolor text-start">
+                    Testimonials
+                </div>
+                <div class="text-start fs-2 fw-bold">
+                    What our clients say about us
+                </div>
+                <div class="text-start">
+                    <p>
+                        Hear directly from our clients about how we helped them grow and achieve
+                        their business goals through our strategies and creative execution.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <div class="row align-items-center">
+                    <!-- Left Video -->
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <div class="ratio-9x16">
+                            <iframe src="https://www.youtube.com/embed/f9sXgxNm06w" title="Testimonial 1"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Right Video -->
+                    <div class="col-lg-3">
+                        <div class="ratio-9x16">
+                            <iframe src="https://www.youtube.com/embed/s1LUXI11yio" title="Testimonial 2"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     {{-- Tech tools section --}}
     <section class="position-relative  technologies-sec aos-init aos-animate " data-aos-duration="1200"
         data-aos-delay="000">
