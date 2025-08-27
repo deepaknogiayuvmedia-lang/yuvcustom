@@ -38,53 +38,21 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/semantic.min.css') }}">
     <style>
-        #chat-toggle {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #0d6efd;
-            color: white;
-            width: 55px;
-            height: 55px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            cursor: pointer;
-            z-index: 1000;
+        .no-copy {
+            position: relative;
         }
 
-        #chat-box {
-            position: fixed;
-            bottom: 90px;
-            right: 20px;
-            width: 360px;
-            height: 520px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-            display: none;
-            flex-direction: column;
-            overflow: hidden;
-            z-index: 1000;
+        .no-copy::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: transparent;
+            z-index: 10;
         }
 
-        .chat-msg a {
-            color: #0d6efd;
-            font-weight: 600;
-            text-decoration: underline;
-        }
-
-        .chat-msg ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-
-        .chat-msg h4 {
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
     </style>
     <!-- Google Tag Manager -->
     <script>
@@ -569,123 +537,14 @@
         {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
             <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
-
+        <div class="no-copy">
+            <p>This content is protected and cannot be copied easily.</p>
+        </div>
     </div>
     <!-- //Main wrapper -->
-    <div id="chat-toggle">
-        <i class="fas fa-comment-dots fs-4"></i>
-    </div>
 
-    <!-- Chat Box -->
-    <div id="chat-box" class="d-flex flex-column">
-        <!-- Header -->
-        <div class="bg-primary text-white p-3 d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-2">
-                <img src="https://yuvmedia.com/assets/websiteAssets/images/Favicon-yuvin.png" class="rounded-circle" style="width: 32px; height: 32px;">
-                <span class="fw-semibold">Yuvmedia AI Assistant</span>
-            </div>
-            <button id="close-chat" class="btn btn-close btn-close-white"></button>
-        </div>
-
-        <!-- Chat Messages -->
-        <div id="chat-container" class="flex-grow-1 p-3 overflow-auto bg-light d-flex flex-column gap-3">
-            <div class="d-flex">
-                <div class="bg-info-subtle text-dark p-3 rounded-3 chat-msg fs-6">
-                    👋 Hello! Welcome to <b>Yuvmedia</b>!<br>
-                    I can help you explore our services. Here are the main areas:
-                    <ul>
-                        <li><a href="https://yuvmedia.com/web-development" target="_blank">Web Development</a></li>
-                        <li><a href="https://yuvmedia.com/designing-services" target="_blank">Designing Services</a></li>
-                        <li><a href="https://yuvmedia.com/seo" target="_blank">SEO</a></li>
-                        <li><a href="https://yuvmedia.com/social-media" target="_blank">Social Media</a></li>
-                        <li><a href="https://yuvmedia.com whatsapp-marketing" target="_blank">WhatsApp Marketing</a></li>
-                        <li><a href="https://yuvmedia.com/video-production" target="_blank">Video Production</a></li>
-                        <li><a href="https://yuvmedia.com/performance-media" target="_blank">Performance Media</a></li>
-                        <li><a href="https://yuvmedia.com/marketplace-expertise" target="_blank">Marketplace Expertise</a></li>
-                        <li><a href="https://yuvmedia.com/influencer-marketing" target="_blank">Influencer Marketing</a></li>
-                        <li><a href="https://yuvmedia.com/google-business-profile" target="_blank">Google Business Profile</a></li>
-                        <li><a href="https://yuvmedia.com/erp-services" target="_blank">ERP Services</a></li>
-                        <li><a href="https://yuvmedia.com/email-marketing" target="_blank">Email Marketing</a></li>
-                    </ul>
-                    📞 Call: <a href="tel:+918003328383">+91 80033 28383</a><br>
-                    💬 WhatsApp: <a href="https://wa.me/918003328383" target="_blank">Chat Now</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Input -->
-        <form id="chat-form" class="p-2 bg-white border-top d-flex gap-2">
-            <input id="user-input" type="text" placeholder="Ask about Yuvmedia services..." class="form-control form-control-sm" style="flex: 1;">
-            <button class="btn btn-primary btn-sm">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-        </form>
-    </div>
     <!-- JS Files -->
-        <script>
-        // Toggle Chat
-        const chatToggle = document.getElementById('chat-toggle');
-        const chatBox = document.getElementById('chat-box');
-        const closeChat = document.getElementById('close-chat');
 
-        chatToggle.onclick = () => { chatBox.style.display = 'flex'; chatToggle.style.display = 'none'; }
-        closeChat.onclick = () => { chatBox.style.display = 'none'; chatToggle.style.display = 'flex'; }
-
-        const chatForm = document.getElementById('chat-form');
-        const userInput = document.getElementById('user-input');
-        const chatContainer = document.getElementById('chat-container');
-
-        function addMessage(role, htmlContent) {
-            const msgDiv = document.createElement('div');
-            msgDiv.style.marginBottom = '10px';
-
-            if (role === 'user') {
-                msgDiv.innerHTML = `<div style="padding:8px 12px; border-radius:8px; max-width:80%; background:#2563eb; color:white; margin-left:auto;">${htmlContent}</div>`;
-            } else {
-                msgDiv.innerHTML = `<div style="padding:8px 12px; border-radius:8px; max-width:80%; background:#e5e7eb; color:black;">${htmlContent}</div>`;
-            }
-
-            chatContainer.appendChild(msgDiv);
-            chatContainer.scrollTop = chatContainer.scrollHeight;
-        }
-
-        async function getAIResponse(message) {
-            const API_KEY = "AIzaSyApvigqL0hauVi7eRCIw_N7qfsYcX4_HA0"; // Replace with your key
-            const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-
-            const body = {
-                contents: [{
-                    parts: [{
-                        text: `You are Yuvmedia’s official AI assistant. ALWAYS respond in HTML format, using <h4> for headings, <ul><li> for bullet points, <b> for bold, and <a href=''> for links. NEVER send plain text or Markdown. Only answer about Yuvmedia : SEO, Social Media, WhatsApp Marketing, Video Production, Web Development, Designing, Performance Media, Marketplace Expertise, Influencer Marketing, Google Business Profile, ERP Services, Email Marketing,About. If the user asks unrelated questions, reply with: 'I can only answer questions about Yuvmedia services. Call and Whatsapp Sale team: sales@yuvmedia.com
-+91-8824269821 ' User question: ${message}`
-                    }]
-                }]
-            };
-
-            try {
-                const res = await fetch(`${API_URL}?key=${API_KEY}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(body)
-                });
-                const data = await res.json();
-                return data?.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't fetch info.";
-            } catch (e) {
-                console.error(e);
-                return "Error connecting to Yuvmedia AI Assistant.";
-            }
-        }
-
-        chatForm.addEventListener('submit', async e => {
-            e.preventDefault();
-            const msg = userInput.value.trim();
-            if (!msg) return;
-            addMessage('user', msg);
-            userInput.value = '';
-            const reply = await getAIResponse(msg);
-            addMessage('bot', reply);
-        });
-    </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -717,11 +576,9 @@
         });
 
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
     {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
-    <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
+        <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> --}}
 
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -729,6 +586,54 @@
         </script> --}}
 
     {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
+    <script>
+        // Disable right-click (desktop)
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        }, false);
+
+        // Disable text selection (desktop & mobile)
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        }, false);
+
+        // Disable copy event (desktop & mobile)
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            alert("Copying is disabled on this site!");
+        }, false);
+
+        // Disable cut event
+        document.addEventListener('cut', function(e) {
+            e.preventDefault();
+        }, false);
+
+        // Disable common shortcuts (Windows + Mac)
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && ['c', 'u', 's', 'x', 'p'].includes(e.key.toLowerCase())) {
+                e.preventDefault();
+                alert("This action is disabled!");
+            }
+        });
+
+        // Extra protection for mobile: disable long-press menu
+        document.addEventListener('touchstart', function(e) {
+            if (e.touches.length > 1) {
+                e.preventDefault();
+            }
+        }, {
+            passive: false
+        });
+
+        document.addEventListener('touchend', function(e) {
+            if (e.touches.length > 1) {
+                e.preventDefault();
+            }
+        }, {
+            passive: false
+        });
+
+    </script>
 </body>
 
 
