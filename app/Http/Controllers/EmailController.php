@@ -117,7 +117,7 @@ class EmailController extends Controller
             'region' => $request->input('region'),
             'industry' => $request->input('industry'),
             'servicedropdown' => $request->input('servicedropdown'),
-            'message' => $request->input('message'),
+            // 'message' => $request->input('message'),
         ];
         // Define recipient email
         // $toEmail = ['sales@yuvmedia.com', 'admin@yuvmedia.com'];

@@ -123,10 +123,10 @@
                     <td><strong>Service:</strong></td>
                     <td>{{ $details['servicedropdown'] }}</td>
                 </tr>
-                <tr>
+                {{-- <tr>
                     <td><strong>Message:</strong></td>
                     <td>{{ $details['message'] }}</td>
-                </tr>
+                </tr> --}}
             </table>
         </div>
 

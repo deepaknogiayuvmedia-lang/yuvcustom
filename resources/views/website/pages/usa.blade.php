@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your
+                                        <a href="#contact-form" class="btn btn-primary btn-lg">Schedule Your
                                             Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your
+                                        <a href="#contact-form" class="btn btn-primary btn-lg">Schedule Your
                                             Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your
+                                        <a href="#contact-form" class="btn btn-primary btn-lg">Schedule Your
                                             Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start flex-md-row flex-column">
                                     <div class="mb-3 text-center ">
-                                        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">Schedule Your
+                                        <a href="#contact-form" class="btn btn-primary btn-lg">Schedule Your
                                             Free Consultation
                                             <i class="bi bi-arrow-right"></i></a>
                                     </div>
@@ -2754,7 +2754,7 @@
     </section>
     <!-- END OF TESTIMONIALS -->
 
-<section class="branches py-5">
+    <section class="branches py-5">
         <div class="container">
             <h1 class="text-center fw-bold mb-5" style="color:#032A3E;">🌍 Our Branches</h1>
             <div class="row g-4 justify-content-center">
@@ -2847,7 +2847,7 @@
         </div>
 
     </section> --}}
-    
+
     <section class="contact_bg">
         <div class="container-fluid py-3 " style="background-color: #032A3E">
             <div class="container ">
@@ -2876,7 +2876,7 @@
                             contact you
                         </div>
 
-                        
+
                         <div>
                             <form action="{{ route('send.usainquiry') }}" id="contact-form" method="post">
                                 @csrf
@@ -2930,8 +2930,8 @@
                                                 <div>
                                                     <label for="region">State / Region <span
                                                             class="text-danger fs-5">*</span></label>
-                                                    <select name="region" id="region" class="form-select customforminput"
-                                                        id="servicetypeid" required>
+                                                    <select name="region" id="region"
+                                                        class="form-select customforminput" id="servicetypeid" required>
                                                         <option disabled="" value="">- Please Select -</option>
                                                         <option value="District of Columbia">District of Columbia</option>
                                                         <option value="Other">Other</option>
@@ -2994,7 +2994,7 @@
                                                             class="text-danger fs-5">*</span> </label>
                                                     <select name="industry" class="form-select customforminput"
                                                         id="servicetypeid" required>
-                                                        <option  disabled="" value="" >- Please Select -</option>
+                                                        <option disabled="" value="">- Please Select -</option>
                                                         <option value="Services">E-Commerce</option>
                                                         <option value="Consulting">Fantasy Games</option>
                                                         <option value="Consulting">Tour & Travel</option>
@@ -3033,14 +3033,14 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-xxl-12 col-md-12">
+                                            {{-- <div class="col-xxl-12 col-md-12">
                                                 <div>
                                                     <label for="example-text-input" class="">Please tell about
                                                         your business </label>
                                                     <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
                                                         type="textarea" rows="3" value="" id="example-text-input"></textarea>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                     </div>
@@ -3063,7 +3063,7 @@
 
 
     <div class="fixed-button">
-        <a href="{{ route('appointment') }}" class="btn btn-primary btn-lg">
+        <a href="#contact-form" class="btn btn-primary btn-lg">
             Schedule Your Free Consultation <i class="bi bi-arrow-right"></i>
         </a>
     </div>
