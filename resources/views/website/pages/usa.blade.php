@@ -2754,36 +2754,7 @@
     </section>
     <!-- END OF TESTIMONIALS -->
 
-    <section class="contact_bg">
-        <div class="container-fluid py-3 " style="background-color: #032A3E">
-            <div class="container ">
-
-                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
-                    <h1 class="text-white fw-bold">Contact us</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-8 py-5">
-                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
-                        <div class="text-center">
-                            <h2 class=" fw-bold mb-4 fs-3 " style="color: #000088">Are you ready to level up your
-                                growth? <u class="fw-bold">Let's Talk!</u></h2>
-                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
-                                        class="bi bi-telephone"></i> Schedule a Meeting</a>
-                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
-                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="branches py-5">
+<section class="branches py-5">
         <div class="container">
             <h1 class="text-center fw-bold mb-5" style="color:#032A3E;">🌍 Our Branches</h1>
             <div class="row g-4 justify-content-center">
@@ -2845,6 +2816,248 @@
 
             </div>
         </div>
+    </section>
+
+    {{-- <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 " style="color: #000088">Are you ready to level up your
+                                growth? <u class="fw-bold">Let's Talk!</u></h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Schedule a Meeting</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> --}}
+    
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="formcustomcard contactForm rounded-3 p-4 bg-white position-relative"
+                        style="z-index: 10">
+                        <div class="fw-bold mb-3">
+                            Fill Out the form and we will
+                            contact you
+                        </div>
+
+                        
+                        <div>
+                            <form action="{{ route('send.usainquiry') }}" id="contact-form" method="post">
+                                @csrf
+                                <div class="">
+                                    <div class="card-body">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your First Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="text" name="username"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your First Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Business Name <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input required type="text" name="brandname"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your Business Name" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Email <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input required type="email" name="email"
+                                                        class="form-control customforminput" placeholder="Enter Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Phone/Mobile <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <input type="tel" name="phone"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Phone/Mobile" required>
+                                                </div>
+                                            </div>
+                                            {{-- <div class="col-xxl-4 col-md-6">
+                                                <div>
+                                                    <label class="form-label">Your Website </label>
+                                                    <input type="text" name="website"
+                                                        class="form-control customforminput"
+                                                        placeholder="Enter Your Website link">
+                                                </div>
+                                            </div> --}}
+                                            <div class="col-xxl-4 col-md-6">
+                                                <div>
+                                                    <label for="region">State / Region <span
+                                                            class="text-danger fs-5">*</span></label>
+                                                    <select name="region" id="region" class="form-select customforminput"
+                                                        id="servicetypeid" required>
+                                                        <option disabled="" value="">- Please Select -</option>
+                                                        <option value="District of Columbia">District of Columbia</option>
+                                                        <option value="Other">Other</option>
+                                                        <option value="Alabama">Alabama</option>
+                                                        <option value="Alaska">Alaska</option>
+                                                        <option value="Arizona">Arizona</option>
+                                                        <option value="Arkansas">Arkansas</option>
+                                                        <option value="California">California</option>
+                                                        <option value="Colorado">Colorado</option>
+                                                        <option value="Connecticut">Connecticut</option>
+                                                        <option value="Delaware">Delaware</option>
+                                                        <option value="Florida">Florida</option>
+                                                        <option value="Georgia">Georgia</option>
+                                                        <option value="Hawaii">Hawaii</option>
+                                                        <option value="Idaho">Idaho</option>
+                                                        <option value="Illinois">Illinois</option>
+                                                        <option value="Indiana">Indiana</option>
+                                                        <option value="Iowa">Iowa</option>
+                                                        <option value="Kansas">Kansas</option>
+                                                        <option value="Kentucky">Kentucky</option>
+                                                        <option value="Louisiana">Louisiana</option>
+                                                        <option value="Maine">Maine</option>
+                                                        <option value="Maryland">Maryland</option>
+                                                        <option value="Massachusetts">Massachusetts</option>
+                                                        <option value="Michigan">Michigan</option>
+                                                        <option value="Minnesota">Minnesota</option>
+                                                        <option value="Mississippi">Mississippi</option>
+                                                        <option value="Missouri">Missouri</option>
+                                                        <option value="Montana">Montana</option>
+                                                        <option value="Nebraska">Nebraska</option>
+                                                        <option value="Nevada">Nevada</option>
+                                                        <option value="New Hampshire">New Hampshire</option>
+                                                        <option value="New Jersey">New Jersey</option>
+                                                        <option value="New Mexico">New Mexico</option>
+                                                        <option value="New York">New York</option>
+                                                        <option value="North Carolina">North Carolina</option>
+                                                        <option value="North Dakota">North Dakota</option>
+                                                        <option value="Ohio">Ohio</option>
+                                                        <option value="Oklahoma">Oklahoma</option>
+                                                        <option value="Oregon">Oregon</option>
+                                                        <option value="Pennsylvania">Pennsylvania</option>
+                                                        <option value="Rhode Island">Rhode Island</option>
+                                                        <option value="South Carolina">South Carolina</option>
+                                                        <option value="South Dakota">South Dakota</option>
+                                                        <option value="Tennessee">Tennessee</option>
+                                                        <option value="Texas">Texas</option>
+                                                        <option value="Utah">Utah</option>
+                                                        <option value="Vermont">Vermont</option>
+                                                        <option value="Virginia">Virginia</option>
+                                                        <option value="Washington">Washington</option>
+                                                        <option value="West Virginia">West Virginia</option>
+                                                        <option value="Wisconsin">Wisconsin</option>
+                                                        <option value="Wyoming">Wyoming</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-4 col-md-6">
+                                                <div>
+                                                    <label for="labelid">Your Industry <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <select name="industry" class="form-select customforminput"
+                                                        id="servicetypeid" required>
+                                                        <option  disabled="" value="" >- Please Select -</option>
+                                                        <option value="Services">E-Commerce</option>
+                                                        <option value="Consulting">Fantasy Games</option>
+                                                        <option value="Consulting">Tour & Travel</option>
+                                                        <option value="Consulting">Finance</option>
+                                                        <option value="Consulting">Hospitality</option>
+                                                        <option value="Consulting">Healthcare</option>
+                                                        <option value="Consulting">Interior Designing & Architect</option>
+                                                        <option value="Consulting">Education</option>
+                                                        <option value="Consulting">Real E-State</option>
+                                                        <option value="Consulting">Others</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-4 col-md-6">
+                                                <div>
+                                                    <label for="labelid">Your Service <span
+                                                            class="text-danger fs-5">*</span> </label>
+                                                    <select name="servicedropdown" class="form-select customforminput"
+                                                        id="servicetypeid" required>
+                                                        <option value="" disabled="">- Please Select -</option>
+                                                        <option value="SEO">SEO</option>
+                                                        <option value="Social Media">Social Media</option>
+                                                        <option value="Whatsapp Marketing">Whatsapp Marketing</option>
+                                                        <option value="Video Production">Video Production</option>
+                                                        <option value="Web Development">Web Development</option>
+                                                        <option value="Designing Services">Designing Services</option>
+                                                        <option value="Performance Media">Performance Media</option>
+                                                        <option value="Marketplace Expertise">Marketplace Expertise
+                                                        </option>
+                                                        <option value="Influencer Marketing">Influencer Marketing</option>
+                                                        <option value="Google Business Profile">Google Business Profile
+                                                        </option>
+                                                        <option value="ERP Services">ERP Services</option>
+                                                        <option value="Email Marketing">Email Marketing</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xxl-12 col-md-12">
+                                                <div>
+                                                    <label for="example-text-input" class="">Please tell about
+                                                        your business </label>
+                                                    <textarea class="form-control customforminput" placeholder="Please tell about your business" name="message"
+                                                        type="textarea" rows="3" value="" id="example-text-input"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="formcustomcardfooter">
+                                        <div class="d-flex justify-content-center">
+                                            <button type="submit" class="btn formbtn">Book a 30-minute Free
+                                                Consultation</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 

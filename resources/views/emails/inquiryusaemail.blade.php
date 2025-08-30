@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>New Inquiry Received</title>
+    <title>New USA Inquiry Received</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -88,7 +88,7 @@
     <div class="email-container">
         <!-- Logo Section -->
         <div class="header">
-            <img src="https://yuvmedia.in/assets/websiteAssets/images/logo.png" alt="YuvMedia Logo">
+            <img src="https://yuvmedia.com/assets/websiteAssets/images/logo.png" alt="Yuvmedia Logo">
         </div>
 
         <!-- Email Content -->
@@ -112,8 +112,8 @@
                     <td>{{ $details['phone'] }}</td>
                 </tr>
                 <tr>
-                    <td><strong>Website:</strong></td>
-                    <td><a href="{{ $details['website'] }}" target="_blank">{{ $details['website'] }}</a></td>
+                    <td><strong>Region:</strong></td>
+                    <td>{{ $details['region'] }}</td>
                 </tr>
                 <tr>
                     <td><strong>Industry:</strong></td>

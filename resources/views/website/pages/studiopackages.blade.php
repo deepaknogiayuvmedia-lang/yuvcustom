@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +42,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(2deg); }
+
+            0%,
+            100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(2deg);
+            }
         }
 
         .hero-content {
@@ -59,12 +67,12 @@
             margin-bottom: 1rem;
             opacity: 0;
             animation: slideUp 1s ease-out 0.5s forwards;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .hero .subtitle {
             font-size: 1.8rem;
-            color: rgba(255,255,255,0.95);
+            color: rgba(255, 255, 255, 0.95);
             margin-bottom: 1rem;
             opacity: 0;
             animation: slideUp 1s ease-out 1s forwards;
@@ -72,7 +80,7 @@
 
         .hero .tagline {
             font-size: 1.2rem;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             margin-bottom: 3rem;
             opacity: 0;
             animation: slideUp 1s ease-out 1.3s forwards;
@@ -97,23 +105,23 @@
             font-weight: 700;
             font-size: 1.2rem;
             transition: all 0.4s ease;
-            box-shadow: 0 15px 35px rgba(255,107,107,0.4);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.4);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
 
         .cta-button.secondary {
             background: linear-gradient(45deg, #4ecdc4, #44a08d);
-            box-shadow: 0 15px 35px rgba(78,205,196,0.4);
+            box-shadow: 0 15px 35px rgba(78, 205, 196, 0.4);
         }
 
         .cta-button:hover {
             transform: translateY(-5px) scale(1.05);
-            box-shadow: 0 20px 50px rgba(255,107,107,0.5);
+            box-shadow: 0 20px 50px rgba(255, 107, 107, 0.5);
         }
 
         .cta-button.secondary:hover {
-            box-shadow: 0 20px 50px rgba(78,205,196,0.5);
+            box-shadow: 0 20px 50px rgba(78, 205, 196, 0.5);
         }
 
         @keyframes slideUp {
@@ -121,6 +129,7 @@
                 opacity: 0;
                 transform: translateY(50px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -181,7 +190,7 @@
             background: white;
             border-radius: 25px;
             padding: 3rem;
-            box-shadow: 0 25px 80px rgba(0,0,0,0.12);
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
             transition: all 0.4s ease;
             position: relative;
             overflow: hidden;
@@ -194,20 +203,20 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 6px;
+            height: 14px;
             background: linear-gradient(45deg, #667eea, #764ba2);
         }
 
         .package-card:hover {
             transform: translateY(-15px) scale(1.02);
-            box-shadow: 0 35px 100px rgba(0,0,0,0.2);
+            box-shadow: 0 35px 100px rgba(0, 0, 0, 0.2);
             border-color: #667eea;
         }
 
         .package-card.popular {
             border: 3px solid #ff6b6b;
             transform: scale(1.05);
-            box-shadow: 0 30px 90px rgba(255,107,107,0.2);
+            box-shadow: 0 30px 90px rgba(255, 107, 107, 0.2);
         }
 
         .package-card.popular::before {
@@ -216,7 +225,7 @@
 
         .popular-badge {
             position: absolute;
-            top: -15px;
+            top: 0px;
             right: 20px;
             background: linear-gradient(45deg, #ff6b6b, #ee5a52);
             color: white;
@@ -226,7 +235,7 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
-            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
         }
 
         .package-header {
@@ -418,11 +427,11 @@
         }
 
         .feature-card {
-            background: rgba(255,255,255,0.12);
+            background: rgba(255, 255, 255, 0.12);
             padding: 3rem 2rem;
             border-radius: 20px;
             backdrop-filter: blur(15px);
-            border: 1px solid rgba(255,255,255,0.25);
+            border: 1px solid rgba(255, 255, 255, 0.25);
             text-align: center;
             transition: all 0.4s ease;
             position: relative;
@@ -436,7 +445,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transform: rotate(45deg);
             transition: all 0.6s ease;
             opacity: 0;
@@ -447,15 +456,25 @@
         }
 
         @keyframes shimmer {
-            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); opacity: 0; }
-            50% { opacity: 1; }
-            100% { transform: translateX(100%) translateY(100%) rotate(45deg); opacity: 0; }
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+                opacity: 0;
+            }
         }
 
         .feature-card:hover {
-            background: rgba(255,255,255,0.18);
+            background: rgba(255, 255, 255, 0.18);
             transform: translateY(-8px) scale(1.03);
-            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
         }
 
         .feature-icon {
@@ -506,19 +525,19 @@
             .hero h1 {
                 font-size: 3rem;
             }
-            
+
             .hero .subtitle {
                 font-size: 1.4rem;
             }
-            
+
             .section-title {
                 font-size: 2.5rem;
             }
-            
+
             .packages-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .package-card.popular {
                 transform: none;
             }
@@ -546,6 +565,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Hero Section -->
     <section class="hero">
@@ -564,85 +584,160 @@
     <section class="ecommerce-packages" id="packages">
         <div class="container">
             <h2 class="section-title fade-in">E-Commerce Packages</h2>
-            <p class="section-subtitle fade-in">Specifically designed for online retail success with conversion-focused features</p>
-            
+            <p class="section-subtitle fade-in">Specifically designed for online retail success with conversion-focused
+                features</p>
+
             <div class="packages-grid">
                 <!-- Product Showcase Package -->
                 <div class="package-card fade-in">
                     <div class="package-header">
-                        <h3 class="package-title">Product Showcase</h3>
-                        <p class="package-description">Perfect for single product demonstrations and basic e-commerce listings</p>
+                        <h3 class="package-title">Booster Package</h3>
+                        <p class="package-description">Perfect for single product demonstrations and basic e-commerce
+                            listings</p>
                         <div class="package-price">₹12,000/-</div>
                         <div class="price-duration">Per product</div>
                     </div>
                     <ul class="package-features">
-                        <li><span class="feature-name">360° Product View</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Multiple Angles</span> <span class="feature-value">4-6 Views</span></li>
-                        <li><span class="feature-name">Resolution</span> <span class="feature-value">4K UHD</span></li>
-                        <li><span class="feature-name">Background Options</span> <span class="feature-value">3 Variants</span></li>
-                        <li><span class="feature-name">Zoom Details</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Color Variations</span> <span class="feature-value">Up to 3</span></li>
-                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">15-20 sec</span></li>
-                        <li><span class="feature-name">Delivery Format</span> <span class="feature-value">MP4 + GIF</span></li>
-                        <li><span class="feature-name">Revisions</span> <span class="feature-value">2</span></li>
+                        <li><span class="feature-name">360° Product View</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Multiple Angles</span> <span class="feature-value">4-6
+                                Views</span></li>
+                        <li><span class="feature-name">Resolution</span> <span class="feature-value">1-2K UHD</span>
+                        </li>
+                        <li><span class="feature-name">Background Options</span> <span class="feature-value">3
+                                Variants</span></li>
+                        <li><span class="feature-name">Zoom Details</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Creative Images</span> <span class="feature-value">5</span></li>
+                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">15-20
+                                sec</span></li>
+                        <li><span class="feature-name">Delivery Format</span> <span class="feature-value">MP4</span>
+                        </li>
+                        <li><span class="feature-name">Revisions</span> <span class="feature-value">1</span></li>
+                        <li><span class="feature-name">Aspect Ratio</span> <span class="feature-value">1</span></li>
+                        <li><span class="feature-name">Background Music</span> <span class="feature-value">✔️</span>
+                        </li>
+                        <li><span class="feature-name">Simulation</span> <span class="feature-value">Basic</span></li>
                     </ul>
-                    <button class="package-button">Choose Showcase</button>
+                    <button class="package-button">Select Package</button>
                 </div>
 
                 <!-- Product Collection Package -->
                 <div class="package-card popular fade-in">
                     <div class="popular-badge">Most Popular</div>
                     <div class="package-header">
-                        <h3 class="package-title">Product Collection</h3>
-                        <p class="package-description">Ideal for product catalogs and comprehensive e-commerce campaigns</p>
+                        <h3 class="package-title">Growth Package</h3>
+                        <p class="package-description">Ideal for product catalogs and comprehensive e-commerce campaigns
+                        </p>
                         <div class="package-price">₹28,000/-</div>
-                        <div class="price-duration">Per collection (3-5 products)</div>
+                        <div class="price-duration">Per product</div>
                     </div>
                     <ul class="package-features">
-                        <li><span class="feature-name">360° Product View</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Multiple Angles</span> <span class="feature-value">6-8 Views</span></li>
-                        <li><span class="feature-name">Resolution</span> <span class="feature-value">4K UHD</span></li>
-                        <li><span class="feature-name">Interactive Hotspots</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Lifestyle Scenes</span> <span class="feature-value premium">Premium</span></li>
-                        <li><span class="feature-name">Color Variations</span> <span class="feature-value">Unlimited</span></li>
-                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">25-35 sec</span></li>
-                        <li><span class="feature-name">AR Ready Files</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Revisions</span> <span class="feature-value">4</span></li>
+                        <li><span class="feature-name">360° Product View</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Multiple Angles</span> <span class="feature-value">6-8
+                                Views</span></li>
+                        <li><span class="feature-name">Resolution</span> <span class="feature-value">3K UHD</span></li>
+                        <li><span class="feature-name">Lifestyle Scenes</span> <span
+                                class="feature-value premium">Premium</span></li>
+                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">25-35
+                                sec</span></li>
+                        <li><span class="feature-name">Revisions</span> <span class="feature-value">2</span></li>
+                        <li><span class="feature-name">Aspect Ratio</span> <span class="feature-value">1</span></li>
+                        <li><span class="feature-name">Sound Design</span> <span class="feature-value">✔️</span></li>
+                        <li><span class="feature-name">Voice Over</span> <span class="feature-value">✔️</span></li>
+                        <li><span class="feature-name">Images</span> <span class="feature-value">3 Creative + 3
+                                Infographic</span></li>
+                        <li><span class="feature-name">Simulation</span> <span class="feature-value">Advance</span></li>
                     </ul>
-                    <button class="package-button">Choose Collection</button>
+                    <button class="package-button">Select Package</button>
                 </div>
 
                 <!-- Premium Lifestyle Package -->
                 <div class="package-card fade-in">
                     <div class="package-header">
-                        <h3 class="package-title">Premium Lifestyle</h3>
-                        <p class="package-description">High-end brand campaigns with cinematic quality and lifestyle integration</p>
+                        <h3 class="package-title">Dominator Package</h3>
+                        <p class="package-description">High-end brand campaigns with cinematic quality and lifestyle
+                            integration</p>
                         <div class="package-price">₹45,000/-</div>
-                        <div class="price-duration">Per campaign</div>
+                        <div class="price-duration">Per product</div>
                     </div>
                     <ul class="package-features">
-                        <li><span class="feature-name">Cinematic Animation</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Custom Environments</span> <span class="feature-value premium">Multiple</span></li>
-                        <li><span class="feature-name">Resolution</span> <span class="feature-value">8K UHD</span></li>
-                        <li><span class="feature-name">Character Integration</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Advanced Lighting</span> <span class="feature-value premium">Studio Quality</span></li>
-                        <li><span class="feature-name">Sound Design</span> <span class="feature-value included">✔️</span></li>
-                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">45-60 sec</span></li>
-                        <li><span class="feature-name">Multiple Formats</span> <span class="feature-value premium">All Platforms</span></li>
-                        <li><span class="feature-name">Revisions</span> <span class="feature-value">Unlimited*</span></li>
+                        <li><span class="feature-name">Cinematic Animation</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Custom Environments</span> <span
+                                class="feature-value premium">Multiple</span></li>
+                        <li><span class="feature-name">Resolution</span> <span class="feature-value">4K UHD</span></li>
+                        <li><span class="feature-name">Character Integration</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Advanced Lighting</span> <span
+                                class="feature-value premium">Studio Quality</span></li>
+                        <li><span class="feature-name">Sound Design</span> <span
+                                class="feature-value included">✔️</span></li>
+                        <li><span class="feature-name">Animation Duration</span> <span class="feature-value">45-60
+                                sec</span></li>
+                        <li><span class="feature-name">Aspect Ratio</span> <span class="feature-value premium">2</span>
+                        </li>
+                        <li><span class="feature-name">Revisions</span> <span class="feature-value">3</span></li>
+                        <li><span class="feature-name">Custom Environment</span> <span
+                                class="feature-value">multiple</span></li>
+                        <li><span class="feature-name">Simulation </span> <span
+                                class="feature-value">Premium</span></li>
+                        <li><span class="feature-name">Images</span> <span class="feature-value">5 White BG, 5 Creative,
+                                5 Infographic</span></li>
+                        <li><span class="feature-name">Voice Over</span> <span class="feature-value">✔️</span></li>
                     </ul>
-                    <button class="package-button">Choose Premium</button>
+                    <button class="package-button">Select Package</button>
                 </div>
             </div>
+
+
         </div>
+        <div class="container" style="margin-top: 50px;">
+            <h4 class="section-title fade-in">Add-On & Pricing</h4>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">🔄</span>
+                    <h3 class="feature-title">Duration Increase (per 5 sec)</h3>
+                    <p class="feature-description">Rs. 2000 /-</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">📱</span>
+                    <h3 class="feature-title">Voice Over (per minute)</h3>
+                    <p class="feature-description">Rs. 1000 /-</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">🎨</span>
+                    <h3 class="feature-title">Extra Revision (per revision)</h3>
+                    <p class="feature-description">2000 /-</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">📈</span>
+                    <h3 class="feature-title">Sound Design (per track)</h3>
+                    <p class="feature-description">Rs. 3000 /-</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">⚡</span>
+                    <h3 class="feature-title">Aspect Ratio (each type)</h3>
+                    <p class="feature-description">Rs. 1000 /-</p>
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
     <!-- Product Categories -->
     <section class="product-categories" id="products">
         <div class="container">
             <h2 class="section-title fade-in">Perfect For These Products</h2>
-            <p class="section-subtitle fade-in">Our e-commerce packages work brilliantly with these product categories</p>
-            
+            <p class="section-subtitle fade-in">Our e-commerce packages work brilliantly with these product categories
+            </p>
+
             <div class="categories-grid">
                 <div class="category-card fade-in">
                     <span class="category-icon">👗</span>
@@ -723,43 +818,50 @@
     <section class="features">
         <div class="container">
             <h2 class="section-title fade-in" style="color: white;">Why Choose Our E-Commerce CGI?</h2>
-            <p class="section-subtitle fade-in" style="color: rgba(255,255,255,0.8);">Features specifically designed to boost your online sales and customer engagement</p>
-            
+            <p class="section-subtitle fade-in" style="color: rgba(255,255,255,0.8);">Features specifically designed to
+                boost your online sales and customer engagement</p>
+
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <span class="feature-icon">🔄</span>
                     <h3 class="feature-title">360° Interactive Views</h3>
-                    <p class="feature-description">Allow customers to explore your products from every angle, increasing confidence and reducing returns</p>
+                    <p class="feature-description">Allow customers to explore your products from every angle, increasing
+                        confidence and reducing returns</p>
                 </div>
 
                 <div class="feature-card fade-in">
                     <span class="feature-icon">📱</span>
                     <h3 class="feature-title">Mobile Optimized</h3>
-                    <p class="feature-description">Perfect performance on all devices with fast loading times and responsive design</p>
+                    <p class="feature-description">Perfect performance on all devices with fast loading times and
+                        responsive design</p>
                 </div>
 
                 <div class="feature-card fade-in">
                     <span class="feature-icon">🎨</span>
                     <h3 class="feature-title">Color Variants</h3>
-                    <p class="feature-description">Showcase unlimited color options without additional product photography costs</p>
+                    <p class="feature-description">Showcase unlimited color options without additional product
+                        photography costs</p>
                 </div>
 
                 <div class="feature-card fade-in">
                     <span class="feature-icon">📈</span>
                     <h3 class="feature-title">Conversion Focused</h3>
-                    <p class="feature-description">Designed to increase click-through rates and conversion rates for better ROI</p>
+                    <p class="feature-description">Designed to increase click-through rates and conversion rates for
+                        better ROI</p>
                 </div>
 
                 <div class="feature-card fade-in">
                     <span class="feature-icon">⚡</span>
                     <h3 class="feature-title">Fast Delivery</h3>
-                    <p class="feature-description">Quick turnaround times to meet your product launch deadlines and market demands</p>
+                    <p class="feature-description">Quick turnaround times to meet your product launch deadlines and
+                        market demands</p>
                 </div>
 
                 <div class="feature-card fade-in">
                     <span class="feature-icon">🌐</span>
                     <h3 class="feature-title">Platform Ready</h3>
-                    <p class="feature-description">Optimized for all major e-commerce platforms - Shopify, WooCommerce, Magento, Amazon</p>
+                    <p class="feature-description">Optimized for all major e-commerce platforms - Shopify, WooCommerce,
+                        Magento, Amazon</p>
                 </div>
             </div>
         </div>
@@ -770,10 +872,10 @@
         <div class="container">
             <div class="cta-content fade-in">
                 <h2 class="cta-title">Ready to Boost Your Sales?</h2>
-                <p class="cta-description">Transform your product listings with professional CGI animations that convert browsers into buyers</p>
+                <p class="cta-description">Transform your product listings with professional CGI animations that convert
+                    browsers into buyers</p>
                 <div class="cta-buttons">
-                    <a href="#" class="cta-button">Get Started Today</a>
-                    <a href="#" class="cta-button secondary">View Portfolio</a>
+                    <a href="https://yuvmedia.com/video-production" class="cta-button secondary">View Portfolio</a>
                 </div>
             </div>
         </div>
@@ -800,7 +902,7 @@
 
         // Package button interactions
         document.querySelectorAll('.package-button').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 const packageName = this.closest('.package-card').querySelector('.package-title').textContent;
                 const packagePrice = this.closest('.package-card').querySelector('.package-price').textContent;
                 alert(`You selected the ${packageName} package at ${packagePrice}!\n\nThis package includes:\n• Professional CGI animation\n• E-commerce optimized formats\n• Mobile-ready delivery\n• Multiple revisions\n\nContact us to get started with your project!`);
@@ -829,22 +931,22 @@
 
         // Enhanced hover effects for cards
         document.querySelectorAll('.category-card, .feature-card').forEach(card => {
-            card.addEventListener('mouseenter', function() {
+            card.addEventListener('mouseenter', function () {
                 this.style.transform = 'translateY(-12px) scale(1.02)';
             });
-            
-            card.addEventListener('mouseleave', function() {
+
+            card.addEventListener('mouseleave', function () {
                 this.style.transform = 'translateY(0) scale(1)';
             });
         });
 
         // Add loading animation for buttons
         document.querySelectorAll('.cta-button, .package-button').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 const originalText = this.textContent;
                 this.textContent = 'Processing...';
                 this.style.opacity = '0.7';
-                
+
                 setTimeout(() => {
                     this.textContent = originalText;
                     this.style.opacity = '1';
@@ -853,13 +955,13 @@
         });
 
         // Parallax effect for hero section
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero');
-            if (hero) {
-                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-            }
-        });
+        // window.addEventListener('scroll', function() {
+        //     const scrolled = window.pageYOffset;
+        //     const hero = document.querySelector('.hero');
+        //     if (hero) {
+        //         hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        //     }
+        // });
 
         // Add floating animation to feature icons
         document.querySelectorAll('.feature-icon, .category-icon').forEach((icon, index) => {
@@ -867,4 +969,5 @@
         });
     </script>
 </body>
+
 </html>
