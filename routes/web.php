@@ -165,3 +165,7 @@ Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail']
 Route::post('/send-jobenquiry', [EmailController::class, 'sendJobApplication'])->name('send.jobenquiry');
 Route::post('/send-influencerenquiry', [EmailController::class, 'influencerenquiry'])->name('send.influencerenquiry');
 Route::post('/send-partnerservice', [EmailController::class, 'partnerservice'])->name('send.partnerservice');
+
+Route::get('/thank-you', function () {
+    return view('thankyounew');
+})->name('thankyounew');

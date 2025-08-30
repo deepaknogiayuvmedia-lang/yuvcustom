@@ -90,7 +90,7 @@ class EmailController extends Controller
             'region' => 'required|string',
             'industry' => 'required|string',
             'servicedropdown' => 'required|string',
-            'message' => 'required|string',
+            // 'message' => 'required|string',
             // 'g-recaptcha-response' => 'required',
         ]);
 
@@ -133,7 +133,7 @@ class EmailController extends Controller
 
         Log::info('Email sent to: ' . json_encode($details));
 
-        return view('emails.thankyou');
+        return redirect()->route('thankyounew');
     }
 
     public function sendPartnerEmail(Request $request)
@@ -227,7 +227,7 @@ class EmailController extends Controller
             } else {
                 return back()->withErrors(['resume' => 'Resume upload failed.'])->withInput();
             }
-            
+
 
             // Prepare email data
             $details = [
@@ -262,14 +262,14 @@ class EmailController extends Controller
     public function influencerenquiry(Request $request)
     {
         try {
-           
+
 
             // Validate form inputs
             $validator = Validator::make($request->all(), [
                 'category' => 'required',
                 'email' => 'required|email',
                 'phone' => 'required|digits_between:10,15',
-                'profileimage' => 'mimes:jpeg,png,jpg|max:2048', 
+                'profileimage' => 'mimes:jpeg,png,jpg|max:2048',
             ]);
             if ($validator->fails()) {
                 //dd($request->all());
@@ -287,8 +287,8 @@ class EmailController extends Controller
             // if (!$responseData['success'] || $responseData['score'] < 0.5) {
             //     return back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.'])->withInput();
             // }
-            
-            
+
+
             // Handle file upload
             $profileimage = null;
             if ($request->hasFile('profileimage')) {
@@ -296,7 +296,7 @@ class EmailController extends Controller
                 $profileimage = time() . '_' . $file->getClientOriginalName();
                 $file->move(public_path('assets/websiteAssets/images/Influencers/'), $profileimage);
             }
-           
+
             // Register Influencer Here.......
             $data = Influencer::create([
                 'userid' => $request->input('email'),
@@ -316,7 +316,7 @@ class EmailController extends Controller
                 'linkedinprofile' => $request->input('linkedinprofile'),
                 'verificationstatus' => 'pending',
             ]);
-             //dd($data);
+            //dd($data);
             // Define recipient emails
             $toEmail = $request->input('email');
             $subject = "New Influencer Registration: ";
@@ -342,7 +342,7 @@ class EmailController extends Controller
                 'phone' => 'required|digits_between:10,15',
                 'city' => 'required|string',
                 'state' => 'required|string',
-                 // 'g-recaptcha-response' => 'required',
+                // 'g-recaptcha-response' => 'required',
             ]);
             // Verify reCAPTCHA with Google
             // $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
