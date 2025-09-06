@@ -3878,6 +3878,18 @@ figure img {
     z-index: 9999;
 }
 
+.seosection .card img {
+    aspect-ratio: 4 / 3;
+}
+.seosectionn .card img {
+    aspect-ratio: 1 / 1;
+}
+
+.seosectionn .card {
+    height: 100%;
+}
+
+
 @media (max-width: 768px) {
     .fixed-button {
         bottom: 15px;

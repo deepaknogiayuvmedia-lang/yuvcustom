@@ -195,13 +195,13 @@
 
                     </div>
                     @endif
-                    @if (request()->routeIs('usa'))
+                    {{-- @if (request()->routeIs('usa'))
                     <div class=" ">
-                        {{-- <a class="btn btn-outline-primary hire-us-btn questrial-regular"
-                                href="{{ route('contact') }}">Hire Us!</a> --}}
+                        <a class="btn btn-outline-primary hire-us-btn questrial-regular"
+                                href="{{ route('contact') }}">Hire Us!</a>
                         <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="tel:918824269821"><i class="bi bi-telephone"></i> Call Now</a>
                     </div>
-                    @endif
+                    @endif --}}
 
                 </div>
             </div>
@@ -537,9 +537,9 @@
         {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
             <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
-        <div class="no-copy">
+        {{-- <div class="no-copy">
             <p>This content is protected and cannot be copied easily.</p>
-        </div>
+        </div> --}}
     </div>
     <!-- //Main wrapper -->
 
@@ -588,50 +588,50 @@
     {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
     <script>
         // Disable right-click (desktop)
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        }, false);
+        // document.addEventListener('contextmenu', function(e) {
+        //     e.preventDefault();
+        // }, false);
 
-        // Disable text selection (desktop & mobile)
-        document.addEventListener('selectstart', function(e) {
-            e.preventDefault();
-        }, false);
+        // // Disable text selection (desktop & mobile)
+        // document.addEventListener('selectstart', function(e) {
+        //     e.preventDefault();
+        // }, false);
 
-        // Disable copy event (desktop & mobile)
-        document.addEventListener('copy', function(e) {
-            e.preventDefault();
-            alert("Copying is disabled on this site!");
-        }, false);
+        // // Disable copy event (desktop & mobile)
+        // document.addEventListener('copy', function(e) {
+        //     e.preventDefault();
+        //     alert("Copying is disabled on this site!");
+        // }, false);
 
-        // Disable cut event
-        document.addEventListener('cut', function(e) {
-            e.preventDefault();
-        }, false);
+        // // Disable cut event
+        // document.addEventListener('cut', function(e) {
+        //     e.preventDefault();
+        // }, false);
 
-        // Disable common shortcuts (Windows + Mac)
-        document.addEventListener('keydown', function(e) {
-            if ((e.ctrlKey || e.metaKey) && ['c', 'u', 's', 'x', 'p'].includes(e.key.toLowerCase())) {
-                e.preventDefault();
-                alert("This action is disabled!");
-            }
-        });
+        // // Disable common shortcuts (Windows + Mac)
+        // document.addEventListener('keydown', function(e) {
+        //     if ((e.ctrlKey || e.metaKey) && ['c', 'u', 's', 'x', 'p'].includes(e.key.toLowerCase())) {
+        //         e.preventDefault();
+        //         alert("This action is disabled!");
+        //     }
+        // });
 
-        // Extra protection for mobile: disable long-press menu
-        document.addEventListener('touchstart', function(e) {
-            if (e.touches.length > 1) {
-                e.preventDefault();
-            }
-        }, {
-            passive: false
-        });
+        // // Extra protection for mobile: disable long-press menu
+        // document.addEventListener('touchstart', function(e) {
+        //     if (e.touches.length > 1) {
+        //         e.preventDefault();
+        //     }
+        // }, {
+        //     passive: false
+        // });
 
-        document.addEventListener('touchend', function(e) {
-            if (e.touches.length > 1) {
-                e.preventDefault();
-            }
-        }, {
-            passive: false
-        });
+        // document.addEventListener('touchend', function(e) {
+        //     if (e.touches.length > 1) {
+        //         e.preventDefault();
+        //     }
+        // }, {
+        //     passive: false
+        // });
 
     </script>
 </body>

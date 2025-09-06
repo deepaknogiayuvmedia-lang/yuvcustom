@@ -2764,8 +2764,8 @@
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-body text-center">
                             <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="mb-3">
-                            <h4 class="fw-bold">India</h4>
-                            <p class="text-muted">Delhi, Mumbai, Bangalore, Hyderabad</p>
+                            <h4 class="fw-bold">India (Head Office)</h4>
+                            <p class="text-muted">B17, Second Floor, Glitz Circle, Ramnagar Road, above Royal Bakers, Haribhau Upadhyay Nagar, Ajmer, Rajasthan 30500</p>
                         </div>
                     </div>
                 </div>
@@ -2775,14 +2775,14 @@
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-body text-center">
                             <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="mb-3">
-                            <h4 class="fw-bold">United States</h4>
+                            <h4 class="fw-bold">United States (Branch Office)</h4>
                             <p class="text-muted">New York, San Francisco, Chicago</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- UK -->
-                <div class="col-lg-4 col-md-6">
+                {{-- <div class="col-lg-4 col-md-6">
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-body text-center">
                             <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="mb-3">
@@ -2790,10 +2790,10 @@
                             <p class="text-muted">London, Manchester, Birmingham</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Australia -->
-                <div class="col-lg-4 col-md-6">
+                {{-- <div class="col-lg-4 col-md-6">
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-body text-center">
                             <img src="https://flagcdn.com/w40/au.png" alt="Australia Flag" class="mb-3">
@@ -2801,10 +2801,10 @@
                             <p class="text-muted">Sydney, Melbourne, Brisbane</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- UAE -->
-                <div class="col-lg-4 col-md-6">
+                {{-- <div class="col-lg-4 col-md-6">
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-body text-center">
                             <img src="https://flagcdn.com/w40/ae.png" alt="UAE Flag" class="mb-3">
@@ -2812,7 +2812,7 @@
                             <p class="text-muted">Dubai, Abu Dhabi, Sharjah</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
