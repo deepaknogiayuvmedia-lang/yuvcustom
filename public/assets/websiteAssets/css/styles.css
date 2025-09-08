@@ -2485,7 +2485,7 @@ svg:not(:root) {
 .shiftbox-image {
     min-height: 100%;
     position: relative;
-    width: 60vw;
+    width: 70vw;
     display: flex;
 }
 
@@ -3888,7 +3888,9 @@ figure img {
 .seosectionn .card {
     height: 100%;
 }
-
+.bannerimg {
+    aspect-ratio: 16 / 9;
+}
 
 @media (max-width: 768px) {
     .fixed-button {

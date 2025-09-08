@@ -92,6 +92,24 @@ $('#servicestabs').owlCarousel({
     }
 });
 
+$('#resultsSlider').owlCarousel({
+    items: 3, // Number of visible items
+    margin: 20, // Space between items
+    loop: true, // Infinite looping
+    autoplay: true, // Automatic scrolling
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
 $('#serviceSlider').owlCarousel({
     items: 3, // Number of visible items
     margin: 20, // Space between items
@@ -106,6 +124,24 @@ $('#serviceSlider').owlCarousel({
         },
         1000: {
             items: 3
+        }
+    }
+});
+$('#testimonialsSlider').owlCarousel({
+    items: 2, // Number of visible items
+    margin: 20, // Space between items
+    loop: true, // Infinite looping
+    autoplay: true, // Automatic scrolling
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 2
         }
     }
 });
@@ -310,7 +346,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 $(document).ready(function () {
     $('.slick-slider').slick({
-        dots: false,
+        dots: true,
         arrows: false,
         infinite: false,
         slidesToShow: 5,

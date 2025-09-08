@@ -528,11 +528,11 @@
 
     <section class=" py-5">
         <div class="container py-2 py-md-5 seocards">
-            <div class="text-center seoheadingsecthree mb-5">
+            <div class="text-start globaltxtcolor mb-5">
                 Stay Ahead with Smart SEO Strategies
             </div>
             <div class="row justify-items-center">
-                <div class="col-md-4 col-6">
+                <div class="col-md-3 col-6">
                     <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Quality-Of-Traffic-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -547,19 +547,7 @@
 
 
                 </div>
-                <div class="col-md-4 col-6">
-                    <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
-                        <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Free-Traffic-copy.png"
-                            class="card-img-top p-3" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Zero Ad Spend, Maximum Impact</h6>
-                            <p class="card-text  ">
-                                Use SEO to generate free organic visitors. There is no need for paid advertisements.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6">
+                <div class="col-md-3 col-6">
                     <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Conversion-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -571,7 +559,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6">
+                <div class="col-md-3 col-6">
                     <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Better-Online-Visibility-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -585,7 +573,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-6">
+                <div class="col-md-3 col-6">
                     <div class="card shadow-sm rounded-4 mx-auto mb-5 text-center seocards">
                         <img src="https://www.rankontechnologies.com/wp-content/uploads/2022/06/Higher-Domain-Authority-copy.png"
                             class="card-img-top p-3" alt="...">
@@ -601,6 +589,267 @@
 
             </div>
 
+        </div>
+    </section>
+
+    <section class="py-2 position-relative">
+        <div class="container  py-4 py-md-5 ">
+            <div class="fs-2 fw-bold mb-4 globaltxtcolor">
+                See Real Results That Made Our Clients Smile
+            </div>
+            <p>
+                Ranked 900K keywords and generated 650K+ leads for 10,000+ happy clients.
+            </p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="resultsSlider" class="owl-carousel owl-theme">
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <h6 class="card-title ms-3 fw-bold fs-4">The Rich X</h6>
+                                <div class="row pt-3 px-3 align-items-center">
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/therichx.webp') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (2).png') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row d-flex align-items-stretch" style="padding: 0px 0px !important;">
+                                        <div class="col-md-12 mb-4 mb-md-0 p-3 bg-white d-flex flex-column">
+                                            <!-- <h5 class="mb-3 text-left"></h5> -->
+                                            <div class="table-responsive h-100">
+                                                <table class="table table-sm table-hover table-bordered mb-0 h-100">
+                                                    <thead class="thead-dark">
+                                                        <tr class="table-primary">
+                                                            <th class="fw-bold">Main Keyword</th>
+                                                            <th class="fw-bold text-center">Baseline Rank</th>
+                                                            <th class="fw-bold text-center">Current Ranking</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>online graphic design course</td>
+                                                            <td class="text-center">28</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>no code web development</td>
+                                                            <td class="text-center">35</td>
+                                                            <td class="text-center">2</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>web development course</td>
+                                                            <td class="text-center">22</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>professional online courses</td>
+                                                            <td class="text-center">30</td>
+                                                            <td class="text-center">3</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <h6 class="card-title ms-3 fw-bold fs-4">Science Seeker</h6>
+                                <div class="row pt-3 px-3 align-items-center">
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/scienceseeker.webp') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row d-flex align-items-stretch" style="padding: 0px 0px !important;">
+                                        <div class="col-md-12 mb-4 mb-md-0 p-3 bg-white d-flex flex-column">
+                                            <!-- <h5 class="mb-3 text-left"></h5> -->
+                                            <div class="table-responsive h-100">
+                                                <table class="table table-sm table-hover table-bordered mb-0 h-100">
+                                                    <thead class="thead-dark">
+                                                        <tr class="table-primary">
+                                                            <th class="fw-bold">Main Keyword</th>
+                                                            <th class="fw-bold text-center">Baseline Rank</th>
+                                                            <th class="fw-bold text-center">Current Ranking</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>online science coaching</td>
+                                                            <td class="text-center">35</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>CBSE science courses</td>
+                                                            <td class="text-center">22</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>SAT prep online</td>
+                                                            <td class="text-center">29</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>IGCSE tutoring</td>
+                                                            <td class="text-center">15</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <h6 class="card-title ms-3 fw-bold fs-4">Cocobull Coal</h6>
+                                <div class="row pt-3 px-3 align-items-center">
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/cocobull.webp') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row d-flex align-items-stretch" style="padding: 0px 0px !important;">
+                                        <div class="col-md-12 mb-4 mb-md-0 p-3 bg-white d-flex flex-column">
+                                            <!-- <h5 class="mb-3 text-left"></h5> -->
+                                            <div class="table-responsive h-100">
+                                                <table class="table table-sm table-hover table-bordered mb-0 h-100">
+                                                    <thead class="thead-dark">
+                                                        <tr class="table-primary">
+                                                            <th class="fw-bold">Main Keyword</th>
+                                                            <th class="fw-bold text-center">Baseline Rank</th>
+                                                            <th class="fw-bold text-center">Current Ranking</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>hookah charcoal</td>
+                                                            <td class="text-center">27</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>coconut shell charcoal</td>
+                                                            <td class="text-center">19</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>premium hookah coal</td>
+                                                            <td class="text-center">33</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>long lasting charcoal</td>
+                                                            <td class="text-center">24</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <h6 class="card-title ms-3 fw-bold fs-4">Rich Walk</h6>
+                                <div class="row pt-3 px-3 align-items-center">
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.webp') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 p-2">
+                                        <div class="border rounded-5 p-3">
+                                            <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.jpg') }}"
+                                                class="img-fluid rounded-4 bannerimg" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row d-flex align-items-stretch" style="padding: 0px 0px !important;">
+                                        <div class="col-md-12 mb-4 mb-md-0 p-3 bg-white d-flex flex-column">
+                                            <!-- <h5 class="mb-3 text-left"></h5> -->
+                                            <div class="table-responsive h-100">
+                                                <table class="table table-sm table-hover table-bordered mb-0 h-100">
+                                                    <thead class="thead-dark">
+                                                        <tr class="table-primary">
+                                                            <th class="fw-bold">Main Keyword</th>
+                                                            <th class="fw-bold text-center">Baseline Rank</th>
+                                                            <th class="fw-bold text-center">Current Ranking</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>free walking tours Jaipur</td>
+                                                            <td class="text-center">31</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Jaipur heritage tours</td>
+                                                            <td class="text-center">26</td>
+                                                            <td class="text-center">2</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>free e-cycle tour Jaipur</td>
+                                                            <td class="text-center">20</td>
+                                                            <td class="text-center">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Jaipur trekking tours</td>
+                                                            <td class="text-center">28</td>
+                                                            <td class="text-center">13</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -790,7 +1039,9 @@
                         <div class="text-center">
                             <h2 class=" fw-bold mb-4 fs-3 ">Claim Your Free SEO Strategy Session!</h2>
                             <p>
-                                Our personalized 1-on-1 SEO consultations are designed to address your unique business challenges. Engage directly with our SEO specialists to uncover actionable strategies that drive results.
+                                Our personalized 1-on-1 SEO consultations are designed to address your unique business
+                                challenges. Engage directly with our SEO specialists to uncover actionable strategies that
+                                drive results.
                             </p>
                             <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
                                 <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i

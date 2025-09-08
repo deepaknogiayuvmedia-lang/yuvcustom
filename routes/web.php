@@ -126,7 +126,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/google-business-profile', 'googlebusinessprofile')->name('googlebusinessprofile');
     Route::get('/video-production', 'videoproduction')->name('videoproduction');
     Route::get('/seo-services', 'seo')->name('seo');
-    Route::get('/web-development', 'webdevelopment')->name('webdevelopment');
+    Route::get('/web-&-app-development', 'webdevelopment')->name('webdevelopment');
     Route::get('/designing-services', 'designingservices')->name('designingservices');
     Route::get('/marketplace-expertise', 'marketplaceexpertise')->name('marketplaceexpertise');
     Route::get('/performance-media', 'performancemedia')->name('performancemedia');

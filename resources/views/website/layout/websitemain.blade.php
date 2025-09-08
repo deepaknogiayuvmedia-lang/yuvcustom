@@ -131,7 +131,7 @@
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('videoproduction') ? 'active' : '' }}" href="{{ route('videoproduction') }}">Video Production</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web & App Development</a>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
@@ -264,7 +264,7 @@
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('whatsappmarketing') ? 'fw-bold text-primary' : '' }}" href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                             </li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('videoproduction') ? 'fw-bold text-primary' : '' }}" href="{{ route('videoproduction') }}">Video Production</a></li>
-                                            <li><a class="d-block py-2 px-3 {{ request()->routeIs('webdevelopment') ? 'fw-bold text-primary' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a></li>
+                                            <li><a class="d-block py-2 px-3 {{ request()->routeIs('webdevelopment') ? 'fw-bold text-primary' : '' }}" href="{{ route('webdevelopment') }}">Web & App Development</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('designingservices') ? 'fw-bold text-primary' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                             </li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('performancemedia') ? 'fw-bold text-primary' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a></li>
@@ -382,7 +382,7 @@
                                         <a class="{{ request()->routeIs('videoproduction') ? 'active' : '' }}" href="{{ route('videoproduction') }}">Video Production</a>
                                     </li>
                                     <li>
-                                        <a class="{{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a>
+                                        <a class="{{ request()->routeIs('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web & App Development</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>

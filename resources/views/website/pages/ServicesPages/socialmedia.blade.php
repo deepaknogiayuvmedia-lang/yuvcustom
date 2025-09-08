@@ -1,5 +1,5 @@
 @extends('website.layout.websitemain')
-@section('title', 'Web Development | ' . config('app.name'))
+@section('title', 'Social Media | ' . config('app.name'))
 @section('content')
     <canvas id="gradient-canvas"></canvas>
 
@@ -8,12 +8,13 @@
             <div class="row">
                 <div class="text-center socialmedheading">
                     Make Your Brand More Visible <br />
-                    <span class="globaltxtcolor fs-2"> with Social Media Magic</span>
+                    <span class="globaltxtcolor fs-2"> Social Media Marketing Power</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap socialmedsecondhead">
-                        From Instagram To Facebook To Twitter To Youtube, We’re The Superhero Behind The Success Of Hundreds
-                        Of Industry-leading Social Accounts.
+                        From Instagram Reels to Facebook Ads, from X (Twitter) Trends to YouTube Shorts — we’re the creative
+                        growth partners fueling viral campaigns, boosting engagement, and driving measurable ROI for
+                        hundreds of top-performing brands.
                     </p>
                 </div>
                 <div class="text-center fs-6">
@@ -23,7 +24,7 @@
                 </div>
                 <div class="d-flex justify-content-center flex-wrap">
                     <div class="me-3">
-                        <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Contact Us <i
+                        <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Book a call <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -65,9 +66,8 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 p-3 p-lg-5">
-                    <img class="seoimage "
-                        src="{{ asset('assets/websiteAssets/images/services/social-media-marketing.webp') }}"
+                <div class="col-md-6 ">
+                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/smm/smm.webp') }}"
                         alt="seo">
                 </div>
             </div>
@@ -108,13 +108,13 @@
                         </p>
                     </div>
 
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    {{-- <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
+                            <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Book a call <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
@@ -164,7 +164,7 @@
 
             <div class="row align-items-center mb-5">
                 <div class="col-md-6 p-3 p-lg-5">
-                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/data-driven.png') }}"
+                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/smm/datadriven.png') }}"
                         alt="seo">
                 </div>
                 <div class="col-md-6 p-3 p-lg-5">
@@ -193,12 +193,12 @@
                             always aligned with your business objectives.
                         </p>
                     </div>
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    {{-- <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
+                            <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Book a call <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
@@ -209,7 +209,7 @@
     <section class="py-2 position-relative">
         <div class="container  py-4 py-md-5 ">
             <div class="fs-2 fw-bold mb-4">
-                Our comprehensive range of social solutions consists of
+                Power-Packed Social Media Solutions to Scale Your Brand
             </div>
             <div class="row">
                 <div class="col-sm-12">
@@ -219,35 +219,35 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Competitor Analysis</h6>
+                                    <h6 class="card-title ms-3  fs-4">Smart Content Strategy & Calendar</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We analyze your competitors' social media strategies to uncover insights and
-                                        identify opportunities for your brand to stand out and stay ahead in the market.
+                                        We build AI-powered content calendars that align with your brand voice and goals,
+                                        ensuring consistent visibility and engagement.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Content Strategy and Planning
+                                            Short-Form Video First (Reels, TikTok, Shorts)
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Content Creation
+                                            UGC & Community-Centric Content
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Community Management
+                                            Motion Graphics, AR/VR Filters, Memes
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Copywriting and Scheduling
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Housekeeping
+                                            Trend-Based Social Campaigns
                                         </li>
                                     </ul>
+
+                                    <p class="card-text">
+                                        Plan smarter — Let’s design your content roadmap today!
+                                    </p>
 
                                 </div>
                             </div>
@@ -258,34 +258,35 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Content Calendar Setup</h6>
+                                    <h6 class="card-title ms-3  fs-4">Creative Design & Paid Social Growth</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We create a strategic content calendar that aligns with your business goals,
-                                        ensuring timely and relevant content across all platforms to engage your audience
-                                        consistently.
+                                        Our design team blends storytelling with data-driven insights to create
+                                        scroll-stopping visuals and ROI-driven campaigns.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social-first Video (Instagram, Reels)
+                                            AI-Enhanced Design & Video Creative
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            User-Generated Content, Feed, Stories, Pins
+                                            Paid Social Management & Programmatic Ads
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Graphic Design, Motion and Animation
+                                            Media Planning, A/B Testing, Predictive Analytics
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Campaigns
+                                            Continuous Optimization & Insightful Reporting
                                         </li>
 
                                     </ul>
-
+                                    <p class="card-text">
+                                        Turn ideas into impact — Launch your next winning campaign with us!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -295,35 +296,33 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Content Design and Postings</h6>
+                                    <h6 class="card-title ms-3  fs-4">Engagement, Community & Influencers</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Our creative team designs visually appealing posts that represent your brand’s
-                                        identity, keeping your content fresh and engaging for maximum audience interaction.
+                                        We foster authentic connections that turn followers into loyal advocates.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Paid Social Management
+                                            End-to-End Campaign Management
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Media Planning, Buying, Analytics, A/B Testing and more
+                                            Brand Awareness + Conversion Objectives
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Paid Social Creative (Design and Video)
+                                            Micro, Nano & Celebrity Influencer Campaigns
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Ongoing Optimisation
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Reporting and Insights
+                                            UGC Activation for Organic & Paid Growth
                                         </li>
                                     </ul>
+                                    <p class="card-text">
+                                        Grow your community — Start building stronger engagement now!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -333,32 +332,34 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Content Engagement</h6>
+                                    <h6 class="card-title ms-3  fs-4">Paid Ads That Convert</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We actively engage with your audience by responding to comments, messages, and
-                                        initiating meaningful conversations to foster stronger connections with your
-                                        followers.
+                                        We run hyper-targeted, performance-driven social ads that maximize ROI, attract the
+                                        right audience, and boost brand visibility.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            End-to-end Campaign Management
+                                            AI-Optimized Targeting & Retargeting
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Brand Awareness and Direct Response Objectives
+                                            Social Listening & Consumer Insights
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Micro, Macro, Celebrity Influencer Campaigns
+                                            Competitor Benchmarking
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            UGC Content for Organic & Paid Social
+                                            In-Depth Social Audits
                                         </li>
                                     </ul>
+                                    <p class="card-text">
+                                        Amplify your reach — Launch high-impact ad campaigns today!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -368,21 +369,54 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Ads Run On Social Media</h6>
+                                    <h6 class="card-title ms-3  fs-4">Hashtag Research & Trend Mapping</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We manage and run targeted social media ads to amplify your brand’s reach, attract
-                                        the right audience, and drive conversions, ensuring maximum ROI.
+                                        We identify trending, relevant hashtags to increase discoverability, engagement, and
+                                        content reach across platforms.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Bespoke Build Reports
+                                            Bespoke Hashtag Reports
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Listening
+                                            Social Listening Tools
+                                        </li>
+                                        <li class="flex">
+                                            <i class="bi bi-patch-check-fill text-success"></i>
+                                            Consumer Behavior Insights
+                                        </li>
+                                        <li class="flex">
+                                            <i class="bi bi-patch-check-fill text-success"></i>
+                                            Competitor Analysis & Gap Reports
+                                        </li>
+                                    </ul>
+                                    <p class="card-text">
+                                        Be seen where it matters — Unlock the hashtags your audience follows!
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <div class="d-flex pt-3 px-3 align-items-center">
+                                    <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
+                                        alt="...">
+                                    <h6 class="card-title ms-3  fs-4">Weekly Performance Monitoring</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        We track and optimize your social media presence with weekly reports that highlight
+                                        growth, engagement, and improvement opportunities.
+                                    </p>
+                                    <ul class="p-0">
+                                        <li class="flex">
+                                            <i class="bi bi-patch-check-fill text-success"></i>
+                                            Custom Growth Reports
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
@@ -390,14 +424,14 @@
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Competitor Analysis
+                                            Competitive Landscape Analysis
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Audits
+                                            Continuous Social Audits
                                         </li>
-
                                     </ul>
+                                    <p class="card-text">Stay ahead of the curve — Get actionable insights every week!</p>
 
                                 </div>
                             </div>
@@ -407,36 +441,39 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Hashtag Research</h6>
+                                    <h6 class="card-title ms-3  fs-4">Brand Theme & Font Design</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We perform in-depth hashtag research to find trending and relevant hashtags that
-                                        increase visibility, engagement, and reach for your posts on various platforms.
+                                        We craft a cohesive brand identity with tailored fonts, visuals, and design elements
+                                        that reflect your personality across all platforms. This ensures a polished,
+                                        professional, and recognizable presence.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Bespoke Build Reports
+                                            Bespoke Brand Reports
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Listening
+                                            Social Listening & Consumer Insights
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Platform & Consumer Insights
+                                            Competitor Benchmarking
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Competitor Analysis
+                                            Consistent Cross-Platform Styling
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
                                             Social Audits
                                         </li>
-
                                     </ul>
+                                    <p class="card-text">
+                                        Stand out with a strong brand identity — Let’s design your signature look!
+                                    </p>
 
                                 </div>
                             </div>
@@ -446,77 +483,39 @@
                                 <div class="d-flex pt-3 px-3 align-items-center">
                                     <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
                                         alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Page Monitoring Weekly Report</h6>
+                                    <h6 class="card-title ms-3  fs-4">Competitor Analysis & Insights</h6>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        We monitor your social media performance closely and provide weekly reports with
-                                        insights on engagement, growth, and areas for improvement.
+                                        We decode your competitors’ social strategies to uncover growth opportunities,
+                                        benchmark performance, and position your brand ahead in the market.
                                     </p>
                                     <ul class="p-0">
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Bespoke Build Reports
+                                            Data-Driven Strategy & Content Planning
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Listening
+                                            Competitor Content Mapping
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Platform & Consumer Insights
+                                            Community & Engagement Tracking
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Competitor Analysis
+                                            Copywriting Style & Scheduling Gaps
                                         </li>
                                         <li class="flex">
                                             <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Audits
+                                            Social Housekeeping & Optimizations
                                         </li>
 
                                     </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item my-3 mx-2">
-                            <div class="card rounded-5 border-0 shadow-sm p-3">
-                                <div class="d-flex pt-3 px-3 align-items-center">
-                                    <img src="{{ asset('assets/websiteAssets/images/icons/chat.png') }}" class="icons"
-                                        alt="...">
-                                    <h6 class="card-title ms-3  fs-4">Brand Theme and Fonts Design</h6>
-                                </div>
-                                <div class="card-body">
                                     <p class="card-text">
-                                        We create a consistent brand theme, including custom fonts and visuals, that aligns
-                                        with your brand identity, ensuring a cohesive and professional look across all
-                                        social media platforms.
+                                        Outsmart the competition — Discover hidden opportunities today!
                                     </p>
-                                    <ul class="p-0">
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Bespoke Build Reports
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Listening
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Platform & Consumer Insights
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Competitor Analysis
-                                        </li>
-                                        <li class="flex">
-                                            <i class="bi bi-patch-check-fill text-success"></i>
-                                            Social Audits
-                                        </li>
-
-                                    </ul>
-
                                 </div>
                             </div>
                         </div>
@@ -529,9 +528,37 @@
     <section class="py-2 position-relative">
         <div class="container py-2">
             <div class="text-start fs-1 fw-bold">
-                See What’s New in Our <br /> Social Content Portfolio
+                See What’s New in Our Social Content Portfolio
             </div>
             <div class="slick-slider">
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/17.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/18.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/19.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/20.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/21.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/22.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/23.jpg') }}" alt="">
+                </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
                         src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
@@ -599,7 +626,7 @@
     </section>
 
 
-    <section class="bannerbg position-relative py-4 py-md-5 ">
+    <section class=" position-relative py-4 py-md-5 ">
         <div class="container py-4 py-md-5  justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
@@ -613,9 +640,13 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/packaging.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Meta Business Partner</p>
-                            <p class="card-text text-start text-wrap">We're recognised as a Meta Business Partner and have
-                                agency reps & relationships with all the major social platforms.</p>
+                            <p class="fw-bold text-start">Meta-Certified Partner</p>
+                            <p class="card-text text-start text-wrap">Recognized as a Meta Business Partner, we access
+                                exclusive tools, insights, and direct platform support to boost performance and ROI.</p>
+
+                            <p class="card-text text-start text-wrap">
+                                Unlock growth with a certified partner!
+                            </p>
 
                         </div>
                     </div>
@@ -625,10 +656,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/talking.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Specialists</p>
-                            <p class="card-text text-start text-wrap">Our team consists of Social Strategists, Content
-                                Creators, Videographers, Influencer Managers & Analysts - ensuring we have specialists for
-                                every requirement.</p>
+                            <p class="fw-bold text-start">Specialist Team</p>
+                            <p class="card-text text-start text-wrap">From Social Strategists and Videographers to
+                                Influencer Managers and Analysts—our experts deliver end-to-end social success.</p>
+                            <p class="card-text text-start text-wrap">Scale faster with our specialist squad!</p>
 
                         </div>
                     </div>
@@ -638,9 +669,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/target-audience.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Engaging social-first content</p>
-                            <p class="card-text text-start text-wrap">We know how to create engaging social-first content
-                                for each social algorithm whilst building your brand and driving ROI.</p>
+                            <p class="fw-bold text-start">Social-First Content</p>
+                            <p class="card-text text-start text-wrap">We create platform-optimized, algorithm-friendly
+                                content that drives conversations, cultural relevance, and measurable ROI.</p>
+                            <p class="card-text text-start text-wrap">Let’s craft content that converts!</p>
 
                         </div>
                     </div>
@@ -652,9 +684,10 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/conversation.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Design & build custom reports</p>
-                            <p class="card-text text-start text-wrap">We design & build custom reports that align with your
-                                business goals, priorities and core KPIs.</p>
+                            <p class="fw-bold text-start">Custom Reports</p>
+                            <p class="card-text text-start text-wrap">We design KPI-focused reports aligned with your brand
+                                goals—giving clarity on performance, engagement, and conversions.</p>
+                            <p class="card-text text-start text-wrap">See what matters — get your custom report!</p>
 
                         </div>
                     </div>
@@ -664,10 +697,13 @@
                         <div class="card-body text-start">
                             <img src="{{ asset('assets/websiteAssets/images/socialmediamarting.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                            <p class="fw-bold text-start">Social transformation</p>
-                            <p class="card-text text-start text-wrap">Whether you're looking to take your brand through a
-                                social transformation, need a trusted pair of hands to grow your socials, or have a lack of
-                                resource internally - we can help you.</p>
+                            <p class="fw-bold text-start">Social Transformation</p>
+                            <p class="card-text text-start text-wrap">From scaling communities to embedding social into
+                                your business DNA—we guide your brand through real digital transformation.
+                            </p>
+                            <p class="card-text text-start text-wrap">Future-proof your brand today!
+
+                            </p>
 
                         </div>
                     </div>
@@ -677,7 +713,113 @@
         </div>
     </section>
 
-    <section class="bannerbg position-relative py-4 py-md-5 ">
+    <section class=" position-relative py-4 py-md-5 ">
+        <div class="container py-4 py-md-5  justify-content-center ">
+            <div class="row">
+                <div class="text-center socialmedheadingsecthree">
+                    Sectors We Empower as <span class="fw-bold text-primary">a Future-Ready Social Media Agency</span>
+                </div>
+
+            </div>
+            <div class="row gy-4 gx-4">
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Healthcare & Wellness.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Healthcare & Wellness</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacards h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/E-commerce & Retail.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">E-commerce & Retail</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Education & EdTech.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Education & EdTech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 gy-4">
+                <div class="col-md-4">
+                    <div class="socialmediacards h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Travel & Hospitality.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Travel & Hospitality</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Real Estate.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Real Estate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Technology, FinTech & Finance.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Technology, FinTech & Finance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/Legal, Professional & B2B.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Legal, Professional & B2B</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/automotive.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Automotive & EV Brands</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/woman.png') }}" alt="service bg"
+                                class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Digital Fashion & Metaverse Brands</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socialmediacardsone h-100">
+                        <div class="card-body text-start d-flex align-items-center">
+                            <img src="{{ asset('assets/websiteAssets/images/services/smm/shop-bag.png') }}"
+                                alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="fw-bold text-start ms-3">Creator Economy & Social Commerce</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class=" position-relative py-4 py-md-5 ">
         <div class="container py-4 py-md-5  justify-content-center ">
             <div class="row">
                 <div class="text-center socialmedheadingsecthree">
@@ -727,7 +869,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/target-audience.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Target Audience Expertise</p>
-                            <p class="card-text text-start text-wrap">We leverage deep insights into your target audience, ensuring that each post, ad, and interaction resonates with the right people at the right time for maximum engagement.</p>
+                            <p class="card-text text-start text-wrap">We leverage deep insights into your target audience,
+                                ensuring that each post, ad, and interaction resonates with the right people at the right
+                                time for maximum engagement.</p>
 
                         </div>
                     </div>
@@ -740,7 +884,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/conversation.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Effective Communication:</p>
-                            <p class="card-text text-start text-wrap">With a focus on clear and impactful messaging, we make sure your brand communicates effectively with your audience, building trust and fostering loyalty.</p>
+                            <p class="card-text text-start text-wrap">With a focus on clear and impactful messaging, we
+                                make sure your brand communicates effectively with your audience, building trust and
+                                fostering loyalty.</p>
 
                         </div>
                     </div>
@@ -751,7 +897,9 @@
                             <img src="{{ asset('assets/websiteAssets/images/socialmediamarting.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">High-Impact Campaigns:</p>
-                            <p class="card-text text-start text-wrap">Our creative social campaigns are designed to deliver maximum impact, helping you achieve your goals by increasing brand visibility, engagement, and conversions.</p>
+                            <p class="card-text text-start text-wrap">Our creative social campaigns are designed to deliver
+                                maximum impact, helping you achieve your goals by increasing brand visibility, engagement,
+                                and conversions.</p>
 
                         </div>
                     </div>
@@ -762,13 +910,115 @@
                             <img src="{{ asset('assets/websiteAssets/images/template.png') }}" alt="service bg"
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Custom Branding Templates:</p>
-                            <p class="card-text text-start text-wrap">We create custom templates that align with your brand’s aesthetic and message, ensuring your content stands out with professional and visually appealing designs across all social channels.</p>
+                            <p class="card-text text-start text-wrap">We create custom templates that align with your
+                                brand’s aesthetic and message, ensuring your content stands out with professional and
+                                visually appealing designs across all social channels.</p>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="py-4 py-md-5 position-relative bannerbg">
+        <div class="container  py-4 py-md-5 ">
+            <div class="fs-2 fw-bold mb-4">
+                Trusted Voices: Client Success Stories with Yuvmedia
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="testimonialsSlider" class="owl-carousel owl-theme">
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Since teaming up with Yuvmedia, our social engagement skyrocketed within months.
+                                        We’re not only seeing more leads but also stronger customer trust. Their data-driven
+                                        strategies and creative storytelling truly make our brand shine online."
+                                    </p>
+                                    <div class="fw-bold">
+                                        - David R., Retail Business Owner
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "The Yuvmedia team helped us scale with AI-powered targeting and social-first
+                                        campaigns. Our ROI doubled, and we’re finally connecting with the right audience at
+                                        the right time."
+                                    </p>
+                                    <div class="fw-bold">
+                                        — Sonia M., EdTech Founder
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item my-3 mx-2">
+                            <div class="card rounded-5 border-0 shadow-sm p-3">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "What stood out most was their focus on community-led growth and authentic content.
+                                        We’ve built a stronger digital presence and seen measurable results faster than
+                                        expected."
+                                    </p>
+                                    <div class="fw-bold">
+                                        — Karan S., Real Estate Developer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Struggling With Low Engagement and Missed Conversions?</h2>
+                            <p>
+                                Let Our AI-Powered Social Media Growth Strategies Transform Your Brand!
+
+                            </p>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book Your Free Proposal</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>

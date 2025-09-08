@@ -120,21 +120,16 @@
                 <div class="shiftbox">
                     <div class="shiftbox-image">
                         <a href="#" tabindex="0"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/10/AD-800x423-1.webp"
-                                alt="DD.NYC® Luxury Candles Branding and Packaging Design" class="cover"></a>
+                                src="{{ asset('assets/websiteAssets/images/services/seo/work/therichx.webp') }}"
+                                alt="The RichX Community" class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="01">
                                 <div class="preview-name preview-name__caption">
-                                    <a href="#" tabindex="0">Antidote – Luxury Candle Branding &amp; Packaging
-                                        Design</a>
+                                    <a href="#" tabindex="0">The RichX Community</a>
                                 </div>
-                                <div class="preview-name">Packaging Design</div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">CPG</div>
-
+                                <div class="preview-name">The Best Platform To Grow Your Tech-Skills From 0</div>
                             </div>
                         </div>
                     </div>
@@ -144,21 +139,14 @@
                 <div class="shiftbox">
                     <div class="shiftbox-image">
                         <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/07/Stadium_800_423.gif"
-                                alt="NYCFC New York City Stadium by DD.NYC®" class="cover"></a>
+                                src="{{ asset('assets/websiteAssets/images/services/seo/work/cocobull.webp') }}"
+                                alt="cocobull coal" class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="02">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">New
-                                        York City Football Club Stadium – Website Design
-                                        &amp; Development</a></div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Web Development</div>
-                                <div class="preview-name">UI/UX</div>
-                                <div class="preview-name">3D Design</div>
-                                <div class="preview-name">Custom Animations</div>
-
+                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Cocobull Coal</a></div>
+                                <div class="preview-name">Charcoal| High-Quality Hookah Charcoal | Hookah Charcoal</div>
                             </div>
                         </div>
                     </div>
@@ -169,20 +157,17 @@
                 <div class="shiftbox">
                     <div class="shiftbox-image">
                         <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/11/IW-800x423-1.webp"
-                                alt="IvyWise Education Consultancy Branding &amp; Website Design by DD.NYC®"
+                                src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.webp') }}"
+                                alt="Richwalk Jaipur"
                                 class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="03">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">IvyWise
-                                        Education Consultancy</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Brand Collateral</div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Video Production</div>
-
+                                <div class="preview-name preview-name__caption">
+                                    <a href="#" tabindex="-1">Rich Walk</a>
+                                </div>
+                                <div class="preview-name">Explore Jaipur & Udaipur with Richwalk Tours</div>
                             </div>
                         </div>
                     </div>
@@ -194,20 +179,16 @@
                 <div class="shiftbox">
                     <div class="shiftbox-image">
                         <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2023/12/800_x_423.webp" alt=""
+                                src="{{ asset('assets/websiteAssets/images/services/seo/work/scienceseeker.webp') }}" alt=""
                                 class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="04">
-                                <div class="preview-name preview-name__caption"><a href="#"
-                                        tabindex="-1">WillowWood Global Medical Branding</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Brand Collateral</div>
-                                <div class="preview-name">3D Design</div>
-                                <div class="preview-name">Motion Graphics</div>
-                                <div class="preview-name">Web Design</div>
-
+                                <div class="preview-name preview-name__caption">
+                                    <a href="#" tabindex="-1">Science Seeker</a>
+                                </div>
+                                <div class="preview-name">Best Online Coaching Institute | Science Seekers</div>
                             </div>
                         </div>
                     </div>
@@ -219,25 +200,20 @@
                 <div class="shiftbox">
                     <div class="shiftbox-image">
                         <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/05/DD.NYC-SJP-800-x-423-1.jpg" alt=""
+                                src="{{ asset('assets/websiteAssets/images/services/seo/work/carzchoice.webp') }}" alt="carzchoice"
                                 class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="05">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">SJP
-                                        Properties Real Estate Web Design</a></div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">UI/UX</div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">Real Estate</div>
-
+                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Carz Choice</a></div>
+                                <div class="preview-name">New Cars, Used Cars, Buy a Car, Sell Your Car - Carz Choice</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
+            {{-- <div>
 
                 <div class="shiftbox">
                     <div class="shiftbox-image">
@@ -356,7 +332,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
 
@@ -364,7 +340,7 @@
             <div class="shiftbox-arrow shiftbox-arrow__left js-shiftbox-prev"></div>
             <div class="shiftbox-pos">
                 <var class="shiftbox-current js-shiftbox-current">01</var> /
-                <span class="shiftbox-num">10</span>
+                <span class="shiftbox-num">5</span>
             </div>
             <div class="shiftbox-arrow shiftbox-arrow__right js-shiftbox-next"></div>
         </div>
@@ -1192,6 +1168,40 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Don’t wait to launch—start today.</h2>
+                            {{-- <p>
+                                Our personalized 1-on-1 SEO consultations are designed to address your unique business challenges. Engage directly with our SEO specialists to uncover actionable strategies that drive results.
+                            </p> --}}
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book a call Now</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
 
