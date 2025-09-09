@@ -36,8 +36,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="grpahicbimage"
-                        src="{{ asset('assets/websiteAssets/images/services/artist-photographer.webp') }}" alt="">
+                    <img class="img-fluid rounded-5"
+                        src="{{ asset('assets/websiteAssets/images/services/product/brandesign.webp') }}" alt="">
                 </div>
             </div>
         </div>
@@ -79,11 +79,12 @@
             </div>
         </div>
 
-        <div class="js-shiftbox-carousel shiftbox-carousel">
+        {{-- <div class="js-shiftbox-carousel shiftbox-carousel">
             <div>
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="0"><img src="https://dd.nyc/wp-content/uploads/2024/10/AD-800x423-1.webp"
+                        <a href="#" tabindex="0"><img
+                                src="https://dd.nyc/wp-content/uploads/2024/10/AD-800x423-1.webp"
                                 alt="DD.NYC® Luxury Candles Branding and Packaging Design" class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
@@ -106,7 +107,8 @@
             <div>
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img src="https://dd.nyc/wp-content/uploads/2024/07/Stadium_800_423.gif"
+                        <a href="#" tabindex="-1"><img
+                                src="https://dd.nyc/wp-content/uploads/2024/07/Stadium_800_423.gif"
                                 alt="NYCFC New York City Stadium by DD.NYC®" class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
@@ -130,7 +132,8 @@
 
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img src="https://dd.nyc/wp-content/uploads/2024/11/IW-800x423-1.webp"
+                        <a href="#" tabindex="-1"><img
+                                src="https://dd.nyc/wp-content/uploads/2024/11/IW-800x423-1.webp"
                                 alt="IvyWise Education Consultancy Branding &amp; Website Design by DD.NYC®"
                                 class="cover"></a>
                     </div>
@@ -154,13 +157,15 @@
 
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img src="https://dd.nyc/wp-content/uploads/2023/12/800_x_423.webp" alt=""
+                        <a href="#" tabindex="-1"><img
+                                src="https://dd.nyc/wp-content/uploads/2023/12/800_x_423.webp" alt=""
                                 class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="04">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">WillowWood Global
+                                <div class="preview-name preview-name__caption"><a href="#"
+                                        tabindex="-1">WillowWood Global
                                         Medical Branding</a></div>
                                 <div class="preview-name">Branding</div>
                                 <div class="preview-name">Brand Collateral</div>
@@ -225,13 +230,15 @@
 
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img src="https://dd.nyc/wp-content/uploads/2023/12/800-x-423-2.jpg"
-                                alt="DD.NYC® Hawkridge" class="cover"></a>
+                        <a href="#" tabindex="-1"><img
+                                src="https://dd.nyc/wp-content/uploads/2023/12/800-x-423-2.jpg" alt="DD.NYC® Hawkridge"
+                                class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
                         <div class="preview">
                             <div class="preview-content" data-index="07">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Hawkridge Luxury
+                                <div class="preview-name preview-name__caption"><a href="#"
+                                        tabindex="-1">Hawkridge Luxury
                                         Real Estate Development</a></div>
                                 <div class="preview-name">Luxury</div>
                                 <div class="preview-name">Real Estate</div>
@@ -271,7 +278,8 @@
 
                 <div class="shiftbox">
                     <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img src="https://dd.nyc/wp-content/uploads/2023/07/Start-Slider.webp"
+                        <a href="#" tabindex="-1"><img
+                                src="https://dd.nyc/wp-content/uploads/2023/07/Start-Slider.webp"
                                 alt="DD.NYC® designs new york charity gala Ms. Foundation" class="cover"></a>
                     </div>
                     <div class="shiftbox-content">
@@ -325,7 +333,7 @@
                 <span class="shiftbox-num">10</span>
             </div>
             <div class="shiftbox-arrow shiftbox-arrow__right js-shiftbox-next"></div>
-        </div>
+        </div> --}}
     </div>
     <section class="py-5 position-relative">
         <div class="container">
@@ -335,8 +343,8 @@
                 </div>
                 <div class="service-grid">
 
-                    <div class="service-list js-service-container fadein" data-aos="fade-up" style="min-height: 363.547px;"
-                        data-aos-offset="303" data-aos-once="true">
+                    <div class="service-list js-service-container fadein" data-aos="fade-up"
+                        style="min-height: 363.547px;" data-aos-offset="303" data-aos-once="true">
                         <div class="service active js-service" data-service="web-design">
                             <div class="service-caption js-service-caption">UI/UX Design</div>
                             <div class="service-content js-service-content">
@@ -855,7 +863,7 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center graphicheadingsecthree">
-                    Our <span class="fw-bold text-primary">Procedure</span>
+                    Our <span class="fw-bold text-primary">Work</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap graphicsecondheadsecthree">
@@ -866,75 +874,75 @@
             </div>
             <div class="row gy-4 gx-4 justify-content-center">
                 <!--
-                        <div class="col-md-4">
-                            <div class="graphicards">
-                                <div class="card-body text-start">
-                                    <img src="{{ asset('assets/websiteAssets/images/web-design.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                                    <p class="fw-bold text-start">Discovery</p>
-                                    <p class="card-text text-start text-wrap">
-                                        To make sure our designs reflect your vision, we start by learning about your brand,
-                                        objectives, and target market.
-                                    </p>
+                            <div class="col-md-4">
+                                <div class="graphicards">
+                                    <div class="card-body text-start">
+                                        <img src="{{ asset('assets/websiteAssets/images/web-design.png') }}" alt="service bg"
+                                            class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                        <p class="fw-bold text-start">Discovery</p>
+                                        <p class="card-text text-start text-wrap">
+                                            To make sure our designs reflect your vision, we start by learning about your brand,
+                                            objectives, and target market.
+                                        </p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="graphicards">
-                                <div class="card-body text-start">
-                                    <img src="{{ asset('assets/websiteAssets/images/uiux.png') }}" alt="service bg" class="mb-3"
-                                        style="width: 60px; height: 60px; object-fit: contain;">
-                                    <p class="fw-bold text-start">Strategy</p>
-                                    <p class="card-text text-start text-wrap">
-                                        We create a thorough design plan that specifies the methodology, schedule, and outputs.
-                                    </p>
+                            <div class="col-md-4">
+                                <div class="graphicards">
+                                    <div class="card-body text-start">
+                                        <img src="{{ asset('assets/websiteAssets/images/uiux.png') }}" alt="service bg" class="mb-3"
+                                            style="width: 60px; height: 60px; object-fit: contain;">
+                                        <p class="fw-bold text-start">Strategy</p>
+                                        <p class="card-text text-start text-wrap">
+                                            We create a thorough design plan that specifies the methodology, schedule, and outputs.
+                                        </p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="graphicards">
-                                <div class="card-body text-start">
-                                    <img src="{{ asset('assets/websiteAssets/images/graphic-designer.png') }}" alt="service bg"
-                                        class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                                    <p class="fw-bold text-start">Design</p>
-                                    <p class="card-text text-start text-wrap">
-                                        After receiving your input, our team develops preliminary design suggestions to enhance and
-                                        perfect the images.
-                                    </p>
+                            <div class="col-md-4">
+                                <div class="graphicards">
+                                    <div class="card-body text-start">
+                                        <img src="{{ asset('assets/websiteAssets/images/graphic-designer.png') }}" alt="service bg"
+                                            class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                        <p class="fw-bold text-start">Design</p>
+                                        <p class="card-text text-start text-wrap">
+                                            After receiving your input, our team develops preliminary design suggestions to enhance and
+                                            perfect the images.
+                                        </p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="graphicards">
-                                <div class="card-body text-start">
-                                    <img src="{{ asset('assets/websiteAssets/images/3d-film.png') }}" alt="service bg" class="mb-3"
-                                        style="width: 60px; height: 60px; object-fit: contain;">
-                                    <p class="fw-bold text-start">Implementation</p>
-                                    <p class="card-text text-start text-wrap">
-                                        We make sure the finished designs are responsive across all platforms and gadgets.
-                                    </p>
+                            <div class="col-md-4">
+                                <div class="graphicards">
+                                    <div class="card-body text-start">
+                                        <img src="{{ asset('assets/websiteAssets/images/3d-film.png') }}" alt="service bg" class="mb-3"
+                                            style="width: 60px; height: 60px; object-fit: contain;">
+                                        <p class="fw-bold text-start">Implementation</p>
+                                        <p class="card-text text-start text-wrap">
+                                            We make sure the finished designs are responsive across all platforms and gadgets.
+                                        </p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="graphicards">
-                                <div class="card-body text-start">
-                                    <img src="{{ asset('assets/websiteAssets/images/trim.png') }}" alt="service bg" class="mb-3"
-                                        style="width: 60px; height: 60px; object-fit: contain;">
-                                    <p class="fw-bold text-start">Evaluation</p>
-                                    <p class="card-text text-start text-wrap">
-                                        To make sure the designs fulfill your goals, we evaluate their performance and make the
-                                        required modifications.
-                                    </p>
+                            <div class="col-md-4">
+                                <div class="graphicards">
+                                    <div class="card-body text-start">
+                                        <img src="{{ asset('assets/websiteAssets/images/trim.png') }}" alt="service bg" class="mb-3"
+                                            style="width: 60px; height: 60px; object-fit: contain;">
+                                        <p class="fw-bold text-start">Evaluation</p>
+                                        <p class="card-text text-start text-wrap">
+                                            To make sure the designs fulfill your goals, we evaluate their performance and make the
+                                            required modifications.
+                                        </p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                         -->
+                             -->
                 <div class="portfolio section">
                     <div class="container">
 
@@ -953,26 +961,34 @@
 
                         <div class="filters-content">
                             <div class="row grid">
-                                    <div class="col-sm-4 all uiux">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-cocobullcoal-2025-09-09-14_49_2.jpeg') }}" alt="" class="img-fluid h-100 w-100 object-fit-cover" style="object-position: top;">
-                                        </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-cocobullcoal-2025-09-09-14_49_2.jpeg') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
                                     </div>
-                                    <div class="col-sm-4 all uiux">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-investorlands-2025-09-09-14_47_4.jpeg') }}" alt="" class="img-fluid h-100 w-100 object-fit-cover" style="object-position: top;">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-investorlands-2025-09-09-14_47_4.jpeg') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
                                     </div>
-                                    <div class="col-sm-4 all uiux ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-priyashfoodspices-2025-09-09-14_44_4.jpeg') }}" alt="" class="img-fluid h-100 w-100 object-fit-cover" style="object-position: top;">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all uiux ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-priyashfoodspices-2025-09-09-14_44_4.jpeg') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
                                     </div>
-                                    <div class="col-sm-4 all uiux">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-theboylook-2025-09-09-14_46_3.jpeg') }}" alt="" class="img-fluid h-100 w-100 object-fit-cover" style="object-position: top;">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-theboylook-2025-09-09-14_46_3.jpeg') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
                                     </div>
+                                </div>
                                 <div class="col-sm-4 all 3d graphic ">
                                     <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
                                         <img src="{{ asset('assets/websiteAssets/images/services/product/3d-product-modeling-2-1024x491.jpg') }}"
@@ -985,474 +1001,173 @@
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                    <div class="col-sm-4 all branding mockup">
-                                        <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/agarwal.jpg') }}"
-                                                alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                <div class="col-sm-4 all branding mockup">
+                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/agarwal.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all branding graphic ">
-                                        <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/blossoming-colorful-watercolor-flowers_52683-30106.jpg') }}"
-                                                alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all branding graphic ">
+                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/blossoming-colorful-watercolor-flowers_52683-30106.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all branding mockup">
-                                        <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/care-for-water-products-3d-model-f7e8fd886d-1024x768.jpg') }}"
-                                                alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all branding mockup">
+                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/care-for-water-products-3d-model-f7e8fd886d-1024x768.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all mockup">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-artwork-sweetens-pulpy-jam-label-with-plump_764982-6870.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-artwork-sweetens-pulpy-jam-label-with-plump_764982-6870.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all mockup">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-label-artwork-jam-label-design-with-red-apple_764982-6527.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-label-artwork-jam-label-design-with-red-apple_764982-6527.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all 3d branding graphic ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/gabriel-soares-09-809x1024.webp') }}" alt="" class="img-fluid h-100 w-100 " >
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all 3d branding graphic ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gabriel-soares-09-809x1024.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all branding mockup" >
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/go.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all branding mockup">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/go.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all branding">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/gopichad-8.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all branding">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichad-8.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all branding mockup">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/gopichand-3.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all branding mockup">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichand-3.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all graphic ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/gopichng-7.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all graphic ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichng-7.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all graphic ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/hand-drawn-india-independence-day-sale-banners_23-2147841809.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all graphic ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/hand-drawn-india-independence-day-sale-banners_23-2147841809.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all graphic ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/jade-matcha-body-lotion-3d-model-66b4fdf057-1024x768.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all graphic ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/jade-matcha-body-lotion-3d-model-66b4fdf057-1024x768.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    
-                                    <div class="col-sm-4 all graphic ">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/Sandwich0.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+
+                                <div class="col-sm-4 all graphic ">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/Sandwich0.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all product">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/set-of-four-stylish-brown-bags-3d-model-max-fbx-c4d-1024x683.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all product">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/set-of-four-stylish-brown-bags-3d-model-max-fbx-c4d-1024x683.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all product">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/spray-bottle-and-fliptop-250ml-3d-model-rigged-obj-mtl-fbx-blend-1024x1024.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all product">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/spray-bottle-and-fliptop-250ml-3d-model-rigged-obj-mtl-fbx-blend-1024x1024.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    <div class="col-sm-4 all product">
-                                        <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                            <img src="{{ asset('assets/websiteAssets/images/services/product/tea-ad-with-drawing-decoration_23-2148384118.jpg') }}" alt="" class="img-fluid h-100 w-100 ">
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all product">
+                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/tea-ad-with-drawing-decoration_23-2148384118.jpg') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
                                     </div>
-                                    
+                                </div>
+
                                 <div class="col-sm-4 all vfx">
-                                        <div class="item">
-                                         <iframe src="https://player.vimeo.com/video/1057501045?background=1&amp;autoplay=1&amp;loop=1&amp;muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" class="w-100 h-100" data-ready="true"></iframe>
-                                        </div>
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1057501045?background=1&amp;autoplay=1&amp;loop=1&amp;muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen="" class="w-100 h-100" data-ready="true"></iframe>
                                     </div>
-                                     <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639233?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639233?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639291?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639291?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639333?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639333?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639386?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639386?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639436?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639436?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639487?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639487?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639541?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
+                                </div>
+                                <div class="col-sm-4 all cgi">
+                                    <div class="item">
+                                        <iframe
+                                            src="https://player.vimeo.com/video/1111639541?background=1&autoplay=1&loop=1&muted=1"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen class="w-100 h-100 rounded-4"></iframe>
                                     </div>
-                                   <!-- <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639576?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639616?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639656?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all cgi">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1111639704?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216743?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216780?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216801?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216833?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216878?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216942?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216993?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all celebrity">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112216692?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112220911?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112220959?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112221892?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112234663?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112234744?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112234796?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112234710?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112234622?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all ugc">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112243198?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112244046?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112243960?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112244001?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112244925?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112244890?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112245344?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112245364?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112245271?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 all influencers">
-                                        <div class="item">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/1112245819?background=1&autoplay=1&loop=1&muted=1"
-                                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                                class="w-100 h-100 rounded-4"></iframe>
-                                        </div>
-                                    </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
-            <div class="d-flex justify-content-center flex-wrap buttonsdiv mt-3">
-                <div class="me-3">
-                    <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Book a Call<i
-                            class="bi bi-arrow-right ms-2"></i></a>
-                </div>
-                <div class="me-3 mt-2 mt-md-0">
-                    <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
-                            class="bi bi-arrow-right ms-2"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5 position-relative">
-        <div class="container py-5 justify-content-center">
-            <div class="row">
-                <div class="text-center graphicheadingsecthree mb-3">
-                    Smart Solutions, Stronger Brands <span class="fw-bold text-primary">– Choose Yuvmedia</span>
-                </div>
-            </div>
-            <div class="row gy-4 gx-4">
-                <div class="col-md-4">
-                    <div class="graphicards">
-                        <div class="card-body text-start">
-                            <p class="fw-bold text-start">Expertise</p>
-                            <p class="card-text text-start text-wrap">
-                                Our team has experts for any need, so you can be sure your project is in good hands.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="graphicards">
-                        <div class="card-body text-start">
-                            <p class="fw-bold text-start">Engaging material</p>
-                            <p class="card-text text-start text-wrap">
-                                We provide material that builds your brand and increases return on investment while
-                                prioritizing social media on each platform.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="graphicards">
-                        <div class="card-body text-start">
-                            <p class="fw-bold text-start">Custom Reporting</p>
-                            <p class="card-text text-start text-wrap">
-                                We plan and create reports that are in line with your priorities, business objectives, and
-                                key performance indicators.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-2 gy-4">
-                <div class="col-md-4">
-                    <div class="graphicards">
-                        <div class="card-body text-start">
-                            <p class="fw-bold text-start">Social Transformation</p>
-                            <p class="card-text text-start text-wrap">
-                                We can assist you whether you want to change your brand, need a reliable partner to expand
-                                your social media following.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="graphicards">
-                        <div class="card-body text-start">
-                            <p class="fw-bold text-start">Evaluation</p>
-                            <p class="card-text text-start text-wrap">
-                                To make sure the designs fulfill your goals, we evaluate their performance and make the
-                                required modifications.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="d-flex justify-content-center flex-wrap buttonsdiv mt-3">
                 <div class="me-3">
@@ -1588,7 +1303,45 @@
         </div>
     </section>
 
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
 
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Let’s Design Your Next Big Idea</h2>
+
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book a Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -1599,7 +1352,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
     <script>
-        $('.filters ul li').click(function () {
+        $('.filters ul li').click(function() {
             $('.filters ul li').removeClass('active');
             $(this).addClass('active');
 
@@ -1617,7 +1370,7 @@
             }
         })
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             AOS.init({
                 duration: 1000, // Set the global duration for animations
                 easing: 'ease', // You can customize easing if desired
@@ -1625,7 +1378,7 @@
             });
 
             // Optional: If you want the animation on click (like toggling services), you can also use AOS on click
-            $('.js-service').on('click', function () {
+            $('.js-service').on('click', function() {
                 $('.js-service').removeClass('active');
                 $(this).addClass('active');
                 var service = $(this).data('service');
@@ -1639,7 +1392,7 @@
     </script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var $carousel = $('.shiftbox-carousel');
 
             // Initialize slick carousel
@@ -1656,17 +1409,17 @@
             });
 
             // Update current slide number
-            $carousel.on('afterChange', function (event, slick, currentSlide) {
+            $carousel.on('afterChange', function(event, slick, currentSlide) {
                 $('.js-shiftbox-current').text(('0' + (currentSlide + 1)).slice(-2));
             });
 
             // Previous slide
-            $('.js-shiftbox-prev').on('click', function () {
+            $('.js-shiftbox-prev').on('click', function() {
                 $carousel.slick('slickPrev');
             });
 
             // Next slide
-            $('.js-shiftbox-next').on('click', function () {
+            $('.js-shiftbox-next').on('click', function() {
                 $carousel.slick('slickNext');
             });
         });
