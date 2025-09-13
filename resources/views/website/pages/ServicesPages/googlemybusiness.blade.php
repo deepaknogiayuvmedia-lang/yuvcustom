@@ -8,24 +8,27 @@
             <div class=" row">
                 <div class="col-md-6">
                     <div class="text-start gmbheading">
-                        Get Noticed Locally, <span class="text-primary fw-bold"> Grow Globally</span>
+                        Get Discovered Locally, <span class="text-primary fw-bold"> Grow Globally</span>
                     </div>
                     <div class="text-start">
                         <p class="text-wrap gmbsecondhead">
-                            With a fully optimized Google Business Profile, you can make a powerful impact locally while
-                            expanding your reach globally. By ensuring your business information is accurate, engaging, and
-                            up-to-date, you increase visibility in local search results, making it easier for potential
-                            customers to find you.
+                            Your Google Business Profile isn’t just a listing—it’s your digital storefront and growth
+                            engine. With a fully optimized profile, you can <b> capture local attention </b> while <b>
+                                expanding your brand reach worldwide.</b>
+
                         </p>
                     </div>
                     <div class="text-start">
                         <p class="text-wrap gmbsecondhead">
-                            Whether it's showcasing your services, sharing updates, or collecting customer reviews, your
-                            Google Business Profile is the gateway to enhancing your online presence and attracting both
-                            local and international customers.
+                            From accurate business info to engaging updates, service showcases, and customer reviews, every
+                            element boosts your <b> local search visibility </b> and positions your brand as the go-to
+                            choice. Think of it as your gateway to <b> attracting new clients, building credibility, and
+                                scaling globally </b>—all from a single platform.
                         </p>
                         <p class="text-wrap gmbsecondhead">
-                            Let’s help you get noticed locally and scale your business globally!
+                            <b> Ready to get noticed locally and grow without limits? </b> Let’s optimize your profile and
+                            turn searches into customers!
+
                         </p>
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
@@ -317,6 +320,162 @@
                 </div>
 
             </div>
+        </div>
+    </section>
+
+    <section class="seosectionn mediabuying py-5">
+        <div class="container py-2 pb-md-5">
+            <div class="row">
+                <div class="text-center fw-bold mb-4 performanceheading">
+                    Get Discovered <span class="performanceheadingsub">Across Industries</span>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Finance.jpg') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Finance</h5>
+                            <p class="card-text text-start text-wrap">
+                                In the highly competitive finance industry, appearing in local searches is essential. Our
+                                Google Business Profile optimization helps banks, credit unions, investment firms, and
+                                insurance providers boost visibility, attract potential clients, and build credibility. By
+                                leveraging local SEO strategies, review management, and accurate business info, we ensure
+                                your finance brand stands out and drives measurable growth.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto h-100">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Healthcare & Medical Practices.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Healthcare</h5>
+                            <p class="card-text text-start text-wrap">
+                                Patients are searching online before choosing healthcare providers. Our GBP services help
+                                hospitals, clinics, and medical practices get discovered locally, enhance trust, and
+                                increase appointments. From service listings to review monitoring and engagement, we
+                                optimize your profile to connect with patients and strengthen your online reputation.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/E-commerce.jfif') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">E-commerce</h5>
+                            <p class="card-text text-start text-wrap">
+                                E-commerce brands need to cut through the digital clutter. Optimizing your Google Business
+                                Profile boosts visibility, improves customer engagement, and drives clicks. We showcase your
+                                products, manage reviews, and ensure accurate information so your online store gets noticed
+                                by local buyers and converts searches into sales.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Education & Institutions.png') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Education</h5>
+                            <p class="card-text text-start text-wrap">
+                                Educational institutions face stiff digital competition. Our GBP optimization helps schools,
+                                colleges, coaching centers, and training institutes get discovered by prospective students.
+                                By highlighting courses, reviews, and accurate business details, we strengthen your brand
+                                presence, boost inquiries, and drive enrollments locally.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Lifestyle.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Lifestyle & Fashion</h5>
+                            <p class="card-text text-start text-wrap">
+                                Lifestyle brands need a strong local presence. From boutique stores to wellness centers, our
+                                GBP services showcase products, services, and reviews while enhancing brand visibility. By
+                                leveraging local SEO and engagement strategies, we help lifestyle businesses attract more
+                                clients and create a lasting impression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Reatestate.png') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Real Estate</h5>
+                            <p class="card-text text-start text-wrap">
+                                Property businesses must be visible where buyers search. Our Google Business Profile
+                                optimization helps real estate agents, developers, and property managers showcase listings,
+                                manage reviews, and generate leads. By targeting local search intent, we ensure your
+                                properties reach the right audience and convert interest into sales.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Restaurants & Dining.jpg') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Food & Hospitality</h5>
+                            <p class="card-text text-start text-wrap">
+                                Restaurants, cafes, and hotels thrive on local search visibility. Our GBP optimization
+                                highlights menus, photos, reviews, and operational info to attract diners and travelers. By
+                                improving discoverability and engagement, we help food and hospitality businesses increase
+                                foot traffic and bookings effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Automotive.jpg') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Automotive</h5>
+                            <p class="card-text text-start text-wrap">
+                                Dealerships, service centers, and auto shops need to stand out in local searches. Our GBP
+                                optimization showcases services, reviews, and offers while boosting online credibility. By
+                                connecting with potential customers and improving search visibility, we help automotive
+                                businesses drive more calls, visits, and conversions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/electricians.jpg') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Professional Services</h5>
+                            <p class="card-text text-start text-wrap">
+                                Law firms, accounting agencies, consultants, and B2B service providers benefit from strong
+                                local SEO. Our Google Business Profile services optimize listings, display services, manage
+                                reviews, and enhance visibility. We help professional businesses build trust, attract
+                                clients, and convert searches into meaningful business outcomes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
     </section>
 
@@ -908,7 +1067,47 @@
         </div>
     </section>
 
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
 
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Your Customers Are Searching… Are You Ready?</h2>
+                            <p>
+                                Let’s make sure they find YOU first. Optimize your Google Business Profile now!
+                            </p>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book A Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>

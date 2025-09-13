@@ -726,8 +726,66 @@
                     <p class="feature-description">Rs. 1000 /-</p>
                 </div>
 
+                <div class="feature-card fade-in">
+                    <span class="feature-icon">🖼️</span>
+                    <h3 class="feature-title">Images (Min Qty. 5)</h3>
+                    <p class="feature-description">Rs. 1,500 /-</p>
+                </div>
+
             </div>
         </div>
+    </section>
+
+    <!-- E-commerce Packages -->
+    <section class="ecommerce-packages" id="packages">
+        <div class="container">
+            <h2 class="section-title fade-in">3D Model Packages</h2>
+            
+            <div class="packages-grid">
+                <!-- Product Showcase Package -->
+                <div class="package-card fade-in">
+                    <div class="package-header">
+                        <h3 class="package-title">Basic Model</h3>
+                    </div>
+                    <ul class="package-features">
+                        <li><span class="feature-name">Only Outer</span> <span class="feature-value">Rs. 5000/-</span></li>
+                        <li><span class="feature-name">Only Inner</span> <span class="feature-value">Rs. 5000/-</span></li>
+                        <li><span class="feature-name">Both</span> <span class="feature-value">Rs. 9000/-</span></li>
+                    </ul>
+                    <button class="package-button">Select Package</button>
+                </div>
+
+                <!-- Product Collection Package -->
+                <div class="package-card popular fade-in">
+                    {{-- <div class="popular-badge">Most Popular</div> --}}
+                    <div class="package-header">
+                        <h3 class="package-title">Complex Model</h3>
+                    </div>
+                    <ul class="package-features">
+                        <li><span class="feature-name">Only Outer</span> <span class="feature-value">Rs. 8000/-</span></li>
+                        <li><span class="feature-name">Only Inner</span> <span class="feature-value">Rs. 8000/-</span></li>
+                        <li><span class="feature-name">Both</span> <span class="feature-value">Rs. 15000/-</span></li>
+                    </ul>
+                    <button class="package-button">Select Package</button>
+                </div>
+
+                <!-- Premium Lifestyle Package -->
+                <div class="package-card fade-in">
+                    <div class="package-header">
+                        <h3 class="package-title">Highly Complex Model</h3>
+                    </div>
+                    <ul class="package-features">
+                        <li><span class="feature-name">Only Outer</span> <span class="feature-value">Rs. 12000/-</span></li>
+                        <li><span class="feature-name">Only Inner</span> <span class="feature-value">Rs. 12000/-</span></li>
+                        <li><span class="feature-name">Both</span> <span class="feature-value">Rs. 23000/-</span></li>
+                    </ul>
+                    <button class="package-button">Select Package</button>
+                </div>
+            </div>
+
+
+        </div>
+        
 
     </section>
 
@@ -812,7 +870,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  
 
     <!-- Features Section -->
     <section class="features">

@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/influencer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/technologies.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/customnitesh.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/websiteAssets/css/niteshresponsive.css') }}">
@@ -137,7 +138,7 @@
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a>
+                                                <a class="dropdown-item customdrodownitem {{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Media Buying & Planning</a>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item customdrodownitem {{ request()->routeIs('marketplaceexpertise') ? 'active' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace
@@ -267,7 +268,7 @@
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('webdevelopment') ? 'fw-bold text-primary' : '' }}" href="{{ route('webdevelopment') }}">Web & App Development</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('designingservices') ? 'fw-bold text-primary' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                             </li>
-                                            <li><a class="d-block py-2 px-3 {{ request()->routeIs('performancemedia') ? 'fw-bold text-primary' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a></li>
+                                            <li><a class="d-block py-2 px-3 {{ request()->routeIs('performancemedia') ? 'fw-bold text-primary' : '' }}" href="{{ route('performancemedia') }}">Media Buying & Planning</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('marketplaceexpertise') ? 'fw-bold text-primary' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace
                                                     Expertise</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('influencermarketing') ? 'fw-bold text-primary' : '' }}" href="{{ route('influencermarketing') }}">Influencer
@@ -388,7 +389,7 @@
                                         <a class="{{ request()->routeIs('designingservices') ? 'active' : '' }}" href="{{ route('designingservices') }}">Designing Services</a>
                                     </li>
                                     <li>
-                                        <a class="{{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Performance Media</a>
+                                        <a class="{{ request()->routeIs('performancemedia') ? 'active' : '' }}" href="{{ route('performancemedia') }}">Media Buying & Planning</a>
                                     </li>
                                     <li>
                                         <a class="{{ request()->routeIs('marketplaceexpertise') ? 'active' : '' }}" href="{{ route('marketplaceexpertise') }}">Marketplace Expertise</a>

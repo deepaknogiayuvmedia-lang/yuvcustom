@@ -41,29 +41,21 @@
 
                 <div class="col-md-6">
                     <div class="text-start fs-2 fw-bold">
-                        Drive Sales, Build Relationships, and Keep Your Audience Engaged
+                        Drive Sales. Build Relationships. Keep Customers Engaged.
+                    </div>
+                    <div class="text-start fs-6 fw-bold mt-3">
+                        Email Marketing That Works for Your Business
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Are you aiming to boost sales, engage your audience, and cultivate lasting customer
-                            relationships?
-                        </p>
-                        <h6 class="text-wrap seosecondhead">
-                            Wondering how to achieve this?
-                        </h6>
-                        <p class="text-wrap seosecondhead">
-                            As a leading email marketing agency, we specialize in propelling your business toward success.
-                        </p>
-                        <p class="text-wrap seosecondhead">
-                            Let’s explore how we make it happen!
+                            Boost sales, connect with your audience, and turn one-time visitors into loyal customers. Our
+                            email marketing strategies use smart automation, personalized campaigns, and data-driven
+                            insights to deliver the right message at the right time. We help businesses grow by turning
+                            every email into an opportunity to engage, convert, and retain customers.
                         </p>
                     </div>
-
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
+                    <div class="text-start fs-6 fw-bold">
+                        Let’s Grow Your Business – Book a Call Today!
                     </div>
                 </div>
 
@@ -82,25 +74,16 @@
             <div class="row align-items-center mt-5">
 
                 <div class="col-md-12 text-white">
-                    <div class="text-start fs-2 fw-bold">
+                    <div class="text-center fs-2 fw-bold">
                         Supercharge Your Campaigns
                     </div>
-                    <div class="text-start py-2">
+                    <div class="text-center py-2">
                         <p class="text-wrap seosecondhead">
                             1000’s of beautiful templates using out intuitive email editor. Yuvmedia provides interactive
                             emails that help boost your conversion with smart & geo optimized sends. Resend to unopeners
                             with our 1-click resend functionality.
                         </p>
                     </div>
-
-                    <div class="d-flex justify-content-start flex-wrap ">
-                        <div class="me-3">
-                            <a href=" {{ route('contact') }}" class="btn btn-lg btn-info">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </div>
@@ -190,7 +173,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img class="seoimage " src="https://www.sendx.io/hubfs/automate-your-success.png" alt="seo">
+                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/email/emailss.png') }}" alt="seo">
                 </div>
                 <div class="col-md-6">
                     <div class="text-start fs-2 fw-bold">
@@ -208,13 +191,6 @@
                             <li>Easily resend to unopened emails with just one click.</li>
                         </ul>
                         </p>
-                    </div>
-
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
                     </div>
                 </div>
 
@@ -243,17 +219,10 @@
                         </ul>
                         </p>
                     </div>
-
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-md-6">
-                    <img class="seoimage " src="https://www.sendx.io/hubfs/automate-your-success.png" alt="seo">
+                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/email/email-marketing_1.webp') }}" alt="seo">
                 </div>
             </div>
         </div>
@@ -289,9 +258,9 @@
                                             </p>
                                         </div>
                                         <div class="col-md-6  ">
-                                            <div class="SlieImgBox">
-                                                <img class="img-fluid"
-                                                    src="https://www.sendx.io/hubfs/Craft-Emails-img.webp" alt="seo">
+                                            <div class="">
+                                                <img class="img-fluid rounded-3"
+                                                    src="{{ asset('assets/websiteAssets/images/services/email/cratemail.png') }}" alt="seo">
                                             </div>
                                         </div>
                                     </div>
@@ -318,7 +287,7 @@
                                         <div class="col-md-6  ">
                                             <div class="SlideImgBox">
                                                 <img class="img-fluid"
-                                                    src="https://www.sendx.io/hubfs/Laser-Precision-img.svg"
+                                                    src="{{ asset('assets/websiteAssets/images/services/email/Target.png') }}"
                                                     alt="seo">
                                             </div>
                                         </div>
@@ -350,8 +319,8 @@
                                         </div>
                                         <div class="col-md-6  ">
                                             <div class="SlideImgBox">
-                                                <img class="img-fluid"
-                                                    src="https://www.sendx.io/hubfs/inbox-potential-img.svg"
+                                                <img class="img-fluid w-75"
+                                                    src="{{ asset('assets/websiteAssets/images/services/email/Maximizeqwert.png') }}"
                                                     alt="seo">
                                             </div>
                                         </div>
@@ -569,6 +538,47 @@
         </div>
     </section>
 
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Grow Your Business, One Email at a Time.</h2>
+                            <p>
+                                Let’s make sure they find YOU first. Optimize your Google Business Profile now!
+                            </p>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book A Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>

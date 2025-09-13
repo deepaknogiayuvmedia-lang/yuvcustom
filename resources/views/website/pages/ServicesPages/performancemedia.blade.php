@@ -3,30 +3,37 @@
 @section('content')
     <canvas id="gradient-canvas"></canvas>
 
-    <section class="py-5 position-relative bg-white">
+    <section class="py-5 position-relative ">
         <div class="container hero-info">
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center ">
-                        Turn Your Clicks into
-                        <span class="fw-bold text-primary">Conversions with Performance Media</span>
+                        Scale Faster with Performance
+                        <span class="fw-bold text-primary">Driven Media Buying</span>
                     </h1>
                     <div class="text-center py-2">
                         <p class="text-wrap marketsecondhead">
-                            Get Your Ads in Front of Millions – Reach, Engage, Convert!
+                            From audience research to conversion tracking — we handle it all.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-12">
-                    <div class="hero-video w-75">
+                    <div class="hero-video">
                         <!--desk-video-->
                         <video autoplay="" muted="" playsinline="" loop=""
                             class="hero-asset rounded-4 desk-video"
-                            poster="https://ondc.org/assets/theme/images/video_img.jpg">
-                            <source src="{{ asset('assets/websiteAssets/images/performance-ad-video.mp4') }}"
+                            poster="{{ asset('assets/websiteAssets/images/services/performanceMedia/mediaaa.png') }}">
+                            <source src="{{ asset('assets/websiteAssets/images/services/videos/mediabanner.webm') }}"
                                 type="video/mp4">
                         </video>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Book a Call<i
+                                class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -41,13 +48,6 @@
                         Get up to 70% <br />
                         more conversions <br />
                         with Taboola
-                    </div>
-
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -101,6 +101,7 @@
                         <div class="col-6">
                             <div class="mb-3">
                                 <div class="card-body text-start">
+
                                     <img src="{{ asset('assets/websiteAssets/images/paid-search.png') }}" alt="service bg"
                                         class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                                     <p class="fw-bold text-start">
@@ -123,11 +124,12 @@
         <div class="container py-5">
             <div class=" row">
                 <div class="text-center performanceheading">
-                    Performance Media That <span class="performanceheadingsub">Moves the Needle</span>
+                    Media Buying & Planning That <span class="performanceheadingsub">Moves the Needle</span>
                 </div>
                 <div class="text-center">
                     <p class="text-wrap performancesecondhead">
-                        Every click counts. Our performance media approach ensures that your media investments directly
+                        Every click counts. Our Media Buying & Planning approach ensures that your media investments
+                        directly
                         contribute to conversions, sales, and long-term success.
                     </p>
                 </div>
@@ -136,45 +138,34 @@
                         Your Brand’s New BFF
                     </p>
                 </div>
-                <div class="d-flex justify-content-center flex-wrap">
-                    <div class="me-3">
-                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="container  py-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="text-start fw-bold fs-1">
-                        The Right Audience, The Right Time,
-                        <span class="text-primary fw-bold"> The Right Results</span>
+                        The Right Audience. The Right Moment.
+                        <span class="text-primary fw-bold"> The Right ROI.</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            Reaching the right audience at the right time is the key to driving impactful results. Our
-                            performance media strategies ensure that your brand connects with highly targeted customers when
-                            they are most likely to take action.
+                            We focus on connecting your brand with people who matter most. Our performance media strategies
+                            are built on data, precision, and timing—ensuring your message reaches the right audience at the
+                            right stage of their journey.
                         </p>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap seosecondhead">
-                            By leveraging data-driven insights, real-time optimization, and precision targeting, we maximize
-                            engagement, boost conversions, and deliver measurable growth. With our expertise, every ad spend
-                            works harder to generate tangible business results.
+                            By using real-time optimization, audience insights, and conversion-focused planning, we help
+                            reduce wasted spend and drive measurable growth. Every campaign is designed to deliver tangible
+                            results and long-term ROI, not just impressions.
                         </p>
-                    </div>
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg seobbtn">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/holding-smartphone.webp') }}"
-                        alt="seo">
+
+                    <img src="{{ asset('assets/websiteAssets/images/services/performanceMedia/web-Advertiser-Realize-Creative-Assets-Mock-V01.png') }}"
+                        alt="service bg" class="mb-3 img-fluid seoimage">
                 </div>
             </div>
         </div>
@@ -206,15 +197,10 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 ">
-                    <video autoplay="" muted="" playsinline="" loop=""
-                        class="hero-asset-video mx-auto rounded-4 desk-video"
-                        poster="https://ondc.org/assets/theme/images/video_img.jpg">
-                        <source
-                            src="https://discover.taboola.com/wp-content/uploads/2024/06/vdo-Homepage_Redesign-Stats-V05.mp4"
-                            type="video/mp4">
-                    </video>
+                <div class="col-md-4">
 
+                    <img class="seoimage "
+                        src="{{ asset('assets/websiteAssets/images/services/holding-smartphone.webp') }}" alt="seo">
                 </div>
                 <div class="col-md-4">
                     <div class="text-start py-2">
@@ -244,12 +230,13 @@
         <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="text-center fw-bold fs-1">
-                    Let Us Help You to Choose the <br /> <span class="text-primary fw-bold">Right Performance Media Type
+                    Let Us Help You to Choose the <br /> <span class="text-primary fw-bold">Right Media Buying & Planning
+                        Type
                         for Your Business</span>
                 </div>
                 <div class="text-center py-2">
                     <p class="text-wrap performancesecondheadsecthree">
-                        Our expertise spans across multiple performance media channels, ensuring a comprehensive and
+                        Our expertise spans across multiple Media Buying & Planning channels, ensuring a comprehensive and
                         tailored approach that maximizes your brand's visibility, engagement, and conversion rates across
                         digital platforms.
                     </p>
@@ -305,7 +292,8 @@
                                 alt="service bg" class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Creative Development</p>
                             <p class="card-text text-start text-wrap">
-                                It is the core of our performance media service, where we craft compelling ad copies and
+                                It is the core of our Media Buying & Planning service, where we craft compelling ad copies
+                                and
                                 visuals that capture attention, drive engagement, and convert audiences into loyal customers
                             </p>
 
@@ -344,14 +332,211 @@
         </div>
     </section>
 
+    <section class="seosectionn mediabuying py-5">
+        <div class="container py-2 pb-md-5">
+            <div class="row">
+                <div class="text-center fw-bold mb-4 performanceheading">
+                    Industries We Power with <span class="performanceheadingsub">Media Buying & Planning </span>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Finance.jpg') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Finance</h5>
+                            <p class="card-text text-start text-wrap">
+                                In the fast-paced finance world, competition for visibility is fierce. Our data-driven PPC
+                                campaigns help banks, credit unions, insurance providers, and investment firms cut through
+                                the noise. With conversion-focused ad strategies, we put your financial brand in front of
+                                the right audience—boosting leads, trust, and ROI in real time.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto h-100">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Healthcare & Medical Practices.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Healthcare</h5>
+                            <p class="card-text text-start text-wrap">
+                                Patients today research, compare, and decide online before stepping into a clinic. That’s
+                                why your healthcare brand needs always-on visibility. Our precision-targeted PPC ads help
+                                hospitals, clinics, and wellness brands capture high-intent searches, acquire patients
+                                faster, and drive measurable growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/E-commerce.jfif') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">E-commerce</h5>
+                            <p class="card-text text-start text-wrap">
+                                Competing with giants like Amazon? The key is smart ad placements + audience intent mapping.
+                                Our e-commerce PPC campaigns focus on reducing cart abandonment, scaling product visibility,
+                                and driving profitable ROAS. Whether it’s Google Shopping, Meta Ads, or marketplaces, we
+                                help your store stand out and sell more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Education & Institutions.png') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Education</h5>
+                            <p class="card-text text-start text-wrap">
+                                Education marketing is more competitive than ever. With PPC, we help schools, colleges, and
+                                ed-tech platforms generate quality student inquiries, boost enrollments, and build authority
+                                online. Our full-funnel media planning ensures your brand connects with learners at every
+                                stage—from awareness to admission.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Lifestyle.webp') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Lifestyle</h5>
+                            <p class="card-text text-start text-wrap">
+                                Lifestyle brands thrive on visibility, engagement, and influence. Our Media Buying &
+                                Planning buying strategies put your brand in front of trend-savvy audiences through
+                                cross-platform targeting. From fashion to fitness, we help lifestyle businesses compete with
+                                retail giants, increase brand recall, and drive loyal customer bases.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6 mb-3">
+                    <div class="card shadow-sm rounded-4 mx-auto">
+                        <img src="{{ asset('assets/websiteAssets/images/services/seo/Reatestate.png') }}"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Real Estate</h5>
+                            <p class="card-text text-start text-wrap">
+                                In real estate, timing is everything. Our hyper-local PPC targeting ensures your properties
+                                are seen by buyers and investors when they’re ready to act. From lead generation to site
+                                visits, we help real estate businesses convert interest into sales faster—with customized ad
+                                strategies designed for maximum ROI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
     <section class="position-relative">
         <div class="container py-5">
             <div class=" row">
                 <div class="text-center performanceheading">
-                    Performance Media <span class="performanceheadingsub">Portfolio</span>
+                    Our <span class="performanceheadingsub">Work</span>
                 </div>
 
-                <div class="performancemedia-slider">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="resultsSlider" class="owl-carousel owl-theme">
+                            <div class="item my-3 mx-2">
+                                <div class="card rounded-5 border-0 shadow-sm p-3">
+                                    <h6 class="card-title ms-3 fw-bold fs-4">The Rich X</h6>
+                                    <div class="row pt-3 px-3 align-items-center">
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/therichx.webp') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (2).png') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item my-3 mx-2">
+                                <div class="card rounded-5 border-0 shadow-sm p-3">
+                                    <h6 class="card-title ms-3 fw-bold fs-4">Science Seeker</h6>
+                                    <div class="row pt-3 px-3 align-items-center">
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/scienceseeker.webp') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item my-3 mx-2">
+                                <div class="card rounded-5 border-0 shadow-sm p-3">
+                                    <h6 class="card-title ms-3 fw-bold fs-4">Cocobull Coal</h6>
+                                    <div class="row pt-3 px-3 align-items-center">
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/cocobull.webp') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="item my-3 mx-2">
+                                <div class="card rounded-5 border-0 shadow-sm p-3">
+                                    <h6 class="card-title ms-3 fw-bold fs-4">Rich Walk</h6>
+                                    <div class="row pt-3 px-3 align-items-center">
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.webp') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="border rounded-5 p-3">
+                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.jpg') }}"
+                                                    class="img-fluid rounded-4 bannerimg" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="performancemedia-slider card rounded-5 p-4">
                     @for ($i = 1; $i <= 50; $i += 2)
                         <div>
                             <div>
@@ -978,20 +1163,13 @@
                                 Trading Market Expert
                             </div>
                         </div>
-                        
+
                     </div>
-                    
+
 
 
                 </div>
 
-
-                <div class="d-flex justify-content-center flex-wrap">
-                    <div class="me-3">
-                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -1001,7 +1179,7 @@
             <div class="row">
                 <div class="text-center graphicheadingsecthree mb-3">
                     Our Approach to Boost Your Advertising
-                    <span class="fw-bold text-primary">ROI Through Performance Media Services</span>
+                    <span class="fw-bold text-primary">ROI Through Media Buying & Planning Services</span>
                 </div>
             </div>
             <div class="row gy-4 gx-4">
@@ -1130,5 +1308,45 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Power Up Your Media Buying Strategy & Start Driving Results
+                                Now!</h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book A Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </section>
 @endsection

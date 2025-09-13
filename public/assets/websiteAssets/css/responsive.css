@@ -89,6 +89,10 @@
         bottom: 55px;
         left: 0;
     }
+
+    .hero-video {
+        width: 80%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

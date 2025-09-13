@@ -8,16 +8,15 @@
             <div class=" row">
                 <div class="col-md-12">
                     <div class="text-center globaltxtcolor fs-1">
-                        Automate, Integrate, and Innovate with Our ERP Services
+                        Automate, Integrate & Innovate with ERP
 
                     </div>
                     <div class="text-center py-2">
                         <div class="fw-bold fs-5">
-                            Future-Proof Your Business with Advanced ERP Solution
+                            Future-Ready ERP Solutions to Scale Your Business
                         </div>
                         <p class="text-wrap ">
-                            Optimize your operations, enhance productivity, and unlock growth with our tailored ERP implementation services. Whether you’re upgrading existing systems or starting fresh, we ensure seamless integration, data accuracy, and efficient workflows. Empower your business with a solution built for scalability and success.
-
+                            Take control of your operations with ERP solutions built for efficiency and growth. Streamline workflows, ensure data accuracy, and integrate every system seamlessly. Whether you’re upgrading or starting fresh, our tailored ERP services help you optimize processes, boost productivity, and unlock new business opportunities. Smart, scalable, and designed to keep your business ahead.
                         </p>
                     </div>
 
@@ -50,13 +49,6 @@
                         <p class="text-wrap seosecondhead">
                             Today's lightweight, customized solutions concentrate on the unique requirements of a firm, whereas conventional ERP systems offered a wide range of functionalities. A committed group of ERP specialists who are aware of the subtleties of multifunctional applications is required to develop a genuinely potent ERP system.
                         </p>
-                    </div>
-
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
-                        <div class="me-3">
-                            <a href=" {{ route('contact') }}" class="btn btn-lg  seobbtn">Contact Us <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
                     </div>
                 </div>
 
@@ -432,5 +424,43 @@
         </div>
     </section>
 
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3">Automate Today, Grow Tomorrow.</h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book A Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
 @endsection

@@ -31,6 +31,12 @@
 
                     </div>
                 </div>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Book A Call <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -817,8 +823,9 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Account Manager</p>
                             <p class="card-text text-start text-wrap">
-                                Work directly with an internal account manager to provide innovative ideas and propel your
-                                company's expansion.
+                                Partner with a dedicated account manager who delivers fresh growth strategies and innovative
+                                ideas to accelerate your business expansion.
+
                             </p>
 
                         </div>
@@ -831,9 +838,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Data-driven Business Plan</p>
                             <p class="card-text text-start text-wrap">
-                                Take advantage of a personalized account management plan that includes weekly updates to
-                                monitor and assess your progress. Get personalized suggestions to enhance the performance
-                                and choice of your products.
+                                Leverage a customized business strategy powered by real-time analytics and weekly insights.
+                                Get expert recommendations to boost product visibility and sales.
                             </p>
 
                         </div>
@@ -846,8 +852,8 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Account Health Management</p>
                             <p class="card-text text-start text-wrap">
-                                Get professional advice and best practices to keep your account in good shape. Dedicated
-                                escalation channels ensure that critical issues are immediately addressed.
+                                Access proactive support with proven best practices to keep your account optimized.
+                                Dedicated escalation ensures critical issues are resolved instantly.
                             </p>
 
                         </div>
@@ -860,10 +866,17 @@
                                 class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
                             <p class="fw-bold text-start">Visibility & Performance Optimization</p>
                             <p class="card-text text-start text-wrap">
-                                Increase brand awareness on sites like Amazon by using expert-recommended marketing
-                                campaigns and promotional techniques to keep your name at the forefront of consumers' minds.
+                                Maximize brand presence on platforms like Amazon with targeted ad campaigns, smart
+                                promotions, and performance-driven techniques to stay top of mind.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="me-3">
+                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Book A Call <i
+                                class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -874,10 +887,10 @@
         <div class="container py-5">
             <div class=" row">
                 <div class="text-center performanceheading">
-                    Marketplace <span class="performanceheadingsub">Portfolio</span>
+                    Our <span class="performanceheadingsub">Work</span>
                 </div>
 
-                <div class="marketplace-slider">
+                <div class="marketplace-slider card rounded-5 p-4">
                     @for ($i = 1; $i <= 13; $i += 2)
                         <div>
                             <div>
@@ -895,12 +908,7 @@
                 </div>
 
 
-                <div class="d-flex justify-content-center flex-wrap">
-                    <div class="me-3">
-                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -1024,6 +1032,44 @@
         </div>
     </section>
 
+    <section class="contact_bg">
+        <div class="container-fluid py-3 " style="background-color: #032A3E">
+            <div class="container ">
+
+                <div class="ms-lg-5 ps-lg-5 ms-md-2 ps-md-2 d-none">
+                    <h1 class="text-white fw-bold">Contact us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mb-md-5">
+
+            <div class="row justify-content-center">
+                {{-- <div class="col-lg-6 col-md-4" style="z-index: 10">
+                    <div class="d-flex justify-content-start align-items-center h-100">
+
+                        <p class="contact-msg fw-bold">
+                            Let’s Talk
+                        </p>
+                    </div>
+                </div> --}}
+                <div class="col-lg-8 col-md-8 py-5">
+                    <div class="formcustomcard  rounded-3 py-5 bg-white position-relative" style="z-index: 10">
+                        <div class="text-center">
+                            <h2 class=" fw-bold mb-4 fs-3 ">Your Competitors Won’t Wait. Why Should You?</h2>
+                            <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                                <a href="tel:+918824269821" class="btn btn-danger btn-lg"> <i
+                                        class="bi bi-telephone"></i> Book A Call</a>
+                                <a href="https://wa.me/918824269821" class="btn btn-success btn-lg"><i
+                                        class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
 
     <script>

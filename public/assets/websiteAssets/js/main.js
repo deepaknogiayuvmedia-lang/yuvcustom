@@ -574,3 +574,42 @@ $(document).ready(function () {
         ]
     });
 });
+
+
+$(document).ready(function(){
+            $('.slick-track').slick({
+                centerMode: true,
+                centerPadding: '50px',
+                slidesToShow: 2,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: false,
+                dots: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerPadding: '20px'
+                        }
+                    }
+                ]
+            });
+
+            // Play video on the active (center) slide, pause others
+            $('.slick-track ').on('afterChange', function(event, slick, currentSlide){
+                $('.banner_video').each(function(){
+                    this.pause();
+                    this.currentTime = 0;
+                });
+                $('.slick-center .banner_video').each(function(){
+                    this.play();
+                });
+            });
+
+            // Ensure the initial center video plays
+            $('.slick-center .banner_video').each(function(){
+                this.play();
+            });
+        });
