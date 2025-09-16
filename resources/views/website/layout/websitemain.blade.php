@@ -17,7 +17,7 @@
     <meta name="keywords" content="{{ is_array($keywordsArray) ? implode(', ', array_map('ucfirst', $keywordsArray)) : ucfirst($keywordsArray) }}">
     <meta name="author" content="{{ $metadetails->authorname ?? 'Yuvmedia' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
     <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('assets/websiteAssets/images/Favicon-yuvin.png') }}">
@@ -85,7 +85,7 @@
             <div class="container-fluid p-0 sticky-header">
                 <div class="container d-flex justify-content-around align-items-center">
 
-                    <div class="px-3">
+                    <div class="px-lg-3">
                         <a class="navbar-brand d-flex align-items-center" href="{{ route('homepage') }}">
                             <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
                         </a>
@@ -186,7 +186,7 @@
                     <div class=" ">
                         {{-- <a class="btn btn-outline-primary hire-us-btn questrial-regular"
                                 href="{{ route('contact') }}">Hire Us!</a> --}}
-                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="tel:918824269821"><i class="bi bi-telephone"></i> Call Now</a>
+                        <a class="btn btn-outline-primary hire-us-btn questrial-regular d-none d-lg-block" href="tel:918824269821"><i class="bi bi-telephone"></i> Book a call</a>
                     </div>
                     <div class="mobile-toggle hideInDesktop">
 
@@ -545,7 +545,8 @@
     <!-- //Main wrapper -->
 
     <!-- JS Files -->
-
+  <!-- Bootstrap JavaScript Libraries -->
+      
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
