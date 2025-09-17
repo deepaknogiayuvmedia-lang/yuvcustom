@@ -300,7 +300,7 @@
                                     <iframe
                                         src="https://player.vimeo.com/video/1112243198?background=1&autoplay=1&loop=1&muted=1"
                                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                        class="w-100 h-100 rounded-4"></iframe>
+                                        class="w-100 h-100 rounded-4" data-ready="true"></iframe>
                                 </div>
                             </div>
                             <div class="col-sm-4 all influencers">

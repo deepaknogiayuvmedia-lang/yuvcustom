@@ -1,5 +1,5 @@
 @extends('website.layout.websitemain')
-@section('title', 'Designing Services | ' . config('app.name'))
+@section('title', 'Influencer Marketing | ' . config('app.name'))
 @section('content')
     <canvas id="gradient-canvas"></canvas>
     <section class="red_header_wrap_new">
@@ -503,7 +503,7 @@
                         <div class=" position-relative service_col">
                             <video class="banner_video w-100" id="video_1" loop="" muted="" autoplay="">
                                 <source
-                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-1.mp4') }}"
+                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-2.mp4') }}"
                                     type="video/mp4">
                             </video>
 
@@ -517,7 +517,7 @@
                         <div class=" position-relative service_col">
                             <video class="banner_video w-100" id="video_1" loop="" muted="" autoplay="">
                                 <source
-                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-1.mp4') }}"
+                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-3.mp4') }}"
                                     type="video/mp4">
                             </video>
 
@@ -531,7 +531,7 @@
                         <div class=" position-relative service_col">
                             <video class="banner_video w-100" id="video_1" loop="" muted="" autoplay="">
                                 <source
-                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-1.mp4') }}"
+                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-4.mp4') }}"
                                     type="video/mp4">
                             </video>
 
@@ -545,7 +545,7 @@
                         <div class=" position-relative service_col">
                             <video class="banner_video w-100" id="video_1" loop="" muted="" autoplay="">
                                 <source
-                                    src="{{ asset('assets/images/Services/influencer/property-lp-services-image-1.mp4') }}"
+                                    src="{{ asset('assets/images/Services/influencer/influencer-marketing-video.mp4') }}"
                                     type="video/mp4">
                             </video>
 
@@ -662,15 +662,15 @@
                         style="background-color: #f0f9ff;">
                         <div style="height: 233px;">
                             <iframe
-                                src="https://player.vimeo.com/#20CDEB/1112216692?background=1&amp;autoplay=1&amp;loop=1&amp;muted=1"
-                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""
+                                src="https://player.vimeo.com/video/1112243198?background=1&autoplay=1&loop=1&muted=1"
+                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                 class="w-100 h-100 rounded-4" data-ready="true"></iframe>
                         </div>
                         <div class="card-body">
 
                             <div class="d-flex align-items-center mb-2">
                                 <div class="ms-3">
-                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Tring X TaxBuddy With Rajkumar Rao
+                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Trading Edge
                                     </h5>
                                 </div>
                             </div>
@@ -678,15 +678,15 @@
                                 <div class="d-flex justify-content-between text-center mt-2">
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Reach</div>
-                                        <div style="font-size:1.1rem;">1.1M</div>
+                                        <div style="font-size:1.1rem;">250k</div>
                                     </div>
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Views</div>
-                                        <div style="font-size:1.1rem;">2.5M</div>
+                                        <div style="font-size:1.1rem;">530k</div>
                                     </div>
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Engagement Rate</div>
-                                        <div style="font-size:1.1rem;">0.34%</div>
+                                        <div style="font-size:1.1rem;">0.74%</div>
                                     </div>
                                 </div>
                             </div>
@@ -709,7 +709,7 @@
 
                             <div class="d-flex align-items-center mb-2">
                                 <div class="ms-3">
-                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Tring X TaxBuddy With Rajkumar Rao
+                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Om Trader
                                     </h5>
                                 </div>
                             </div>
@@ -725,7 +725,7 @@
                                     </div>
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Engagement Rate</div>
-                                        <div style="font-size:1.1rem;">0.34%</div>
+                                        <div style="font-size:1.1rem;">1.30%</div>
                                     </div>
                                 </div>
                             </div>
@@ -747,23 +747,22 @@
 
                             <div class="d-flex align-items-center mb-2">
                                 <div class="ms-3">
-                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Tring X TaxBuddy With Rajkumar
-                                        Rao</h5>
+                                    <h5 class="fw-bold mb-1" style="font-size:1.1rem;">Scalping Pulse Trading</h5>
                                 </div>
                             </div>
                             <div class="core-image-card p-3 rounded-4 mb-3" style=" border:2px solid #eee;">
                                 <div class="d-flex justify-content-between text-center mt-2">
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Reach</div>
-                                        <div style="font-size:1.1rem;">1.1M</div>
+                                        <div style="font-size:1.1rem;">700k</div>
                                     </div>
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Views</div>
-                                        <div style="font-size:1.1rem;">2.5M</div>
+                                        <div style="font-size:1.1rem;">1.2M</div>
                                     </div>
                                     <div>
                                         <div class="fw-bold" style="font-size:1.05rem;">Engagement Rate</div>
-                                        <div style="font-size:1.1rem;">0.34%</div>
+                                        <div style="font-size:1.1rem;">2.84%</div>
                                     </div>
                                 </div>
                             </div>
