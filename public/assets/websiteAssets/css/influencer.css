@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e84242;
+    background-color: #20CDEB;
     position: fixed;
     top: 55px;
     left: 0;
@@ -25,7 +25,7 @@
     line-height: 26px;
     display: inline-block;
     background-color: #fff;
-    color: #e84242;
+    color: #20CDEB;
     padding: 8px 20px;
     border-radius: 6px;
     cursor: pointer;
@@ -101,7 +101,7 @@ body {
             rgba(255, 255, 255, 0) 69.79%,
             rgba(255, 255, 255, 0) 100%
         ),
-        #dc0e0e;
+        #20CDEB;
     box-shadow: -1.65px -2.2px 3.85px 0 rgba(255, 255, 255, 0.15) inset;
     color: #fff;
     text-shadow: 0.55px 0.55px 0.55px rgba(0, 0, 0, 0.25);
@@ -192,7 +192,7 @@ body {
     flex-wrap: wrap;
 }
 .brand_top_banner .heading_text .engage_text {
-    color: #db0d0d;
+    color: #20CDEB;
     line-height: normal;
     display: inline-block;
 }
@@ -216,20 +216,12 @@ body {
     list-style-type: none;
     margin: 5px 0;
     position: relative;
-    padding-left: 32px;
+   
 }
-.brand_top_banner .service_list li:before {
-    content: "";
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    top: 2px;
-    left: 0;
-    background-image: url("https://cdn1.tring.co.in/new-home-page/check-mark-red.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.brand_top_banner .service_list li span {
+    padding-left: 25px;
 }
+
 .brand_top_banner .talk-to-expert {
     width: 190px;
     display: flex;
@@ -367,7 +359,7 @@ body {
         margin-right: 10px;
     }
     .brand_top_banner .heading_text .engage_text {
-        color: #db0d0d;
+        color: #20CDEB;
         line-height: normal;
         display: flex;
         flex-direction: column;
@@ -418,7 +410,7 @@ body {
             width: max-content;
             padding-inline: 20px;
             border: none;
-            box-shadow: 5px 5px 0px 0px #eed9a0, 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+            box-shadow: 5px 5px 0px 0px #2881ED, 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
         }
 
         .brand_top_banner button.talk-to-expert {
@@ -495,9 +487,9 @@ body {
 
         .form {
             border: 5px solid;
-            border-color: #f9c5c5;
+            border-color: #20CDEB;
             border-radius: 20px;
-            box-shadow: -10px 10px 0px 0px #eed9a0, 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+            box-shadow: -10px 10px 0px 0px #2881ED, 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
         }
 
         .form-frames {
@@ -534,7 +526,7 @@ body {
                     rgba(255, 255, 255, 0.41) 0,
                     rgba(255, 255, 255, 0) 69.79%,
                     rgba(255, 255, 255, 0) 100%),
-                #dc0e0e;
+                #20CDEB;
             color: #fff;
         }
 
@@ -546,7 +538,7 @@ body {
                     rgba(255, 255, 255, 0.41) 0,
                     rgba(255, 255, 255, 0) 69.79%,
                     rgba(255, 255, 255, 0) 100%),
-                #dc0e0e;
+                #20CDEB;
             ;
             color: #fff;
         }
@@ -577,11 +569,11 @@ body {
         }
 
         .border-custom-color {
-            border: 1px solid #f9c5c5;
+            border: 1px solid #76c8d6;
         }
 
         .border-custom-color:hover {
-            border-color: #dc0e0e;
+            border-color: #20CDEB;
         }
 
         .service_col {
