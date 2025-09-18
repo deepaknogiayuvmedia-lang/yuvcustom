@@ -110,7 +110,7 @@
             <div class="right_col">
                 <div id="video_slider_wrap" class="video_slider_wrap slick-initialized slick-slider">
                     <div class="slick-list draggable">
-                        <div class="slick-track">
+                        <div class="slick-track banner-slider">
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
                                     <video class="banner_video" id=""
@@ -566,7 +566,7 @@
                 <div class="col-xxl-10  p1-4 pt-lg-0  mx-auto flex-column-reverse align-items-end flex-lg-row d-flex text-white rounded-5 text-center"
                     style="background-color: #20CDEB;">
                     <div>
-                        <img src="http://192.168.1.79:8000/assets/images/Services/influencer/How-Our-20Celebrity-Driven-v3.png"
+                        <img src="{{ asset('assets/images/Services/influencer/How-Our-20Celebrity-Driven-v3.png') }}"
                             alt="" class="img-fluid">
                     </div>
                     <div class="px-xl-5 py-4">

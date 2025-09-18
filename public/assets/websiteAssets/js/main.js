@@ -577,7 +577,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('.slick-track').slick({
+    $('.banner-slider').slick({
         centerMode: true,
         centerPadding: '50px',
         slidesToShow: 2,
@@ -598,7 +598,7 @@ $(document).ready(function () {
     });
 
     // Play video on the active (center) slide, pause others
-    $('.slick-track ').on('afterChange', function (event, slick, currentSlide) {
+    $('.banner-slider').on('afterChange', function (event, slick, currentSlide) {
         $('.banner_video').each(function () {
             this.pause();
             this.currentTime = 0;
