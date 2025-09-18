@@ -58,13 +58,13 @@
 
                         </p>
                     </div>
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    {{-- <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="{{ route('contact') }}" class="btn btn-lg  seobbtn">Let’s turn social interactions into
                                 real business growth! <i class="bi bi-arrow-right"></i></a>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-6 ">
                     <img class="seoimage " src="{{ asset('assets/websiteAssets/images/services/smm/smm.webp') }}"
@@ -146,14 +146,14 @@
                         </p>
                     </div>
 
-                    <div class="d-flex justify-content-start flex-wrap buttonsdiv">
+                    {{-- <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">
                                 Get In Touch To See How We Can Help You <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-6 p-3 p-lg-5">
                     <img class="seoimage img-fluid"

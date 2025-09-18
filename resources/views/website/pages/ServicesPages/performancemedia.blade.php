@@ -1,5 +1,5 @@
 @extends('website.layout.websitemain')
-@section('title', 'Web Development | ' . config('app.name'))
+@section('title', 'Performance Media | ' . config('app.name'))
 @section('content')
     <canvas id="gradient-canvas"></canvas>
 
@@ -444,96 +444,6 @@
             <div class=" row">
                 <div class="text-center performanceheading">
                     Our <span class="performanceheadingsub">Work</span>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="resultsSlider" class="owl-carousel owl-theme">
-                            <div class="item my-3 mx-2">
-                                <div class="card rounded-5 border-0 shadow-sm p-3">
-                                    <h6 class="card-title ms-3 fw-bold fs-4">The Rich X</h6>
-                                    <div class="row pt-3 px-3 align-items-center">
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/therichx.webp') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (2).png') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="item my-3 mx-2">
-                                <div class="card rounded-5 border-0 shadow-sm p-3">
-                                    <h6 class="card-title ms-3 fw-bold fs-4">Science Seeker</h6>
-                                    <div class="row pt-3 px-3 align-items-center">
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/scienceseeker.webp') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="item my-3 mx-2">
-                                <div class="card rounded-5 border-0 shadow-sm p-3">
-                                    <h6 class="card-title ms-3 fw-bold fs-4">Cocobull Coal</h6>
-                                    <div class="row pt-3 px-3 align-items-center">
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/cocobull.webp') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/image (3).png') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="item my-3 mx-2">
-                                <div class="card rounded-5 border-0 shadow-sm p-3">
-                                    <h6 class="card-title ms-3 fw-bold fs-4">Rich Walk</h6>
-                                    <div class="row pt-3 px-3 align-items-center">
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.webp') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="border rounded-5 p-3">
-                                                <img src="{{ asset('assets/websiteAssets/images/services/seo/work/richwalk.jpg') }}"
-                                                    class="img-fluid rounded-4 bannerimg" alt="...">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
 
                 <div class="performancemedia-slider card rounded-5 p-4">

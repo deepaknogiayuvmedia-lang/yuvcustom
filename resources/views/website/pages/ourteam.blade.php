@@ -520,7 +520,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Pankaj.jpg') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -659,7 +659,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Ashish.jpg') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -685,7 +685,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Jayesh.jpg') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -695,7 +695,7 @@
                                 <div class="testimonial-name d-flex  text-white">
                                     <div>
                                         <div class="author">Mr. Jayesh Kumawat</div>
-                                        <div class="fs-6">Editor</div>
+                                        <div class="fs-6">Creative Designer & Video Editor</div>
                                     </div>
                                 </div>
                             </div>

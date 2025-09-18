@@ -954,7 +954,7 @@
                                 <li class=" text-black" data-filter=".graphic">Graphic Designing</li>
                                 <li class=" text-black" data-filter=".mockup">Product mockup</li>
                                 <li class=" text-black" data-filter=".vfx">VFX</li>
-                                <li class=" text-black" data-filter=".Brochure">Brochure</li>
+                                {{-- <li class=" text-black" data-filter=".Brochure">Brochure</li> --}}
                                 <li class=" text-black" data-filter=".cgi">3D</li>
                             </ul>
                         </div>

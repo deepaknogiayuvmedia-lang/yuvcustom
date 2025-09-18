@@ -129,11 +129,11 @@
                                             <ul class="dropdown-menu customdropdown">
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('seo') ? 'active' : '' }}"
-                                                        href="{{ route('seo') }}">SEO</a>
+                                                        href="{{ route('seo') }}">SEO Services</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('socialmedia') ? 'active' : '' }}"
-                                                        href="{{ route('socialmedia') }}">Social Media</a>
+                                                        href="{{ route('socialmedia') }}">Social Media Marketing</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('whatsappmarketing') ? 'active' : '' }}"
@@ -312,9 +312,9 @@
                                     <div class="accordion-body">
                                         <ul class="list-unstyled">
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('seo') ? 'fw-bold text-primary' : '' }}"
-                                                    href="{{ route('seo') }}">SEO</a></li>
+                                                    href="{{ route('seo') }}">SEO Services</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('socialmedia') ? 'fw-bold text-primary' : '' }}"
-                                                    href="{{ route('socialmedia') }}">Social Media</a></li>
+                                                    href="{{ route('socialmedia') }}">Social Media Marketing</a></li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('whatsappmarketing') ? 'fw-bold text-primary' : '' }}"
                                                     href="{{ route('whatsappmarketing') }}">Whatsapp Marketing</a>
                                             </li>
@@ -458,11 +458,11 @@
                                     <ul class="ps-0">
                                         <li>
                                             <a class="{{ request()->routeIs('seo') ? 'active' : '' }}"
-                                                href="{{ route('seo') }}">SEO</a>
+                                                href="{{ route('seo') }}">SEO Services</a>
                                         </li>
                                         <li>
                                             <a class="{{ request()->routeIs('socialmedia') ? 'active' : '' }}"
-                                                href="{{ route('socialmedia') }}">Social Media</a>
+                                                href="{{ route('socialmedia') }}">Social Media Marketing</a>
                                         </li>
                                         <li>
                                             <a class="{{ request()->routeIs('whatsappmarketing') ? 'active' : '' }}"

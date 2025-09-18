@@ -22,8 +22,7 @@
 
                     <div class="d-flex justify-content-center flex-wrap ">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-outline-primary btn-lg">Get Started for Free <i
-                                    class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="btn btn-outline-primary btn-lg">Book A Call <i class="bi bi-arrow-right"></i></a>
                         </div>
 
                     </div>

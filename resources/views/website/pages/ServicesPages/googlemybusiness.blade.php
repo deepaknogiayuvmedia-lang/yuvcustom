@@ -33,7 +33,7 @@
                     </div>
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
-                            <a href="{{ route('contact') }}" class="btn btn-lg gmbbtn">Get Started for Free <i
+                            <a href="{{ route('contact') }}" class="btn btn-lg gmbbtn">Book a Call <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
 
@@ -242,7 +242,7 @@
                             promotions, and make it easy for them to reach out or visit.
 
                         </p>
-                        <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Get Started for Free <i
+                        <a href="{{ route('contact') }}" class="btn btn-lg btn-outline-primary">Book A Call <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -1060,7 +1060,7 @@
                 </div>
             </div>
             <div class="text-center py-2 mt-3">
-                <p class="text-wrap fw-bold bg-success-subtle rounded-4 p-3">
+                <p class="text-wrap fw-bold bg-white rounded-4 p-3">
                     Let’s Build Your Business’s Best First Impression – Reach out today!
                 </p>
             </div>
