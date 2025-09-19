@@ -533,59 +533,11 @@
             <div class="slick-slider">
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/17.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/18.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/19.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/20.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/21.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/22.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/23.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/6.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
                         src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/8.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpeg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
@@ -593,31 +545,27 @@
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/33.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/21.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/44.jpeg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
                         src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/11.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/55.png') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/12.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/13.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/14.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/15.jpg') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/16.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/20.jpg') }}" alt="">
                 </div>
             </div>
 

@@ -575,8 +575,8 @@ $(document).ready(function () {
     });
 });
 
-
 $(document).ready(function () {
+    // Initialize Slick slider
     $('.banner-slider').slick({
         centerMode: true,
         centerPadding: '50px',
@@ -590,26 +590,48 @@ $(document).ready(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     centerPadding: '20px'
                 }
             }
         ]
     });
 
-    // Play video on the active (center) slide, pause others
-    $('.banner-slider').on('afterChange', function (event, slick, currentSlide) {
+    // Function to pause all videos and reset their time
+    function pauseAllVideos() {
         $('.banner_video').each(function () {
             this.pause();
             this.currentTime = 0;
         });
+    }
+
+    // Function to play the center video
+    function playCenterVideo() {
         $('.slick-center .banner_video').each(function () {
-            this.play();
+            const video = this;
+            // Check if the video is in an original slide (not cloned)
+            if (!$(video).closest('.slick-cloned').length) {
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(function (error) {
+                        console.error('Video playback error:', error);
+                    });
+                }
+            }
         });
+    }
+
+    // Play video on slide change
+    $('.banner-slider').on('afterChange', function (event, slick, currentSlide) {
+        pauseAllVideos();
+        playCenterVideo();
     });
 
-    // Ensure the initial center video plays
-    $('.slick-center .banner_video').each(function () {
-        this.play();
+    // Play the initial center video
+    playCenterVideo();
+
+    // Handle video errors
+    $('.banner_video').on('error', function (e) {
+        console.error('Video error:', e);
     });
 });

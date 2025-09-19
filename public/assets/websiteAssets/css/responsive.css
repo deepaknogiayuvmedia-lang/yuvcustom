@@ -104,6 +104,10 @@
     .citebox {
         font-size: 30px;
     }
+
+    .banner-slider .slick-track {
+        left: -120px;
+    }
     .hideInMobile {
         display: none;
     }

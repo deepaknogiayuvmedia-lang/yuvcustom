@@ -1861,7 +1861,9 @@ a {
     align-items: center;
     height: 100%;
 }
-
+.banner-slider .slick-track {
+    left: -200px;
+}
 .bgBox {
     background: linear-gradient(
         224deg,
@@ -2153,7 +2155,6 @@ svg:not(:root) {
     .mob-video {
         display: none;
     }
-    
 }
 
 .category-selector .nav-item {

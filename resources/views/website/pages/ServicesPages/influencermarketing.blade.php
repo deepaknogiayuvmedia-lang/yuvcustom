@@ -118,161 +118,108 @@
             <div class="right_col">
                 <div id="video_slider_wrap" class="video_slider_wrap slick-initialized slick-slider">
                     <div class="slick-list draggable">
-                        <div class="slick-track banner-slider">
+                        <div class=" banner-slider">
+
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
-                                    <video class="banner_video" id=""
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_sunnty.webp"
-                                        loop="" muted="" playsinline="">
+                                    <video class="banner_video" id="video_0"
+                                        poster="{{ asset('assets/images/Services/influencer/1.webp') }}" loop muted
+                                        playsinline preload="auto">
                                         <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/sunny.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/sunny.webm"
+                                            src="{{ asset('assets/images/Services/influencer/1.mp4') }}"
                                             type="video/mp4" />
                                     </video>
                                     <div class="celeb_brand_names">
                                         <span class="celeb_name">
-                                            Sunny Leone
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
+                                            Shivaji Satam
+                                            <img src="{{ asset('assets/websiteAssets/images/check_mark_top_banner.svg') }}"
                                                 alt="" class="check_mark_icon" />
                                         </span>
-                                        <span class="brand_name">GanderCoin</span>
+                                        <span class="brand_name">Scalping Pulse Trade</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
                                     <video class="banner_video" id=""
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_soha.webp"
-                                        loop="" muted="" playsinline="">
+                                        poster="{{ asset('assets/images/Services/influencer/2.webp') }}" loop muted
+                                        playsinline preload="auto">
                                         <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_03_.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_03_.webm"
+                                            src="{{ asset('assets/images/Services/influencer/2.mp4') }}"
                                             type="video/mp4" />
                                     </video>
                                     <div class="celeb_brand_names">
                                         <span class="celeb_name">
-                                            Soha Ali Khan
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
+                                            Rajpal Yadav
+                                            <img src="{{ asset('assets/websiteAssets/images/check_mark_top_banner.svg') }}"
                                                 alt="" class="check_mark_icon" />
                                         </span>
-                                        <span class="brand_name">Clensta</span>
+                                        <span class="brand_name">Om Trader</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
                                     <video class="banner_video" id="video_1"
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/Screenshot_2023-03-01_191139.webp"
-                                        loop="" muted="" playsinline="">
+                                        poster="{{ asset('assets/images/Services/influencer/3.webp') }}" loop muted
+                                        playsinline preload="auto">
                                         <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_04.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_04.webm"
+                                            src="{{ asset('assets/images/Services/influencer/3.mp4') }}"
                                             type="video/mp4" />
                                     </video>
                                     <div class="celeb_brand_names">
                                         <span class="celeb_name">
-                                            Shehnaaz Kaur Gill
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
+                                            Sunil Grover
+                                            <img src="{{ asset('assets/websiteAssets/images/check_mark_top_banner.svg') }}"
                                                 alt="" class="check_mark_icon" />
                                         </span>
-                                        <span class="brand_name">Borosil</span>
+                                        <span class="brand_name">Om Trader</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
                                     <video class="banner_video" id="video_2"
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck.webp"
-                                        loop="" muted="" playsinline="">
+                                        poster="{{ asset('assets/images/Services/influencer/4.webp') }}" loop muted
+                                        playsinline preload="auto">
                                         <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck.webm"
+                                            src="{{ asset('assets/images/Services/influencer/4.mp4') }}"
                                             type="video/mp4" />
                                     </video>
                                     <div class="celeb_brand_names">
                                         <span class="celeb_name">
-                                            Jimmy Shergill
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
-                                                alt="" class="check_mark_icon" />
+                                            {{-- Jimmy Shergill
+                                            <img src="{{ asset('assets/websiteAssets/images/check_mark_top_banner.svg') }}"
+                                                alt="" class="check_mark_icon" /> --}}
                                         </span>
                                         <span class="brand_name">Policy Bazaar</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="slide_col ">
                                 <div class="new_img slick_slide_img">
                                     <video class="banner_video" id="video_3"
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_02_.webp"
-                                        loop="" muted="" playsinline="">
+                                        poster="{{ asset('assets/images/Services/influencer/5.webp') }}" loop muted
+                                        playsinline preload="auto">
                                         <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_02.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_02.webm"
+                                            src="{{ asset('assets/images/Services/influencer/5.mp4') }}"
                                             type="video/mp4" />
                                     </video>
                                     <div class="celeb_brand_names">
                                         <span class="celeb_name">
-                                            Bobby Deol
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
-                                                alt="" class="check_mark_icon" />
+                                            {{-- Bobby Deol
+                                            <img src="{{ asset('assets/websiteAssets/images/check_mark_top_banner.svg') }}"
+                                                alt="" class="check_mark_icon" /> --}}
                                         </span>
                                         <span class="brand_name">Policy Bazaar</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide_col ">
-                                <div class="new_img slick_slide_img">
-                                    <video class="banner_video" id="video_4"
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_sunnty.webp"
-                                        loop="" muted="" playsinline="">
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/sunny.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/sunny.webm"
-                                            type="video/mp4" />
-                                    </video>
-                                    <div class="celeb_brand_names">
-                                        <span class="celeb_name">
-                                            Sunny Leone
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
-                                                alt="" class="check_mark_icon" />
-                                        </span>
-                                        <span class="brand_name">GanderCoin</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide_col ">
-                                <div class="new_img slick_slide_img">
-                                    <video class="banner_video" id="video_5"
-                                        poster="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_soha.webp"
-                                        loop="" muted="" playsinline="">
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_03_.mp4"
-                                            type="video/mp4" />
-                                        <source class="video_src"
-                                            src="https://tring-coin.objectstore.e2enetworks.net/brands_images_videos/B2B_Upper_Deck_03_.webm"
-                                            type="video/mp4" />
-                                    </video>
-                                    <div class="celeb_brand_names">
-                                        <span class="celeb_name">
-                                            Soha Ali Khan
-                                            <img src="./Tring - India&#39;s Largest Celebrity Endorsement Agency for Brands in India_files/check_mark_top_banner.svg"
-                                                alt="" class="check_mark_icon" />
-                                        </span>
-                                        <span class="brand_name">Clensta</span>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -288,8 +235,8 @@
                     </span>
                 </div>
                 <div class="wwb_col wwb_r_col">
-                    <img src="{{ asset('assets/images/Services/influencer/top-brand.svg') }}" alt="worked-with-100-brands"
-                        class="" />
+                    <img src="{{ asset('assets/images/Services/influencer/top-brand.svg') }}"
+                        alt="worked-with-100-brands" class="" />
                     <span class="text">Worked with
                         <strong>Partnered with<abbr class="counter" data-target="100">100</abbr>+</strong>
                         Brands
@@ -305,22 +252,30 @@
         <div class="content_container overflow-hidden">
             <h4 class="text-center">500+ Verified Influencers | Partnered with 100+ Brands</h4>
             <div class="d-flex align-items-center gap-4 slide-track">
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-1.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-2.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-3.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-4.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-5.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-6.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-7.png') }}"
-                        alt=""></div>
-                <div class="images"><img src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-8.png') }}"
-                        alt=""></div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-1.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-2.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-3.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-4.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-5.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-6.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-7.png') }}" alt="">
+                </div>
+                <div class="images"><img
+                        src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-8.png') }}" alt="">
+                </div>
                 <div class="images"><img
                         src="{{ asset('assets/images/Services/influencer/homa-page-brand-logo-9.png') }}" alt="">
                 </div>
