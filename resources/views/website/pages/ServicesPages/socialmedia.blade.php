@@ -533,7 +533,7 @@
             <div class="slick-slider">
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/7.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/1.jpeg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
@@ -541,7 +541,15 @@
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/9.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/2.jpeg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/22.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3 rounded-5 "
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/3.jpeg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
@@ -549,7 +557,7 @@
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/21.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/4.jpeg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
@@ -557,15 +565,11 @@
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/10.jpg') }}" alt="">
+                        src="{{ asset('assets/websiteAssets/images/socialmedia/5.jpeg') }}" alt="">
                 </div>
                 <div>
                     <img class="img-fluid p-3 rounded-5 "
                         src="{{ asset('assets/websiteAssets/images/socialmedia/55.png') }}" alt="">
-                </div>
-                <div>
-                    <img class="img-fluid p-3 rounded-5 "
-                        src="{{ asset('assets/websiteAssets/images/socialmedia/20.jpg') }}" alt="">
                 </div>
             </div>
 

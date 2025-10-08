@@ -44,7 +44,7 @@
                         background: white;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/Khivraj-Sain.webp') }}" alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}" alt="client"
                                     style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">
@@ -66,11 +66,8 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
-                                    alt="client"
-                                    style="
-                                    height: 245px;
-                                ">
+                                    src="{{ asset('assets/websiteAssets/images/team/new/pinkimam.webp') }}" alt="client"
+                                    {{-- style="height: 245px;" --}}>
                             </div>
                             <div class="authorbox rounded-3">
                                 <div class="testimonial-name d-flex  text-white">
@@ -114,31 +111,31 @@
                     </div>
                 </div>
                 {{-- Vipra Arora --}}
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3"
-                            style="
-                        background: #f7f7f7;">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"
-                                    alt="client"
-                                    style="
-                                    height: 245px;
-                                ">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Ms. Vipra Arora</div>
-                                        <div class="fs-6">Human Resources</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+                <!--<div class="col-lg-3 col-md-6 mb-4">-->
+                <!--    <div class="item">-->
+                <!--        <div class="shadow-effect corebox flip rounded-3"-->
+                <!--            style="-->
+                <!--        background: #f7f7f7;">-->
+                <!--            <div class=" ">-->
+                <!--                <img class="img-circle rounded-3 img-fluid"-->
+                <!--                    src="https://www.pngitem.com/pimgs/m/581-5813504_avatar-dummy-png-transparent-png.png"-->
+                <!--                    alt="client"-->
+                <!--                    style="-->
+                <!--                    height: 245px;-->
+                <!--                ">-->
+                <!--            </div>-->
+                <!--            <div class="authorbox rounded-3">-->
+                <!--                <div class="testimonial-name d-flex  text-white">-->
+                <!--                    <div>-->
+                <!--                        <div class="author">Ms. Vipra Arora</div>-->
+                <!--                        <div class="fs-6">Human Resources</div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
                 {{-- Abhishek --}}
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="item">
@@ -170,7 +167,7 @@
                         background: white;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/lalit-kishore.png') }}"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/lalit-kishore.webp') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -187,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 {{-- Sushil Bansal --}}
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -197,7 +194,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/SushilBansal.jpg') }}"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/SushilBansal.webp') }}"
                                     alt="client"
                                     style="
                                     height: 245px;
@@ -520,8 +517,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Pankaj.jpg') }}"
-                                    alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Pankaj.jpg') }}" alt="client"
                                     style="
                                     height: 245px;
                                 ">
@@ -632,24 +628,24 @@
                 </div>
 
                 {{-- Raghuveer --}}
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="item">
-                        <div class="shadow-effect corebox flip rounded-3">
-                            <div class=" ">
-                                <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Raghu.webp') }}" alt="client">
-                            </div>
-                            <div class="authorbox rounded-3">
-                                <div class="testimonial-name d-flex  text-white">
-                                    <div>
-                                        <div class="author">Mr. Raghuveer Gurjar</div>
-                                        <div class="fs-6 ">Creative Designer & Video Editor</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--<div class="col-lg-3 col-md-6 mb-4">-->
+                <!--    <div class="item">-->
+                <!--        <div class="shadow-effect corebox flip rounded-3">-->
+                <!--            <div class=" ">-->
+                <!--                <img class="img-circle rounded-3 img-fluid"-->
+                <!--                    src="{{ asset('assets/websiteAssets/images/team/new/Raghu.webp') }}" alt="client">-->
+                <!--            </div>-->
+                <!--            <div class="authorbox rounded-3">-->
+                <!--                <div class="testimonial-name d-flex  text-white">-->
+                <!--                    <div>-->
+                <!--                        <div class="author">Mr. Raghuveer Gurjar</div>-->
+                <!--                        <div class="fs-6 ">Creative Designer & Video Editor</div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
 
                 {{-- Aashish Dholpuria --}}
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -659,8 +655,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Ashish.jpg') }}"
-                                    alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Ashish.jpg') }}" alt="client"
                                     style="
                                     height: 245px;
                                 ">
@@ -685,8 +680,7 @@
                         background: #f7f7f7;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Jayesh.jpg') }}"
-                                    alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/Jayesh.jpg') }}" alt="client"
                                     style="
                                     height: 245px;
                                 ">

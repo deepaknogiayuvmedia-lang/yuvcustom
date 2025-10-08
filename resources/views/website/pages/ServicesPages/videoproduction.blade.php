@@ -303,30 +303,17 @@
                                         class="w-100 h-100 rounded-4" data-ready="true"></iframe>
                                 </div>
                             </div>
+
                             <div class="col-sm-4 all influencers">
-                                <div class="item">
-                                    <iframe
-                                        src="https://player.vimeo.com/video/1112244046?background=1&autoplay=1&loop=1&muted=1"
-                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                        class="w-100 h-100 rounded-4"></iframe>
+                                <div class="item" style="height: 205px;">
+                                    <video class="video-background w-100 h-100 rounded-4" preload="auto" playsinline autoplay loop muted>
+                                        <source
+                                            src="{{ asset('assets/websiteAssets/images/services/videos/Plantingo.mp4') }}"
+                                            type="video/mp4">
+                                    </video>
                                 </div>
                             </div>
-                            <div class="col-sm-4 all influencers">
-                                <div class="item">
-                                    <iframe
-                                        src="https://player.vimeo.com/video/1112243960?background=1&autoplay=1&loop=1&muted=1"
-                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                        class="w-100 h-100 rounded-4"></iframe>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 all influencers">
-                                <div class="item">
-                                    <iframe
-                                        src="https://player.vimeo.com/video/1112244001?background=1&autoplay=1&loop=1&muted=1"
-                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                                        class="w-100 h-100 rounded-4"></iframe>
-                                </div>
-                            </div>
+
                             <div class="col-sm-4 all influencers">
                                 <div class="item">
                                     <iframe
@@ -375,7 +362,22 @@
                                         class="w-100 h-100 rounded-4"></iframe>
                                 </div>
                             </div>
-
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112243960?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 all influencers">
+                                <div class="item">
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1112244001?background=1&autoplay=1&loop=1&muted=1"
+                                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                        class="w-100 h-100 rounded-4"></iframe>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -665,7 +667,7 @@
                         </h2>
                         <p class="mt-3">Bring your ideas to life with stunning 3D CGI visuals. From hyper-realistic
                             renders to imaginative concepts, we craft digital creations that showcase your product or brand
-                            in ways traditional photography can’t. 
+                            in ways traditional photography can’t.
                         </p>
                         <div class="shimmer"></div>
                         <i aria-hidden="true"></i>
@@ -709,7 +711,10 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Authentic and relatable user-generated content that builds trust and credibility for your brand. We craft engaging UGC-style videos that highlight real experiences, foster stronger connections with your audience, and drive meaningful engagement across digital platforms.
+                                    Authentic and relatable user-generated content that builds trust and credibility for
+                                    your brand. We craft engaging UGC-style videos that highlight real experiences, foster
+                                    stronger connections with your audience, and drive meaningful engagement across digital
+                                    platforms.
                                 </p>
                             </div>
                         </div>
@@ -722,7 +727,9 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Powerful collaborations with influencers that amplify your brand’s reach and credibility. We create impactful influencer-driven videos that align with your brand values, engage target audiences, and inspire action through authentic storytelling.
+                                    Powerful collaborations with influencers that amplify your brand’s reach and
+                                    credibility. We create impactful influencer-driven videos that align with your brand
+                                    values, engage target audiences, and inspire action through authentic storytelling.
                                 </p>
                             </div>
                         </div>
@@ -735,7 +742,9 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Leverage the star power of renowned personalities to elevate your brand presence. Our celebrity videos build trust, spark excitement, and create lasting impact, helping you connect with audiences on a larger scale through authentic and influential storytelling.
+                                    Leverage the star power of renowned personalities to elevate your brand presence. Our
+                                    celebrity videos build trust, spark excitement, and create lasting impact, helping you
+                                    connect with audiences on a larger scale through authentic and influential storytelling.
                                 </p>
                             </div>
                         </div>
@@ -748,7 +757,9 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Engage your audience with high-impact commercial ads designed to captivate, persuade, and inspire action. We craft powerful visuals and compelling narratives that bring your brand message to life across TV, digital, and social platforms.
+                                    Engage your audience with high-impact commercial ads designed to captivate, persuade,
+                                    and inspire action. We craft powerful visuals and compelling narratives that bring your
+                                    brand message to life across TV, digital, and social platforms.
                                 </p>
                             </div>
                         </div>
@@ -767,7 +778,7 @@
                             </div>
                         </div>
                     </div> --}}
-                    
+
                     {{-- <div class="col-lg-4 col-md-6">
                         <div class="p-5 p-md-4 rounded-4 tabbg"
                             style="background-image: url('https://optim.tildacdn.net/tild6432-6639-4336-a536-373030353736/-/cover/376x109/center/center/-/format/webp/u6.jpg');">

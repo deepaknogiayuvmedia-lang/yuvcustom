@@ -445,7 +445,180 @@
                 <div class="text-center performanceheading">
                     Our <span class="performanceheadingsub">Work</span>
                 </div>
+                <section class="py-2 position-relative">
+                    <div class="container  py-4 py-md-5 ">
 
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="resultsSlider" class="owl-carousel owl-theme">
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-2 text-center">Growx</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/growx/growx1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/growx/growx2.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/growx/growx3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/growx/growx4.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-2 text-center">Home City Realtor</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/HomeCityRealtor/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/HomeCityRealtor/2.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/HomeCityRealtor/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/HomeCityRealtor/4.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-2 text-center">Deva Cricket Analyst</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/DevaCricketAnalyst/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/DevaCricketAnalyst/2.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/DevaCricketAnalyst/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/DevaCricketAnalyst/4.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-2 text-center">OM Trader</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/OMTrader/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/OMTrader/2.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/OMTrader/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/OMTrader/4.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-2 text-center">Aziri</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/aziri/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/aziri/2.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/aziri/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/performance/aziri/4.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {{-- 
                 <div class="performancemedia-slider card rounded-5 p-4">
                     @for ($i = 1; $i <= 50; $i += 2)
                         <div>
@@ -1078,7 +1251,7 @@
 
 
 
-                </div>
+                </div> --}}
 
             </div>
         </div>

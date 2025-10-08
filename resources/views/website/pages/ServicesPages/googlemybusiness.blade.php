@@ -540,6 +540,99 @@
                     Google Business Profile <span class="performanceheadingsub">Portfolio</span>
                 </div>
 
+                <section class="py-2 position-relative">
+                    <div class="container  py-4 py-md-5 ">
+                        
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="resultsSlider" class="owl-carousel owl-theme">
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-3 text-center">Physiotherapy Planet</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/PhysiotherapyPlanet/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/PhysiotherapyPlanet/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-3 text-center">Nakoda Events</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/NakodaEvents/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/NakodaEvents/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-3 text-center">Guru AC Fitting & Repairing Center</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/acguru/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/acguru/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item my-3 mx-2">
+                                        <div class="card rounded-5 border-0 shadow-sm p-3">
+                                            <h6 class="card-title ms-3 fw-bold fs-3 text-center">Ardra Rubbers</h6>
+                                            <div class="row pt-3 px-3 align-items-center">
+                                                <div class="col-lg-4 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/ArdraRubbers/1.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8 p-2">
+                                                    <div class="border rounded-5 p-3">
+                                                        <img src="{{ asset('assets/websiteAssets/images/services/gbp/new/ArdraRubbers/3.png') }}"
+                                                            class="img-fluid rounded-4 " alt="...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+{{-- 
                 <div class="gbp-slider">
                     <div>
                         <div class="border shadow-sm rounded-5 m-3 pb-2 bg-dark gbp-cards">
@@ -948,15 +1041,9 @@
                         </div>
                     </div>
 
-                </div>
+                </div> --}}
 
 
-                <div class="d-flex justify-content-center flex-wrap">
-                    <div class="me-3">
-                        <a href="{{ route('contact') }}" class="btn btn-lg performancebtn">Contact Us <i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

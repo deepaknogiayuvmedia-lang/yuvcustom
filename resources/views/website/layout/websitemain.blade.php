@@ -149,7 +149,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('designingservices') ? 'active' : '' }}"
-                                                        href="{{ route('designingservices') }}">Designing Services</a>
+                                                        href="{{ route('designingservices') }}">Brand Design</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('performancemedia') ? 'active' : '' }}"
@@ -324,7 +324,7 @@
                                                     href="{{ route('webdevelopment') }}">Web & App Development</a>
                                             </li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('designingservices') ? 'fw-bold text-primary' : '' }}"
-                                                    href="{{ route('designingservices') }}">Designing Services</a>
+                                                    href="{{ route('designingservices') }}">Brand Design</a>
                                             </li>
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('performancemedia') ? 'fw-bold text-primary' : '' }}"
                                                     href="{{ route('performancemedia') }}">Media Buying &
@@ -478,7 +478,7 @@
                                         </li>
                                         <li>
                                             <a class="{{ request()->routeIs('designingservices') ? 'active' : '' }}"
-                                                href="{{ route('designingservices') }}">Designing Services</a>
+                                                href="{{ route('designingservices') }}">Brand Design</a>
                                         </li>
                                         <li>
                                             <a class="{{ request()->routeIs('performancemedia') ? 'active' : '' }}"

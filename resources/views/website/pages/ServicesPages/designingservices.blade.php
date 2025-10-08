@@ -8,7 +8,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="text-start grpahicheading fs-1">
-                        Designing Your Brand's Future <span class="globaltxtcolor fs-1">Brand's Language</span>
+                        Designing the Language of <span class="globaltxtcolor fs-1">Your Brand’s Future</span>
                     </div>
                     <div class="text-start py-2">
                         <p class="text-wrap grpahicsecondhead">
@@ -27,10 +27,6 @@
                     <div class="d-flex justify-content-start flex-wrap buttonsdiv">
                         <div class="me-3">
                             <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Book a Call<i
-                                    class="bi bi-arrow-right ms-2"></i></a>
-                        </div>
-                        <div class="me-3 mt-2 mt-lg-0">
-                            <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
                                     class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -78,262 +74,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- <div class="js-shiftbox-carousel shiftbox-carousel">
-            <div>
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="0"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/10/AD-800x423-1.webp"
-                                alt="DD.NYC® Luxury Candles Branding and Packaging Design" class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="01">
-                                <div class="preview-name preview-name__caption">
-                                    <a href="#" tabindex="0">Antidote – Luxury Candle Branding &amp; Packaging
-                                        Design</a>
-                                </div>
-                                <div class="preview-name">Packaging Design</div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">CPG</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/07/Stadium_800_423.gif"
-                                alt="NYCFC New York City Stadium by DD.NYC®" class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="02">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">New
-                                        York City Football Club Stadium – Website Design
-                                        &amp; Development</a></div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Web Development</div>
-                                <div class="preview-name">UI/UX</div>
-                                <div class="preview-name">3D Design</div>
-                                <div class="preview-name">Custom Animations</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/11/IW-800x423-1.webp"
-                                alt="IvyWise Education Consultancy Branding &amp; Website Design by DD.NYC®"
-                                class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="03">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">IvyWise
-                                        Education Consultancy</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Brand Collateral</div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Video Production</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2023/12/800_x_423.webp" alt=""
-                                class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="04">
-                                <div class="preview-name preview-name__caption"><a href="#"
-                                        tabindex="-1">WillowWood Global
-                                        Medical Branding</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Brand Collateral</div>
-                                <div class="preview-name">3D Design</div>
-                                <div class="preview-name">Motion Graphics</div>
-                                <div class="preview-name">Web Design</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/05/DD.NYC-SJP-800-x-423-1.jpg" alt=""
-                                class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="05">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">SJP
-                                        Properties Real Estate Web Design</a></div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">UI/UX</div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">Real Estate</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2024/05/dd_nyc_bas_800_x_423.webp" alt=""
-                                class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="06">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">BAS
-                                        Stone NYC
-                                        – Architectural Branding &amp; Website</a></div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">3D Design</div>
-                                <div class="preview-name">Real Estate</div>
-                                <div class="preview-name">Video Production</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2023/12/800-x-423-2.jpg" alt="DD.NYC® Hawkridge"
-                                class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="07">
-                                <div class="preview-name preview-name__caption"><a href="#"
-                                        tabindex="-1">Hawkridge Luxury
-                                        Real Estate Development</a></div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">Real Estate</div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Advertising</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2023/12/DD.NYC®-Akemi-Cosmetics-Manufacturing-1.webp"
-                                alt="" class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="08">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Akemi
-                                        Cosmetics Branding &amp; Web Design</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">UI/UX</div>
-                                <div class="preview-name">Graphic Design</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2023/07/Start-Slider.webp"
-                                alt="DD.NYC® designs new york charity gala Ms. Foundation" class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="09">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Ms.
-                                        Foundation – 50th Anniversary Women of Vision
-                                        Awards Gala</a></div>
-                                <div class="preview-name">Event Design</div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Web Design</div>
-                                <div class="preview-name">Media</div>
-                                <div class="preview-name">Non-Profits</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class="shiftbox">
-                    <div class="shiftbox-image">
-                        <a href="#" tabindex="-1"><img
-                                src="https://dd.nyc/wp-content/uploads/2022/08/ChefAntoineLours_Designed_DD.NYC®_Opening.webp"
-                                alt="" class="cover"></a>
-                    </div>
-                    <div class="shiftbox-content">
-                        <div class="preview">
-                            <div class="preview-content" data-index="010">
-                                <div class="preview-name preview-name__caption"><a href="#" tabindex="-1">Chef
-                                        Antoine Lours</a></div>
-                                <div class="preview-name">Branding</div>
-                                <div class="preview-name">Graphic Design</div>
-                                <div class="preview-name">Hospitality</div>
-                                <div class="preview-name">Luxury</div>
-                                <div class="preview-name">Web Design</div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="shiftbox-nav desktop">
-            <div class="shiftbox-arrow shiftbox-arrow__left js-shiftbox-prev"></div>
-            <div class="shiftbox-pos">
-                <var class="shiftbox-current js-shiftbox-current">01</var> /
-                <span class="shiftbox-num">10</span>
-            </div>
-            <div class="shiftbox-arrow shiftbox-arrow__right js-shiftbox-next"></div>
-        </div> --}}
     </div>
     <section class="py-5 position-relative">
         <div class="container">
@@ -343,8 +83,8 @@
                 </div>
                 <div class="service-grid">
 
-                    <div class="service-list js-service-container fadein" data-aos="fade-up"
-                        style="min-height: 363.547px;" data-aos-offset="303" data-aos-once="true">
+                    <div class="service-list js-service-container fadein" data-aos="fade-up" style="min-height: 363.547px;"
+                        data-aos-offset="303" data-aos-once="true">
                         <div class="service active js-service" data-service="web-design">
                             <div class="service-caption js-service-caption">UI/UX Design</div>
                             <div class="service-content js-service-content">
@@ -370,7 +110,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -410,7 +150,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -441,7 +181,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -475,7 +215,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -516,7 +256,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -552,7 +292,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -592,7 +332,7 @@
                                     </div>
 
                                     <div class="service-action">
-                                        <a href="{{ route('portfolio') }}" class="redlink">
+                                        <a href="#" class="redlink">
                                             <span>Learn more</span>
                                         </a>
                                     </div>
@@ -628,7 +368,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -668,7 +408,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -699,7 +439,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -732,7 +472,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -773,7 +513,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -808,7 +548,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -846,7 +586,7 @@
                                     </p>
                                 </div>
                                 <div class="service-action">
-                                    <a href="{{ route('portfolio') }}" class="redlink">
+                                    <a href="#" class="redlink">
                                         <span>Learn more</span>
                                     </a>
                                 </div>
@@ -873,77 +613,8 @@
                 </div>
             </div>
             <div class="row gy-4 gx-4 justify-content-center">
-                <!--
-                            <div class="col-md-4">
-                                <div class="graphicards">
-                                    <div class="card-body text-start">
-                                        <img src="{{ asset('assets/websiteAssets/images/web-design.png') }}" alt="service bg"
-                                            class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                                        <p class="fw-bold text-start">Discovery</p>
-                                        <p class="card-text text-start text-wrap">
-                                            To make sure our designs reflect your vision, we start by learning about your brand,
-                                            objectives, and target market.
-                                        </p>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="graphicards">
-                                    <div class="card-body text-start">
-                                        <img src="{{ asset('assets/websiteAssets/images/uiux.png') }}" alt="service bg" class="mb-3"
-                                            style="width: 60px; height: 60px; object-fit: contain;">
-                                        <p class="fw-bold text-start">Strategy</p>
-                                        <p class="card-text text-start text-wrap">
-                                            We create a thorough design plan that specifies the methodology, schedule, and outputs.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="graphicards">
-                                    <div class="card-body text-start">
-                                        <img src="{{ asset('assets/websiteAssets/images/graphic-designer.png') }}" alt="service bg"
-                                            class="mb-3" style="width: 60px; height: 60px; object-fit: contain;">
-                                        <p class="fw-bold text-start">Design</p>
-                                        <p class="card-text text-start text-wrap">
-                                            After receiving your input, our team develops preliminary design suggestions to enhance and
-                                            perfect the images.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="graphicards">
-                                    <div class="card-body text-start">
-                                        <img src="{{ asset('assets/websiteAssets/images/3d-film.png') }}" alt="service bg" class="mb-3"
-                                            style="width: 60px; height: 60px; object-fit: contain;">
-                                        <p class="fw-bold text-start">Implementation</p>
-                                        <p class="card-text text-start text-wrap">
-                                            We make sure the finished designs are responsive across all platforms and gadgets.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="graphicards">
-                                    <div class="card-body text-start">
-                                        <img src="{{ asset('assets/websiteAssets/images/trim.png') }}" alt="service bg" class="mb-3"
-                                            style="width: 60px; height: 60px; object-fit: contain;">
-                                        <p class="fw-bold text-start">Evaluation</p>
-                                        <p class="card-text text-start text-wrap">
-                                            To make sure the designs fulfill your goals, we evaluate their performance and make the
-                                            required modifications.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                             -->
-                <div class="portfolio section">
+                <div class="portfolio section video">
                     <div class="container">
 
                         <div class="filters mt-0">
@@ -954,147 +625,214 @@
                                 <li class=" text-black" data-filter=".graphic">Graphic Designing</li>
                                 <li class=" text-black" data-filter=".mockup">Product mockup</li>
                                 <li class=" text-black" data-filter=".vfx">VFX</li>
-                                {{-- <li class=" text-black" data-filter=".Brochure">Brochure</li> --}}
                                 <li class=" text-black" data-filter=".cgi">3D</li>
                             </ul>
                         </div>
 
                         <div class="filters-content">
                             <div class="row grid">
+
                                 <div class="col-sm-4 all uiux">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-cocobullcoal-2025-09-09-14_49_2.jpeg') }}"
-                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
-                                            style="object-position: top;">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all uiux">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-investorlands-2025-09-09-14_47_4.jpeg') }}"
-                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
-                                            style="object-position: top;">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all uiux ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-priyashfoodspices-2025-09-09-14_44_4.jpeg') }}"
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/1.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 object-fit-cover"
                                             style="object-position: top;">
                                     </div>
                                 </div>
                                 <div class="col-sm-4 all uiux">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/screencapture-theboylook-2025-09-09-14_46_3.jpeg') }}"
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/2.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 object-fit-cover"
                                             style="object-position: top;">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all 3d graphic ">
-                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/3d-product-modeling-2-1024x491.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/3.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
                                     </div>
                                 </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/4.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/6.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/7.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all uiux">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/UIUX/5.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 object-fit-cover"
+                                            style="object-position: top;">
+                                    </div>
+                                </div>
+
                                 <div class="col-sm-4 all branding">
-                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/agarw.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all branding mockup">
-                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/agarwal.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all branding graphic ">
-                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                    <div class="item   p-2 rounded-3">
                                         <img src="{{ asset('assets/websiteAssets/images/services/product/blossoming-colorful-watercolor-flowers_52683-30106.jpg') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all branding mockup">
-                                    <div class="item   p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/care-for-water-products-3d-model-f7e8fd886d-1024x768.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all mockup">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-artwork-sweetens-pulpy-jam-label-with-plump_764982-6870.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all mockup">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/food-packaging-label-artwork-jam-label-design-with-red-apple_764982-6527.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all 3d branding graphic ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gabriel-soares-09-809x1024.webp') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all branding mockup">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/go.jpg') }}"
+                                <div class="col-sm-4 all branding">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/Free_A4_Brochure_Mockup_3.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
                                 <div class="col-sm-4 all branding">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichad-8.jpg') }}"
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/hing mockup.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all branding mockup">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichand-3.jpg') }}"
+                                <div class="col-sm-4 all branding">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/e6fd665efbf29b147499ba472f8a9759.jpg') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all graphic ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/gopichng-7.jpg') }}"
+                                <div class="col-sm-4 all branding">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/kurumsalkimlik2.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all graphic ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/hand-drawn-india-independence-day-sale-banners_23-2147841809.jpg') }}"
-                                            alt="" class="img-fluid h-100 w-100 ">
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 all graphic ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/jade-matcha-body-lotion-3d-model-66b4fdf057-1024x768.jpg') }}"
+                                <div class="col-sm-4 all branding">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/fc99a4a6fbf1a93e364ee82b0928606d.jpg') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
 
+
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/Untitled-1_01.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item   p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/Untitled-1_02.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
                                 <div class="col-sm-4 all graphic ">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
+                                    <div class="item p-2 rounded-3">
                                         <img src="{{ asset('assets/websiteAssets/images/services/product/Sandwich0.jpg') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all product">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/set-of-four-stylish-brown-bags-3d-model-max-fbx-c4d-1024x683.jpg') }}"
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/alovera gel.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all product">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/spray-bottle-and-fliptop-250ml-3d-model-rigged-obj-mtl-fbx-blend-1024x1024.jpg') }}"
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/biofeel_01.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 all product">
-                                    <div class="item p-2 rounded-3" style="border-color: #20CDEB !important;">
-                                        <img src="{{ asset('assets/websiteAssets/images/services/product/tea-ad-with-drawing-decoration_23-2148384118.jpg') }}"
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/biofeel_02.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/charcol facewash.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/hydrating facewash.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/night cream.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/papaya facewash.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/rose water.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/saffron face glow face wash.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all graphic">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/saffron face glow serum.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/sdf.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/asd.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/5.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/Cosmetic-Products-Mockup-2.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/preview.webp') }}"
+                                            alt="" class="img-fluid h-100 w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all mockup">
+                                    <div class="item p-2 rounded-3">
+                                        <img src="{{ asset('assets/websiteAssets/images/services/product/hing mockup.webp') }}"
                                             alt="" class="img-fluid h-100 w-100 ">
                                     </div>
                                 </div>
@@ -1104,9 +842,61 @@
                                         <iframe
                                             src="https://player.vimeo.com/video/1057501045?background=1&amp;autoplay=1&amp;loop=1&amp;muted=1"
                                             frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                                            allowfullscreen="" class="w-100 h-100" data-ready="true"></iframe>
+                                            allowfullscreen="" class="" data-ready="true"
+                                            style=" width: 100%; height: 100%; border-radius: 20px;"></iframe>
                                     </div>
                                 </div>
+                                <div class="col-sm-4 all vfx">
+                                    <div class="item">
+                                        <video class="video-background  rounded-4" preload="auto" playsinline autoplay
+                                            loop muted style="height: 205px;">
+                                            <source
+                                                src="{{ asset('assets/websiteAssets/images/services/videos/stereo.webm') }}"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all vfx">
+                                    <div class="item">
+                                        <video class="video-background  rounded-4" preload="auto" playsinline autoplay
+                                            loop muted style="height: 205px;">
+                                            <source
+                                                src="{{ asset('assets/websiteAssets/images/services/videos/Abvfx_Cleanup.mp4') }}"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all vfx">
+                                    <div class="item">
+                                        <video class="video-background  rounded-4" preload="auto" playsinline autoplay
+                                            loop muted style="height: 205px;">
+                                            <source
+                                                src="{{ asset('assets/websiteAssets/images/services/videos/paint.webm') }}"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all vfx">
+                                    <div class="item">
+                                        <video class="video-background  rounded-4" preload="auto" playsinline autoplay
+                                            loop muted style="height: 205px;">
+                                            <source
+                                                src="{{ asset('assets/websiteAssets/images/services/videos/vfxcompositing.mp4') }}"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 all vfx">
+                                    <div class="item">
+                                        <video class="video-background  rounded-4" preload="auto" playsinline autoplay
+                                            loop muted style="height: 205px;">
+                                            <source
+                                                src="{{ asset('assets/websiteAssets/images/services/videos/ABVFX_Rotoscopy-1.mp4') }}"
+                                                type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+
                                 <div class="col-sm-4 all cgi">
                                     <div class="item">
                                         <iframe
@@ -1172,10 +962,6 @@
             <div class="d-flex justify-content-center flex-wrap buttonsdiv mt-3">
                 <div class="me-3">
                     <a href="{{ route('contact') }}" class="btn btn-lg grpahicbbtn">Book a Call<i
-                            class="bi bi-arrow-right ms-2"></i></a>
-                </div>
-                <div class="me-3 mt-2 mt-md-0">
-                    <a href="{{ route('portfolio') }}" class="btn btn-lg grpahicbbtn">View Our Portfolio<i
                             class="bi bi-arrow-right ms-2"></i></a>
                 </div>
             </div>

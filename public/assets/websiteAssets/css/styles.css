@@ -1809,6 +1809,32 @@ a {
     transition: all 350ms;
 }
 
+.section.portfolio .filters-content .vfx .item:hover {
+    transform: translateY(0px);
+    aspect-ratio: 16 / 9;
+}
+
+.section.portfolio.video .filters-content .graphic .item {
+    aspect-ratio: 14 / 16;
+}
+.section.portfolio.video .filters-content .vfx .item {
+    height: 200px;
+    aspect-ratio: 16 / 9;
+}
+.section.portfolio.video .filters-content .cgi .item {
+    height: 200px;
+    aspect-ratio: 16 / 9;
+}
+.section.portfolio.video .filters-content .item {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 400px;
+    overflow: scroll;
+    scrollbar-width: none;
+    transition: all 0.5s ease-in-out;
+    aspect-ratio: 1/1;
+}
 .section.portfolio .filters-content .item {
     text-align: center;
     cursor: pointer;
@@ -2964,6 +2990,15 @@ table:first-child {
 }
 
 /* Video Background */
+.vfx .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
 .video-background {
     position: absolute;
     top: 0;
