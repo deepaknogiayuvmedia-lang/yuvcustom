@@ -44,7 +44,7 @@
                         background: white;">
                             <div class=" ">
                                 <img class="img-circle rounded-3 img-fluid"
-                                    src="{{ asset('assets/websiteAssets/images/team/new/Khivraj-sir.webp') }}" alt="client"
+                                    src="{{ asset('assets/websiteAssets/images/team/new/khivrajsain.jpg') }}" alt="client"
                                     style="height: 245px;">
                             </div>
                             <div class="authorbox rounded-3">
