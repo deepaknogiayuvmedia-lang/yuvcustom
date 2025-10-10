@@ -131,6 +131,7 @@ Route::controller(WebsiteViews::class)->group(function () {
     Route::get('/marketplace-expertise', 'marketplaceexpertise')->name('marketplaceexpertise');
     Route::get('/performance-media', 'performancemedia')->name('performancemedia');
     Route::get('/influencer-marketing', 'influencermarketing')->name('influencermarketing');
+    Route::get('/1-to-1-consultation', 'one_to_one_consultation')->name('1_to_1_consultation');
     Route::get('/social-media', 'socialmedia')->name('socialmedia');
     Route::get('/partners', 'partners')->name('partners');
     Route::get('/work', 'work')->name('work');
@@ -165,6 +166,7 @@ Route::post('/sendpartner-inquiry', [EmailController::class, 'sendPartnerEmail']
 Route::post('/send-jobenquiry', [EmailController::class, 'sendJobApplication'])->name('send.jobenquiry');
 Route::post('/send-influencerenquiry', [EmailController::class, 'influencerenquiry'])->name('send.influencerenquiry');
 Route::post('/send-partnerservice', [EmailController::class, 'partnerservice'])->name('send.partnerservice');
+Route::post('/send-one_to_one_service', [EmailController::class, 'one_to_one_service'])->name('send.one_to_one_service');
 
 Route::get('/thank-you', function () {
     return view('thankyounew');

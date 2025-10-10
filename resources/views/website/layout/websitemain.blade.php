@@ -57,7 +57,7 @@
     </style>
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -101,8 +101,7 @@
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle {{ request()->routeIs('about') || request()->routeIs('ourteam') ? 'active' : '' }}"
-                                                href="#" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false">
+                                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Our Story
                                             </a>
                                             <ul class="dropdown-menu customdropdown">
@@ -122,8 +121,7 @@
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle {{ request()->routeIs('seo') || request()->routeIs('socialmedia') || request()->routeIs('whatsappmarketing') || request()->routeIs('videoproduction') || request()->routeIs('webdevelopment') || request()->routeIs('designingservices') || request()->routeIs('performancemedia') || request()->routeIs('marketplaceexpertise') || request()->routeIs('influencermarketing') || request()->routeIs('googlebusinessprofile') || request()->routeIs('erpservices') || request()->routeIs('emailmarketing') ? 'active' : '' }}"
-                                                href="#" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false">
+                                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Services
                                             </a>
                                             <ul class="dropdown-menu customdropdown">
@@ -165,6 +163,10 @@
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('influencermarketing') ? 'active' : '' }}"
                                                         href="{{ route('influencermarketing') }}">Influencer
                                                         Marketing</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item customdrodownitem {{ request()->routeIs('1_to_1_consultation') ? 'active' : '' }}"
+                                                        href="{{ route('1_to_1_consultation') }}">1 to 1 consultation</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item customdrodownitem {{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}"
@@ -228,8 +230,9 @@
                     {{-- @if (request()->routeIs('usa'))
                     <div class=" ">
                         <a class="btn btn-outline-primary hire-us-btn questrial-regular"
-                                href="{{ route('contact') }}">Hire Us!</a>
-                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="tel:918824269821"><i class="bi bi-telephone"></i> Call Now</a>
+                            href="{{ route('contact') }}">Hire Us!</a>
+                        <a class="btn btn-outline-primary hire-us-btn questrial-regular" href="tel:918824269821"><i
+                                class="bi bi-telephone"></i> Call Now</a>
                     </div>
                     @endif --}}
 
@@ -244,15 +247,14 @@
                             <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo">
                         </a>
                     </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body mobileMenu">
 
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->routeIs('homepage') ? 'active' : '' }}"
-                                aria-current="page" href="{{ route('homepage') }}"><img
+                            <a class="nav-link {{ request()->routeIs('homepage') ? 'active' : '' }}" aria-current="page"
+                                href="{{ route('homepage') }}"><img
                                     src="{{ asset('/assets/websiteAssets/images/menu/home.png') }}" alt="home"
                                     class="me-2">Home</a>
                         </li>
@@ -336,6 +338,10 @@
                                                     href="{{ route('influencermarketing') }}">Influencer
                                                     Marketing</a>
                                             </li>
+                                            <li><a class="d-block py-2 px-3 {{ request()->routeIs('1_to_1_consultation') ? 'fw-bold text-primary' : '' }}"
+                                                    href="{{ route('1_to_1_consultation') }}">1_to_1_consultation</a>
+                                            </li>
+
                                             <li><a class="d-block py-2 px-3 {{ request()->routeIs('googlebusinessprofile') ? 'fw-bold text-primary' : '' }}"
                                                     href="{{ route('googlebusinessprofile') }}">Google Business
                                                     Profile</a></li>
@@ -353,14 +359,14 @@
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                 href="{{ route('partners') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/handshake.png') }}"
-                                    alt="home" class="me-2">Partners</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/handshake.png') }}" alt="home"
+                                    class="me-2">Partners</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('partners') ? 'active' : '' }}"
                                 href="{{ route('clients') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/Clients.png') }}"
-                                    alt="home" class="me-2">Clients</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/Clients.png') }}" alt="home"
+                                    class="me-2">Clients</a>
                         </li>
 
                         <li class="nav-item">
@@ -372,8 +378,8 @@
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                                 href="{{ route('contact') }}"><img
-                                    src="{{ asset('/assets/websiteAssets/images/menu/contact.png') }}"
-                                    alt="home" class="me-2">Contact Us</a>
+                                    src="{{ asset('/assets/websiteAssets/images/menu/contact.png') }}" alt="home"
+                                    class="me-2">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -493,6 +499,10 @@
                                                 href="{{ route('influencermarketing') }}">Influencer Marketing</a>
                                         </li>
                                         <li>
+                                            <a class="{{ request()->routeIs('1_to_1_consultation') ? 'active' : '' }}"
+                                                href="{{ route('1_to_1_consultation') }}">1 to 1 consultation</a>
+                                        </li>
+                                        <li>
                                             <a class="{{ request()->routeIs('googlebusinessprofile') ? 'active' : '' }}"
                                                 href="{{ route('googlebusinessprofile') }}">Google Business
                                                 Profile</a>
@@ -501,11 +511,11 @@
                                             <a class="{{ request()->routeIs('erpservices') ? 'active' : '' }}"
                                                 href="{{ route('erpservices') }}">ERP Services</a>
                                         </li>
-                                        <li>
-                                            <a class="{{ request()->routeIs('emailmarketing') ? 'active' : '' }}"
-                                                href="{{ route('emailmarketing') }}">Email Marketing</a>
-                                        </li>
                                     </ul>
+                                    <li>
+                                        <a class="{{ request()->routeIs('1_to_1_consultation') ? 'active' : '' }}"
+                                            href="{{ route('1_to_1_consultation') }}">1 to 1 consultation</a>
+                                    </li>
                                 </section>
                                 <!--// Single Widget -->
 
@@ -550,8 +560,7 @@
                                         <div class="social-icons social-icons--rounded">
                                             <ul class="d-flex ps-0">
                                                 <li class="facebook me-3">
-                                                    <a href="https://www.facebook.com/yuvmedia"
-                                                        style="color: #3b5998;">
+                                                    <a href="https://www.facebook.com/yuvmedia" style="color: #3b5998;">
                                                         <i class="bi bi-facebook fs-4"></i>
                                                     </a>
                                                 </li>
@@ -561,8 +570,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="instagram me-3">
-                                                    <a href="https://www.instagram.com/yuv_media/"
-                                                        style="color: #E1306C;">
+                                                    <a href="https://www.instagram.com/yuv_media/" style="color: #E1306C;">
                                                         <i class="bi bi-instagram fs-4"></i>
                                                     </a>
                                                 </li>
@@ -589,11 +597,10 @@
                                         </div>
                                     </div>
                                     <div class="hideInDesktop">
-                                        <div
-                                            class="d-flex justify-content-start flex-md-row flex-column staticbtn w-100 ">
+                                        <div class="d-flex justify-content-start flex-md-row flex-column staticbtn w-100 ">
                                             <div class="m-3 text-center">
-                                                <a href="{{ route('contact') }}"
-                                                    class="btn btn-primary btn-lg w-100">Book a Free 1-to-1 Meeting
+                                                <a href="{{ route('contact') }}" class="btn btn-primary btn-lg w-100">Book a
+                                                    Free 1-to-1 Meeting
                                                     <i class="bi bi-arrow-right"></i></a>
                                             </div>
                                         </div>
@@ -602,12 +609,13 @@
                                                 <a href="https://wa.me/918824269821" target="_blank"
                                                     class="floating-whatsapp">
                                                     <img src="{{ asset('assets/websiteAssets/images/whatsapp-icon.png') }}"
-                                        alt="WhatsApp"> whatsapp
-                                        </a>
-                                        <a href="tel:+918824269821" class="floating-call">
-                                            <img src="{{ asset('assets/websiteAssets/images/call-icon.png') }}" alt="Call">call
-                                        </a>
-                                    </div> --}}
+                                                        alt="WhatsApp"> whatsapp
+                                                </a>
+                                                <a href="tel:+918824269821" class="floating-call">
+                                                    <img src="{{ asset('assets/websiteAssets/images/call-icon.png') }}"
+                                                        alt="Call">call
+                                                </a>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -641,12 +649,15 @@
 
             </footer>
             <!-- //Footer Area -->
-            {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
+            {{--
+            <script defer="defer" type="text/javascript"
+                src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
-            <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
+            <script defer="defer" type="text/javascript"
+                src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
             {{-- <div class="no-copy">
-            <p>This content is protected and cannot be copied easily.</p>
-        </div> --}}
+                <p>This content is protected and cannot be copied easily.</p>
+            </div> --}}
         </div>
         <!-- //Main wrapper -->
 
@@ -674,25 +685,32 @@
         <!-- Add reCAPTCHA Script -->
         <script src="https://www.google.com/recaptcha/api.js?render=6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy"></script>
         <script>
-            grecaptcha.ready(function() {
+            grecaptcha.ready(function () {
                 grecaptcha.execute('6Lfs-N4qAAAAADWA3ThxAMH5he0DS92qATavjOCy', {
                     action: 'submit'
-                }).then(function(token) {
+                }).then(function (token) {
                     document.getElementById('contact-form').insertAdjacentHTML('beforeend',
                         `<input type="hidden" name="g-recaptcha-response" value="${token}">`);
                 });
             });
         </script>
-        {{-- <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
+        {{--
+        <script defer="defer" type="text/javascript"
+            src="https://yuvmedia-india.odoo.com/im_livechat/loader/2"></script>
 
-        <script defer="defer" type="text/javascript" src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
-        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> --}}
+        <script defer="defer" type="text/javascript"
+            src="https://yuvmedia-india.odoo.com/im_livechat/assets_embed.js"></script> --}}
+        {{--
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script> --}}
 
-        {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        {{--
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script> --}}
+            </script> --}}
 
-        {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> --}}
+        {{--
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        --}}
         <script>
             // Disable right-click (desktop)
             // document.addEventListener('contextmenu', function(e) {

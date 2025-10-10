@@ -90,6 +90,10 @@ class WebsiteViews extends Controller
     {
         return view('website.pages.ServicesPages.influencermarketing');
     }
+    public function one_to_one_consultation()
+    {
+        return view('website.pages.ServicesPages.one_to_one_consultation');
+    }
     public function socialmedia()
     {
         return view('website.pages.ServicesPages.socialmedia');
