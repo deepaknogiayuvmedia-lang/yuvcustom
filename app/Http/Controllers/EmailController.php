@@ -431,8 +431,8 @@ class EmailController extends Controller
             //   dd($details);
 
             // Define recipient emails
-            // $toEmail = ['hr@yuvmedia.com'];
-            $toEmail = ['deepaknogia.yuvmedia@gmail.com'];
+            $toEmail = ['hr@yuvmedia.com'];
+            // $toEmail = ['deepaknogia.yuvmedia@gmail.com'];
             $subject = "One To One Consultation";
 
             // Send emails
