@@ -161,14 +161,14 @@
 
                     <div class="px-lg-3">
                         <a class="navbar-brand d-flex align-items-center " href="{{ route('homepage') }}">
-                            <div class="verticalflip">
+                            <!-- <div class="ver ticalflip">
 
                                 <span> <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo"></span>
                                 <span> <img src="{{ asset('assets/websiteAssets/images/logo_hd.png') }}" alt="Logo"></span>
                                 <span> <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo"></span>
                                 
-                            </div>
-
+                            </div> -->
+                                <span> <img src="{{ asset('assets/websiteAssets/images/logo.png') }}" alt="Logo"></span>
                         </a>
                     </div>
                     @if (!request()->routeIs('usa'))
